@@ -4,6 +4,8 @@ export type DirectoryCommunity = {
   cadence: string;
   blurb: string;
   url: string;
+  /** Organizer strings used in the events data that belong to this community. */
+  eventOrganizers?: string[];
 };
 
 /** Active tech communities in and around Kochi. */
@@ -39,6 +41,10 @@ export const communityDirectory: DirectoryCommunity[] = [
     blurb:
       "The CNCF community group for Kubernetes, containers and microservices — also organises Kubernetes Community Days Kochi.",
     url: "https://cncfkochi.in/",
+    eventOrganizers: [
+      "Cloud Native Community Group Kochi",
+      "Cloud Native Kerala community",
+    ],
   },
   {
     name: "AWS User Group Kochi",
@@ -63,6 +69,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     blurb:
       "The OpenAI Codex community in Kochi — founder-focused meetups and hands-on build nights around AI coding tools.",
     url: "https://luma.com/w0ip6oxb",
+    eventOrganizers: ["Codex Kochi community"],
   },
   {
     name: "DevOps Malayalam",
@@ -71,6 +78,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     blurb:
       "Malayalam-speaking DevOps, SRE and DevSecOps practitioners — knowledge-sharing talks, workshops and a very active online community.",
     url: "https://devopsmalayalam.io/",
+    eventOrganizers: ["DevOps Malayalam"],
   },
   {
     name: "MalabarJS",
@@ -79,6 +87,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     blurb:
       "A home for Kerala's JavaScript developers — founded in 2025 to reach devs beyond the usual big-city meetup circuit.",
     url: "https://www.malabarjs.org/",
+    eventOrganizers: ["MalabarJS"],
   },
   {
     name: "TinkerHub",
