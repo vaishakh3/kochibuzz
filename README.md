@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kochi Tech Events Calendar
 
-## Getting Started
+A calendar of hackathons, AI meetups, open source conferences and startup summits in and
+around Kochi, Kerala. Month / week / day views, category filters, and an event detail card
+with links to the organiser page and venue map. Opens on the current month (IST).
 
-First, run the development server:
+## Stack
+
+Next.js (App Router) · TypeScript · Tailwind CSS. Fully static — no backend, no database.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
+npm run build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Adding an event
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Everything lives in [`src/data/events.ts`](src/data/events.ts). Add an entry to `events`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```ts
+{
+  id: "my-event-2026",
+  title: "My Event 2026",
+  start: "2026-10-04",           // inclusive, YYYY-MM-DD in IST
+  end: "2026-10-05",             // same as start for single-day events
+  startTime: "09:30",            // omit both times when the schedule is not public
+  endTime: "17:00",
+  category: "ai",                // see `categories` in the same file
+  venue: "Lulu Cyber Tower, Infopark",
+  city: "Kochi",
+  organizer: "Some community",
+  blurb: "One or two sentences on what actually happens there.",
+  tags: ["Workshop", "Free"],
+  url: "https://example.com/event",
+  note: "Optional caveat shown on the detail card",
+  travel: true,                  // set when it is outside Kochi
+}
+```
 
-## Learn More
+Conventions worth keeping:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Only list dates confirmed by the organiser's own page or announcement; use `note` for
+  anything still tentative.
+- Events without a published schedule are rendered as all-day rather than given a guessed
+  time.
+- Recurring communities with no announced date go in `communities`, not `events`.
