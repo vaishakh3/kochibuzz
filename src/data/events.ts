@@ -337,33 +337,3 @@ export const events: TechEvent[] = [
 ];
 
 export const eventById = new Map(events.map((e) => [e.id, e]));
-
-export type Community = {
-  name: string;
-  cadence: string;
-  url: string;
-};
-
-/** Recurring communities whose next dates are not announced yet. */
-export const communities: Community[] = [
-  {
-    name: "Kochi FOSS",
-    cadence: "Monthly, Saturdays",
-    url: "https://kochifoss.org/",
-  },
-  {
-    name: "Kochi AI User Group",
-    cadence: "Monthly, Infopark",
-    url: "https://www.meetup.com/kochi-ai-user-group/",
-  },
-  {
-    name: "Codex Kochi",
-    cadence: "Meetups & build nights",
-    url: "https://luma.com/w0ip6oxb",
-  },
-  {
-    name: "KCD Kochi",
-    cadence: "Annual, cloud native",
-    url: "https://kcd.cncgkochi.in/",
-  },
-];
