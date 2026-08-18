@@ -54,7 +54,7 @@ export default function Sidebar({
     <aside className="flex w-full shrink-0 flex-col gap-4 bg-[#0d0d10] p-5 lg:w-[320px]">
       <header className="flex items-start justify-between">
         <div>
-          <p className="text-[11px] uppercase tracking-[0.2em] text-violet-300/70">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
             Kochi Tech Events
           </p>
           <h1 className="mt-1 text-2xl font-semibold leading-tight tracking-tight text-white">

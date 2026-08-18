@@ -187,6 +187,12 @@ export default async function EventPage({ params }: { params: Params }) {
           >
             Google Calendar
           </a>
+          <a
+            href={`/e/${event.id}/event.ics`}
+            className="rounded-full bg-white/[0.06] px-6 py-2.5 text-sm font-semibold text-white/80 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
+          >
+            .ics
+          </a>
         </div>
 
         <p className="mt-8 text-xs text-white/35">
