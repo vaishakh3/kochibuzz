@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
+import { MapPinIcon } from "@/components/icons";
 import { spaces } from "@/data/directory";
 
 export const metadata: Metadata = {
@@ -41,7 +42,9 @@ export default function SpacesPage() {
                 {space.blurb}
               </p>
               <div className="mt-4 flex items-center justify-between text-xs">
-                <span className="text-white/40">📍 {space.area}</span>
+                <span className="flex items-center gap-1 text-white/40">
+                  <MapPinIcon className="h-3 w-3" /> {space.area}
+                </span>
                 <span className="font-medium text-violet-300 group-hover:text-white">
                   Visit →
                 </span>
