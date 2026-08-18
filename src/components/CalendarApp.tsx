@@ -158,7 +158,11 @@ export default function CalendarApp() {
         : `${MONTHS[cursor.getMonth()]}, ${cursor.getFullYear()}`;
 
   return (
-    <div className="relative mx-auto flex w-full max-w-[1480px] flex-col overflow-hidden rounded-[36px] bg-black/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
+    <div className="grain relative mx-auto flex w-full max-w-[1480px] flex-col overflow-hidden rounded-[36px] bg-black/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
+      <div
+        aria-hidden
+        className="absolute inset-x-10 top-0 z-10 h-px bg-gradient-to-r from-violet-500/0 via-violet-400/70 to-fuchsia-400/0"
+      />
       <div className="overflow-hidden rounded-[28px] lg:h-full">
         <div className="h-full overflow-y-auto">
           <Sidebar

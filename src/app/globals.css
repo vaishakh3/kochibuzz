@@ -115,6 +115,12 @@ body {
   }
 }
 
+:focus-visible {
+  outline: 2px solid #a78bfa;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 ::selection {
   background: #6366f1;
   color: white;
