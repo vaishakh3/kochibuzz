@@ -9,12 +9,22 @@ export default function NotFound() {
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-10">
       <div className="aurora aurora-one" aria-hidden />
       <div className="aurora aurora-two" aria-hidden />
-      <div className="relative z-10 w-full max-w-lg rounded-[2rem] bg-[#101014]/90 p-8 text-center ring-1 ring-white/10 backdrop-blur sm:p-10">
+      <span
+        aria-hidden
+        className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 select-none text-[38vw] font-extrabold leading-none tracking-tighter text-transparent [-webkit-text-stroke:1.5px_rgba(255,255,255,0.06)] sm:text-[24rem]"
+      >
+        404
+      </span>
+      <div className="grain relative z-10 w-full max-w-lg overflow-hidden rounded-[2rem] bg-[#101014]/90 p-8 text-center ring-1 ring-white/10 backdrop-blur sm:p-10">
+        <div
+          aria-hidden
+          className="absolute inset-x-10 top-0 h-px bg-gradient-to-r from-violet-500/0 via-violet-400/70 to-fuchsia-400/0"
+        />
         <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
-          kochi.buzz
+          kochi.buzz — signal lost
         </p>
-        <h1 className="mt-4 text-4xl font-bold tracking-tight text-white">
-          404
+        <h1 className="mt-4 text-5xl font-extrabold tracking-tight">
+          <span className="ink-violet">404</span>
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-white/55">
           This page isn&apos;t on the calendar. The buzz moved on — or the link
@@ -26,7 +36,7 @@ export default function NotFound() {
             className="mt-6 block rounded-2xl bg-white/[0.04] px-4 py-3 text-left ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-violet-400/40"
           >
             <span className="text-[10px] font-semibold uppercase tracking-wide text-violet-300/80">
-              Up next in Kochi tech
+              Next signal — up next in Kochi tech
             </span>
             <span className="mt-1 block text-sm font-semibold text-white">
               {next.title}

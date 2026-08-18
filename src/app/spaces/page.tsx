@@ -13,42 +13,47 @@ export default function SpacesPage() {
   return (
     <DirectoryShell
       current="/spaces"
-      eyebrow="kochi.buzz"
+      eyebrow="Coordinates of the ecosystem"
+      accent="teal"
+      watermark="SPACES"
       title={
         <>
-          Places to <span className="text-violet-400">build</span>
+          Places to <span className="ink-teal">build</span>
         </>
       }
       intro="The labs, incubators and coworking spots where the ecosystem actually happens — from a free 24/7 hacker space to the state's startup HQ."
     >
       <ul className="grid gap-4 sm:grid-cols-2">
-        {spaces.map((space) => (
+        {spaces.map((space, index) => (
           <li key={space.name}>
             <a
               href={space.url}
               target="_blank"
               rel="noreferrer"
-              className="group flex h-full flex-col rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-violet-400/40"
+              className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.06] hover:ring-teal-300/40"
             >
-              <div className="flex items-start justify-between gap-3">
-                <h2 className="text-[17px] font-semibold text-white">
-                  {space.name}
-                </h2>
-                <span className="shrink-0 rounded-full bg-violet-500/15 px-3 py-1 text-[11px] font-semibold text-violet-200 ring-1 ring-violet-400/25">
-                  {space.kind}
-                </span>
-              </div>
+              <span
+                aria-hidden
+                className="absolute right-4 top-3 text-4xl font-extrabold tracking-tight text-white/[0.06] transition group-hover:text-white/[0.1]"
+              >
+                {`${index + 1}`.padStart(2, "0")}
+              </span>
+              <span className="inline-flex w-fit items-center gap-1.5 rounded-full bg-teal-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-teal-200 ring-1 ring-teal-300/25">
+                <MapPinIcon className="h-3 w-3" />
+                {space.area}
+              </span>
+              <h2 className="mt-3 text-[17px] font-semibold text-white">
+                {space.name}
+              </h2>
+              <p className="mt-0.5 text-[11px] font-semibold uppercase tracking-wide text-teal-200/60">
+                {space.kind}
+              </p>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-white/55">
                 {space.blurb}
               </p>
-              <div className="mt-4 flex items-center justify-between text-xs">
-                <span className="flex items-center gap-1 text-white/40">
-                  <MapPinIcon className="h-3 w-3" /> {space.area}
-                </span>
-                <span className="font-medium text-violet-300 group-hover:text-white">
-                  Visit →
-                </span>
-              </div>
+              <span className="mt-4 text-xs font-medium text-teal-300 transition group-hover:text-white">
+                Visit →
+              </span>
             </a>
           </li>
         ))}

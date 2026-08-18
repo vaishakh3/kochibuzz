@@ -41,6 +41,55 @@ body {
   opacity: 0.3;
 }
 
+/* Film-grain overlay: gives flat dark panels a physical texture. */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Gradient display text, one hue family per section. */
+.ink-violet {
+  background: linear-gradient(105deg, #c4b5fd 0%, #a78bfa 45%, #f0abfc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.ink-teal {
+  background: linear-gradient(105deg, #99f6e4 0%, #2dd4bf 50%, #38bdf8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.ink-amber {
+  background: linear-gradient(105deg, #fde68a 0%, #fbbf24 50%, #fb923c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Oversized section word ghosted behind content. */
+.watermark {
+  position: absolute;
+  top: -0.18em;
+  right: -0.05em;
+  z-index: 0;
+  font-size: clamp(6rem, 18vw, 13rem);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+  user-select: none;
+}
+
 @keyframes card-pop {
   from {
     opacity: 0;

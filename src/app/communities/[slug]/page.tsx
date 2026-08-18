@@ -6,6 +6,7 @@ import { communityBySlug, communityDirectory } from "@/data/directory";
 import { TechEvent, categoryById } from "@/data/events";
 import { countdownLabel, formatDateRange, todayInIST } from "@/lib/calendar";
 import { communityEvents } from "@/lib/communityEvents";
+import { monogram, tileStyle, washStyle } from "@/lib/identity";
 
 type Params = Promise<{ slug: string }>;
 
@@ -85,20 +86,33 @@ export default async function CommunityPage({ params }: { params: Params }) {
   return (
     <DirectoryShell
       current="/communities"
-      eyebrow="Community"
+      eyebrow="Community crew"
+      accent="violet"
+      watermark={monogram(community.name)}
       title={community.name}
       intro={community.blurb}
     >
-      <div className="flex flex-wrap items-center gap-3">
-        <span className="rounded-full bg-violet-500/15 px-3 py-1 text-[11px] font-semibold text-violet-200 ring-1 ring-violet-400/25">
-          {community.focus}
+      <div
+        className="relative flex flex-wrap items-center gap-4 overflow-hidden rounded-3xl p-5 ring-1 ring-white/10"
+        style={washStyle(community.name)}
+      >
+        <span
+          className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-base font-bold text-white shadow-lg ring-1 ring-white/20"
+          style={tileStyle(community.name)}
+        >
+          {monogram(community.name)}
         </span>
-        <span className="text-xs text-white/40">{community.cadence}</span>
+        <div className="min-w-0">
+          <p className="text-[11px] font-semibold uppercase tracking-wide text-white/70">
+            {community.focus}
+          </p>
+          <p className="mt-0.5 text-xs text-white/50">{community.cadence}</p>
+        </div>
         <a
           href={community.url}
           target="_blank"
           rel="noreferrer"
-          className="ml-auto rounded-full bg-white/[0.06] px-4 py-2 text-sm font-medium text-violet-300 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
+          className="ml-auto rounded-full bg-black/40 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/20 transition hover:bg-black/60"
         >
           Official page →
         </a>
