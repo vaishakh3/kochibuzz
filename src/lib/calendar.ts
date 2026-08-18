@@ -127,6 +127,27 @@ export function formatTimeRange(event: TechEvent): string {
     : formatTime(event.startTime);
 }
 
+export function isPast(event: TechEvent, today: Date): boolean {
+  return event.end < toISODate(today);
+}
+
+/** "today", "day 2 of 3", "tomorrow", "in N days" or "ended". */
+export function countdownLabel(event: TechEvent, today: Date): string {
+  const iso = toISODate(today);
+  if (iso > event.end) return "ended";
+  if (iso >= event.start) {
+    if (!isMultiDay(event)) return "today";
+    const day =
+      Math.round(
+        (parseDate(iso).getTime() - parseDate(event.start).getTime()) /
+          86_400_000,
+      ) + 1;
+    return `day ${day} of ${dayCount(event)}`;
+  }
+  const days = daysUntil(event, today);
+  return days === 1 ? "tomorrow" : `in ${days} days`;
+}
+
 export function daysUntil(event: TechEvent, from: Date): number {
   const diff = parseDate(event.start).getTime() - parseDate(toISODate(from)).getTime();
   return Math.round(diff / 86_400_000);
@@ -164,4 +185,46 @@ export function googleCalendarUrl(event: TechEvent): string {
 export function nextEvent(events: TechEvent[], from: Date): TechEvent | undefined {
   const iso = toISODate(from);
   return [...events].sort(sortByStart).find((e) => e.end >= iso);
+}
+
+export function upcomingEvents(
+  events: TechEvent[],
+  from: Date,
+  limit: number,
+): TechEvent[] {
+  const iso = toISODate(from);
+  return [...events]
+    .sort(sortByStart)
+    .filter((e) => e.end >= iso)
+    .slice(0, limit);
+}
+
+/** RFC 5545 .ics file contents for a single event, as a data URI-safe string. */
+export function icsFor(event: TechEvent): string {
+  const compact = (iso: string) => iso.replaceAll("-", "");
+  const escape = (text: string) =>
+    text.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+  const dt = event.startTime
+    ? [
+        `DTSTART;TZID=Asia/Kolkata:${compact(event.start)}T${event.startTime.replace(":", "")}00`,
+        `DTEND;TZID=Asia/Kolkata:${compact(event.end)}T${(event.endTime ?? "18:00").replace(":", "")}00`,
+      ]
+    : [
+        `DTSTART;VALUE=DATE:${compact(event.start)}`,
+        `DTEND;VALUE=DATE:${compact(toISODate(addDays(parseDate(event.end), 1)))}`,
+      ];
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//kochi.buzz//EN",
+    "BEGIN:VEVENT",
+    `UID:${event.id}@kochi.buzz`,
+    ...dt,
+    `SUMMARY:${escape(event.title)}`,
+    `LOCATION:${escape(`${event.venue}, ${event.city}`)}`,
+    `DESCRIPTION:${escape(`${event.blurb}\n\n${event.url}`)}`,
+    `URL:${event.url}`,
+    "END:VEVENT",
+    "END:VCALENDAR",
+  ].join("\r\n");
 }

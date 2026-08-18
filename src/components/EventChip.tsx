@@ -8,10 +8,18 @@ type Props = {
   day: Date;
   active?: boolean;
   compact?: boolean;
+  past?: boolean;
   onClick: () => void;
 };
 
-export default function EventChip({ event, day, active, compact, onClick }: Props) {
+export default function EventChip({
+  event,
+  day,
+  active,
+  compact,
+  past,
+  onClick,
+}: Props) {
   const category = categoryById.get(event.category)!;
   const index =
     Math.round(
@@ -33,6 +41,7 @@ export default function EventChip({ event, day, active, compact, onClick }: Prop
         category.chip,
         active ? "ring-2 ring-offset-1 ring-offset-white" : "hover:brightness-[0.97]",
         compact ? "text-[11px]" : "text-xs",
+        past ? "opacity-45 saturate-50 hover:opacity-80" : "",
       ].join(" ")}
     >
       <span className="block truncate font-semibold leading-tight">

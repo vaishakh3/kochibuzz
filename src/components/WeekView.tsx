@@ -7,6 +7,7 @@ import {
   eventsOn,
   formatTime,
   formatTimeRange,
+  isPast,
   isSameDay,
   toISODate,
   weekDays,
@@ -92,6 +93,7 @@ export default function WeekView({
                   event={event}
                   day={day}
                   compact
+                  past={isPast(event, today)}
                   active={event.id === selectedEventId}
                   onClick={() => onOpenEvent(event)}
                 />
@@ -160,6 +162,9 @@ export default function WeekView({
                         event.id === selectedEventId
                           ? "ring-2 ring-slate-900/50"
                           : "hover:brightness-[0.97]",
+                        isPast(event, today)
+                          ? "opacity-45 saturate-50 hover:opacity-80"
+                          : "",
                       ].join(" ")}
                     >
                       <span className="block truncate text-xs font-semibold leading-tight">
