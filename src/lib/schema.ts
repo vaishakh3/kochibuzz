@@ -29,7 +29,7 @@ export function eventSchema(event: TechEvent): EventSchema {
     startDate,
     endDate,
     description: event.blurb,
-    url: `https://kochi.buzz/?e=${event.id}`,
+    url: `https://kochi.buzz/e/${event.id}`,
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: {
       "@type": "Place",
