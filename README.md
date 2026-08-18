@@ -1,12 +1,18 @@
-# Kochi Tech Events Calendar
+# kochi.buzz
 
-A calendar of hackathons, AI meetups, open source conferences and startup summits in and
-around Kochi, Kerala. Month / week / day views, category filters, and an event detail card
-with links to the organiser page and venue map. Opens on the current month (IST).
+What's buzzing in Kochi tech — a calendar of hackathons, AI meetups, open source
+conferences and startup summits in and around Kochi, Kerala. Month / week / day views,
+category filters, event search, an event detail card with registration / calendar / map
+links, and a lightweight "who's going" RSVP with name + avatar. Opens on the current
+month (IST). Live at [kochi.buzz](https://kochi.buzz).
 
 ## Stack
 
-Next.js (App Router) · TypeScript · Tailwind CSS. Fully static — no backend, no database.
+Next.js (App Router) · TypeScript · Tailwind CSS. Event data is static; attendee lists
+are served by `/api/attendees`, backed by Upstash Redis when
+`UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` are set (add the Upstash for
+Redis integration on Vercel) and an in-memory map otherwise — fine locally, resets on
+redeploy.
 
 ```bash
 npm install
@@ -34,6 +40,7 @@ Everything lives in [`src/data/events.ts`](src/data/events.ts). Add an entry to 
   blurb: "One or two sentences on what actually happens there.",
   tags: ["Workshop", "Free"],
   url: "https://example.com/event",
+  registerUrl: "https://example.com/register", // only when different from `url`
   note: "Optional caveat shown on the detail card",
   travel: true,                  // set when it is outside Kochi
 }

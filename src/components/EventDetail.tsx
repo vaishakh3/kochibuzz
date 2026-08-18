@@ -1,16 +1,23 @@
 "use client";
 
+import Attendees from "@/components/Attendees";
 import { TechEvent, categoryById } from "@/data/events";
 import {
   dayCount,
   formatDateRange,
   formatTimeRange,
+  googleCalendarUrl,
   isMultiDay,
 } from "@/lib/calendar";
+import { Profile } from "@/lib/useProfile";
 
 type Props = {
   event: TechEvent;
   onClose: () => void;
+  profile: Profile | null;
+  going: string[];
+  onSaveProfile: (name: string, emoji: string) => void;
+  onSetGoing: (eventId: string, isGoing: boolean) => void;
 };
 
 function Row({ icon, children }: { icon: string; children: React.ReactNode }) {
@@ -26,11 +33,18 @@ function Row({ icon, children }: { icon: string; children: React.ReactNode }) {
   );
 }
 
-export default function EventDetail({ event, onClose }: Props) {
+export default function EventDetail({
+  event,
+  onClose,
+  profile,
+  going,
+  onSaveProfile,
+  onSetGoing,
+}: Props) {
   const category = categoryById.get(event.category)!;
 
   return (
-    <div className="pointer-events-auto w-[360px] max-w-[calc(100vw-2rem)] overflow-hidden rounded-[28px] bg-white shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-slate-200">
+    <div className="pointer-events-auto max-h-[calc(100vh-8rem)] w-[360px] max-w-[calc(100vw-2rem)] overflow-y-auto rounded-[28px] bg-white shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-slate-200">
       <div className="flex items-start justify-between gap-3 px-5 pt-5">
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-slate-900">
           {event.title}
@@ -90,14 +104,32 @@ export default function EventDetail({ event, onClose }: Props) {
         </p>
       )}
 
+      <Attendees
+        eventId={event.id}
+        profile={profile}
+        going={going}
+        onSaveProfile={onSaveProfile}
+        onSetGoing={onSetGoing}
+      />
+
       <div className="mt-5 flex items-stretch gap-px bg-slate-100 p-1">
         <a
-          href={event.url}
+          href={event.registerUrl ?? event.url}
           target="_blank"
           rel="noreferrer"
           className="flex-1 rounded-[20px] bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-800"
         >
-          Event page
+          {event.registerUrl ? "Register" : "Event page"}
+        </a>
+        <a
+          href={googleCalendarUrl(event)}
+          target="_blank"
+          rel="noreferrer"
+          className="grid w-14 place-items-center rounded-[20px] bg-white text-slate-500 ring-1 ring-slate-200 transition hover:text-slate-900"
+          aria-label="Add to Google Calendar"
+          title="Add to Google Calendar"
+        >
+          📅
         </a>
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(

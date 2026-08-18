@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import DayView from "@/components/DayView";
 import EventDetail from "@/components/EventDetail";
 import MonthView from "@/components/MonthView";
+import SearchBox from "@/components/SearchBox";
 import Sidebar from "@/components/Sidebar";
 import WeekView from "@/components/WeekView";
 import { CategoryId, TechEvent, categories, events } from "@/data/events";
@@ -16,6 +17,7 @@ import {
   startOfWeek,
   todayInIST,
 } from "@/lib/calendar";
+import { useProfile } from "@/lib/useProfile";
 
 type View = "month" | "week" | "day";
 
@@ -28,13 +30,14 @@ export default function CalendarApp() {
   const [selected, setSelected] = useState<Date>(today);
   const [active, setActive] = useState<Set<CategoryId>>(ALL_CATEGORIES);
   const [openEventId, setOpenEventId] = useState<string | undefined>();
+  const { profile, setProfile, going, setGoing } = useProfile();
 
   const visibleEvents = useMemo(
     () => events.filter((e) => active.has(e.category)),
     [active],
   );
 
-  const openEvent = visibleEvents.find((e) => e.id === openEventId);
+  const openEvent = events.find((e) => e.id === openEventId);
   const upcoming = nextEvent(visibleEvents, today);
 
   const monthHasEvents = visibleEvents.some((e) => {
@@ -116,6 +119,8 @@ export default function CalendarApp() {
           <h2 className="mr-auto text-2xl font-semibold tracking-tight text-slate-900">
             {heading}
           </h2>
+
+          <SearchBox events={events} onPick={jumpTo} />
 
           <div className="flex rounded-full bg-slate-100 p-1">
             {(["month", "week", "day"] as View[]).map((option) => (
@@ -215,6 +220,10 @@ export default function CalendarApp() {
           <EventDetail
             event={openEvent}
             onClose={() => setOpenEventId(undefined)}
+            profile={profile}
+            going={going}
+            onSaveProfile={setProfile}
+            onSetGoing={setGoing}
           />
         </div>
       )}

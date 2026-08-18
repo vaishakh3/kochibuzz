@@ -4,7 +4,9 @@ export type CategoryId =
   | "opensource"
   | "startup"
   | "security"
-  | "enterprise";
+  | "enterprise"
+  | "cloud"
+  | "webdev";
 
 export type Category = {
   id: CategoryId;
@@ -57,6 +59,20 @@ export const categories: Category[] = [
     chip: "bg-slate-200 text-slate-900 ring-slate-300",
     bar: "bg-slate-400",
   },
+  {
+    id: "cloud",
+    label: "Cloud & DevOps",
+    dot: "bg-teal-400",
+    chip: "bg-teal-100 text-teal-900 ring-teal-200",
+    bar: "bg-teal-400",
+  },
+  {
+    id: "webdev",
+    label: "Web Dev",
+    dot: "bg-orange-400",
+    chip: "bg-orange-100 text-orange-900 ring-orange-200",
+    bar: "bg-orange-400",
+  },
 ];
 
 export const categoryById = new Map(categories.map((c) => [c.id, c]));
@@ -78,6 +94,8 @@ export type TechEvent = {
   blurb: string;
   tags: string[];
   url: string;
+  /** Direct registration link, when different from the event page. */
+  registerUrl?: string;
   /** Shown as a caveat on the event card. */
   note?: string;
   /** Outside Kochi, but part of the same circuit — worth the trip. */
@@ -85,6 +103,83 @@ export type TechEvent = {
 };
 
 export const events: TechEvent[] = [
+  {
+    id: "cncg-kochi-aug-2026",
+    title: "CNCG Kochi August Meetup",
+    start: "2026-08-01",
+    end: "2026-08-01",
+    startTime: "09:00",
+    endTime: "13:00",
+    category: "cloud",
+    venue: "TinkerHub Foundation",
+    city: "Kochi",
+    organizer: "Cloud Native Community Group Kochi",
+    blurb:
+      "In-person CNCF community session: running autonomous AI agents on Kubernetes, and Teleport as a modern approach to secure infrastructure access \u2014 plus open discussions on cloud native tooling in production.",
+    tags: ["CNCF", "Kubernetes", "Free"],
+    url: "https://www.linkedin.com/posts/cloudnativekochi_cncf-cloudnative-kubernetes-activity-7487872658563321856-jbxh",
+  },
+  {
+    id: "devops-malayalam-aug-2026",
+    title: "DevOps Malayalam Meetup",
+    start: "2026-08-08",
+    end: "2026-08-08",
+    startTime: "09:00",
+    endTime: "13:00",
+    category: "cloud",
+    venue: "IBS Campus, Infopark Phase 1, Kakkanad",
+    city: "Kochi",
+    organizer: "DevOps Malayalam",
+    blurb:
+      "Kerala's DevOps community morning \u2014 technical talks on DevOps, cloud, platform engineering and SRE, with Q&A, quizzes and networking. Hosted by IBS Software and Naviq; registration via MakeMyPass.",
+    tags: ["DevOps", "SRE", "Free"],
+    url: "https://eventsaroundme.in/event/d16c3f8b-35b0-4285-81fd-4725285bcd73",
+  },
+  {
+    id: "cns-kerala-2026",
+    title: "Cloud Native Summit Kerala 2026",
+    start: "2026-08-22",
+    end: "2026-08-22",
+    startTime: "09:00",
+    category: "cloud",
+    venue: "Le M\u00e9ridien Kochi, Maradu",
+    city: "Kochi",
+    organizer: "Cloud Native Kerala community",
+    blurb:
+      "The biggest cloud native conference Kerala has hosted \u2014 800+ engineers, three parallel tracks of keynotes and deep-dives at the venue that ran DevOpsDays Kerala 2024.",
+    tags: ["Conference", "3 tracks", "800+ attendees"],
+    url: "https://cnskerala.in/",
+  },
+  {
+    id: "malabarjs-aug-2026",
+    title: "MalabarJS Meetup \u2014 August",
+    start: "2026-08-22",
+    end: "2026-08-22",
+    startTime: "13:30",
+    endTime: "17:30",
+    category: "webdev",
+    venue: "TinkerSpace, Kalamassery",
+    city: "Kochi",
+    organizer: "MalabarJS",
+    blurb:
+      "An afternoon with the JavaScript ecosystem crowd \u2014 lightning talks, longer technical talks, demos and conversations with people building across the JS stack.",
+    tags: ["JavaScript", "Lightning talks", "Free"],
+    url: "https://luma.com/a9xt40nb",
+  },
+  {
+    id: "umbraco-india-festival-2026",
+    title: "Umbraco India Festival 2026",
+    start: "2026-08-28",
+    end: "2026-08-29",
+    category: "webdev",
+    venue: "LuLu IT Twin Towers, SmartCity",
+    city: "Kochi",
+    organizer: "Umbraco India User Group",
+    blurb:
+      "India's first dedicated Umbraco community event \u2014 a hackathon and networking evening on day one, then a full conference day at LuLu IT Twin Towers with Umbraco HQ, MVPs and speakers from across the region.",
+    tags: ["CMS", ".NET", "Hackathon + conference"],
+    url: "https://www.umbracofestival.in/",
+  },
   {
     id: "dothack-26",
     title: ">.hack(); '26",
@@ -98,6 +193,7 @@ export const events: TechEvent[] = [
       "7th edition of MACE's flagship 36-hour hardware + software hackathon, powered by Devin. Eight tracks from smart cities to resilient communities, judged by industry mentors. Winner of the IEEE Darrel Chong Award and the IEEE Kochi Subsection Best Event Award.",
     tags: ["36-hour", "Devfolio", "8 tracks", "Students"],
     url: "https://hack26.ieeemace.org/",
+    registerUrl: "https://dothack26.devfolio.co/overview",
   },
   {
     id: "wikiconference-india-2026",

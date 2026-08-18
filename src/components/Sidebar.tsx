@@ -45,12 +45,10 @@ export default function Sidebar({
       <header className="flex items-start justify-between">
         <div>
           <p className="text-[11px] uppercase tracking-[0.2em] text-violet-300/70">
-            Kerala · India
+            Kochi Tech Events
           </p>
-          <h1 className="mt-1 text-lg font-semibold leading-tight text-white">
-            Kochi Tech
-            <br />
-            Events Calendar
+          <h1 className="mt-1 text-2xl font-semibold leading-tight tracking-tight text-white">
+            kochi<span className="text-violet-400">.buzz</span>
           </h1>
         </div>
         <span className="grid h-11 w-11 place-items-center rounded-full bg-violet-500/20 text-sm font-semibold text-violet-200 ring-1 ring-violet-400/30">
