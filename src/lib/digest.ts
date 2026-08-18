@@ -1,0 +1,45 @@
+import { TechEvent, events } from "@/data/events";
+import {
+  MONTHS,
+  WEEKDAYS,
+  addDays,
+  parseDate,
+  sortByStart,
+  toISODate,
+  todayInIST,
+} from "@/lib/calendar";
+
+export const DIGEST_DAYS = 30;
+
+/** Events starting within the next `days` days, or already running today. */
+export function digestEvents(days: number = DIGEST_DAYS): TechEvent[] {
+  const today = todayInIST();
+  const from = toISODate(today);
+  const to = toISODate(addDays(today, days));
+  return events
+    .filter((event) => event.end >= from && event.start <= to)
+    .sort(sortByStart);
+}
+
+function shortDate(event: TechEvent): string {
+  const start = parseDate(event.start);
+  const label = `${WEEKDAYS[start.getDay()]} ${start.getDate()} ${MONTHS[start.getMonth()].slice(0, 3)}`;
+  if (event.end === event.start) return label;
+  const end = parseDate(event.end);
+  return `${label}–${end.getDate()} ${MONTHS[end.getMonth()].slice(0, 3)}`;
+}
+
+/** Plain-text digest, sized for pasting into a WhatsApp or Slack group. */
+export function digestText(list: TechEvent[], days: number = DIGEST_DAYS): string {
+  const lines = [
+    `What's on in Kochi tech — next ${days} days`,
+    "",
+    ...list.map(
+      (event) =>
+        `• ${shortDate(event)} — ${event.title} (${event.venue}, ${event.city})`,
+    ),
+    "",
+    "Full calendar: https://kochi.buzz",
+  ];
+  return lines.join("\n");
+}

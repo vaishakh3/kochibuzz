@@ -5,6 +5,7 @@ const tabs = [
   { href: "/", label: "Calendar" },
   { href: "/communities", label: "Communities" },
   { href: "/spaces", label: "Spaces" },
+  { href: "/digest", label: "Digest" },
 ];
 
 type Props = {
