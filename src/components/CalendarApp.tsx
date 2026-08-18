@@ -33,6 +33,20 @@ export default function CalendarApp() {
   const [openEventId, setOpenEventId] = useState<string | undefined>();
   const [hydrated, setHydrated] = useState(false);
   const { profile, setProfile, going, setGoing } = useProfile();
+  const [goingCounts, setGoingCounts] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch("/api/attendees?counts")
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data: { counts?: Record<string, number> } | null) => {
+        if (!cancelled && data?.counts) setGoingCounts(data.counts);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   // Honour a ?e= deep link on load (deferred so hydration matches the server).
   useEffect(() => {
@@ -217,6 +231,7 @@ export default function CalendarApp() {
             today={today}
             events={visibleEvents}
             selectedEventId={openEventId}
+            goingCounts={goingCounts}
             onOpenEvent={(event) => setOpenEventId(event.id)}
           />
         )}
