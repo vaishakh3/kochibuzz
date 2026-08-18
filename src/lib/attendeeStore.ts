@@ -45,6 +45,26 @@ async function saveAttendees(eventId: string, list: Attendee[]): Promise<void> {
   await redis(["SET", keyFor(eventId), JSON.stringify(list)]);
 }
 
+export async function getAttendeeCounts(
+  eventIds: string[],
+): Promise<Record<string, number>> {
+  if (!url || !token) {
+    return Object.fromEntries(
+      eventIds.map((id) => [id, (memory.get(id) ?? []).length]),
+    );
+  }
+  const raw = (await redis(["MGET", ...eventIds.map(keyFor)])) as (
+    | string
+    | null
+  )[];
+  return Object.fromEntries(
+    eventIds.map((id, index) => [
+      id,
+      raw[index] ? (JSON.parse(raw[index]) as Attendee[]).length : 0,
+    ]),
+  );
+}
+
 export async function addAttendee(
   eventId: string,
   attendee: Attendee,

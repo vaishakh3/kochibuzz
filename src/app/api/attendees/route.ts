@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { AVATAR_EMOJI, hueFor, normalizeName } from "@/lib/attendees";
 import {
   addAttendee,
+  getAttendeeCounts,
   getAttendees,
   removeAttendee,
 } from "@/lib/attendeeStore";
@@ -14,6 +15,11 @@ function badRequest(message: string) {
 }
 
 export async function GET(request: NextRequest) {
+  if (request.nextUrl.searchParams.has("counts")) {
+    return NextResponse.json({
+      counts: await getAttendeeCounts(events.map((e) => e.id)),
+    });
+  }
   const eventId = request.nextUrl.searchParams.get("event");
   if (!eventId || !eventIds.has(eventId)) return badRequest("Unknown event");
   return NextResponse.json({ attendees: await getAttendees(eventId) });

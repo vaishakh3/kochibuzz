@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronRightIcon } from "@/components/icons";
+import { ChevronRightIcon, UsersIcon } from "@/components/icons";
 import { TechEvent, categoryById } from "@/data/events";
 import {
   MONTHS,
@@ -16,6 +16,7 @@ type Props = {
   today: Date;
   events: TechEvent[];
   selectedEventId?: string;
+  goingCounts?: Record<string, number>;
   onOpenEvent: (event: TechEvent) => void;
 };
 
@@ -35,12 +36,14 @@ function EventRow({
   event,
   today,
   selectedEventId,
+  going,
   onOpenEvent,
   muted,
 }: {
   event: TechEvent;
   today: Date;
   selectedEventId?: string;
+  going?: number;
   onOpenEvent: (event: TechEvent) => void;
   muted?: boolean;
 }) {
@@ -80,6 +83,12 @@ function EventRow({
               Outside Kochi
             </span>
           )}
+          {(going ?? 0) > 0 && !muted && (
+            <span className="inline-flex items-center gap-1 rounded-full bg-violet-50 px-2 py-0.5 text-[10px] font-semibold text-violet-700 ring-1 ring-violet-200">
+              <UsersIcon className="h-3 w-3" />
+              {going} going
+            </span>
+          )}
         </span>
         <span className="mt-1 block text-xs text-slate-500">
           {formatDateRange(event)} · {formatTimeRange(event)} · {event.venue},{" "}
@@ -97,6 +106,7 @@ export default function AgendaView({
   today,
   events,
   selectedEventId,
+  goingCounts,
   onOpenEvent,
 }: Props) {
   const ordered = [...events].sort(sortByStart);
@@ -129,6 +139,7 @@ export default function AgendaView({
                         event={event}
                         today={today}
                         selectedEventId={selectedEventId}
+                        going={goingCounts?.[event.id]}
                         onOpenEvent={onOpenEvent}
                         muted
                       />
@@ -158,6 +169,7 @@ export default function AgendaView({
                     event={event}
                     today={today}
                     selectedEventId={selectedEventId}
+                    going={goingCounts?.[event.id]}
                     onOpenEvent={onOpenEvent}
                   />
                 </li>
