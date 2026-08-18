@@ -218,6 +218,13 @@ export default function Sidebar({
         <h2 className="mb-2 text-sm font-semibold text-white">Explore</h2>
         <div className="space-y-1">
           <Link
+            href="/digest"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Next 30 days digest</span>
+            <span className="text-[11px] text-white/35">shareable</span>
+          </Link>
+          <Link
             href="/spaces"
             className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
