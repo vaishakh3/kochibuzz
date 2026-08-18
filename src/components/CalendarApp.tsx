@@ -38,8 +38,10 @@ export default function CalendarApp() {
   useEffect(() => {
     const id = new URLSearchParams(window.location.search).get("e");
     const event = id && events.find((e) => e.id === id);
+    const compact = window.matchMedia("(max-width: 1023px)").matches;
     const timer = setTimeout(() => {
       setHydrated(true);
+      if (compact) setView("agenda");
       if (event) jumpTo(event);
     }, 0);
     return () => clearTimeout(timer);
