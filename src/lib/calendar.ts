@@ -199,11 +199,16 @@ export function upcomingEvents(
     .slice(0, limit);
 }
 
-/** RFC 5545 .ics file contents for a single event, as a data URI-safe string. */
-export function icsFor(event: TechEvent): string {
+function icsEscape(text: string): string {
+  return text
+    .replace(/\\/g, "\\\\")
+    .replace(/;/g, "\\;")
+    .replace(/,/g, "\\,")
+    .replace(/\n/g, "\\n");
+}
+
+function veventLines(event: TechEvent): string[] {
   const compact = (iso: string) => iso.replaceAll("-", "");
-  const escape = (text: string) =>
-    text.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
   const dt = event.startTime
     ? [
         `DTSTART;TZID=Asia/Kolkata:${compact(event.start)}T${event.startTime.replace(":", "")}00`,
@@ -214,17 +219,37 @@ export function icsFor(event: TechEvent): string {
         `DTEND;VALUE=DATE:${compact(toISODate(addDays(parseDate(event.end), 1)))}`,
       ];
   return [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//kochi.buzz//EN",
     "BEGIN:VEVENT",
     `UID:${event.id}@kochi.buzz`,
     ...dt,
-    `SUMMARY:${escape(event.title)}`,
-    `LOCATION:${escape(`${event.venue}, ${event.city}`)}`,
-    `DESCRIPTION:${escape(`${event.blurb}\n\n${event.url}`)}`,
+    `SUMMARY:${icsEscape(event.title)}`,
+    `LOCATION:${icsEscape(`${event.venue}, ${event.city}`)}`,
+    `DESCRIPTION:${icsEscape(`${event.blurb}\n\n${event.url}`)}`,
     `URL:${event.url}`,
     "END:VEVENT",
+  ];
+}
+
+/** RFC 5545 .ics file contents for a single event, as a data URI-safe string. */
+export function icsFor(event: TechEvent): string {
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//kochi.buzz//EN",
+    ...veventLines(event),
+    "END:VCALENDAR",
+  ].join("\r\n");
+}
+
+/** Full subscribable calendar feed containing every event. */
+export function icsCalendar(events: TechEvent[]): string {
+  return [
+    "BEGIN:VCALENDAR",
+    "VERSION:2.0",
+    "PRODID:-//kochi.buzz//EN",
+    "X-WR-CALNAME:kochi.buzz — Kochi Tech Events",
+    "X-WR-TIMEZONE:Asia/Kolkata",
+    ...events.flatMap(veventLines),
     "END:VCALENDAR",
   ].join("\r\n");
 }

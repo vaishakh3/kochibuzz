@@ -228,6 +228,13 @@ export default function Sidebar({
             <span className="text-[11px] text-white/35">labs · coworking</span>
           </Link>
           <a
+            href="/calendar.ics"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Subscribe to calendar</span>
+            <span className="text-[11px] text-white/35">.ics feed</span>
+          </a>
+          <a
             href={submitEventUrl}
             target="_blank"
             rel="noreferrer"
