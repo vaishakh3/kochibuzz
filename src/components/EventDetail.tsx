@@ -2,6 +2,18 @@
 
 import { useState } from "react";
 import Attendees from "@/components/Attendees";
+import {
+  CalendarIcon,
+  CalendarPlusIcon,
+  CheckIcon,
+  ClockIcon,
+  CloseIcon,
+  DownloadIcon,
+  MapPinIcon,
+  NavigationIcon,
+  ShareIcon,
+  UsersIcon,
+} from "@/components/icons";
 import { TechEvent, categoryById } from "@/data/events";
 import {
   countdownLabel,
@@ -24,13 +36,19 @@ type Props = {
   onSetGoing: (eventId: string, isGoing: boolean) => void;
 };
 
-function Row({ icon, children }: { icon: string; children: React.ReactNode }) {
+function Row({
+  icon,
+  children,
+}: {
+  icon: React.ReactNode;
+  children: React.ReactNode;
+}) {
   return (
-    <div className="flex items-start gap-3">
-      <span className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-xl bg-slate-100 text-sm">
+    <div className="flex items-center gap-3 py-2">
+      <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-slate-50 text-slate-400 ring-1 ring-slate-100">
         {icon}
       </span>
-      <div className="min-w-0 flex-1 rounded-xl bg-slate-50 px-3 py-2 text-[13px] text-slate-700">
+      <div className="min-w-0 flex-1 text-[13px] leading-snug text-slate-700">
         {children}
       </div>
     </div>
@@ -71,25 +89,32 @@ export default function EventDetail({
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-slate-900">
           {event.title}
         </h3>
-        <button
-          onClick={share}
-          aria-label="Share event link"
-          title="Share event link"
-          className="grid h-7 w-14 shrink-0 place-items-center rounded-full bg-slate-100 text-[11px] font-semibold text-slate-500 transition hover:bg-slate-200"
-        >
-          {copied ? "copied!" : "share"}
-        </button>
-        <button
-          onClick={onClose}
-          aria-label="Close event details"
-          className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-slate-200"
-        >
-          ✕
-        </button>
+        <div className="flex shrink-0 items-center gap-1.5">
+          <button
+            onClick={share}
+            aria-label="Share event link"
+            title={copied ? "Link copied" : "Share event link"}
+            className={[
+              "grid h-8 w-8 place-items-center rounded-full transition",
+              copied
+                ? "bg-emerald-100 text-emerald-600"
+                : "bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700",
+            ].join(" ")}
+          >
+            {copied ? <CheckIcon /> : <ShareIcon />}
+          </button>
+          <button
+            onClick={onClose}
+            aria-label="Close event details"
+            className="grid h-8 w-8 place-items-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-slate-200 hover:text-slate-700"
+          >
+            <CloseIcon />
+          </button>
+        </div>
       </div>
 
-      <div className="space-y-2.5 px-5 pt-4">
-        <Row icon="📅">
+      <div className="mx-5 mt-4 divide-y divide-slate-100 rounded-2xl bg-white px-3 ring-1 ring-slate-100">
+        <Row icon={<CalendarIcon />}>
           {formatDateRange(event)}
           {isMultiDay(event) && (
             <span className="text-slate-400"> · {dayCount(event)} days</span>
@@ -106,12 +131,12 @@ export default function EventDetail({
             {countdown}
           </span>
         </Row>
-        <Row icon="🕒">{formatTimeRange(event)}</Row>
-        <Row icon="📍">
+        <Row icon={<ClockIcon />}>{formatTimeRange(event)}</Row>
+        <Row icon={<MapPinIcon />}>
           {event.venue}
           <span className="block text-slate-400">{event.city}</span>
         </Row>
-        <Row icon="👥">{event.organizer}</Row>
+        <Row icon={<UsersIcon />}>{event.organizer}</Row>
       </div>
 
       <div className="flex flex-wrap gap-2 px-5 pt-4">
@@ -153,45 +178,48 @@ export default function EventDetail({
         onSetGoing={onSetGoing}
       />
 
-      <div className="mt-5 flex items-stretch gap-px bg-slate-100 p-1">
+      <div className="space-y-2 px-5 pb-5 pt-5">
         <a
           href={event.registerUrl ?? event.url}
           target="_blank"
           rel="noreferrer"
-          className="flex-1 rounded-[20px] bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-800"
+          className="block rounded-2xl bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-800"
         >
           {event.registerUrl ? "Register" : "Event page"}
         </a>
-        <a
-          href={googleCalendarUrl(event)}
-          target="_blank"
-          rel="noreferrer"
-          className="grid w-14 place-items-center rounded-[20px] bg-white text-slate-500 ring-1 ring-slate-200 transition hover:text-slate-900"
-          aria-label="Add to Google Calendar"
-          title="Add to Google Calendar"
-        >
-          📅
-        </a>
-        <a
-          href={`data:text/calendar;charset=utf-8,${encodeURIComponent(icsFor(event))}`}
-          download={`${event.id}.ics`}
-          className="grid w-14 place-items-center rounded-[20px] bg-white text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:text-slate-900"
-          aria-label="Download .ics file"
-          title="Download .ics (Apple / Outlook)"
-        >
-          .ics
-        </a>
-        <a
-          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-            `${event.venue} ${event.city}`,
-          )}`}
-          target="_blank"
-          rel="noreferrer"
-          className="grid w-14 place-items-center rounded-[20px] bg-white text-slate-500 ring-1 ring-slate-200 transition hover:text-slate-900"
-          aria-label="Open venue in maps"
-        >
-          ↗
-        </a>
+        <div className="grid grid-cols-3 gap-2">
+          <a
+            href={googleCalendarUrl(event)}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+            title="Add to Google Calendar"
+          >
+            <CalendarPlusIcon className="h-3.5 w-3.5" />
+            Google
+          </a>
+          <a
+            href={`data:text/calendar;charset=utf-8,${encodeURIComponent(icsFor(event))}`}
+            download={`${event.id}.ics`}
+            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+            title="Download .ics (Apple / Outlook)"
+          >
+            <DownloadIcon className="h-3.5 w-3.5" />
+            .ics
+          </a>
+          <a
+            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+              `${event.venue} ${event.city}`,
+            )}`}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+            title="Open venue in Google Maps"
+          >
+            <NavigationIcon className="h-3.5 w-3.5" />
+            Map
+          </a>
+        </div>
       </div>
     </div>
   );
