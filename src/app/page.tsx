@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
-import { eventById } from "@/data/events";
+import { eventById, events } from "@/data/events";
 import { formatDateRange } from "@/lib/calendar";
+import { eventJsonLd, eventListJsonLd } from "@/lib/schema";
 
 type SearchParams = Promise<{ e?: string }>;
 
@@ -26,12 +27,23 @@ export async function generateMetadata({
   };
 }
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}) {
+  const { e } = await searchParams;
+  const event = e ? eventById.get(e) : undefined;
+  const jsonLd = event ? eventJsonLd(event) : eventListJsonLd(events);
   return (
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-8">
       <div className="aurora aurora-one" aria-hidden />
       <div className="aurora aurora-two" aria-hidden />
       <div className="aurora aurora-three" aria-hidden />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLd }}
+      />
       <div className="relative z-10 w-full">
         <CalendarApp />
       </div>
