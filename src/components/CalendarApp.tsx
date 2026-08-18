@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import DayView from "@/components/DayView";
 import EventDetail from "@/components/EventDetail";
 import MonthView from "@/components/MonthView";
@@ -30,7 +30,27 @@ export default function CalendarApp() {
   const [selected, setSelected] = useState<Date>(today);
   const [active, setActive] = useState<Set<CategoryId>>(ALL_CATEGORIES);
   const [openEventId, setOpenEventId] = useState<string | undefined>();
+  const [hydrated, setHydrated] = useState(false);
   const { profile, setProfile, going, setGoing } = useProfile();
+
+  // Honour a ?e= deep link on load (deferred so hydration matches the server).
+  useEffect(() => {
+    const id = new URLSearchParams(window.location.search).get("e");
+    const event = id && events.find((e) => e.id === id);
+    const timer = setTimeout(() => {
+      setHydrated(true);
+      if (event) jumpTo(event);
+    }, 0);
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    const url = new URL(window.location.href);
+    if (openEventId) url.searchParams.set("e", openEventId);
+    else url.searchParams.delete("e");
+    window.history.replaceState(null, "", url);
+  }, [openEventId, hydrated]);
 
   const visibleEvents = useMemo(
     () => events.filter((e) => active.has(e.category)),
@@ -88,6 +108,29 @@ export default function CalendarApp() {
     setCursor(startOfMonth(start));
     setOpenEventId(event.id);
   }
+
+  useEffect(() => {
+    function onKeyDown(e: KeyboardEvent) {
+      const target = e.target as HTMLElement;
+      const typing =
+        target.tagName === "INPUT" || target.tagName === "TEXTAREA";
+      if (e.key === "Escape") {
+        setOpenEventId(undefined);
+        if (typing) target.blur();
+        return;
+      }
+      if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === "ArrowLeft") shift(-1);
+      else if (e.key === "ArrowRight") shift(1);
+      else if (e.key === "t") goToToday();
+      else if (e.key === "/") {
+        e.preventDefault();
+        document.getElementById("event-search")?.focus();
+      }
+    }
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  });
 
   const heading =
     view === "week"
@@ -219,6 +262,7 @@ export default function CalendarApp() {
         >
           <EventDetail
             event={openEvent}
+            today={today}
             onClose={() => setOpenEventId(undefined)}
             profile={profile}
             going={going}

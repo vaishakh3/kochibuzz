@@ -41,6 +41,21 @@ body {
   opacity: 0.3;
 }
 
+@keyframes card-pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-card-pop {
+  animation: card-pop 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
 ::selection {
   background: #6366f1;
   color: white;

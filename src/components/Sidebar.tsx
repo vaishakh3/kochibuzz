@@ -8,7 +8,12 @@ import {
   categories,
   communities,
 } from "@/data/events";
-import { daysUntil, formatDateRange } from "@/lib/calendar";
+import {
+  countdownLabel,
+  daysUntil,
+  formatDateRange,
+  upcomingEvents,
+} from "@/lib/calendar";
 
 type Props = {
   cursor: Date;
@@ -39,6 +44,9 @@ export default function Sidebar({
 }: Props) {
   const countFor = (category: Category) =>
     allEvents.filter((e) => e.category === category.id).length;
+  const comingUp = upcomingEvents(visibleEvents, today, 4).filter(
+    (e) => e.id !== upcoming?.id,
+  );
 
   return (
     <aside className="flex w-full shrink-0 flex-col gap-4 bg-[#0d0d10] p-5 lg:w-[320px]">
@@ -75,7 +83,7 @@ export default function Sidebar({
             <span className="rounded-full bg-black/40 px-2 py-0.5 text-violet-200">
               {daysUntil(upcoming, today) <= 0
                 ? "happening now"
-                : `in ${daysUntil(upcoming, today)} days`}
+                : countdownLabel(upcoming, today)}
             </span>
           </div>
           <p className="mt-2 text-[15px] font-semibold leading-snug text-white">
@@ -88,6 +96,34 @@ export default function Sidebar({
             Details →
           </p>
         </button>
+      )}
+
+      {comingUp.length > 0 && (
+        <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+          <h2 className="mb-3 text-sm font-semibold text-white">Coming up</h2>
+          <ul className="space-y-1">
+            {comingUp.map((event) => (
+              <li key={event.id}>
+                <button
+                  onClick={() => onOpenEvent(event)}
+                  className="flex w-full items-center justify-between gap-2 rounded-xl px-2 py-1.5 text-left transition hover:bg-white/5"
+                >
+                  <span className="min-w-0">
+                    <span className="block truncate text-[13px] text-white/75">
+                      {event.title}
+                    </span>
+                    <span className="block text-[11px] text-white/35">
+                      {formatDateRange(event)}
+                    </span>
+                  </span>
+                  <span className="shrink-0 rounded-full bg-white/10 px-2 py-0.5 text-[10px] text-white/50">
+                    {countdownLabel(event, today)}
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">

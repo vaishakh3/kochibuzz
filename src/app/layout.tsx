@@ -18,6 +18,21 @@ export const metadata: Metadata = {
   title: "kochi.buzz — Kochi Tech Events",
   description:
     "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+  openGraph: {
+    title: "kochi.buzz — Kochi Tech Events",
+    description:
+      "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+    url: "https://kochi.buzz",
+    siteName: "kochi.buzz",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "kochi.buzz — Kochi Tech Events",
+    description:
+      "What's buzzing in Kochi tech — hackathons, AI meetups and startup summits in and around Kochi, Kerala.",
+  },
 };
 
 export default function RootLayout({

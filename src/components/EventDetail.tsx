@@ -1,18 +1,22 @@
 "use client";
 
+import { useState } from "react";
 import Attendees from "@/components/Attendees";
 import { TechEvent, categoryById } from "@/data/events";
 import {
+  countdownLabel,
   dayCount,
   formatDateRange,
   formatTimeRange,
   googleCalendarUrl,
+  icsFor,
   isMultiDay,
 } from "@/lib/calendar";
 import { Profile } from "@/lib/useProfile";
 
 type Props = {
   event: TechEvent;
+  today: Date;
   onClose: () => void;
   profile: Profile | null;
   going: string[];
@@ -35,6 +39,7 @@ function Row({ icon, children }: { icon: string; children: React.ReactNode }) {
 
 export default function EventDetail({
   event,
+  today,
   onClose,
   profile,
   going,
@@ -42,13 +47,38 @@ export default function EventDetail({
   onSetGoing,
 }: Props) {
   const category = categoryById.get(event.category)!;
+  const [copied, setCopied] = useState(false);
+  const countdown = countdownLabel(event, today);
+
+  async function share() {
+    const url = `${window.location.origin}/?e=${event.id}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: event.title, url });
+        return;
+      } catch {
+        // fall through to clipboard
+      }
+    }
+    await navigator.clipboard.writeText(url);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 1500);
+  }
 
   return (
-    <div className="pointer-events-auto max-h-[calc(100vh-8rem)] w-[360px] max-w-[calc(100vw-2rem)] overflow-y-auto rounded-[28px] bg-white shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-slate-200">
+    <div className="animate-card-pop pointer-events-auto max-h-[calc(100vh-8rem)] w-[360px] max-w-[calc(100vw-2rem)] overflow-y-auto rounded-[28px] bg-white shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-slate-200">
       <div className="flex items-start justify-between gap-3 px-5 pt-5">
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-slate-900">
           {event.title}
         </h3>
+        <button
+          onClick={share}
+          aria-label="Share event link"
+          title="Share event link"
+          className="grid h-7 w-14 shrink-0 place-items-center rounded-full bg-slate-100 text-[11px] font-semibold text-slate-500 transition hover:bg-slate-200"
+        >
+          {copied ? "copied!" : "share"}
+        </button>
         <button
           onClick={onClose}
           aria-label="Close event details"
@@ -64,6 +94,17 @@ export default function EventDetail({
           {isMultiDay(event) && (
             <span className="text-slate-400"> · {dayCount(event)} days</span>
           )}
+          <span
+            className={`ml-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${
+              countdown === "ended"
+                ? "bg-slate-200 text-slate-500"
+                : countdown === "today" || countdown.startsWith("day ")
+                  ? "bg-emerald-100 text-emerald-700"
+                  : "bg-violet-100 text-violet-700"
+            }`}
+          >
+            {countdown}
+          </span>
         </Row>
         <Row icon="🕒">{formatTimeRange(event)}</Row>
         <Row icon="📍">
@@ -130,6 +171,15 @@ export default function EventDetail({
           title="Add to Google Calendar"
         >
           📅
+        </a>
+        <a
+          href={`data:text/calendar;charset=utf-8,${encodeURIComponent(icsFor(event))}`}
+          download={`${event.id}.ics`}
+          className="grid w-14 place-items-center rounded-[20px] bg-white text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:text-slate-900"
+          aria-label="Download .ics file"
+          title="Download .ics (Apple / Outlook)"
+        >
+          .ics
         </a>
         <a
           href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(

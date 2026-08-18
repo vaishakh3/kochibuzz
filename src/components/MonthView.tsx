@@ -5,6 +5,7 @@ import { TechEvent } from "@/data/events";
 import {
   WEEKDAYS,
   eventsOn,
+  isPast,
   isSameDay,
   monthGrid,
   toISODate,
@@ -77,6 +78,7 @@ export default function MonthView({
                     event={event}
                     day={day}
                     compact
+                    past={isPast(event, today)}
                     active={event.id === selectedEventId}
                     onClick={() => onOpenEvent(event)}
                   />
