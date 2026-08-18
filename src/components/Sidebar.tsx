@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import MiniCalendar from "@/components/MiniCalendar";
 import {
   Category,
@@ -8,6 +10,7 @@ import {
   categories,
   communities,
 } from "@/data/events";
+import { submitEventUrl } from "@/data/directory";
 import {
   countdownLabel,
   daysUntil,
@@ -206,6 +209,34 @@ export default function Sidebar({
             </li>
           ))}
         </ul>
+        <Link
+          href="/communities"
+          className="mt-2 block rounded-xl px-2 py-1.5 text-[13px] font-medium text-violet-300 transition hover:bg-white/5 hover:text-white"
+        >
+          All communities →
+        </Link>
+      </section>
+
+      <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+        <h2 className="mb-2 text-sm font-semibold text-white">Explore</h2>
+        <div className="space-y-1">
+          <Link
+            href="/spaces"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Places to build</span>
+            <span className="text-[11px] text-white/35">labs · coworking</span>
+          </Link>
+          <a
+            href={submitEventUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Submit an event</span>
+            <span className="text-[11px] text-white/35">GitHub →</span>
+          </a>
+        </div>
       </section>
 
       <p className="mt-auto text-[11px] leading-relaxed text-white/30">
