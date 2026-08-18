@@ -1,4 +1,6 @@
 export type DirectoryCommunity = {
+  /** URL segment for /communities/<slug>. */
+  slug: string;
   name: string;
   focus: string;
   cadence: string;
@@ -11,6 +13,7 @@ export type DirectoryCommunity = {
 /** Active tech communities in and around Kochi. */
 export const communityDirectory: DirectoryCommunity[] = [
   {
+    slug: "kochi-foss",
     name: "Kochi FOSS",
     focus: "Open source",
     cadence: "Monthly, Saturdays",
@@ -19,6 +22,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://kochifoss.org/",
   },
   {
+    slug: "gdg-cochin",
     name: "GDG Cochin",
     focus: "Google tech",
     cadence: "Meetups & DevFest",
@@ -27,6 +31,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://gdg.community.dev/gdg-cochin/",
   },
   {
+    slug: "kochi-python",
     name: "Kochi Python",
     focus: "Python",
     cadence: "Monthly meetups",
@@ -35,6 +40,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://www.meetup.com/kochipython/",
   },
   {
+    slug: "cloud-native-kochi",
     name: "Cloud Native Kochi (CNCF)",
     focus: "Cloud native",
     cadence: "Meetups + annual KCD",
@@ -47,6 +53,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     ],
   },
   {
+    slug: "aws-user-group-kochi",
     name: "AWS User Group Kochi",
     focus: "AWS / cloud",
     cadence: "Meetups & community days",
@@ -55,6 +62,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://awsugkochi.in/",
   },
   {
+    slug: "kochi-ai-user-group",
     name: "Kochi AI User Group",
     focus: "AI / ML",
     cadence: "Monthly, Infopark",
@@ -63,6 +71,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://www.meetup.com/kochi-ai-user-group/",
   },
   {
+    slug: "codex-kochi",
     name: "Codex Kochi",
     focus: "AI builders",
     cadence: "Meetups & build nights",
@@ -72,6 +81,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     eventOrganizers: ["Codex Kochi community"],
   },
   {
+    slug: "devops-malayalam",
     name: "DevOps Malayalam",
     focus: "DevOps / SRE",
     cadence: "Online + in-person",
@@ -81,6 +91,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     eventOrganizers: ["DevOps Malayalam"],
   },
   {
+    slug: "malabarjs",
     name: "MalabarJS",
     focus: "JavaScript",
     cadence: "Meetups across Kerala",
@@ -90,6 +101,7 @@ export const communityDirectory: DirectoryCommunity[] = [
     eventOrganizers: ["MalabarJS"],
   },
   {
+    slug: "tinkerhub",
     name: "TinkerHub",
     focus: "Students / makers",
     cadence: "Campus chapters + TinkerSpace",
@@ -98,6 +110,10 @@ export const communityDirectory: DirectoryCommunity[] = [
     url: "https://tinkerhub.org/",
   },
 ];
+
+export const communityBySlug = new Map(
+  communityDirectory.map((community) => [community.slug, community]),
+);
 
 export type Space = {
   name: string;

@@ -8,9 +8,8 @@ import {
   CategoryId,
   TechEvent,
   categories,
-  communities,
 } from "@/data/events";
-import { submitEventUrl } from "@/data/directory";
+import { communityDirectory, submitEventUrl } from "@/data/directory";
 import {
   countdownLabel,
   daysUntil,
@@ -193,19 +192,17 @@ export default function Sidebar({
           Communities to follow
         </h2>
         <ul className="space-y-2">
-          {communities.map((community) => (
+          {communityDirectory.slice(0, 4).map((community) => (
             <li key={community.name}>
-              <a
-                href={community.url}
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                href={`/communities/${community.slug}`}
                 className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
               >
                 <span>{community.name}</span>
                 <span className="text-[11px] text-white/35">
                   {community.cadence}
                 </span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

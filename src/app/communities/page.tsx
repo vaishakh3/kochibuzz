@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import DirectoryShell from "@/components/DirectoryShell";
 import { communityDirectory } from "@/data/directory";
-import { TechEvent, events } from "@/data/events";
-import { formatDateRange, sortByStart, todayInIST, toISODate } from "@/lib/calendar";
+import { formatDateRange } from "@/lib/calendar";
+import { communityEvents } from "@/lib/communityEvents";
 
 export const metadata: Metadata = {
   title: "Communities — kochi.buzz",
@@ -12,14 +12,6 @@ export const metadata: Metadata = {
 };
 
 export const revalidate = 3600;
-
-function nextEventFor(organizers: string[] | undefined): TechEvent | undefined {
-  if (!organizers) return undefined;
-  const iso = toISODate(todayInIST());
-  return events
-    .filter((e) => organizers.includes(e.organizer) && e.end >= iso)
-    .sort(sortByStart)[0];
-}
 
 export default function CommunitiesPage() {
   return (
@@ -35,13 +27,18 @@ export default function CommunitiesPage() {
     >
       <ul className="grid gap-4 sm:grid-cols-2">
         {communityDirectory.map((community) => {
-          const next = nextEventFor(community.eventOrganizers);
+          const next = communityEvents(community).upcoming[0];
           return (
             <li key={community.name}>
               <div className="group flex h-full flex-col rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.07] hover:ring-violet-400/40">
                 <div className="flex items-start justify-between gap-3">
                   <h2 className="text-[17px] font-semibold text-white">
-                    {community.name}
+                    <Link
+                      href={`/communities/${community.slug}`}
+                      className="transition hover:text-violet-300"
+                    >
+                      {community.name}
+                    </Link>
                   </h2>
                   <span className="shrink-0 rounded-full bg-violet-500/15 px-3 py-1 text-[11px] font-semibold text-violet-200 ring-1 ring-violet-400/25">
                     {community.focus}
@@ -63,16 +60,24 @@ export default function CommunitiesPage() {
                     </span>
                   </Link>
                 )}
-                <div className="mt-4 flex items-center justify-between text-xs">
-                  <span className="text-white/40">{community.cadence}</span>
-                  <a
-                    href={community.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-medium text-violet-300 transition hover:text-white"
-                  >
-                    Visit →
-                  </a>
+                <div className="mt-4 text-xs">
+                  <p className="text-white/40">{community.cadence}</p>
+                  <div className="mt-2 flex items-center gap-4">
+                    <Link
+                      href={`/communities/${community.slug}`}
+                      className="font-medium text-white/60 transition hover:text-white"
+                    >
+                      Details
+                    </Link>
+                    <a
+                      href={community.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-medium text-violet-300 transition hover:text-white"
+                    >
+                      Visit →
+                    </a>
+                  </div>
                 </div>
               </div>
             </li>
