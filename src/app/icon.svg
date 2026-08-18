@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#0d0d10"/>
+  <rect width="64" height="64" rx="16" fill="url(#g)" opacity="0.9"/>
+  <defs>
+    <radialGradient id="g" cx="0.25" cy="0.2" r="1.1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="0.55" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#0d0d10"/>
+    </radialGradient>
+  </defs>
+  <text x="32" y="42" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="700" fill="#ffffff">k<tspan fill="#c4b5fd">.</tspan>b</text>
+</svg>
