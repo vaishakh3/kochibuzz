@@ -336,6 +336,8 @@ export const events: TechEvent[] = [
   },
 ];
 
+export const eventById = new Map(events.map((e) => [e.id, e]));
+
 export type Community = {
   name: string;
   cadence: string;

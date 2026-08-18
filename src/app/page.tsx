@@ -1,4 +1,30 @@
+import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
+import { eventById } from "@/data/events";
+import { formatDateRange } from "@/lib/calendar";
+
+type SearchParams = Promise<{ e?: string }>;
+
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}): Promise<Metadata> {
+  const { e } = await searchParams;
+  const event = e ? eventById.get(e) : undefined;
+  if (!event) {
+    return { openGraph: { images: ["/og"] }, twitter: { images: ["/og"] } };
+  }
+  const title = `${event.title} — kochi.buzz`;
+  const description = `${formatDateRange(event)} · ${event.venue}, ${event.city}. ${event.blurb}`;
+  const image = `/og?e=${event.id}`;
+  return {
+    title,
+    description,
+    openGraph: { title, description, images: [image] },
+    twitter: { card: "summary_large_image", title, description, images: [image] },
+  };
+}
 
 export default function Home() {
   return (
