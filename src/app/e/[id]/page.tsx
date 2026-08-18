@@ -13,6 +13,7 @@ import {
   countdownLabel,
   formatDateRange,
   formatTimeRange,
+  googleCalendarUrl,
   todayInIST,
 } from "@/lib/calendar";
 import { eventJsonLd } from "@/lib/schema";
@@ -153,6 +154,14 @@ export default async function EventPage({ params }: { params: Params }) {
           >
             Open in calendar
           </Link>
+          <a
+            href={googleCalendarUrl(event)}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full bg-white/[0.06] px-6 py-2.5 text-sm font-semibold text-white/80 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
+          >
+            Google Calendar
+          </a>
         </div>
 
         <p className="mt-8 text-xs text-white/35">

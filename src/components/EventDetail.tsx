@@ -69,7 +69,7 @@ export default function EventDetail({
   const countdown = countdownLabel(event, today);
 
   async function share() {
-    const url = `${window.location.origin}/?e=${event.id}`;
+    const url = `${window.location.origin}/e/${event.id}`;
     if (navigator.share) {
       try {
         await navigator.share({ title: event.title, url });
