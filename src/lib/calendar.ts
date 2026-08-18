@@ -143,6 +143,24 @@ export function todayInIST(): Date {
   return parseDate(parts);
 }
 
+export function googleCalendarUrl(event: TechEvent): string {
+  const compact = (iso: string) => iso.replaceAll("-", "");
+  const dates = event.startTime
+    ? `${compact(event.start)}T${event.startTime.replace(":", "")}00/${compact(
+        event.end,
+      )}T${(event.endTime ?? "18:00").replace(":", "")}00`
+    : `${compact(event.start)}/${compact(toISODate(addDays(parseDate(event.end), 1)))}`;
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: event.title,
+    dates,
+    ctz: "Asia/Kolkata",
+    location: `${event.venue}, ${event.city}`,
+    details: `${event.blurb}\n\n${event.url}`,
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
 export function nextEvent(events: TechEvent[], from: Date): TechEvent | undefined {
   const iso = toISODate(from);
   return [...events].sort(sortByStart).find((e) => e.end >= iso);

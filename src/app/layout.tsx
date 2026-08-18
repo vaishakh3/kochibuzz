@@ -13,9 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kochi Tech Events Calendar",
+  metadataBase: new URL("https://kochi.buzz"),
+  title: "kochi.buzz — Kochi Tech Events",
   description:
-    "Hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+    "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
 };
 
 export default function RootLayout({
