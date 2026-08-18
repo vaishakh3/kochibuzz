@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import AgendaView from "@/components/AgendaView";
 import DayView from "@/components/DayView";
 import EventDetail from "@/components/EventDetail";
 import MonthView from "@/components/MonthView";
@@ -19,7 +20,7 @@ import {
 } from "@/lib/calendar";
 import { useProfile } from "@/lib/useProfile";
 
-type View = "month" | "week" | "day";
+type View = "month" | "week" | "day" | "agenda";
 
 const ALL_CATEGORIES = new Set<CategoryId>(categories.map((c) => c.id));
 
@@ -85,6 +86,7 @@ export default function CalendarApp() {
   }
 
   function shift(direction: 1 | -1) {
+    if (view === "agenda") return;
     if (view === "month") {
       const next = new Date(cursor.getFullYear(), cursor.getMonth() + direction, 1);
       setCursor(next);
@@ -133,9 +135,11 @@ export default function CalendarApp() {
   });
 
   const heading =
-    view === "week"
-      ? `Week of ${startOfWeek(selected).getDate()} ${MONTHS[startOfWeek(selected).getMonth()]}`
-      : `${MONTHS[cursor.getMonth()]}, ${cursor.getFullYear()}`;
+    view === "agenda"
+      ? "All events"
+      : view === "week"
+        ? `Week of ${startOfWeek(selected).getDate()} ${MONTHS[startOfWeek(selected).getMonth()]}`
+        : `${MONTHS[cursor.getMonth()]}, ${cursor.getFullYear()}`;
 
   return (
     <div className="relative mx-auto flex w-full max-w-[1480px] flex-col overflow-hidden rounded-[36px] bg-black/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
@@ -166,12 +170,12 @@ export default function CalendarApp() {
           <SearchBox events={events} onPick={jumpTo} />
 
           <div className="flex rounded-full bg-slate-100 p-1">
-            {(["month", "week", "day"] as View[]).map((option) => (
+            {(["month", "week", "day", "agenda"] as View[]).map((option) => (
               <button
                 key={option}
                 onClick={() => setView(option)}
                 className={[
-                  "rounded-full px-5 py-2 text-sm font-medium capitalize transition",
+                  "rounded-full px-4 py-2 text-sm font-medium capitalize transition",
                   view === option
                     ? "bg-white text-slate-900 shadow-sm"
                     : "text-slate-500 hover:text-slate-700",
@@ -205,6 +209,15 @@ export default function CalendarApp() {
             </button>
           </div>
         </header>
+
+        {view === "agenda" && (
+          <AgendaView
+            today={today}
+            events={visibleEvents}
+            selectedEventId={openEventId}
+            onOpenEvent={(event) => setOpenEventId(event.id)}
+          />
+        )}
 
         {!monthHasEvents && view === "month" && upcoming && (
           <div className="mx-6 mb-4 flex flex-wrap items-center gap-3 rounded-2xl bg-slate-50 px-4 py-3 text-sm text-slate-500 ring-1 ring-slate-100">
