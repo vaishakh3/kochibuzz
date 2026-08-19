@@ -58,7 +58,7 @@ export default function DigestPage() {
                 <li key={event.id} className="relative">
                   <span
                     aria-hidden
-                    className="absolute -left-14 top-1/2 grid w-11 -translate-y-1/2 place-items-center rounded-xl bg-amber-400/10 py-1.5 ring-1 ring-amber-300/25"
+                    className="absolute -left-14 top-1/2 z-10 grid w-11 -translate-y-1/2 place-items-center rounded-xl bg-[#181410] py-1.5 ring-1 ring-amber-300/25"
                   >
                     <span className="text-sm font-bold leading-none text-amber-200">
                       {start.getDate()}
