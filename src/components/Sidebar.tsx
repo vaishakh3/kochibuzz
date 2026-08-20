@@ -51,7 +51,7 @@ export default function Sidebar({
   );
 
   return (
-    <aside className="flex w-full shrink-0 flex-col gap-4 bg-[#0d0d10] p-5 lg:w-[320px]">
+    <aside className="flex w-full shrink-0 flex-col gap-4 bg-[#120e0c] p-5 lg:w-[320px]">
       <header className="flex items-start justify-between">
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">

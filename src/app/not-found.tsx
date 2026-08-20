@@ -23,7 +23,7 @@ export default function NotFound() {
         <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
           kochi.buzz — signal lost
         </p>
-        <h1 className="mt-4 text-5xl font-extrabold tracking-tight">
+        <h1 className="font-display mt-4 text-5xl font-semibold tracking-tight">
           <span className="ink-violet">404</span>
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-white/55">

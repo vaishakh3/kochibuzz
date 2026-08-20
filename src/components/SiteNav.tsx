@@ -18,7 +18,7 @@ export const secondaryNav = [
 
 export default function SiteNav({
   current,
-  activeClass = "bg-violet-400 text-slate-950",
+  activeClass = "bg-orange-300 text-[#1a0c02]",
 }: {
   current: string;
   activeClass?: string;
