@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import AgendaView from "@/components/AgendaView";
 import DayView from "@/components/DayView";
 import EventDetail from "@/components/EventDetail";
+import MobileHeader from "@/components/MobileHeader";
 import MonthView from "@/components/MonthView";
 import SearchBox from "@/components/SearchBox";
 import Sidebar from "@/components/Sidebar";
@@ -16,6 +17,7 @@ import {
   parseDate,
   startOfMonth,
   startOfWeek,
+  toISODate,
   todayInIST,
 } from "@/lib/calendar";
 import { useProfile } from "@/lib/useProfile";
@@ -99,6 +101,20 @@ export default function CalendarApp() {
     if (date.getMonth() !== cursor.getMonth() || date.getFullYear() !== cursor.getFullYear()) {
       setCursor(startOfMonth(date));
     }
+    if (view === "agenda") scrollAgendaTo(date);
+  }
+
+  function scrollAgendaTo(date: Date) {
+    const iso = toISODate(date);
+    requestAnimationFrame(() => {
+      const rows = document.querySelectorAll<HTMLElement>("[data-event-start]");
+      for (const row of rows) {
+        if ((row.dataset.eventStart ?? "") >= iso) {
+          row.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+      }
+    });
   }
 
   function shift(direction: 1 | -1) {
@@ -158,12 +174,23 @@ export default function CalendarApp() {
         : `${MONTHS[cursor.getMonth()]}, ${cursor.getFullYear()}`;
 
   return (
-    <div className="grain relative mx-auto flex w-full max-w-[1480px] flex-col overflow-hidden rounded-[36px] bg-black/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
+    <div className="grain relative mx-auto flex w-full max-w-[1480px] h-[calc(100dvh-1.5rem)] flex-col overflow-hidden rounded-[36px] bg-black/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
       <div
         aria-hidden
         className="absolute inset-x-10 top-0 z-10 h-px bg-gradient-to-r from-violet-500/0 via-violet-400/70 to-fuchsia-400/0"
       />
-      <div className="overflow-hidden rounded-[28px] lg:h-full">
+      <MobileHeader
+        cursor={cursor}
+        selected={selected}
+        today={today}
+        allEvents={events}
+        visibleEvents={visibleEvents}
+        active={active}
+        onToggleCategory={toggleCategory}
+        onSelectDate={selectDate}
+        onCursorChange={setCursor}
+      />
+      <div className="hidden overflow-hidden rounded-[28px] lg:block lg:h-full">
         <div className="h-full overflow-y-auto">
           <Sidebar
             cursor={cursor}
@@ -182,14 +209,14 @@ export default function CalendarApp() {
       </div>
 
       <main className="mt-2.5 flex min-h-0 flex-1 flex-col overflow-hidden rounded-[28px] bg-white lg:mt-0 lg:ml-2.5">
-        <header className="flex flex-wrap items-center gap-3 px-6 py-5">
-          <h2 className="mr-auto text-2xl font-semibold tracking-tight text-slate-900">
+        <header className="flex flex-wrap items-center gap-3 px-4 py-4 sm:px-6 sm:py-5">
+          <h2 className="mr-auto text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
             {heading}
           </h2>
 
           <SearchBox events={events} onPick={jumpTo} />
 
-          <div className="flex rounded-full bg-slate-100 p-1">
+          <div className="hidden rounded-full bg-slate-100 p-1 md:flex">
             {(["month", "week", "day", "agenda"] as View[]).map((option) => (
               <button
                 key={option}
@@ -206,7 +233,7 @@ export default function CalendarApp() {
             ))}
           </div>
 
-          <div className="flex items-center gap-1 rounded-full bg-slate-100 p-1">
+          <div className="hidden items-center gap-1 rounded-full bg-slate-100 p-1 md:flex">
             <button
               onClick={() => shift(-1)}
               aria-label="Previous"

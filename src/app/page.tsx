@@ -36,7 +36,7 @@ export default async function Home({
   const event = e ? eventById.get(e) : undefined;
   const jsonLd = event ? eventJsonLd(event) : eventListJsonLd(events);
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-8">
+    <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-2 py-3 sm:px-4 sm:py-8">
       <div className="aurora aurora-one" aria-hidden />
       <div className="aurora aurora-two" aria-hidden />
       <div className="aurora aurora-three" aria-hidden />
