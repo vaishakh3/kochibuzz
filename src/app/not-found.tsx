@@ -10,7 +10,7 @@ export default function NotFound() {
   return (
     <div className="flex min-h-screen flex-col">
       <GlobalHeader current="" />
-      <main className="mx-auto flex w-full max-w-[1200px] flex-1 flex-col justify-center px-4 py-20 sm:px-6">
+      <main id="main-content" className="mx-auto flex w-full max-w-[1200px] flex-1 flex-col justify-center px-4 py-20 sm:px-6">
         <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-[0.4em] text-[var(--signal)]">
           Signal lost
         </p>

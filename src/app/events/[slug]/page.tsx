@@ -63,7 +63,7 @@ export default async function EventPage({ params }: { params: Params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: eventJsonLd(event) }}
       />
-      <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:px-6">
+      <main id="main-content" className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:px-6">
         <p className="text-xs text-white/40">
           <Link href="/events" className="transition hover:text-white/80">
             ← All Kochi tech events

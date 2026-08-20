@@ -2,14 +2,14 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "kochi.buzz — Kochi Tech Events",
+    name: "Kochi Buzz — The city, tuned in",
     short_name: "kochi.buzz",
     description:
-      "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
     start_url: "/",
     display: "standalone",
-    background_color: "#050506",
-    theme_color: "#0d0d10",
+    background_color: "#0b0b12",
+    theme_color: "#0b0b12",
     icons: [{ src: "/icon.svg", sizes: "any", type: "image/svg+xml" }],
   };
 }

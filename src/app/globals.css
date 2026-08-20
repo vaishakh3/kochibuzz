@@ -3,34 +3,314 @@
 @tailwind utilities;
 
 /*
- * THE SIGNAL — kochi.buzz visual system.
+ * CITY FREQUENCY — the kochi.buzz identity system.
  *
- * A live city bulletin: warm near-black canvas, one electric signal colour,
- * editorial serif display type, mono for timestamps/coordinates/status.
- * The page itself is the surface — no floating app card.
+ * Harbour ink grounds the product. Chartreuse is the live signal; coral is
+ * human energy; lagoon and lavender separate city layers. Fraunces carries
+ * the editorial voice, Geist keeps the utility layer quick, and mono text is
+ * reserved for facts, timestamps, coordinates and source status.
  */
 
 :root {
-  --bg: #0b0a08;
-  --surface: #131210;
-  --surface-2: #1a1815;
-  --paper: #f2efe8;
-  --ink: #f4f1e8;
-  --muted: rgba(244, 241, 232, 0.55);
-  --line: rgba(244, 241, 232, 0.12);
+  --bg: #0b0b12;
+  --surface: #12121b;
+  --surface-2: #1b1b27;
+  --paper: #f5f0e7;
+  --paper-ink: #14131a;
+  --ink: #f8f5ee;
+  --muted: rgba(248, 245, 238, 0.58);
+  --line: rgba(248, 245, 238, 0.13);
   --signal: #d7f24b;
   --signal-dim: rgba(215, 242, 75, 0.6);
   --signal-ink: #161a02;
-  --ember: #ff5c38;
+  --coral: #ff6542;
+  --ember: #ff6542;
+  --lagoon: #72dcc7;
+  --lavender: #c7b4ee;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--bg);
+  background:
+    radial-gradient(circle at 10% -10%, rgba(199, 180, 238, 0.1), transparent 26rem),
+    radial-gradient(circle at 95% 12%, rgba(114, 220, 199, 0.07), transparent 32rem),
+    var(--bg);
   color: var(--ink);
+  min-width: 320px;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: 0.75rem;
+  z-index: 100;
+  transform: translateY(-160%);
+  border-radius: 9999px;
+  background: var(--signal);
+  color: var(--signal-ink);
+  padding: 0.7rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 750;
+  transition: transform 150ms ease;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 .font-display {
   font-family: var(--font-display), Georgia, serif;
+}
+
+.buzz-hero {
+  position: relative;
+  isolation: isolate;
+  background:
+    linear-gradient(140deg, rgba(255, 101, 66, 0.08), transparent 35%),
+    linear-gradient(320deg, rgba(114, 220, 199, 0.08), transparent 32%);
+}
+
+.buzz-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  opacity: 0.38;
+  background-image:
+    linear-gradient(to right, var(--line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  mask-image: linear-gradient(to bottom, #000, transparent 90%);
+}
+
+.buzz-orbit {
+  position: absolute;
+  z-index: -1;
+  border: 1px solid rgba(215, 242, 75, 0.18);
+  border-radius: 9999px;
+  pointer-events: none;
+}
+
+.buzz-orbit--one {
+  width: 44rem;
+  height: 44rem;
+  left: -28rem;
+  top: 7rem;
+}
+
+.buzz-orbit--two {
+  width: 22rem;
+  height: 22rem;
+  right: -8rem;
+  top: 3rem;
+  border-color: rgba(255, 101, 66, 0.22);
+}
+
+.buzz-art-frame {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 2.5rem 2.5rem 9rem 2.5rem;
+  background: var(--surface-2);
+  box-shadow:
+    0 40px 90px -40px rgba(0, 0, 0, 0.75),
+    16px 16px 0 rgba(215, 242, 75, 0.9);
+}
+
+.buzz-scribble {
+  position: absolute;
+  right: 2%;
+  bottom: -0.08em;
+  width: 45%;
+  height: 0.08em;
+  border-radius: 999px;
+  background: var(--coral);
+  transform: rotate(-2deg);
+}
+
+.buzz-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  min-height: 3rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 750;
+  transition: transform 180ms ease, background-color 180ms ease, border-color 180ms ease;
+}
+
+.buzz-button:hover {
+  transform: translateY(-2px);
+}
+
+.buzz-button--primary {
+  background: var(--signal);
+  color: var(--signal-ink);
+}
+
+.buzz-button--ghost {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.buzz-button--ghost:hover {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.buzz-button--dark {
+  background: var(--paper-ink);
+  color: var(--paper);
+}
+
+.buzz-button--paper {
+  border: 1px solid rgba(20, 19, 26, 0.25);
+  background: rgba(245, 240, 231, 0.45);
+  color: var(--paper-ink);
+}
+
+.buzz-metric {
+  position: relative;
+  display: block;
+  border-left-width: 1px;
+  transition: background-color 180ms ease;
+}
+
+.buzz-metric:first-child {
+  border-left-width: 0;
+}
+
+.buzz-metric::after {
+  content: "";
+  position: absolute;
+  top: 1.4rem;
+  right: 1.25rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 9999px;
+  background: var(--metric-color, var(--signal));
+  transition: transform 180ms ease;
+}
+
+.buzz-metric:hover {
+  background: rgba(20, 19, 26, 0.045);
+}
+
+.buzz-metric:hover::after {
+  transform: scale(1.65);
+}
+
+.buzz-metric--lime { --metric-color: var(--signal); }
+.buzz-metric--coral { --metric-color: var(--coral); }
+.buzz-metric--cyan { --metric-color: #24aa98; }
+.buzz-metric--violet { --metric-color: #8f71c8; }
+
+.event-spotlight {
+  color: var(--paper-ink);
+  background:
+    linear-gradient(140deg, rgba(255, 255, 255, 0.25), transparent 40%),
+    var(--signal);
+  box-shadow: 0 35px 80px -45px rgba(215, 242, 75, 0.65);
+}
+
+.event-spotlight__rings {
+  position: absolute;
+  width: 38rem;
+  height: 38rem;
+  right: -17rem;
+  top: -19rem;
+  border-radius: 9999px;
+  opacity: 0.3;
+  background: repeating-radial-gradient(circle, transparent 0 22px, #111 23px 24px);
+  transition: transform 600ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.event-spotlight:hover .event-spotlight__rings {
+  transform: scale(1.07) rotate(4deg);
+}
+
+.week-card {
+  box-shadow: 0 25px 60px -42px rgba(0, 0, 0, 0.8);
+}
+
+.built-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.045), rgba(255, 255, 255, 0.015));
+  transition: transform 200ms ease, border-color 200ms ease;
+}
+
+.built-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.24);
+}
+
+.digest-poster {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent 38%),
+    var(--coral);
+  box-shadow: 0 35px 85px -50px rgba(255, 101, 66, 0.8);
+}
+
+.digest-poster::after {
+  content: "";
+  position: absolute;
+  width: 28rem;
+  height: 28rem;
+  right: -6rem;
+  top: -14rem;
+  border: 4rem solid rgba(245, 240, 231, 0.28);
+  border-radius: 9999px;
+}
+
+.digest-poster__type {
+  position: absolute;
+  right: -0.08em;
+  bottom: -0.25em;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(10rem, 28vw, 25rem);
+  font-weight: 700;
+  line-height: 0.7;
+  letter-spacing: -0.08em;
+  color: rgba(20, 19, 26, 0.07);
+  user-select: none;
+}
+
+.directory-hero {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 2rem;
+  background:
+    radial-gradient(circle at 88% 20%, var(--directory-glow, rgba(199, 180, 238, 0.22)), transparent 18rem),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.015));
+  box-shadow: 0 35px 80px -55px rgba(0, 0, 0, 0.9);
+}
+
+.directory-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.32;
+  background-image:
+    linear-gradient(to right, var(--line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: linear-gradient(90deg, transparent 20%, #000);
+}
+
+.directory-index {
+  position: absolute;
+  right: 1.5rem;
+  bottom: -0.18em;
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(5rem, 13vw, 10rem);
+  font-weight: 650;
+  line-height: 1;
+  letter-spacing: -0.08em;
+  color: rgba(255, 255, 255, 0.045);
+  user-select: none;
 }
 
 /* Film-grain overlay: gives flat dark zones a physical, printed texture. */
@@ -106,6 +386,27 @@ body {
 
   * {
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (max-width: 639px) {
+  .buzz-art-frame {
+    border-radius: 1.75rem 1.75rem 5.5rem 1.75rem;
+    box-shadow: 9px 9px 0 rgba(215, 242, 75, 0.9);
+  }
+
+  .buzz-metric:nth-child(odd) {
+    border-left-width: 0;
+  }
+
+  .buzz-metric:nth-child(n + 3) {
+    border-top-width: 1px;
+  }
+
+  .digest-poster__type {
+    right: -0.12em;
+    bottom: 0.1em;
   }
 }
 

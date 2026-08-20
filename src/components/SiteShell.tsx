@@ -14,6 +14,7 @@ export default function SiteShell({ current, fullBleed = false, children }: Prop
     <div className="flex min-h-screen flex-col">
       <GlobalHeader current={current} />
       <main
+        id="main-content"
         className={
           fullBleed
             ? "flex-1"

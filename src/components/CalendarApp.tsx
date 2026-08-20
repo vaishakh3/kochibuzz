@@ -190,7 +190,7 @@ export default function CalendarApp() {
         </div>
       </div>
 
-      <main className="mt-2 flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl bg-[#faf8f2] lg:mt-0 lg:rounded-l-none">
+      <section aria-label="Event calendar" className="mt-2 flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl bg-[#faf8f2] lg:mt-0 lg:rounded-l-none">
         <header className="flex flex-wrap items-center gap-3 px-4 py-4 sm:px-6 sm:py-5">
           <h2 className="mr-auto text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
             {heading}
@@ -295,7 +295,7 @@ export default function CalendarApp() {
             onOpenEvent={(event) => setOpenEventId(event.id)}
           />
         )}
-      </main>
+      </section>
 
       {openEvent && (
         <div

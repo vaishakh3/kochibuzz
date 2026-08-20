@@ -168,7 +168,7 @@ export const spaces: Space[] = [
 ];
 
 /** Prefilled GitHub issue for community event submissions. */
-export const submitEventUrl = `https://github.com/vaishakh3/kochitechevents/issues/new?${new URLSearchParams(
+export const submitEventUrl = `https://github.com/vaishakh3/kochibuzz/issues/new?${new URLSearchParams(
   {
     title: "Event: ",
     body: [

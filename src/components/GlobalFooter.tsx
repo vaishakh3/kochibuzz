@@ -3,30 +3,31 @@ import { BrandLockup } from "@/components/signal";
 
 const columns = [
   {
-    heading: "Explore",
+    heading: "Catch up",
     links: [
       { href: "/events", label: "Events" },
       { href: "/jobs", label: "Jobs" },
       { href: "/opportunities", label: "Opportunities" },
-      { href: "/built", label: "Built in Kochi" },
+      { href: "/digest", label: "The digest" },
     ],
   },
   {
-    heading: "Ecosystem",
+    heading: "Meet Kochi",
     links: [
+      { href: "/built", label: "Built here" },
       { href: "/communities", label: "Communities" },
-      { href: "/places", label: "Places" },
-      { href: "/digest", label: "Digest" },
+      { href: "/places", label: "Places to build" },
+      { href: "/calendar.ics", label: "Calendar feed" },
     ],
   },
   {
-    heading: "Project",
+    heading: "Join in",
     links: [
-      { href: "/submit", label: "Submit" },
-      { href: "/about", label: "About" },
+      { href: "/submit", label: "Submit a signal" },
+      { href: "/about", label: "How it works" },
       { href: "/feed.xml", label: "RSS" },
       {
-        href: "https://github.com/vaishakh3/kochitechevents",
+        href: "https://github.com/vaishakh3/kochibuzz",
         label: "GitHub",
         external: true,
       },
@@ -36,49 +37,62 @@ const columns = [
 
 export default function GlobalFooter() {
   return (
-    <footer className="mt-20 border-t border-[var(--line)]">
-      <div className="mx-auto grid w-full max-w-[1200px] gap-10 px-4 py-12 sm:grid-cols-[1.4fr_1fr_1fr_1fr] sm:px-6">
-        <div>
-          <BrandLockup className="text-lg text-white" />
-          <p className="mt-2 max-w-[220px] text-sm text-white/45">
-            The live layer for Kochi tech.
-          </p>
-          <p className="mt-6 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/30">
-            Tracked from public sources
-          </p>
+    <footer className="mt-20 border-t border-[var(--line)] bg-[#08080d]">
+      <div className="mx-auto w-full max-w-[1280px] px-4 py-10 sm:px-6 sm:py-14">
+        <div className="grid gap-12 lg:grid-cols-[1.25fr_1fr]">
+          <div>
+            <BrandLockup className="text-2xl text-white" />
+            <h2 className="font-display mt-6 max-w-lg text-4xl font-semibold leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl">
+              One city. A thousand useful signals.
+            </h2>
+            <p className="mt-5 max-w-md text-sm leading-relaxed text-white/45">
+              A public-interest discovery layer for the people who make, meet,
+              learn and build in Kochi. Starting with tech; always open to the
+              rest of the city.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+            {columns.map((column) => (
+              <nav key={column.heading} aria-label={column.heading}>
+                <h3 className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.24em] text-[var(--signal)]">
+                  {column.heading}
+                </h3>
+                <ul className="mt-4 space-y-2.5">
+                  {column.links.map((link) =>
+                    "external" in link && link.external ? (
+                      <li key={link.href}>
+                        <a
+                          href={link.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-white/52 transition hover:text-white"
+                        >
+                          {link.label} ↗
+                        </a>
+                      </li>
+                    ) : (
+                      <li key={link.href}>
+                        <Link
+                          href={link.href}
+                          className="text-sm text-white/52 transition hover:text-white"
+                        >
+                          {link.label}
+                        </Link>
+                      </li>
+                    ),
+                  )}
+                </ul>
+              </nav>
+            ))}
+          </div>
         </div>
-        {columns.map((column) => (
-          <nav key={column.heading} aria-label={column.heading}>
-            <h3 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/35">
-              {column.heading}
-            </h3>
-            <ul className="mt-3 space-y-2">
-              {column.links.map((link) =>
-                "external" in link && link.external ? (
-                  <li key={link.href}>
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-white/60 transition hover:text-white"
-                    >
-                      {link.label} ↗
-                    </a>
-                  </li>
-                ) : (
-                  <li key={link.href}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-white/60 transition hover:text-white"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ),
-              )}
-            </ul>
-          </nav>
-        ))}
+
+        <div className="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-5 font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.2em] text-white/28">
+          <span>Kochi · 9.9312°N 76.2673°E</span>
+          <span>Tracked from public sources · refreshed through the day</span>
+          <span>Made for the city</span>
+        </div>
       </div>
     </footer>
   );

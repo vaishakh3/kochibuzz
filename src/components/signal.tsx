@@ -5,7 +5,7 @@ import type { CategoryId } from "@/data/events";
  * All decorative; every root carries aria-hidden.
  */
 
-/** Brand lockup: kochi.buzz with a live signal dot. */
+/** Brand lockup: a utility wordmark interrupted by the live editorial signal. */
 export function BrandLockup({
   pulse = false,
   className = "",
@@ -14,13 +14,13 @@ export function BrandLockup({
   className?: string;
 }) {
   return (
-    <span className={`inline-flex items-baseline gap-1.5 font-bold tracking-tight ${className}`}>
-      <span>
-        kochi<span className="text-[var(--muted)]">.</span>buzz
+    <span className={`inline-flex items-center gap-2 font-bold tracking-[-0.035em] ${className}`}>
+      <span className="leading-none">
+        kochi<span className="font-display font-semibold italic text-[var(--signal)]">.buzz</span>
       </span>
       <span
         aria-hidden
-        className={`signal-dot ${pulse ? "signal-dot--pulse" : ""}`}
+        className={`signal-dot mb-0.5 ${pulse ? "signal-dot--pulse" : ""}`}
       />
     </span>
   );

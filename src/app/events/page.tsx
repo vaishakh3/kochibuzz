@@ -51,7 +51,7 @@ export default async function EventsPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
-      <main className="flex-1 px-2 py-3 sm:px-4 sm:py-6">
+      <main id="main-content" className="flex-1 px-2 py-3 sm:px-4 sm:py-6">
         <CalendarApp />
       </main>
     </div>

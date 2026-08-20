@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/submit" },
 };
 
-const REPO = "https://github.com/vaishakh3/kochitechevents/issues/new";
+const REPO = "https://github.com/vaishakh3/kochibuzz/issues/new";
 
 const forms = [
   {

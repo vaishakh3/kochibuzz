@@ -64,21 +64,24 @@ export default function GlobalHeader({ current }: { current: string }) {
 
   const linkClass = (href: string) =>
     [
-      "text-sm transition",
+      "rounded-full px-3 py-2 text-[13px] font-semibold transition",
       href === current
-        ? "font-semibold text-[var(--signal)]"
-        : "text-white/60 hover:text-white",
+        ? "bg-[var(--signal)] text-[var(--signal-ink)]"
+        : "text-white/58 hover:bg-white/[0.06] hover:text-white",
     ].join(" ");
 
   return (
-    <header className="relative z-40 border-b border-[var(--line)]">
-      <div className="mx-auto flex h-14 w-full max-w-[1200px] items-center gap-6 px-4 sm:px-6">
-        <Link href="/" className="text-[17px] text-white">
+    <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[#0b0b12]/90 backdrop-blur-xl">
+      <div className="mx-auto flex h-16 w-full max-w-[1280px] items-center gap-5 px-4 sm:px-6">
+        <Link href="/" className="shrink-0 text-[17px] text-white">
           <BrandLockup pulse={current === "/"} />
         </Link>
+        <span className="hidden border-l border-white/[0.12] pl-4 font-[family-name:var(--font-geist-mono)] text-[8px] uppercase leading-relaxed tracking-[0.22em] text-white/30 xl:block">
+          The city<br />tuned in
+        </span>
 
         {/* Desktop nav */}
-        <nav aria-label="Primary" className="hidden items-center gap-5 md:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-0.5 md:flex">
           {primary.map((item) => (
             <Link key={item.href} href={item.href} className={linkClass(item.href)}>
               {item.label}
@@ -90,10 +93,10 @@ export default function GlobalHeader({ current }: { current: string }) {
               aria-expanded={exploreOpen}
               aria-haspopup="menu"
               className={[
-                "flex items-center gap-1 text-sm transition",
+                "flex items-center gap-1 rounded-full px-3 py-2 text-[13px] font-semibold transition",
                 exploreActive
-                  ? "font-semibold text-[var(--signal)]"
-                  : "text-white/60 hover:text-white",
+                  ? "bg-[var(--signal)] text-[var(--signal-ink)]"
+                  : "text-white/58 hover:bg-white/[0.06] hover:text-white",
               ].join(" ")}
             >
               Explore
@@ -108,7 +111,7 @@ export default function GlobalHeader({ current }: { current: string }) {
             {exploreOpen && (
               <div
                 role="menu"
-                className="animate-card-pop absolute left-0 top-full mt-2 w-48 overflow-hidden rounded-lg bg-[var(--surface-2)] py-1.5 shadow-[0_20px_50px_-15px_rgba(0,0,0,0.8)] ring-1 ring-white/15"
+                className="animate-card-pop absolute left-0 top-full mt-2 w-52 overflow-hidden rounded-2xl bg-[var(--surface-2)] p-2 shadow-[0_20px_50px_-15px_rgba(0,0,0,0.8)] ring-1 ring-white/15"
               >
                 {explore.map((item) => (
                   <Link
@@ -117,7 +120,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                     role="menuitem"
                     onClick={() => setExploreOpen(false)}
                     className={[
-                      "block px-4 py-2 text-sm transition hover:bg-white/[0.06]",
+                      "block rounded-xl px-3 py-2.5 text-sm transition hover:bg-white/[0.06]",
                       item.href === current
                         ? "font-semibold text-[var(--signal)]"
                         : "text-white/75",
@@ -134,7 +137,7 @@ export default function GlobalHeader({ current }: { current: string }) {
         <div className="ml-auto flex items-center gap-3">
           <button
             onClick={() => setSearchOpen(true)}
-            className="flex items-center gap-2 rounded-md bg-white/[0.05] px-3 py-1.5 text-sm text-white/50 ring-1 ring-white/10 transition hover:text-white"
+            className="flex h-10 items-center gap-2 rounded-full bg-white/[0.055] px-3 text-sm text-white/50 ring-1 ring-white/10 transition hover:bg-white/[0.09] hover:text-white"
             aria-label="Search"
           >
             <svg aria-hidden viewBox="0 0 16 16" className="h-3.5 w-3.5">
@@ -142,21 +145,23 @@ export default function GlobalHeader({ current }: { current: string }) {
               <path d="M10.5 10.5 L14 14" stroke="currentColor" strokeWidth="1.4" />
             </svg>
             <span className="hidden sm:inline">Search</span>
-            <kbd className="hidden rounded bg-white/10 px-1 font-[family-name:var(--font-geist-mono)] text-[10px] text-white/45 sm:inline">
+            <kbd className="hidden rounded-full bg-white/10 px-1.5 py-0.5 font-[family-name:var(--font-geist-mono)] text-[9px] text-white/45 sm:inline">
               /
             </kbd>
           </button>
 
-          <nav aria-label="Utility" className="hidden items-center gap-4 md:flex">
+          <nav aria-label="Utility" className="hidden items-center gap-2 lg:flex">
             {utility.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 className={[
-                  "font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider transition",
+                  "rounded-full px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-wider transition",
                   item.href === current
-                    ? "text-[var(--signal)]"
-                    : "text-white/40 hover:text-white",
+                    ? "bg-white/10 text-[var(--signal)]"
+                    : item.href === "/submit"
+                      ? "bg-[var(--coral)] text-black hover:brightness-110"
+                      : "text-white/40 hover:text-white",
                 ].join(" ")}
               >
                 {item.label}
@@ -168,7 +173,7 @@ export default function GlobalHeader({ current }: { current: string }) {
           <button
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
-            className="grid h-9 w-9 place-items-center rounded-md ring-1 ring-white/10 md:hidden"
+            className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10 md:hidden"
           >
             <svg aria-hidden viewBox="0 0 16 16" className="h-4 w-4 text-white/80">
               <path d="M2 4.5h12M2 8h12M2 11.5h8" stroke="currentColor" strokeWidth="1.3" />
@@ -179,22 +184,25 @@ export default function GlobalHeader({ current }: { current: string }) {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 bg-[var(--bg)] md:hidden">
-          <div className="flex h-14 items-center justify-between px-4">
+        <div className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg)] md:hidden">
+          <div aria-hidden className="pointer-events-none absolute -right-24 top-20 h-72 w-72 rounded-full border-[3rem] border-[#ff6542]/20" />
+          <div aria-hidden className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border-[4rem] border-[#d7f24b]/10" />
+          <div className="relative flex h-16 items-center justify-between border-b border-white/10 px-4">
             <Link href="/" className="text-[17px] text-white" onClick={() => setMenuOpen(false)}>
               <BrandLockup />
             </Link>
             <button
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
-              className="grid h-9 w-9 place-items-center rounded-md ring-1 ring-white/10"
+              className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10"
             >
               <svg aria-hidden viewBox="0 0 16 16" className="h-4 w-4 text-white/80">
                 <path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" strokeWidth="1.3" />
               </svg>
             </button>
           </div>
-          <nav aria-label="Mobile" className="px-6 pb-8 pt-4">
+          <nav aria-label="Mobile" className="relative px-6 pb-10 pt-8">
+            <p className="mb-4 font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.25em] text-[var(--signal)]">Kochi, live right now</p>
             <ul className="space-y-1">
               {primary.map((item) => (
                 <li key={item.href}>
@@ -202,7 +210,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                     href={item.href}
                     onClick={() => setMenuOpen(false)}
                     className={[
-                      "font-display block py-2 text-3xl font-semibold tracking-tight",
+                      "font-display block py-2 text-4xl font-semibold tracking-[-0.035em]",
                       item.href === current ? "text-[var(--signal)]" : "text-white",
                     ].join(" ")}
                   >

@@ -1,10 +1,13 @@
 # kochi.buzz
 
-Kochi is buzzing. Know what's next.
+The city, tuned in.
 
-The live discovery layer for Kochi's technology, startup, maker and creative-tech
-ecosystem — events, opportunities, jobs, communities, places and things being built
-around Kochi. Live at [kochi.buzz](https://kochi.buzz).
+The live discovery layer for the people who make, meet, learn and build in Kochi —
+starting with technology, startups, makers and creative tech. Discover events,
+opportunities, jobs, communities, places and things being built around the city.
+Live at [kochi.buzz](https://kochi.buzz).
+
+The product and visual principles are documented in [BRAND.md](./BRAND.md).
 
 ## Surfaces
 

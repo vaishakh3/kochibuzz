@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -21,24 +21,42 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kochi.buzz"),
-  title: "kochi.buzz — What's happening in Kochi tech",
+  title: "Kochi Buzz — The city, tuned in",
   description:
-    "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
+    "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+  applicationName: "Kochi Buzz",
+  category: "city guide",
   openGraph: {
-    title: "kochi.buzz — What's happening in Kochi tech",
+    title: "Kochi Buzz — The city, tuned in",
     description:
-      "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
+      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
     url: "https://kochi.buzz",
     siteName: "kochi.buzz",
     locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Kochi Buzz — The city, tuned in",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
-    title: "kochi.buzz — What's happening in Kochi tech",
+    card: "summary_large_image",
+    title: "Kochi Buzz — The city, tuned in",
     description:
-      "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
+      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+    images: ["/og.png"],
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0b0b12",
+  colorScheme: "dark",
 };
 
 export default function RootLayout({
@@ -51,6 +69,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
       >
+        <a href="#main-content" className="skip-link">Skip to the buzz</a>
         {children}
         <Analytics />
       </body>

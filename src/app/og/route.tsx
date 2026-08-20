@@ -3,8 +3,6 @@ import { NextRequest } from "next/server";
 import { CategoryId, categoryById, eventById } from "@/data/events";
 import { formatDateRange, formatTimeRange, parseDate } from "@/lib/calendar";
 
-export const runtime = "edge";
-
 const MONTHS_SHORT = [
   "JAN",
   "FEB",
@@ -34,7 +32,7 @@ const categoryHex: Record<CategoryId, string> = {
 export function GET(request: NextRequest): ImageResponse {
   const id = request.nextUrl.searchParams.get("e");
   const event = id ? eventById.get(id) : undefined;
-  const accent = event ? categoryHex[event.category] : "#a78bfa";
+  const accent = event ? categoryHex[event.category] : "#d7f24b";
   const start = event ? parseDate(event.start) : undefined;
 
   return new ImageResponse(
@@ -47,7 +45,7 @@ export function GET(request: NextRequest): ImageResponse {
         justifyContent: "space-between",
         padding: 72,
         background:
-          "linear-gradient(135deg, #0d0d10 0%, #17122b 60%, #2a1a4d 100%)",
+          "linear-gradient(135deg, #0b0b12 0%, #171723 60%, #202b2a 100%)",
         color: "white",
         fontFamily: "sans-serif",
         position: "relative",
@@ -81,10 +79,10 @@ export function GET(request: NextRequest): ImageResponse {
               fontSize: 26,
               letterSpacing: 6,
               textTransform: "uppercase",
-              color: "#c4b5fd",
+              color: "#d7f24b",
             }}
           >
-            Kochi Tech Events
+            Kochi Buzz · The city, tuned in
           </div>
           <div
             style={{
@@ -98,7 +96,7 @@ export function GET(request: NextRequest): ImageResponse {
             <span
               style={{
                 display: "flex",
-                color: "#a78bfa",
+                color: "#d7f24b",
               }}
             >
               .buzz
