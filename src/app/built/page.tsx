@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
 import ProjectVisual from "@/components/ProjectVisual";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { projects } from "@/data/dataset";
 import type { Project } from "@/data/types";
 
@@ -32,6 +33,20 @@ function ProjectLinks({ project }: { project: Project }) {
           Code →
         </a>
       )}
+      <SaveToBuzzButton
+        compact
+        className="min-h-8 px-2.5 py-1 text-[11px]"
+        item={{
+          id: `project:${project.id}`,
+          kind: "project",
+          eyebrow: project.categories.join(" · "),
+          title: project.name,
+          detail: project.description ?? project.tagline,
+          meta: project.kochiConnection,
+          href: `/built#${project.id}`,
+          trackLabel: "Build something",
+        }}
+      />
     </div>
   );
 }

@@ -8,5 +8,7 @@
       <stop offset="1" stop-color="#0b0b12"/>
     </radialGradient>
   </defs>
-  <text x="32" y="42" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#f5f0e7">k<tspan fill="#d7f24b">.</tspan>b</text>
+  <text x="27" y="42" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#f5f0e7">k</text>
+  <circle cx="34" cy="39" r="2.8" fill="#d7f24b"/>
+  <text x="45" y="42" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" fill="#f5f0e7">b</text>
 </svg>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { opportunities, opportunityTypeLabels } from "@/data/dataset";
 import { daysBetween, CLOSING_SOON_DAYS } from "@/lib/buzz";
 import { toISODate, todayInIST } from "@/lib/calendar";
@@ -59,12 +60,12 @@ export default function OpportunitiesPage() {
                 : undefined;
             const closingSoon = days !== undefined && days <= CLOSING_SOON_DAYS;
             return (
-              <li key={opportunity.id} id={opportunity.id}>
+              <li key={opportunity.id} id={opportunity.id} className="flex flex-col border-t border-white/10 sm:flex-row sm:items-center sm:gap-2">
                 <a
                   href={opportunity.applicationUrl ?? opportunity.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex h-full gap-5 border-t border-white/10 py-6 transition hover:bg-white/[0.02]"
+                  className="group flex h-full min-w-0 flex-1 gap-5 py-6 transition hover:bg-white/[0.02]"
                 >
                   {/* Deadline is the signal */}
                   <div className="w-20 shrink-0 text-center">
@@ -116,6 +117,21 @@ export default function OpportunitiesPage() {
                     </div>
                   </div>
                 </a>
+                <SaveToBuzzButton
+                  compact
+                  className="-mt-4 mb-5 ml-[6.25rem] min-h-9 shrink-0 self-start px-3 py-1.5 text-xs sm:m-0 sm:self-auto"
+                  item={{
+                    id: `opportunity:${opportunity.id}`,
+                    kind: "opportunity",
+                    eyebrow: `${opportunityTypeLabels[opportunity.type]} · ${opportunity.ongoing || !opportunity.deadlineAt ? "Rolling" : `${days} days left`}`,
+                    title: opportunity.title,
+                    detail: opportunity.summary,
+                    meta: opportunity.organization,
+                    href: opportunity.applicationUrl ?? opportunity.url,
+                    external: true,
+                    trackLabel: "Move your work",
+                  }}
+                />
               </li>
             );
           })}

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { CoordinateGrid } from "@/components/signal";
 import { spaces } from "@/data/directory";
 
@@ -47,7 +48,7 @@ export default function PlacesPage() {
                   <p className="mt-2 text-sm leading-relaxed text-white/55">
                     {space.blurb}
                   </p>
-                  <div className="mt-3 flex gap-4 text-xs font-medium">
+                  <div className="mt-3 flex flex-wrap items-center gap-4 text-xs font-medium">
                     <a
                       href={space.url}
                       target="_blank"
@@ -66,6 +67,21 @@ export default function PlacesPage() {
                     >
                       Map →
                     </a>
+                    <SaveToBuzzButton
+                      compact
+                      className="min-h-8 px-2.5 py-1 text-[11px]"
+                      item={{
+                        id: `place:${space.name}`,
+                        kind: "place",
+                        eyebrow: `${space.kind} · ${space.area}`,
+                        title: space.name,
+                        detail: space.blurb,
+                        meta: `${space.area} · Official website`,
+                        href: space.url,
+                        external: true,
+                        trackLabel: "Find your people",
+                      }}
+                    />
                   </div>
                 </li>
               ))}

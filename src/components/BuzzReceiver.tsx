@@ -5,18 +5,9 @@ import Link from "next/link";
 import type { CSSProperties } from "react";
 import { useEffect, useEffectEvent, useRef, useState } from "react";
 import LiveClock from "@/components/LiveClock";
+import { readMyBuzz, writeMyBuzz, type MyBuzzItem } from "@/lib/myBuzz";
 
-export type BuzzPick = {
-  id: string;
-  kind: "event" | "community" | "place" | "job" | "opportunity" | "project";
-  eyebrow: string;
-  title: string;
-  detail: string;
-  meta: string;
-  href: string;
-  external?: boolean;
-  calendarHref?: string;
-};
+export type BuzzPick = Omit<MyBuzzItem, "trackLabel">;
 
 export type BuzzTrack = {
   id: "go" | "people" | "career" | "build";
@@ -26,25 +17,30 @@ export type BuzzTrack = {
   items: BuzzPick[];
 };
 
-type SavedPick = BuzzPick & { trackLabel: string };
+type SavedPick = MyBuzzItem;
 
 const TRACK_KEY = "kochibuzz:frequency:v1";
-const SAVED_KEY = "kochibuzz:saved:v1";
 const VISIT_KEY = "kochibuzz:last-visit:v1";
+const SCAN_KEY = "kochibuzz:daily-scan:v1";
 
-function readSaved(): SavedPick[] {
+type DailyScan = {
+  date: string;
+  trackIds: BuzzTrack["id"][];
+};
+
+function getLocal(key: string): string | null {
   try {
-    const parsed = JSON.parse(window.localStorage.getItem(SAVED_KEY) ?? "[]");
-    if (!Array.isArray(parsed)) return [];
-    return parsed.filter(
-      (item): item is SavedPick =>
-        Boolean(item) &&
-        typeof item.id === "string" &&
-        typeof item.title === "string" &&
-        typeof item.href === "string",
-    );
+    return window.localStorage.getItem(key);
   } catch {
-    return [];
+    return null;
+  }
+}
+
+function setLocal(key: string, value: string) {
+  try {
+    window.localStorage.setItem(key, value);
+  } catch {
+    // The receiver still works for this session when storage is unavailable.
   }
 }
 
@@ -55,6 +51,16 @@ function todayKey() {
     month: "2-digit",
     day: "2-digit",
   }).format(new Date());
+}
+
+function readDailyScan(date: string): BuzzTrack["id"][] {
+  try {
+    const parsed = JSON.parse(getLocal(SCAN_KEY) ?? "null") as DailyScan | null;
+    if (!parsed || parsed.date !== date || !Array.isArray(parsed.trackIds)) return [];
+    return parsed.trackIds.filter((id): id is BuzzTrack["id"] => ["go", "people", "career", "build"].includes(id));
+  } catch {
+    return [];
+  }
 }
 
 function PickLink({ pick, className, children }: { pick: BuzzPick; className: string; children: React.ReactNode }) {
@@ -79,11 +85,13 @@ export default function BuzzReceiver({
   const [trackId, setTrackId] = useState<BuzzTrack["id"]>(tracks[0]?.id ?? "go");
   const [positions, setPositions] = useState<Record<string, number>>({});
   const [saved, setSaved] = useState<SavedPick[]>([]);
+  const [tunedToday, setTunedToday] = useState<BuzzTrack["id"][]>([]);
   const [queueOpen, setQueueOpen] = useState(false);
   const [ready, setReady] = useState(false);
   const [visitNote, setVisitNote] = useState("Your city scan is ready.");
   const [message, setMessage] = useState("Choose a station to tune the city.");
   const queueButtonRef = useRef<HTMLButtonElement>(null);
+  const firstStationRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
   const queueRef = useRef<HTMLDivElement>(null);
 
@@ -92,6 +100,8 @@ export default function BuzzReceiver({
   const pick = track?.items[position % Math.max(track.items.length, 1)];
   const trackIndex = Math.max(0, tracks.findIndex((candidate) => candidate.id === track?.id));
   const isSaved = Boolean(pick && saved.some((item) => item.id === pick.id));
+  const tunedCount = tracks.filter((candidate) => tunedToday.includes(candidate.id)).length;
+  const scanComplete = ready && tunedCount === tracks.length;
 
   const onShortcut = useEffectEvent((event: KeyboardEvent) => {
     const target = event.target as HTMLElement;
@@ -104,13 +114,18 @@ export default function BuzzReceiver({
 
   useEffect(() => {
     const timer = window.setTimeout(() => {
-      const remembered = window.localStorage.getItem(TRACK_KEY);
-      if (tracks.some((candidate) => candidate.id === remembered)) {
-        setTrackId(remembered as BuzzTrack["id"]);
-      }
-      setSaved(readSaved());
-      const previousVisit = window.localStorage.getItem(VISIT_KEY);
+      const remembered = getLocal(TRACK_KEY);
+      const initialTrack = tracks.some((candidate) => candidate.id === remembered)
+        ? remembered as BuzzTrack["id"]
+        : tracks[0]?.id;
+      if (initialTrack) setTrackId(initialTrack);
+      setSaved(readMyBuzz());
+      const previousVisit = getLocal(VISIT_KEY);
       const today = todayKey();
+      const scanned = readDailyScan(today);
+      const initialScan = initialTrack && !scanned.includes(initialTrack) ? [...scanned, initialTrack] : scanned;
+      setTunedToday(initialScan);
+      setLocal(SCAN_KEY, JSON.stringify({ date: today, trackIds: initialScan } satisfies DailyScan));
       if (!previousVisit) {
         setVisitNote("First transmission on this device.");
       } else if (previousVisit === today) {
@@ -123,11 +138,26 @@ export default function BuzzReceiver({
         }).format(new Date(`${previousVisit}T12:00:00+05:30`));
         setVisitNote(`Welcome back. Last tuned ${readable}.`);
       }
-      window.localStorage.setItem(VISIT_KEY, today);
+      setLocal(VISIT_KEY, today);
+      if (new URLSearchParams(window.location.search).get("mybuzz") === "1") {
+        setMessage("No account. Nothing uploaded.");
+        setQueueOpen(true);
+        const cleanUrl = `${window.location.pathname}${window.location.hash}`;
+        window.history.replaceState(window.history.state, "", cleanUrl);
+      }
       setReady(true);
     }, 0);
     return () => window.clearTimeout(timer);
   }, [tracks]);
+
+  useEffect(() => {
+    function openSaved() {
+      setMessage("No account. Nothing uploaded.");
+      setQueueOpen(true);
+    }
+    window.addEventListener("kochibuzz:open-saved", openSaved);
+    return () => window.removeEventListener("kochibuzz:open-saved", openSaved);
+  }, []);
 
   useEffect(() => {
     window.addEventListener("keydown", onShortcut);
@@ -166,7 +196,13 @@ export default function BuzzReceiver({
 
   function chooseTrack(id: BuzzTrack["id"]) {
     setTrackId(id);
-    window.localStorage.setItem(TRACK_KEY, id);
+    setLocal(TRACK_KEY, id);
+    setTunedToday((current) => {
+      if (current.includes(id)) return current;
+      const nextTuned = [...current, id];
+      setLocal(SCAN_KEY, JSON.stringify({ date: todayKey(), trackIds: nextTuned } satisfies DailyScan));
+      return nextTuned;
+    });
     const next = tracks.find((candidate) => candidate.id === id);
     setMessage(next ? `${next.label} is now tuned.` : "Station changed.");
   }
@@ -181,22 +217,83 @@ export default function BuzzReceiver({
     if (!pick || !track) return;
     const alreadySaved = saved.some((item) => item.id === pick.id);
     const next = alreadySaved ? saved.filter((item) => item.id !== pick.id) : [...saved, { ...pick, trackLabel: track.label }];
-    setSaved(next);
-    window.localStorage.setItem(SAVED_KEY, JSON.stringify(next));
-    window.dispatchEvent(new CustomEvent("kochibuzz:saved", { detail: next.length }));
-    setMessage(alreadySaved ? "Removed from My Buzz." : "Saved to My Buzz on this device.");
+    if (writeMyBuzz(next)) {
+      setSaved(next);
+      setMessage(alreadySaved ? "Removed from My Buzz." : "Saved to My Buzz on this device.");
+    } else {
+      setMessage("This browser could not update My Buzz.");
+    }
   }
 
   function clearSaved() {
-    setSaved([]);
-    window.localStorage.removeItem(SAVED_KEY);
-    window.dispatchEvent(new CustomEvent("kochibuzz:saved", { detail: 0 }));
-    setMessage("My Buzz is clear.");
+    if (writeMyBuzz([])) {
+      setSaved([]);
+      setMessage("My Buzz is clear.");
+    } else {
+      setMessage("This browser could not clear My Buzz.");
+    }
+  }
+
+  function removeSaved(id: string) {
+    const next = saved.filter((item) => item.id !== id);
+    if (writeMyBuzz(next)) {
+      setSaved(next);
+      setMessage("Signal removed from My Buzz.");
+    } else {
+      setMessage("This browser could not update My Buzz.");
+    }
+  }
+
+  function savedText() {
+    const lines = saved.map((item, index) => {
+      const url = new URL(item.href, window.location.origin).toString();
+      return `${index + 1}. ${item.title}\n${item.meta}\n${url}`;
+    });
+    return `MY KOCHI BUZZ\n${todayKey()}\n\n${lines.join("\n\n")}\n\nTuned at kochi.buzz`;
+  }
+
+  async function copySaved() {
+    try {
+      await navigator.clipboard.writeText(savedText());
+      setMessage("My Buzz copied.");
+    } catch {
+      setMessage("Could not copy. Open a signal to copy its address.");
+    }
+  }
+
+  async function shareSaved() {
+    const text = savedText();
+    try {
+      if (navigator.share) {
+        await navigator.share({ title: "My Kochi Buzz", text });
+        setMessage("My Buzz shared.");
+        return;
+      }
+      await navigator.clipboard.writeText(text);
+      setMessage("My Buzz copied for sharing.");
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      setMessage("Could not share My Buzz.");
+    }
   }
 
   function closeQueue() {
     setQueueOpen(false);
     window.requestAnimationFrame(() => queueButtonRef.current?.focus());
+  }
+
+  function openQueue() {
+    setMessage("No account. Nothing uploaded.");
+    setQueueOpen(true);
+  }
+
+  function tuneFromEmpty() {
+    setQueueOpen(false);
+    window.requestAnimationFrame(() => {
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      firstStationRef.current?.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "center" });
+      firstStationRef.current?.focus({ preventScroll: true });
+    });
   }
 
   async function sharePick() {
@@ -253,18 +350,22 @@ export default function BuzzReceiver({
 
         <div className="broadcast-console">
           <div className="broadcast-console__topline">
-            <div>
+            <div className="broadcast-console__status">
               <span>City receiver · visual broadcast</span>
-              <small>{ready ? visitNote : "Connecting to the city…"}</small>
+              <small>{ready ? (scanComplete ? "Today’s city scan is complete." : visitNote) : "Connecting to the city…"}</small>
             </div>
-            <button ref={queueButtonRef} type="button" onClick={() => setQueueOpen(true)} className="broadcast-queue-button" aria-label={`Open My Buzz, ${saved.length} saved ${saved.length === 1 ? "signal" : "signals"}`}>
+            <div className="broadcast-daily" aria-label={`Today’s city scan: ${tunedCount} of ${tracks.length} stations tuned`}>
+              <span>{ready ? `${tunedCount}/${tracks.length} tuned` : "—/— tuned"}</span>
+              <div aria-hidden>{tracks.map((candidate) => <i key={candidate.id} className={tunedToday.includes(candidate.id) ? "is-tuned" : ""} style={{ "--track-color": candidate.color } as CSSProperties} />)}</div>
+            </div>
+            <button ref={queueButtonRef} type="button" onClick={openQueue} className="broadcast-queue-button" aria-label={`Open My Buzz, ${saved.length} saved ${saved.length === 1 ? "signal" : "signals"}`}>
               My Buzz <b>{ready ? saved.length : "·"}</b>
             </button>
           </div>
 
           <div className="broadcast-stations" role="group" aria-label="Choose a Kochi station">
             {tracks.map((candidate, index) => (
-              <button key={candidate.id} type="button" onClick={() => chooseTrack(candidate.id)} aria-pressed={candidate.id === track.id} aria-keyshortcuts={String(index + 1)} style={{ "--track-color": candidate.color } as CSSProperties}>
+              <button ref={index === 0 ? firstStationRef : undefined} key={candidate.id} type="button" onClick={() => chooseTrack(candidate.id)} aria-pressed={candidate.id === track.id} aria-keyshortcuts={String(index + 1)} className={tunedToday.includes(candidate.id) ? "is-tuned" : ""} style={{ "--track-color": candidate.color } as CSSProperties}>
                 <span>{String(index + 1).padStart(2, "0")}</span>
                 <strong>{candidate.shortLabel}</strong>
                 <i aria-hidden />
@@ -302,15 +403,24 @@ export default function BuzzReceiver({
               <button ref={closeButtonRef} type="button" onClick={closeQueue} aria-label="Close My Buzz">×</button>
             </div>
             {saved.length === 0 ? (
-              <div className="broadcast-queue__empty"><strong className="font-display">Nothing saved yet.</strong><p>Tune a station and keep the signals you want to act on later.</p></div>
+              <div className="broadcast-queue__empty"><strong className="font-display">Nothing saved yet.</strong><p>Save any event, role, opportunity, community, project or place—or let the receiver find a quick pick.</p><button type="button" onClick={tuneFromEmpty}>Tune the receiver →</button></div>
             ) : (
               <ol className="broadcast-queue__list">
                 {saved.map((item, index) => (
-                  <li key={item.id}><PickLink pick={item} className="broadcast-saved-item"><span>{String(index + 1).padStart(2, "0")}</span><span><strong>{item.title}</strong><small>{item.trackLabel} · {item.meta}</small></span><span aria-hidden>↗</span></PickLink></li>
+                  <li key={item.id} className="broadcast-saved-row">
+                    <PickLink pick={item} className="broadcast-saved-item"><span>{String(index + 1).padStart(2, "0")}</span><span><strong>{item.title}</strong><small>{item.trackLabel} · {item.meta}</small></span><span aria-hidden>↗</span></PickLink>
+                    <div className="broadcast-saved-row__actions">
+                      {item.calendarHref && <a href={item.calendarHref}>Calendar</a>}
+                      <button type="button" onClick={() => removeSaved(item.id)} aria-label={`Remove ${item.title} from My Buzz`}>Remove</button>
+                    </div>
+                  </li>
                 ))}
               </ol>
             )}
-            <div className="broadcast-queue__foot"><span>No account. Nothing uploaded.</span>{saved.length > 0 && <button type="button" onClick={clearSaved}>Clear all</button>}</div>
+            <div className="broadcast-queue__foot">
+              <span aria-live="polite">{message}</span>
+              {saved.length > 0 && <div><button type="button" onClick={copySaved}>Copy list</button><button type="button" onClick={shareSaved}>Share</button><button type="button" onClick={clearSaved}>Clear all</button></div>}
+            </div>
           </div>
         </div>
       )}

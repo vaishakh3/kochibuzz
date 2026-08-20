@@ -74,15 +74,19 @@ The primary people-first broadcast artwork is
 `public/images/broadcast/kochi-on-air.webp`; its text-safe social crop is
 `public/images/broadcast/kochi-on-air-social.jpg`. The original city-system
 artwork remains at `public/images/kochi-city-frequency.webp`. All were generated
-for Kochi Buzz and should anchor future commissioned imagery.
+for Kochi Buzz and should anchor future commissioned imagery. The labelled
+community-life portrait lives at
+`public/images/broadcast/kochi-community-night.webp`.
 
 ## Product rhythm
 
 The first minute begins with a **visual city broadcast**, not a page tour. A
 visitor chooses a station—Outside, People, Work or Build—and receives a short
 sequence of real signals with next, save, calendar and open actions. The
-selected frequency and “My Buzz” queue are remembered on that device without an
-account.
+selected frequency, date-scoped four-station scan and “My Buzz” queue are
+remembered on that device without an account. Each day begins a new scan. My
+Buzz is reachable across the product, and real events, roles, opportunities,
+communities, projects and places can all feed it.
 
 The rest of the homepage answers three repeatable questions:
 
@@ -90,9 +94,10 @@ The rest of the homepage answers three repeatable questions:
 2. **What should I plan?** This week, opportunities and hiring.
 3. **Where do I belong?** Projects, communities and places.
 
-The personal queue, calendar, 7/30-day digest, RSS and ICS feed form the first
-retention loop. They preserve the public, source-backed core and never pretend
-to know more about a visitor than their explicit device-local choices.
+The daily scan, portable personal queue, calendar, 7/30-day digest, RSS, ICS and
+installable app shortcuts form the first retention loop. They preserve the
+public, source-backed core and never pretend to know more about a visitor than
+their explicit device-local choices.
 
 ## Guardrails
 

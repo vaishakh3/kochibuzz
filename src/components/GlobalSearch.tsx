@@ -23,6 +23,8 @@ export default function GlobalSearch({
   const searchRef = useRef<((q: string) => Grouped) | null>(null);
   const queryRef = useRef("");
   const inputRef = useRef<HTMLInputElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const returnFocusRef = useRef<HTMLElement | null>(null);
 
   const runSearch = useCallback((q: string) => {
     setQuery(q);
@@ -32,6 +34,9 @@ export default function GlobalSearch({
 
   useEffect(() => {
     if (!open) return;
+    returnFocusRef.current = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     inputRef.current?.focus();
     if (!searchRef.current) {
       import("@/lib/searchIndex").then((mod) => {
@@ -39,12 +44,30 @@ export default function GlobalSearch({
         setResults(mod.searchAll(queryRef.current));
       });
     }
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      returnFocusRef.current?.focus();
+    };
   }, [open]);
 
   useEffect(() => {
     if (!open) return;
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
+      if (e.key !== "Tab") return;
+      const focusable = panelRef.current?.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -61,6 +84,7 @@ export default function GlobalSearch({
       aria-label="Search kochi.buzz"
     >
       <div
+        ref={panelRef}
         className="animate-sheet-up mx-auto mt-4 w-full max-w-xl overflow-hidden rounded-xl bg-[var(--surface)] ring-1 ring-white/15 sm:mt-16"
         onClick={(e) => e.stopPropagation()}
       >

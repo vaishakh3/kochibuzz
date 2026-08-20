@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { jobCategoryLabels } from "@/data/dataset";
 import type { Job, JobCategory } from "@/data/types";
 
@@ -149,29 +150,46 @@ export default function JobsExplorer({
         <>
           <ul className="mt-5 divide-y divide-white/[0.06]">
             {filtered.slice(0, shown).map((job) => (
-              <li key={job.id}>
-                <a
-                  href={job.detailUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group flex flex-wrap items-baseline gap-x-3 gap-y-0.5 py-3"
-                >
-                  <span className="text-sm font-semibold text-white group-hover:text-[var(--signal)]">
-                    {job.title}
-                  </span>
-                  {isNew(job) && (
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal)]">
-                      New
+              <li key={job.id} className="jobs-list-item">
+                <div className="flex items-center gap-2">
+                  <a
+                    href={job.detailUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group flex min-w-0 flex-1 flex-wrap items-baseline gap-x-3 gap-y-0.5 py-3"
+                  >
+                    <span className="text-sm font-semibold text-white group-hover:text-[var(--signal)]">
+                      {job.title}
                     </span>
-                  )}
-                  <span className="text-xs text-white/50">{job.company}</span>
-                  <span className="ml-auto flex shrink-0 items-baseline gap-3 text-[11px] text-white/70">
-                    <span>{jobCategoryLabels[job.category]}</span>
-                    {job.deadlineAt && (
-                      <span>apply by {formatDate(job.deadlineAt)}</span>
+                    {isNew(job) && (
+                      <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal)]">
+                        New
+                      </span>
                     )}
-                  </span>
-                </a>
+                    <span className="text-xs text-white/50">{job.company}</span>
+                    <span className="ml-auto flex shrink-0 items-baseline gap-3 text-[11px] text-white/70">
+                      <span>{jobCategoryLabels[job.category]}</span>
+                      {job.deadlineAt && (
+                        <span>apply by {formatDate(job.deadlineAt)}</span>
+                      )}
+                    </span>
+                  </a>
+                  <SaveToBuzzButton
+                    compact
+                    className="min-h-8 shrink-0 px-2.5 py-1 text-[11px]"
+                    item={{
+                      id: `job:${job.id}`,
+                      kind: "job",
+                      eyebrow: `${jobCategoryLabels[job.category]} · ${isNew(job) ? "New role" : "Open role"}`,
+                      title: job.title,
+                      detail: `${job.company} is hiring${job.location ? ` in ${job.location}` : " in the Kochi tech ecosystem"}.`,
+                      meta: `${job.company}${job.location ? ` · ${job.location}` : ""}`,
+                      href: job.detailUrl,
+                      external: true,
+                      trackLabel: "Move your work",
+                    }}
+                  />
+                </div>
               </li>
             ))}
           </ul>

@@ -26,6 +26,12 @@ export const metadata: Metadata = {
     "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
   applicationName: "Kochi Buzz",
   category: "city guide",
+  appleWebApp: {
+    capable: true,
+    title: "Kochi Buzz",
+    statusBarStyle: "black-translucent",
+  },
+  formatDetection: { telephone: false },
   openGraph: {
     title: "Kochi Buzz — Kochi is on air",
     description:
@@ -65,7 +71,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
       >

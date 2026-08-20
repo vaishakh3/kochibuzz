@@ -31,10 +31,9 @@ Machine-readable: [`/calendar.ics`](https://kochi.buzz/calendar.ics) ·
 
 ## Stack
 
-Next.js (App Router) · TypeScript · Tailwind CSS · vitest · zod. Attendee lists are
-served by `/api/attendees`, backed by Upstash Redis when
-`UPSTASH_REDIS_REST_URL` / `UPSTASH_REDIS_REST_TOKEN` are set and an in-memory map
-otherwise.
+Next.js (App Router) · TypeScript · Tailwind CSS · vitest · zod. Personal receiver
+preferences, daily scan progress, and saved signals remain device-local in browser
+storage; the site does not require an account.
 
 ```bash
 npm install

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import GlobalFooter from "@/components/GlobalFooter";
 import GlobalHeader from "@/components/GlobalHeader";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { CategoryPattern } from "@/components/signal";
 import { categoryById, eventById, events } from "@/data/events";
 import {
@@ -165,6 +166,19 @@ export default async function EventPage({ params }: { params: Params }) {
                   </a>
                 </div>
               </details>
+              <SaveToBuzzButton
+                item={{
+                  id: `event:${event.id}`,
+                  kind: "event",
+                  eyebrow: `${countdownLabel(event, today)} · ${category.label}`,
+                  title: event.title,
+                  detail: event.blurb,
+                  meta: `${formatDateRange(event)} · ${formatTimeRange(event)} · ${event.venue}`,
+                  href: `/events/${event.id}`,
+                  calendarHref: `/e/${event.id}/event.ics`,
+                  trackLabel: "Go outside",
+                }}
+              />
               <a
                 href={maps}
                 target="_blank"

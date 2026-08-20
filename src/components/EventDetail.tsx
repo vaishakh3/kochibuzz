@@ -23,6 +23,7 @@ import {
   icsFor,
   isMultiDay,
 } from "@/lib/calendar";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 
 type Props = {
   event: TechEvent;
@@ -70,7 +71,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
   }
 
   return (
-    <div className="animate-sheet-up pointer-events-auto max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white shadow-[0_-20px_60px_-20px_rgba(15,23,42,0.5)] ring-1 ring-slate-200 lg:animate-card-pop lg:max-h-[calc(100vh-8rem)] lg:w-[360px] lg:max-w-[calc(100vw-2rem)] lg:rounded-2xl lg:shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)]">
+    <div role="region" aria-label={`${event.title} details`} className="animate-sheet-up pointer-events-auto max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white shadow-[0_-20px_60px_-20px_rgba(15,23,42,0.5)] ring-1 ring-slate-200 lg:animate-card-pop lg:max-h-[calc(100vh-8rem)] lg:w-[360px] lg:max-w-[calc(100vw-2rem)] lg:rounded-2xl lg:shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)]">
       <div
         aria-hidden
         className="mx-auto mt-2 h-1 w-10 rounded-full bg-slate-200 lg:hidden"
@@ -130,7 +131,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
       </div>
 
       {/* Primary action lives right after the essentials */}
-      <div className="px-5 pt-4">
+      <div className="grid gap-2 px-5 pt-4 sm:grid-cols-[1fr_auto]">
         <a
           href={event.registerUrl ?? event.url}
           target="_blank"
@@ -139,6 +140,21 @@ export default function EventDetail({ event, today, onClose }: Props) {
         >
           {event.registerUrl ? "Register" : "Event page"}
         </a>
+        <SaveToBuzzButton
+          tone="light"
+          className="rounded-xl px-3 text-xs"
+          item={{
+            id: `event:${event.id}`,
+            kind: "event",
+            eyebrow: `${countdown} · ${category.label}`,
+            title: event.title,
+            detail: event.blurb,
+            meta: `${formatDateRange(event)} · ${formatTimeRange(event)} · ${event.venue}`,
+            href: `/events/${event.id}`,
+            calendarHref: `/e/${event.id}/event.ics`,
+            trackLabel: "Go outside",
+          }}
+        />
       </div>
 
       <div className="flex flex-wrap gap-2 px-5 pt-4">

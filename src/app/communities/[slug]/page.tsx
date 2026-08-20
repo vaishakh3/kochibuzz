@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DirectoryShell from "@/components/DirectoryShell";
+import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { identityColors } from "@/components/signal";
 import { communityBySlug, communityDirectory } from "@/data/directory";
 import { TechEvent, categoryById } from "@/data/events";
@@ -117,6 +118,18 @@ export default async function CommunityPage({ params }: { params: Params }) {
         >
           Official page →
         </a>
+        <SaveToBuzzButton
+          item={{
+            id: `community:${community.slug}`,
+            kind: "community",
+            eyebrow: `${community.focus} · ${community.cadence}`,
+            title: community.name,
+            detail: community.blurb,
+            meta: "Kochi community · Official page",
+            href: `/communities/${community.slug}`,
+            trackLabel: "Find your people",
+          }}
+        />
       </div>
 
       {nextMeet ? (

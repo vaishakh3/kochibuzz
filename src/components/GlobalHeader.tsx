@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import GlobalSearch from "@/components/GlobalSearch";
 import { BrandLockup } from "@/components/signal";
+import { getMyBuzzSnapshot, getServerMyBuzzSnapshot, parseMyBuzz, subscribeMyBuzz } from "@/lib/myBuzz";
 
 const primary = [
   { href: "/", label: "Buzz" },
@@ -28,7 +29,13 @@ export default function GlobalHeader({ current }: { current: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [exploreOpen, setExploreOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const savedSnapshot = useSyncExternalStore(subscribeMyBuzz, getMyBuzzSnapshot, getServerMyBuzzSnapshot);
+  const savedCount = parseMyBuzz(savedSnapshot).length;
   const exploreRef = useRef<HTMLDivElement>(null);
+  const exploreButtonRef = useRef<HTMLButtonElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const menuCloseRef = useRef<HTMLButtonElement>(null);
+  const menuPanelRef = useRef<HTMLDivElement>(null);
 
   const exploreActive = explore.some((item) => item.href === current);
 
@@ -46,19 +53,61 @@ export default function GlobalHeader({ current }: { current: string }) {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  function openMyBuzz(event: React.MouseEvent<HTMLAnchorElement>) {
+    if (current !== "/") return;
+    event.preventDefault();
+    window.dispatchEvent(new CustomEvent("kochibuzz:open-saved"));
+  }
+
   useEffect(() => {
     if (!exploreOpen) return;
     function onDown(e: MouseEvent) {
       if (!exploreRef.current?.contains(e.target as Node)) setExploreOpen(false);
     }
+    function onExploreKey(e: KeyboardEvent) {
+      if (e.key !== "Escape") return;
+      setExploreOpen(false);
+      exploreButtonRef.current?.focus();
+    }
     document.addEventListener("mousedown", onDown);
-    return () => document.removeEventListener("mousedown", onDown);
+    document.addEventListener("keydown", onExploreKey);
+    return () => {
+      document.removeEventListener("mousedown", onDown);
+      document.removeEventListener("keydown", onExploreKey);
+    };
   }, [exploreOpen]);
 
   useEffect(() => {
-    document.body.style.overflow = menuOpen ? "hidden" : "";
+    if (!menuOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    const menuButton = menuButtonRef.current;
+    document.body.style.overflow = "hidden";
+    menuCloseRef.current?.focus();
+    function onMenuKey(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const focusable = menuPanelRef.current?.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      );
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+    document.addEventListener("keydown", onMenuKey);
     return () => {
-      document.body.style.overflow = "";
+      document.removeEventListener("keydown", onMenuKey);
+      document.body.style.overflow = previousOverflow;
+      menuButton?.focus();
     };
   }, [menuOpen]);
 
@@ -83,12 +132,13 @@ export default function GlobalHeader({ current }: { current: string }) {
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden items-center gap-0.5 md:flex">
           {primary.map((item) => (
-            <Link key={item.href} href={item.href} className={linkClass(item.href)}>
+            <Link key={item.href} href={item.href} aria-current={item.href === current ? "page" : undefined} className={linkClass(item.href)}>
               {item.label}
             </Link>
           ))}
           <div ref={exploreRef} className="relative">
             <button
+              ref={exploreButtonRef}
               onClick={() => setExploreOpen((v) => !v)}
               aria-expanded={exploreOpen}
               aria-haspopup="menu"
@@ -118,6 +168,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                     key={item.href}
                     href={item.href}
                     role="menuitem"
+                    aria-current={item.href === current ? "page" : undefined}
                     onClick={() => setExploreOpen(false)}
                     className={[
                       "block rounded-xl px-3 py-2.5 text-sm transition hover:bg-white/[0.06]",
@@ -135,6 +186,16 @@ export default function GlobalHeader({ current }: { current: string }) {
         </nav>
 
         <div className="ml-auto flex items-center gap-3">
+          <Link
+            href="/?mybuzz=1"
+            onClick={openMyBuzz}
+            className="header-my-buzz"
+            aria-label={`Open My Buzz, ${savedCount} saved ${savedCount === 1 ? "signal" : "signals"}`}
+          >
+            <span className="hidden xl:inline">My Buzz</span>
+            <span aria-hidden>◎</span>
+            <b>{savedCount}</b>
+          </Link>
           <button
             onClick={() => setSearchOpen(true)}
             className="flex h-10 items-center gap-2 rounded-full bg-white/[0.055] px-3 text-sm text-white/50 ring-1 ring-white/10 transition hover:bg-white/[0.09] hover:text-white"
@@ -155,6 +216,7 @@ export default function GlobalHeader({ current }: { current: string }) {
               <Link
                 key={item.href}
                 href={item.href}
+                aria-current={item.href === current ? "page" : undefined}
                 className={[
                   "rounded-full px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-wider transition",
                   item.href === current
@@ -171,6 +233,7 @@ export default function GlobalHeader({ current }: { current: string }) {
 
           {/* Mobile menu button */}
           <button
+            ref={menuButtonRef}
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
             className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10 md:hidden"
@@ -184,7 +247,7 @@ export default function GlobalHeader({ current }: { current: string }) {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg)] md:hidden">
+        <div ref={menuPanelRef} role="dialog" aria-modal="true" aria-label="Site menu" className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg)] md:hidden">
           <div aria-hidden className="pointer-events-none absolute -right-24 top-20 h-72 w-72 rounded-full border-[3rem] border-[#ff6542]/20" />
           <div aria-hidden className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border-[4rem] border-[#d7f24b]/10" />
           <div className="relative flex h-16 items-center justify-between border-b border-white/10 px-4">
@@ -192,6 +255,7 @@ export default function GlobalHeader({ current }: { current: string }) {
               <BrandLockup />
             </Link>
             <button
+              ref={menuCloseRef}
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
               className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10"
@@ -208,6 +272,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
+                    aria-current={item.href === current ? "page" : undefined}
                     onClick={() => setMenuOpen(false)}
                     className={[
                       "font-display block py-2 text-4xl font-semibold tracking-[-0.035em]",
@@ -227,6 +292,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                 <li key={item.href}>
                   <Link
                     href={item.href}
+                    aria-current={item.href === current ? "page" : undefined}
                     onClick={() => setMenuOpen(false)}
                     className={[
                       "block py-1.5 text-lg",
@@ -239,6 +305,13 @@ export default function GlobalHeader({ current }: { current: string }) {
               ))}
             </ul>
             <div className="mt-8 flex gap-6">
+              <Link
+                href="/?mybuzz=1"
+                onClick={() => setMenuOpen(false)}
+                className="font-[family-name:var(--font-geist-mono)] text-xs uppercase tracking-wider text-[var(--signal)]"
+              >
+                My Buzz · {savedCount}
+              </Link>
               {utility.map((item) => (
                 <Link
                   key={item.href}
