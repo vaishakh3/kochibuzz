@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import BuzzReceiver, { type BuzzTrack } from "@/components/BuzzReceiver";
-import SiteShell from "@/components/SiteShell";
 import LiveClock from "@/components/LiveClock";
 import ProjectVisual from "@/components/ProjectVisual";
+import SiteShell from "@/components/SiteShell";
 import { identityColors } from "@/components/signal";
 import { categoryById, events } from "@/data/events";
 import { communityDirectory, spaces } from "@/data/directory";
@@ -21,7 +21,6 @@ import {
 } from "@/lib/calendar";
 import {
   buildBuzz,
-  closingSoon,
   daysBetween,
   eventsThisWeek,
   eventsToday,
@@ -33,15 +32,25 @@ import {
 import { monogram } from "@/lib/identity";
 
 export const metadata: Metadata = {
-  title: "Kochi Buzz — The city, tuned in",
+  title: "Kochi Buzz — Kochi is on air",
   description:
-    "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+    "Tune into Kochi: real events, people, jobs, opportunities and things being built across the city.",
   alternates: { canonical: "/" },
 };
 
 export const revalidate = 3600;
 
 type SearchParams = Promise<{ e?: string }>;
+
+function kochiHour() {
+  return Number(
+    new Intl.DateTimeFormat("en-IN", {
+      timeZone: "Asia/Kolkata",
+      hour: "2-digit",
+      hourCycle: "h23",
+    }).format(new Date()),
+  );
+}
 
 export default async function BuzzHome({
   searchParams,
@@ -54,23 +63,28 @@ export default async function BuzzHome({
   const today = todayInIST();
   const todayIso = toISODate(today);
   const dateLabel = `${WEEKDAYS_LONG[today.getDay()]}, ${today.getDate()} ${MONTHS[today.getMonth()]}`;
-  const buzz = buildBuzz(today, 7);
+  const hour = kochiHour();
+  const daypart =
+    hour < 6 ? "Kochi after dark" : hour < 12 ? "Good morning, Kochi" : hour < 17 ? "Kochi, between things" : hour < 22 ? "Good evening, Kochi" : "One last city scan";
+
   const happeningToday = eventsToday(today);
   const week = eventsThisWeek(today).filter((event) => !happeningToday.includes(event));
-  const nextUp =
-    happeningToday[0] ??
-    events
-      .filter((event) => event.start > todayIso)
-      .sort((a, b) => a.start.localeCompare(b.start))[0];
-  const closing = closingSoon(today);
-  const open = openOpportunities(today);
-  const freshJobs = newJobs(today).slice(0, 5);
-  const built = featuredProjects().slice(0, 4);
-
   const upcomingEvents = events
     .filter((event) => event.end >= todayIso)
     .sort((a, b) => a.start.localeCompare(b.start))
-    .slice(0, 5);
+    .slice(0, 6);
+  const nextUp = happeningToday[0] ?? upcomingEvents[0];
+  const open = openOpportunities(today);
+  const freshJobs = newJobs(today).slice(0, 6);
+  const rolePicks = freshJobs.length > 0 ? freshJobs : jobs.slice(0, 6);
+  const built = featuredProjects().slice(0, 4);
+  const wire = buildBuzz(today, 7).slice(0, 7);
+  const communityOffset = today.getDate() % Math.max(communityDirectory.length, 1);
+  const featuredCommunities = [
+    ...communityDirectory.slice(communityOffset),
+    ...communityDirectory.slice(0, communityOffset),
+  ].slice(0, 6);
+
   const goPicks: BuzzTrack["items"] = upcomingEvents.map((event) => ({
     id: `event:${event.id}`,
     kind: "event",
@@ -82,16 +96,16 @@ export default async function BuzzHome({
     calendarHref: `/e/${event.id}/event.ics`,
   }));
   const peoplePicks: BuzzTrack["items"] = [
-    ...communityDirectory.slice(0, 3).map((community) => ({
+    ...featuredCommunities.slice(0, 4).map((community) => ({
       id: `community:${community.slug}`,
       kind: "community" as const,
       eyebrow: `${community.focus} · ${community.cadence}`,
       title: community.name,
       detail: community.blurb,
-      meta: "Kochi community · Open their local profile",
+      meta: "Kochi community · Local profile",
       href: `/communities/${community.slug}`,
     })),
-    ...spaces.slice(0, 1).map((space) => ({
+    ...spaces.slice(0, 2).map((space) => ({
       id: `place:${space.name}`,
       kind: "place" as const,
       eyebrow: `${space.kind} · ${space.area}`,
@@ -103,7 +117,7 @@ export default async function BuzzHome({
     })),
   ];
   const careerPicks: BuzzTrack["items"] = [
-    ...(freshJobs.length > 0 ? freshJobs.slice(0, 3) : jobs.slice(0, 3)).map((job) => ({
+    ...rolePicks.slice(0, 4).map((job) => ({
       id: `job:${job.id}`,
       kind: "job" as const,
       eyebrow: `${jobCategoryLabels[job.category]} · ${isNew(job.firstSeenAt, todayIso) ? "New role" : "Open role"}`,
@@ -113,7 +127,7 @@ export default async function BuzzHome({
       href: job.detailUrl,
       external: true,
     })),
-    ...open.slice(0, 1).map((opportunity) => ({
+    ...open.slice(0, 2).map((opportunity) => ({
       id: `opportunity:${opportunity.id}`,
       kind: "opportunity" as const,
       eyebrow: `${opportunityTypeLabels[opportunity.type]} · ${opportunity.ongoing || !opportunity.deadlineAt ? "Rolling" : `${Math.max(0, daysBetween(todayIso, opportunity.deadlineAt))} days left`}`,
@@ -135,7 +149,7 @@ export default async function BuzzHome({
     })),
     ...open
       .filter((opportunity) => ["hackathon", "grant", "accelerator", "bounty", "program"].includes(opportunity.type))
-      .slice(0, 1)
+      .slice(0, 2)
       .map((opportunity) => ({
         id: `build-opportunity:${opportunity.id}`,
         kind: "opportunity" as const,
@@ -147,318 +161,142 @@ export default async function BuzzHome({
       })),
   ];
   const receiverTracks: BuzzTrack[] = [
-    {
-      id: "go",
-      label: "Go out",
-      shortLabel: "Go out",
-      color: "#d7f24b",
-      items: goPicks,
-    },
-    {
-      id: "people",
-      label: "Find my people",
-      shortLabel: "Meet people",
-      color: "#72dcc7",
-      items: peoplePicks,
-    },
-    {
-      id: "career",
-      label: "Move my career",
-      shortLabel: "Find work",
-      color: "#c7b4ee",
-      items: careerPicks,
-    },
-    {
-      id: "build",
-      label: "Build something",
-      shortLabel: "Build here",
-      color: "#ff6542",
-      items: buildPicks,
-    },
+    { id: "go", label: "Go outside", shortLabel: "Outside", color: "#d7f24b", items: goPicks },
+    { id: "people", label: "Find your people", shortLabel: "People", color: "#72dcc7", items: peoplePicks },
+    { id: "career", label: "Move your work", shortLabel: "Work", color: "#c7b4ee", items: careerPicks },
+    { id: "build", label: "Build something", shortLabel: "Build", color: "#ff6542", items: buildPicks },
   ].filter((track) => track.items.length > 0) as BuzzTrack[];
 
-  const metrics = [
-    {
-      kicker: "On the radar",
-      value: happeningToday.length + week.length,
-      label: "events this week",
-      href: "/events",
-      tone: "lime",
+  const programmes = [
+    nextUp && {
+      cue: happeningToday.includes(nextUp) ? "Now" : "Next",
+      number: "01",
+      show: "The Open City",
+      title: nextUp.title,
+      meta: `${countdownLabel(nextUp, today)} · ${nextUp.venue}`,
+      href: `/events/${nextUp.id}`,
+      tone: "signal",
     },
-    {
-      kicker: "Work here",
-      value: jobs.length,
-      label: "open roles",
-      href: "/jobs",
+    rolePicks[0] && {
+      cue: "New work",
+      number: "02",
+      show: "The Career Frequency",
+      title: rolePicks[0].title,
+      meta: rolePicks[0].company,
+      href: rolePicks[0].detailUrl,
+      external: true,
+      tone: "lavender",
+    },
+    open[0] && {
+      cue: "Open line",
+      number: "03",
+      show: "Doors Worth Opening",
+      title: open[0].title,
+      meta: open[0].organization,
+      href: "/opportunities",
+      tone: "lagoon",
+    },
+    featuredCommunities[0] && {
+      cue: "Meet",
+      number: "04",
+      show: "People of Kochi",
+      title: featuredCommunities[0].name,
+      meta: `${featuredCommunities[0].focus} · ${featuredCommunities[0].cadence}`,
+      href: `/communities/${featuredCommunities[0].slug}`,
       tone: "coral",
     },
-    {
-      kicker: "Doors open",
-      value: open.length,
-      label: "opportunities",
-      href: "/opportunities",
-      tone: "cyan",
-    },
-    {
-      kicker: "City network",
-      value: communityDirectory.length,
-      label: "active communities",
-      href: "/communities",
-      tone: "violet",
-    },
-  ];
+  ].filter(Boolean) as Array<{
+    cue: string;
+    number: string;
+    show: string;
+    title: string;
+    meta: string;
+    href: string;
+    external?: boolean;
+    tone: string;
+  }>;
 
   return (
     <SiteShell current="/" fullBleed>
-      <section className="buzz-hero overflow-hidden">
-        <div className="buzz-orbit buzz-orbit--one" aria-hidden />
-        <div className="buzz-orbit buzz-orbit--two" aria-hidden />
-        <div className="relative mx-auto grid w-full max-w-[1280px] gap-10 px-4 pb-10 pt-8 sm:px-6 sm:pb-14 sm:pt-12 lg:grid-cols-[0.78fr_1.22fr] lg:items-center lg:gap-10 lg:pb-16 lg:pt-12">
-          <div className="relative z-10">
-            <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.24em] text-white/55">
-              <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.05] px-3 py-1.5">
-                <span className="signal-dot signal-dot--pulse" aria-hidden />
-                Kochi, live
-              </span>
-              <span>{dateLabel}</span>
-              <LiveClock />
+      <BuzzReceiver
+        tracks={receiverTracks}
+        dateLabel={dateLabel}
+        daypart={daypart}
+        scanCounts={{ events: happeningToday.length + week.length, jobs: jobs.length, doors: open.length }}
+      />
+
+      <section className="broadcast-programme" aria-labelledby="programme-title">
+        <div className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-20">
+          <div className="broadcast-section-head">
+            <div>
+              <p className="broadcast-label">Today’s transmission · <LiveClock /></p>
+              <h2 id="programme-title" className="font-display">Four ways into the city.</h2>
             </div>
-
-            <h1 className="font-display mt-8 max-w-[720px] text-[clamp(4rem,9vw,7.5rem)] font-semibold leading-[0.82] tracking-[-0.065em] text-white">
-              The city,
-              <br />
-              <span className="relative inline-block text-[var(--signal)]">
-                tuned in.
-                <span className="buzz-scribble" aria-hidden />
-              </span>
-            </h1>
-            <p className="mt-7 max-w-xl text-base leading-relaxed text-white/68 sm:text-lg">
-              Kochi Buzz catches the useful signals before they pass you by—what’s
-              on, who’s hiring, doors that are opening, and the people building the
-              city’s next chapter.
-            </p>
-
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="#tune-your-buzz" className="buzz-button buzz-button--primary">
-                Tune today&apos;s buzz
-                <span aria-hidden>↓</span>
-              </Link>
-              <Link href="/events" className="buzz-button buzz-button--ghost">
-                Open the city calendar
-                <span aria-hidden>→</span>
-              </Link>
-            </div>
-
-            <nav aria-label="Quick city links" className="mt-8 flex flex-wrap gap-x-5 gap-y-2">
-              {[
-                ["Events", "/events"],
-                ["Jobs", "/jobs"],
-                ["Communities", "/communities"],
-                ["Built here", "/built"],
-              ].map(([label, href]) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className="group inline-flex items-center gap-2 text-xs font-semibold text-white/55 transition hover:text-white"
-                >
-                  <span className="h-1.5 w-1.5 rounded-full bg-[var(--coral)] transition-transform group-hover:scale-150" />
-                  {label}
-                </Link>
-              ))}
-            </nav>
+            <p>Short, useful and always connected to a real next step. No endless feed.</p>
           </div>
 
-          <BuzzReceiver tracks={receiverTracks} dateLabel={dateLabel} />
+          <div className="programme-grid">
+            {programmes.map((programme) => {
+              const content = (
+                <>
+                  <div className="programme-card__top">
+                    <span>{programme.number}</span>
+                    <span className="programme-card__cue"><i aria-hidden />{programme.cue}</span>
+                  </div>
+                  <div className="programme-card__body">
+                    <p>{programme.show}</p>
+                    <h3 className="font-display">{programme.title}</h3>
+                    <span>{programme.meta}</span>
+                  </div>
+                  <span className="programme-card__arrow" aria-hidden>↗</span>
+                </>
+              );
+              const className = `programme-card programme-card--${programme.tone}`;
+              return programme.external ? (
+                <a key={programme.number} href={programme.href} target="_blank" rel="noopener noreferrer" className={className}>{content}</a>
+              ) : (
+                <Link key={programme.number} href={programme.href} className={className}>{content}</Link>
+              );
+            })}
+          </div>
         </div>
       </section>
 
-      <section aria-label="Kochi Buzz at a glance" className="relative z-10 -mt-1 border-y border-black/10 bg-[var(--paper)] text-[var(--paper-ink)]">
-        <div className="mx-auto grid w-full max-w-[1280px] grid-cols-2 px-4 sm:px-6 lg:grid-cols-4">
-          {metrics.map((metric) => (
-            <Link
-              key={metric.kicker}
-              href={metric.href}
-              className={`buzz-metric buzz-metric--${metric.tone} group border-black/10 px-1 py-6 sm:px-5 sm:py-8`}
-            >
-              <span className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.2em] opacity-55">
-                {metric.kicker}
-              </span>
-              <span className="mt-3 flex items-end gap-2">
-                <strong className="font-display text-4xl leading-none sm:text-5xl">{metric.value}</strong>
-                <span className="mb-1 max-w-[90px] text-[11px] font-semibold leading-tight opacity-60 sm:text-xs">
-                  {metric.label}
-                </span>
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      {nextUp && (
-        <section className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-24">
-          <SectionLead
-            eyebrow="Start here"
-            title="Your next good reason to step out."
-            href="/events"
-            linkLabel="Open the calendar"
-          />
-          <div className="mt-8 grid gap-5 lg:grid-cols-[1.45fr_0.55fr]">
-            <Link
-              href={`/events/${nextUp.id}`}
-              className="event-spotlight group relative min-h-[390px] overflow-hidden rounded-[2rem] p-6 sm:min-h-[460px] sm:p-10"
-            >
-              <div className="event-spotlight__rings" aria-hidden />
-              <div className="relative flex h-full flex-col justify-between">
-                <div className="flex flex-wrap items-start justify-between gap-4">
-                  <span className="rounded-full bg-[var(--paper-ink)] px-3 py-1.5 font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.22em] text-[var(--paper)]">
-                    {happeningToday.includes(nextUp) ? "Happening today" : "Next signal"}
-                  </span>
-                  <span className="text-right font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.18em] text-black/55">
-                    {categoryById.get(nextUp.category)?.label}
-                    <br />
-                    {countdownLabel(nextUp, today)}
-                  </span>
-                </div>
-
-                <div className="mt-20">
-                  <div className="flex items-end gap-3">
-                    <span className="font-display text-[6.5rem] font-semibold leading-[0.7] tracking-[-0.06em] sm:text-[9rem]">
-                      {parseDate(nextUp.start).getDate()}
-                    </span>
-                    <span className="mb-1 font-[family-name:var(--font-geist-mono)] text-xs font-bold uppercase tracking-[0.3em] text-black/55">
-                      {MONTHS[parseDate(nextUp.start).getMonth()].slice(0, 3)}
-                    </span>
-                  </div>
-                  <h2 className="font-display mt-7 max-w-3xl text-3xl font-semibold leading-[0.95] tracking-[-0.035em] transition-transform duration-300 group-hover:translate-x-1 sm:text-5xl lg:text-6xl">
-                    {nextUp.title}
-                  </h2>
-                  <div className="mt-5 flex flex-wrap items-center justify-between gap-3 border-t border-black/20 pt-4 text-xs font-semibold text-black/60">
-                    <span>{formatTimeRange(nextUp)} · {nextUp.venue}, {nextUp.city}</span>
-                    <span className="text-base transition-transform group-hover:translate-x-1" aria-hidden>→</span>
-                  </div>
-                </div>
+      {wire.length > 0 && (
+        <section className="city-tracklist" aria-labelledby="tracklist-title">
+          <div className="mx-auto grid w-full max-w-[1280px] gap-10 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-[0.72fr_1.28fr]">
+            <div className="city-tracklist__intro">
+              <p className="broadcast-label">The live tracklist</p>
+              <h2 id="tracklist-title" className="font-display">What moved through Kochi this week.</h2>
+              <p>Every line comes from a public source. Think of this as the city’s liner notes—not a popularity chart.</p>
+              <div className="city-tracklist__stats" aria-label="Current Kochi Buzz totals">
+                <Link href="/events"><strong>{happeningToday.length + week.length}</strong><span>events this week</span></Link>
+                <Link href="/jobs"><strong>{jobs.length}</strong><span>open roles</span></Link>
+                <Link href="/opportunities"><strong>{open.length}</strong><span>open doors</span></Link>
               </div>
-            </Link>
-
-            <div className="grid gap-5 sm:grid-cols-3 lg:grid-cols-1">
-              {[
-                {
-                  number: happeningToday.length,
-                  label: "happening today",
-                  note: "See what still fits into your day.",
-                  href: "/events",
-                  color: "var(--lagoon)",
-                },
-                {
-                  number: jobs.length,
-                  label: "roles on the board",
-                  note: "A cleaner route into Kochi tech work.",
-                  href: "/jobs",
-                  color: "var(--lavender)",
-                },
-                {
-                  number: "30",
-                  label: "days in one digest",
-                  note: "Forward the useful bits to your people.",
-                  href: "/digest",
-                  color: "var(--coral)",
-                },
-              ].map((item) => (
-                <Link
-                  key={item.label}
-                  href={item.href}
-                  className="group rounded-[1.5rem] border border-white/10 p-5 transition hover:-translate-y-1 hover:border-white/25"
-                  style={{ background: item.color, color: "#121212" }}
-                >
-                  <span className="font-display text-4xl font-semibold leading-none">{item.number}</span>
-                  <h3 className="mt-3 text-sm font-bold">{item.label}</h3>
-                  <p className="mt-1 text-xs leading-relaxed text-black/60">{item.note}</p>
-                  <span className="mt-4 inline-block text-sm transition-transform group-hover:translate-x-1" aria-hidden>→</span>
-                </Link>
-              ))}
             </div>
-          </div>
-        </section>
-      )}
 
-      {buzz.length > 0 && (
-        <section className="bg-[var(--paper)] py-16 text-[var(--paper-ink)] sm:py-24">
-          <div className="mx-auto w-full max-w-[1280px] px-4 sm:px-6">
-            <SectionLead
-              dark
-              eyebrow="Freshly picked up"
-              title="The city wire"
-              note="Built from public sources, never manufactured hype."
-            />
-            <ol className="mt-8 border-t border-black/15">
-              {buzz.map((item, index) => {
+            <ol className="tracklist-lines">
+              {wire.map((item, index) => {
                 const row =
                   item.type === "job_new"
-                    ? {
-                        href: "/jobs",
-                        status: item.label,
-                        text:
-                          item.jobs.length === 1
-                            ? `${item.jobs[0].company} posted ${item.jobs[0].title}`
-                            : `${item.jobs.length} new roles landed on the board`,
-                        meta: "Jobs",
-                        external: false,
-                      }
+                    ? { href: "/jobs", status: item.label, text: item.jobs.length === 1 ? `${item.jobs[0].company} posted ${item.jobs[0].title}` : `${item.jobs.length} new roles landed`, meta: "Jobs", external: false }
                     : item.type === "opportunity_closing"
-                      ? {
-                          href: "/opportunities",
-                          status: item.label,
-                          text: `${item.opportunity.title} — ${item.opportunity.organization}`,
-                          meta: "Opportunity",
-                          external: false,
-                        }
+                      ? { href: "/opportunities", status: item.label, text: item.opportunity.title, meta: item.opportunity.organization, external: false }
                       : item.type === "announcement"
-                        ? {
-                            href: item.announcement.url,
-                            status: item.label,
-                            text: item.announcement.title,
-                            meta: "Announcement",
-                            external: true,
-                          }
-                        : {
-                            href: `/events/${item.event.id}`,
-                            status: item.label,
-                            text: item.event.title,
-                            meta: `${formatDateRange(item.event)} · ${item.event.city}`,
-                            external: false,
-                          };
+                        ? { href: item.announcement.url, status: item.label, text: item.announcement.title, meta: "Announcement", external: true }
+                        : { href: `/events/${item.event.id}`, status: item.label, text: item.event.title, meta: `${formatDateRange(item.event)} · ${item.event.city}`, external: false };
                 const content = (
                   <>
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.2em] text-black/45 sm:w-28">
-                      {String(index + 1).padStart(2, "0")} · {row.status}
-                    </span>
-                    <span className="min-w-0 flex-1 text-base font-semibold leading-snug sm:text-lg">
-                      {row.text}
-                    </span>
-                    <span className="text-xs text-black/45 sm:text-right">{row.meta}</span>
-                    <span className="text-base transition-transform group-hover:translate-x-1" aria-hidden>↗</span>
+                    <span className="tracklist-lines__number">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="tracklist-lines__signal"><small>{row.status}</small><strong>{row.text}</strong></span>
+                    <span className="tracklist-lines__meta">{row.meta}</span>
+                    <span aria-hidden>↗</span>
                   </>
                 );
-
                 return (
-                  <li key={`${row.href}-${index}`} className="border-b border-black/15">
-                    {row.external ? (
-                      <a
-                        href={row.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group grid gap-2 py-5 transition hover:bg-black/[0.035] sm:grid-cols-[7rem_1fr_14rem_1rem] sm:items-center sm:px-3"
-                      >
-                        {content}
-                      </a>
-                    ) : (
-                      <Link
-                        href={row.href}
-                        className="group grid gap-2 py-5 transition hover:bg-black/[0.035] sm:grid-cols-[7rem_1fr_14rem_1rem] sm:items-center sm:px-3"
-                      >
-                        {content}
-                      </Link>
-                    )}
+                  <li key={`${row.href}-${index}`}>
+                    {row.external ? <a href={row.href} target="_blank" rel="noopener noreferrer">{content}</a> : <Link href={row.href}>{content}</Link>}
                   </li>
                 );
               })}
@@ -467,249 +305,76 @@ export default async function BuzzHome({
         </section>
       )}
 
-      {week.length > 0 && (
-        <section className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-24">
-          <SectionLead
-            eyebrow="Make a plan"
-            title="This week in Kochi"
-            href="/events"
-            linkLabel="Full calendar"
-          />
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
-            {week.slice(0, 3).map((event, index) => {
-              const start = parseDate(event.start);
-              const tones = ["var(--lagoon)", "var(--lavender)", "var(--paper)"];
+      <section className="people-signal" aria-labelledby="people-title">
+        <div className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-24">
+          <div className="broadcast-section-head broadcast-section-head--light">
+            <div>
+              <p className="broadcast-label">The signal is people</p>
+              <h2 id="people-title" className="font-display">Don’t just hear about Kochi. Enter it.</h2>
+            </div>
+            <Link href="/communities" className="broadcast-text-link">Meet every community <span aria-hidden>→</span></Link>
+          </div>
+          <div className="people-grid">
+            {featuredCommunities.map((community, index) => {
+              const colors = identityColors(community.name);
               return (
-                <Link
-                  key={event.id}
-                  href={`/events/${event.id}`}
-                  className="week-card group flex min-h-[310px] flex-col rounded-[1.7rem] p-6 text-[var(--paper-ink)] transition hover:-translate-y-1"
-                  style={{ background: tones[index % tones.length] }}
-                >
-                  <div className="flex items-start justify-between gap-3">
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.2em] text-black/50">
-                      {WEEKDAYS_LONG[start.getDay()]} · {categoryById.get(event.category)?.label}
-                    </span>
-                    <span className="rounded-full border border-black/20 px-2.5 py-1 text-[10px] font-bold">
-                      {countdownLabel(event, today)}
-                    </span>
+                <Link key={community.slug} href={`/communities/${community.slug}`} className={`people-card people-card--${(index % 3) + 1}`}>
+                  <span className="people-card__index">{String(index + 1).padStart(2, "0")}</span>
+                  <span className="people-card__mark" style={{ background: colors.bg, color: colors.fg }}>{monogram(community.name)}</span>
+                  <div>
+                    <p>{community.focus}</p>
+                    <h3 className="font-display">{community.name}</h3>
+                    <span>{community.cadence}</span>
                   </div>
-                  <div className="mt-auto">
-                    <div className="font-display text-6xl font-semibold leading-none">{start.getDate()}</div>
-                    <div className="mt-1 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.25em] text-black/50">
-                      {MONTHS[start.getMonth()]}
-                    </div>
-                    <h3 className="font-display mt-6 text-2xl font-semibold leading-tight tracking-tight">
-                      {event.title}
-                    </h3>
-                    <p className="mt-3 border-t border-black/15 pt-3 text-xs leading-relaxed text-black/55">
-                      {formatTimeRange(event)} · {event.venue}
-                    </p>
-                  </div>
+                  <span className="people-card__arrow" aria-hidden>↗</span>
                 </Link>
               );
             })}
-          </div>
-        </section>
-      )}
-
-      <section className="border-y border-white/10 bg-[var(--surface)] py-16 sm:py-24">
-        <div className="mx-auto grid w-full max-w-[1280px] gap-14 px-4 sm:px-6 lg:grid-cols-2">
-          <div>
-            <SectionLead
-              eyebrow={closing.length > 0 ? "Time-sensitive" : "Doors open"}
-              title={closing.length > 0 ? "Before the window closes" : "Worth a closer look"}
-              href="/opportunities"
-              linkLabel="All opportunities"
-            />
-            <div className="mt-7 grid gap-3">
-              {(closing.length > 0 ? closing : open.slice(0, 4)).slice(0, 4).map((opportunity) => (
-                <Link
-                  key={opportunity.id}
-                  href="/opportunities"
-                  className="group grid grid-cols-[4.5rem_1fr_auto] items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.035] p-4 transition hover:border-[var(--signal)]/50 hover:bg-white/[0.06]"
-                >
-                  <div className="text-center">
-                    {opportunity.ongoing || !opportunity.deadlineAt ? (
-                      <span className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-wider text-[var(--signal)]">Rolling</span>
-                    ) : (
-                      <>
-                        <span className="font-display block text-3xl font-semibold text-[var(--signal)]">
-                          {Math.max(0, daysBetween(todayIso, opportunity.deadlineAt))}
-                        </span>
-                        <span className="text-[9px] uppercase tracking-wider text-white/40">days left</span>
-                      </>
-                    )}
-                  </div>
-                  <div className="min-w-0">
-                    <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.18em] text-white/35">
-                      {opportunityTypeLabels[opportunity.type]}
-                    </p>
-                    <h3 className="mt-1 text-sm font-semibold text-white transition group-hover:text-[var(--signal)]">
-                      {opportunity.title}
-                    </h3>
-                    <p className="mt-1 text-xs text-white/40">{opportunity.organization}</p>
-                  </div>
-                  <span className="text-white/35 transition-transform group-hover:translate-x-1" aria-hidden>→</span>
-                </Link>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <SectionLead
-              eyebrow="Work here"
-              title="Kochi is hiring"
-              href="/jobs"
-              linkLabel={`See all ${jobs.length} roles`}
-            />
-            <ol className="mt-7 border-t border-white/10">
-              {(freshJobs.length > 0 ? freshJobs : jobs.slice(0, 5)).map((job, index) => (
-                <li key={job.id} className="border-b border-white/10">
-                  <a
-                    href={job.detailUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group grid grid-cols-[2rem_1fr_auto] items-center gap-3 py-4"
-                  >
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[9px] text-white/30">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <span className="min-w-0">
-                      <span className="block text-sm font-semibold text-white transition group-hover:text-[var(--signal)]">
-                        {job.title}
-                      </span>
-                      <span className="mt-0.5 block text-xs text-white/40">{job.company}</span>
-                    </span>
-                    {isNew(job.firstSeenAt, todayIso) ? (
-                      <span className="rounded-full bg-[var(--coral)] px-2 py-1 font-[family-name:var(--font-geist-mono)] text-[8px] font-bold uppercase tracking-wider text-black">New</span>
-                    ) : (
-                      <span className="text-white/30" aria-hidden>↗</span>
-                    )}
-                  </a>
-                </li>
-              ))}
-            </ol>
           </div>
         </div>
       </section>
 
       {built.length > 0 && (
-        <section className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-24">
-          <SectionLead
-            eyebrow="Made nearby"
-            title="Built in Kochi"
-            href="/built"
-            linkLabel="Meet the makers"
-          />
-          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {built.map((project, index) => (
-              <Link
-                key={project.id}
-                href={`/built#${project.id}`}
-                className={`built-card group overflow-hidden rounded-[1.6rem] border border-white/10 ${index === 0 ? "sm:col-span-2 lg:col-span-1" : ""}`}
-              >
-                <ProjectVisual projectId={project.id} name={project.name} className="h-44 w-full transition-transform duration-500 group-hover:scale-[1.015]" />
-                <div className="p-5">
-                  <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.2em] text-white/35">Built here · {String(index + 1).padStart(2, "0")}</p>
-                  <h3 className="font-display mt-3 text-2xl font-semibold text-white transition group-hover:text-[var(--signal)]">{project.name}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-white/48">{project.tagline}</p>
-                </div>
-              </Link>
-            ))}
+        <section className="made-here" aria-labelledby="made-title">
+          <div className="mx-auto w-full max-w-[1280px] px-4 py-16 sm:px-6 sm:py-24">
+            <div className="broadcast-section-head">
+              <div>
+                <p className="broadcast-label">Made on this frequency</p>
+                <h2 id="made-title" className="font-display">Kochi builds back.</h2>
+              </div>
+              <Link href="/built" className="broadcast-text-link">See everything made here <span aria-hidden>→</span></Link>
+            </div>
+            <div className="made-grid">
+              {built.map((project, index) => (
+                <Link key={project.id} href={`/built#${project.id}`} className={`made-card ${index === 0 ? "made-card--lead" : ""}`}>
+                  <ProjectVisual projectId={project.id} name={project.name} className="made-card__visual" />
+                  <div className="made-card__copy">
+                    <p>{project.categories.slice(0, 2).join(" · ")}</p>
+                    <h3 className="font-display">{project.name}</h3>
+                    <span>{project.tagline}</span>
+                  </div>
+                  <span className="made-card__number">{String(index + 1).padStart(2, "0")}</span>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
 
-      <section className="mx-auto grid w-full max-w-[1280px] gap-5 px-4 pb-16 sm:px-6 sm:pb-24 lg:grid-cols-2">
-        <div className="rounded-[2rem] bg-[var(--lagoon)] p-6 text-[var(--paper-ink)] sm:p-8">
-          <SectionLead dark eyebrow="Find your people" title="The crews" href="/communities" linkLabel="All communities" />
-          <ul className="mt-7 grid gap-3 sm:grid-cols-2">
-            {communityDirectory.slice(0, 6).map((community) => {
-              const colors = identityColors(community.name);
-              return (
-                <li key={community.slug}>
-                  <Link href={`/communities/${community.slug}`} className="group flex items-center gap-3 rounded-xl bg-black/[0.06] p-3 transition hover:bg-black/[0.1]">
-                    <span aria-hidden className="grid h-10 w-10 shrink-0 place-items-center rounded-xl text-[10px] font-bold" style={{ background: colors.bg, color: colors.fg }}>
-                      {monogram(community.name)}
-                    </span>
-                    <span className="min-w-0">
-                      <span className="block truncate text-sm font-bold">{community.name}</span>
-                      <span className="block text-[10px] text-black/50">{community.focus}</span>
-                    </span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-        <div className="rounded-[2rem] bg-[var(--lavender)] p-6 text-[var(--paper-ink)] sm:p-8">
-          <SectionLead dark eyebrow="Go somewhere" title="Places to build" href="/places" linkLabel="All places" />
-          <ul className="mt-7">
-            {spaces.slice(0, 6).map((space, index) => (
-              <li key={space.name} className="border-t border-black/15 first:border-0">
-                <Link href="/places" className="group flex items-center gap-3 py-3.5">
-                  <span className="font-[family-name:var(--font-geist-mono)] text-[9px] text-black/35">{String(index + 1).padStart(2, "0")}</span>
-                  <span className="text-sm font-bold">{space.name}</span>
-                  <span className="ml-auto text-[10px] text-black/45">{space.area}</span>
-                  <span className="transition-transform group-hover:translate-x-1" aria-hidden>→</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <section className="px-4 pb-8 sm:px-6 sm:pb-12">
-        <div className="digest-poster relative mx-auto flex min-h-[430px] w-full max-w-[1280px] flex-col justify-between overflow-hidden rounded-[2.2rem] p-6 text-[var(--paper-ink)] sm:p-10 lg:flex-row lg:items-end">
-          <div className="digest-poster__type" aria-hidden>BUZZ</div>
-          <div className="relative z-10 max-w-xl">
-            <p className="font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.25em] text-black/55">Make it a ritual</p>
-            <h2 className="font-display mt-4 text-5xl font-semibold leading-[0.9] tracking-[-0.05em] sm:text-7xl">One clean list.<br />Every useful signal.</h2>
-            <p className="mt-5 max-w-md text-sm leading-relaxed text-black/60 sm:text-base">The next 7 or 30 days, ready to scan, save, or drop straight into your WhatsApp and Slack groups.</p>
+      <section className="ritual-callout">
+        <div className="ritual-callout__rings" aria-hidden />
+        <div className="mx-auto grid w-full max-w-[1280px] gap-10 px-4 py-16 sm:px-6 sm:py-24 lg:grid-cols-[1fr_auto] lg:items-end">
+          <div>
+            <p className="broadcast-label">Tomorrow has a frequency too</p>
+            <h2 className="font-display">Make the city<br />a daily ritual.</h2>
+            <p>Seven or thirty useful days, ready to scan, save, put on your calendar or send to your people.</p>
           </div>
-          <div className="relative z-10 mt-10 flex flex-wrap gap-3 lg:mt-0 lg:justify-end">
+          <div className="flex flex-wrap gap-3 lg:justify-end">
             <Link href="/digest" className="buzz-button buzz-button--dark">Open the digest <span aria-hidden>→</span></Link>
-            <a href="/calendar.ics" className="buzz-button buzz-button--paper">Add the calendar <span aria-hidden>↓</span></a>
+            <a href="/calendar.ics" className="buzz-button buzz-button--paper">Add Kochi to calendar <span aria-hidden>↓</span></a>
           </div>
         </div>
       </section>
     </SiteShell>
-  );
-}
-
-function SectionLead({
-  eyebrow,
-  title,
-  href,
-  linkLabel,
-  note,
-  dark = false,
-}: {
-  eyebrow: string;
-  title: string;
-  href?: string;
-  linkLabel?: string;
-  note?: string;
-  dark?: boolean;
-}) {
-  return (
-    <div className="flex flex-wrap items-end justify-between gap-5">
-      <div>
-        <p className={`font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.25em] ${dark ? "text-black/45" : "text-[var(--signal)]"}`}>
-          {eyebrow}
-        </p>
-        <h2 className={`font-display mt-3 text-3xl font-semibold leading-none tracking-[-0.035em] sm:text-5xl ${dark ? "text-[var(--paper-ink)]" : "text-white"}`}>
-          {title}
-        </h2>
-        {note && <p className={`mt-3 text-xs ${dark ? "text-black/45" : "text-white/40"}`}>{note}</p>}
-      </div>
-      {href && linkLabel && (
-        <Link href={href} className={`group inline-flex items-center gap-2 text-xs font-bold ${dark ? "text-black/55 hover:text-black" : "text-white/50 hover:text-white"}`}>
-          {linkLabel}
-          <span className="transition-transform group-hover:translate-x-1" aria-hidden>→</span>
-        </Link>
-      )}
-    </div>
   );
 }

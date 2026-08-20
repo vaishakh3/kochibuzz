@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element -- ImageResponse requires a plain image element. */
 import { ImageResponse } from "next/og";
 import { NextRequest } from "next/server";
 import { CategoryId, categoryById, eventById } from "@/data/events";
@@ -29,11 +30,17 @@ const categoryHex: Record<CategoryId, string> = {
   webdev: "#f472b6",
 };
 
-export function GET(request: NextRequest): ImageResponse {
+export async function GET(request: NextRequest): Promise<ImageResponse> {
   const id = request.nextUrl.searchParams.get("e");
   const event = id ? eventById.get(id) : undefined;
   const accent = event ? categoryHex[event.category] : "#d7f24b";
   const start = event ? parseDate(event.start) : undefined;
+  const backgroundResponse = await fetch(
+    new URL("/images/broadcast/kochi-on-air-social.jpg", request.url),
+  );
+  const socialBackground = `data:image/jpeg;base64,${Buffer.from(
+    await backgroundResponse.arrayBuffer(),
+  ).toString("base64")}`;
 
   return new ImageResponse(
     <div
@@ -43,14 +50,35 @@ export function GET(request: NextRequest): ImageResponse {
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
-        padding: 72,
-        background:
-          "linear-gradient(135deg, #0b0b12 0%, #171723 60%, #202b2a 100%)",
+        padding: 58,
+        background: "#0b0b12",
         color: "white",
         fontFamily: "sans-serif",
         position: "relative",
       }}
     >
+      <img
+        src={socialBackground}
+        alt=""
+        width="1200"
+        height="630"
+        style={{
+          position: "absolute",
+          inset: 0,
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      />
+      <div
+        style={{
+          display: "flex",
+          position: "absolute",
+          inset: 0,
+          background:
+            "linear-gradient(90deg, rgba(7,8,15,.98) 0%, rgba(7,8,15,.86) 34%, rgba(7,8,15,.15) 67%, rgba(7,8,15,.05) 100%)",
+        }}
+      />
       <div
         style={{
           display: "flex",
@@ -61,7 +89,7 @@ export function GET(request: NextRequest): ImageResponse {
           height: 480,
           borderRadius: 480,
           background: accent,
-          opacity: 0.22,
+          opacity: event ? 0.22 : 0.08,
           filter: "blur(80px)",
         }}
       />
@@ -82,12 +110,12 @@ export function GET(request: NextRequest): ImageResponse {
               color: "#d7f24b",
             }}
           >
-            Kochi Buzz · The city, tuned in
+              {event ? "Kochi Buzz · Event signal" : "Kochi on air · Visual city broadcast"}
           </div>
           <div
             style={{
               display: "flex",
-              fontSize: 54,
+              fontSize: 46,
               fontWeight: 700,
               marginTop: 8,
             }}
@@ -177,13 +205,13 @@ export function GET(request: NextRequest): ImageResponse {
         <div
           style={{
             display: "flex",
-            fontSize: event ? 64 : 44,
+            fontSize: event ? 62 : 82,
             fontWeight: 700,
             lineHeight: 1.15,
             maxWidth: 980,
           }}
         >
-          {event ? event.title : "What's buzzing in Kochi tech"}
+          {event ? event.title : "The city is talking."}
         </div>
         <div
           style={{
@@ -195,7 +223,7 @@ export function GET(request: NextRequest): ImageResponse {
         >
           {event
             ? `${formatDateRange(event)} · ${formatTimeRange(event)} · ${event.venue}, ${event.city}`
-            : "Hackathons, AI meetups, open source conferences and startup summits"}
+            : "Outside · People · Work · Build"}
         </div>
       </div>
     </div>,

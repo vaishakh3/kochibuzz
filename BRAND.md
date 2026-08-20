@@ -70,17 +70,19 @@ geometry, monsoon light, maker spaces and people gathering. Avoid postcard
 tourism, generic circuit boards, humanoid robots and neon cyberpunk skylines.
 The city should feel specific even when the treatment is abstract.
 
-The current master artwork is `public/images/kochi-city-frequency.webp`. The
-social preview is `public/og.png`. Both were generated for Kochi Buzz and should
-anchor future commissioned imagery.
+The primary people-first broadcast artwork is
+`public/images/broadcast/kochi-on-air.webp`; its text-safe social crop is
+`public/images/broadcast/kochi-on-air-social.jpg`. The original city-system
+artwork remains at `public/images/kochi-city-frequency.webp`. All were generated
+for Kochi Buzz and should anchor future commissioned imagery.
 
 ## Product rhythm
 
-The first minute begins with a **city receiver**, not a page tour. A visitor
-chooses today’s intent—go out, meet people, find work or build here—and receives
-a short sequence of real signals with skip, save, calendar and open actions.
-The selected frequency and “My Buzz” queue are remembered on that device without
-an account.
+The first minute begins with a **visual city broadcast**, not a page tour. A
+visitor chooses a station—Outside, People, Work or Build—and receives a short
+sequence of real signals with next, save, calendar and open actions. The
+selected frequency and “My Buzz” queue are remembered on that device without an
+account.
 
 The rest of the homepage answers three repeatable questions:
 
@@ -100,3 +102,7 @@ to know more about a visitor than their explicit device-local choices.
 - Preserve excellent mobile reading before adding desktop flourishes.
 - Use imagery to create memory, not to fill empty space.
 - Respect reduced-motion preferences and visible keyboard focus.
+- Always call the homepage experience a visual broadcast. Never imply that
+  audio is playing when none exists.
+- Do not add listener counts, hosts, quotes or popularity claims without real
+  source data.

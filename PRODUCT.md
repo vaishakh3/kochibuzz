@@ -13,6 +13,39 @@ Success is not a longer homepage. Success is a visitor taking a real action:
 opening an event, saving a signal, adding it to a calendar, joining a community,
 visiting a place, applying for a role, or returning to a personal queue.
 
+## The 2026 broadcast direction
+
+The first receiver proved that intent-first discovery is useful, but it still
+lived inside a conventional landing page. The second design study explored
+three ways to let the interaction define the entire product:
+
+1. **Kochi On Air** — a time-aware city broadcast with stations, programmes,
+   a live tracklist and a device-local listening queue.
+2. **City Rooms** — a spatial set of community, event and work rooms that a
+   visitor could wander through.
+3. **Field Notes** — an editorial collage of sourced city dispatches and
+   interconnected blocks.
+
+Kochi On Air was selected because it creates the clearest daily ritual and the
+strongest memory structure. Field Notes contributes the visual texture and
+source-minded tracklist; City Rooms remains a useful future direction for a
+real neighbourhood layer.
+
+The homepage now behaves like a programme rather than a feed:
+
+- The full first screen is an illustrated, people-first Kochi broadcast.
+- **Outside, People, Work and Build** are stations, not navigation categories.
+- A daily programme gives four real routes into the city.
+- The tracklist records what moved through public sources without implying
+  popularity.
+- Community and maker sections change visual tempo instead of repeating one
+  generic card system.
+- Returning visitors keep their station and My Buzz queue locally, without an
+  account or an undeclared cloud profile.
+
+The broadcast is explicitly labelled as visual. There is no fake audio stream,
+listener count, fabricated presenter or invented testimonial.
+
 ## What the research changed
 
 The best discovery products reduce a noisy city to a small number of timely,
@@ -35,14 +68,33 @@ The resulting principle for Kochi Buzz is: **do not make people browse the city
 before they can use it**. Ask what they need, give them a few honest choices,
 and preserve the useful ones.
 
+The broadcast revision added four more references:
+
+- [NTS](https://www.nts.live/about) demonstrates the strength of a live-now
+  layer, named channels, deep archives and human curation. Its
+  [Infinite Mixtapes](https://www.nts.live/infinite-mixtapes) also show how a
+  handful of clear moods can make a large archive approachable.
+- [Monocle Radio](https://monocle.com/radio/schedule/) uses a visible daily
+  schedule and named recurring shows to make many editorial subjects feel like
+  one coherent service.
+- [Are.na channels](https://help.are.na/docs/getting-started/channels) show how
+  flexible, provenance-aware collections can invite exploration without an
+  algorithmic infinite feed.
+- [The Pudding](https://pudding.cool/resources/) treats interaction as part of
+  the story rather than decoration around it.
+
+The synthesis is intentionally not a literal radio clone. Kochi Buzz borrows
+radio's rhythm—now, next, stations, shows and tracklists—but every transmission
+ends in a real civic action.
+
 ## Signature interaction: the city receiver
 
 The first screen is an operable receiver with four frequencies:
 
-1. **Go out** — current and upcoming real events.
-2. **Meet people** — active communities and physical spaces.
-3. **Find work** — fresh roles and open opportunities.
-4. **Build here** — Kochi-made projects, hackathons, grants and programmes.
+1. **Outside** — current and upcoming real events.
+2. **People** — active communities and physical spaces.
+3. **Work** — fresh roles and open opportunities.
+4. **Build** — Kochi-made projects, hackathons, grants and programmes.
 
 Each frequency immediately resolves to a real record from the existing data
 pipeline. A visitor can skip, save, add an event to their calendar or open the

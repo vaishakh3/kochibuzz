@@ -21,34 +21,34 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kochi.buzz"),
-  title: "Kochi Buzz — The city, tuned in",
+  title: "Kochi Buzz — Kochi is on air",
   description:
-    "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+    "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
   applicationName: "Kochi Buzz",
   category: "city guide",
   openGraph: {
-    title: "Kochi Buzz — The city, tuned in",
+    title: "Kochi Buzz — Kochi is on air",
     description:
-      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+      "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
     url: "https://kochi.buzz",
     siteName: "kochi.buzz",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og.png",
+        url: "/og",
         width: 1200,
         height: 630,
-        alt: "Kochi Buzz — The city, tuned in",
+        alt: "Kochi Buzz — Kochi is on air",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kochi Buzz — The city, tuned in",
+    title: "Kochi Buzz — Kochi is on air",
     description:
-      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
-    images: ["/og.png"],
+      "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
+    images: ["/og"],
   },
 };
 
