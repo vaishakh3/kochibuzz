@@ -1,0 +1,47 @@
+name: Submit an opportunity
+description: Hackathon, grant, fellowship, CFP, accelerator or program relevant to Kochi.
+title: "Opportunity: "
+labels: ["submission", "opportunity"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Opportunity name
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Hackathon, Grant, Fellowship, Accelerator, Competition, CFP, Volunteer, Scholarship, Bounty, Program, Other]
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      placeholder: YYYY-MM-DD, or "rolling"
+  - type: input
+    id: apply
+    attributes:
+      label: Application URL
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (official page)
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short factual summary
+    validations:
+      required: true

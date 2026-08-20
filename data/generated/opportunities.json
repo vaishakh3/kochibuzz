@@ -1,0 +1,89 @@
+[
+  {
+    "id": "dothack-26-registration",
+    "title": ">.hack(); '26 — team registration",
+    "type": "hackathon",
+    "organization": "IEEE MACE Student Branch",
+    "summary": "Register a team for MACE's flagship 36-hour hardware + software hackathon (Sep 4–6, Kothamangalam), powered by Devin. Eight tracks from smart cities to resilient communities.",
+    "deadlineAt": "2026-09-04",
+    "eligibility": [
+      "Students"
+    ],
+    "locationScope": "kerala",
+    "applicationUrl": "https://dothack26.devfolio.co/overview",
+    "url": "https://hack26.ieeemace.org/",
+    "sourceUrls": [
+      "https://hack26.ieeemace.org/",
+      "https://dothack26.devfolio.co/overview"
+    ],
+    "tags": [
+      "Hackathon",
+      "Devfolio",
+      "Students"
+    ]
+  },
+  {
+    "id": "ksum-early-stage-funding",
+    "title": "KSUM Early Stage Funding",
+    "type": "grant",
+    "organization": "Kerala Startup Mission",
+    "summary": "Kerala Startup Mission's early-stage funding support for registered Kerala startups — innovation grants and seed support administered through KSUM's schemes portal.",
+    "ongoing": true,
+    "eligibility": [
+      "Kerala-registered startups"
+    ],
+    "locationScope": "kerala",
+    "applicationUrl": "https://startupmission.kerala.gov.in/schemes/early-stage-funding",
+    "url": "https://startupmission.kerala.gov.in/schemes/early-stage-funding",
+    "sourceUrls": [
+      "https://startupmission.kerala.gov.in/schemes/early-stage-funding"
+    ],
+    "tags": [
+      "KSUM",
+      "Funding",
+      "Startups"
+    ]
+  },
+  {
+    "id": "ksum-incubation-acceleration",
+    "title": "KSUM Incubation & Acceleration",
+    "type": "accelerator",
+    "organization": "Kerala Startup Mission",
+    "summary": "Rolling incubation and acceleration support at KSUM facilities — including the Integrated Startup Complex in Kalamassery — for startups building from Kerala.",
+    "ongoing": true,
+    "eligibility": [
+      "Startups",
+      "Student founders"
+    ],
+    "locationScope": "kerala",
+    "applicationUrl": "https://startupmission.kerala.gov.in/schemes/incubation-acceleration",
+    "url": "https://startupmission.kerala.gov.in/schemes/incubation-acceleration",
+    "sourceUrls": [
+      "https://startupmission.kerala.gov.in/schemes/incubation-acceleration"
+    ],
+    "tags": [
+      "KSUM",
+      "Incubation",
+      "Kochi campus"
+    ]
+  },
+  {
+    "id": "huddle-global-2026-registration",
+    "title": "Huddle Global 2026 — delegate registration",
+    "type": "other",
+    "organization": "Kerala Startup Mission",
+    "summary": "Delegate registration for Asia's largest beachside startup festival (Nov 12–14, Kovalam) — founders, investors and policymakers across three days.",
+    "deadlineAt": "2026-11-12",
+    "locationScope": "kerala",
+    "applicationUrl": "https://huddleglobal.co.in/",
+    "url": "https://huddleglobal.co.in/",
+    "sourceUrls": [
+      "https://huddleglobal.co.in/"
+    ],
+    "tags": [
+      "KSUM",
+      "Startup festival",
+      "Registration"
+    ]
+  }
+]

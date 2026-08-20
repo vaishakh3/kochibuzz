@@ -226,6 +226,13 @@ export default function Sidebar({
         <h2 className="mb-2 text-sm font-semibold text-white">Explore</h2>
         <div className="space-y-1">
           <Link
+            href="/"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>The buzz</span>
+            <span className="text-[11px] text-white/35">what&apos;s next</span>
+          </Link>
+          <Link
             href="/digest"
             className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
@@ -233,7 +240,21 @@ export default function Sidebar({
             <span className="text-[11px] text-white/35">shareable</span>
           </Link>
           <Link
-            href="/spaces"
+            href="/opportunities"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Opportunities</span>
+            <span className="text-[11px] text-white/35">deadlines</span>
+          </Link>
+          <Link
+            href="/jobs"
+            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+          >
+            <span>Jobs in Kochi</span>
+            <span className="text-[11px] text-white/35">Infopark</span>
+          </Link>
+          <Link
+            href="/places"
             className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
             <span>Places to build</span>

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "entri",
+    "name": "Entri",
+    "tagline": "Learning app for jobs and skills, in local languages",
+    "description": "One of Kerala's best-known consumer startups — exam prep, skilling and job-focused learning in Malayalam and other Indian languages, built from Kochi.",
+    "url": "https://entri.app/",
+    "categories": ["EdTech", "Consumer"],
+    "location": "Kochi",
+    "kochiConnection": "Kochi-headquartered startup",
+    "sourceUrl": "https://entri.app/",
+    "featured": true
+  },
+  {
+    "id": "makemypass",
+    "name": "MakeMyPass",
+    "tagline": "Open-source event ticketing from the Kerala tech community",
+    "description": "The ticketing and check-in platform used by Kerala tech meetups — including DevOps Malayalam events on this very calendar. Built in the open on GitHub.",
+    "url": "https://makemypass.com/",
+    "repositoryUrl": "https://github.com/MakeMyPass",
+    "categories": ["Open Source", "Events"],
+    "location": "Kerala",
+    "kochiConnection": "Built and used by the Kerala meetup community",
+    "sourceUrl": "https://makemypass.com/"
+  },
+  {
+    "id": "tinkerspace",
+    "name": "TinkerSpace",
+    "tagline": "India's first 24/7 open tech lab",
+    "description": "TinkerHub's always-open maker space in Kalamassery — free workbenches, GPU access, 3D printing and a walk-in hacker culture that most of Kochi's communities call home.",
+    "url": "https://tinkerhub.org/tinkerspace",
+    "categories": ["Community Infrastructure", "Hardware"],
+    "location": "Kalamassery, Kochi",
+    "kochiConnection": "Built and run by TinkerHub in Kochi",
+    "sourceUrl": "https://tinkerhub.org/tinkerspace",
+    "featured": true
+  },
+  {
+    "id": "kochi-buzz",
+    "name": "kochi.buzz",
+    "tagline": "The live discovery layer for Kochi tech (this site)",
+    "description": "An open-source, zero-cost city ecosystem product — events, opportunities, jobs, communities and places, refreshed automatically from public sources.",
+    "url": "https://kochi.buzz/",
+    "repositoryUrl": "https://github.com/vaishakh3/kochitechevents",
+    "categories": ["Open Source", "Civic Tech"],
+    "location": "Kochi",
+    "kochiConnection": "Built for and about the Kochi ecosystem",
+    "sourceUrl": "https://github.com/vaishakh3/kochitechevents"
+  }
+]

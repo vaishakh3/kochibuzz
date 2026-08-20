@@ -12,6 +12,8 @@ import {
   todayInIST,
 } from "@/lib/calendar";
 import { DIGEST_DAYS, digestEvents, digestText } from "@/lib/digest";
+import { closingSoon } from "@/lib/buzz";
+import { opportunityTypeLabels } from "@/data/dataset";
 
 export const metadata: Metadata = {
   title: "The next 30 days — kochi.buzz",
@@ -25,7 +27,16 @@ export const revalidate = 3600;
 export default function DigestPage() {
   const today = todayInIST();
   const list = digestEvents();
-  const text = digestText(list);
+  const closing = closingSoon(today);
+  const text = digestText(
+    list,
+    DIGEST_DAYS,
+    closing.map((o) => ({
+      title: o.title,
+      organization: o.organization,
+      deadlineAt: o.deadlineAt!,
+    })),
+  );
   const whatsapp = `https://wa.me/?text=${encodeURIComponent(text)}`;
 
   return (
@@ -68,7 +79,7 @@ export default function DigestPage() {
                     </span>
                   </span>
                   <Link
-                    href={`/?e=${event.id}`}
+                    href={`/events/${event.id}`}
                     className="flex flex-wrap items-center gap-x-3 gap-y-1 rounded-2xl bg-white/[0.04] px-4 py-3 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-amber-300/40"
                   >
                     <span className="text-sm font-semibold text-white">
@@ -96,6 +107,34 @@ export default function DigestPage() {
               );
             })}
           </ol>
+
+          {closing.length > 0 && (
+            <section className="mt-8">
+              <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-amber-300/80">
+                Closing soon
+              </h2>
+              <ul className="mt-3 space-y-2">
+                {closing.map((opportunity) => (
+                  <li key={opportunity.id}>
+                    <Link
+                      href="/opportunities"
+                      className="flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-2xl bg-white/[0.04] px-4 py-3 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-amber-300/40"
+                    >
+                      <span className="rounded-full bg-amber-400/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-amber-200 ring-1 ring-amber-300/25">
+                        {opportunityTypeLabels[opportunity.type]}
+                      </span>
+                      <span className="text-sm font-semibold text-white">
+                        {opportunity.title}
+                      </span>
+                      <span className="text-xs text-white/50">
+                        {opportunity.organization} · deadline {opportunity.deadlineAt}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           <section className="mt-8 rounded-3xl bg-gradient-to-br from-amber-400/[0.08] to-transparent p-5 ring-1 ring-amber-300/20">
             <div className="flex flex-wrap items-center justify-between gap-3">

@@ -52,12 +52,18 @@ export default function CalendarApp() {
 
   // Honour a ?e= deep link on load (deferred so hydration matches the server).
   useEffect(() => {
-    const id = new URLSearchParams(window.location.search).get("e");
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("e");
     const event = id && events.find((e) => e.id === id);
+    const requested = params
+      .getAll("category")
+      .flatMap((value) => value.split(","))
+      .filter((value): value is CategoryId => ALL_CATEGORIES.has(value as CategoryId));
     const compact = window.matchMedia("(max-width: 1023px)").matches;
     const timer = setTimeout(() => {
       setHydrated(true);
       if (compact) setView("agenda");
+      if (requested.length > 0) setActive(new Set(requested));
       if (event) jumpTo(event);
     }, 0);
     return () => clearTimeout(timer);

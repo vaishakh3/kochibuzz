@@ -1,0 +1,49 @@
+name: Submit a project (Built in Kochi)
+description: Something interesting being built from Kochi — product, open source, hardware, experiment.
+title: "Project: "
+labels: ["submission", "project"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: tagline
+    attributes:
+      label: One-line description
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub URL (optional)
+  - type: input
+    id: makers
+    attributes:
+      label: Makers (optional, only publicly listed names)
+  - type: textarea
+    id: what
+    attributes:
+      label: What was built?
+    validations:
+      required: true
+  - type: input
+    id: kochi
+    attributes:
+      label: Connection to Kochi
+      description: A real Kochi connection is required.
+    validations:
+      required: true
+  - type: input
+    id: categories
+    attributes:
+      label: Categories
+      placeholder: e.g. Open Source, AI, Hardware

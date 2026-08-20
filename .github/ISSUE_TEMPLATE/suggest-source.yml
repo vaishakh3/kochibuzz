@@ -1,0 +1,34 @@
+name: Suggest a data source
+description: A public calendar, RSS feed or page kochi.buzz should monitor automatically.
+title: "Source: "
+labels: ["submission", "source"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Public iCal, RSS/Atom, Luma calendar, Meetup group, or a stable public page.
+    validations:
+      required: true
+  - type: dropdown
+    id: entity
+    attributes:
+      label: What does it list?
+      options: [Events, Jobs, Opportunities, Communities]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Anything that helps us verify it (who runs it, how often it updates).
+  - type: markdown
+    attributes:
+      value: |
+        New sources are reviewed manually before the crawler is pointed at them.

@@ -1,0 +1,35 @@
+name: Submit a community
+description: An active tech community in or around Kochi that we should list.
+title: "Community: "
+labels: ["submission", "community"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Community name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+    validations:
+      required: true
+  - type: input
+    id: focus
+    attributes:
+      label: Focus
+      placeholder: e.g. Python, cloud native, students
+    validations:
+      required: true
+  - type: input
+    id: cadence
+    attributes:
+      label: Usual cadence (if known)
+      placeholder: e.g. monthly meetups
+  - type: textarea
+    id: about
+    attributes:
+      label: About the community
+    validations:
+      required: true
