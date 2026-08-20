@@ -1,0 +1,47 @@
+name: Sync data
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kochi-buzz-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run data sync
+        run: npx tsx scripts/sync/index.ts
+
+      - name: Run data tests
+        run: npx vitest run
+
+      - name: Commit data changes only
+        run: |
+          git add data/generated data/state public/api/v1
+          if git diff --cached --quiet; then
+            echo "No data changes. Exiting."
+            exit 0
+          fi
+          git config user.name "kochi-buzz-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "data: refresh Kochi.buzz sources"
+          git push

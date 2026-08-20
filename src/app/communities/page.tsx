@@ -69,7 +69,7 @@ export default function CommunitiesPage() {
                 </p>
                 {next && (
                   <Link
-                    href={`/?e=${next.id}`}
+                    href={`/events/${next.id}`}
                     className="mt-3 block rounded-2xl bg-violet-500/10 px-3 py-2 text-xs text-violet-200 ring-1 ring-violet-400/20 transition hover:bg-violet-500/20 hover:text-white"
                   >
                     <span className="block text-[10px] font-semibold uppercase tracking-wide text-violet-300/70">

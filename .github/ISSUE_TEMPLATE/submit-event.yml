@@ -1,0 +1,69 @@
+name: Submit an event
+description: Know something happening in Kochi tech? Tell us about it.
+title: "Event: "
+labels: ["submission", "event"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Event name
+    validations:
+      required: true
+  - type: input
+    id: start
+    attributes:
+      label: Start date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: input
+    id: end
+    attributes:
+      label: End date (if multi-day)
+      placeholder: YYYY-MM-DD
+  - type: input
+    id: time
+    attributes:
+      label: Time
+      placeholder: e.g. 09:30 – 17:00, or TBA
+  - type: input
+    id: venue
+    attributes:
+      label: Venue / city
+    validations:
+      required: true
+  - type: input
+    id: organizer
+    attributes:
+      label: Organizer
+    validations:
+      required: true
+  - type: input
+    id: register
+    attributes:
+      label: Registration URL
+  - type: input
+    id: source
+    attributes:
+      label: Source URL (official event page)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Hackathons
+        - AI & Agents
+        - Open Source
+        - Startups
+        - Security
+        - Enterprise & IT
+        - Cloud & DevOps
+        - Web Dev
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else

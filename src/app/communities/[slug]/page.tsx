@@ -47,7 +47,7 @@ function EventList({
         return (
           <li key={event.id}>
             <Link
-              href={`/?e=${event.id}`}
+              href={`/events/${event.id}`}
               className={[
                 "flex flex-wrap items-center gap-x-3 gap-y-1 rounded-2xl bg-white/[0.04] px-4 py-3 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-violet-400/40",
                 muted ? "opacity-60 hover:opacity-100" : "",

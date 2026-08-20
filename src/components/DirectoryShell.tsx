@@ -1,12 +1,6 @@
 import Link from "next/link";
+import SiteNav, { SecondaryNav } from "@/components/SiteNav";
 import { submitEventUrl } from "@/data/directory";
-
-const tabs = [
-  { href: "/", label: "Calendar" },
-  { href: "/communities", label: "Communities" },
-  { href: "/spaces", label: "Spaces" },
-  { href: "/digest", label: "Digest" },
-];
 
 export type Accent = "violet" | "teal" | "amber";
 
@@ -91,38 +85,37 @@ export default function DirectoryShell({
               {intro}
             </p>
           </div>
-          <nav className="flex max-w-full overflow-x-auto rounded-full bg-white/[0.06] p-1 ring-1 ring-white/10">
-            {tabs.map((tab) => (
-              <Link
-                key={tab.href}
-                href={tab.href}
-                className={[
-                  "rounded-full px-4 py-2 text-sm font-medium transition",
-                  tab.href === current
-                    ? `${theme.activeTab} shadow-sm`
-                    : "text-white/60 hover:text-white",
-                ].join(" ")}
-              >
-                {tab.label}
-              </Link>
-            ))}
-          </nav>
+          <SiteNav current={current} activeClass={theme.activeTab} />
         </header>
 
         <div className="relative z-10 mt-10">{children}</div>
 
-        <footer className="relative z-10 mt-10 flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-white/[0.04] px-5 py-4 ring-1 ring-white/10">
-          <p className="text-sm text-white/60">
-            Know something that belongs here? Tell us and we&apos;ll add it.
-          </p>
-          <a
-            href={submitEventUrl}
-            target="_blank"
-            rel="noreferrer"
-            className={`rounded-full px-5 py-2 text-sm font-semibold text-white transition ${theme.button}`}
-          >
-            Submit an event →
-          </a>
+        <footer className="relative z-10 mt-10 space-y-4">
+          <div className="flex flex-wrap items-center justify-between gap-3 rounded-3xl bg-white/[0.04] px-5 py-4 ring-1 ring-white/10">
+            <p className="text-sm text-white/60">
+              Know something that belongs here? Tell us and we&apos;ll add it.
+            </p>
+            <a
+              href={submitEventUrl}
+              target="_blank"
+              rel="noreferrer"
+              className={`rounded-full px-5 py-2 text-sm font-semibold text-white transition ${theme.button}`}
+            >
+              Submit an event →
+            </a>
+          </div>
+          <div className="flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.08] pt-4">
+            <SecondaryNav current={current} />
+            <p className="text-[11px] text-white/30">
+              Tracked from public sources ·{" "}
+              <Link
+                href="/about"
+                className="underline decoration-white/20 underline-offset-2 hover:text-white/60"
+              >
+                how the data works
+              </Link>
+            </p>
+          </div>
         </footer>
       </div>
     </main>

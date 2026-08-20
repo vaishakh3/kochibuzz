@@ -1,0 +1,36 @@
+[
+  {
+    "id": "infopark-jobs",
+    "name": "Infopark Kochi — official job listings",
+    "kind": "html",
+    "entityTypes": ["job"],
+    "url": "https://infopark.in/companies-job",
+    "enabled": true,
+    "trustLevel": 5,
+    "refreshHours": 4,
+    "parser": "infopark",
+    "notes": "Official Infopark job board (server-rendered table, paginated). Covers companies across Infopark campuses; listings are treated as Infopark, Kochi."
+  },
+  {
+    "id": "malabarjs-luma",
+    "name": "MalabarJS — Luma calendar",
+    "kind": "ics",
+    "entityTypes": ["event"],
+    "url": "https://api.lu.ma/ics/get?entity=calendar&id=cal-REPLACE",
+    "enabled": false,
+    "trustLevel": 4,
+    "parser": "ics",
+    "notes": "Enable once the organizer shares their public Luma iCal subscription URL. The generic ICS adapter is ready."
+  },
+  {
+    "id": "gdg-cochin",
+    "name": "GDG Cochin — community page",
+    "kind": "jsonld",
+    "entityTypes": ["event"],
+    "url": "https://gdg.community.dev/gdg-cochin/",
+    "enabled": false,
+    "trustLevel": 4,
+    "parser": "jsonld",
+    "notes": "GDG community pages are client-rendered; enable if/when a stable JSON-LD or ICS endpoint is confirmed."
+  }
+]

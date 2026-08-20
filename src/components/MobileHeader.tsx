@@ -147,16 +147,34 @@ export default function MobileHeader({
           Next 30 days →
         </Link>
         <Link
+          href="/"
+          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
+        >
+          Buzz
+        </Link>
+        <Link
+          href="/opportunities"
+          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
+        >
+          Opportunities
+        </Link>
+        <Link
+          href="/jobs"
+          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
+        >
+          Jobs
+        </Link>
+        <Link
           href="/communities"
           className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
         >
           Communities
         </Link>
         <Link
-          href="/spaces"
+          href="/places"
           className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
         >
-          Spaces
+          Places
         </Link>
         <a
           href={submitEventUrl}

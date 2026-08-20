@@ -32,7 +32,7 @@ export default function NotFound() {
         </p>
         {next && (
           <Link
-            href={`/e/${next.id}`}
+            href={`/events/${next.id}`}
             className="mt-6 block rounded-2xl bg-white/[0.04] px-4 py-3 text-left ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-violet-400/40"
           >
             <span className="text-[10px] font-semibold uppercase tracking-wide text-violet-300/80">
