@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
-import { ProjectCover } from "@/components/signal";
+import ProjectVisual from "@/components/ProjectVisual";
 import { projects } from "@/data/dataset";
 import type { Project } from "@/data/types";
 
@@ -62,7 +62,12 @@ export default function BuiltPage() {
             id={lead.id}
             className="group grid gap-0 overflow-hidden rounded-xl ring-1 ring-white/10 transition hover:ring-white/25 sm:grid-cols-[1.1fr_1.4fr]"
           >
-            <ProjectCover name={lead.name} className="h-40 w-full sm:h-full" />
+            <ProjectVisual
+              projectId={lead.id}
+              name={lead.name}
+              priority
+              className="min-h-64 w-full sm:h-full"
+            />
             <div className="p-6 sm:p-8">
               <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/40">
                 {lead.categories.join(" · ")}
@@ -88,7 +93,7 @@ export default function BuiltPage() {
               {rest.map((project) => (
                 <li key={project.id} id={project.id}>
                   <div className="group flex h-full flex-col overflow-hidden rounded-lg ring-1 ring-white/10 transition hover:ring-white/25">
-                    <ProjectCover name={project.name} className="h-20 w-full" />
+                    <ProjectVisual projectId={project.id} name={project.name} className="h-44 w-full" />
                     <div className="flex flex-1 flex-col p-5">
                       <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.25em] text-white/40">
                         {project.categories.join(" · ")}

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import BuzzReceiver, { type BuzzTrack } from "@/components/BuzzReceiver";
 import SiteShell from "@/components/SiteShell";
 import LiveClock from "@/components/LiveClock";
-import { ProjectCover, identityColors } from "@/components/signal";
+import ProjectVisual from "@/components/ProjectVisual";
+import { identityColors } from "@/components/signal";
 import { categoryById, events } from "@/data/events";
 import { communityDirectory, spaces } from "@/data/directory";
-import { jobs, opportunityTypeLabels } from "@/data/dataset";
+import { jobCategoryLabels, jobs, opportunityTypeLabels } from "@/data/dataset";
 import {
   MONTHS,
   WEEKDAYS_LONG,
@@ -66,6 +67,116 @@ export default async function BuzzHome({
   const freshJobs = newJobs(today).slice(0, 5);
   const built = featuredProjects().slice(0, 4);
 
+  const upcomingEvents = events
+    .filter((event) => event.end >= todayIso)
+    .sort((a, b) => a.start.localeCompare(b.start))
+    .slice(0, 5);
+  const goPicks: BuzzTrack["items"] = upcomingEvents.map((event) => ({
+    id: `event:${event.id}`,
+    kind: "event",
+    eyebrow: `${countdownLabel(event, today)} · ${categoryById.get(event.category)?.label ?? "Event"}`,
+    title: event.title,
+    detail: event.blurb,
+    meta: `${formatDateRange(event)} · ${formatTimeRange(event)} · ${event.venue}`,
+    href: `/events/${event.id}`,
+    calendarHref: `/e/${event.id}/event.ics`,
+  }));
+  const peoplePicks: BuzzTrack["items"] = [
+    ...communityDirectory.slice(0, 3).map((community) => ({
+      id: `community:${community.slug}`,
+      kind: "community" as const,
+      eyebrow: `${community.focus} · ${community.cadence}`,
+      title: community.name,
+      detail: community.blurb,
+      meta: "Kochi community · Open their local profile",
+      href: `/communities/${community.slug}`,
+    })),
+    ...spaces.slice(0, 1).map((space) => ({
+      id: `place:${space.name}`,
+      kind: "place" as const,
+      eyebrow: `${space.kind} · ${space.area}`,
+      title: space.name,
+      detail: space.blurb,
+      meta: "Real place · Official website",
+      href: space.url,
+      external: true,
+    })),
+  ];
+  const careerPicks: BuzzTrack["items"] = [
+    ...(freshJobs.length > 0 ? freshJobs.slice(0, 3) : jobs.slice(0, 3)).map((job) => ({
+      id: `job:${job.id}`,
+      kind: "job" as const,
+      eyebrow: `${jobCategoryLabels[job.category]} · ${isNew(job.firstSeenAt, todayIso) ? "New role" : "Open role"}`,
+      title: job.title,
+      detail: `${job.company} is hiring${job.location ? ` in ${job.location}` : " in the Kochi tech ecosystem"}.`,
+      meta: `${job.company}${job.location ? ` · ${job.location}` : ""}`,
+      href: job.detailUrl,
+      external: true,
+    })),
+    ...open.slice(0, 1).map((opportunity) => ({
+      id: `opportunity:${opportunity.id}`,
+      kind: "opportunity" as const,
+      eyebrow: `${opportunityTypeLabels[opportunity.type]} · ${opportunity.ongoing || !opportunity.deadlineAt ? "Rolling" : `${Math.max(0, daysBetween(todayIso, opportunity.deadlineAt))} days left`}`,
+      title: opportunity.title,
+      detail: opportunity.summary,
+      meta: opportunity.organization,
+      href: "/opportunities",
+    })),
+  ];
+  const buildPicks: BuzzTrack["items"] = [
+    ...built.map((project) => ({
+      id: `project:${project.id}`,
+      kind: "project" as const,
+      eyebrow: project.categories.join(" · "),
+      title: project.name,
+      detail: project.description ?? project.tagline,
+      meta: project.kochiConnection,
+      href: `/built#${project.id}`,
+    })),
+    ...open
+      .filter((opportunity) => ["hackathon", "grant", "accelerator", "bounty", "program"].includes(opportunity.type))
+      .slice(0, 1)
+      .map((opportunity) => ({
+        id: `build-opportunity:${opportunity.id}`,
+        kind: "opportunity" as const,
+        eyebrow: `${opportunityTypeLabels[opportunity.type]} · Door open`,
+        title: opportunity.title,
+        detail: opportunity.summary,
+        meta: opportunity.organization,
+        href: "/opportunities",
+      })),
+  ];
+  const receiverTracks: BuzzTrack[] = [
+    {
+      id: "go",
+      label: "Go out",
+      shortLabel: "Go out",
+      color: "#d7f24b",
+      items: goPicks,
+    },
+    {
+      id: "people",
+      label: "Find my people",
+      shortLabel: "Meet people",
+      color: "#72dcc7",
+      items: peoplePicks,
+    },
+    {
+      id: "career",
+      label: "Move my career",
+      shortLabel: "Find work",
+      color: "#c7b4ee",
+      items: careerPicks,
+    },
+    {
+      id: "build",
+      label: "Build something",
+      shortLabel: "Build here",
+      color: "#ff6542",
+      items: buildPicks,
+    },
+  ].filter((track) => track.items.length > 0) as BuzzTrack[];
+
   const metrics = [
     {
       kicker: "On the radar",
@@ -102,7 +213,7 @@ export default async function BuzzHome({
       <section className="buzz-hero overflow-hidden">
         <div className="buzz-orbit buzz-orbit--one" aria-hidden />
         <div className="buzz-orbit buzz-orbit--two" aria-hidden />
-        <div className="relative mx-auto grid w-full max-w-[1280px] gap-10 px-4 pb-10 pt-8 sm:px-6 sm:pb-14 sm:pt-12 lg:grid-cols-[0.88fr_1.12fr] lg:items-center lg:gap-12 lg:pb-20 lg:pt-16">
+        <div className="relative mx-auto grid w-full max-w-[1280px] gap-10 px-4 pb-10 pt-8 sm:px-6 sm:pb-14 sm:pt-12 lg:grid-cols-[0.78fr_1.22fr] lg:items-center lg:gap-10 lg:pb-16 lg:pt-12">
           <div className="relative z-10">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-2 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.24em] text-white/55">
               <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/[0.05] px-3 py-1.5">
@@ -128,12 +239,12 @@ export default async function BuzzHome({
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
-              <Link href="/events" className="buzz-button buzz-button--primary">
-                See what&apos;s on
-                <span aria-hidden>↗</span>
+              <Link href="#tune-your-buzz" className="buzz-button buzz-button--primary">
+                Tune today&apos;s buzz
+                <span aria-hidden>↓</span>
               </Link>
-              <Link href="/digest" className="buzz-button buzz-button--ghost">
-                Get the 30-day view
+              <Link href="/events" className="buzz-button buzz-button--ghost">
+                Open the city calendar
                 <span aria-hidden>→</span>
               </Link>
             </div>
@@ -157,30 +268,7 @@ export default async function BuzzHome({
             </nav>
           </div>
 
-          <div className="relative min-h-[440px] sm:min-h-[590px] lg:min-h-[660px]">
-            <div className="buzz-art-frame absolute inset-0 overflow-hidden">
-              <Image
-                src="/images/kochi-city-frequency.webp"
-                alt="Editorial illustration of Kochi’s ferries, metro, port, communities and creative work connected by a flowing city frequency"
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 58vw"
-                className="object-cover object-[61%_center]"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0b0b12]/45 via-transparent to-transparent" />
-            </div>
-            <div className="absolute -left-2 top-8 rotate-[-5deg] rounded-full bg-[var(--paper)] px-4 py-2 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--paper-ink)] shadow-xl sm:left-2">
-              City frequency 09.93°N
-            </div>
-            <div className="absolute bottom-6 right-2 max-w-[220px] rounded-2xl border border-white/15 bg-[#0b0b12]/80 p-4 shadow-2xl backdrop-blur-md sm:bottom-8 sm:right-5">
-              <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.24em] text-[var(--signal)]">
-                The daily promise
-              </p>
-              <p className="mt-2 text-sm leading-snug text-white/80">
-                No fake hype. Just the most useful things moving through Kochi.
-              </p>
-            </div>
-          </div>
+          <BuzzReceiver tracks={receiverTracks} dateLabel={dateLabel} />
         </div>
       </section>
 
@@ -521,7 +609,7 @@ export default async function BuzzHome({
                 href={`/built#${project.id}`}
                 className={`built-card group overflow-hidden rounded-[1.6rem] border border-white/10 ${index === 0 ? "sm:col-span-2 lg:col-span-1" : ""}`}
               >
-                <ProjectCover name={project.name} className="h-36 w-full transition-transform duration-500 group-hover:scale-[1.03]" />
+                <ProjectVisual projectId={project.id} name={project.name} className="h-44 w-full transition-transform duration-500 group-hover:scale-[1.015]" />
                 <div className="p-5">
                   <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.2em] text-white/35">Built here · {String(index + 1).padStart(2, "0")}</p>
                   <h3 className="font-display mt-3 text-2xl font-semibold text-white transition group-hover:text-[var(--signal)]">{project.name}</h3>

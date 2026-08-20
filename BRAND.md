@@ -76,15 +76,21 @@ anchor future commissioned imagery.
 
 ## Product rhythm
 
-The homepage is designed around three repeatable questions:
+The first minute begins with a **city receiver**, not a page tour. A visitor
+chooses today’s intent—go out, meet people, find work or build here—and receives
+a short sequence of real signals with skip, save, calendar and open actions.
+The selected frequency and “My Buzz” queue are remembered on that device without
+an account.
+
+The rest of the homepage answers three repeatable questions:
 
 1. **What matters now?** Live metrics, the next event and the city wire.
 2. **What should I plan?** This week, opportunities and hiring.
 3. **Where do I belong?** Projects, communities and places.
 
-The calendar, 7/30-day digest, RSS and ICS feed are the first retention loop.
-They work without an account and fit existing community behavior. A future
-personalized layer should preserve this public, source-backed core.
+The personal queue, calendar, 7/30-day digest, RSS and ICS feed form the first
+retention loop. They preserve the public, source-backed core and never pretend
+to know more about a visitor than their explicit device-local choices.
 
 ## Guardrails
 
