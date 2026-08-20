@@ -1,11 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import MiniCalendar from "@/components/MiniCalendar";
 import { ChevronRightIcon } from "@/components/icons";
 import { CategoryId, TechEvent, categories } from "@/data/events";
-import { submitEventUrl } from "@/data/directory";
 import { MONTHS, isSameDay, occursOn, toISODate, weekDays } from "@/lib/calendar";
 
 type Props = {
@@ -37,26 +35,16 @@ export default function MobileHeader({
   const week = weekDays(selected);
 
   return (
-    <div className="flex flex-col gap-3 bg-[#120e0c] p-4 lg:hidden">
-      <header className="flex items-center justify-between">
-        <div>
-          <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
-            Kochi Tech Events
-          </p>
-          <h1 className="text-xl font-semibold leading-tight tracking-tight text-white">
-            kochi<span className="text-violet-400">.buzz</span>
-          </h1>
-        </div>
+    <div className="flex flex-col gap-3 bg-[var(--surface)] p-4 lg:hidden">
+      <header className="flex items-baseline justify-between">
+        <p className="font-[family-name:var(--font-geist-mono)] text-[10px] font-semibold uppercase tracking-[0.35em] text-white/50">
+          Calendar
+        </p>
         <span
           title={`${allEvents.length} events tracked`}
-          className="flex flex-col items-center justify-center rounded-full bg-violet-500/20 px-2.5 py-1 ring-1 ring-violet-400/30"
+          className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal-dim)]"
         >
-          <span className="text-xs font-semibold leading-none text-violet-200">
-            {allEvents.length}
-          </span>
-          <span className="mt-0.5 text-[7px] font-semibold uppercase tracking-[0.15em] text-violet-300/70">
-            events
-          </span>
+          {allEvents.length} events
         </span>
       </header>
 
@@ -84,7 +72,7 @@ export default function MobileHeader({
           onCursorChange={onCursorChange}
         />
       ) : (
-        <div className="grid grid-cols-7 rounded-2xl bg-white/[0.04] px-1 py-2 ring-1 ring-white/10">
+        <div className="grid grid-cols-7 rounded-xl bg-white/[0.04] px-1 py-2 ring-1 ring-white/10">
           {week.map((day, i) => {
             const isSelected = isSameDay(day, selected);
             const isToday = isSameDay(day, today);
@@ -102,15 +90,15 @@ export default function MobileHeader({
                   className={[
                     "grid h-8 w-8 place-items-center rounded-full text-[13px] transition",
                     isSelected
-                      ? "bg-violet-500 font-semibold text-white"
+                      ? "bg-[var(--signal)] font-semibold text-[var(--signal-ink)]"
                       : "text-white/80",
-                    !isSelected && isToday ? "ring-1 ring-violet-400/70" : "",
+                    !isSelected && isToday ? "ring-1 ring-[var(--signal-dim)]" : "",
                   ].join(" ")}
                 >
                   {day.getDate()}
                 </span>
                 {hasEvent && !isSelected && (
-                  <span className="absolute bottom-0 h-1 w-1 rounded-full bg-violet-400" />
+                  <span className="absolute bottom-0 h-1 w-1 rounded-full bg-[var(--signal)]" />
                 )}
               </button>
             );
@@ -139,52 +127,6 @@ export default function MobileHeader({
         })}
       </div>
 
-      <div className="-mx-4 flex gap-2 overflow-x-auto px-4 [scrollbar-width:none]">
-        <Link
-          href="/digest"
-          className="shrink-0 whitespace-nowrap rounded-full bg-violet-500/15 px-3 py-1.5 text-[11px] font-semibold text-violet-200 ring-1 ring-violet-400/25"
-        >
-          Next 30 days →
-        </Link>
-        <Link
-          href="/"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Buzz
-        </Link>
-        <Link
-          href="/opportunities"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Opportunities
-        </Link>
-        <Link
-          href="/jobs"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Jobs
-        </Link>
-        <Link
-          href="/communities"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Communities
-        </Link>
-        <Link
-          href="/places"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Places
-        </Link>
-        <a
-          href={submitEventUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="shrink-0 whitespace-nowrap rounded-full bg-white/[0.04] px-3 py-1.5 text-[11px] font-semibold text-white/60 ring-1 ring-white/10"
-        >
-          Submit an event
-        </a>
-      </div>
     </div>
   );
 }

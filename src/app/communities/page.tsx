@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import DirectoryShell from "@/components/DirectoryShell";
+import { identityColors } from "@/components/signal";
 import { communityDirectory } from "@/data/directory";
 import { formatDateRange } from "@/lib/calendar";
 import { communityEvents } from "@/lib/communityEvents";
-import { monogram, tileStyle } from "@/lib/identity";
+import { monogram } from "@/lib/identity";
 
 export const metadata: Metadata = {
   title: "Communities — kochi.buzz",
@@ -20,84 +21,75 @@ export default function CommunitiesPage() {
       current="/communities"
       eyebrow="The crews of Kochi tech"
       accent="violet"
-      watermark="CREWS"
-      title={
-        <>
-          Find your <span className="ink-violet">people</span>
-        </>
-      }
+      title={<>Find your people</>}
       intro="Events come and go, but communities are where Kochi tech actually lives. These groups meet regularly — show up once and you'll keep coming back."
+      submitLabel="Suggest a community"
     >
-      <ul className="grid gap-4 sm:grid-cols-2">
-        {communityDirectory.map((community, index) => {
+      <ul>
+        {communityDirectory.map((community) => {
           const next = communityEvents(community).upcoming[0];
+          const colors = identityColors(community.name);
           return (
-            <li key={community.slug}>
-              <div className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.06] hover:ring-violet-400/40">
-                <span
+            <li key={community.slug} className="border-t border-white/10">
+              <div className="group flex flex-col gap-4 py-6 sm:flex-row sm:items-start sm:gap-6">
+                <Link
+                  href={`/communities/${community.slug}`}
                   aria-hidden
-                  className="absolute right-4 top-3 text-4xl font-extrabold tracking-tight text-white/[0.06] transition group-hover:text-white/[0.1]"
+                  tabIndex={-1}
+                  className="grid h-14 w-14 shrink-0 place-items-center rounded-lg text-base font-bold ring-1 ring-white/10"
+                  style={{ background: colors.bg, color: colors.fg }}
                 >
-                  {`${index + 1}`.padStart(2, "0")}
-                </span>
-                <div className="flex items-center gap-3.5">
-                  <Link
-                    href={`/communities/${community.slug}`}
-                    aria-hidden
-                    tabIndex={-1}
-                    className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl text-sm font-bold text-white shadow-lg ring-1 ring-white/20"
-                    style={tileStyle(community.name)}
-                  >
-                    {monogram(community.name)}
-                  </Link>
-                  <div className="min-w-0">
-                    <h2 className="truncate text-[17px] font-semibold text-white">
+                  {monogram(community.name)}
+                </Link>
+                <div className="min-w-0 flex-1">
+                  <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5">
+                    <h2 className="text-[17px] font-semibold text-white">
                       <Link
                         href={`/communities/${community.slug}`}
-                        className="transition hover:text-violet-300"
+                        className="transition hover:text-[var(--signal)]"
                       >
                         {community.name}
                       </Link>
                     </h2>
-                    <p className="mt-0.5 text-[11px] font-semibold uppercase tracking-wide text-violet-300/70">
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
                       {community.focus}
-                    </p>
+                    </span>
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/30">
+                      {community.cadence}
+                    </span>
                   </div>
-                </div>
-                <p className="mt-3 flex-1 text-sm leading-relaxed text-white/55">
-                  {community.blurb}
-                </p>
-                {next && (
-                  <Link
-                    href={`/events/${next.id}`}
-                    className="mt-3 block rounded-2xl bg-violet-500/10 px-3 py-2 text-xs text-violet-200 ring-1 ring-violet-400/20 transition hover:bg-violet-500/20 hover:text-white"
-                  >
-                    <span className="block text-[10px] font-semibold uppercase tracking-wide text-violet-300/70">
-                      Next on the calendar
-                    </span>
-                    <span className="mt-0.5 block font-medium">
-                      {next.title} · {formatDateRange(next)}
-                    </span>
-                  </Link>
-                )}
-                <div className="mt-4 text-xs">
-                  <p className="text-white/40">{community.cadence}</p>
-                  <div className="mt-2 flex items-center gap-4">
+                  <p className="mt-1.5 max-w-xl text-sm leading-relaxed text-white/55">
+                    {community.blurb}
+                  </p>
+                  {next && (
                     <Link
-                      href={`/communities/${community.slug}`}
-                      className="font-medium text-white/60 transition hover:text-white"
+                      href={`/events/${next.id}`}
+                      className="mt-2.5 inline-flex flex-wrap items-baseline gap-x-2 text-xs transition hover:opacity-80"
                     >
-                      Details
+                      <span className="font-[family-name:var(--font-geist-mono)] uppercase tracking-wider text-[var(--signal)]">
+                        Next meet
+                      </span>
+                      <span className="text-white/70">
+                        {next.title} · {formatDateRange(next)}
+                      </span>
                     </Link>
-                    <a
-                      href={community.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="font-medium text-violet-300 transition hover:text-white"
-                    >
-                      Visit →
-                    </a>
-                  </div>
+                  )}
+                </div>
+                <div className="flex shrink-0 items-center gap-4 text-xs font-medium sm:pt-1">
+                  <Link
+                    href={`/communities/${community.slug}`}
+                    className="text-white/55 transition hover:text-white"
+                  >
+                    Details
+                  </Link>
+                  <a
+                    href={community.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-[var(--signal)] transition hover:opacity-80"
+                  >
+                    Visit →
+                  </a>
                 </div>
               </div>
             </li>

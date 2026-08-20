@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import DirectoryShell from "@/components/DirectoryShell";
+import { identityColors } from "@/components/signal";
 import { communityBySlug, communityDirectory } from "@/data/directory";
 import { TechEvent, categoryById } from "@/data/events";
 import { countdownLabel, formatDateRange, todayInIST } from "@/lib/calendar";
 import { communityEvents } from "@/lib/communityEvents";
-import { monogram, tileStyle, washStyle } from "@/lib/identity";
+import { monogram } from "@/lib/identity";
 
 type Params = Promise<{ slug: string }>;
 
@@ -41,30 +42,28 @@ function EventList({
   muted?: boolean;
 }) {
   return (
-    <ul className="space-y-2.5">
+    <ul>
       {events.map((event) => {
         const category = categoryById.get(event.category)!;
         return (
-          <li key={event.id}>
+          <li key={event.id} className="border-t border-white/[0.08]">
             <Link
               href={`/events/${event.id}`}
               className={[
-                "flex flex-wrap items-center gap-x-3 gap-y-1 rounded-2xl bg-white/[0.04] px-4 py-3 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:ring-violet-400/40",
-                muted ? "opacity-60 hover:opacity-100" : "",
+                "group flex flex-wrap items-baseline gap-x-3 gap-y-1 py-3.5 transition hover:bg-white/[0.02]",
+                muted ? "opacity-50 hover:opacity-100" : "",
               ].join(" ")}
             >
-              <span className="text-sm font-semibold text-white">
+              <span className="text-sm font-semibold text-white transition group-hover:text-[var(--signal)]">
                 {event.title}
               </span>
-              <span
-                className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ring-1 ${category.chip}`}
-              >
+              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
                 {category.label}
               </span>
               <span className="w-full text-xs text-white/50 sm:w-auto">
                 {formatDateRange(event)} · {event.venue}, {event.city}
               </span>
-              <span className="ml-auto shrink-0 rounded-full bg-white/[0.06] px-2.5 py-1 text-[10px] font-semibold text-white/60">
+              <span className="ml-auto shrink-0 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
                 {countdownLabel(event, today)}
               </span>
             </Link>
@@ -82,61 +81,81 @@ export default async function CommunityPage({ params }: { params: Params }) {
 
   const today = todayInIST();
   const { upcoming, past } = communityEvents(community);
+  const nextMeet = upcoming[0];
+  const colors = identityColors(community.name);
 
   return (
     <DirectoryShell
       current="/communities"
       eyebrow="Community crew"
       accent="violet"
-      watermark={monogram(community.name)}
       title={community.name}
       intro={community.blurb}
-    >
-      <div
-        className="relative flex flex-wrap items-center gap-4 overflow-hidden rounded-3xl p-5 ring-1 ring-white/10"
-        style={washStyle(community.name)}
-      >
+      submitLabel="Suggest a community"
+      headerArt={
         <span
-          className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-base font-bold text-white shadow-lg ring-1 ring-white/20"
-          style={tileStyle(community.name)}
+          aria-hidden
+          className="absolute right-0 top-10 hidden h-20 w-20 place-items-center rounded-xl text-2xl font-bold sm:grid"
+          style={{ background: colors.bg, color: colors.fg }}
         >
           {monogram(community.name)}
         </span>
-        <div className="min-w-0">
-          <p className="text-[11px] font-semibold uppercase tracking-wide text-white/70">
-            {community.focus}
-          </p>
-          <p className="mt-0.5 text-xs text-white/50">{community.cadence}</p>
-        </div>
+      }
+    >
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-2">
+        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/55">
+          {community.focus}
+        </p>
+        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/35">
+          {community.cadence}
+        </p>
         <a
           href={community.url}
           target="_blank"
           rel="noreferrer"
-          className="ml-auto rounded-full bg-black/40 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/20 transition hover:bg-black/60"
+          className="text-sm font-semibold text-[var(--signal)] transition hover:opacity-80"
         >
           Official page →
         </a>
       </div>
 
-      <section className="mt-8">
-        <h2 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/40">
-          Upcoming
-        </h2>
-        <div className="mt-3">
-          {upcoming.length > 0 ? (
-            <EventList events={upcoming} today={today} />
-          ) : (
-            <p className="rounded-2xl bg-white/[0.03] px-4 py-4 text-sm text-white/45 ring-1 ring-white/10">
-              No dates announced on kochi.buzz yet — follow their official page,
-              and we&apos;ll list the next one here as soon as it&apos;s public.
-            </p>
-          )}
-        </div>
-      </section>
+      {nextMeet ? (
+        <Link
+          href={`/events/${nextMeet.id}`}
+          className="group mt-8 block overflow-hidden rounded-xl bg-[var(--surface)] p-6 ring-1 ring-white/10 transition hover:ring-white/25 sm:p-8"
+        >
+          <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-[var(--signal)]">
+            Next meet
+          </p>
+          <h2 className="font-display mt-2 text-2xl font-semibold tracking-tight text-white transition group-hover:text-[var(--signal)] sm:text-4xl">
+            {nextMeet.title}
+          </h2>
+          <p className="mt-2 font-[family-name:var(--font-geist-mono)] text-xs uppercase tracking-wider text-white/50">
+            {formatDateRange(nextMeet)} · {nextMeet.venue}, {nextMeet.city} ·{" "}
+            {countdownLabel(nextMeet, today)}
+          </p>
+        </Link>
+      ) : (
+        <p className="mt-8 border-t border-white/10 pt-5 text-sm text-white/45">
+          No dates announced on kochi.buzz yet — follow their official page, and
+          we&apos;ll list the next one here as soon as it&apos;s public.
+        </p>
+      )}
+
+      {upcoming.length > 1 && (
+        <section className="mt-10">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+            Also upcoming
+          </h2>
+          <div className="mt-3">
+            <EventList events={upcoming.slice(1)} today={today} />
+          </div>
+        </section>
+      )}
 
       {past.length > 0 && (
-        <section className="mt-8">
-          <h2 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-white/40">
+        <section className="mt-10">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
             Past editions
           </h2>
           <div className="mt-3">
@@ -147,7 +166,7 @@ export default async function CommunityPage({ params }: { params: Params }) {
 
       <Link
         href="/communities"
-        className="mt-8 inline-block text-sm text-white/50 transition hover:text-white"
+        className="mt-10 inline-block text-sm text-white/50 transition hover:text-white"
       >
         ← All communities
       </Link>

@@ -35,7 +35,7 @@ export default function DayView({
       </h2>
 
       {dayEvents.length === 0 ? (
-        <p className="mt-8 rounded-3xl bg-slate-50 px-5 py-8 text-center text-sm text-slate-400">
+        <p className="mt-8 rounded-2xl bg-slate-50 px-5 py-8 text-center text-sm text-slate-400">
           No events on this day. Pick another date, or switch to Month to see
           what&apos;s coming up.
         </p>
@@ -48,7 +48,7 @@ export default function DayView({
                 <button
                   onClick={() => onOpenEvent(event)}
                   className={[
-                    "flex w-full gap-4 rounded-3xl bg-white p-4 text-left ring-1 transition",
+                    "flex w-full gap-4 rounded-2xl bg-white p-4 text-left ring-1 transition",
                     event.id === selectedEventId
                       ? "ring-2 ring-slate-900/70"
                       : "ring-slate-200 hover:ring-slate-300",

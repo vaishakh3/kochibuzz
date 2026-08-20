@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
+import GlobalHeader from "@/components/GlobalHeader";
 import { eventById, events } from "@/data/events";
 import { formatDateRange } from "@/lib/calendar";
 import { eventJsonLd, eventListJsonLd } from "@/lib/schema";
@@ -44,17 +45,15 @@ export default async function EventsPage({
   const event = e ? eventById.get(e) : undefined;
   const jsonLd = event ? eventJsonLd(event) : eventListJsonLd(events);
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-2 py-3 sm:px-4 sm:py-8">
-      <div className="aurora aurora-one" aria-hidden />
-      <div className="aurora aurora-two" aria-hidden />
-      <div className="aurora aurora-three" aria-hidden />
+    <div className="flex min-h-screen flex-col">
+      <GlobalHeader current="/events" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
-      <div className="relative z-10 w-full">
+      <main className="flex-1 px-2 py-3 sm:px-4 sm:py-6">
         <CalendarApp />
-      </div>
-    </main>
+      </main>
+    </div>
   );
 }

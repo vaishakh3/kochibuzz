@@ -52,7 +52,9 @@ export default function JobsExplorer({
       if (!q) return true;
       return (
         job.title.toLowerCase().includes(q) ||
-        job.company.toLowerCase().includes(q)
+        job.company.toLowerCase().includes(q) ||
+        job.category.toLowerCase().includes(q) ||
+        (job.location ?? "").toLowerCase().includes(q)
       );
     });
   }, [jobs, category, query]);
@@ -67,9 +69,12 @@ export default function JobsExplorer({
     return age >= 0 && age <= newDays;
   };
 
+  const hasFilters = category !== "all" || query.trim() !== "";
+
   return (
     <div>
-      <div className="flex flex-wrap items-center gap-2">
+      {/* Category rail */}
+      <div className="-mx-1 flex gap-1 overflow-x-auto pb-1">
         {filterOrder.map((id) => {
           const count = id === "all" ? jobs.length : (counts.get(id) ?? 0);
           if (count === 0 && id !== "all") return null;
@@ -82,14 +87,23 @@ export default function JobsExplorer({
                 setShown(PAGE);
               }}
               className={[
-                "rounded-full px-3.5 py-1.5 text-xs font-semibold transition",
+                "shrink-0 border-b-2 px-3 py-2 text-left transition",
                 category === id
-                  ? "bg-teal-300 text-slate-950"
-                  : "bg-white/[0.05] text-white/60 ring-1 ring-white/10 hover:text-white",
+                  ? "border-[var(--signal)]"
+                  : "border-transparent hover:border-white/20",
               ].join(" ")}
             >
-              {id === "all" ? "All" : jobCategoryLabels[id]}
-              <span className="ml-1.5 opacity-60">{count}</span>
+              <span
+                className={[
+                  "block text-xs font-semibold",
+                  category === id ? "text-white" : "text-white/60",
+                ].join(" ")}
+              >
+                {id === "all" ? "All" : jobCategoryLabels[id]}
+              </span>
+              <span className="block font-[family-name:var(--font-geist-mono)] text-[10px] text-white/35">
+                {count}
+              </span>
             </button>
           );
         })}
@@ -102,14 +116,34 @@ export default function JobsExplorer({
           setQuery(event.target.value);
           setShown(PAGE);
         }}
-        placeholder="Search title or company…"
-        className="mt-4 w-full rounded-2xl bg-white/[0.05] px-4 py-2.5 text-sm text-white placeholder:text-white/30 ring-1 ring-white/10 focus:outline-none focus:ring-teal-300/50"
+        placeholder="Search title, company, category or location…"
+        className="mt-4 w-full rounded-md bg-white/[0.05] px-4 py-2.5 text-sm text-white placeholder:text-white/30 ring-1 ring-white/10 focus:outline-none focus:ring-[var(--signal-dim)]"
         aria-label="Search jobs"
       />
 
+      <div className="mt-3 flex items-baseline justify-between">
+        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/40">
+          {filtered.length} {filtered.length === 1 ? "role" : "roles"}
+          {hasFilters ? " match" : ""}
+        </p>
+        {hasFilters && (
+          <button
+            type="button"
+            onClick={() => {
+              setCategory("all");
+              setQuery("");
+              setShown(PAGE);
+            }}
+            className="text-xs font-semibold text-[var(--signal)] transition hover:opacity-80"
+          >
+            Clear filters
+          </button>
+        )}
+      </div>
+
       {filtered.length === 0 ? (
-        <p className="mt-6 rounded-3xl bg-white/[0.03] px-5 py-6 text-sm text-white/50 ring-1 ring-white/10">
-          No openings match. Try a different filter or search.
+        <p className="mt-6 border-t border-white/10 pt-6 text-sm text-white/50">
+          No openings match these filters.
         </p>
       ) : (
         <>
@@ -122,11 +156,11 @@ export default function JobsExplorer({
                   rel="noopener noreferrer"
                   className="group flex flex-wrap items-baseline gap-x-3 gap-y-0.5 py-3"
                 >
-                  <span className="text-sm font-semibold text-white group-hover:text-teal-200">
+                  <span className="text-sm font-semibold text-white group-hover:text-[var(--signal)]">
                     {job.title}
                   </span>
                   {isNew(job) && (
-                    <span className="rounded-full bg-teal-400/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-teal-200 ring-1 ring-teal-300/25">
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-wider text-[var(--signal)]">
                       New
                     </span>
                   )}
@@ -145,7 +179,7 @@ export default function JobsExplorer({
             <button
               type="button"
               onClick={() => setShown((n) => n + PAGE)}
-              className="mt-5 w-full rounded-2xl bg-white/[0.05] px-4 py-2.5 text-sm font-semibold text-white/70 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:text-white"
+              className="mt-5 w-full rounded-md bg-white/[0.05] px-4 py-2.5 text-sm font-semibold text-white/70 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:text-white"
             >
               Show more ({filtered.length - shown} remaining)
             </button>

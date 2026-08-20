@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  CalendarIcon,
-  ClockIcon,
-  MapPinIcon,
-  NavigationIcon,
-  UsersIcon,
-} from "@/components/icons";
+import GlobalFooter from "@/components/GlobalFooter";
+import GlobalHeader from "@/components/GlobalHeader";
+import { CategoryPattern } from "@/components/signal";
 import { categoryById, eventById, events } from "@/data/events";
 import {
   MONTHS,
@@ -61,162 +57,165 @@ export default async function EventPage({ params }: { params: Params }) {
   )}`;
 
   return (
-    <main className="relative flex min-h-screen items-center justify-center overflow-hidden px-4 py-10">
-      <div className="aurora aurora-one" aria-hidden />
-      <div className="aurora aurora-two" aria-hidden />
+    <div className="flex min-h-screen flex-col">
+      <GlobalHeader current="/events" />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: eventJsonLd(event) }}
       />
-      <article className="grain relative z-10 w-full max-w-2xl overflow-hidden rounded-[2rem] bg-[#101014]/90 p-7 ring-1 ring-white/10 backdrop-blur sm:p-9">
-        <span
-          aria-hidden
-          className={`absolute -top-24 right-0 h-48 w-48 rounded-full opacity-25 blur-3xl ${category.bar}`}
-        />
-        <div className="relative flex items-start justify-between gap-4">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
-            kochi.buzz · event pass
-          </p>
-          <div className="shrink-0 rounded-2xl bg-white/[0.05] px-3.5 py-2 text-center ring-1 ring-white/15">
-            <span className="block text-2xl font-extrabold leading-none tracking-tight text-white">
-              {start.getDate()}
-            </span>
-            <span className="mt-1 block text-[10px] font-semibold uppercase tracking-widest text-white/50">
-              {MONTHS[start.getMonth()].slice(0, 3)}
-            </span>
-          </div>
-        </div>
-        <div className="relative mt-3 flex flex-wrap items-center gap-2">
-          <span
-            className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ring-1 ${category.chip}`}
-          >
-            {category.label}
-          </span>
-          {event.travel && (
-            <span className="rounded-full bg-white px-2.5 py-0.5 text-[11px] font-semibold text-slate-900">
-              Outside Kochi
-            </span>
-          )}
-          <span className="rounded-full bg-white/[0.06] px-2.5 py-0.5 text-[11px] font-semibold text-white/60">
-            {countdownLabel(event, today)}
-          </span>
-        </div>
-        <h1 className="font-display mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-          {event.title}
-        </h1>
-        <p className="mt-3 text-sm leading-relaxed text-white/60">
-          {event.blurb}
-        </p>
-
-        <dl className="mt-6 space-y-3 rounded-2xl bg-white/[0.04] p-4 ring-1 ring-white/10">
-          <div className="flex items-start gap-3">
-            <CalendarIcon className="mt-0.5 h-4 w-4 shrink-0 text-white/40" />
-            <div>
-              <dt className="sr-only">Date</dt>
-              <dd className="text-sm text-white/80">{formatDateRange(event)}</dd>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <ClockIcon className="mt-0.5 h-4 w-4 shrink-0 text-white/40" />
-            <div>
-              <dt className="sr-only">Time</dt>
-              <dd className="text-sm text-white/80">{formatTimeRange(event)}</dd>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <MapPinIcon className="mt-0.5 h-4 w-4 shrink-0 text-white/40" />
-            <div>
-              <dt className="sr-only">Venue</dt>
-              <dd className="text-sm text-white/80">
-                {event.venue}, {event.city}{" "}
-                <a
-                  href={maps}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1 text-violet-300 transition hover:text-white"
-                >
-                  <NavigationIcon className="h-3 w-3" />
-                  Map
-                </a>
-              </dd>
-            </div>
-          </div>
-          <div className="flex items-start gap-3">
-            <UsersIcon className="mt-0.5 h-4 w-4 shrink-0 text-white/40" />
-            <div>
-              <dt className="sr-only">Organizer</dt>
-              <dd className="text-sm text-white/80">{event.organizer}</dd>
-            </div>
-          </div>
-        </dl>
-
-        {event.note && (
-          <p className="mt-4 rounded-2xl bg-amber-400/10 px-4 py-3 text-xs leading-relaxed text-amber-200/90 ring-1 ring-amber-400/20">
-            {event.note}
-          </p>
-        )}
-
-        <div
-          aria-hidden
-          className="relative mt-7 h-px border-t border-dashed border-white/20"
-        >
-          <span className="absolute -left-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#0d0a09] ring-1 ring-white/10 sm:-left-[46px]" />
-          <span className="absolute -right-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#0d0a09] ring-1 ring-white/10 sm:-right-[46px]" />
-        </div>
-
-        <div className="mt-7 flex flex-wrap items-center gap-3">
-          <a
-            href={event.registerUrl ?? event.url}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full bg-violet-500 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-400"
-          >
-            {event.registerUrl ? "Register" : "Event page"}
-          </a>
-          <Link
-            href={`/events?e=${event.id}`}
-            className="rounded-full bg-white/[0.06] px-6 py-2.5 text-sm font-semibold text-white/80 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
-          >
-            Open in calendar
-          </Link>
-          <a
-            href={googleCalendarUrl(event)}
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-full bg-white/[0.06] px-6 py-2.5 text-sm font-semibold text-white/80 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
-          >
-            Google Calendar
-          </a>
-          <a
-            href={`/e/${event.id}/event.ics`}
-            className="rounded-full bg-white/[0.06] px-6 py-2.5 text-sm font-semibold text-white/80 ring-1 ring-white/10 transition hover:bg-white/[0.1] hover:text-white"
-          >
-            .ics
-          </a>
-        </div>
-
-        <div className="mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-white/35">
-          <span>
-            Source:{" "}
-            <a
-              href={event.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="break-all text-white/50 underline decoration-white/20 underline-offset-2 transition hover:text-white/80"
-            >
-              {new URL(event.url).hostname}
-            </a>
-          </span>
-          <span aria-hidden>·</span>
-          <span>Always confirm details on the organizer&apos;s page.</span>
-        </div>
-
-        <p className="mt-6 text-xs text-white/35">
-          <Link href="/events" className="transition hover:text-white/70">
+      <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:px-6">
+        <p className="text-xs text-white/40">
+          <Link href="/events" className="transition hover:text-white/80">
             ← All Kochi tech events
           </Link>
         </p>
-      </article>
-    </main>
+
+        {/* The event pass — poster head */}
+        <article className="mt-6 overflow-hidden rounded-xl bg-[var(--surface)] ring-1 ring-white/10">
+          <div className="relative overflow-hidden border-b border-dashed border-white/15 p-7 sm:p-9">
+            <CategoryPattern
+              category={event.category}
+              className="absolute inset-0 h-full w-full text-white"
+            />
+            <div className="relative flex items-start justify-between gap-6">
+              <div>
+                <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.35em] text-[var(--signal)]">
+                  kochi.buzz · event pass
+                </p>
+                <h1 className="font-display mt-4 text-3xl font-semibold leading-tight tracking-tight text-white sm:text-5xl">
+                  {event.title}
+                </h1>
+              </div>
+              <div className="shrink-0 text-right">
+                <span className="font-display block text-6xl font-semibold leading-none text-white sm:text-7xl">
+                  {start.getDate()}
+                </span>
+                <span className="font-[family-name:var(--font-geist-mono)] mt-1 block text-xs uppercase tracking-[0.3em] text-white/50">
+                  {MONTHS[start.getMonth()].slice(0, 3)} {start.getFullYear()}
+                </span>
+              </div>
+            </div>
+            <div className="relative mt-5 flex flex-wrap items-center gap-x-4 gap-y-1 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/55">
+              <span>{category.label}</span>
+              {event.travel && <span className="text-amber-300/90">Outside Kochi</span>}
+              <span className="text-[var(--signal-dim)]">
+                {countdownLabel(event, today)}
+              </span>
+            </div>
+          </div>
+
+          {/* Essentials + primary action, before the long read */}
+          <div className="p-7 sm:p-9">
+            <dl className="space-y-2 font-[family-name:var(--font-geist-mono)] text-[13px]">
+              <div className="flex gap-4">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                  Date
+                </dt>
+                <dd className="text-white/85">{formatDateRange(event)}</dd>
+              </div>
+              <div className="flex gap-4">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                  Time
+                </dt>
+                <dd className="text-white/85">{formatTimeRange(event)}</dd>
+              </div>
+              <div className="flex gap-4">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                  Venue
+                </dt>
+                <dd className="text-white/85">
+                  {event.venue}, {event.city}
+                </dd>
+              </div>
+              <div className="flex gap-4">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                  Host
+                </dt>
+                <dd className="text-white/85">{event.organizer}</dd>
+              </div>
+            </dl>
+
+            <div className="mt-7 flex flex-wrap items-center gap-3">
+              <a
+                href={event.registerUrl ?? event.url}
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-md bg-[var(--signal)] px-7 py-3 text-sm font-semibold text-[var(--signal-ink)] transition hover:opacity-90"
+              >
+                {event.registerUrl ? "Register" : "Official event page"} ↗
+              </a>
+              <details className="group relative">
+                <summary className="cursor-pointer list-none rounded-md px-4 py-3 text-sm font-semibold text-white/70 ring-1 ring-white/15 transition hover:text-white">
+                  Add to calendar ▾
+                </summary>
+                <div className="absolute left-0 top-full z-10 mt-2 w-44 overflow-hidden rounded-lg bg-[var(--surface-2)] py-1 ring-1 ring-white/15">
+                  <a
+                    href={googleCalendarUrl(event)}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block px-4 py-2 text-sm text-white/80 transition hover:bg-white/[0.06]"
+                  >
+                    Google Calendar
+                  </a>
+                  <a
+                    href={`/e/${event.id}/event.ics`}
+                    className="block px-4 py-2 text-sm text-white/80 transition hover:bg-white/[0.06]"
+                  >
+                    Apple / Outlook (.ics)
+                  </a>
+                </div>
+              </details>
+              <a
+                href={maps}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-white/50 underline decoration-white/20 underline-offset-4 transition hover:text-white"
+              >
+                Map
+              </a>
+              <Link
+                href={`/events?e=${event.id}`}
+                className="text-sm text-white/50 underline decoration-white/20 underline-offset-4 transition hover:text-white"
+              >
+                Open in calendar
+              </Link>
+            </div>
+
+            <p className="mt-8 text-sm leading-relaxed text-white/60">
+              {event.blurb}
+            </p>
+
+            {event.tags.length > 0 && (
+              <p className="mt-4 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/35">
+                {event.tags.join(" · ")}
+              </p>
+            )}
+
+            {event.note && (
+              <p className="mt-5 rounded-lg bg-amber-400/10 px-4 py-3 text-xs leading-relaxed text-amber-200/90 ring-1 ring-amber-400/20">
+                {event.note}
+              </p>
+            )}
+
+            <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-[var(--line)] pt-5 text-xs text-white/35">
+              <span>
+                Source:{" "}
+                <a
+                  href={event.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/55 underline decoration-white/20 underline-offset-2 transition hover:text-white/80"
+                >
+                  {new URL(event.url).hostname}
+                </a>
+              </span>
+              <span aria-hidden>·</span>
+              <span>Always confirm details on the organizer&apos;s page.</span>
+            </div>
+          </div>
+        </article>
+      </main>
+      <GlobalFooter />
+    </div>
   );
 }

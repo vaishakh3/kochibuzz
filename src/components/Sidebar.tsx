@@ -51,26 +51,16 @@ export default function Sidebar({
   );
 
   return (
-    <aside className="flex w-full shrink-0 flex-col gap-4 bg-[#120e0c] p-5 lg:w-[320px]">
-      <header className="flex items-start justify-between">
-        <div>
-          <p className="text-[11px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">
-            Kochi Tech Events
-          </p>
-          <h1 className="mt-1 text-2xl font-semibold leading-tight tracking-tight text-white">
-            kochi<span className="text-violet-400">.buzz</span>
-          </h1>
-        </div>
+    <aside className="flex w-full shrink-0 flex-col gap-4 bg-[var(--surface)] p-5 lg:w-[320px]">
+      <header className="flex items-baseline justify-between">
+        <h1 className="font-[family-name:var(--font-geist-mono)] text-[11px] font-semibold uppercase tracking-[0.35em] text-white/50">
+          Calendar
+        </h1>
         <span
           title={`${allEvents.length} events tracked`}
-          className="flex flex-col items-center justify-center rounded-full bg-violet-500/20 px-3 py-1.5 ring-1 ring-violet-400/30"
+          className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal-dim)]"
         >
-          <span className="text-sm font-semibold leading-none text-violet-200">
-            {allEvents.length}
-          </span>
-          <span className="mt-0.5 text-[8px] font-semibold uppercase tracking-[0.15em] text-violet-300/70">
-            events
-          </span>
+          {allEvents.length} events
         </span>
       </header>
 
@@ -86,11 +76,11 @@ export default function Sidebar({
       {upcoming && (
         <button
           onClick={() => onOpenEvent(upcoming)}
-          className="group rounded-3xl bg-gradient-to-br from-violet-600/30 via-violet-500/10 to-transparent p-4 text-left ring-1 ring-violet-400/25 transition hover:ring-violet-300/50"
+          className="group rounded-xl bg-white/[0.04] p-4 text-left ring-1 ring-[var(--signal-dim)] transition hover:bg-white/[0.06]"
         >
           <div className="flex items-center justify-between text-[11px] text-white/60">
             <span>{formatDateRange(upcoming)}</span>
-            <span className="rounded-full bg-black/40 px-2 py-0.5 text-violet-200">
+            <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal)]">
               {daysUntil(upcoming, today) <= 0
                 ? "happening now"
                 : countdownLabel(upcoming, today)}
@@ -102,14 +92,14 @@ export default function Sidebar({
           <p className="mt-1 text-xs text-white/50">
             {upcoming.venue}, {upcoming.city}
           </p>
-          <p className="mt-3 text-xs font-medium text-violet-200 group-hover:text-white">
+          <p className="mt-3 text-xs font-medium text-[var(--signal)] group-hover:text-white">
             Details →
           </p>
         </button>
       )}
 
       {comingUp.length > 0 && (
-        <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+        <section className="rounded-xl bg-white/[0.04] p-4 ring-1 ring-white/10">
           <h2 className="mb-3 text-sm font-semibold text-white">Coming up</h2>
           <ul className="space-y-1">
             {comingUp.map((event) => (
@@ -136,7 +126,7 @@ export default function Sidebar({
         </section>
       )}
 
-      <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+      <section className="rounded-xl bg-white/[0.04] p-4 ring-1 ring-white/10">
         <h2 className="mb-3 text-sm font-semibold text-white">Categories</h2>
         <ul className="space-y-2.5">
           {categories.map((category) => {
@@ -195,7 +185,7 @@ export default function Sidebar({
         </ul>
       </section>
 
-      <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+      <section className="rounded-xl bg-white/[0.04] p-4 ring-1 ring-white/10">
         <h2 className="mb-3 text-sm font-semibold text-white">
           Communities to follow
         </h2>
@@ -216,53 +206,18 @@ export default function Sidebar({
         </ul>
         <Link
           href="/communities"
-          className="mt-2 block rounded-xl px-2 py-1.5 text-[13px] font-medium text-violet-300 transition hover:bg-white/5 hover:text-white"
+          className="mt-2 block rounded-lg px-2 py-1.5 text-[13px] font-medium text-[var(--signal)] transition hover:bg-white/5 hover:text-white"
         >
           All communities →
         </Link>
       </section>
 
-      <section className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
-        <h2 className="mb-2 text-sm font-semibold text-white">Explore</h2>
+      <section className="rounded-xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+        <h2 className="mb-2 text-sm font-semibold text-white">Feeds</h2>
         <div className="space-y-1">
-          <Link
-            href="/"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
-          >
-            <span>The buzz</span>
-            <span className="text-[11px] text-white/35">what&apos;s next</span>
-          </Link>
-          <Link
-            href="/digest"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
-          >
-            <span>Next 30 days digest</span>
-            <span className="text-[11px] text-white/35">shareable</span>
-          </Link>
-          <Link
-            href="/opportunities"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
-          >
-            <span>Opportunities</span>
-            <span className="text-[11px] text-white/35">deadlines</span>
-          </Link>
-          <Link
-            href="/jobs"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
-          >
-            <span>Jobs in Kochi</span>
-            <span className="text-[11px] text-white/35">Infopark</span>
-          </Link>
-          <Link
-            href="/places"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
-          >
-            <span>Places to build</span>
-            <span className="text-[11px] text-white/35">labs · coworking</span>
-          </Link>
           <a
             href="/calendar.ics"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+            className="flex items-center justify-between rounded-lg px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
             <span>Subscribe to calendar</span>
             <span className="text-[11px] text-white/35">.ics feed</span>
@@ -271,7 +226,7 @@ export default function Sidebar({
             href={submitEventUrl}
             target="_blank"
             rel="noreferrer"
-            className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
+            className="flex items-center justify-between rounded-lg px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
             <span>Submit an event</span>
             <span className="text-[11px] text-white/35">GitHub →</span>

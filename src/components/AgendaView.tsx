@@ -1,6 +1,6 @@
 "use client";
 
-import { ChevronRightIcon, UsersIcon } from "@/components/icons";
+import { ChevronRightIcon } from "@/components/icons";
 import { TechEvent, categoryById } from "@/data/events";
 import {
   MONTHS,
@@ -16,7 +16,6 @@ type Props = {
   today: Date;
   events: TechEvent[];
   selectedEventId?: string;
-  goingCounts?: Record<string, number>;
   onOpenEvent: (event: TechEvent) => void;
 };
 
@@ -36,14 +35,12 @@ function EventRow({
   event,
   today,
   selectedEventId,
-  going,
   onOpenEvent,
   muted,
 }: {
   event: TechEvent;
   today: Date;
   selectedEventId?: string;
-  going?: number;
   onOpenEvent: (event: TechEvent) => void;
   muted?: boolean;
 }) {
@@ -54,7 +51,7 @@ function EventRow({
       onClick={() => onOpenEvent(event)}
       data-event-start={muted ? undefined : event.start}
       className={[
-        "flex w-full items-center gap-4 rounded-3xl bg-white p-3.5 text-left ring-1 transition sm:p-4",
+        "flex w-full items-center gap-4 rounded-2xl bg-white p-3.5 text-left ring-1 transition sm:p-4",
         event.id === selectedEventId
           ? "ring-2 ring-slate-900/70"
           : "ring-slate-200 hover:ring-slate-300",
@@ -84,12 +81,6 @@ function EventRow({
               Outside Kochi
             </span>
           )}
-          {(going ?? 0) > 0 && !muted && (
-            <span className="inline-flex items-center gap-1 rounded-full bg-violet-50 px-2 py-0.5 text-[10px] font-semibold text-violet-700 ring-1 ring-violet-200">
-              <UsersIcon className="h-3 w-3" />
-              {going} going
-            </span>
-          )}
         </span>
         <span className="mt-1 block text-xs text-slate-500">
           {formatDateRange(event)} · {formatTimeRange(event)} · {event.venue},{" "}
@@ -107,7 +98,6 @@ export default function AgendaView({
   today,
   events,
   selectedEventId,
-  goingCounts,
   onOpenEvent,
 }: Props) {
   const ordered = [...events].sort(sortByStart);
@@ -120,7 +110,7 @@ export default function AgendaView({
       {past.length > 0 && (
         <details
           open={selectedIsPast}
-          className="group mb-8 rounded-3xl bg-slate-50 px-4 py-3 ring-1 ring-slate-100"
+          className="group mb-8 rounded-2xl bg-slate-50 px-4 py-3 ring-1 ring-slate-100"
         >
           <summary className="flex cursor-pointer list-none items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-slate-800">
             <ChevronRightIcon className="h-3.5 w-3.5 transition group-open:rotate-90" />
@@ -140,7 +130,6 @@ export default function AgendaView({
                         event={event}
                         today={today}
                         selectedEventId={selectedEventId}
-                        going={goingCounts?.[event.id]}
                         onOpenEvent={onOpenEvent}
                         muted
                       />
@@ -154,7 +143,7 @@ export default function AgendaView({
       )}
 
       {upcoming.length === 0 ? (
-        <p className="rounded-3xl bg-slate-50 px-4 py-6 text-center text-sm text-slate-500 ring-1 ring-slate-100">
+        <p className="rounded-2xl bg-slate-50 px-4 py-6 text-center text-sm text-slate-500 ring-1 ring-slate-100">
           Nothing upcoming in this selection yet — try enabling more categories.
         </p>
       ) : (
@@ -170,7 +159,6 @@ export default function AgendaView({
                     event={event}
                     today={today}
                     selectedEventId={selectedEventId}
-                    going={goingCounts?.[event.id]}
                     onOpenEvent={onOpenEvent}
                   />
                 </li>

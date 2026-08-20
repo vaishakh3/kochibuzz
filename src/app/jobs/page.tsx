@@ -19,15 +19,17 @@ export default function JobsPage() {
   return (
     <DirectoryShell
       current="/jobs"
-      eyebrow={`${jobs.length} live openings · synced from Infopark`}
+      eyebrow="Synced from Infopark's official board"
       accent="teal"
-      watermark="HIRING"
       title={
         <>
-          Who&apos;s <span className="ink-teal">hiring</span> in Kochi
+          <span className="text-[var(--signal)]">{jobs.length} live roles</span>
+          <br />
+          in Kochi tech
         </>
       }
       intro="Openings at Infopark Kochi companies, pulled from the park's official job board and refreshed automatically. Every listing links to the official posting."
+      submitLabel="Suggest a job source"
     >
       <JobsExplorer jobs={jobs} todayIso={todayIso} newDays={NEW_DAYS} />
       <p className="mt-8 text-[11px] leading-relaxed text-white/30">

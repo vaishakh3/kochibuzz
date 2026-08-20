@@ -48,30 +48,25 @@ export default function SubmitPage() {
       current="/submit"
       eyebrow="Feed the signal"
       accent="violet"
-      watermark="SUBMIT"
-      title={
-        <>
-          Add to the <span className="ink-violet">buzz</span>
-        </>
-      }
-      intro="Know something the city should know? Submissions open a structured GitHub form — no account gymnastics, and everything is reviewed before it goes live."
+      title={<>Add to the buzz</>}
+      intro="Submit an event, project, opportunity, community or public data source. Submissions are reviewed through the public kochi.buzz GitHub repository."
     >
-      <ul className="grid gap-4 sm:grid-cols-2">
+      <ul>
         {forms.map((form) => (
-          <li key={form.template}>
+          <li key={form.template} className="border-t border-white/10">
             <a
               href={`${REPO}?template=${form.template}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="group flex h-full flex-col rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.06] hover:ring-violet-400/40"
+              className="group flex flex-wrap items-baseline gap-x-4 gap-y-1 py-5 transition hover:bg-white/[0.02]"
             >
-              <h2 className="text-[17px] font-semibold text-white group-hover:text-violet-200">
+              <h2 className="text-[17px] font-semibold text-white transition group-hover:text-[var(--signal)]">
                 {form.label}
               </h2>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-white/55">
+              <p className="w-full max-w-xl text-sm leading-relaxed text-white/55 sm:w-auto sm:flex-1">
                 {form.description}
               </p>
-              <span className="mt-4 text-xs font-medium text-violet-300 transition group-hover:text-white">
+              <span className="ml-auto shrink-0 text-xs font-medium text-[var(--signal)] transition group-hover:opacity-80">
                 Open the form →
               </span>
             </a>

@@ -31,7 +31,7 @@ export default function MiniCalendar({
   const cells = compactMonthGrid(cursor);
 
   return (
-    <div className="rounded-3xl bg-white/[0.04] p-4 ring-1 ring-white/10">
+    <div className="rounded-xl bg-white/[0.04] p-4 ring-1 ring-white/10">
       <div className="mb-3 flex items-center justify-between">
         <p className="text-sm font-semibold text-white">
           {MONTHS[cursor.getMonth()]} {cursor.getFullYear()}
@@ -76,17 +76,17 @@ export default function MiniCalendar({
                 className={[
                   "grid h-7 w-7 place-items-center rounded-full transition",
                   isSelected
-                    ? "bg-violet-500 font-semibold text-white"
+                    ? "bg-[var(--signal)] font-semibold text-[var(--signal-ink)]"
                     : inMonth
                       ? "text-white/80 hover:bg-white/10"
                       : "text-white/25 hover:bg-white/5",
-                  !isSelected && isToday ? "ring-1 ring-violet-400/70" : "",
+                  !isSelected && isToday ? "ring-1 ring-[var(--signal-dim)]" : "",
                 ].join(" ")}
               >
                 {day.getDate()}
               </span>
               {hasEvent && !isSelected && (
-                <span className="absolute bottom-0.5 h-1 w-1 rounded-full bg-violet-400" />
+                <span className="absolute bottom-0.5 h-1 w-1 rounded-full bg-[var(--signal)]" />
               )}
             </button>
           );

@@ -20,7 +20,6 @@ import {
   toISODate,
   todayInIST,
 } from "@/lib/calendar";
-import { useProfile } from "@/lib/useProfile";
 
 type View = "month" | "week" | "day" | "agenda";
 
@@ -34,21 +33,6 @@ export default function CalendarApp() {
   const [active, setActive] = useState<Set<CategoryId>>(ALL_CATEGORIES);
   const [openEventId, setOpenEventId] = useState<string | undefined>();
   const [hydrated, setHydrated] = useState(false);
-  const { profile, setProfile, going, setGoing } = useProfile();
-  const [goingCounts, setGoingCounts] = useState<Record<string, number>>({});
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch("/api/attendees?counts")
-      .then((res) => (res.ok ? res.json() : null))
-      .then((data: { counts?: Record<string, number> } | null) => {
-        if (!cancelled && data?.counts) setGoingCounts(data.counts);
-      })
-      .catch(() => {});
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   // Honour a ?e= deep link on load (deferred so hydration matches the server).
   useEffect(() => {
@@ -163,10 +147,6 @@ export default function CalendarApp() {
       if (e.key === "ArrowLeft") shift(-1);
       else if (e.key === "ArrowRight") shift(1);
       else if (e.key === "t") goToToday();
-      else if (e.key === "/") {
-        e.preventDefault();
-        document.getElementById("event-search")?.focus();
-      }
     }
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
@@ -180,11 +160,7 @@ export default function CalendarApp() {
         : `${MONTHS[cursor.getMonth()]}, ${cursor.getFullYear()}`;
 
   return (
-    <div className="grain relative mx-auto flex w-full max-w-[1480px] h-[calc(100dvh-1.5rem)] flex-col overflow-hidden rounded-[36px] bg-[#0f0c0a]/90 p-2.5 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-4rem))] lg:flex-row">
-      <div
-        aria-hidden
-        className="absolute inset-x-10 top-0 z-10 h-px bg-gradient-to-r from-violet-500/0 via-violet-400/70 to-fuchsia-400/0"
-      />
+    <div className="relative mx-auto flex w-full max-w-[1480px] h-[calc(100dvh-5rem)] flex-col overflow-hidden rounded-xl ring-1 ring-white/10 lg:h-[min(900px,calc(100vh-7rem))] lg:flex-row lg:gap-2">
       <MobileHeader
         cursor={cursor}
         selected={selected}
@@ -196,7 +172,7 @@ export default function CalendarApp() {
         onSelectDate={selectDate}
         onCursorChange={setCursor}
       />
-      <div className="hidden overflow-hidden rounded-[28px] lg:block lg:h-full">
+      <div className="hidden overflow-hidden rounded-l-xl lg:block lg:h-full">
         <div className="h-full overflow-y-auto">
           <Sidebar
             cursor={cursor}
@@ -214,7 +190,7 @@ export default function CalendarApp() {
         </div>
       </div>
 
-      <main className="mt-2.5 flex min-h-0 flex-1 flex-col overflow-hidden rounded-[28px] bg-white lg:mt-0 lg:ml-2.5">
+      <main className="mt-2 flex min-h-0 flex-1 flex-col overflow-hidden rounded-xl bg-[#faf8f2] lg:mt-0 lg:rounded-l-none">
         <header className="flex flex-wrap items-center gap-3 px-4 py-4 sm:px-6 sm:py-5">
           <h2 className="mr-auto text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
             {heading}
@@ -268,7 +244,6 @@ export default function CalendarApp() {
             today={today}
             events={visibleEvents}
             selectedEventId={openEventId}
-            goingCounts={goingCounts}
             onOpenEvent={(event) => setOpenEventId(event.id)}
           />
         )}
@@ -325,16 +300,12 @@ export default function CalendarApp() {
       {openEvent && (
         <div
           key={openEvent.id}
-          className="pointer-events-none fixed inset-x-0 bottom-4 z-30 flex justify-center px-4 lg:absolute lg:inset-auto lg:bottom-auto lg:right-8 lg:top-24 lg:px-0"
+          className="pointer-events-none fixed inset-x-0 bottom-0 z-30 flex justify-center lg:absolute lg:inset-auto lg:bottom-auto lg:right-8 lg:top-24"
         >
           <EventDetail
             event={openEvent}
             today={today}
             onClose={() => setOpenEventId(undefined)}
-            profile={profile}
-            going={going}
-            onSaveProfile={setProfile}
-            onSetGoing={setGoing}
           />
         </div>
       )}

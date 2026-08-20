@@ -21,13 +21,13 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kochi.buzz"),
-  title: "kochi.buzz — Kochi Tech Events",
+  title: "kochi.buzz — What's happening in Kochi tech",
   description:
-    "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+    "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
   openGraph: {
-    title: "kochi.buzz — Kochi Tech Events",
+    title: "kochi.buzz — What's happening in Kochi tech",
     description:
-      "What's buzzing in Kochi tech — hackathons, AI meetups, open source conferences and startup summits in and around Kochi, Kerala.",
+      "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
     url: "https://kochi.buzz",
     siteName: "kochi.buzz",
     locale: "en_IN",
@@ -35,9 +35,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "kochi.buzz — Kochi Tech Events",
+    title: "kochi.buzz — What's happening in Kochi tech",
     description:
-      "What's buzzing in Kochi tech — hackathons, AI meetups and startup summits in and around Kochi, Kerala.",
+      "Events, jobs, opportunities, communities and things being built across Kochi's technology ecosystem.",
   },
 };
 

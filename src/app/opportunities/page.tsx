@@ -42,21 +42,16 @@ export default function OpportunitiesPage() {
       current="/opportunities"
       eyebrow="Doors currently open"
       accent="amber"
-      watermark="OPEN"
-      title={
-        <>
-          <span className="ink-amber">Opportunities</span> worth a shot
-        </>
-      }
+      title={<>Opportunities worth a shot</>}
       intro="Hackathons, grants, fellowships, accelerator intakes and programs relevant to Kochi's ecosystem — each with its deadline and original source."
+      submitLabel="Submit an opportunity"
     >
       {open.length === 0 ? (
-        <p className="rounded-3xl bg-white/[0.03] px-5 py-6 text-sm text-white/50 ring-1 ring-white/10">
-          Nothing open right now. Know something we&apos;re missing? Submit it
-          from the footer below.
+        <p className="border-t border-white/10 pt-6 text-sm text-white/50">
+          Nothing open right now.
         </p>
       ) : (
-        <ul className="grid gap-4 sm:grid-cols-2">
+        <ul>
           {open.map((opportunity) => {
             const days =
               opportunity.deadlineAt && !opportunity.ongoing
@@ -69,40 +64,57 @@ export default function OpportunitiesPage() {
                   href={opportunity.applicationUrl ?? opportunity.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.06] hover:ring-amber-300/40"
+                  className="group flex h-full gap-5 border-t border-white/10 py-6 transition hover:bg-white/[0.02]"
                 >
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="rounded-full bg-amber-400/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-amber-200 ring-1 ring-amber-300/25">
-                      {opportunityTypeLabels[opportunity.type]}
-                    </span>
-                    {closingSoon && (
-                      <span className="rounded-full bg-red-400/10 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-red-300 ring-1 ring-red-400/25">
-                        {days === 0 ? "Closes today" : "Closing soon"}
+                  {/* Deadline is the signal */}
+                  <div className="w-20 shrink-0 text-center">
+                    {opportunity.ongoing || !opportunity.deadlineAt ? (
+                      <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/45">
+                        {opportunity.ongoing ? "Rolling" : "TBA"}
                       </span>
+                    ) : (
+                      <>
+                        <span
+                          className={[
+                            "font-display block text-4xl font-semibold leading-none",
+                            days === 0
+                              ? "text-[var(--ember)]"
+                              : closingSoon
+                                ? "text-amber-300"
+                                : "text-[var(--signal)]",
+                          ].join(" ")}
+                        >
+                          {days}
+                        </span>
+                        <span className="font-[family-name:var(--font-geist-mono)] mt-1 block text-[9px] uppercase tracking-wider text-white/45">
+                          {days === 0 ? "closes today" : days === 1 ? "day left" : "days left"}
+                        </span>
+                      </>
                     )}
                   </div>
-                  <h2 className="mt-3 text-[17px] font-semibold text-white group-hover:text-amber-100">
-                    {opportunity.title}
-                  </h2>
-                  <p className="mt-0.5 text-[11px] font-semibold uppercase tracking-wide text-amber-200/60">
-                    {opportunity.organization}
-                  </p>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-white/55">
-                    {opportunity.summary}
-                  </p>
-                  <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/45">
-                    <span>
-                      {opportunity.ongoing
-                        ? "Rolling / ongoing"
-                        : opportunity.deadlineAt
-                          ? `Deadline: ${formatDeadline(opportunity.deadlineAt)}`
-                          : "Deadline not announced"}
-                    </span>
-                    {opportunity.benefit && <span>· {opportunity.benefit}</span>}
+                  <div className="min-w-0 flex-1">
+                    <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+                      {opportunityTypeLabels[opportunity.type]}
+                    </p>
+                    <h2 className="mt-1 text-[17px] font-semibold text-white group-hover:text-[var(--signal)]">
+                      {opportunity.title}
+                    </h2>
+                    <p className="mt-0.5 text-xs text-white/50">
+                      {opportunity.organization}
+                    </p>
+                    <p className="mt-2 text-sm leading-relaxed text-white/55">
+                      {opportunity.summary}
+                    </p>
+                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/45">
+                      {opportunity.deadlineAt && !opportunity.ongoing && (
+                        <span>Deadline: {formatDeadline(opportunity.deadlineAt)}</span>
+                      )}
+                      {opportunity.benefit && <span>{opportunity.benefit}</span>}
+                      <span className="font-medium text-white/60 transition group-hover:text-[var(--signal)]">
+                        {opportunity.applicationUrl ? "Apply" : "Details"} →
+                      </span>
+                    </div>
                   </div>
-                  <span className="mt-3 text-xs font-medium text-amber-300 transition group-hover:text-white">
-                    {opportunity.applicationUrl ? "Apply" : "Details"} →
-                  </span>
                 </a>
               </li>
             );
@@ -119,7 +131,7 @@ export default function OpportunitiesPage() {
             {closed.map((opportunity) => (
               <li
                 key={opportunity.id}
-                className="flex flex-wrap items-baseline gap-x-3 rounded-xl bg-white/[0.02] px-4 py-2.5 text-sm text-white/35 ring-1 ring-white/[0.06]"
+                className="flex flex-wrap items-baseline gap-x-3 border-t border-white/[0.06] py-2.5 text-sm text-white/35"
               >
                 <span>{opportunity.title}</span>
                 <span className="text-xs">
