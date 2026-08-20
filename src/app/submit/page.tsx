@@ -73,7 +73,7 @@ export default function SubmitPage() {
           </li>
         ))}
       </ul>
-      <p className="mt-8 text-[11px] leading-relaxed text-white/30">
+      <p className="mt-8 text-[11px] leading-relaxed text-white/65">
         Submissions become GitHub issues on the public kochi.buzz repository.
         Only factual, source-backed entries are added — no promotion-only
         listings.

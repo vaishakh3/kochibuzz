@@ -51,10 +51,10 @@ export default function CommunitiesPage() {
                         {community.name}
                       </Link>
                     </h2>
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                       {community.focus}
                     </span>
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/30">
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/65">
                       {community.cadence}
                     </span>
                   </div>

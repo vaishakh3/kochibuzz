@@ -34,7 +34,7 @@ export default function MonthView({
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      <div className="grid grid-cols-7 border-b border-slate-200 px-2 pb-2 text-[11px] font-medium uppercase tracking-wide text-slate-400">
+      <div className="grid grid-cols-7 border-b border-slate-200 px-2 pb-2 text-[11px] font-medium uppercase tracking-wide text-slate-600">
         {WEEKDAYS.map((day) => (
           <span key={day} className="px-2">
             {day}
@@ -66,7 +66,7 @@ export default function MonthView({
                     ? "bg-slate-900 text-white"
                     : inMonth
                       ? "text-slate-700"
-                      : "text-slate-300",
+                      : "text-slate-600",
                 ].join(" ")}
               >
                 {day.getDate()}
@@ -85,7 +85,7 @@ export default function MonthView({
                   />
                 ))}
                 {dayEvents.length > 3 && (
-                  <span className="px-1 text-[10px] font-medium text-slate-400">
+                  <span className="px-1 text-[10px] font-medium text-slate-600">
                     +{dayEvents.length - 3} more
                   </span>
                 )}

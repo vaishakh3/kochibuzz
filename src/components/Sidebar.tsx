@@ -112,11 +112,11 @@ export default function Sidebar({
                     <span className="block truncate text-[13px] text-white/75">
                       {event.title}
                     </span>
-                    <span className="block text-[11px] text-white/35">
+                    <span className="block text-[11px] text-white/70">
                       {formatDateRange(event)}
                     </span>
                   </span>
-                  <span className="shrink-0 rounded-full bg-white/10 px-2 py-0.5 text-[10px] text-white/50">
+                  <span className="shrink-0 rounded-full bg-white/10 px-2 py-0.5 text-[10px] text-white/70">
                     {countdownLabel(event, today)}
                   </span>
                 </button>
@@ -162,12 +162,12 @@ export default function Sidebar({
                   <span
                     className={[
                       "flex-1 text-[13px] transition",
-                      isActive ? "text-white/85" : "text-white/40",
+                      isActive ? "text-white/85" : "text-white/70",
                     ].join(" ")}
                   >
                     {category.label}
                   </span>
-                  <span className="text-[11px] text-white/35">{total}</span>
+                  <span className="text-[11px] text-white/70">{total}</span>
                 </button>
                 <span className="mt-1.5 block h-[3px] w-full overflow-hidden rounded-full bg-white/10">
                   <span
@@ -197,7 +197,7 @@ export default function Sidebar({
                 className="flex items-center justify-between rounded-xl px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
               >
                 <span>{community.name}</span>
-                <span className="text-[11px] text-white/35">
+                <span className="text-[11px] text-white/70">
                   {community.cadence}
                 </span>
               </Link>
@@ -220,7 +220,7 @@ export default function Sidebar({
             className="flex items-center justify-between rounded-lg px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
             <span>Subscribe to calendar</span>
-            <span className="text-[11px] text-white/35">.ics feed</span>
+            <span className="text-[11px] text-white/70">.ics feed</span>
           </a>
           <a
             href={submitEventUrl}
@@ -229,12 +229,12 @@ export default function Sidebar({
             className="flex items-center justify-between rounded-lg px-2 py-1.5 text-[13px] text-white/70 transition hover:bg-white/5 hover:text-white"
           >
             <span>Submit an event</span>
-            <span className="text-[11px] text-white/35">GitHub →</span>
+            <span className="text-[11px] text-white/70">GitHub →</span>
           </a>
         </div>
       </section>
 
-      <p className="mt-auto text-[11px] leading-relaxed text-white/30">
+      <p className="mt-auto text-[11px] leading-relaxed text-white/65">
         Dates taken from organiser sites and community announcements. Confirm on
         the event page before you travel.
       </p>

@@ -45,7 +45,7 @@ export default function GlobalFooter() {
             <h2 className="font-display mt-6 max-w-lg text-4xl font-semibold leading-[0.95] tracking-[-0.04em] text-white sm:text-5xl">
               One city. A thousand useful signals.
             </h2>
-            <p className="mt-5 max-w-md text-sm leading-relaxed text-white/45">
+            <p className="mt-5 max-w-md text-sm leading-relaxed text-white/68">
               A public-interest discovery layer for the people who make, meet,
               learn and build in Kochi. Starting with tech; always open to the
               rest of the city.
@@ -55,7 +55,7 @@ export default function GlobalFooter() {
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             {columns.map((column) => (
               <nav key={column.heading} aria-label={column.heading}>
-                <h3 className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.24em] text-[var(--signal)]">
+                <h3 className="font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--signal)]">
                   {column.heading}
                 </h3>
                 <ul className="mt-4 space-y-2.5">
@@ -88,7 +88,7 @@ export default function GlobalFooter() {
           </div>
         </div>
 
-        <div className="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-5 font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.2em] text-white/28">
+        <div className="mt-14 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-5 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.16em] text-white/62">
           <span>Kochi · 9.9312°N 76.2673°E</span>
           <span>Tracked from public sources · refreshed through the day</span>
           <span>Made for the city</span>

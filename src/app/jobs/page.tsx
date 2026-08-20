@@ -32,7 +32,7 @@ export default function JobsPage() {
       submitLabel="Suggest a job source"
     >
       <JobsExplorer jobs={jobs} todayIso={todayIso} newDays={NEW_DAYS} />
-      <p className="mt-8 text-[11px] leading-relaxed text-white/30">
+      <p className="mt-8 text-[11px] leading-relaxed text-white/65">
         Source: infopark.in official job listings (Phases 1 &amp; 2). Listings
         past their apply-by date are removed automatically. Apply on the
         company&apos;s official page — kochi.buzz never handles applications.

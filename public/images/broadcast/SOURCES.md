@@ -27,3 +27,17 @@
   image route.
 - Production: encoded as a 1600×840 JPEG at quality 84 because the OG image
   renderer does not accept WebP input.
+
+## `kochi-community-night.webp`
+
+- Purpose: editorial panorama for the homepage community directory.
+- Origin: generated specifically for Kochi Buzz with OpenAI ImageGen on
+  2026-08-21, using the master broadcast artwork as a style reference only.
+- Art direction: a fictional, contemporary Kochi community evening with people
+  welcoming a newcomer, sharing a laptop, sketching ideas, building electronics
+  and talking over chai. Rain, Metro, palms and backwater light locate the
+  illustration without claiming to document a real gathering.
+- Integrity constraint: the people are fictional and are not presented as
+  members of the named communities listed beside the artwork. No words, logos,
+  identifiable real people or fabricated event documentation appear in it.
+- Production: generated at 1672×941 and encoded as WebP at quality 84.

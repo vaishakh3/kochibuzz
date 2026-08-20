@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import BuzzReceiver, { type BuzzTrack } from "@/components/BuzzReceiver";
@@ -314,22 +315,45 @@ export default async function BuzzHome({
             </div>
             <Link href="/communities" className="broadcast-text-link">Meet every community <span aria-hidden>→</span></Link>
           </div>
-          <div className="people-grid">
-            {featuredCommunities.map((community, index) => {
-              const colors = identityColors(community.name);
-              return (
-                <Link key={community.slug} href={`/communities/${community.slug}`} className={`people-card people-card--${(index % 3) + 1}`}>
-                  <span className="people-card__index">{String(index + 1).padStart(2, "0")}</span>
-                  <span className="people-card__mark" style={{ background: colors.bg, color: colors.fg }}>{monogram(community.name)}</span>
-                  <div>
-                    <p>{community.focus}</p>
-                    <h3 className="font-display">{community.name}</h3>
-                    <span>{community.cadence}</span>
-                  </div>
-                  <span className="people-card__arrow" aria-hidden>↗</span>
-                </Link>
-              );
-            })}
+          <div className="people-stage">
+            <figure className="people-portrait">
+              <Image
+                src="/images/broadcast/kochi-community-night.webp"
+                alt="Editorial illustration of people meeting over chai, sharing a laptop, sketching ideas and building electronics in Kochi"
+                fill
+                sizes="(max-width: 1023px) 100vw, 66vw"
+                className="people-portrait__image"
+              />
+              <figcaption className="people-portrait__caption">
+                <div>
+                  <span>Illustrated city portrait · Community frequency 01</span>
+                  <strong className="font-display">Walk in curious.<br />Leave with people.</strong>
+                </div>
+                <p>Community life, imagined in the Kochi Buzz visual language.</p>
+              </figcaption>
+            </figure>
+
+            <div className="people-directory" aria-label="Featured Kochi communities">
+              <div className="people-directory__head">
+                <p>Six doors open now</p>
+                <span>Live directory picks</span>
+              </div>
+              {featuredCommunities.map((community, index) => {
+                const colors = identityColors(community.name);
+                return (
+                  <Link key={community.slug} href={`/communities/${community.slug}`} className="people-card">
+                    <span className="people-card__mark" style={{ background: colors.bg, color: colors.fg }}>{monogram(community.name)}</span>
+                    <div>
+                      <p>{community.focus}</p>
+                      <h3 className="font-display">{community.name}</h3>
+                      <span>{community.cadence}</span>
+                    </div>
+                    <span className="people-card__index">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="people-card__arrow" aria-hidden>↗</span>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>

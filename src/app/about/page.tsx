@@ -58,7 +58,7 @@ export default function AboutPage() {
 
       {/* Data flow */}
       <section className="mt-10">
-        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
           How the data flows
         </h2>
         <div
@@ -91,7 +91,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
           Registered sources
         </h2>
         <ul className="mt-4">
@@ -103,18 +103,18 @@ export default function AboutPage() {
               <span className="text-sm font-semibold text-white">
                 {source.name}
               </span>
-              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                 {source.kind}
               </span>
               <span
                 className={`font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider ${
-                  source.enabled ? "text-[var(--signal)]" : "text-white/30"
+                  source.enabled ? "text-[var(--signal)]" : "text-white/65"
                 }`}
               >
                 {source.enabled ? "Active" : "Planned"}
               </span>
               {source.notes && (
-                <span className="w-full text-xs text-white/40">{source.notes}</span>
+                <span className="w-full text-xs text-white/70">{source.notes}</span>
               )}
               <a
                 href={source.url}
@@ -137,7 +137,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
           Machine-readable feeds
         </h2>
         <ul className="mt-4 flex flex-wrap gap-2">
@@ -155,7 +155,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10 text-sm leading-relaxed text-white/50">
-        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
           Corrections
         </h2>
         <p className="mt-3">

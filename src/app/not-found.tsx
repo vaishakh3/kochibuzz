@@ -33,7 +33,7 @@ export default function NotFound() {
             href={`/events/${next.id}`}
             className="group mt-12 block max-w-md border-t border-white/10 pt-5"
           >
-            <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+            <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
               Meanwhile, next in Kochi tech
             </span>
             <span className="mt-1.5 block text-sm font-semibold text-white transition group-hover:text-[var(--signal)]">

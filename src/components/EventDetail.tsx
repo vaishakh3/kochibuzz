@@ -39,7 +39,7 @@ function Row({
 }) {
   return (
     <div className="flex items-center gap-3 py-2">
-      <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-slate-50 text-slate-400 ring-1 ring-slate-100">
+      <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-slate-50 text-slate-600 ring-1 ring-slate-100">
         {icon}
       </span>
       <div className="min-w-0 flex-1 text-[13px] leading-snug text-slate-700">
@@ -107,7 +107,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
         <Row icon={<CalendarIcon />}>
           {formatDateRange(event)}
           {isMultiDay(event) && (
-            <span className="text-slate-400"> · {dayCount(event)} days</span>
+            <span className="text-slate-600"> · {dayCount(event)} days</span>
           )}
           <span
             className={`ml-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${
@@ -124,7 +124,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
         <Row icon={<ClockIcon />}>{formatTimeRange(event)}</Row>
         <Row icon={<MapPinIcon />}>
           {event.venue}
-          <span className="block text-slate-400">{event.city}</span>
+          <span className="block text-slate-600">{event.city}</span>
         </Row>
         <Row icon={<UsersIcon />}>{event.organizer}</Row>
       </div>

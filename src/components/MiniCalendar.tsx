@@ -54,7 +54,7 @@ export default function MiniCalendar({
         </div>
       </div>
 
-      <div className="grid grid-cols-7 gap-y-1 text-center text-[11px] text-white/40">
+      <div className="grid grid-cols-7 gap-y-1 text-center text-[11px] text-white/70">
         {MINI_WEEKDAYS.map((d, i) => (
           <span key={i}>{d}</span>
         ))}
@@ -79,7 +79,7 @@ export default function MiniCalendar({
                     ? "bg-[var(--signal)] font-semibold text-[var(--signal-ink)]"
                     : inMonth
                       ? "text-white/80 hover:bg-white/10"
-                      : "text-white/25 hover:bg-white/5",
+                      : "text-white/65 hover:bg-white/5",
                   !isSelected && isToday ? "ring-1 ring-[var(--signal-dim)]" : "",
                 ].join(" ")}
               >

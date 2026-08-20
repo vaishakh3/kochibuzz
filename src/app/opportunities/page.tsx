@@ -69,7 +69,7 @@ export default function OpportunitiesPage() {
                   {/* Deadline is the signal */}
                   <div className="w-20 shrink-0 text-center">
                     {opportunity.ongoing || !opportunity.deadlineAt ? (
-                      <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/45">
+                      <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/72">
                         {opportunity.ongoing ? "Rolling" : "TBA"}
                       </span>
                     ) : (
@@ -86,14 +86,14 @@ export default function OpportunitiesPage() {
                         >
                           {days}
                         </span>
-                        <span className="font-[family-name:var(--font-geist-mono)] mt-1 block text-[9px] uppercase tracking-wider text-white/45">
+                        <span className="font-[family-name:var(--font-geist-mono)] mt-1 block text-[10px] uppercase tracking-wider text-white/72">
                           {days === 0 ? "closes today" : days === 1 ? "day left" : "days left"}
                         </span>
                       </>
                     )}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+                    <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                       {opportunityTypeLabels[opportunity.type]}
                     </p>
                     <h2 className="mt-1 text-[17px] font-semibold text-white group-hover:text-[var(--signal)]">
@@ -105,7 +105,7 @@ export default function OpportunitiesPage() {
                     <p className="mt-2 text-sm leading-relaxed text-white/55">
                       {opportunity.summary}
                     </p>
-                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/45">
+                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/72">
                       {opportunity.deadlineAt && !opportunity.ongoing && (
                         <span>Deadline: {formatDeadline(opportunity.deadlineAt)}</span>
                       )}
@@ -124,14 +124,14 @@ export default function OpportunitiesPage() {
 
       {closed.length > 0 && (
         <section className="mt-10">
-          <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-white/30">
+          <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-white/65">
             Recently closed
           </h2>
           <ul className="mt-3 space-y-1.5">
             {closed.map((opportunity) => (
               <li
                 key={opportunity.id}
-                className="flex flex-wrap items-baseline gap-x-3 border-t border-white/[0.06] py-2.5 text-sm text-white/35"
+                className="flex flex-wrap items-baseline gap-x-3 border-t border-white/[0.06] py-2.5 text-sm text-white/70"
               >
                 <span>{opportunity.title}</span>
                 <span className="text-xs">

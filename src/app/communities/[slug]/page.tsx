@@ -57,13 +57,13 @@ function EventList({
               <span className="text-sm font-semibold text-white transition group-hover:text-[var(--signal)]">
                 {event.title}
               </span>
-              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                 {category.label}
               </span>
               <span className="w-full text-xs text-white/50 sm:w-auto">
                 {formatDateRange(event)} · {event.venue}, {event.city}
               </span>
-              <span className="ml-auto shrink-0 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+              <span className="ml-auto shrink-0 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                 {countdownLabel(event, today)}
               </span>
             </Link>
@@ -106,7 +106,7 @@ export default async function CommunityPage({ params }: { params: Params }) {
         <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/55">
           {community.focus}
         </p>
-        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/35">
+        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/70">
           {community.cadence}
         </p>
         <a
@@ -144,7 +144,7 @@ export default async function CommunityPage({ params }: { params: Params }) {
 
       {upcoming.length > 1 && (
         <section className="mt-10">
-          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
             Also upcoming
           </h2>
           <div className="mt-3">
@@ -155,7 +155,7 @@ export default async function CommunityPage({ params }: { params: Params }) {
 
       {past.length > 0 && (
         <section className="mt-10">
-          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
             Past editions
           </h2>
           <div className="mt-3">

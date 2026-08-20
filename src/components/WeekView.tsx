@@ -80,7 +80,7 @@ export default function WeekView({
         className="grid border-b border-slate-200 bg-slate-50/60 px-2 py-2"
         style={{ gridTemplateColumns: `64px repeat(${columns.length}, minmax(0, 1fr))` }}
       >
-        <span className="pl-1 text-[10px] font-medium uppercase tracking-wide text-slate-400">
+        <span className="pl-1 text-[10px] font-medium uppercase tracking-wide text-slate-600">
           All day
         </span>
         {columns.map((day) => {
@@ -115,7 +115,7 @@ export default function WeekView({
             {hours.map((hour, i) => (
               <span
                 key={hour}
-                className="absolute right-3 -translate-y-1/2 text-[11px] font-medium text-slate-400"
+                className="absolute right-3 -translate-y-1/2 text-[11px] font-medium text-slate-600"
                 style={{ top: i * HOUR_HEIGHT }}
               >
                 {formatTime(`${hour}:00`)}

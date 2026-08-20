@@ -69,7 +69,7 @@ export default function BuiltPage() {
               className="min-h-64 w-full sm:h-full"
             />
             <div className="p-6 sm:p-8">
-              <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/40">
+              <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.22em] text-white/70">
                 {lead.categories.join(" · ")}
               </p>
               <h2 className="font-display mt-2 text-3xl font-semibold tracking-tight text-white">
@@ -81,7 +81,7 @@ export default function BuiltPage() {
                   {lead.description}
                 </p>
               )}
-              <p className="mt-3 text-[11px] leading-relaxed text-white/35">
+              <p className="mt-3 text-[11px] leading-relaxed text-white/70">
                 Kochi connection: {lead.kochiConnection}
               </p>
               <ProjectLinks project={lead} />
@@ -95,7 +95,7 @@ export default function BuiltPage() {
                   <div className="group flex h-full flex-col overflow-hidden rounded-lg ring-1 ring-white/10 transition hover:ring-white/25">
                     <ProjectVisual projectId={project.id} name={project.name} className="h-44 w-full" />
                     <div className="flex flex-1 flex-col p-5">
-                      <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.25em] text-white/40">
+                      <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.22em] text-white/70">
                         {project.categories.join(" · ")}
                       </p>
                       <h2 className="mt-1.5 text-[16px] font-semibold text-white">
@@ -103,11 +103,11 @@ export default function BuiltPage() {
                       </h2>
                       <p className="mt-1 text-sm text-white/60">{project.tagline}</p>
                       {project.description && (
-                        <p className="mt-2 flex-1 text-sm leading-relaxed text-white/45">
+                        <p className="mt-2 flex-1 text-sm leading-relaxed text-white/70">
                           {project.description}
                         </p>
                       )}
-                      <p className="mt-3 text-[11px] leading-relaxed text-white/35">
+                      <p className="mt-3 text-[11px] leading-relaxed text-white/70">
                         Kochi connection: {project.kochiConnection}
                       </p>
                       <ProjectLinks project={project} />

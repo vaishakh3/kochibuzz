@@ -62,7 +62,7 @@ function EventRow({
         <span className="text-lg font-semibold leading-none text-slate-900">
           {start.getDate()}
         </span>
-        <span className="mt-1 text-[10px] uppercase text-slate-400">
+        <span className="mt-1 text-[10px] font-medium uppercase text-slate-600">
           {MONTHS[start.getMonth()].slice(0, 3)}
         </span>
       </span>
@@ -120,7 +120,7 @@ export default function AgendaView({
           <div className="mt-3 space-y-6">
             {groupByMonth(past).map(([month, monthEvents]) => (
               <section key={month}>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-400">
+                <h3 className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-600">
                   {month}
                 </h3>
                 <ul className="mt-2 space-y-2.5">
@@ -149,7 +149,7 @@ export default function AgendaView({
       ) : (
         groupByMonth(upcoming).map(([month, monthEvents]) => (
           <section key={month} className="mb-8">
-            <h2 className="sticky top-0 z-10 -mx-2 scroll-mt-2 bg-white/95 px-2 py-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-400 backdrop-blur">
+            <h2 className="sticky top-0 z-10 -mx-2 scroll-mt-2 bg-white/95 px-2 py-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-600 backdrop-blur">
               {month}
             </h2>
             <ul className="mt-2 space-y-2.5">

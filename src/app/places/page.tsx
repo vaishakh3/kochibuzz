@@ -29,7 +29,7 @@ export default function PlacesPage() {
         <section key={area} className="mt-2 first:mt-0">
           <h2 className="flex items-baseline gap-3 border-t border-white/10 pt-5 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-[0.3em] text-[var(--signal)]">
             {area}
-            <span className="text-white/30">
+            <span className="text-white/70">
               {spaces.filter((space) => space.area === area).length}
             </span>
           </h2>
@@ -41,7 +41,7 @@ export default function PlacesPage() {
                   <h3 className="text-[16px] font-semibold text-white">
                     {space.name}
                   </h3>
-                  <p className="mt-0.5 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
+                  <p className="mt-0.5 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                     {space.kind}
                   </p>
                   <p className="mt-2 text-sm leading-relaxed text-white/55">

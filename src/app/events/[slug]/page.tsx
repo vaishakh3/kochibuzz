@@ -64,7 +64,7 @@ export default async function EventPage({ params }: { params: Params }) {
         dangerouslySetInnerHTML={{ __html: eventJsonLd(event) }}
       />
       <main id="main-content" className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:px-6">
-        <p className="text-xs text-white/40">
+        <p className="text-xs text-white/70">
           <Link href="/events" className="transition hover:text-white/80">
             ← All Kochi tech events
           </Link>
@@ -108,19 +108,19 @@ export default async function EventPage({ params }: { params: Params }) {
           <div className="p-7 sm:p-9">
             <dl className="space-y-2 font-[family-name:var(--font-geist-mono)] text-[13px]">
               <div className="flex gap-4">
-                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/70">
                   Date
                 </dt>
                 <dd className="text-white/85">{formatDateRange(event)}</dd>
               </div>
               <div className="flex gap-4">
-                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/70">
                   Time
                 </dt>
                 <dd className="text-white/85">{formatTimeRange(event)}</dd>
               </div>
               <div className="flex gap-4">
-                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/70">
                   Venue
                 </dt>
                 <dd className="text-white/85">
@@ -128,7 +128,7 @@ export default async function EventPage({ params }: { params: Params }) {
                 </dd>
               </div>
               <div className="flex gap-4">
-                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/35">
+                <dt className="w-16 shrink-0 uppercase tracking-wider text-white/70">
                   Host
                 </dt>
                 <dd className="text-white/85">{event.organizer}</dd>
@@ -186,7 +186,7 @@ export default async function EventPage({ params }: { params: Params }) {
             </p>
 
             {event.tags.length > 0 && (
-              <p className="mt-4 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/35">
+              <p className="mt-4 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/70">
                 {event.tags.join(" · ")}
               </p>
             )}
@@ -197,7 +197,7 @@ export default async function EventPage({ params }: { params: Params }) {
               </p>
             )}
 
-            <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-[var(--line)] pt-5 text-xs text-white/35">
+            <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-1 border-t border-[var(--line)] pt-5 text-xs text-white/70">
               <span>
                 Source:{" "}
                 <a

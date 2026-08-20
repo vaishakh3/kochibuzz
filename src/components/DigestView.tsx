@@ -78,7 +78,7 @@ export default function DigestView({ week, month }: Props) {
         ))}
       </div>
 
-      <p className="mt-4 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-[0.3em] text-white/40">
+      <p className="mt-4 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-[0.3em] text-white/70">
         Kochi · {active.rangeLabel}
       </p>
 
@@ -101,7 +101,7 @@ export default function DigestView({ week, month }: Props) {
                   <span className="font-display block text-2xl font-semibold leading-none text-white">
                     {entry.day}
                   </span>
-                  <span className="font-[family-name:var(--font-geist-mono)] mt-0.5 block text-[9px] uppercase tracking-wider text-white/40">
+                  <span className="font-[family-name:var(--font-geist-mono)] mt-0.5 block text-[10px] uppercase tracking-wider text-white/70">
                     {entry.month}
                   </span>
                 </span>
@@ -112,7 +112,7 @@ export default function DigestView({ week, month }: Props) {
                   <span className="mt-0.5 block text-xs text-white/50">
                     {entry.timeLabel} · {entry.venue}, {entry.city}
                   </span>
-                  <span className="mt-1 block font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/35">
+                  <span className="mt-1 block font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
                     {entry.category}
                     {entry.travel ? " · outside Kochi" : ""}
                   </span>

@@ -101,7 +101,7 @@ export default function JobsExplorer({
               >
                 {id === "all" ? "All" : jobCategoryLabels[id]}
               </span>
-              <span className="block font-[family-name:var(--font-geist-mono)] text-[10px] text-white/35">
+              <span className="block font-[family-name:var(--font-geist-mono)] text-[10px] text-white/70">
                 {count}
               </span>
             </button>
@@ -117,12 +117,12 @@ export default function JobsExplorer({
           setShown(PAGE);
         }}
         placeholder="Search title, company, category or location…"
-        className="mt-4 w-full rounded-md bg-white/[0.05] px-4 py-2.5 text-sm text-white placeholder:text-white/30 ring-1 ring-white/10 focus:outline-none focus:ring-[var(--signal-dim)]"
+        className="mt-4 w-full rounded-md bg-white/[0.05] px-4 py-2.5 text-sm text-white placeholder:text-white/65 ring-1 ring-white/10 focus:outline-none focus:ring-[var(--signal-dim)]"
         aria-label="Search jobs"
       />
 
       <div className="mt-3 flex items-baseline justify-between">
-        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/40">
+        <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider text-white/70">
           {filtered.length} {filtered.length === 1 ? "role" : "roles"}
           {hasFilters ? " match" : ""}
         </p>
@@ -160,12 +160,12 @@ export default function JobsExplorer({
                     {job.title}
                   </span>
                   {isNew(job) && (
-                    <span className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-wider text-[var(--signal)]">
+                    <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-[var(--signal)]">
                       New
                     </span>
                   )}
                   <span className="text-xs text-white/50">{job.company}</span>
-                  <span className="ml-auto flex shrink-0 items-baseline gap-3 text-[11px] text-white/35">
+                  <span className="ml-auto flex shrink-0 items-baseline gap-3 text-[11px] text-white/70">
                     <span>{jobCategoryLabels[job.category]}</span>
                     {job.deadlineAt && (
                       <span>apply by {formatDate(job.deadlineAt)}</span>

@@ -83,7 +83,7 @@ export default function MobileHeader({
                 onClick={() => onSelectDate(day)}
                 className="relative flex flex-col items-center gap-1 py-1"
               >
-                <span className="text-[10px] font-medium text-white/35">
+                <span className="text-[10px] font-medium text-white/70">
                   {DAY_LETTERS[i]}
                 </span>
                 <span
@@ -118,7 +118,7 @@ export default function MobileHeader({
                 "shrink-0 whitespace-nowrap rounded-full px-3 py-1.5 text-[11px] font-semibold transition",
                 isActive
                   ? "bg-white/10 text-white ring-1 ring-white/25"
-                  : "bg-transparent text-white/35 ring-1 ring-white/10",
+                  : "bg-transparent text-white/70 ring-1 ring-white/10",
               ].join(" ")}
             >
               {category.label}

@@ -207,7 +207,7 @@ export default function CalendarApp() {
                   "rounded-full px-4 py-2 text-sm font-medium capitalize transition",
                   view === option
                     ? "bg-white text-slate-900 shadow-sm"
-                    : "text-slate-500 hover:text-slate-700",
+                    : "text-slate-600 hover:text-slate-800",
                 ].join(" ")}
               >
                 {option}
@@ -219,7 +219,7 @@ export default function CalendarApp() {
             <button
               onClick={() => shift(-1)}
               aria-label="Previous"
-              className="grid h-9 w-9 place-items-center rounded-full text-slate-500 transition hover:bg-white hover:text-slate-900"
+              className="grid h-9 w-9 place-items-center rounded-full text-slate-600 transition hover:bg-white hover:text-slate-900"
             >
               ‹
             </button>
@@ -232,7 +232,7 @@ export default function CalendarApp() {
             <button
               onClick={() => shift(1)}
               aria-label="Next"
-              className="grid h-9 w-9 place-items-center rounded-full text-slate-500 transition hover:bg-white hover:text-slate-900"
+              className="grid h-9 w-9 place-items-center rounded-full text-slate-600 transition hover:bg-white hover:text-slate-900"
             >
               ›
             </button>

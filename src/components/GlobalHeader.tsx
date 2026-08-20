@@ -76,7 +76,7 @@ export default function GlobalHeader({ current }: { current: string }) {
         <Link href="/" className="shrink-0 text-[17px] text-white">
           <BrandLockup pulse={current === "/"} />
         </Link>
-        <span className="hidden border-l border-white/[0.12] pl-4 font-[family-name:var(--font-geist-mono)] text-[8px] uppercase leading-relaxed tracking-[0.22em] text-white/30 xl:block">
+        <span className="hidden border-l border-white/[0.12] pl-4 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase leading-relaxed tracking-[0.18em] text-white/65 xl:block">
           The city<br />tuned in
         </span>
 
@@ -145,7 +145,7 @@ export default function GlobalHeader({ current }: { current: string }) {
               <path d="M10.5 10.5 L14 14" stroke="currentColor" strokeWidth="1.4" />
             </svg>
             <span className="hidden sm:inline">Search</span>
-            <kbd className="hidden rounded-full bg-white/10 px-1.5 py-0.5 font-[family-name:var(--font-geist-mono)] text-[9px] text-white/45 sm:inline">
+            <kbd className="hidden rounded-full bg-white/10 px-1.5 py-0.5 font-[family-name:var(--font-geist-mono)] text-[10px] text-white/70 sm:inline">
               /
             </kbd>
           </button>
@@ -156,12 +156,12 @@ export default function GlobalHeader({ current }: { current: string }) {
                 key={item.href}
                 href={item.href}
                 className={[
-                  "rounded-full px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-wider transition",
+                  "rounded-full px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-wider transition",
                   item.href === current
                     ? "bg-white/10 text-[var(--signal)]"
                     : item.href === "/submit"
                       ? "bg-[var(--coral)] text-black hover:brightness-110"
-                      : "text-white/40 hover:text-white",
+                      : "text-white/70 hover:text-white",
                 ].join(" ")}
               >
                 {item.label}
@@ -202,7 +202,7 @@ export default function GlobalHeader({ current }: { current: string }) {
             </button>
           </div>
           <nav aria-label="Mobile" className="relative px-6 pb-10 pt-8">
-            <p className="mb-4 font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.25em] text-[var(--signal)]">Kochi, live right now</p>
+            <p className="mb-4 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--signal)]">Kochi, live right now</p>
             <ul className="space-y-1">
               {primary.map((item) => (
                 <li key={item.href}>
@@ -219,7 +219,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                 </li>
               ))}
             </ul>
-            <p className="mt-8 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/35">
+            <p className="mt-8 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.26em] text-white/65">
               Explore
             </p>
             <ul className="mt-2 space-y-1">

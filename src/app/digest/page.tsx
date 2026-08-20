@@ -83,7 +83,7 @@ export default function DigestPage() {
 
       {closing.length > 0 && (
         <section className="mt-10">
-          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/70">
             Closing soon
           </h2>
           <ul className="mt-3">

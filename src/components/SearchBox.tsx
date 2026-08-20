@@ -37,13 +37,13 @@ export default function SearchBox({ events, onPick }: Props) {
         onFocus={() => setFocused(true)}
         onBlur={() => setTimeout(() => setFocused(false), 150)}
         placeholder="Search events…  ( / )"
-        className="w-40 rounded-full bg-slate-100 px-4 py-2 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:w-56 focus:bg-white focus:ring-2 focus:ring-violet-200"
+        className="w-40 rounded-full bg-slate-100 px-4 py-2 text-sm text-slate-800 outline-none transition placeholder:text-slate-500 focus:w-56 focus:bg-white focus:ring-2 focus:ring-violet-200"
         aria-label="Search events"
       />
       {focused && query.trim() && (
         <div className="absolute right-0 top-12 z-40 w-80 overflow-hidden rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
           {matches.length === 0 && (
-            <p className="px-4 py-3 text-sm text-slate-400">No matches.</p>
+            <p className="px-4 py-3 text-sm text-slate-600">No matches.</p>
           )}
           {matches.map((event) => {
             const category = categoryById.get(event.category)!;
@@ -62,7 +62,7 @@ export default function SearchBox({ events, onPick }: Props) {
                   <span className="block truncate text-sm font-medium text-slate-800">
                     {event.title}
                   </span>
-                  <span className="block text-xs text-slate-400">
+                  <span className="block text-xs text-slate-600">
                     {formatDateRange(event)} · {event.city}
                   </span>
                 </span>

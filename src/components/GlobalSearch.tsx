@@ -71,12 +71,12 @@ export default function GlobalSearch({
             value={query}
             onChange={(e) => runSearch(e.target.value)}
             placeholder="Search events, jobs, communities…"
-            className="w-full bg-transparent py-3.5 text-sm text-[var(--ink)] outline-none placeholder:text-white/35"
+            className="w-full bg-transparent py-3.5 text-sm text-[var(--ink)] outline-none placeholder:text-white/65"
             aria-label="Search"
           />
           <button
             onClick={onClose}
-            className="shrink-0 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40 transition hover:text-white"
+            className="shrink-0 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70 transition hover:text-white"
           >
             esc
           </button>
@@ -90,7 +90,7 @@ export default function GlobalSearch({
           )}
           {results.map(({ group, items }) => (
             <section key={group} className="py-2">
-              <h3 className="px-4 pb-1 pt-2 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/35">
+              <h3 className="px-4 pb-1 pt-2 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/70">
                 {group}
               </h3>
               <ul>
@@ -107,7 +107,7 @@ export default function GlobalSearch({
                         <span className="min-w-0 truncate text-sm text-white/85">
                           {item.title}
                         </span>
-                        <span className="shrink-0 text-xs text-white/40">
+                        <span className="shrink-0 text-xs text-white/70">
                           {item.meta} ↗
                         </span>
                       </a>
@@ -122,7 +122,7 @@ export default function GlobalSearch({
                         <span className="min-w-0 truncate text-sm text-white/85">
                           {item.title}
                         </span>
-                        <span className="shrink-0 truncate text-xs text-white/40">
+                        <span className="shrink-0 truncate text-xs text-white/70">
                           {item.meta}
                         </span>
                       </Link>
