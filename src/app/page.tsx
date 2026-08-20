@@ -72,12 +72,16 @@ export default async function BuzzHome({
         <p className="font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-[0.3em] text-white/40">
           {todayLabel} · Kochi, Kerala
         </p>
-        <h1 className="mt-3 text-4xl font-bold leading-[1.05] tracking-tight text-white sm:text-6xl">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute -top-24 left-1/4 -z-10 h-72 w-[36rem] -translate-x-1/2 rounded-full bg-[radial-gradient(ellipse,rgba(255,150,80,0.22),transparent_65%)] blur-2xl"
+        />
+        <h1 className="font-display mt-3 text-5xl font-semibold leading-[1.02] tracking-tight text-white sm:text-7xl">
           Kochi is buzzing.
           <br />
-          <span className="ink-violet">Know what&apos;s next.</span>
+          <span className="ink-dawn italic">Know what&apos;s next.</span>
         </h1>
-        <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/50 sm:text-base">
+        <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
           Events, opportunities, jobs, communities and things being built around
           Kochi&apos;s tech ecosystem — tracked from public sources, refreshed
           automatically.
@@ -85,7 +89,7 @@ export default async function BuzzHome({
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href="/events"
-            className="rounded-full bg-violet-500 px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-400"
+            className="rounded-full bg-gradient-to-r from-orange-400 to-rose-400 px-6 py-2.5 text-sm font-semibold text-[#1a0c02] shadow-[0_8px_30px_-8px_rgba(251,146,60,0.55)] transition hover:from-orange-300 hover:to-rose-300"
           >
             Open the calendar
           </Link>
@@ -413,7 +417,7 @@ function SectionHead({
 }) {
   return (
     <div className="flex flex-wrap items-baseline justify-between gap-2">
-      <h2 className="font-[family-name:var(--font-geist-mono)] text-[11px] font-semibold uppercase tracking-[0.3em] text-violet-300/80">
+      <h2 className="font-[family-name:var(--font-geist-mono)] text-[11px] font-semibold uppercase tracking-[0.3em] text-orange-200/80">
         {kicker}
       </h2>
       {href && linkLabel && (

@@ -101,7 +101,7 @@ export default async function EventPage({ params }: { params: Params }) {
             {countdownLabel(event, today)}
           </span>
         </div>
-        <h1 className="mt-4 text-3xl font-bold tracking-tight text-white">
+        <h1 className="font-display mt-4 text-3xl font-semibold tracking-tight text-white sm:text-4xl">
           {event.title}
         </h1>
         <p className="mt-3 text-sm leading-relaxed text-white/60">
@@ -160,8 +160,8 @@ export default async function EventPage({ params }: { params: Params }) {
           aria-hidden
           className="relative mt-7 h-px border-t border-dashed border-white/20"
         >
-          <span className="absolute -left-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#050506] ring-1 ring-white/10 sm:-left-[46px]" />
-          <span className="absolute -right-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#050506] ring-1 ring-white/10 sm:-right-[46px]" />
+          <span className="absolute -left-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#0d0a09] ring-1 ring-white/10 sm:-left-[46px]" />
+          <span className="absolute -right-[38px] top-1/2 h-5 w-5 -translate-y-1/2 rounded-full bg-[#0d0a09] ring-1 ring-white/10 sm:-right-[46px]" />
         </div>
 
         <div className="mt-7 flex flex-wrap items-center gap-3">

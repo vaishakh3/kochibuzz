@@ -37,7 +37,7 @@ export default function MobileHeader({
   const week = weekDays(selected);
 
   return (
-    <div className="flex flex-col gap-3 bg-[#0d0d10] p-4 lg:hidden">
+    <div className="flex flex-col gap-3 bg-[#120e0c] p-4 lg:hidden">
       <header className="flex items-center justify-between">
         <div>
           <p className="text-[10px] font-semibold uppercase tracking-[0.35em] text-violet-300/80">

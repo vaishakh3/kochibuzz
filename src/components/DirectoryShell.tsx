@@ -61,7 +61,7 @@ export default function DirectoryShell({
       <div className="aurora aurora-two" aria-hidden />
       <div className="aurora aurora-three" aria-hidden />
 
-      <div className="grain relative z-10 mx-auto w-full max-w-[1100px] overflow-hidden rounded-[36px] bg-black/90 p-8 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 sm:p-10">
+      <div className="grain panel-dawn relative z-10 mx-auto w-full max-w-[1100px] overflow-hidden rounded-[36px] bg-[#0f0c0a]/90 p-8 shadow-[0_50px_120px_-40px_rgba(0,0,0,0.85)] ring-1 ring-white/10 sm:p-10">
         <div
           aria-hidden
           className={`absolute inset-x-10 top-0 h-px bg-gradient-to-r ${theme.hairline}`}
@@ -78,10 +78,10 @@ export default function DirectoryShell({
             >
               {eyebrow}
             </p>
-            <h1 className="mt-2 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl">
+            <h1 className="font-display mt-2 text-4xl font-semibold leading-tight tracking-tight text-white sm:text-5xl">
               {title}
             </h1>
-            <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/50">
+            <p className="mt-4 max-w-xl text-sm leading-relaxed text-white/55">
               {intro}
             </p>
           </div>
