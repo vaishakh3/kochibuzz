@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
+import { ProjectCover } from "@/components/signal";
 import { projects } from "@/data/dataset";
+import type { Project } from "@/data/types";
 
 export const metadata: Metadata = {
   title: "Built in Kochi — kochi.buzz",
@@ -9,89 +11,108 @@ export const metadata: Metadata = {
   alternates: { canonical: "/built" },
 };
 
-const submitProjectUrl =
-  "https://github.com/vaishakh3/kochitechevents/issues/new?template=submit-project.yml";
+function ProjectLinks({ project }: { project: Project }) {
+  return (
+    <div className="mt-4 flex flex-wrap gap-4 text-xs font-medium">
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-[var(--signal)] transition hover:opacity-80"
+      >
+        Visit →
+      </a>
+      {project.repositoryUrl && (
+        <a
+          href={project.repositoryUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white/50 transition hover:text-white"
+        >
+          Code →
+        </a>
+      )}
+    </div>
+  );
+}
 
 export default function BuiltPage() {
+  const ordered = [...projects].sort(
+    (a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)),
+  );
+  const [lead, ...rest] = ordered;
+
   return (
     <DirectoryShell
       current="/built"
       eyebrow="Shipped from this city"
       accent="violet"
-      watermark="BUILT"
-      title={
-        <>
-          Built in <span className="ink-violet">Kochi</span>
-        </>
-      }
+      title={<>Built in Kochi</>}
       intro="Products, open source projects and experiments with a real Kochi connection — curated from public sources and community submissions. No fake likes, no leaderboards."
+      submitLabel="Submit a project"
     >
-      {projects.length === 0 ? (
-        <p className="rounded-3xl bg-white/[0.03] px-5 py-6 text-sm text-white/50 ring-1 ring-white/10">
-          Nothing listed yet — building something from Kochi?{" "}
-          <a href={submitProjectUrl} className="text-violet-300 hover:text-white">
-            Submit it →
-          </a>
+      {!lead ? (
+        <p className="border-t border-white/10 pt-6 text-sm text-white/50">
+          Nothing listed yet — building something from Kochi? Submit it below.
         </p>
       ) : (
-        <ul className="grid gap-4 sm:grid-cols-2">
-          {projects.map((project, index) => (
-            <li key={project.id} id={project.id}>
-              <div className="group relative flex h-full flex-col overflow-hidden rounded-3xl bg-white/[0.04] p-5 ring-1 ring-white/10 transition hover:bg-white/[0.06] hover:ring-violet-400/40">
-                <span
-                  aria-hidden
-                  className="absolute right-4 top-3 text-4xl font-extrabold tracking-tight text-white/[0.06] transition group-hover:text-white/[0.1]"
-                >
-                  {`${index + 1}`.padStart(2, "0")}
-                </span>
-                <div className="flex flex-wrap gap-1.5">
-                  {project.categories.map((category) => (
-                    <span
-                      key={category}
-                      className="rounded-full bg-violet-400/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-violet-200 ring-1 ring-violet-400/25"
-                    >
-                      {category}
-                    </span>
-                  ))}
-                </div>
-                <h2 className="mt-3 text-[17px] font-semibold text-white">
-                  {project.name}
-                </h2>
-                <p className="mt-1 text-sm font-medium text-white/60">
-                  {project.tagline}
+        <>
+          {/* Lead project — editorial feature */}
+          <div
+            id={lead.id}
+            className="group grid gap-0 overflow-hidden rounded-xl ring-1 ring-white/10 transition hover:ring-white/25 sm:grid-cols-[1.1fr_1.4fr]"
+          >
+            <ProjectCover name={lead.name} className="h-40 w-full sm:h-full" />
+            <div className="p-6 sm:p-8">
+              <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.25em] text-white/40">
+                {lead.categories.join(" · ")}
+              </p>
+              <h2 className="font-display mt-2 text-3xl font-semibold tracking-tight text-white">
+                {lead.name}
+              </h2>
+              <p className="mt-1 text-sm font-medium text-white/65">{lead.tagline}</p>
+              {lead.description && (
+                <p className="mt-3 text-sm leading-relaxed text-white/50">
+                  {lead.description}
                 </p>
-                {project.description && (
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-white/50">
-                    {project.description}
-                  </p>
-                )}
-                <p className="mt-3 text-[11px] leading-relaxed text-white/35">
-                  Kochi connection: {project.kochiConnection}
-                </p>
-                <div className="mt-4 flex flex-wrap gap-4 text-xs font-medium">
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-violet-300 transition hover:text-white"
-                  >
-                    Visit →
-                  </a>
-                  {project.repositoryUrl && (
-                    <a
-                      href={project.repositoryUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-white/50 transition hover:text-white"
-                    >
-                      Code →
-                    </a>
-                  )}
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
+              )}
+              <p className="mt-3 text-[11px] leading-relaxed text-white/35">
+                Kochi connection: {lead.kochiConnection}
+              </p>
+              <ProjectLinks project={lead} />
+            </div>
+          </div>
+
+          {rest.length > 0 && (
+            <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {rest.map((project) => (
+                <li key={project.id} id={project.id}>
+                  <div className="group flex h-full flex-col overflow-hidden rounded-lg ring-1 ring-white/10 transition hover:ring-white/25">
+                    <ProjectCover name={project.name} className="h-20 w-full" />
+                    <div className="flex flex-1 flex-col p-5">
+                      <p className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.25em] text-white/40">
+                        {project.categories.join(" · ")}
+                      </p>
+                      <h2 className="mt-1.5 text-[16px] font-semibold text-white">
+                        {project.name}
+                      </h2>
+                      <p className="mt-1 text-sm text-white/60">{project.tagline}</p>
+                      {project.description && (
+                        <p className="mt-2 flex-1 text-sm leading-relaxed text-white/45">
+                          {project.description}
+                        </p>
+                      )}
+                      <p className="mt-3 text-[11px] leading-relaxed text-white/35">
+                        Kochi connection: {project.kochiConnection}
+                      </p>
+                      <ProjectLinks project={project} />
+                    </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
       )}
     </DirectoryShell>
   );

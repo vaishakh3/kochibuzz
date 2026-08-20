@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Attendees from "@/components/Attendees";
 import {
   CalendarIcon,
   CalendarPlusIcon,
@@ -24,16 +23,11 @@ import {
   icsFor,
   isMultiDay,
 } from "@/lib/calendar";
-import { Profile } from "@/lib/useProfile";
 
 type Props = {
   event: TechEvent;
   today: Date;
   onClose: () => void;
-  profile: Profile | null;
-  going: string[];
-  onSaveProfile: (name: string, emoji: string) => void;
-  onSetGoing: (eventId: string, isGoing: boolean) => void;
 };
 
 function Row({
@@ -55,15 +49,7 @@ function Row({
   );
 }
 
-export default function EventDetail({
-  event,
-  today,
-  onClose,
-  profile,
-  going,
-  onSaveProfile,
-  onSetGoing,
-}: Props) {
+export default function EventDetail({ event, today, onClose }: Props) {
   const category = categoryById.get(event.category)!;
   const [copied, setCopied] = useState(false);
   const countdown = countdownLabel(event, today);
@@ -84,8 +70,12 @@ export default function EventDetail({
   }
 
   return (
-    <div className="animate-card-pop pointer-events-auto max-h-[calc(100vh-8rem)] w-[360px] max-w-[calc(100vw-2rem)] overflow-y-auto rounded-[28px] bg-white shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)] ring-1 ring-slate-200">
-      <div className="flex items-start justify-between gap-3 px-5 pt-5">
+    <div className="animate-sheet-up pointer-events-auto max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white shadow-[0_-20px_60px_-20px_rgba(15,23,42,0.5)] ring-1 ring-slate-200 lg:animate-card-pop lg:max-h-[calc(100vh-8rem)] lg:w-[360px] lg:max-w-[calc(100vw-2rem)] lg:rounded-2xl lg:shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)]">
+      <div
+        aria-hidden
+        className="mx-auto mt-2 h-1 w-10 rounded-full bg-slate-200 lg:hidden"
+      />
+      <div className="flex items-start justify-between gap-3 px-5 pt-4 lg:pt-5">
         <h3 className="text-lg font-semibold leading-snug tracking-tight text-slate-900">
           {event.title}
         </h3>
@@ -113,7 +103,7 @@ export default function EventDetail({
         </div>
       </div>
 
-      <div className="mx-5 mt-4 divide-y divide-slate-100 rounded-2xl bg-white px-3 ring-1 ring-slate-100">
+      <div className="mx-5 mt-3 divide-y divide-slate-100 rounded-xl bg-white px-3 ring-1 ring-slate-100">
         <Row icon={<CalendarIcon />}>
           {formatDateRange(event)}
           {isMultiDay(event) && (
@@ -125,7 +115,7 @@ export default function EventDetail({
                 ? "bg-slate-200 text-slate-500"
                 : countdown === "today" || countdown.startsWith("day ")
                   ? "bg-emerald-100 text-emerald-700"
-                  : "bg-violet-100 text-violet-700"
+                  : "bg-lime-100 text-lime-800"
             }`}
           >
             {countdown}
@@ -137,6 +127,18 @@ export default function EventDetail({
           <span className="block text-slate-400">{event.city}</span>
         </Row>
         <Row icon={<UsersIcon />}>{event.organizer}</Row>
+      </div>
+
+      {/* Primary action lives right after the essentials */}
+      <div className="px-5 pt-4">
+        <a
+          href={event.registerUrl ?? event.url}
+          target="_blank"
+          rel="noreferrer"
+          className="block rounded-xl bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-800"
+        >
+          {event.registerUrl ? "Register" : "Event page"}
+        </a>
       </div>
 
       <div className="flex flex-wrap gap-2 px-5 pt-4">
@@ -165,61 +167,43 @@ export default function EventDetail({
       </p>
 
       {event.note && (
-        <p className="mx-5 mt-3 rounded-2xl bg-amber-50 px-3 py-2 text-[11px] leading-relaxed text-amber-800 ring-1 ring-amber-100">
+        <p className="mx-5 mt-3 rounded-xl bg-amber-50 px-3 py-2 text-[11px] leading-relaxed text-amber-800 ring-1 ring-amber-100">
           {event.note}
         </p>
       )}
 
-      <Attendees
-        eventId={event.id}
-        profile={profile}
-        going={going}
-        onSaveProfile={onSaveProfile}
-        onSetGoing={onSetGoing}
-      />
-
-      <div className="space-y-2 px-5 pb-5 pt-5">
+      <div className="grid grid-cols-3 gap-2 px-5 pb-5 pt-4">
         <a
-          href={event.registerUrl ?? event.url}
+          href={googleCalendarUrl(event)}
           target="_blank"
           rel="noreferrer"
-          className="block rounded-2xl bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-slate-800"
+          className="flex items-center justify-center gap-1.5 rounded-lg bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+          title="Add to Google Calendar"
         >
-          {event.registerUrl ? "Register" : "Event page"}
+          <CalendarPlusIcon className="h-3.5 w-3.5" />
+          Google
         </a>
-        <div className="grid grid-cols-3 gap-2">
-          <a
-            href={googleCalendarUrl(event)}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
-            title="Add to Google Calendar"
-          >
-            <CalendarPlusIcon className="h-3.5 w-3.5" />
-            Google
-          </a>
-          <a
-            href={`data:text/calendar;charset=utf-8,${encodeURIComponent(icsFor(event))}`}
-            download={`${event.id}.ics`}
-            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
-            title="Download .ics (Apple / Outlook)"
-          >
-            <DownloadIcon className="h-3.5 w-3.5" />
-            .ics
-          </a>
-          <a
-            href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-              `${event.venue} ${event.city}`,
-            )}`}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-center gap-1.5 rounded-2xl bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
-            title="Open venue in Google Maps"
-          >
-            <NavigationIcon className="h-3.5 w-3.5" />
-            Map
-          </a>
-        </div>
+        <a
+          href={`data:text/calendar;charset=utf-8,${encodeURIComponent(icsFor(event))}`}
+          download={`${event.id}.ics`}
+          className="flex items-center justify-center gap-1.5 rounded-lg bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+          title="Download .ics (Apple / Outlook)"
+        >
+          <DownloadIcon className="h-3.5 w-3.5" />
+          .ics
+        </a>
+        <a
+          href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+            `${event.venue} ${event.city}`,
+          )}`}
+          target="_blank"
+          rel="noreferrer"
+          className="flex items-center justify-center gap-1.5 rounded-lg bg-slate-50 px-2 py-2.5 text-[11px] font-semibold text-slate-500 ring-1 ring-slate-200 transition hover:bg-white hover:text-slate-900"
+          title="Open venue in Google Maps"
+        >
+          <NavigationIcon className="h-3.5 w-3.5" />
+          Map
+        </a>
       </div>
     </div>
   );

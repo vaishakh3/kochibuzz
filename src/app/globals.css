@@ -3,140 +3,68 @@
 @tailwind utilities;
 
 /*
- * "Dawn over midnight" — warm light rising into a deep, slightly warm dark.
- * Light is the identity: every surface sits above a sunrise glow, type is
- * editorial (serif display + mono labels), and color arrives as warm signal.
+ * THE SIGNAL — kochi.buzz visual system.
+ *
+ * A live city bulletin: warm near-black canvas, one electric signal colour,
+ * editorial serif display type, mono for timestamps/coordinates/status.
+ * The page itself is the surface — no floating app card.
  */
 
+:root {
+  --bg: #0b0a08;
+  --surface: #131210;
+  --surface-2: #1a1815;
+  --paper: #f2efe8;
+  --ink: #f4f1e8;
+  --muted: rgba(244, 241, 232, 0.55);
+  --line: rgba(244, 241, 232, 0.12);
+  --signal: #d7f24b;
+  --signal-dim: rgba(215, 242, 75, 0.6);
+  --signal-ink: #161a02;
+  --ember: #ff5c38;
+}
+
 body {
-  background:
-    radial-gradient(110% 70% at 50% -12%, rgba(255, 148, 77, 0.14), transparent 62%),
-    radial-gradient(70% 55% at 92% 108%, rgba(45, 212, 191, 0.08), transparent 65%),
-    radial-gradient(60% 45% at -5% 85%, rgba(244, 114, 182, 0.06), transparent 60%),
-    #0d0a09;
-  color: #faf6f0;
+  background: var(--bg);
+  color: var(--ink);
 }
 
 .font-display {
   font-family: var(--font-display), Georgia, serif;
 }
 
-/* Atmospheric light — soft bodies of colour drifting behind the page. */
-.aurora {
-  position: absolute;
-  border-radius: 9999px;
-  filter: blur(90px);
-  pointer-events: none;
-  animation: aurora-drift 26s ease-in-out infinite;
-}
-
-.aurora-one {
-  top: -16rem;
-  left: 50%;
-  margin-left: -26rem;
-  height: 34rem;
-  width: 52rem;
-  border-radius: 50%;
-  background: radial-gradient(ellipse at 50% 60%, #ff9d5c 0%, #f97362 40%, #a855f7 72%, transparent 82%);
-  opacity: 0.5;
-}
-
-.aurora-two {
-  bottom: -16rem;
-  right: -10rem;
-  height: 36rem;
-  width: 36rem;
-  background: radial-gradient(circle at 45% 45%, #2dd4bf 0%, #0ea5e9 55%, transparent 75%);
-  opacity: 0.28;
-  animation-delay: -9s;
-}
-
-.aurora-three {
-  bottom: -18rem;
-  left: -8rem;
-  height: 30rem;
-  width: 30rem;
-  background: radial-gradient(circle at 55% 45%, #f472b6 0%, #fb923c 55%, transparent 75%);
-  opacity: 0.24;
-  animation-delay: -17s;
-}
-
-@keyframes aurora-drift {
-  0%,
-  100% {
-    transform: translate3d(0, 0, 0) scale(1);
-  }
-  50% {
-    transform: translate3d(2.5rem, -1.5rem, 0) scale(1.07);
-  }
-}
-
-/* Warm halo that bleeds down from the top edge of a panel. */
-.panel-dawn::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  pointer-events: none;
-  background:
-    radial-gradient(90% 42% at 50% -6%, rgba(255, 158, 92, 0.16), transparent 70%),
-    radial-gradient(50% 30% at 12% 0%, rgba(192, 132, 252, 0.1), transparent 70%);
-}
-
-/* Film-grain overlay: gives flat dark panels a physical texture. */
+/* Film-grain overlay: gives flat dark zones a physical, printed texture. */
 .grain::before {
   content: "";
   position: absolute;
   inset: 0;
   border-radius: inherit;
   pointer-events: none;
-  opacity: 0.5;
+  opacity: 0.4;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* Gradient display text, one hue family per surface. */
-.ink-dawn {
-  background: linear-gradient(100deg, #ffd9a8 0%, #ff9d5c 38%, #f472b6 78%, #c084fc 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+/* The live dot — the brand's pulse. Use sparingly. */
+.signal-dot {
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 9999px;
+  background: var(--signal);
 }
 
-.ink-violet {
-  background: linear-gradient(105deg, #e9d5ff 0%, #c084fc 45%, #f0abfc 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+.signal-dot--pulse {
+  animation: signal-pulse 2.6s ease-in-out infinite;
 }
 
-.ink-teal {
-  background: linear-gradient(105deg, #baf7e6 0%, #2dd4bf 50%, #38bdf8 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.ink-amber {
-  background: linear-gradient(105deg, #ffe8b0 0%, #fbbf24 48%, #ff8a4c 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-/* Oversized section word ghosted behind content. */
-.watermark {
-  position: absolute;
-  top: -0.18em;
-  right: -0.05em;
-  z-index: 0;
-  font-size: clamp(6rem, 18vw, 13rem);
-  font-weight: 800;
-  letter-spacing: -0.05em;
-  line-height: 1;
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 200, 150, 0.1);
-  pointer-events: none;
-  user-select: none;
+@keyframes signal-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(215, 242, 75, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 5px rgba(215, 242, 75, 0);
+  }
 }
 
 @keyframes card-pop {
@@ -154,9 +82,25 @@ body {
   animation: card-pop 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
 }
 
+@keyframes sheet-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-sheet-up {
+  animation: sheet-up 0.24s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-card-pop,
-  .aurora {
+  .animate-sheet-up,
+  .signal-dot--pulse {
     animation: none;
   }
 
@@ -166,14 +110,14 @@ body {
 }
 
 :focus-visible {
-  outline: 2px solid #ffb066;
+  outline: 2px solid var(--signal);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
 ::selection {
-  background: #f97316;
-  color: #1a0c02;
+  background: var(--signal);
+  color: var(--signal-ink);
 }
 
 *::-webkit-scrollbar {
@@ -182,6 +126,6 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: rgba(214, 178, 148, 0.3);
+  background: rgba(244, 241, 232, 0.2);
   border-radius: 9999px;
 }

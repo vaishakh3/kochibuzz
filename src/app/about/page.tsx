@@ -36,12 +36,7 @@ export default function AboutPage() {
       current="/about"
       eyebrow="How this works"
       accent="violet"
-      watermark="ABOUT"
-      title={
-        <>
-          The <span className="ink-violet">live layer</span> for Kochi tech
-        </>
-      }
+      title={<>The live layer for Kochi tech</>}
       intro="kochi.buzz tracks what's happening in Kochi's technology, startup, maker and creative-tech ecosystem — events, opportunities, jobs, communities and things being built."
     >
       <section className="space-y-4 text-sm leading-relaxed text-white/60">
@@ -61,45 +56,77 @@ export default function AboutPage() {
         </p>
       </section>
 
+      {/* Data flow */}
       <section className="mt-10">
-        <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-violet-300/80">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
+          How the data flows
+        </h2>
+        <div
+          role="img"
+          aria-label="Data pipeline: public sources are fetched and parsed, validated, deduplicated with manual overrides, then published to kochi.buzz as web pages, an ICS feed and JSON."
+          className="mt-4 flex flex-col items-start gap-0 font-[family-name:var(--font-geist-mono)] text-[11px] uppercase tracking-wider"
+        >
+          {[
+            "Public sources",
+            "Fetch + parse",
+            "Validate",
+            "Dedupe + overrides",
+          ].map((stage) => (
+            <div key={stage} className="flex flex-col items-start">
+              <span className="rounded-md bg-white/[0.05] px-4 py-2 text-white/75 ring-1 ring-white/10">
+                {stage}
+              </span>
+              <span aria-hidden className="ml-6 h-5 w-px bg-[var(--signal-dim)]" />
+            </div>
+          ))}
+          <span className="rounded-md bg-[var(--signal)] px-4 py-2 font-semibold text-[var(--signal-ink)]">
+            kochi.buzz
+          </span>
+          <div aria-hidden className="ml-2 mt-3 flex gap-3 text-white/50">
+            <span className="rounded-md px-3 py-1.5 ring-1 ring-white/10">Web</span>
+            <span className="rounded-md px-3 py-1.5 ring-1 ring-white/10">ICS</span>
+            <span className="rounded-md px-3 py-1.5 ring-1 ring-white/10">JSON</span>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
           Registered sources
         </h2>
-        <ul className="mt-4 space-y-2">
+        <ul className="mt-4">
           {sources.map((source) => (
             <li
               key={source.id}
-              className="flex flex-wrap items-baseline gap-x-3 gap-y-1 rounded-2xl bg-white/[0.03] px-4 py-3 ring-1 ring-white/10"
+              className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-white/[0.08] py-3.5"
             >
               <span className="text-sm font-semibold text-white">
                 {source.name}
               </span>
-              <span className="rounded-full bg-white/[0.06] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white/50">
+              <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/40">
                 {source.kind}
               </span>
               <span
-                className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
-                  source.enabled
-                    ? "bg-teal-400/10 text-teal-200 ring-1 ring-teal-300/25"
-                    : "bg-white/[0.05] text-white/35 ring-1 ring-white/10"
+                className={`font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider ${
+                  source.enabled ? "text-[var(--signal)]" : "text-white/30"
                 }`}
               >
                 {source.enabled ? "Active" : "Planned"}
               </span>
+              {source.notes && (
+                <span className="w-full text-xs text-white/40">{source.notes}</span>
+              )}
               <a
                 href={source.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full break-all text-xs text-white/40 underline decoration-white/15 underline-offset-2 transition hover:text-white/70 sm:w-auto"
+                className="ml-auto shrink-0 text-xs font-medium text-white/50 transition hover:text-white"
               >
-                {source.url}
+                View source →
               </a>
-              {source.notes && (
-                <span className="w-full text-xs text-white/35">{source.notes}</span>
-              )}
             </li>
           ))}
-          <li className="rounded-2xl bg-white/[0.03] px-4 py-3 text-sm text-white/50 ring-1 ring-white/10">
+          <li className="border-t border-white/[0.08] py-3.5 text-sm text-white/50">
             <span className="font-semibold text-white">Manual curation</span>
             <span className="ml-3 text-xs">
               Events, opportunities, projects and communities researched from
@@ -110,7 +137,7 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10">
-        <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-violet-300/80">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
           Machine-readable feeds
         </h2>
         <ul className="mt-4 flex flex-wrap gap-2">
@@ -118,7 +145,7 @@ export default function AboutPage() {
             <li key={feed.href}>
               <a
                 href={feed.href}
-                className="block rounded-full bg-white/[0.05] px-4 py-2 text-xs font-semibold text-white/70 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:text-white"
+                className="block rounded-md bg-white/[0.05] px-4 py-2 text-xs font-semibold text-white/70 ring-1 ring-white/10 transition hover:bg-white/[0.08] hover:text-white"
               >
                 {feed.label}
               </a>
@@ -128,12 +155,12 @@ export default function AboutPage() {
       </section>
 
       <section className="mt-10 text-sm leading-relaxed text-white/50">
-        <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-violet-300/80">
+        <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-[0.3em] text-white/40">
           Corrections
         </h2>
         <p className="mt-3">
           Spotted something wrong or out of date?{" "}
-          <Link href="/submit" className="text-violet-300 hover:text-white">
+          <Link href="/submit" className="text-[var(--signal)] hover:opacity-80">
             Tell us
           </Link>{" "}
           — corrections are applied as manual overrides so the pipeline never
