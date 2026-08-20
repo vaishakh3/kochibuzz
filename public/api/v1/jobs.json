@@ -119,6 +119,32 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-378-25154",
+      "title": "Salesforce Developer",
+      "company": "Simelabs - An Astek Company",
+      "postedAt": "2026-08-20",
+      "deadlineAt": "2026-10-20",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/378/25154",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-378-25155",
+      "title": "AWS Cloud Architect",
+      "company": "Simelabs - An Astek Company",
+      "postedAt": "2026-08-20",
+      "deadlineAt": "2026-09-22",
+      "location": "Infopark, Kochi",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/378/25155",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-20"
+    },
+    {
       "id": "infopark-483-25149",
       "title": "Oracle Database Migration Engineer/ Migraton Analyst",
       "company": "SE-Mentor Solutions",
