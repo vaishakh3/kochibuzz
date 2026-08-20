@@ -61,8 +61,16 @@ export default function Sidebar({
             kochi<span className="text-violet-400">.buzz</span>
           </h1>
         </div>
-        <span className="grid h-11 w-11 place-items-center rounded-full bg-violet-500/20 text-sm font-semibold text-violet-200 ring-1 ring-violet-400/30">
-          {allEvents.length}
+        <span
+          title={`${allEvents.length} events tracked`}
+          className="flex flex-col items-center justify-center rounded-full bg-violet-500/20 px-3 py-1.5 ring-1 ring-violet-400/30"
+        >
+          <span className="text-sm font-semibold leading-none text-violet-200">
+            {allEvents.length}
+          </span>
+          <span className="mt-0.5 text-[8px] font-semibold uppercase tracking-[0.15em] text-violet-300/70">
+            events
+          </span>
         </span>
       </header>
 
