@@ -52,8 +52,9 @@ function EventRow({
   return (
     <button
       onClick={() => onOpenEvent(event)}
+      data-event-start={muted ? undefined : event.start}
       className={[
-        "flex w-full items-center gap-4 rounded-3xl bg-white p-4 text-left ring-1 transition",
+        "flex w-full items-center gap-4 rounded-3xl bg-white p-3.5 text-left ring-1 transition sm:p-4",
         event.id === selectedEventId
           ? "ring-2 ring-slate-900/70"
           : "ring-slate-200 hover:ring-slate-300",
@@ -115,7 +116,7 @@ export default function AgendaView({
   const selectedIsPast = past.some((event) => event.id === selectedEventId);
 
   return (
-    <div className="min-h-0 flex-1 overflow-y-auto px-6 py-5">
+    <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4 sm:px-6 sm:py-5">
       {past.length > 0 && (
         <details
           open={selectedIsPast}
@@ -159,7 +160,7 @@ export default function AgendaView({
       ) : (
         groupByMonth(upcoming).map(([month, monthEvents]) => (
           <section key={month} className="mb-8">
-            <h2 className="sticky top-0 z-10 -mx-2 bg-white/95 px-2 py-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-400 backdrop-blur">
+            <h2 className="sticky top-0 z-10 -mx-2 scroll-mt-2 bg-white/95 px-2 py-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-400 backdrop-blur">
               {month}
             </h2>
             <ul className="mt-2 space-y-2.5">

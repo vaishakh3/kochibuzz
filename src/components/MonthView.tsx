@@ -42,7 +42,8 @@ export default function MonthView({
         ))}
       </div>
 
-      <div className="grid flex-1 grid-cols-7 grid-rows-6 gap-px bg-slate-100">
+      <div className="min-h-0 flex-1 overflow-y-auto">
+        <div className="grid h-full min-h-[480px] grid-cols-7 grid-rows-6 gap-px bg-slate-100">
         {cells.map((day) => {
           const inMonth = day.getMonth() === cursor.getMonth();
           const dayEvents = eventsOn(events, day);
@@ -53,7 +54,7 @@ export default function MonthView({
               key={toISODate(day)}
               onClick={() => onSelectDate(day)}
               className={[
-                "flex min-h-[104px] cursor-pointer flex-col gap-1 p-2 transition",
+                "flex min-h-[80px] cursor-pointer flex-col gap-1 overflow-hidden p-2 transition",
                 inMonth ? "bg-white" : "bg-slate-50/70",
                 isSelected ? "ring-2 ring-inset ring-slate-900/80" : "hover:bg-slate-50",
               ].join(" ")}
@@ -92,6 +93,7 @@ export default function MonthView({
             </div>
           );
         })}
+        </div>
       </div>
     </div>
   );
