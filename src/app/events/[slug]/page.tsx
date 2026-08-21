@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import GlobalFooter from "@/components/GlobalFooter";
 import GlobalHeader from "@/components/GlobalHeader";
+import { ArrowUpRightIcon } from "@/components/icons";
 import SaveToBuzzButton from "@/components/SaveToBuzzButton";
 import { CategoryPattern } from "@/components/signal";
 import { categoryById, eventById, events } from "@/data/events";
@@ -141,9 +142,9 @@ export default async function EventPage({ params }: { params: Params }) {
                 href={event.registerUrl ?? event.url}
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-md bg-[var(--signal)] px-7 py-3 text-sm font-semibold text-[var(--signal-ink)] transition hover:opacity-90"
+                className="inline-flex items-center gap-2 rounded-md bg-[var(--signal)] px-7 py-3 text-sm font-semibold text-[var(--signal-ink)] transition hover:opacity-90"
               >
-                {event.registerUrl ? "Register" : "Official event page"} ↗
+                {event.registerUrl ? "Register" : "Official event page"}<ArrowUpRightIcon className="ui-arrow-up-right h-4 w-4" />
               </a>
               <details className="group relative">
                 <summary className="cursor-pointer list-none rounded-md px-4 py-3 text-sm font-semibold text-white/70 ring-1 ring-white/15 transition hover:text-white">

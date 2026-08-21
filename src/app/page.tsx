@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import BuzzReceiver, { type BuzzTrack } from "@/components/BuzzReceiver";
+import { ArrowUpRightIcon } from "@/components/icons";
 import LiveClock from "@/components/LiveClock";
 import ProjectVisual from "@/components/ProjectVisual";
 import SiteShell from "@/components/SiteShell";
@@ -249,7 +250,7 @@ export default async function BuzzHome({
                     <h3 className="font-display">{programme.title}</h3>
                     <span>{programme.meta}</span>
                   </div>
-                  <span className="programme-card__arrow" aria-hidden>↗</span>
+                  <span className="programme-card__arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span>
                 </>
               );
               const className = `programme-card programme-card--${programme.tone}`;
@@ -292,7 +293,7 @@ export default async function BuzzHome({
                     <span className="tracklist-lines__number">{String(index + 1).padStart(2, "0")}</span>
                     <span className="tracklist-lines__signal"><small>{row.status}</small><strong>{row.text}</strong></span>
                     <span className="tracklist-lines__meta">{row.meta}</span>
-                    <span aria-hidden>↗</span>
+                    <span className="tracklist-lines__arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span>
                   </>
                 );
                 return (
@@ -349,7 +350,7 @@ export default async function BuzzHome({
                       <span>{community.cadence}</span>
                     </div>
                     <span className="people-card__index">{String(index + 1).padStart(2, "0")}</span>
-                    <span className="people-card__arrow" aria-hidden>↗</span>
+                    <span className="people-card__arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span>
                   </Link>
                 );
               })}

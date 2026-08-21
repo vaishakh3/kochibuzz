@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { ArrowUpRightIcon } from "@/components/icons";
 import type { SearchGroup, SearchItem } from "@/lib/searchIndex";
 
 type Grouped = { group: SearchGroup; items: SearchItem[] }[];
@@ -131,8 +132,8 @@ export default function GlobalSearch({
                         <span className="min-w-0 truncate text-sm text-white/85">
                           {item.title}
                         </span>
-                        <span className="shrink-0 text-xs text-white/70">
-                          {item.meta} ↗
+                        <span className="inline-flex shrink-0 items-center gap-1 text-xs text-white/70">
+                          {item.meta}<ArrowUpRightIcon className="ui-arrow-up-right h-3.5 w-3.5" />
                         </span>
                       </a>
                     </li>

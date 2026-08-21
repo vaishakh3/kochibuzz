@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { CSSProperties } from "react";
 import { useEffect, useEffectEvent, useRef, useState } from "react";
+import { ArrowUpRightIcon } from "@/components/icons";
 import LiveClock from "@/components/LiveClock";
 import { readMyBuzz, writeMyBuzz, type MyBuzzItem } from "@/lib/myBuzz";
 
@@ -338,7 +339,6 @@ export default function BuzzReceiver({
         <div className="broadcast-hero__copy">
           <p>{daypart}</p>
           <h1 id="broadcast-title" aria-label="The city is talking." className="font-display">The city is<br /><em>talking.</em></h1>
-          <span>Tune in.</span>
           <p className="broadcast-hero__dek">Real things to do. People worth meeting. Work with momentum. Ideas made down the road.</p>
         </div>
 
@@ -386,9 +386,9 @@ export default function BuzzReceiver({
             <div className="broadcast-actions">
               <button type="button" onClick={nextPick} aria-keyshortcuts="J">Next signal <span aria-hidden>J</span></button>
               <button type="button" onClick={toggleSaved} aria-pressed={isSaved} aria-keyshortcuts="S" className={isSaved ? "is-saved" : ""}>{isSaved ? "Saved" : "Save"} <span aria-hidden>S</span></button>
-              <button type="button" onClick={sharePick}>Share <span aria-hidden>↗</span></button>
+              <button type="button" onClick={sharePick}>Share <span className="broadcast-action-arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span></button>
               {pick.calendarHref && <a href={pick.calendarHref}>Calendar <span aria-hidden>↓</span></a>}
-              <PickLink pick={pick} className="broadcast-open">Open signal <span aria-hidden>↗</span></PickLink>
+              <PickLink pick={pick} className="broadcast-open">Open signal <span className="broadcast-action-arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span></PickLink>
             </div>
           </div>
           <p className="sr-only" aria-live="polite">{message}</p>
@@ -408,7 +408,7 @@ export default function BuzzReceiver({
               <ol className="broadcast-queue__list">
                 {saved.map((item, index) => (
                   <li key={item.id} className="broadcast-saved-row">
-                    <PickLink pick={item} className="broadcast-saved-item"><span>{String(index + 1).padStart(2, "0")}</span><span><strong>{item.title}</strong><small>{item.trackLabel} · {item.meta}</small></span><span aria-hidden>↗</span></PickLink>
+                    <PickLink pick={item} className="broadcast-saved-item"><span>{String(index + 1).padStart(2, "0")}</span><span><strong>{item.title}</strong><small>{item.trackLabel} · {item.meta}</small></span><span className="broadcast-saved-arrow" aria-hidden><ArrowUpRightIcon className="ui-arrow-up-right" /></span></PickLink>
                     <div className="broadcast-saved-row__actions">
                       {item.calendarHref && <a href={item.calendarHref}>Calendar</a>}
                       <button type="button" onClick={() => removeSaved(item.id)} aria-label={`Remove ${item.title} from My Buzz`}>Remove</button>

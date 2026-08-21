@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowUpRightIcon } from "@/components/icons";
 import { BrandLockup } from "@/components/signal";
 
 const columns = [
@@ -66,9 +67,9 @@ export default function GlobalFooter() {
                           href={link.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-sm text-white/52 transition hover:text-white"
+                          className="inline-flex items-center gap-1 text-sm text-white/52 transition hover:text-white"
                         >
-                          {link.label} ↗
+                          {link.label}<ArrowUpRightIcon className="ui-arrow-up-right h-3.5 w-3.5" />
                         </a>
                       </li>
                     ) : (

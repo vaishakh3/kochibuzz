@@ -119,3 +119,11 @@ export function ChevronRightIcon(props: IconProps) {
     </Svg>
   );
 }
+
+export function ArrowUpRightIcon(props: IconProps) {
+  return (
+    <Svg {...props}>
+      <path d="M7 17 17 7M7 7h10v10" />
+    </Svg>
+  );
+}
