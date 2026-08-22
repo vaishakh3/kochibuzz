@@ -37,17 +37,17 @@ export default function EventChip({
     <button
       onClick={onClick}
       className={[
-        "w-full overflow-hidden rounded-xl px-2.5 py-1.5 text-left ring-1 transition",
+        "calendar-event-chip",
         category.chip,
-        active ? "ring-2 ring-offset-1 ring-offset-white" : "hover:brightness-[0.97]",
-        compact ? "text-[11px]" : "text-xs",
-        past ? "opacity-45 saturate-50 hover:opacity-80" : "",
+        active ? "is-active" : "",
+        compact ? "is-compact" : "",
+        past ? "is-past" : "",
       ].join(" ")}
     >
-      <span className="block truncate font-semibold leading-tight">
+      <span className="calendar-event-chip__title">
         {event.title}
       </span>
-      <span className="mt-0.5 block truncate text-[10px] font-medium opacity-70">
+      <span className="calendar-event-chip__meta">
         {meta}
       </span>
     </button>

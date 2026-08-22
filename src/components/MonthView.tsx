@@ -1,13 +1,13 @@
 "use client";
 
 import EventChip from "@/components/EventChip";
-import { TechEvent } from "@/data/events";
+import { TechEvent, categoryById } from "@/data/events";
 import {
   WEEKDAYS,
+  compactMonthGrid,
   eventsOn,
   isPast,
   isSameDay,
-  monthGrid,
   toISODate,
 } from "@/lib/calendar";
 
@@ -30,20 +30,18 @@ export default function MonthView({
   onSelectDate,
   onOpenEvent,
 }: Props) {
-  const cells = monthGrid(cursor);
+  const cells = compactMonthGrid(cursor);
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col">
-      <div className="grid grid-cols-7 border-b border-slate-200 px-2 pb-2 text-[11px] font-medium uppercase tracking-wide text-slate-600">
+    <div className="calendar-month-view">
+      <div className="calendar-month-weekdays">
         {WEEKDAYS.map((day) => (
-          <span key={day} className="px-2">
-            {day}
-          </span>
+          <span key={day}>{day}</span>
         ))}
       </div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto">
-        <div className="grid h-full min-h-[480px] grid-cols-7 grid-rows-6 gap-px bg-slate-100">
+      <div className="calendar-month-scroll">
+        <div className="calendar-month-grid">
         {cells.map((day) => {
           const inMonth = day.getMonth() === cursor.getMonth();
           const dayEvents = eventsOn(events, day);
@@ -52,27 +50,19 @@ export default function MonthView({
           return (
             <div
               key={toISODate(day)}
-              onClick={() => onSelectDate(day)}
               className={[
-                "flex min-h-[80px] cursor-pointer flex-col gap-1 overflow-hidden p-2 transition",
-                inMonth ? "bg-white" : "bg-slate-50/70",
-                isSelected ? "ring-2 ring-inset ring-slate-900/80" : "hover:bg-slate-50",
+                "calendar-month-day",
+                inMonth ? "is-in-month" : "is-outside-month",
+                isSelected ? "is-selected" : "",
+                isToday ? "is-today" : "",
               ].join(" ")}
             >
-              <span
-                className={[
-                  "grid h-6 w-6 shrink-0 place-items-center rounded-full text-xs font-semibold",
-                  isToday
-                    ? "bg-slate-900 text-white"
-                    : inMonth
-                      ? "text-slate-700"
-                      : "text-slate-600",
-                ].join(" ")}
-              >
-                {day.getDate()}
-              </span>
+              <button type="button" onClick={() => onSelectDate(day)} className="calendar-month-day__date" aria-label={`Select ${day.toLocaleDateString("en-IN", { day: "numeric", month: "long", year: "numeric" })}`}>
+                <span>{day.getDate()}</span>
+                {dayEvents.length > 0 && <i>{dayEvents.length}</i>}
+              </button>
 
-              <div className="flex flex-col gap-1">
+              <div className="calendar-month-day__events">
                 {dayEvents.slice(0, 3).map((event) => (
                   <EventChip
                     key={event.id}
@@ -85,10 +75,13 @@ export default function MonthView({
                   />
                 ))}
                 {dayEvents.length > 3 && (
-                  <span className="px-1 text-[10px] font-medium text-slate-600">
+                  <span className="calendar-month-day__more">
                     +{dayEvents.length - 3} more
                   </span>
                 )}
+              </div>
+              <div className="calendar-month-day__dots" aria-hidden>
+                {dayEvents.slice(0, 3).map((event) => <i key={event.id} className={categoryById.get(event.category)?.dot} />)}
               </div>
             </div>
           );

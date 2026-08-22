@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Kochi Buzz — The city, tuned in",
+    name: "Kochi Buzz — The Kochi Calendar",
     short_name: "kochi.buzz",
     description:
-      "Your live guide to events, jobs, opportunities, communities and things being built across Kochi.",
+      "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
     id: "/",
     start_url: "/",
     scope: "/",
@@ -19,7 +19,7 @@ export default function manifest(): MetadataRoute.Manifest {
       { src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
     ],
     shortcuts: [
-      { name: "Tune today’s city scan", short_name: "Today’s scan", url: "/#tune-your-buzz" },
+      { name: "Open today in Kochi", short_name: "Today", url: "/" },
       { name: "Open My Buzz", short_name: "My Buzz", url: "/?mybuzz=1" },
       { name: "Find an event", short_name: "Events", url: "/events" },
       { name: "Open the digest", short_name: "Digest", url: "/digest" },

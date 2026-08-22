@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
 import GlobalHeader from "@/components/GlobalHeader";
 import { eventById, events } from "@/data/events";
+import { jobs, opportunities } from "@/data/dataset";
+import { communityDirectory } from "@/data/directory";
 import { formatDateRange } from "@/lib/calendar";
 import { eventJsonLd, eventListJsonLd } from "@/lib/schema";
 
@@ -20,8 +22,8 @@ export async function generateMetadata({
       description:
         "The full Kochi tech events calendar — hackathons, meetups, conferences and summits in and around Kochi.",
       alternates: { canonical: "/events" },
-      openGraph: { images: ["/og"] },
-      twitter: { images: ["/og"] },
+      openGraph: { images: ["/og.png"] },
+      twitter: { images: ["/og.png"] },
     };
   }
   const title = `${event.title} — kochi.buzz`;
@@ -52,7 +54,7 @@ export default async function EventsPage({
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
       <main id="main-content" className="flex-1 px-2 py-3 sm:px-4 sm:py-6">
-        <CalendarApp />
+        <CalendarApp cityCounts={{ jobs: jobs.length, opportunities: opportunities.length, communities: communityDirectory.length }} />
       </main>
     </div>
   );

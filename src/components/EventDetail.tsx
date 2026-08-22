@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useEffectEvent, useRef, useState } from "react";
 import {
   CalendarIcon,
   CalendarPlusIcon,
@@ -54,6 +54,37 @@ export default function EventDetail({ event, today, onClose }: Props) {
   const category = categoryById.get(event.category)!;
   const [copied, setCopied] = useState(false);
   const countdown = countdownLabel(event, today);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+  const closeDialog = useEffectEvent(() => onClose());
+
+  useEffect(() => {
+    const returnTo = document.activeElement as HTMLElement | null;
+    closeRef.current?.focus();
+    function onKey(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        closeDialog();
+        return;
+      }
+      if (event.key !== "Tab") return;
+      const focusable = panelRef.current?.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])');
+      if (!focusable?.length) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      returnTo?.focus();
+    };
+  }, []);
 
   async function share() {
     const url = `${window.location.origin}/events/${event.id}`;
@@ -71,7 +102,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
   }
 
   return (
-    <div role="region" aria-label={`${event.title} details`} className="animate-sheet-up pointer-events-auto max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white shadow-[0_-20px_60px_-20px_rgba(15,23,42,0.5)] ring-1 ring-slate-200 lg:animate-card-pop lg:max-h-[calc(100vh-8rem)] lg:w-[360px] lg:max-w-[calc(100vw-2rem)] lg:rounded-2xl lg:shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)]">
+    <div ref={panelRef} role="dialog" aria-modal="true" aria-label={`${event.title} details`} className="animate-sheet-up pointer-events-auto max-h-[80dvh] w-full overflow-y-auto rounded-t-2xl bg-white shadow-[0_-20px_60px_-20px_rgba(15,23,42,0.5)] ring-1 ring-slate-200 lg:animate-card-pop lg:max-h-[calc(100vh-8rem)] lg:w-[360px] lg:max-w-[calc(100vw-2rem)] lg:rounded-2xl lg:shadow-[0_30px_80px_-20px_rgba(15,23,42,0.45)]">
       <div
         aria-hidden
         className="mx-auto mt-2 h-1 w-10 rounded-full bg-slate-200 lg:hidden"
@@ -95,6 +126,7 @@ export default function EventDetail({ event, today, onClose }: Props) {
             {copied ? <CheckIcon /> : <ShareIcon />}
           </button>
           <button
+            ref={closeRef}
             onClick={onClose}
             aria-label="Close event details"
             className="grid h-8 w-8 place-items-center rounded-full bg-slate-100 text-slate-500 transition hover:bg-slate-200 hover:text-slate-700"

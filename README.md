@@ -1,6 +1,6 @@
 # kochi.buzz
 
-The city, tuned in.
+The city, by date.
 
 The live discovery layer for the people who make, meet, learn and build in Kochi —
 starting with technology, startups, makers and creative tech. Discover events,
@@ -13,8 +13,8 @@ The product and visual principles are documented in [BRAND.md](./BRAND.md).
 
 | Route | What it is |
 | --- | --- |
-| `/` | The Buzz — what's worth knowing right now (today, this week, new, closing soon) |
-| `/events` | Full calendar (month / week / day / agenda, search, categories, `.ics`) |
+| `/` | The Kochi Calendar — month / week / day / schedule, search, layers, My Buzz and `.ics` |
+| `/events` | Calendar-compatible route retained for direct links and discovery |
 | `/events/<id>` | Canonical event page (JSON-LD, OG card, add-to-calendar) |
 | `/opportunities` | Hackathons, grants, fellowships, accelerators — with deadlines |
 | `/jobs` | Openings sourced from the official Infopark Kochi job board |
@@ -31,9 +31,9 @@ Machine-readable: [`/calendar.ics`](https://kochi.buzz/calendar.ics) ·
 
 ## Stack
 
-Next.js (App Router) · TypeScript · Tailwind CSS · vitest · zod. Personal receiver
-preferences, daily scan progress, and saved signals remain device-local in browser
-storage; the site does not require an account.
+Next.js (App Router) · TypeScript · Tailwind CSS · vitest · zod. Calendar-view
+preferences and saved signals remain device-local in browser storage; the site
+does not require an account.
 
 ```bash
 npm install

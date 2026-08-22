@@ -8,7 +8,7 @@ but the frame is the whole living city.
 
 **Promise:** Useful signals before they pass you by.
 
-**Primary line:** The city, tuned in.
+**Primary line:** The city, by date.
 
 **Point of view:** Kochi is not a backdrop. It is a network—ferries and metro
 lines, communities and workspaces, stages and screens, public institutions and
@@ -70,34 +70,26 @@ geometry, monsoon light, maker spaces and people gathering. Avoid postcard
 tourism, generic circuit boards, humanoid robots and neon cyberpunk skylines.
 The city should feel specific even when the treatment is abstract.
 
-The primary people-first broadcast artwork is
-`public/images/broadcast/kochi-on-air.webp`; its text-safe social crop is
-`public/images/broadcast/kochi-on-air-social.jpg`. The original city-system
-artwork remains at `public/images/kochi-city-frequency.webp`. All were generated
-for Kochi Buzz and should anchor future commissioned imagery. The labelled
-community-life portrait lives at
-`public/images/broadcast/kochi-community-night.webp`.
+The primary social artwork is `public/og.png`: a tactile Kochi month grid where
+the estuary, ferry, metro and port infrastructure become calendar notation. The
+people-first broadcast artwork remains at
+`public/images/broadcast/kochi-on-air.webp`, and the original city-system artwork
+at `public/images/kochi-city-frequency.webp`. All were generated for Kochi Buzz
+and should anchor future commissioned imagery.
 
 ## Product rhythm
 
-The first minute begins with a **visual city broadcast**, not a page tour. A
-visitor chooses a station—Outside, People, Work or Build—and receives a short
-sequence of real signals with next, save, calendar and open actions. The
-selected frequency, date-scoped four-station scan and “My Buzz” queue are
-remembered on that device without an account. Each day begins a new scan. My
-Buzz is reachable across the product, and real events, roles, opportunities,
-communities, projects and places can all feed it.
+The homepage is **the Kochi calendar**, not a landing page wrapped around one.
+Desktop opens to a high-density month desk; mobile opens to a readable city
+schedule. The two-week ticker, date selection, search, event layers and
+month/week/day/schedule views all move as one instrument. A visitor can open an
+event, save it to My Buzz, add it to a calendar, map the venue or follow the
+source without leaving that context.
 
-The rest of the homepage answers three repeatable questions:
-
-1. **What matters now?** Live metrics, the next event and the city wire.
-2. **What should I plan?** This week, opportunities and hiring.
-3. **Where do I belong?** Projects, communities and places.
-
-The daily scan, portable personal queue, calendar, 7/30-day digest, RSS, ICS and
-installable app shortcuts form the first retention loop. They preserve the
-public, source-backed core and never pretend to know more about a visitor than
-their explicit device-local choices.
+The calendar answers three repeatable questions: what is happening today, what
+is worth planning next and what else is open in the city. The device remembers
+the visitor's preferred view and saved queue without requiring an account. ICS,
+RSS, the digest and installable app shortcuts extend this into a return habit.
 
 ## Guardrails
 
@@ -107,7 +99,6 @@ their explicit device-local choices.
 - Preserve excellent mobile reading before adding desktop flourishes.
 - Use imagery to create memory, not to fill empty space.
 - Respect reduced-motion preferences and visible keyboard focus.
-- Always call the homepage experience a visual broadcast. Never imply that
-  audio is playing when none exists.
+- Always call the homepage experience the Kochi calendar or city datebook.
 - Do not add listener counts, hosts, quotes or popularity claims without real
   source data.

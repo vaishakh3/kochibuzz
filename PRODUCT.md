@@ -13,11 +13,11 @@ Success is not a longer homepage. Success is a visitor taking a real action:
 opening an event, saving a signal, adding it to a calendar, joining a community,
 visiting a place, applying for a role, or returning to a personal queue.
 
-## The 2026 broadcast direction
+## The 2026 calendar direction
 
-The first receiver proved that intent-first discovery is useful, but it still
-lived inside a conventional landing page. The second design study explored
-three ways to let the interaction define the entire product:
+The receiver proved that intent-first discovery is useful. User testing then
+made the stronger daily habit clear: Kochi Buzz should open directly into the
+city's calendar. The design study explored four product metaphors:
 
 1. **Kochi On Air** — a time-aware city broadcast with stations, programmes,
    a live tracklist and a device-local listening queue.
@@ -25,23 +25,22 @@ three ways to let the interaction define the entire product:
    visitor could wander through.
 3. **Field Notes** — an editorial collage of sourced city dispatches and
    interconnected blocks.
+4. **City Datebook** — a responsive calendar as the complete opening surface.
 
-Kochi On Air was selected because it creates the clearest daily ritual and the
-strongest memory structure. Field Notes contributes the visual texture and
-source-minded tracklist; City Rooms remains a useful future direction for a
-real neighbourhood layer.
+City Datebook was selected after user feedback because it combines the clearest
+daily ritual with the fastest path to action. Field Notes contributes its
+editorial texture, Kochi On Air contributes identity and tempo, and City Rooms
+remains a future direction for a neighbourhood layer.
 
-The homepage now behaves like a programme rather than a feed:
+The homepage now behaves like a city operating surface rather than a feed:
 
-- The full first screen is an illustrated, people-first Kochi broadcast.
-- **Outside, People, Work and Build** are stations, not navigation categories.
-- A daily programme gives four real routes into the city.
-- The tracklist records what moved through public sources without implying
-  popularity.
-- Community and maker sections change visual tempo instead of repeating one
-  generic card system.
-- Returning visitors keep their station and My Buzz queue locally, without an
-  account or an undeclared cloud profile.
+- The full first screen is a working calendar, with no promotional preamble.
+- Desktop defaults to month; compact screens default to the city schedule.
+- Month, week, day and schedule views share one date, search and event-layer state.
+- A two-week ticker keeps today and the next useful dates close at hand.
+- Events retain source, organizer, venue, map, share, subscribe and save actions.
+- Jobs, opportunities and communities remain visible as connected city desks.
+- Returning visitors keep their preferred view and My Buzz queue locally.
 
 The broadcast is explicitly labelled as visual. There is no fake audio stream,
 listener count, fabricated presenter or invented testimonial.
@@ -87,32 +86,26 @@ The synthesis is intentionally not a literal radio clone. Kochi Buzz borrows
 radio's rhythm—now, next, stations, shows and tracklists—but every transmission
 ends in a real civic action.
 
-## Signature interaction: the city receiver
+## Signature interaction: the city datebook
 
-The first screen is an operable receiver with four frequencies:
-
-1. **Outside** — current and upcoming real events.
-2. **People** — active communities and physical spaces.
-3. **Work** — fresh roles and open opportunities.
-4. **Build** — Kochi-made projects, hackathons, grants and programmes.
-
-Each frequency immediately resolves to a real record from the existing data
-pipeline. A visitor can skip, save, add an event to their calendar or open the
-source. The selected frequency and saved queue live only in local storage,
-giving returning visitors continuity without requiring an account or creating
-an undeclared cloud profile.
+The first screen is an operable datebook. Selecting any date updates the ticker,
+mini month, contextual day card and active calendar view. Category layers can be
+combined without destroying context. Event details open in place as a keyboard-
+accessible sheet; the URL becomes shareable, while the event can be registered,
+saved, mapped or exported. The preferred view and saved queue live only in local
+storage, providing continuity without an account or undeclared cloud profile.
 
 ## Habit loop
 
 ```text
-Fresh public signals → choose today’s intent → act or save → calendar / My Buzz
-         ↑                                                     ↓
-         └──────────── hourly data refresh + next visit ───────┘
+Fresh public dates → scan today / next → act or save → calendar / My Buzz
+        ↑                                                   ↓
+        └────────── source refresh + remembered view ───────┘
 ```
 
-The receiver complements, rather than replaces, the existing calendar, digest,
-RSS and ICS feed. Those are the durable return channels; the receiver is the
-fast decision layer.
+The interactive calendar, digest, RSS and ICS feed are the durable return
+channels. Jobs, opportunities, communities, places and built-in-Kochi projects
+remain deeper discovery surfaces.
 
 ## Product guardrails
 

@@ -7,8 +7,7 @@ import { BrandLockup } from "@/components/signal";
 import { getMyBuzzSnapshot, getServerMyBuzzSnapshot, parseMyBuzz, subscribeMyBuzz } from "@/lib/myBuzz";
 
 const primary = [
-  { href: "/", label: "Buzz" },
-  { href: "/events", label: "Events" },
+  { href: "/", label: "Calendar" },
   { href: "/jobs", label: "Jobs" },
   { href: "/opportunities", label: "Opportunities" },
 ];
@@ -121,12 +120,12 @@ export default function GlobalHeader({ current }: { current: string }) {
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[#0b0b12]/90 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 w-full max-w-[1280px] items-center gap-5 px-4 sm:px-6">
+      <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-5 px-4 sm:px-6">
         <Link href="/" className="shrink-0 text-[17px] text-white">
           <BrandLockup pulse={current === "/"} />
         </Link>
         <span className="hidden border-l border-white/[0.12] pl-4 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase leading-relaxed tracking-[0.18em] text-white/65 xl:block">
-          The city<br />tuned in
+          The city<br />by date
         </span>
 
         {/* Desktop nav */}
@@ -266,7 +265,7 @@ export default function GlobalHeader({ current }: { current: string }) {
             </button>
           </div>
           <nav aria-label="Mobile" className="relative px-6 pb-10 pt-8">
-            <p className="mb-4 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--signal)]">Kochi, live right now</p>
+            <p className="mb-4 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--signal)]">What Kochi has next</p>
             <ul className="space-y-1">
               {primary.map((item) => (
                 <li key={item.href}>

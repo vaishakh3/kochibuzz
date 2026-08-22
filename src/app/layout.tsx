@@ -21,9 +21,9 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kochi.buzz"),
-  title: "Kochi Buzz — Kochi is on air",
+  title: "Kochi Buzz — The Kochi Calendar",
   description:
-    "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
+    "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
   applicationName: "Kochi Buzz",
   category: "city guide",
   appleWebApp: {
@@ -33,28 +33,28 @@ export const metadata: Metadata = {
   },
   formatDetection: { telephone: false },
   openGraph: {
-    title: "Kochi Buzz — Kochi is on air",
+    title: "Kochi Buzz — The Kochi Calendar",
     description:
-      "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
+      "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
     url: "https://kochi.buzz",
     siteName: "kochi.buzz",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og",
+        url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Kochi Buzz — Kochi is on air",
+        alt: "Kochi Buzz — The Kochi Calendar",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kochi Buzz — Kochi is on air",
+    title: "Kochi Buzz — The Kochi Calendar",
     description:
-      "Tune into real events, people, jobs, opportunities and things being built across Kochi.",
-    images: ["/og"],
+      "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
+    images: ["/og.png"],
   },
 };
 
@@ -75,7 +75,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} font-[family-name:var(--font-geist-sans)] antialiased`}
       >
-        <a href="#main-content" className="skip-link">Skip to the buzz</a>
+        <a href="#main-content" className="skip-link">Skip to the calendar</a>
         {children}
         <Analytics />
       </body>
