@@ -36,7 +36,7 @@ export default function SearchBox({ events, onPick }: Props) {
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => setFocused(true)}
         onBlur={() => setTimeout(() => setFocused(false), 150)}
-        placeholder="Search events…  ( / )"
+        placeholder="Search events"
         className="w-40 rounded-full bg-slate-100 px-4 py-2 text-sm text-slate-800 outline-none transition placeholder:text-slate-500 focus:w-56 focus:bg-white focus:ring-2 focus:ring-violet-200"
         aria-label="Search events"
       />

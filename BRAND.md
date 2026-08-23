@@ -86,6 +86,13 @@ month/week/day/schedule views all move as one instrument. A visitor can open an
 event, save it to My Buzz, add it to a calendar, map the venue or follow the
 source without leaving that context.
 
+Month view is a viewport, not a document: all six calendar rows must remain
+visible without an internal vertical scroll. The two-week ticker yields to the
+full grid on desktop month view and returns where it is useful—compact screens,
+week, day and schedule views. Interface typography has a 10px floor for factual
+microcopy; decorative shortcut legends may be smaller because they are not the
+only label.
+
 The calendar answers three repeatable questions: what is happening today, what
 is worth planning next and what else is open in the city. The device remembers
 the visitor's preferred view and saved queue without requiring an account. ICS,

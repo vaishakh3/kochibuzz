@@ -39,6 +39,7 @@ type CityCounts = { jobs: number; opportunities: number; communities: number };
 
 const ALL_CATEGORIES = new Set<CategoryId>(categories.map((category) => category.id));
 const VIEW_KEY = "kochibuzz:calendar-view:v1";
+const DEFAULT_CITY_COUNTS: CityCounts = { jobs: 0, opportunities: 0, communities: communityDirectory.length };
 
 function MyBuzzDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -139,12 +140,12 @@ function MyBuzzDrawer({ open, onClose }: { open: boolean; onClose: () => void })
   );
 }
 
-export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, communities: communityDirectory.length } }: { cityCounts?: CityCounts }) {
+export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { cityCounts?: CityCounts }) {
   const [today] = useState<Date>(todayInIST);
   const [view, setView] = useState<View>("month");
-  const [cursor, setCursor] = useState<Date>(startOfMonth(today));
+  const [cursor, setCursor] = useState<Date>(() => startOfMonth(today));
   const [selected, setSelected] = useState<Date>(today);
-  const [active, setActive] = useState<Set<CategoryId>>(ALL_CATEGORIES);
+  const [active, setActive] = useState<Set<CategoryId>>(() => new Set(ALL_CATEGORIES));
   const [openEventId, setOpenEventId] = useState<string>();
   const [savedOpen, setSavedOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
@@ -207,6 +208,7 @@ export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, 
 
   const visibleEvents = useMemo(() => events.filter((event) => active.has(event.category)), [active]);
   const selectedEvents = useMemo(() => eventsOn(visibleEvents, selected), [selected, visibleEvents]);
+  const todayEvents = eventsOn(events, today);
   const openEvent = events.find((event) => event.id === openEventId);
   const upcoming = nextEvent(visibleEvents, today);
   const monthEvents = visibleEvents.filter((event) => {
@@ -271,8 +273,9 @@ export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, 
   const onKeyboard = useEffectEvent((event: KeyboardEvent) => {
     const target = event.target as HTMLElement;
     const typing = target.matches("input, textarea, select, [contenteditable='true']");
+    const navigatingGrid = Boolean(target.closest('[role="grid"]'));
     if (event.key === "Escape") { setOpenEventId(undefined); return; }
-    if (typing || event.metaKey || event.ctrlKey || event.altKey) return;
+    if (typing || navigatingGrid || event.metaKey || event.ctrlKey || event.altKey) return;
     if (event.key === "ArrowLeft") shift(-1);
     else if (event.key === "ArrowRight") shift(1);
     else if (event.key.toLowerCase() === "t") goToToday();
@@ -294,37 +297,37 @@ export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, 
       : view === "agenda" ? "The city schedule" : `${MONTHS[cursor.getMonth()]} ${cursor.getFullYear()}`;
 
   return (
-    <div className="city-calendar-shell">
+    <div className="city-calendar-shell" data-view={view}>
       <header className="city-calendar-hero">
         <div className="city-calendar-title">
-          <p><i aria-hidden />The Kochi calendar <span>· Asia/Kolkata</span></p>
+          <p><i aria-hidden />Kochi · live city calendar <span>· Asia/Kolkata</span></p>
           <h1 className="font-display">{MONTHS[cursor.getMonth()]} <em>{cursor.getFullYear()}</em></h1>
-          <span>The city’s dates, one clear view.</span>
+          <span>Verified events. One clear view.</span>
         </div>
         <div className="city-calendar-today" aria-label="Calendar status">
           <span>{WEEKDAYS_LONG[today.getDay()]}</span>
           <strong className="font-display">{today.getDate()}</strong>
-          <small>{eventsOn(events, today).length} happening today</small>
+          <small>{todayEvents.length === 0 ? "Nothing scheduled today" : `${todayEvents.length} ${todayEvents.length === 1 ? "event" : "events"} today`}</small>
         </div>
         <div className="city-calendar-tools">
           <SearchBox events={events} onPick={jumpTo} />
           <div className="calendar-view-switch" aria-label="Calendar view">
             {(["month", "week", "day", "agenda"] as View[]).map((option) => (
-              <button key={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option}>
+              <button key={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} title={`${option === "agenda" ? "Schedule" : option} view · ${option[0].toUpperCase()}`}>
                 {option === "agenda" ? "Schedule" : option}<kbd aria-hidden>{option[0].toUpperCase()}</kbd>
               </button>
             ))}
           </div>
           <div className="calendar-navigation">
             <button type="button" onClick={() => shift(-1)} aria-label="Previous period"><ChevronRightIcon className="h-4 w-4 rotate-180" /></button>
-            <button type="button" onClick={goToToday}>Today <kbd aria-hidden>T</kbd></button>
+            <button type="button" onClick={goToToday} aria-label={`Return to today, ${WEEKDAYS_LONG[today.getDay()]} ${today.getDate()} ${MONTHS[today.getMonth()]}`}>Today <kbd aria-hidden>T</kbd></button>
             <button type="button" onClick={() => shift(1)} aria-label="Next period"><ChevronRightIcon className="h-4 w-4" /></button>
           </div>
         </div>
       </header>
 
       <nav className="city-dayticker" aria-label="Choose a date">
-        <div className="city-dayticker__label"><span>Two-week scan</span><strong>{viewHeading}</strong></div>
+        <div className="city-dayticker__label"><span>Next 14 days</span><strong>{viewHeading}</strong></div>
         <div ref={tickerRef} className="city-dayticker__days">
           {tickerDays.map((day) => {
             const dayEvents = eventsOn(visibleEvents, day);
@@ -347,19 +350,19 @@ export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, 
 
       <div className="city-calendar-workspace">
         <aside className="city-calendar-rail" aria-label="Calendar controls and city overview">
-          <MiniCalendar cursor={cursor} selected={selected} today={today} events={visibleEvents} onSelect={selectDate} onCursorChange={(date) => { setCursor(date); setSelected(date); }} />
+          {view !== "month" && <MiniCalendar cursor={cursor} selected={selected} today={today} events={visibleEvents} onSelect={selectDate} onCursorChange={(date) => { setCursor(date); setSelected(date); }} />}
 
           <section className="calendar-selected-day">
             <header><div><p>{WEEKDAYS_LONG[selected.getDay()]}</p><h2 className="font-display">{selected.getDate()} {MONTHS[selected.getMonth()]}</h2></div><span>{selectedEvents.length}</span></header>
             {selectedEvents.length > 0 ? (
               <ul>{selectedEvents.map((event) => { const category = categoryById.get(event.category)!; return <li key={event.id}><button type="button" onClick={() => setOpenEventId(event.id)}><i className={category.dot} aria-hidden /><span><strong>{event.title}</strong><small>{event.startTime ? event.startTime : "Time TBA"} · {event.venue}</small></span><ChevronRightIcon className="h-4 w-4" /></button></li>; })}</ul>
             ) : (
-              <p>No dated signal here yet. The next verified event is {upcoming ? <button type="button" onClick={() => jumpTo(upcoming)}>{upcoming.title}</button> : "still being sourced"}.</p>
+              <p>Nothing scheduled yet. {upcoming ? <>Next up: <button type="button" onClick={() => jumpTo(upcoming)}>{upcoming.title}</button>.</> : "We’re still sourcing the next verified event."}</p>
             )}
           </section>
 
           <section className="calendar-layers">
-            <div className="calendar-rail-heading"><p>Event layers</p><button type="button" onClick={() => setActive(active.size === categories.length ? new Set() : new Set(ALL_CATEGORIES))}>{active.size === categories.length ? "Hide all" : "Show all"}</button></div>
+            <div className="calendar-rail-heading"><p>Filter events</p><button type="button" onClick={() => setActive(active.size === categories.length ? new Set() : new Set(ALL_CATEGORIES))}>{active.size === categories.length ? "Clear" : "Select all"}</button></div>
             <ul>{categories.map((category) => { const total = events.filter((event) => event.category === category.id).length; return <li key={category.id}><button type="button" onClick={() => toggleCategory(category.id)} aria-pressed={active.has(category.id)}><i className={category.dot} aria-hidden /><span>{category.label}</span><b>{total}</b></button></li>; })}</ul>
           </section>
 
@@ -375,8 +378,8 @@ export default function CalendarApp({ cityCounts = { jobs: 0, opportunities: 0, 
 
         <section aria-label="Kochi events calendar" className="city-calendar-canvas">
           <header className="city-calendar-canvas__head">
-            <div><p>Source-backed city time</p><h2>{viewHeading}</h2></div>
-            <div><span><i aria-hidden />{monthEvents.length} in this month</span><a href="/calendar.ics"><CalendarPlusIcon className="h-4 w-4" />Subscribe</a><a href={submitEventUrl} target="_blank" rel="noreferrer">Submit <ArrowUpRightIcon className="ui-arrow-up-right" /></a></div>
+            <div><p>Verified · refreshed hourly</p><h2 aria-live="polite">{viewHeading}</h2></div>
+            <div><span><i aria-hidden />{monthEvents.length} {monthEvents.length === 1 ? "event" : "events"} in {MONTHS[cursor.getMonth()]}</span><a href="/calendar.ics"><CalendarPlusIcon className="h-4 w-4" />Subscribe</a><a href={submitEventUrl} target="_blank" rel="noreferrer">Add an event <ArrowUpRightIcon className="ui-arrow-up-right" /></a></div>
           </header>
 
           {view === "agenda" && <AgendaView today={today} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={(event) => jumpTo(event)} />}

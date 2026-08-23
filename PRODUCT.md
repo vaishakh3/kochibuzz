@@ -38,6 +38,8 @@ The homepage now behaves like a city operating surface rather than a feed:
 - Desktop defaults to month; compact screens default to the city schedule.
 - Month, week, day and schedule views share one date, search and event-layer state.
 - A two-week ticker keeps today and the next useful dates close at hand.
+- Desktop month view always fits all six weeks into the available viewport;
+  density adapts before the product introduces a nested scroll.
 - Events retain source, organizer, venue, map, share, subscribe and save actions.
 - Jobs, opportunities and communities remain visible as connected city desks.
 - Returning visitors keep their preferred view and My Buzz queue locally.
@@ -94,6 +96,8 @@ combined without destroying context. Event details open in place as a keyboard-
 accessible sheet; the URL becomes shareable, while the event can be registered,
 saved, mapped or exported. The preferred view and saved queue live only in local
 storage, providing continuity without an account or undeclared cloud profile.
+The month grid follows the ARIA grid model: one date is in the tab order and
+arrow keys move by day or week, while Home and End move to the week's edges.
 
 ## Habit loop
 
