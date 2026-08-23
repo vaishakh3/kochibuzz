@@ -24,6 +24,7 @@ import {
   isMultiDay,
 } from "@/lib/calendar";
 import SaveToBuzzButton from "@/components/SaveToBuzzButton";
+import AttendancePanel from "@/components/AttendancePanel";
 
 type Props = {
   event: TechEvent;
@@ -213,6 +214,8 @@ export default function EventDetail({ event, today, onClose }: Props) {
       <p className="px-5 pt-4 text-[13px] leading-relaxed text-slate-600">
         {event.blurb}
       </p>
+
+      <AttendancePanel eventId={event.id} />
 
       {event.note && (
         <p className="mx-5 mt-3 rounded-xl bg-amber-50 px-3 py-2 text-[11px] leading-relaxed text-amber-800 ring-1 ring-amber-100">
