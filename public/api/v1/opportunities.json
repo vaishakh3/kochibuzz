@@ -22,7 +22,55 @@
         "Hackathon",
         "Devfolio",
         "Students"
-      ]
+      ],
+      "manual": true,
+      "firstSeenAt": "2026-08-23"
+    },
+    {
+      "id": "ksum-tenders-ksum-rfp-ema-hg-2026-27-01",
+      "title": "RFP for Selection of Event Management Company for the conduct of Huddle Global 2026",
+      "type": "other",
+      "organization": "Kerala Startup Mission",
+      "summary": "RFP for Selection of Event Management Company for the conduct of Huddle Global 2026",
+      "deadlineAt": "2026-09-11",
+      "locationScope": "kerala",
+      "benefit": "eTender",
+      "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf",
+      "url": "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf",
+      "sourceUrls": [
+        "https://startupmission.kerala.gov.in/api/public/tenders",
+        "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf"
+      ],
+      "sourceIds": [
+        "ksum-tenders"
+      ],
+      "tags": [
+        "KSUM",
+        "RFP",
+        "tender"
+      ],
+      "firstSeenAt": "2026-08-23"
+    },
+    {
+      "id": "huddle-global-2026-registration",
+      "title": "Huddle Global 2026 — delegate registration",
+      "type": "other",
+      "organization": "Kerala Startup Mission",
+      "summary": "Delegate registration for Asia's largest beachside startup festival (Nov 12–14, Kovalam) — founders, investors and policymakers across three days.",
+      "deadlineAt": "2026-11-12",
+      "locationScope": "kerala",
+      "applicationUrl": "https://huddleglobal.co.in/",
+      "url": "https://huddleglobal.co.in/",
+      "sourceUrls": [
+        "https://huddleglobal.co.in/"
+      ],
+      "tags": [
+        "KSUM",
+        "Startup festival",
+        "Registration"
+      ],
+      "manual": true,
+      "firstSeenAt": "2026-08-23"
     },
     {
       "id": "ksum-early-stage-funding",
@@ -44,7 +92,9 @@
         "KSUM",
         "Funding",
         "Startups"
-      ]
+      ],
+      "manual": true,
+      "firstSeenAt": "2026-08-23"
     },
     {
       "id": "ksum-incubation-acceleration",
@@ -67,26 +117,9 @@
         "KSUM",
         "Incubation",
         "Kochi campus"
-      ]
-    },
-    {
-      "id": "huddle-global-2026-registration",
-      "title": "Huddle Global 2026 — delegate registration",
-      "type": "other",
-      "organization": "Kerala Startup Mission",
-      "summary": "Delegate registration for Asia's largest beachside startup festival (Nov 12–14, Kovalam) — founders, investors and policymakers across three days.",
-      "deadlineAt": "2026-11-12",
-      "locationScope": "kerala",
-      "applicationUrl": "https://huddleglobal.co.in/",
-      "url": "https://huddleglobal.co.in/",
-      "sourceUrls": [
-        "https://huddleglobal.co.in/"
       ],
-      "tags": [
-        "KSUM",
-        "Startup festival",
-        "Registration"
-      ]
+      "manual": true,
+      "firstSeenAt": "2026-08-23"
     }
   ]
 }

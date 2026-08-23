@@ -91,6 +91,9 @@ export const opportunitySchema = z.object({
   applicationUrl: z.string().url().optional(),
   url: z.string().url(),
   sourceUrls: z.array(z.string().url()).optional(),
+  sourceIds: z.array(z.string()).optional(),
+  firstSeenAt: isoDate.optional(),
+  manual: z.boolean().optional(),
   tags: z.array(z.string()),
   featured: z.boolean().optional(),
 });
@@ -121,20 +124,24 @@ export const announcementSchema = z.object({
 export const sourceSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),
-  kind: z.enum(["ics", "rss", "jsonld", "html", "manual"]),
+  kind: z.enum(["ics", "rss", "jsonld", "html", "json", "markdown", "manual"]),
   entityTypes: z.array(z.enum(["event", "job", "opportunity", "community"])),
   url: z.string().url(),
   enabled: z.boolean(),
   trustLevel: z.number().int().min(1).max(5),
   refreshHours: z.number().int().positive().optional(),
   parser: z.string().optional(),
+  organization: z.string().optional(),
+  defaultCity: z.string().optional(),
+  /** A successful empty response is valid for sources whose inventory can reach zero. */
+  allowEmpty: z.boolean().optional(),
   notes: z.string().optional(),
 });
 
 export const sourceStateSchema = z.object({
   /** entity id → first date the pipeline saw it (YYYY-MM-DD, IST). */
   firstSeen: z.record(z.string(), isoDate),
-  /** source id → last successful non-zero record count. */
+  /** source id → record count from the last successful accepted response. */
   lastCounts: z.record(z.string(), z.number().int().nonnegative()),
 });
 

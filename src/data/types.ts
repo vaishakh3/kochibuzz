@@ -50,6 +50,9 @@ export type Opportunity = {
   applicationUrl?: string;
   url: string;
   sourceUrls?: string[];
+  sourceIds?: string[];
+  firstSeenAt?: string;
+  manual?: boolean;
   tags: string[];
   featured?: boolean;
 };

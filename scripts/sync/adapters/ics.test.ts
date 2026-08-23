@@ -11,6 +11,7 @@ const source: SourceDefinition = {
   enabled: true,
   trustLevel: 3,
   parser: "ics",
+  defaultCity: "Kochi",
 };
 
 function vcal(body: string): string {
@@ -53,6 +54,21 @@ describe("parseIcs", () => {
     const [event] = parseIcs(ics);
     expect(event.dtstart).toEqual({ date: "2026-09-10", time: undefined });
     expect(event.dtend).toEqual({ date: "2026-09-12", time: undefined });
+  });
+
+  it("converts UTC timestamps to Kochi time, including the next day", () => {
+    const [event] = parseIcs(
+      vcal([
+        "BEGIN:VEVENT",
+        "UID:evt-utc",
+        "SUMMARY:Late global session",
+        "DTSTART:20260905T213000Z",
+        "DTEND:20260905T223000Z",
+        "END:VEVENT",
+      ].join("\r\n")),
+    );
+    expect(event.dtstart).toEqual({ date: "2026-09-06", time: "03:00" });
+    expect(event.dtend).toEqual({ date: "2026-09-06", time: "04:00" });
   });
 });
 
@@ -111,5 +127,22 @@ describe("normalizeIcsEvents", () => {
     );
     const [event] = normalizeIcsEvents(parsed, source);
     expect(event.startTime).toBeUndefined();
+  });
+
+  it("uses a registration URL found in the description", () => {
+    const parsed = parseIcs(
+      vcal([
+        "BEGIN:VEVENT",
+        "UID:evt-url",
+        "SUMMARY:Kochi AI meetup",
+        "DTSTART;VALUE=DATE:20260920",
+        "LOCATION:Kochi",
+        "DESCRIPTION:Register at https://example.com/register.",
+        "END:VEVENT",
+      ].join("\r\n")),
+    );
+    const [event] = normalizeIcsEvents(parsed, source);
+    expect(event.url).toBe("https://example.com/register");
+    expect(event.category).toBe("ai");
   });
 });

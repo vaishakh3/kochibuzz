@@ -364,6 +364,42 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "paytm-payments-ernakulam-lever-7b145064-ab54-46ae-aac9-3dcf9f5c28ee",
+    "title": "KAM - Associate - QR - Ernakulam",
+    "company": "Paytm Payments",
+    "postedAt": "2026-08-19",
+    "location": "Ernakulam, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/7b145064-ab54-46ae-aac9-3dcf9f5c28ee",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
+    "sourceId": "paytm-payments-ernakulam-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-529079b1-32e6-415f-975a-99d92c2cd5cc",
+    "title": "Sales Team Lead- MMB4 - Kerala",
+    "company": "Paytm Payments",
+    "postedAt": "2026-08-19",
+    "location": "Kochi, Kerala",
+    "category": "business",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/529079b1-32e6-415f-975a-99d92c2cd5cc",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "reply-lever-ad14cf0b-9839-48cd-9805-8f72d0889703",
+    "title": "Corporate Innovation Lab Leader",
+    "company": "Reply",
+    "postedAt": "2026-08-19",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/reply/ad14cf0b-9839-48cd-9805-8f72d0889703",
+    "sourceUrl": "https://api.lever.co/v0/postings/reply?mode=json",
+    "sourceId": "reply-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-148-25124",
     "title": "Senior Data Engineer",
     "company": "AVENTUS INFORMATICS",
@@ -466,6 +502,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "dodge-workable-b20630c969",
+    "title": "Incident & Change Management Coordinator",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-08-17",
+    "location": "Kochi, India (Hybrid)",
+    "category": "other",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/B20630C969/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-132-25104",
@@ -661,6 +709,42 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "dodge-workable-0c7d574f83",
+    "title": "Search Software Engineer",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-08-14",
+    "location": "Kochi, India (Hybrid)",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/0C7D574F83/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "dodge-workable-6e801499b4",
+    "title": "Senior Backend Software Developer",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-08-14",
+    "location": "Kochi, India (Hybrid)",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/6E801499B4/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "dodge-workable-dd7d833942",
+    "title": "Data Quality Engineering Lead",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-08-14",
+    "location": "Kochi, India (Hybrid)",
+    "category": "ai-data",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/DD7D833942/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-251-25082",
@@ -884,6 +968,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "zaintech-workable-8459ed28c2",
+    "title": "Junior Data Scientist",
+    "company": "ZainTECH",
+    "postedAt": "2026-08-12",
+    "location": "Kochi, India",
+    "category": "ai-data",
+    "detailUrl": "https://apply.workable.com/zaintech/j/8459ED28C2/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-189-25040",
     "title": "Business Development Executive (1– 2Years)",
     "company": "GALTech Technologies Pvt Ltd",
@@ -973,6 +1069,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-ernakulam-lever-1f6b0dc2-5aa4-4ff3-a86b-efb6f8ee61a2",
+    "title": "Team Leader - O&G Adj 1 - Ernakulam",
+    "company": "Paytm Payments",
+    "postedAt": "2026-08-11",
+    "location": "Ernakulam, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/1f6b0dc2-5aa4-4ff3-a86b-efb6f8ee61a2",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
+    "sourceId": "paytm-payments-ernakulam-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-148-25030",
@@ -1248,6 +1356,78 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "opalus-workable-26d395b0d4",
+    "title": "Senior Frontend Engineer (Angular)",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/26D395B0D4/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-4117062fbc",
+    "title": "Senior Business Analyst (Accounting & Compliance Domain)",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "product",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/4117062FBC/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-45bdb1f6bc",
+    "title": "Senior DevOps / Cloud Platform Engineer",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/45BDB1F6BC/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-cbcedd6831",
+    "title": "Senior QA Automation Engineer",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/CBCEDD6831/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-e7767aaaa6",
+    "title": "Senior Scrum Master / Delivery Manager",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "product",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/E7767AAAA6/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-fe0f4511af",
+    "title": "Senior UI/UX Designer",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-05",
+    "location": "Kochi, India",
+    "category": "design",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/FE0F4511AF/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-102-24961",
     "title": "Full-Stack Tech Lead – AI Best Practices (AIBP) - Remote",
     "company": "McFadyen Digital",
@@ -1285,6 +1465,42 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "opalus-workable-6f06cda9c6",
+    "title": "Senior Solution Architect / Technical Lead (Java)",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-04",
+    "location": "Kochi, India",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/6F06CDA9C6/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-c6ef9a8972",
+    "title": "Senior Product Delivery Manager / Product Owner",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-04",
+    "location": "Kochi, India",
+    "category": "product",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/C6EF9A8972/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "opalus-workable-f4b2c6b744",
+    "title": "Senior Backend Engineer (Java / Spring Boot)",
+    "company": "Opalus Investments",
+    "postedAt": "2026-08-04",
+    "location": "Kochi, India",
+    "category": "engineering",
+    "detailUrl": "https://apply.workable.com/opalus-investments-llc/j/F4B2C6B744/",
+    "sourceUrl": "https://apply.workable.com/opalus-investments-llc/jobs.md",
+    "sourceId": "opalus-workable",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-269-24944",
@@ -2106,6 +2322,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "dodge-workable-7a5eb34735",
+    "title": "Staff Engineer-UI",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-07-20",
+    "location": "Kochi, India (Hybrid)",
+    "category": "design",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/7A5EB34735/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-421-24736",
     "title": "Graphic Designer",
     "company": "Global Surf IT Pvt Ltd",
@@ -2169,6 +2397,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-1980b40a-8aa2-42a8-8328-17239145be66",
+    "title": "Team Leader - O&G Adjacent 4 - Kochi",
+    "company": "Paytm Payments",
+    "postedAt": "2026-07-17",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/1980b40a-8aa2-42a8-8328-17239145be66",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-138-24686",
@@ -2392,6 +2632,90 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "zaintech-workable-33eb14865f",
+    "title": "Microsoft 365 Endpoint & Identity Consultant",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "other",
+    "detailUrl": "https://apply.workable.com/zaintech/j/33EB14865F/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-6093bd469f",
+    "title": "Microsoft 365 Adoption & Change Management Consultant",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "other",
+    "detailUrl": "https://apply.workable.com/zaintech/j/6093BD469F/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-6120c115a5",
+    "title": "Microsoft Power Platform & Automation Consultant",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "other",
+    "detailUrl": "https://apply.workable.com/zaintech/j/6120C115A5/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-6aad4b2933",
+    "title": "Microsoft 365 Collaboration & Content Consultant",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "other",
+    "detailUrl": "https://apply.workable.com/zaintech/j/6AAD4B2933/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-9c4259ac7a",
+    "title": "Microsoft 365 Data Security & Compliance Consultant",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "ai-data",
+    "detailUrl": "https://apply.workable.com/zaintech/j/9C4259AC7A/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-aeeca081ac",
+    "title": "Microsoft 365 Copilot & AI Productivity Lead",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "ai-data",
+    "detailUrl": "https://apply.workable.com/zaintech/j/AEECA081AC/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-e74612efbf",
+    "title": "DevOps Lead Engineer - AWS",
+    "company": "ZainTECH",
+    "postedAt": "2026-07-08",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/zaintech/j/E74612EFBF/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-495-24506",
     "title": "Senior .NET Full Stack Developer (4 - 7 years)",
     "company": "Difinity Digital",
@@ -2470,6 +2794,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "reply-lever-45c56f5f-f735-46dd-9da7-c5f0506fed31",
+    "title": "Senior .NET Full Stack Developer (React)",
+    "company": "Reply",
+    "postedAt": "2026-07-05",
+    "location": "Kochi, Kerala",
+    "category": "engineering",
+    "detailUrl": "https://jobs.lever.co/reply/45c56f5f-f735-46dd-9da7-c5f0506fed31",
+    "sourceUrl": "https://api.lever.co/v0/postings/reply?mode=json",
+    "sourceId": "reply-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-4-24461",
     "title": "Chargeback & Disputes Subject Matter Expert (SME) (10+ years)",
     "company": "Art Technology and Software",
@@ -2522,6 +2858,30 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "paytm-payments-kochi-lever-8cee0f33-0af6-4e00-b954-5aa6ca0e4649",
+    "title": "\"KAM GT- Team Lead - EDC- Kerala",
+    "company": "Paytm Payments",
+    "postedAt": "2026-07-02",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/8cee0f33-0af6-4e00-b954-5aa6ca0e4649",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "dodge-workable-407c35556e",
+    "title": "Senior UI Software Engineer",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-06-29",
+    "location": "Kochi, India",
+    "category": "design",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/407C35556E/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-257-24386",
     "title": "Business Development Executive Trainee – IT / ITES",
     "company": "QC Verify Private Limited",
@@ -2559,6 +2919,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-0b6166b0-31d5-4217-9448-0059f0c730e4",
+    "title": "Team Leader - Railway Transit - Kochi",
+    "company": "Paytm Payments",
+    "postedAt": "2026-06-29",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/0b6166b0-31d5-4217-9448-0059f0c730e4",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-189-24333",
@@ -2728,6 +3100,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-ernakulam-lever-3b29c732-5167-4f97-b15c-61663f139530",
+    "title": "Team Leader - O&G Adjacent 1 - Ernakulam",
+    "company": "Paytm Payments",
+    "postedAt": "2026-06-17",
+    "location": "Ernakulam, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/3b29c732-5167-4f97-b15c-61663f139530",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
+    "sourceId": "paytm-payments-ernakulam-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-4-24135",
@@ -2951,6 +3335,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "dodge-workable-0c9449f98a",
+    "title": "Operations Manager",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-06-10",
+    "location": "Kochi, India",
+    "category": "business",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/0C9449F98A/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-340-23952",
     "title": "Senior Specialist – Technical Support",
     "company": "Classic Technologies & Business Solutions Pvt. Ltd",
@@ -3040,6 +3436,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-ffa2a8fd-936e-47be-801d-337a2b1f14eb",
+    "title": "Team Leader - O&G Adjacent 2 - Kochi",
+    "company": "Paytm Payments",
+    "postedAt": "2026-05-29",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/ffa2a8fd-936e-47be-801d-337a2b1f14eb",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-390-23724",
@@ -3172,6 +3580,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "zaintech-workable-eba9fea269",
+    "title": "Senior Cloud Architect - Azure",
+    "company": "ZainTECH",
+    "postedAt": "2026-05-14",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/zaintech/j/EBA9FEA269/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-257-23522",
     "title": "Junior Creative Producer",
     "company": "QC Verify Private Limited",
@@ -3222,6 +3642,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "zaintech-workable-91b5fc6925",
+    "title": "Cloud DevOps Engineer",
+    "company": "ZainTECH",
+    "postedAt": "2026-05-11",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/zaintech/j/91B5FC6925/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-259-23436",
@@ -3354,6 +3786,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "dodge-workable-a086d5bd24",
+    "title": "DevOps Engineer",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-04-28",
+    "location": "Kochi, India (Hybrid)",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/A086D5BD24/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-352-23255",
     "title": "Video Editor",
     "company": "TouchWorld Technology",
@@ -3468,7 +3912,7 @@
     "detailUrl": "https://infopark.in/company-jobs/details/286/23175",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-286-23176",
@@ -3508,6 +3952,18 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-3e094b6b-9390-4cb1-9132-4d89188eaf4c",
+    "title": "Key Account Manager - Team Lead - EDC Retail- Kerala",
+    "company": "Paytm Payments",
+    "postedAt": "2026-04-09",
+    "location": "Kochi, Kerala",
+    "category": "business",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/3e094b6b-9390-4cb1-9132-4d89188eaf4c",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-394-22725",
@@ -3651,6 +4107,42 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "zaintech-workable-3e8bf50e15",
+    "title": "Cloud Security Architect",
+    "company": "ZainTECH",
+    "postedAt": "2026-03-06",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/zaintech/j/3E8BF50E15/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-bcf7984a34",
+    "title": "DevOps Lead Engineer - Azure",
+    "company": "ZainTECH",
+    "postedAt": "2026-03-06",
+    "location": "Kochi, India",
+    "category": "devops-cloud",
+    "detailUrl": "https://apply.workable.com/zaintech/j/BCF7984A34/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "zaintech-workable-cf6eed0689",
+    "title": "Senior Data Architect - AWS",
+    "company": "ZainTECH",
+    "postedAt": "2026-03-06",
+    "location": "Kochi, India",
+    "category": "ai-data",
+    "detailUrl": "https://apply.workable.com/zaintech/j/CF6EED0689/",
+    "sourceUrl": "https://apply.workable.com/zaintech/jobs.md?location%5B0%5D%5Bcountry%5D=India&location%5B0%5D%5Bregion%5D=Kerala&location%5B0%5D%5Bcity%5D=Kochi",
+    "sourceId": "zaintech-workable",
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-529-22344",
@@ -3936,7 +4428,7 @@
     "detailUrl": "https://infopark.in/company-jobs/details/352/21539",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-85-21505",
@@ -4641,6 +5133,18 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "reply-lever-131fd9f3-607e-4723-95f3-caade43b92aa",
+    "title": "Senior Data Engineer",
+    "company": "Reply",
+    "postedAt": "2025-07-16",
+    "location": "Kochi, Kerala",
+    "category": "ai-data",
+    "detailUrl": "https://jobs.lever.co/reply/131fd9f3-607e-4723-95f3-caade43b92aa",
+    "sourceUrl": "https://api.lever.co/v0/postings/reply?mode=json",
+    "sourceId": "reply-lever",
+    "firstSeenAt": "2026-08-23"
+  },
+  {
     "id": "infopark-383-19475",
     "title": "Web Developer (React Preferred)",
     "company": "Mantra IT Solutions",
@@ -4664,7 +5168,7 @@
     "detailUrl": "https://infopark.in/company-jobs/details/383/19478",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
+    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-383-19479",

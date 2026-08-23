@@ -17,7 +17,7 @@ The product and visual principles are documented in [BRAND.md](./BRAND.md).
 | `/events` | Calendar-compatible route retained for direct links and discovery |
 | `/events/<id>` | Canonical event page (JSON-LD, OG card, add-to-calendar) |
 | `/opportunities` | Hackathons, grants, fellowships, accelerators — with deadlines |
-| `/jobs` | Openings sourced from the official Infopark Kochi job board |
+| `/jobs` | Kochi-area openings from Infopark plus direct company ATS feeds |
 | `/built` | Curated products and projects built in/around Kochi |
 | `/communities` | Active tech communities, each with its own page |
 | `/places` | Where to build, work and meet (maker spaces, hubs, coworking) |
@@ -58,14 +58,21 @@ data/
 
 `scripts/sync/index.ts` fetches every enabled source (polite: transparent
 `KochiBuzzBot/1.0` user agent, 15s timeout, one retry, small concurrency), validates
-each record individually with zod, filters non-Kochi events, dedupes by
-title + start date (manual > higher trust), applies overrides, and atomically writes
-`data/generated/` + `public/api/v1/`. A source failing or suspiciously returning zero
-records never wipes previously valid data.
+each record individually with zod, filters non-Kochi events, removes expired automated
+records, dedupes events and cross-posted jobs (manual > higher trust), applies overrides,
+and atomically writes `data/generated/` + `public/api/v1/`. A source failure or suspicious
+zero result never wipes its previously valid data.
+
+Enabled feeds currently include Infopark, direct Lever and Workable company job feeds,
+GDG Cochin, GDG Cloud Kochi, Luma calendars, and Kerala Startup Mission's official
+events, careers, and open-tenders endpoints. Global calendars are accepted only when
+the event itself contains Kochi-area evidence.
 
 `.github/workflows/sync-data.yml` runs the sync every 4 hours and commits only when
 generated data actually changed (`data: refresh Kochi.buzz sources`); Vercel deploys
-the change.
+the change. A rebase-safe push prevents scheduled refreshes from overwriting code
+changes, and one automatically managed GitHub issue exposes hard source/test failures
+until the pipeline recovers.
 
 ## Contributing data
 

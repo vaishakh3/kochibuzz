@@ -1,6 +1,7 @@
 import * as cheerio from "cheerio";
 import { JobRecord, SourceDefinition } from "../schemas";
 import { politeFetch } from "../fetch";
+import { classifyJob } from "./jobs";
 
 const MAX_PAGES = 30;
 
@@ -25,23 +26,7 @@ export function parseDeadlineDate(text: string): string | undefined {
   return `${match[3]}-${month}-${match[1].padStart(2, "0")}`;
 }
 
-const CATEGORY_RULES: Array<[JobRecord["category"], RegExp]> = [
-  ["internship", /\bintern(ship)?\b|\btrainee\b/i],
-  ["ai-data", /\bdata\b|machine learning|\bml\b|\bai\b|analytics|data scien|\bnlp\b/i],
-  ["devops-cloud", /devops|\bsre\b|cloud|kubernetes|infrastructure|platform engineer|\baws\b|azure|site reliab/i],
-  ["design", /design|\bux\b|\bui\b(?!path)|graphic/i],
-  ["product", /product (manager|owner|analyst)|\bscrum\b|project manager|business analyst/i],
-  ["business", /sales|marketing|\bhr\b|human resource|recruit|account|finance|business development|admin|operations/i],
-  ["engineering", /engineer|developer|programmer|architect|\bqa\b|test|full.?stack|front.?end|back.?end|software|\bsoc\b|analyst|support|database|migration|\bdba\b|security/i],
-];
-
-/** Deterministic keyword classification; manual overrides win downstream. */
-export function classifyJob(title: string): JobRecord["category"] {
-  for (const [category, pattern] of CATEGORY_RULES) {
-    if (pattern.test(title)) return category;
-  }
-  return "other";
-}
+export { classifyJob } from "./jobs";
 
 export function extractInfoparkJobs(
   html: string,

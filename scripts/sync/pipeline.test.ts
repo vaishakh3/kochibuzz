@@ -4,6 +4,8 @@ import {
   applyOverrides,
   comparableTitle,
   dedupeEvents,
+  dedupeJobs,
+  filterActiveEvents,
   filterActiveJobs,
 } from "./pipeline";
 import type { EventRecord, JobRecord } from "./schemas";
@@ -85,6 +87,38 @@ describe("filterActiveJobs", () => {
     const noDeadline = makeJob({ id: "none" });
     const kept = filterActiveJobs([expired, active, noDeadline], "2026-08-18");
     expect(kept.map((j) => j.id)).toEqual(["new", "none"]);
+  });
+});
+
+describe("filterActiveEvents", () => {
+  it("keeps an event through its final day and drops it the day after", () => {
+    const ongoing = makeEvent({ id: "ongoing", start: "2026-08-20", end: "2026-08-23" });
+    const future = makeEvent({ id: "future", start: "2026-08-24", end: "2026-08-24" });
+    const expired = makeEvent({ id: "expired", start: "2026-08-21", end: "2026-08-22" });
+    expect(filterActiveEvents([ongoing, future, expired], "2026-08-23").map((event) => event.id))
+      .toEqual(["ongoing", "future"]);
+  });
+});
+
+describe("dedupeJobs", () => {
+  it("deduplicates the same company/title and prefers the trusted source", () => {
+    const low = makeJob({ id: "low", sourceId: "aggregator", postedAt: "2026-08-22" });
+    const high = makeJob({ id: "high", sourceId: "official", postedAt: "2026-08-20" });
+    const distinct = makeJob({ id: "distinct", title: "Senior Engineer", sourceId: "official" });
+    const result = dedupeJobs(
+      [low, high, distinct],
+      (job) => job.sourceId === "official" ? 5 : 2,
+    );
+    expect(result.merged).toBe(1);
+    expect(result.jobs.map((job) => job.id)).toEqual(["high", "distinct"]);
+  });
+
+  it("keeps same-title requisitions published by one authoritative source", () => {
+    const first = makeJob({ id: "first", sourceId: "official" });
+    const second = makeJob({ id: "second", sourceId: "official" });
+    const result = dedupeJobs([first, second], () => 5);
+    expect(result.merged).toBe(0);
+    expect(result.jobs.map((job) => job.id)).toEqual(["first", "second"]);
   });
 });
 

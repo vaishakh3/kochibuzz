@@ -22,19 +22,28 @@ import {
   sourceStateSchema,
   EventRecord,
   JobRecord,
+  OpportunityRecord,
   SourceDefinition,
   SourceState,
 } from "./schemas";
 import { fetchInfoparkJobs } from "./adapters/infopark";
 import { parseIcs, normalizeIcsEvents } from "./adapters/ics";
+import { extractLeverJobs } from "./adapters/lever";
+import { extractWorkableJobs } from "./adapters/workable";
+import { fetchJsonLdEvents } from "./adapters/jsonld";
+import { extractKsumCareers, extractKsumEvents, extractKsumTenders } from "./adapters/ksum";
 import { politeFetch, mapWithConcurrency } from "./fetch";
 import {
   applyOverrides,
   dedupeEvents,
+  dedupeJobs,
+  dedupeOpportunities,
+  filterActiveEvents,
   filterActiveJobs,
   filterRelevantEvents,
   sortEvents,
   sortJobs,
+  trustForJobSource,
   trustForSource,
 } from "./pipeline";
 
@@ -68,6 +77,7 @@ interface Stats {
   invalid: number;
   duplicatesMerged: number;
   rejectedIrrelevant: number;
+  expiredEventsDropped: number;
   expiredJobsDropped: number;
 }
 
@@ -120,6 +130,7 @@ async function main() {
     invalid: 0,
     duplicatesMerged: 0,
     rejectedIrrelevant: 0,
+    expiredEventsDropped: 0,
     expiredJobsDropped: 0,
   };
   const health: SourceHealth[] = [];
@@ -127,6 +138,7 @@ async function main() {
 
   const eventCandidates: unknown[] = [];
   const jobCandidates: unknown[] = [];
+  const opportunityCandidates: unknown[] = [];
 
   await mapWithConcurrency(enabled, 4, async (source: SourceDefinition) => {
     try {
@@ -135,6 +147,30 @@ async function main() {
         const jobs = await fetchInfoparkJobs(source);
         jobCandidates.push(...jobs);
         records = jobs.length;
+      } else if (source.parser === "lever") {
+        const jobs = extractLeverJobs(await politeFetch(source.url), source);
+        jobCandidates.push(...jobs);
+        records = jobs.length;
+      } else if (source.parser === "workable") {
+        const jobs = extractWorkableJobs(await politeFetch(source.url), source);
+        jobCandidates.push(...jobs);
+        records = jobs.length;
+      } else if (source.parser === "jsonld-events") {
+        const events = await fetchJsonLdEvents(source);
+        eventCandidates.push(...events);
+        records = events.length;
+      } else if (source.parser === "ksum-events") {
+        const events = extractKsumEvents(await politeFetch(source.url), source);
+        eventCandidates.push(...events);
+        records = events.length;
+      } else if (source.parser === "ksum-careers") {
+        const jobs = extractKsumCareers(await politeFetch(source.url), source);
+        jobCandidates.push(...jobs);
+        records = jobs.length;
+      } else if (source.parser === "ksum-tenders") {
+        const opportunities = extractKsumTenders(await politeFetch(source.url), source);
+        opportunityCandidates.push(...opportunities);
+        records = opportunities.length;
       } else if (source.kind === "ics") {
         const body = await politeFetch(source.url);
         const events = normalizeIcsEvents(parseIcs(body), source);
@@ -150,7 +186,7 @@ async function main() {
         return;
       }
       const previous = state.lastCounts[source.id] ?? 0;
-      if (records === 0 && previous > 0) {
+      if (records === 0 && previous > 0 && !source.allowEmpty) {
         // Never convert a broken parser into a healthy empty result.
         health.push({
           sourceId: source.id,
@@ -172,18 +208,40 @@ async function main() {
     }
   });
 
-  stats.candidates = eventCandidates.length + jobCandidates.length;
+  const sourceOrder = new Map(enabled.map((source, index) => [source.id, index]));
+  health.sort((a, b) =>
+    (sourceOrder.get(a.sourceId) ?? Number.MAX_SAFE_INTEGER)
+      - (sourceOrder.get(b.sourceId) ?? Number.MAX_SAFE_INTEGER),
+  );
 
-  // Events: manual + ingested → validate → relevance → dedupe → overrides.
+  stats.candidates = eventCandidates.length + jobCandidates.length + opportunityCandidates.length;
+
+  // Events: validate → keep live → locality → preserve broken-source records →
+  // dedupe with manual records → overrides.
+  const previousEvents = readExisting<EventRecord[]>("data/generated/events.json") ?? [];
+  const brokenEventSources = new Set(
+    health
+      .filter((h) => h.status !== "ok")
+      .filter((h) => enabled.find((s) => s.id === h.sourceId)?.entityTypes.includes("event"))
+      .map((h) => h.sourceId),
+  );
+  const carriedEvents = previousEvents.filter((event) =>
+    (event.sourceIds ?? []).some((sourceId) => brokenEventSources.has(sourceId)),
+  );
   const validIngestedEvents = validateEach(eventCandidates, eventSchema, stats, "event");
-  const relevance = filterRelevantEvents(validIngestedEvents);
+  const activeIngestedEvents = filterActiveEvents(
+    [...validIngestedEvents, ...carriedEvents],
+    today,
+  );
+  stats.expiredEventsDropped = validIngestedEvents.length + carriedEvents.length
+    - activeIngestedEvents.length;
+  const relevance = filterRelevantEvents(activeIngestedEvents);
   stats.rejectedIrrelevant = relevance.rejected;
   const deduped = dedupeEvents(
     [...manualEvents, ...relevance.kept],
     trustForSource(sources),
   );
   stats.duplicatesMerged = deduped.merged;
-  const previousEvents = readExisting<EventRecord[]>("data/generated/events.json") ?? [];
   const previousFirstSeen = new Map(
     previousEvents.map((e) => [e.id, e.firstSeenAt] as const),
   );
@@ -217,8 +275,10 @@ async function main() {
   );
   const activeJobs = filterActiveJobs([...validJobs, ...carriedJobs], today);
   stats.expiredJobsDropped = validJobs.length + carriedJobs.length - activeJobs.length;
+  const dedupedJobs = dedupeJobs(activeJobs, trustForJobSource(sources));
+  stats.duplicatesMerged += dedupedJobs.merged;
   const jobs = sortJobs(
-    applyOverrides(activeJobs, jobOverrides).map((job) => ({
+    applyOverrides(dedupedJobs.jobs, jobOverrides).map((job) => ({
       ...job,
       firstSeenAt:
         job.firstSeenAt ?? previousJobFirstSeen.get(job.id) ?? state.firstSeen[job.id] ?? today,
@@ -228,7 +288,57 @@ async function main() {
     if (!state.firstSeen[job.id]) state.firstSeen[job.id] = job.firstSeenAt ?? today;
   }
 
-  const opportunities = manualOpportunities;
+  // Opportunities get the same source-failure resilience and provenance as
+  // jobs/events. Automated closed calls disappear; manual editorial entries
+  // remain authoritative.
+  const previousOpportunities =
+    readExisting<OpportunityRecord[]>("data/generated/opportunities.json") ?? [];
+  const brokenOpportunitySources = new Set(
+    health
+      .filter((h) => h.status !== "ok")
+      .filter((h) => enabled.find((s) => s.id === h.sourceId)?.entityTypes.includes("opportunity"))
+      .map((h) => h.sourceId),
+  );
+  const carriedOpportunities = previousOpportunities.filter((record) =>
+    (record.sourceIds ?? []).some((sourceId) => brokenOpportunitySources.has(sourceId))
+      && (!record.deadlineAt || record.deadlineAt >= today || record.ongoing),
+  );
+  const validOpportunities = validateEach(
+    opportunityCandidates,
+    opportunitySchema,
+    stats,
+    "opportunity",
+  ).filter((record) => !record.deadlineAt || record.deadlineAt >= today || record.ongoing);
+  const opportunityDedupe = dedupeOpportunities(
+    [
+      ...manualOpportunities.map((record) => ({ ...record, manual: true })),
+      ...validOpportunities,
+      ...carriedOpportunities,
+    ],
+    trustForSource(sources),
+  );
+  stats.duplicatesMerged += opportunityDedupe.merged;
+  const previousOpportunityFirstSeen = new Map(
+    previousOpportunities.map((record) => [record.id, record.firstSeenAt] as const),
+  );
+  const opportunities = opportunityDedupe.opportunities
+    .map((record) => ({
+      ...record,
+      firstSeenAt:
+        record.firstSeenAt
+        ?? previousOpportunityFirstSeen.get(record.id)
+        ?? state.firstSeen[record.id]
+        ?? today,
+    }))
+    .sort((a, b) =>
+      (a.deadlineAt ?? "9999-12-31").localeCompare(b.deadlineAt ?? "9999-12-31")
+      || a.id.localeCompare(b.id),
+    );
+  for (const opportunity of opportunities) {
+    if (!state.firstSeen[opportunity.id]) {
+      state.firstSeen[opportunity.id] = opportunity.firstSeenAt ?? today;
+    }
+  }
   const projects = manualProjects;
   const announcements = manualAnnouncements.filter(
     (a) => !a.expiresAt || a.expiresAt >= today,
@@ -240,6 +350,7 @@ async function main() {
   const liveIds = new Set([
     ...events.map((e) => e.id),
     ...jobs.map((j) => j.id),
+    ...opportunities.map((o) => o.id),
   ]);
   for (const id of Object.keys(state.firstSeen)) {
     if (!liveIds.has(id)) delete state.firstSeen[id];
@@ -278,6 +389,7 @@ async function main() {
     `Duplicates merged: ${stats.duplicatesMerged}`,
     `Rejected irrelevant: ${stats.rejectedIrrelevant}`,
     `Invalid: ${stats.invalid}`,
+    `Expired events dropped: ${stats.expiredEventsDropped}`,
     `Expired jobs dropped: ${stats.expiredJobsDropped}`,
     "",
     `Events: ${events.length} · Jobs: ${jobs.length} · Opportunities: ${opportunities.length} · Projects: ${projects.length}`,
@@ -297,6 +409,13 @@ async function main() {
     fs.appendFileSync(
       process.env.GITHUB_STEP_SUMMARY,
       `## kochi.buzz data sync\n\n${summary}\n`,
+    );
+  }
+  if (process.env.GITHUB_OUTPUT) {
+    fs.appendFileSync(
+      process.env.GITHUB_OUTPUT,
+      `failed=${health.filter((item) => item.status === "failed").length}\n`
+        + `warnings=${health.filter((item) => item.status === "warning").length}\n`,
     );
   }
 

@@ -8,7 +8,7 @@ import { toISODate, todayInIST } from "@/lib/calendar";
 export const metadata: Metadata = {
   title: "Jobs — kochi.buzz",
   description:
-    "Live tech job openings in Kochi, synced from Infopark's official company job board. Filter by engineering, AI, DevOps, design and more.",
+    "Live Kochi-area openings synced from Infopark and direct company hiring feeds. Filter by engineering, AI, DevOps, design and more.",
   alternates: { canonical: "/jobs" },
 };
 
@@ -19,7 +19,7 @@ export default function JobsPage() {
   return (
     <DirectoryShell
       current="/jobs"
-      eyebrow="Synced from Infopark's official board"
+      eyebrow="Synced from direct, public hiring sources"
       accent="teal"
       title={
         <>
@@ -28,14 +28,15 @@ export default function JobsPage() {
           in Kochi tech
         </>
       }
-      intro="Openings at Infopark Kochi companies, pulled from the park's official job board and refreshed automatically. Every listing links to the official posting."
+      intro="Kochi-area openings from Infopark and direct company hiring feeds, refreshed automatically through the day. Every listing links back to the original posting."
       submitLabel="Suggest a job source"
     >
       <JobsExplorer jobs={jobs} todayIso={todayIso} newDays={NEW_DAYS} />
       <p className="mt-8 text-[11px] leading-relaxed text-white/65">
-        Source: infopark.in official job listings (Phases 1 &amp; 2). Listings
-        past their apply-by date are removed automatically. Apply on the
-        company&apos;s official page — kochi.buzz never handles applications.
+        Sources: Infopark&apos;s official listings plus public Lever and Workable
+        company feeds. Location checks run before publication; listings past
+        their apply-by date are removed automatically. Apply on the original
+        company page — kochi.buzz never handles applications.
       </p>
     </DirectoryShell>
   );
