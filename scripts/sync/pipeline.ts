@@ -19,28 +19,98 @@ export function dedupeEvents(
   events: EventRecord[],
   trustFor: (event: EventRecord) => number,
 ): { events: EventRecord[]; merged: number } {
-  const byKey = new Map<string, EventRecord>();
+  const output: EventRecord[] = [];
   let merged = 0;
   for (const event of events) {
-    const key = `${comparableTitle(event.title)}|${event.start}`;
-    const existing = byKey.get(key);
-    if (!existing) {
-      byKey.set(key, event);
+    const duplicateIndex = output.findIndex((existing) =>
+      `${comparableTitle(existing.title)}|${existing.start}`
+        === `${comparableTitle(event.title)}|${event.start}`
+      || linkedManualSourcePair(existing, event),
+    );
+    if (duplicateIndex === -1) {
+      output.push(event);
       continue;
     }
     merged++;
+    const existing = output[duplicateIndex];
+    if (linkedManualSourcePair(existing, event)) {
+      output[duplicateIndex] = mergeLinkedManualEvent(existing, event);
+      continue;
+    }
     const keepExisting =
       (existing.manual && !event.manual) ||
       (existing.manual === event.manual && trustFor(existing) >= trustFor(event));
     const winner = keepExisting ? existing : event;
     const loser = keepExisting ? event : existing;
-    byKey.set(key, {
+    output[duplicateIndex] = {
       ...winner,
       sourceUrls: uniq([...(winner.sourceUrls ?? []), ...(loser.sourceUrls ?? [])]),
       sourceIds: uniq([...(winner.sourceIds ?? []), ...(loser.sourceIds ?? [])]),
-    });
+    };
   }
-  return { events: [...byKey.values()], merged };
+  return { events: output, merged };
+}
+
+function canonicalEventUrls(event: EventRecord): Set<string> {
+  const values = [event.url, ...(event.sourceUrls ?? [])];
+  return new Set(values.flatMap((value) => {
+    try {
+      const url = new URL(value);
+      url.hash = "";
+      for (const parameter of [...url.searchParams.keys()]) {
+        if (parameter.startsWith("utm_") || parameter === "ref") url.searchParams.delete(parameter);
+      }
+      const host = url.hostname.replace(/^www\./, "").replace(/^lu\.ma$/, "luma.com");
+      const path = url.pathname.replace(/\/$/, "");
+      return [`${url.protocol}//${host}${path}${url.search}`.toLowerCase()];
+    } catch {
+      return [];
+    }
+  }));
+}
+
+export function eventsShareCanonicalUrl(left: EventRecord, right: EventRecord): boolean {
+  const leftUrls = canonicalEventUrls(left);
+  return [...canonicalEventUrls(right)].some((url) => leftUrls.has(url));
+}
+
+function linkedManualSourcePair(left: EventRecord, right: EventRecord): boolean {
+  if (!eventsShareCanonicalUrl(left, right)) return false;
+  if (Boolean(left.manual) !== Boolean(right.manual)) return true;
+  if (!left.manual || !right.manual) return false;
+  return hasLiveSource(left) !== hasLiveSource(right);
+}
+
+function hasLiveSource(event: EventRecord): boolean {
+  return (event.sourceIds ?? []).some((sourceId) => sourceId !== "manual");
+}
+
+/**
+ * A manually curated Luma record keeps its stable Kochi Buzz identity and
+ * editorial copy, while mutable facts come from the live event page.
+ */
+function mergeLinkedManualEvent(left: EventRecord, right: EventRecord): EventRecord {
+  const manual = left.manual && !hasLiveSource(left) ? left : right;
+  const live = manual === left ? right : left;
+  const venue = live.venue === "Venue TBA" ? manual.venue : live.venue;
+  return {
+    ...manual,
+    title: live.title,
+    start: live.start,
+    end: live.end,
+    startTime: live.startTime,
+    endTime: live.endTime,
+    venue,
+    city: live.city === "Unknown" ? manual.city : live.city,
+    organizer: live.organizer,
+    url: live.url,
+    registerUrl: live.registerUrl ?? manual.registerUrl,
+    note: live.note,
+    sourceUrls: uniq([...(manual.sourceUrls ?? []), ...(live.sourceUrls ?? [])]),
+    sourceIds: uniq([...(manual.sourceIds ?? []), ...(live.sourceIds ?? [])]),
+    id: manual.id,
+    manual: true,
+  };
 }
 
 export function filterRelevantEvents(events: EventRecord[]): {
@@ -61,9 +131,9 @@ export function filterActiveJobs(jobs: JobRecord[], todayIso: string): JobRecord
   return jobs.filter((job) => !job.deadlineAt || job.deadlineAt >= todayIso);
 }
 
-/** Events remain in the live calendar through their final day. */
+/** Events remain through their final day; curated records also form the archive. */
 export function filterActiveEvents(events: EventRecord[], todayIso: string): EventRecord[] {
-  return events.filter((event) => event.end >= todayIso);
+  return events.filter((event) => event.manual || event.end >= todayIso);
 }
 
 /**

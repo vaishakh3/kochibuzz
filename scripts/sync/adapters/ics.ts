@@ -12,6 +12,7 @@ export interface IcsEvent {
   dtstart?: { date: string; time?: string };
   dtend?: { date: string; time?: string };
   status?: string;
+  organizer?: string;
 }
 
 function unfold(ics: string): string[] {
@@ -96,11 +97,24 @@ export function parseIcs(ics: string): IcsEvent[] {
       case "LOCATION": current.location = unescapeText(value.trim()); break;
       case "URL": current.url = value.trim(); break;
       case "STATUS": current.status = value.trim().toUpperCase(); break;
+      case "ORGANIZER": {
+        const commonName = nameWithParams.match(/;CN=(?:"([^"]+)"|([^;:]+))/i);
+        current.organizer = unescapeText((commonName?.[1] ?? commonName?.[2] ?? "").trim()) || undefined;
+        break;
+      }
       case "DTSTART": current.dtstart = parseDateValue(value.trim()); break;
       case "DTEND": current.dtend = parseDateValue(value.trim()); break;
     }
   }
   return events;
+}
+
+function venueName(location?: string): string {
+  const clean = location?.split(",")[0]?.trim();
+  if (!clean || /^https?:\/\//i.test(clean) || /check event page|venue tba/i.test(clean)) {
+    return "Venue TBA";
+  }
+  return clean;
 }
 
 /** Subtract one day from a YYYY-MM-DD string (all-day DTEND is exclusive). */
@@ -132,9 +146,9 @@ export function normalizeIcsEvents(
       startTime: item.dtstart.time,
       endTime: item.dtend?.time,
       category: classifyEventCategory(`${item.summary} ${description}`),
-      venue: item.location?.split(",")[0]?.trim() || "Venue TBA",
+      venue: venueName(item.location),
       city: source.defaultCity ?? "Unknown",
-      organizer: source.organization ?? source.name,
+      organizer: item.organizer ?? source.organization ?? source.name,
       blurb: description.slice(0, 280),
       tags: [],
       url,

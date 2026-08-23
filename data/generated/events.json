@@ -1,5 +1,32 @@
 [
   {
+    "id": "codex-meetup-kochi-founders",
+    "title": "Codex Community Meetup - Kochi",
+    "start": "2026-07-28",
+    "end": "2026-07-28",
+    "category": "ai",
+    "venue": "Kochi, India",
+    "city": "Kochi",
+    "organizer": "Codex Community Events, Vaishakh Suresh, Joji Panackal",
+    "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
+    "tags": [
+      "Founders",
+      "Coding agents",
+      "Demos"
+    ],
+    "url": "https://luma.com/w0ip6oxb",
+    "sourceUrls": [
+      "https://luma.com/w0ip6oxb"
+    ],
+    "manual": true,
+    "startTime": "18:00",
+    "endTime": "22:00",
+    "sourceIds": [
+      "luma-kochi"
+    ],
+    "firstSeenAt": "2026-08-20"
+  },
+  {
     "id": "cncg-kochi-aug-2026",
     "title": "CNCG Kochi August Meetup",
     "start": "2026-08-01",
@@ -72,15 +99,15 @@
   },
   {
     "id": "malabarjs-aug-2026",
-    "title": "MalabarJS Meetup — August",
+    "title": "MalabarJS Meetup - August 2026",
     "start": "2026-08-22",
     "end": "2026-08-22",
     "startTime": "13:30",
     "endTime": "17:30",
     "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
+    "venue": "TinkerSpace",
     "city": "Kochi",
-    "organizer": "MalabarJS",
+    "organizer": "MalabarJS, Malabar JS, Alwin John",
     "blurb": "An afternoon with the JavaScript ecosystem crowd — lightning talks, longer technical talks, demos and conversations with people building across the JS stack.",
     "tags": [
       "JavaScript",
@@ -92,6 +119,9 @@
       "https://luma.com/a9xt40nb"
     ],
     "manual": true,
+    "sourceIds": [
+      "luma-kochi"
+    ],
     "firstSeenAt": "2026-08-20"
   },
   {
@@ -182,29 +212,6 @@
     "url": "https://meta.wikimedia.org/wiki/OpenSpeaks/Community_language_documentation_and_archiving_training",
     "sourceUrls": [
       "https://meta.wikimedia.org/wiki/OpenSpeaks/Community_language_documentation_and_archiving_training"
-    ],
-    "manual": true,
-    "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "codex-meetup-kochi-founders",
-    "title": "OpenAI Codex Community Meetup — Founder's Edition",
-    "start": "2026-09-10",
-    "end": "2026-09-10",
-    "category": "ai",
-    "venue": "Venue TBA",
-    "city": "Kochi",
-    "organizer": "Codex Kochi community",
-    "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
-    "tags": [
-      "Founders",
-      "Coding agents",
-      "Demos"
-    ],
-    "url": "https://luma.com/w0ip6oxb",
-    "note": "Date confirmed by the organisers; venue, agenda and RSVP link not published yet.",
-    "sourceUrls": [
-      "https://luma.com/w0ip6oxb"
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"

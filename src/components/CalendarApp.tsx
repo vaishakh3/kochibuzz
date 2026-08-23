@@ -39,6 +39,7 @@ type CityCounts = { jobs: number; opportunities: number; communities: number };
 
 const ALL_CATEGORIES = new Set<CategoryId>(categories.map((category) => category.id));
 const VIEW_KEY = "kochibuzz:calendar-view:v1";
+const EVENT_HISTORY_KEY = "kochibuzzEventOverlay";
 const DEFAULT_CITY_COUNTS: CityCounts = { jobs: 0, opportunities: 0, communities: communityDirectory.length };
 
 function MyBuzzDrawer({ open, onClose }: { open: boolean; onClose: () => void }) {
@@ -156,6 +157,35 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
     try { window.localStorage.setItem(VIEW_KEY, nextView); } catch { /* keep this session only */ }
   }
 
+  function focusEvent(event: TechEvent) {
+    const start = parseDate(event.start);
+    setSelected(start);
+    setCursor(startOfMonth(start));
+    setOpenEventId(event.id);
+  }
+
+  function openEvent(event: TechEvent) {
+    focusEvent(event);
+    const url = new URL(window.location.href);
+    url.searchParams.set("e", event.id);
+    window.history.pushState(
+      { ...(window.history.state ?? {}), [EVENT_HISTORY_KEY]: true },
+      "",
+      url,
+    );
+  }
+
+  function closeEvent() {
+    setOpenEventId(undefined);
+    if (window.history.state?.[EVENT_HISTORY_KEY]) {
+      window.history.back();
+      return;
+    }
+    const url = new URL(window.location.href);
+    url.searchParams.delete("e");
+    window.history.replaceState(window.history.state, "", url);
+  }
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const id = params.get("e");
@@ -171,7 +201,7 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
       setHydrated(true);
       setView(remembered ?? (compact ? "agenda" : "month"));
       if (requested.length > 0) setActive(new Set(requested));
-      if (event) jumpTo(event);
+      if (event) focusEvent(event);
       if (params.get("mybuzz") === "1") {
         setSavedOpen(true);
         params.delete("mybuzz");
@@ -199,17 +229,20 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
   }, [hydrated, selected]);
 
   useEffect(() => {
-    if (!hydrated) return;
-    const url = new URL(window.location.href);
-    if (openEventId) url.searchParams.set("e", openEventId);
-    else url.searchParams.delete("e");
-    window.history.replaceState(window.history.state, "", url);
-  }, [openEventId, hydrated]);
+    function onPopState() {
+      const id = new URL(window.location.href).searchParams.get("e");
+      const event = id ? events.find((candidate) => candidate.id === id) : undefined;
+      if (event) focusEvent(event);
+      else setOpenEventId(undefined);
+    }
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
 
   const visibleEvents = useMemo(() => events.filter((event) => active.has(event.category)), [active]);
   const selectedEvents = useMemo(() => eventsOn(visibleEvents, selected), [selected, visibleEvents]);
   const todayEvents = eventsOn(events, today);
-  const openEvent = events.find((event) => event.id === openEventId);
+  const openEventRecord = events.find((event) => event.id === openEventId);
   const upcoming = nextEvent(visibleEvents, today);
   const monthEvents = visibleEvents.filter((event) => {
     const monthStart = startOfMonth(cursor);
@@ -263,18 +296,12 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
     if (view === "agenda") scrollAgendaTo(today);
   }
 
-  function jumpTo(event: TechEvent) {
-    const start = parseDate(event.start);
-    setSelected(start);
-    setCursor(startOfMonth(start));
-    setOpenEventId(event.id);
-  }
-
   const onKeyboard = useEffectEvent((event: KeyboardEvent) => {
     const target = event.target as HTMLElement;
     const typing = target.matches("input, textarea, select, [contenteditable='true']");
     const navigatingGrid = Boolean(target.closest('[role="grid"]'));
-    if (event.key === "Escape") { setOpenEventId(undefined); return; }
+    // Dialogs and popovers own Escape so a single key press never closes two history entries.
+    if (event.key === "Escape") return;
     if (typing || navigatingGrid || event.metaKey || event.ctrlKey || event.altKey) return;
     if (event.key === "ArrowLeft") shift(-1);
     else if (event.key === "ArrowRight") shift(1);
@@ -310,7 +337,7 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
           <small>{todayEvents.length === 0 ? "Nothing scheduled today" : `${todayEvents.length} ${todayEvents.length === 1 ? "event" : "events"} today`}</small>
         </div>
         <div className="city-calendar-tools">
-          <SearchBox events={events} onPick={jumpTo} />
+          <SearchBox events={events} onPick={openEvent} />
           <div className="calendar-view-switch" aria-label="Calendar view">
             {(["month", "week", "day", "agenda"] as View[]).map((option) => (
               <button key={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} title={`${option === "agenda" ? "Schedule" : option} view · ${option[0].toUpperCase()}`}>
@@ -355,9 +382,9 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
           <section className="calendar-selected-day">
             <header><div><p>{WEEKDAYS_LONG[selected.getDay()]}</p><h2 className="font-display">{selected.getDate()} {MONTHS[selected.getMonth()]}</h2></div><span>{selectedEvents.length}</span></header>
             {selectedEvents.length > 0 ? (
-              <ul>{selectedEvents.map((event) => { const category = categoryById.get(event.category)!; return <li key={event.id}><button type="button" onClick={() => setOpenEventId(event.id)}><i className={category.dot} aria-hidden /><span><strong>{event.title}</strong><small>{event.startTime ? event.startTime : "Time TBA"} · {event.venue}</small></span><ChevronRightIcon className="h-4 w-4" /></button></li>; })}</ul>
+              <ul>{selectedEvents.map((event) => { const category = categoryById.get(event.category)!; return <li key={event.id}><button type="button" onClick={() => openEvent(event)}><i className={category.dot} aria-hidden /><span><strong>{event.title}</strong><small>{event.startTime ? event.startTime : "Time TBA"} · {event.venue}</small></span><ChevronRightIcon className="h-4 w-4" /></button></li>; })}</ul>
             ) : (
-              <p>Nothing scheduled yet. {upcoming ? <>Next up: <button type="button" onClick={() => jumpTo(upcoming)}>{upcoming.title}</button>.</> : "We’re still sourcing the next verified event."}</p>
+              <p>Nothing scheduled yet. {upcoming ? <>Next up: <button type="button" onClick={() => openEvent(upcoming)}>{upcoming.title}</button>.</> : "We’re still sourcing the next verified event."}</p>
             )}
           </section>
 
@@ -382,14 +409,14 @@ export default function CalendarApp({ cityCounts = DEFAULT_CITY_COUNTS }: { city
             <div><span><i aria-hidden />{monthEvents.length} {monthEvents.length === 1 ? "event" : "events"} in {MONTHS[cursor.getMonth()]}</span><a href="/calendar.ics"><CalendarPlusIcon className="h-4 w-4" />Subscribe</a><a href={submitEventUrl} target="_blank" rel="noreferrer">Add an event <ArrowUpRightIcon className="ui-arrow-up-right" /></a></div>
           </header>
 
-          {view === "agenda" && <AgendaView today={today} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={(event) => jumpTo(event)} />}
-          {view === "month" && <MonthView cursor={cursor} selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={(event) => jumpTo(event)} />}
-          {view === "week" && <WeekView selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={(event) => jumpTo(event)} />}
-          {view === "day" && <DayView selected={selected} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={(event) => jumpTo(event)} />}
+          {view === "agenda" && <AgendaView today={today} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={openEvent} />}
+          {view === "month" && <MonthView cursor={cursor} selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={openEvent} />}
+          {view === "week" && <WeekView selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={openEvent} />}
+          {view === "day" && <DayView selected={selected} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={openEvent} />}
         </section>
       </div>
 
-      {openEvent && <div className="city-calendar-detail" key={openEvent.id}><button type="button" className="city-calendar-detail__scrim" onClick={() => setOpenEventId(undefined)} aria-label="Close event details" /><EventDetail event={openEvent} today={today} onClose={() => setOpenEventId(undefined)} /></div>}
+      {openEventRecord && <div className="city-calendar-detail" key={openEventRecord.id}><button type="button" className="city-calendar-detail__scrim" onClick={closeEvent} aria-label="Close event details" /><EventDetail event={openEventRecord} today={today} onClose={closeEvent} /></div>}
       <MyBuzzDrawer open={savedOpen} onClose={() => setSavedOpen(false)} />
     </div>
   );

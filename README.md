@@ -31,9 +31,9 @@ Machine-readable: [`/calendar.ics`](https://kochi.buzz/calendar.ics) ·
 
 ## Stack
 
-Next.js (App Router) · TypeScript · Tailwind CSS · vitest · zod. Calendar-view
-preferences and saved signals remain device-local in browser storage; the site
-does not require an account.
+Next.js (App Router) · TypeScript · Tailwind CSS · vitest · Playwright · zod ·
+Supabase. Calendar-view preferences, saved signals, and the private attendance
+identity remain device-local; public event attendance is stored without accounts.
 
 ```bash
 npm install
@@ -41,6 +41,8 @@ npm run dev            # http://localhost:3000
 npm run build
 npm run lint
 npm test               # sync pipeline + adapter + buzz tests
+npm run test:e2e        # production build + desktop/mobile Chromium journeys
+npm run test:all        # lint + unit + build + desktop/mobile E2E
 npm run sync:data:dry  # fetch sources, report, write nothing
 npm run sync:data      # regenerate data/generated + public/api/v1
 ```
@@ -59,20 +61,27 @@ data/
 `scripts/sync/index.ts` fetches every enabled source (polite: transparent
 `KochiBuzzBot/1.0` user agent, 15s timeout, one retry, small concurrency), validates
 each record individually with zod, filters non-Kochi events, removes expired automated
-records, dedupes events and cross-posted jobs (manual > higher trust), applies overrides,
+records, dedupes events and cross-posted jobs, applies overrides,
 and atomically writes `data/generated/` + `public/api/v1/`. A source failure or suspicious
 zero result never wipes its previously valid data.
+
+Luma pages linked by curated events are fetched directly. Live title, date, time,
+venue, and host changes update the stable Kochi Buzz record, while its curated summary,
+tags, and attendance identity stay intact.
 
 Enabled feeds currently include Infopark, direct Lever and Workable company job feeds,
 GDG Cochin, GDG Cloud Kochi, Luma calendars, and Kerala Startup Mission's official
 events, careers, and open-tenders endpoints. Global calendars are accepted only when
 the event itself contains Kochi-area evidence.
 
-`.github/workflows/sync-data.yml` runs the sync every 4 hours and commits only when
+`.github/workflows/sync-data.yml` runs the sync hourly and commits only when
 generated data actually changed (`data: refresh Kochi.buzz sources`); Vercel deploys
 the change. A rebase-safe push prevents scheduled refreshes from overwriting code
 changes, and one automatically managed GitHub issue exposes hard source/test failures
 until the pipeline recovers.
+
+`.github/workflows/quality.yml` runs lint, unit tests, a production build, and the
+desktop/mobile Playwright suite on every push and pull request to `main`.
 
 ## Contributing data
 

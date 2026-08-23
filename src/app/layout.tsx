@@ -77,7 +77,7 @@ export default function RootLayout({
       >
         <a href="#main-content" className="skip-link">Skip to the calendar</a>
         {children}
-        <Analytics />
+        {process.env.VERCEL && <Analytics />}
       </body>
     </html>
   );

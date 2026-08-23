@@ -38,6 +38,7 @@ import {
   dedupeEvents,
   dedupeJobs,
   dedupeOpportunities,
+  eventsShareCanonicalUrl,
   filterActiveEvents,
   filterActiveJobs,
   filterRelevantEvents,
@@ -115,6 +116,16 @@ async function main() {
     "data/manual/announcements.json",
     z.array(announcementSchema),
   );
+  const linkedLumaEventUrls = manualEvents
+    .map((event) => event.url)
+    .filter((value) => {
+      try {
+        const host = new URL(value).hostname.replace(/^www\./, "");
+        return host === "luma.com" || host === "lu.ma";
+      } catch {
+        return false;
+      }
+    });
   const eventOverrides = readJson(
     "data/overrides/events.json",
     z.record(z.string(), eventSchema.partial()),
@@ -156,7 +167,10 @@ async function main() {
         jobCandidates.push(...jobs);
         records = jobs.length;
       } else if (source.parser === "jsonld-events") {
-        const events = await fetchJsonLdEvents(source);
+        const events = await fetchJsonLdEvents(
+          source,
+          source.id === "luma-kochi" ? linkedLumaEventUrls : [],
+        );
         eventCandidates.push(...events);
         records = events.length;
       } else if (source.parser === "ksum-events") {
@@ -216,8 +230,8 @@ async function main() {
 
   stats.candidates = eventCandidates.length + jobCandidates.length + opportunityCandidates.length;
 
-  // Events: validate → keep live → locality → preserve broken-source records →
-  // dedupe with manual records → overrides.
+  // Events: validate → keep live (plus direct updates for linked manual items)
+  // → locality → preserve broken-source records → dedupe → overrides.
   const previousEvents = readExisting<EventRecord[]>("data/generated/events.json") ?? [];
   const brokenEventSources = new Set(
     health
@@ -229,13 +243,18 @@ async function main() {
     (event.sourceIds ?? []).some((sourceId) => brokenEventSources.has(sourceId)),
   );
   const validIngestedEvents = validateEach(eventCandidates, eventSchema, stats, "event");
-  const activeIngestedEvents = filterActiveEvents(
-    [...validIngestedEvents, ...carriedEvents],
-    today,
+  const ingestedEvents = [...validIngestedEvents, ...carriedEvents];
+  const activeIngestedEvents = filterActiveEvents(ingestedEvents, today);
+  const linkedExpiredEvents = ingestedEvents.filter((event) =>
+    event.end < today
+    && manualEvents.some((manual) => eventsShareCanonicalUrl(manual, event)),
   );
-  stats.expiredEventsDropped = validIngestedEvents.length + carriedEvents.length
-    - activeIngestedEvents.length;
-  const relevance = filterRelevantEvents(activeIngestedEvents);
+  const refreshableIngestedEvents = [
+    ...activeIngestedEvents,
+    ...linkedExpiredEvents.filter((event) => !activeIngestedEvents.includes(event)),
+  ];
+  stats.expiredEventsDropped = ingestedEvents.length - refreshableIngestedEvents.length;
+  const relevance = filterRelevantEvents(refreshableIngestedEvents);
   stats.rejectedIrrelevant = relevance.rejected;
   const deduped = dedupeEvents(
     [...manualEvents, ...relevance.kept],

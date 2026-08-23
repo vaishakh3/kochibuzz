@@ -5,6 +5,7 @@ import {
   comparableTitle,
   dedupeEvents,
   dedupeJobs,
+  eventsShareCanonicalUrl,
   filterActiveEvents,
   filterActiveJobs,
 } from "./pipeline";
@@ -78,6 +79,95 @@ describe("dedupeEvents", () => {
     expect(events).toHaveLength(2);
     expect(merged).toBe(0);
   });
+
+  it("refreshes mutable facts for a manual event linked to a live source", () => {
+    const manual = makeEvent({
+      id: "stable-kochi-id",
+      title: "Curated working title",
+      start: "2026-09-10",
+      end: "2026-09-10",
+      venue: "Venue TBA",
+      organizer: "Kochi community",
+      blurb: "Curated Kochi Buzz description.",
+      tags: ["Builders"],
+      url: "https://luma.com/abc123?utm_source=kochi",
+      sourceUrls: ["https://luma.com/abc123"],
+      sourceIds: [],
+      manual: true,
+    });
+    const live = makeEvent({
+      id: "luma-abc123",
+      title: "Official updated title",
+      start: "2026-09-12",
+      end: "2026-09-12",
+      startTime: "18:30",
+      endTime: "21:00",
+      venue: "TinkerSpace",
+      organizer: "Maya, Kochi Builders",
+      blurb: "Raw source description.",
+      tags: [],
+      url: "https://lu.ma/abc123",
+      sourceUrls: ["https://luma.com/abc123"],
+      sourceIds: ["luma-kochi"],
+      manual: false,
+    });
+
+    const result = dedupeEvents([manual, live], trust);
+    expect(result.merged).toBe(1);
+    expect(result.events).toHaveLength(1);
+    expect(result.events[0]).toMatchObject({
+      id: "stable-kochi-id",
+      title: "Official updated title",
+      start: "2026-09-12",
+      startTime: "18:30",
+      venue: "TinkerSpace",
+      organizer: "Maya, Kochi Builders",
+      blurb: "Curated Kochi Buzz description.",
+      tags: ["Builders"],
+      manual: true,
+    });
+    expect(result.events[0].sourceIds).toContain("luma-kochi");
+  });
+
+  it("keeps the last live facts when a linked source is temporarily unavailable", () => {
+    const manual = makeEvent({
+      id: "stable-kochi-id",
+      title: "Old curated title",
+      start: "2026-09-10",
+      end: "2026-09-10",
+      url: "https://luma.com/abc123",
+      sourceIds: [],
+      manual: true,
+    });
+    const carried = makeEvent({
+      id: "stable-kochi-id",
+      title: "Last verified title",
+      start: "2026-07-28",
+      end: "2026-07-28",
+      startTime: "18:00",
+      url: "https://luma.com/abc123",
+      sourceIds: ["luma-kochi"],
+      manual: true,
+    });
+
+    const result = dedupeEvents([manual, carried], trust);
+    expect(result.events).toHaveLength(1);
+    expect(result.events[0]).toMatchObject({
+      id: "stable-kochi-id",
+      title: "Last verified title",
+      start: "2026-07-28",
+      startTime: "18:00",
+      manual: true,
+    });
+  });
+});
+
+describe("eventsShareCanonicalUrl", () => {
+  it("matches Luma aliases while ignoring tracking parameters", () => {
+    const manual = makeEvent({ url: "https://www.luma.com/abc123?utm_source=kochi" });
+    const live = makeEvent({ url: "https://lu.ma/abc123", sourceUrls: ["https://luma.com/abc123"] });
+    expect(eventsShareCanonicalUrl(manual, live)).toBe(true);
+  });
 });
 
 describe("filterActiveJobs", () => {
@@ -91,12 +181,13 @@ describe("filterActiveJobs", () => {
 });
 
 describe("filterActiveEvents", () => {
-  it("keeps an event through its final day and drops it the day after", () => {
+  it("keeps an event through its final day and preserves the curated archive", () => {
     const ongoing = makeEvent({ id: "ongoing", start: "2026-08-20", end: "2026-08-23" });
     const future = makeEvent({ id: "future", start: "2026-08-24", end: "2026-08-24" });
     const expired = makeEvent({ id: "expired", start: "2026-08-21", end: "2026-08-22" });
-    expect(filterActiveEvents([ongoing, future, expired], "2026-08-23").map((event) => event.id))
-      .toEqual(["ongoing", "future"]);
+    const curated = makeEvent({ id: "curated", start: "2026-07-01", end: "2026-07-01", manual: true });
+    expect(filterActiveEvents([ongoing, future, expired, curated], "2026-08-23").map((event) => event.id))
+      .toEqual(["ongoing", "future", "curated"]);
   });
 });
 

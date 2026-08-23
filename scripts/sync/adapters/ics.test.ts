@@ -29,6 +29,7 @@ describe("parseIcs", () => {
         "DTSTART;TZID=Asia/Kolkata:20260905T100000",
         "DTEND;TZID=Asia/Kolkata:20260905T130000",
         "LOCATION:Infopark\\, Kochi",
+        "ORGANIZER;CN=Kochi Builders:MAILTO:hello@example.com",
         "URL:https://example.com/meetup",
         "END:VEVENT",
       ].join("\r\n"),
@@ -38,6 +39,7 @@ describe("parseIcs", () => {
     expect(event.dtstart).toEqual({ date: "2026-09-05", time: "10:00" });
     expect(event.dtend).toEqual({ date: "2026-09-05", time: "13:00" });
     expect(event.location).toBe("Infopark, Kochi");
+    expect(event.organizer).toBe("Kochi Builders");
   });
 
   it("parses date-only events", () => {
@@ -144,5 +146,36 @@ describe("normalizeIcsEvents", () => {
     const [event] = normalizeIcsEvents(parsed, source);
     expect(event.url).toBe("https://example.com/register");
     expect(event.category).toBe("ai");
+  });
+
+  it("keeps a stable id while reflecting upstream schedule changes", () => {
+    const before = normalizeIcsEvents(parseIcs(vcal([
+      "BEGIN:VEVENT",
+      "UID:evt-live-update",
+      "SUMMARY:Kochi Build Night",
+      "DTSTART;TZID=Asia/Kolkata:20260910T180000",
+      "DTEND;TZID=Asia/Kolkata:20260910T200000",
+      "LOCATION:https://luma.com/event/evt-live-update",
+      "END:VEVENT",
+    ].join("\r\n"))), source)[0];
+    const after = normalizeIcsEvents(parseIcs(vcal([
+      "BEGIN:VEVENT",
+      "UID:evt-live-update",
+      "SUMMARY:Kochi Build Night — New Date",
+      "DTSTART;TZID=Asia/Kolkata:20260912T190000",
+      "DTEND;TZID=Asia/Kolkata:20260912T213000",
+      "LOCATION:TinkerSpace, Kochi",
+      "END:VEVENT",
+    ].join("\r\n"))), source)[0];
+
+    expect(after.id).toBe(before.id);
+    expect(after).toMatchObject({
+      title: "Kochi Build Night — New Date",
+      start: "2026-09-12",
+      startTime: "19:00",
+      endTime: "21:30",
+      venue: "TinkerSpace",
+    });
+    expect(before.venue).toBe("Venue TBA");
   });
 });

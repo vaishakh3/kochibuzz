@@ -39,6 +39,10 @@ function absoluteUrl(value: unknown, baseUrl: string): string | undefined {
 }
 
 function nameOf(value: unknown): string | undefined {
+  if (Array.isArray(value)) {
+    const names = value.map(nameOf).filter((name): name is string => Boolean(name));
+    return names.length > 0 ? names.join(", ") : undefined;
+  }
   if (typeof value === "string") return value.trim() || undefined;
   if (value && typeof value === "object" && typeof (value as JsonObject).name === "string") {
     return ((value as JsonObject).name as string).trim() || undefined;
@@ -137,10 +141,16 @@ export function extractJsonLdEventLinks(html: string, source: SourceDefinition):
   return [...links].slice(0, 30);
 }
 
-export async function fetchJsonLdEvents(source: SourceDefinition): Promise<EventRecord[]> {
+export async function fetchJsonLdEvents(
+  source: SourceDefinition,
+  extraDetailUrls: string[] = [],
+): Promise<EventRecord[]> {
   const landingHtml = await politeFetch(source.url);
   const events = extractJsonLdEvents(landingHtml, source);
-  const links = extractJsonLdEventLinks(landingHtml, source);
+  const links = [...new Set([
+    ...extractJsonLdEventLinks(landingHtml, source),
+    ...extraDetailUrls,
+  ])].slice(0, 30);
   const details = await mapWithConcurrency(links, 4, async (url) =>
     extractJsonLdEvents(await politeFetch(url), source, url),
   );
@@ -149,4 +159,3 @@ export async function fetchJsonLdEvents(source: SourceDefinition): Promise<Event
   }
   return [...new Map(events.map((event) => [event.id, event])).values()];
 }
-

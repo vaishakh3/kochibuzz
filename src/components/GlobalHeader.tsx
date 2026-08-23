@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import { createPortal } from "react-dom";
 import GlobalSearch from "@/components/GlobalSearch";
 import { BrandLockup } from "@/components/signal";
 import { getMyBuzzSnapshot, getServerMyBuzzSnapshot, parseMyBuzz, subscribeMyBuzz } from "@/lib/myBuzz";
@@ -30,6 +31,7 @@ export default function GlobalHeader({ current }: { current: string }) {
   const [searchOpen, setSearchOpen] = useState(false);
   const savedSnapshot = useSyncExternalStore(subscribeMyBuzz, getMyBuzzSnapshot, getServerMyBuzzSnapshot);
   const savedCount = parseMyBuzz(savedSnapshot).length;
+  const portalRoot = typeof document === "undefined" ? null : document.body;
   const exploreRef = useRef<HTMLDivElement>(null);
   const exploreButtonRef = useRef<HTMLButtonElement>(null);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -245,7 +247,7 @@ export default function GlobalHeader({ current }: { current: string }) {
       </div>
 
       {/* Mobile menu */}
-      {menuOpen && (
+      {portalRoot && menuOpen && createPortal((
         <div ref={menuPanelRef} role="dialog" aria-modal="true" aria-label="Site menu" className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg)] md:hidden">
           <div aria-hidden className="pointer-events-none absolute -right-24 top-20 h-72 w-72 rounded-full border-[3rem] border-[#ff6542]/20" />
           <div aria-hidden className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border-[4rem] border-[#d7f24b]/10" />
@@ -306,7 +308,10 @@ export default function GlobalHeader({ current }: { current: string }) {
             <div className="mt-8 flex gap-6">
               <Link
                 href="/?mybuzz=1"
-                onClick={() => setMenuOpen(false)}
+                onClick={(event) => {
+                  setMenuOpen(false);
+                  openMyBuzz(event);
+                }}
                 className="font-[family-name:var(--font-geist-mono)] text-xs uppercase tracking-wider text-[var(--signal)]"
               >
                 My Buzz · {savedCount}
@@ -324,9 +329,12 @@ export default function GlobalHeader({ current }: { current: string }) {
             </div>
           </nav>
         </div>
-      )}
+      ), portalRoot)}
 
-      <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
+      {portalRoot && createPortal(
+        <GlobalSearch open={searchOpen} onClose={() => setSearchOpen(false)} />,
+        portalRoot,
+      )}
     </header>
   );
 }
