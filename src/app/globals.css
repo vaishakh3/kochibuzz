@@ -1755,7 +1755,7 @@ body {
 .calendar-month-day__events { display: flex; min-width: 0; flex-direction: column; gap: .15rem; margin-top: .16rem; }
 .calendar-event-chip { display: block; width: 100%; min-width: 0; overflow: hidden; border: 1px solid rgba(7,23,31,.17); border-radius: .35rem; padding: .3rem .42rem; background: #126f78; box-shadow: 0 2px 0 rgba(5,25,32,.14); color: #fff; text-align: left; transition: transform 150ms ease, filter 150ms ease, opacity 150ms ease; }
 .calendar-event-chip.bg-violet-100 { background: #6248b6; color: #fff; }
-.calendar-event-chip.bg-amber-100 { background: #b96500; color: #fff; }
+.calendar-event-chip.bg-amber-100 { background: #b15b00; color: #fff; }
 .calendar-event-chip.bg-emerald-100 { background: #177556; color: #fff; }
 .calendar-event-chip.bg-sky-100 { background: #176f9c; color: #fff; }
 .calendar-event-chip.bg-rose-100 { background: #b83c58; color: #fff; }
@@ -1764,8 +1764,8 @@ body {
 .calendar-event-chip.bg-orange-100 { background: #b95025; color: #fff; }
 .calendar-event-chip:hover { transform: translateY(-1px); filter: brightness(1.07) saturate(1.05); }
 .calendar-event-chip.is-active { box-shadow: 0 0 0 2px #fff, 0 0 0 4px #102431; }
-.calendar-event-chip.is-past { opacity: .86; filter: saturate(.76); }
-.calendar-event-chip.is-past:hover { opacity: .9; }
+.calendar-event-chip.is-past { opacity: 1; filter: saturate(.78); box-shadow: none; }
+.calendar-event-chip.is-past:hover { filter: saturate(.92) brightness(1.05); }
 .calendar-event-chip__title { display: block; overflow: hidden; font-size: .66rem; font-weight: 780; line-height: 1.18; text-overflow: ellipsis; white-space: nowrap; }
 .calendar-event-chip__meta { display: block; overflow: hidden; margin-top: .1rem; color: rgba(255,255,255,.8); font-size: .625rem; font-weight: 660; text-overflow: ellipsis; white-space: nowrap; }
 .calendar-month-day__events.has-overflow .calendar-event-chip__meta { display: none; }
