@@ -83,6 +83,19 @@ until the pipeline recovers.
 `.github/workflows/quality.yml` runs lint, unit tests, a production build, and the
 desktop/mobile Playwright suite on every push and pull request to `main`.
 
+## Public submissions
+
+`/submit` contains a first-party form for events, opportunities, projects,
+communities, and public data sources. `POST /api/submissions` validates and formats
+the contribution before it reaches the public GitHub review queue.
+
+For direct, account-free issue creation, set `GITHUB_SUBMISSIONS_TOKEN` in the
+deployment environment. Use a fine-grained token restricted to this repository
+with only **Issues: read and write** permission. The token is read only by the
+server route and must never use a broad personal `repo` token. If the variable is
+absent or GitHub is temporarily unavailable, the form retains the entered data
+and hands the user a prepared GitHub issue instead.
+
 ## Contributing data
 
 - Quick one-off: use the forms at [kochi.buzz/submit](https://kochi.buzz/submit)

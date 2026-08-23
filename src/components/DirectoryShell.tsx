@@ -35,6 +35,8 @@ type Props = {
   submitHref?: string;
   /** Optional decorative element rendered behind/beside the page header. */
   headerArt?: React.ReactNode;
+  /** Hide the generic contribution banner on the contribution page itself. */
+  showSubmitCta?: boolean;
   children: React.ReactNode;
 };
 
@@ -48,6 +50,7 @@ export default function DirectoryShell({
   submitLabel = "Submit to Kochi.buzz",
   submitHref = "/submit",
   headerArt,
+  showSubmitCta = true,
   children,
 }: Props) {
   const theme = accents[accent];
@@ -79,18 +82,20 @@ export default function DirectoryShell({
 
         <div className="py-10 sm:py-14">{children}</div>
 
-        <div className="flex flex-wrap items-center justify-between gap-5 rounded-[1.5rem] border border-white/10 bg-white/[0.035] p-6 sm:p-8">
-          <div>
-            <p className="font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--coral)]">Feed the frequency</p>
-            <p className="font-display mt-2 text-2xl font-semibold text-white">Know something we&apos;re missing?</p>
+        {showSubmitCta && (
+          <div className="flex flex-wrap items-center justify-between gap-5 rounded-[1.5rem] border border-white/10 bg-white/[0.035] p-6 sm:p-8">
+            <div>
+              <p className="font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.2em] text-[var(--coral)]">Feed the frequency</p>
+              <p className="font-display mt-2 text-2xl font-semibold text-white">Know something we&apos;re missing?</p>
+            </div>
+            <Link
+              href={submitHref}
+              className="buzz-button buzz-button--primary"
+            >
+              {submitLabel} →
+            </Link>
           </div>
-          <Link
-            href={submitHref}
-            className="buzz-button buzz-button--primary"
-          >
-            {submitLabel} →
-          </Link>
-        </div>
+        )}
       </main>
       <GlobalFooter />
     </div>
