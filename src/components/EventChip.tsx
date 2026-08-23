@@ -35,6 +35,7 @@ export default function EventChip({
 
   return (
     <button
+      type="button"
       onClick={onClick}
       className={[
         "calendar-event-chip",
