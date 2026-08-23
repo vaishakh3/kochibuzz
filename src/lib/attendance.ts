@@ -142,7 +142,7 @@ function parseSnapshot(value: unknown): AttendanceSnapshot {
 
 async function responseSnapshot(response: Response) {
   const body = await response.json().catch(() => ({})) as { error?: unknown };
-  if (!response.ok) throw new Error(typeof body.error === "string" ? body.error : "Attendance could not update.");
+  if (!response.ok) throw new Error(typeof body.error === "string" ? body.error : "Couldn’t update the attendee list.");
   return parseSnapshot(body);
 }
 
