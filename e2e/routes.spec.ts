@@ -45,3 +45,37 @@ test("public calendar, feed, and JSON endpoints stay consumable", async ({ reque
     expect(Array.isArray(body[entity])).toBe(true);
   }
 });
+
+test("brand icons are published for browsers and installed apps", async ({ page, request }) => {
+  await page.goto("/");
+
+  const iconHrefs = await page.locator('link[rel="icon"]').evaluateAll((links) =>
+    links.map((link) => (link as HTMLLinkElement).href),
+  );
+  const appleIconHref = await page.locator('link[rel="apple-touch-icon"]').getAttribute("href");
+
+  expect(iconHrefs.some((href) => href.includes("/favicon.ico"))).toBe(true);
+  expect(iconHrefs.some((href) => href.includes("/icon.png"))).toBe(true);
+  expect(appleIconHref).toContain("/apple-icon.png");
+
+  for (const path of [
+    "/favicon.ico",
+    "/icon.png",
+    "/apple-icon.png",
+    "/icons/kochi-buzz-192.png",
+    "/icons/kochi-buzz-512.png",
+  ]) {
+    const response = await request.get(path);
+    expect(response.status(), path).toBe(200);
+    expect(response.headers()["content-type"], path).toMatch(/^image\//);
+  }
+
+  const manifest = await request.get("/manifest.webmanifest");
+  expect(manifest.status()).toBe(200);
+  const manifestBody = await manifest.json() as { icons?: Array<{ src?: string; purpose?: string }> };
+  expect(manifestBody.icons).toEqual(expect.arrayContaining([
+    expect.objectContaining({ src: "/icons/kochi-buzz-192.png" }),
+    expect.objectContaining({ src: "/icons/kochi-buzz-512.png", purpose: "any" }),
+    expect.objectContaining({ src: "/icons/kochi-buzz-512.png", purpose: "maskable" }),
+  ]));
+});

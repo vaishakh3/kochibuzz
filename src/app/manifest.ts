@@ -16,7 +16,7 @@ export default function manifest(): MetadataRoute.Manifest {
     icons: [
       { src: "/icons/kochi-buzz-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
       { src: "/icons/kochi-buzz-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
-      { src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
+      { src: "/icons/kochi-buzz-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
     ],
     shortcuts: [
       { name: "Open today in Kochi", short_name: "Today", url: "/" },
