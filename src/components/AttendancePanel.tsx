@@ -168,7 +168,7 @@ export default function AttendancePanel({
                 <span key={attendee.id}>{index > 0 && ", "}<b>{attendee.isYou ? "You" : attendee.displayName}</b></span>
               ))}
               {snapshot.count > visibleAttendees.length && ` and ${snapshot.count - visibleAttendees.length} more`}
-              {snapshot.count === 1 ? " is going." : " are going."}
+              {snapshot.count === 1 && !visibleAttendees[0]?.isYou ? " is going." : " are going."}
             </p>
           </div>
         ) : (
