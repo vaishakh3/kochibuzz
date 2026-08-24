@@ -24,6 +24,10 @@ function formatDeadline(iso: string): string {
   });
 }
 
+function getSupportLine(opportunity: (typeof opportunities)[number]): string {
+  return opportunity.benefit ?? opportunity.summary;
+}
+
 export default function OpportunitiesPage() {
   const todayIso = toISODate(todayInIST());
   const open = opportunities
@@ -43,8 +47,9 @@ export default function OpportunitiesPage() {
       current="/opportunities"
       eyebrow="Doors currently open"
       accent="amber"
+      density="compact"
       title={<>Opportunities worth a shot</>}
-      intro="Hackathons, grants, fellowships, accelerator intakes and programs relevant to Kochi's ecosystem — each with its deadline and original source."
+      intro={`${open.length} open programs, grants, fellowships and hackathons — ordered by deadline.`}
       submitLabel="Submit an opportunity"
     >
       {open.length === 0 ? (
@@ -52,74 +57,83 @@ export default function OpportunitiesPage() {
           Nothing open right now.
         </p>
       ) : (
-        <ul>
+        <ul className="border-b border-white/10">
           {open.map((opportunity) => {
             const days =
               opportunity.deadlineAt && !opportunity.ongoing
                 ? daysBetween(todayIso, opportunity.deadlineAt)
                 : undefined;
             const closingSoon = days !== undefined && days <= CLOSING_SOON_DAYS;
+            const deadlineTone =
+              days === 0
+                ? "border-[var(--ember)]/35 bg-[var(--ember)]/10 text-[var(--ember)]"
+                : closingSoon
+                  ? "border-amber-300/25 bg-amber-300/[0.07] text-amber-200"
+                  : opportunity.ongoing || !opportunity.deadlineAt
+                    ? "border-[var(--signal)]/20 bg-[var(--signal)]/[0.06] text-[var(--signal)]"
+                    : "border-white/10 bg-white/[0.025] text-white/82";
             return (
-              <li key={opportunity.id} id={opportunity.id} className="flex flex-col border-t border-white/10 sm:flex-row sm:items-center sm:gap-2">
+              <li
+                key={opportunity.id}
+                id={opportunity.id}
+                className="flex items-start gap-2 border-t border-white/10 transition-colors hover:bg-white/[0.018] sm:gap-4"
+              >
                 <a
                   href={opportunity.applicationUrl ?? opportunity.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex h-full min-w-0 flex-1 gap-5 py-6 transition hover:bg-white/[0.02]"
+                  className="group flex min-w-0 flex-1 gap-3 py-4 pl-1 sm:gap-5 sm:py-5 sm:pl-2"
                 >
-                  {/* Deadline is the signal */}
-                  <div className="w-20 shrink-0 text-center">
+                  <div
+                    className={`flex h-12 w-12 shrink-0 flex-col items-center justify-center rounded-xl border text-center sm:h-14 sm:w-14 ${deadlineTone}`}
+                  >
                     {opportunity.ongoing || !opportunity.deadlineAt ? (
-                      <span className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/72">
-                        {opportunity.ongoing ? "Rolling" : "TBA"}
-                      </span>
+                      <>
+                        <span className="text-sm font-bold leading-none">
+                          {opportunity.ongoing ? "Open" : "TBA"}
+                        </span>
+                        <span className="mt-1 font-[family-name:var(--font-geist-mono)] text-[8px] font-semibold uppercase tracking-[0.12em] opacity-70">
+                          {opportunity.ongoing ? "rolling" : "date"}
+                        </span>
+                      </>
                     ) : (
                       <>
                         <span
-                          className={[
-                            "font-display block text-4xl font-semibold leading-none",
-                            days === 0
-                              ? "text-[var(--ember)]"
-                              : closingSoon
-                                ? "text-amber-300"
-                                : "text-[var(--signal)]",
-                          ].join(" ")}
+                          className="block text-lg font-bold leading-none tabular-nums sm:text-xl"
                         >
                           {days}
                         </span>
-                        <span className="font-[family-name:var(--font-geist-mono)] mt-1 block text-[10px] uppercase tracking-wider text-white/72">
-                          {days === 0 ? "closes today" : days === 1 ? "day left" : "days left"}
+                        <span className="mt-1 block font-[family-name:var(--font-geist-mono)] text-[8px] font-semibold uppercase tracking-[0.1em] opacity-70">
+                          {days === 0 ? "today" : days === 1 ? "day left" : "days left"}
                         </span>
                       </>
                     )}
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="font-[family-name:var(--font-geist-mono)] text-[10px] uppercase tracking-wider text-white/70">
+                    <p className="font-[family-name:var(--font-geist-mono)] text-[9px] font-bold uppercase tracking-[0.18em] text-amber-200/75 sm:text-[10px]">
                       {opportunityTypeLabels[opportunity.type]}
                     </p>
-                    <h2 className="mt-1 text-[17px] font-semibold text-white group-hover:text-[var(--signal)]">
+                    <h2 className="mt-1 text-[15px] font-semibold leading-snug text-white transition-colors group-hover:text-[var(--signal)] sm:text-base">
                       {opportunity.title}
                     </h2>
-                    <p className="mt-0.5 text-xs text-white/50">
+                    <p className="mt-1 truncate text-xs font-medium text-white/48">
                       {opportunity.organization}
                     </p>
-                    <p className="mt-2 text-sm leading-relaxed text-white/55">
-                      {opportunity.summary}
+                    <p className="mt-2 line-clamp-1 text-[13px] leading-relaxed text-white/62 sm:text-sm">
+                      {getSupportLine(opportunity)}
                     </p>
-                    <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-white/72">
-                      {opportunity.deadlineAt && !opportunity.ongoing && (
-                        <span>Deadline: {formatDeadline(opportunity.deadlineAt)}</span>
-                      )}
-                      {opportunity.benefit && <span>{opportunity.benefit}</span>}
-                      <span className="font-medium text-white/60 transition group-hover:text-[var(--signal)]">
-                        {opportunity.applicationUrl ? "Apply" : "Details"} →
-                      </span>
-                    </div>
+                    <p className="mt-2 font-[family-name:var(--font-geist-mono)] text-[9px] font-medium uppercase tracking-[0.08em] text-white/42 sm:text-[10px]">
+                      {opportunity.deadlineAt && !opportunity.ongoing
+                        ? `Closes ${formatDeadline(opportunity.deadlineAt)}`
+                        : opportunity.ongoing
+                          ? "Applications accepted on a rolling basis"
+                          : "Deadline to be announced"}
+                    </p>
                   </div>
                 </a>
                 <SaveToBuzzButton
                   compact
-                  className="-mt-4 mb-5 ml-[6.25rem] min-h-9 shrink-0 self-start px-3 py-1.5 text-xs sm:m-0 sm:self-auto"
+                  className="mt-4 h-10 min-h-10 w-10 shrink-0 self-start p-0 text-[0] [&>span]:text-sm sm:mt-5"
                   item={{
                     id: `opportunity:${opportunity.id}`,
                     kind: "opportunity",
@@ -139,18 +153,18 @@ export default function OpportunitiesPage() {
       )}
 
       {closed.length > 0 && (
-        <section className="mt-10">
-          <h2 className="text-[11px] font-semibold uppercase tracking-[0.3em] text-white/65">
+        <section className="mt-12">
+          <h2 className="font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-[0.22em] text-white/48">
             Recently closed
           </h2>
-          <ul className="mt-3 space-y-1.5">
+          <ul className="mt-3 border-b border-white/[0.06]">
             {closed.map((opportunity) => (
               <li
                 key={opportunity.id}
-                className="flex flex-wrap items-baseline gap-x-3 border-t border-white/[0.06] py-2.5 text-sm text-white/70"
+                className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t border-white/[0.06] py-3 text-sm text-white/52"
               >
-                <span>{opportunity.title}</span>
-                <span className="text-xs">
+                <span className="font-medium">{opportunity.title}</span>
+                <span className="font-[family-name:var(--font-geist-mono)] text-[9px] uppercase tracking-[0.08em] text-white/35">
                   closed {formatDeadline(opportunity.deadlineAt!)}
                 </span>
               </li>

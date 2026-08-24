@@ -47,7 +47,7 @@ export default function WeekView({
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       <div
-        className="grid border-b border-slate-200 px-2 pb-3"
+        className="calendar-week-days"
         style={{ gridTemplateColumns: `64px repeat(${columns.length}, minmax(0, 1fr))` }}
       >
         <span />
@@ -58,29 +58,27 @@ export default function WeekView({
               key={toISODate(day)}
               onClick={() => onSelectDate(day)}
               className={[
-                "mx-1 rounded-2xl px-2 py-2 text-center transition",
-                isSelected
-                  ? "bg-slate-900 text-white"
-                  : "bg-slate-100/70 text-slate-600 hover:bg-slate-200/70",
+                "calendar-week-day",
+                isSelected ? "is-selected" : "",
               ].join(" ")}
             >
-              <span className="block text-[11px] font-medium opacity-70">
+              <span>
                 {WEEKDAYS[day.getDay()]}
                 {isSameDay(day, today) ? " · today" : ""}
               </span>
-              <span className="block text-lg font-semibold leading-tight">
+              <strong>
                 {day.getDate()}
-              </span>
+              </strong>
             </button>
           );
         })}
       </div>
 
       <div
-        className="grid border-b border-slate-200 bg-slate-50/60 px-2 py-2"
+        className="calendar-week-all-day"
         style={{ gridTemplateColumns: `64px repeat(${columns.length}, minmax(0, 1fr))` }}
       >
-        <span className="pl-1 text-[10px] font-medium uppercase tracking-wide text-slate-600">
+        <span>
           All day
         </span>
         {columns.map((day) => {
@@ -103,7 +101,7 @@ export default function WeekView({
         })}
       </div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto px-2 pb-4">
+      <div className="calendar-week-hours">
         <div
           className="relative grid"
           style={{
@@ -115,7 +113,7 @@ export default function WeekView({
             {hours.map((hour, i) => (
               <span
                 key={hour}
-                className="absolute right-3 -translate-y-1/2 text-[11px] font-medium text-slate-600"
+                className="calendar-week-hour"
                 style={{ top: i * HOUR_HEIGHT }}
               >
                 {formatTime(`${hour}:00`)}
@@ -128,13 +126,13 @@ export default function WeekView({
             return (
               <div
                 key={toISODate(day)}
-                className="relative border-l border-slate-100"
+                className="calendar-week-column"
                 onClick={() => onSelectDate(day)}
               >
                 {hours.map((hour, i) => (
                   <span
                     key={hour}
-                    className="absolute left-0 right-0 border-t border-slate-100"
+                    className="calendar-week-rule"
                     style={{ top: i * HOUR_HEIGHT }}
                   />
                 ))}
@@ -157,23 +155,19 @@ export default function WeekView({
                       }}
                       style={{ top, height }}
                       className={[
-                        "absolute left-1 right-1 overflow-hidden rounded-2xl px-2.5 py-2 text-left ring-1 transition",
-                        category.chip,
-                        event.id === selectedEventId
-                          ? "ring-2 ring-slate-900/50"
-                          : "hover:brightness-[0.97]",
-                        isPast(event, today)
-                          ? "opacity-45 saturate-50 hover:opacity-80"
-                          : "",
+                        "calendar-week-event",
+                        event.id === selectedEventId ? "is-active" : "",
+                        isPast(event, today) ? "is-past" : "",
                       ].join(" ")}
                     >
-                      <span className="block truncate text-xs font-semibold leading-tight">
+                      <i className={category.bar} aria-hidden />
+                      <span className="calendar-week-event__title">
                         {event.title}
                       </span>
-                      <span className="mt-0.5 block truncate text-[10px] font-medium opacity-70">
+                      <span className="calendar-week-event__time">
                         {formatTimeRange(event)}
                       </span>
-                      <span className="mt-1 block truncate text-[10px] opacity-60">
+                      <span className="calendar-week-event__venue">
                         {event.venue}
                       </span>
                     </button>

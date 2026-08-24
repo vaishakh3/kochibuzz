@@ -18,9 +18,14 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
     const bounds = await grid.boundingBox();
     expect(bounds).not.toBeNull();
     expect(bounds!.y + bounds!.height).toBeLessThanOrEqual(900);
+    await expect(page.locator(".city-calendar-rail")).toHaveCount(0);
   } else {
     await expect(page.getByRole("heading", { name: "The city schedule" })).toBeVisible();
     await expect(page.getByRole("button", { name: /open menu/i })).toBeVisible();
+    await expect(page.locator(".calendar-filter-menu > summary")).toBeVisible();
+    await expect(page.locator(".city-calendar-mobile-layers")).toHaveCount(0);
+    await page.getByRole("button", { name: /month/i }).click();
+    await expect(page.locator(".city-dayticker")).toBeHidden();
   }
 
   await expectNoHorizontalOverflow(page);

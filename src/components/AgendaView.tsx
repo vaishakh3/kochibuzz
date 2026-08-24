@@ -51,43 +51,29 @@ function EventRow({
       onClick={() => onOpenEvent(event)}
       data-event-start={muted ? undefined : event.start}
       className={[
-        "flex w-full items-center gap-4 rounded-2xl bg-white p-3.5 text-left ring-1 transition sm:p-4",
-        event.id === selectedEventId
-          ? "ring-2 ring-slate-900/70"
-          : "ring-slate-200 hover:ring-slate-300",
-        muted ? "opacity-60 hover:opacity-100" : "",
+        "calendar-agenda-event",
+        event.id === selectedEventId ? "is-active" : "",
+        muted ? "is-muted" : "",
       ].join(" ")}
     >
-      <span className="grid w-12 shrink-0 place-items-center rounded-2xl bg-slate-50 py-2 ring-1 ring-slate-100">
-        <span className="text-lg font-semibold leading-none text-slate-900">
-          {start.getDate()}
-        </span>
-        <span className="mt-1 text-[10px] font-medium uppercase text-slate-600">
-          {MONTHS[start.getMonth()].slice(0, 3)}
-        </span>
+      <span className="calendar-agenda-date">
+        <strong>{start.getDate()}</strong>
+        <small>{MONTHS[start.getMonth()].slice(0, 3)}</small>
       </span>
-      <span className="min-w-0 flex-1">
-        <span className="flex flex-wrap items-center gap-2">
-          <span className="truncate text-[15px] font-semibold text-slate-900">
-            {event.title}
-          </span>
-          <span
-            className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ring-1 ${category.chip}`}
-          >
-            {category.label}
-          </span>
+      <span className="calendar-agenda-copy">
+        <span className="calendar-agenda-title">
+          <strong>{event.title}</strong>
+          <span><i className={category.dot} aria-hidden />{category.label}</span>
           {event.travel && (
-            <span className="rounded-full bg-slate-900 px-2 py-0.5 text-[10px] font-semibold text-white">
-              Outside Kochi
-            </span>
+            <em>Worth the trip</em>
           )}
         </span>
-        <span className="mt-1 block text-xs text-slate-500">
+        <span className="calendar-agenda-meta">
           {formatDateRange(event)} · {formatTimeRange(event)} · {event.venue},{" "}
           {event.city}
         </span>
       </span>
-      <span className="hidden shrink-0 rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-semibold text-slate-500 sm:block">
+      <span className="calendar-agenda-countdown">
         {countdownLabel(event, today)}
       </span>
     </button>
@@ -106,24 +92,46 @@ export default function AgendaView({
   const selectedIsPast = past.some((event) => event.id === selectedEventId);
 
   return (
-    <div className="min-h-0 flex-1 overflow-y-auto px-4 py-4 sm:px-6 sm:py-5">
+    <div className="calendar-agenda">
+      {upcoming.length === 0 ? (
+        <p className="calendar-agenda-empty">
+          Nothing upcoming in this selection yet — try enabling more categories.
+        </p>
+      ) : (
+        groupByMonth(upcoming).map(([month, monthEvents]) => (
+          <section key={month} className="calendar-agenda-month">
+            <h2>{month}</h2>
+            <ul>
+              {monthEvents.map((event) => (
+                <li key={event.id}>
+                  <EventRow
+                    event={event}
+                    today={today}
+                    selectedEventId={selectedEventId}
+                    onOpenEvent={onOpenEvent}
+                  />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      )}
+
       {past.length > 0 && (
         <details
           open={selectedIsPast}
-          className="group mb-8 rounded-2xl bg-slate-50 px-4 py-3 ring-1 ring-slate-100"
+          className="calendar-agenda-archive group"
         >
-          <summary className="flex cursor-pointer list-none items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-slate-800">
+          <summary>
             <ChevronRightIcon className="h-3.5 w-3.5 transition group-open:rotate-90" />
             Archive · {past.length} past{" "}
             {past.length === 1 ? "event" : "events"}
           </summary>
-          <div className="mt-3 space-y-6">
+          <div>
             {groupByMonth(past).map(([month, monthEvents]) => (
               <section key={month}>
-                <h3 className="text-xs font-semibold uppercase tracking-[0.15em] text-slate-600">
-                  {month}
-                </h3>
-                <ul className="mt-2 space-y-2.5">
+                <h3>{month}</h3>
+                <ul>
                   {monthEvents.map((event) => (
                     <li key={event.id}>
                       <EventRow
@@ -140,32 +148,6 @@ export default function AgendaView({
             ))}
           </div>
         </details>
-      )}
-
-      {upcoming.length === 0 ? (
-        <p className="rounded-2xl bg-slate-50 px-4 py-6 text-center text-sm text-slate-500 ring-1 ring-slate-100">
-          Nothing upcoming in this selection yet — try enabling more categories.
-        </p>
-      ) : (
-        groupByMonth(upcoming).map(([month, monthEvents]) => (
-          <section key={month} className="mb-8">
-            <h2 className="sticky top-0 z-10 -mx-2 scroll-mt-2 bg-white/95 px-2 py-2 text-sm font-semibold uppercase tracking-[0.15em] text-slate-600 backdrop-blur">
-              {month}
-            </h2>
-            <ul className="mt-2 space-y-2.5">
-              {monthEvents.map((event) => (
-                <li key={event.id}>
-                  <EventRow
-                    event={event}
-                    today={today}
-                    selectedEventId={selectedEventId}
-                    onOpenEvent={onOpenEvent}
-                  />
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))
       )}
     </div>
   );

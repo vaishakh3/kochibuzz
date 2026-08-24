@@ -172,9 +172,7 @@ export default function MonthView({
 
   function selectDay(day: Date, dayEvents: TechEvent[]) {
     onSelectDate(day);
-    if (dayEvents.length > 0 && window.matchMedia("(max-width: 1023px)").matches) {
-      setOpenDay(day);
-    }
+    if (dayEvents.length > 0) setOpenDay(day);
   }
 
   return (

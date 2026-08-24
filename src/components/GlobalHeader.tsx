@@ -114,21 +114,18 @@ export default function GlobalHeader({ current }: { current: string }) {
 
   const linkClass = (href: string) =>
     [
-      "rounded-full px-3 py-2 text-[13px] font-semibold transition",
+      "relative px-3 py-4 text-[13px] font-semibold transition",
       href === current
-        ? "bg-[var(--signal)] text-[var(--signal-ink)]"
-        : "text-white/58 hover:bg-white/[0.06] hover:text-white",
+        ? "text-white after:absolute after:inset-x-3 after:-bottom-px after:h-0.5 after:bg-[var(--signal)]"
+        : "text-white/58 hover:text-white",
     ].join(" ");
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[#0b0b12]/90 backdrop-blur-xl">
-      <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-5 px-4 sm:px-6">
+      <div className="mx-auto flex h-14 w-full max-w-[1600px] items-center gap-5 px-4 sm:px-6">
         <Link href="/" className="shrink-0 text-[17px] text-white">
           <BrandLockup pulse={current === "/"} />
         </Link>
-        <span className="hidden border-l border-white/[0.12] pl-4 font-[family-name:var(--font-geist-mono)] text-[10px] uppercase leading-relaxed tracking-[0.18em] text-white/65 xl:block">
-          The city<br />by date
-        </span>
 
         {/* Desktop nav */}
         <nav aria-label="Primary" className="hidden items-center gap-0.5 md:flex">
@@ -144,10 +141,10 @@ export default function GlobalHeader({ current }: { current: string }) {
               aria-expanded={exploreOpen}
               aria-haspopup="menu"
               className={[
-                "flex items-center gap-1 rounded-full px-3 py-2 text-[13px] font-semibold transition",
+                "relative flex items-center gap-1 px-3 py-4 text-[13px] font-semibold transition",
                 exploreActive
-                  ? "bg-[var(--signal)] text-[var(--signal-ink)]"
-                  : "text-white/58 hover:bg-white/[0.06] hover:text-white",
+                  ? "text-white after:absolute after:inset-x-3 after:-bottom-px after:h-0.5 after:bg-[var(--signal)]"
+                  : "text-white/58 hover:text-white",
               ].join(" ")}
             >
               Explore
@@ -195,11 +192,11 @@ export default function GlobalHeader({ current }: { current: string }) {
           >
             <span className="hidden xl:inline">My Buzz</span>
             <span aria-hidden>◎</span>
-            <b>{savedCount}</b>
+            <b className={savedCount > 0 ? "has-saved" : ""}>{savedCount}</b>
           </Link>
           <button
             onClick={() => setSearchOpen(true)}
-            className="flex h-10 items-center gap-2 rounded-full bg-white/[0.055] px-3 text-sm text-white/50 ring-1 ring-white/10 transition hover:bg-white/[0.09] hover:text-white"
+            className="flex h-9 items-center gap-2 rounded-lg px-2 text-sm text-white/48 transition hover:bg-white/[0.05] hover:text-white"
             aria-label="Search"
           >
             <svg aria-hidden viewBox="0 0 16 16" className="h-3.5 w-3.5">
@@ -219,7 +216,7 @@ export default function GlobalHeader({ current }: { current: string }) {
                 href={item.href}
                 aria-current={item.href === current ? "page" : undefined}
                 className={[
-                  "rounded-full px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-wider transition",
+                  "rounded-lg px-3 py-2 font-[family-name:var(--font-geist-mono)] text-[10px] font-bold uppercase tracking-wider transition",
                   item.href === current
                     ? "bg-white/10 text-[var(--signal)]"
                     : item.href === "/submit"
@@ -237,7 +234,7 @@ export default function GlobalHeader({ current }: { current: string }) {
             ref={menuButtonRef}
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
-            className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10 md:hidden"
+            className="grid h-9 w-9 place-items-center rounded-lg text-white/70 transition hover:bg-white/[0.05] hover:text-white md:hidden"
           >
             <svg aria-hidden viewBox="0 0 16 16" className="h-4 w-4 text-white/80">
               <path d="M2 4.5h12M2 8h12M2 11.5h8" stroke="currentColor" strokeWidth="1.3" />
@@ -249,9 +246,7 @@ export default function GlobalHeader({ current }: { current: string }) {
       {/* Mobile menu */}
       {portalRoot && menuOpen && createPortal((
         <div ref={menuPanelRef} role="dialog" aria-modal="true" aria-label="Site menu" className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg)] md:hidden">
-          <div aria-hidden className="pointer-events-none absolute -right-24 top-20 h-72 w-72 rounded-full border-[3rem] border-[#ff6542]/20" />
-          <div aria-hidden className="pointer-events-none absolute -bottom-32 -left-32 h-96 w-96 rounded-full border-[4rem] border-[#d7f24b]/10" />
-          <div className="relative flex h-16 items-center justify-between border-b border-white/10 px-4">
+          <div className="relative flex h-14 items-center justify-between border-b border-white/10 px-4">
             <Link href="/" className="text-[17px] text-white" onClick={() => setMenuOpen(false)}>
               <BrandLockup />
             </Link>
@@ -259,7 +254,7 @@ export default function GlobalHeader({ current }: { current: string }) {
               ref={menuCloseRef}
               onClick={() => setMenuOpen(false)}
               aria-label="Close menu"
-              className="grid h-10 w-10 place-items-center rounded-full bg-white/[0.05] ring-1 ring-white/10"
+              className="grid h-9 w-9 place-items-center rounded-lg text-white/70 transition hover:bg-white/[0.05] hover:text-white"
             >
               <svg aria-hidden viewBox="0 0 16 16" className="h-4 w-4 text-white/80">
                 <path d="M3.5 3.5l9 9M12.5 3.5l-9 9" stroke="currentColor" strokeWidth="1.3" />

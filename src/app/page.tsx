@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
 import GlobalHeader from "@/components/GlobalHeader";
 import { events } from "@/data/events";
-import { jobs, opportunities } from "@/data/dataset";
-import { communityDirectory } from "@/data/directory";
 import { eventListJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -23,8 +21,8 @@ export default function CalendarHome() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: eventListJsonLd(events) }}
       />
-      <main id="main-content" className="min-h-0 flex-1 px-2 pb-2 pt-2 sm:px-4 sm:pb-4 sm:pt-3">
-        <CalendarApp cityCounts={{ jobs: jobs.length, opportunities: opportunities.length, communities: communityDirectory.length }} />
+      <main id="main-content" className="min-h-0 flex-1 sm:px-4 sm:pb-4 sm:pt-3">
+        <CalendarApp />
       </main>
     </div>
   );

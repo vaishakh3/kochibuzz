@@ -99,6 +99,16 @@ is worth planning next and what else is open in the city. The device remembers
 the visitor's preferred view and saved queue without requiring an account. ICS,
 RSS, the digest and installable app shortcuts extend this into a return habit.
 
+### Calendar hierarchy
+
+The calendar follows the **Quiet city datebook** rule. Its reading order is:
+current date and next event; month or schedule scan; views and filters; then
+subscription and provenance. Ink and warm paper should occupy most of the
+surface. Chartreuse identifies the current state, coral identifies contribution
+or urgency, lagoon carries quiet information, and category hues stay confined
+to dots or short rails. Do not restore weekday rainbow fills, permanent filter
+sidebars, nested event cards or parallel control bands on mobile.
+
 ## Guardrails
 
 - Never decorate every surface. Alternate quiet data density with one strong

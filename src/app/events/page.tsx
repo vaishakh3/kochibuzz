@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import CalendarApp from "@/components/CalendarApp";
 import GlobalHeader from "@/components/GlobalHeader";
 import { eventById, events } from "@/data/events";
-import { jobs, opportunities } from "@/data/dataset";
-import { communityDirectory } from "@/data/directory";
 import { formatDateRange } from "@/lib/calendar";
 import { eventJsonLd, eventListJsonLd } from "@/lib/schema";
 
@@ -53,8 +51,8 @@ export default async function EventsPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLd }}
       />
-      <main id="main-content" className="min-h-0 flex-1 px-2 pb-2 pt-2 sm:px-4 sm:pb-4 sm:pt-3">
-        <CalendarApp cityCounts={{ jobs: jobs.length, opportunities: opportunities.length, communities: communityDirectory.length }} />
+      <main id="main-content" className="min-h-0 flex-1 sm:px-4 sm:pb-4 sm:pt-3">
+        <CalendarApp />
       </main>
     </div>
   );

@@ -19,24 +19,21 @@ export default function JobsPage() {
   return (
     <DirectoryShell
       current="/jobs"
-      eyebrow="Synced from direct, public hiring sources"
+      eyebrow="Kochi tech jobs"
       accent="teal"
+      density="compact"
       title={
         <>
-          <span className="text-[var(--signal)]">{jobs.length} live roles</span>
-          <br />
-          in Kochi tech
+          Find your next role<span className="text-[var(--signal)]">.</span>
         </>
       }
-      intro="Kochi-area openings from Infopark and direct company hiring feeds, refreshed automatically through the day. Every listing links back to the original posting."
+      intro={`${jobs.length} live Kochi-area openings, refreshed through the day.`}
       submitLabel="Suggest a job source"
     >
       <JobsExplorer jobs={jobs} todayIso={todayIso} newDays={NEW_DAYS} />
-      <p className="mt-8 text-[11px] leading-relaxed text-white/65">
-        Sources: Infopark&apos;s official listings plus public Lever and Workable
-        company feeds. Location checks run before publication; listings past
-        their apply-by date are removed automatically. Apply on the original
-        company page — kochi.buzz never handles applications.
+      <p className="mt-7 max-w-3xl text-[11px] leading-relaxed text-white/42">
+        Listings come from Infopark and public company feeds. Expired roles are
+        removed automatically; applications always happen on the original site.
       </p>
     </DirectoryShell>
   );
