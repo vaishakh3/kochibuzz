@@ -19,8 +19,14 @@ const fraunces = Fraunces({
   axes: ["opsz"],
 });
 
+const siteUrl = "https://www.kochi.buzz";
+const socialImageUrl = `${siteUrl}/social/kochi-buzz-preview-v2.jpg`;
+const socialTitle = "Kochi Buzz — The city, by date";
+const socialDescription =
+  "Kochi’s live city calendar — events, people, jobs and opportunities worth showing up for.";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kochi.buzz"),
+  metadataBase: new URL(siteUrl),
   title: "Kochi Buzz — The Kochi Calendar",
   description:
     "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
@@ -33,28 +39,28 @@ export const metadata: Metadata = {
   },
   formatDetection: { telephone: false },
   openGraph: {
-    title: "Kochi Buzz — The Kochi Calendar",
-    description:
-      "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
-    url: "https://kochi.buzz",
+    title: socialTitle,
+    description: socialDescription,
+    url: siteUrl,
     siteName: "kochi.buzz",
     locale: "en_IN",
     type: "website",
     images: [
       {
-        url: "/og.png",
+        url: socialImageUrl,
+        secureUrl: socialImageUrl,
         width: 1200,
         height: 630,
-        alt: "Kochi Buzz — The Kochi Calendar",
+        type: "image/jpeg",
+        alt: socialTitle,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kochi Buzz — The Kochi Calendar",
-    description:
-      "The source-backed city calendar for Kochi — events, meetups, workshops, jobs and opportunities worth showing up for.",
-    images: ["/og.png"],
+    title: socialTitle,
+    description: socialDescription,
+    images: [{ url: socialImageUrl, alt: socialTitle }],
   },
 };
 

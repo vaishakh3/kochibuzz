@@ -22,8 +22,8 @@ export async function generateMetadata({
       description:
         "The full Kochi tech events calendar — hackathons, meetups, conferences and summits in and around Kochi.",
       alternates: { canonical: "/events" },
-      openGraph: { images: ["/og.png"] },
-      twitter: { images: ["/og.png"] },
+      openGraph: { images: ["/social/kochi-buzz-preview-v2.jpg"] },
+      twitter: { images: ["/social/kochi-buzz-preview-v2.jpg"] },
     };
   }
   const title = `${event.title} — kochi.buzz`;

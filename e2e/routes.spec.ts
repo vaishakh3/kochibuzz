@@ -79,3 +79,21 @@ test("brand icons are published for browsers and installed apps", async ({ page,
     expect.objectContaining({ src: "/icons/kochi-buzz-512.png", purpose: "maskable" }),
   ]));
 });
+
+test("the homepage publishes a crawler-ready social preview", async ({ page, request }) => {
+  await page.goto("/");
+
+  await expect(page.locator('meta[property="og:image"]')).toHaveAttribute(
+    "content",
+    "https://www.kochi.buzz/social/kochi-buzz-preview-v2.jpg",
+  );
+  await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute("content", "1200");
+  await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute("content", "630");
+  await expect(page.locator('meta[property="og:image:type"]')).toHaveAttribute("content", "image/jpeg");
+  await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute("content", "summary_large_image");
+
+  const image = await request.get("/social/kochi-buzz-preview-v2.jpg");
+  expect(image.status()).toBe(200);
+  expect(image.headers()["content-type"]).toBe("image/jpeg");
+  expect((await image.body()).byteLength).toBeLessThan(800_000);
+});

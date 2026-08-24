@@ -70,9 +70,10 @@ geometry, monsoon light, maker spaces and people gathering. Avoid postcard
 tourism, generic circuit boards, humanoid robots and neon cyberpunk skylines.
 The city should feel specific even when the treatment is abstract.
 
-The primary social artwork is `public/og.png`: a tactile Kochi month grid where
-the estuary, ferry, metro and port infrastructure become calendar notation. The
-people-first broadcast artwork remains at
+The primary social card is `public/social/kochi-buzz-preview-v2.jpg`: a compact
+ink-and-paper composition where Kochi's metro, estuary, port and people become
+a living city signal. Its editable source artwork and generation notes live in
+`assets/social/`. The people-first broadcast artwork remains at
 `public/images/broadcast/kochi-on-air.webp`, and the original city-system artwork
 at `public/images/kochi-city-frequency.webp`. All were generated for Kochi Buzz
 and should anchor future commissioned imagery.
