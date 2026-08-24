@@ -158,17 +158,17 @@
       "firstSeenAt": "2026-08-24"
     },
     {
-      "id": "infopark-259-25167",
-      "title": "Technical Solutions Architect-12-15 years",
-      "company": "Thomsun Infocare LLP",
-      "postedAt": "2026-08-22",
+      "id": "infopark-91-25182",
+      "title": "Business Development Executive (BDE)",
+      "company": "iDatalytics Pvt. Ltd",
+      "postedAt": "2026-08-24",
       "deadlineAt": "2026-09-30",
       "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/259/25167",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/91/25182",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-22"
+      "firstSeenAt": "2026-08-24"
     },
     {
       "id": "infopark-118-25159",
@@ -214,7 +214,7 @@
       "title": "Digital Marketing Executive",
       "company": "Tranzmeo",
       "postedAt": "2026-08-21",
-      "deadlineAt": "2026-08-24",
+      "deadlineAt": "2026-08-31",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/157/25164",
@@ -2712,6 +2712,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-157-24557",
+      "title": "Customer Support Executive",
+      "company": "Tranzmeo",
+      "postedAt": "2026-07-09",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/24557",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-24"
+    },
+    {
       "id": "infopark-4-24546",
       "title": "Senior AI Evals QA Tester- Payment & Card (FinTech)",
       "company": "Art Technology and Software",
@@ -3557,6 +3570,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-157-23863",
+      "title": "Junior Software Engineer Intern- AI ML",
+      "company": "Tranzmeo",
+      "postedAt": "2026-06-02",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23863",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-24"
+    },
+    {
       "id": "infopark-351-23854",
       "title": "Business Immigration Analyst (3+ yrs of exp with Excellent written and verbal communication skills in English)",
       "company": "Stepping Stone Consultancy Services",
@@ -3591,6 +3617,19 @@
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/76/23861",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-24"
+    },
+    {
+      "id": "infopark-157-23829",
+      "title": "Executive Assistant Trainee",
+      "company": "Tranzmeo",
+      "postedAt": "2026-06-01",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23829",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-24"
@@ -3892,6 +3931,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-157-23344",
+      "title": "Technical Support Executive",
+      "company": "Tranzmeo",
+      "postedAt": "2026-05-04",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23344",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-24"
+    },
+    {
       "id": "infopark-340-23337",
       "title": "Senior Product Manager",
       "company": "Classic Technologies & Business Solutions Pvt. Ltd",
@@ -4149,6 +4201,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-157-23112",
+      "title": "HR Internship",
+      "company": "Tranzmeo",
+      "postedAt": "2026-04-21",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23112",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-24"
     },
     {
       "id": "paytm-payments-kochi-lever-3e094b6b-9390-4cb1-9132-4d89188eaf4c",
