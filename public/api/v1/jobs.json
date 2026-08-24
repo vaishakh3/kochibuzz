@@ -28,71 +28,6 @@
       "firstSeenAt": "2026-08-24"
     },
     {
-      "id": "infopark-312-25169",
-      "title": "Associate - QA Engineer",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-08-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/25169",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-24"
-    },
-    {
-      "id": "infopark-312-25170",
-      "title": "Business Development Manager",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-08-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/25170",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-24"
-    },
-    {
-      "id": "infopark-312-25172",
-      "title": "Associate - System Engineer",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-08-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/25172",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-24"
-    },
-    {
-      "id": "infopark-312-25173",
-      "title": "Marketing & Growth Lead",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-08-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/25173",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-24"
-    },
-    {
-      "id": "infopark-312-25174",
-      "title": "Visual Designer",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-08-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "design",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/25174",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-24"
-    },
-    {
       "id": "infopark-380-25178",
       "title": "Digital Marketing Executive",
       "company": "Infintor Solutions LLP",
@@ -169,6 +104,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-24"
+    },
+    {
+      "id": "infopark-259-25167",
+      "title": "Enterprise Architect-12-15 years",
+      "company": "Thomsun Infocare LLP",
+      "postedAt": "2026-08-22",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/259/25167",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-25"
     },
     {
       "id": "infopark-118-25159",
@@ -426,19 +374,6 @@
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/421/25138",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-450-25137",
-      "title": "Power Platform Consultant",
-      "company": "iCodeBees Private Limited",
-      "postedAt": "2026-08-19",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/450/25137",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
@@ -2181,32 +2116,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "infopark-278-24809",
-      "title": "Functional Consultant (ERP/ SAP Business One)",
-      "company": "NAS Infosolutions Pvt Ltd",
-      "postedAt": "2026-07-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/278/24809",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-278-24810",
-      "title": "Technical Consultant (ERP / SAP Business One)",
-      "company": "NAS Infosolutions Pvt Ltd",
-      "postedAt": "2026-07-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/278/24810",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
       "id": "infopark-292-24821",
       "title": "Digital Marketing Executive",
       "company": "MapleTech Space Pvt Ltd",
@@ -2215,45 +2124,6 @@
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/292/24821",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-378-24812",
-      "title": "Lead AI/ML Engineer",
-      "company": "Simelabs - An Astek Company",
-      "postedAt": "2026-07-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "ai-data",
-      "detailUrl": "https://infopark.in/company-jobs/details/378/24812",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-378-24813",
-      "title": "Cloud Administrator",
-      "company": "Simelabs - An Astek Company",
-      "postedAt": "2026-07-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "devops-cloud",
-      "detailUrl": "https://infopark.in/company-jobs/details/378/24813",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-378-24814",
-      "title": "ERP Consultant",
-      "company": "Simelabs - An Astek Company",
-      "postedAt": "2026-07-24",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/378/24814",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
@@ -2951,19 +2821,6 @@
       "firstSeenAt": "2026-08-23"
     },
     {
-      "id": "infopark-4-24461",
-      "title": "Chargeback & Disputes Subject Matter Expert (SME) (10+ years)",
-      "company": "Art Technology and Software",
-      "postedAt": "2026-07-03",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/4/24461",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
       "id": "infopark-495-24435",
       "title": "Computer Vision Engineer (4+ Years Experience)",
       "company": "Difinity Digital",
@@ -3190,19 +3047,6 @@
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/352/24195",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-4-24196",
-      "title": "Senior IT Support & Infrastructure Engineer",
-      "company": "Art Technology and Software",
-      "postedAt": "2026-06-19",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "devops-cloud",
-      "detailUrl": "https://infopark.in/company-jobs/details/4/24196",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
@@ -3591,19 +3435,6 @@
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/351/23854",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-442-23851",
-      "title": "AI VIDEO Maker",
-      "company": "Inspite Technologies Pvt.Ltd",
-      "postedAt": "2026-06-02",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "ai-data",
-      "detailUrl": "https://infopark.in/company-jobs/details/442/23851",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
@@ -6120,19 +5951,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-24"
-    },
-    {
-      "id": "infopark-105-9378",
-      "title": "UI/UX DESIGNER",
-      "company": "Webandcrafts",
-      "postedAt": "2022-04-01",
-      "deadlineAt": "2026-08-24",
-      "location": "Infopark, Kochi",
-      "category": "design",
-      "detailUrl": "https://infopark.in/company-jobs/details/105/9378",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
     },
     {
       "id": "infopark-95-9357",
