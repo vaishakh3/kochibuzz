@@ -193,25 +193,29 @@
     },
     {
       "id": "codex-meetup-kochi-founders",
-      "title": "OpenAI Codex Community Meetup — Founder's Edition",
+      "title": "Codex Community Meetup – Founders Edition",
       "start": "2026-09-16",
       "end": "2026-09-16",
       "category": "ai",
-      "venue": "Venue TBA",
+      "venue": "Kochi, India",
       "city": "Kochi",
-      "organizer": "Codex Kochi community",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas",
       "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
       "tags": [
         "Founders",
         "Coding agents",
         "Demos"
       ],
-      "url": "https://luma.com/w0ip6oxb",
-      "note": "New date: 16 September. Venue and timings to follow.",
+      "url": "https://luma.com/k65afwn7",
       "sourceUrls": [
-        "https://luma.com/w0ip6oxb"
+        "https://luma.com/k65afwn7"
       ],
       "manual": true,
+      "startTime": "09:00",
+      "endTime": "14:00",
+      "sourceIds": [
+        "luma-kochi"
+      ],
       "firstSeenAt": "2026-08-20"
     },
     {
@@ -238,27 +242,31 @@
     },
     {
       "id": "codex-community-hackathon-calicut",
-      "title": "Codex Community Hackathon — Calicut",
+      "title": "Codex Community Hackathon - Calicut",
       "start": "2026-09-19",
-      "end": "2026-09-19",
+      "end": "2026-09-20",
       "category": "hackathon",
-      "venue": "Calicut",
-      "city": "Calicut",
-      "organizer": "Codex Community",
+      "venue": "Kozhikode, India",
+      "city": "Kozhikode",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas",
       "blurb": "A one-day Codex Community hackathon in Calicut on 19 September.",
       "tags": [
         "Hackathon",
         "Codex",
         "Calicut"
       ],
-      "url": "https://luma.com/codex-community",
-      "note": "The event page will be linked when the public listing is live.",
+      "url": "https://luma.com/l5tpblw3",
       "travel": true,
       "sourceUrls": [
-        "https://luma.com/codex-community"
+        "https://luma.com/l5tpblw3"
       ],
       "manual": true,
       "featured": true,
+      "startTime": "19:30",
+      "endTime": "09:30",
+      "sourceIds": [
+        "luma-kochi"
+      ],
       "firstSeenAt": "2026-08-25"
     },
     {

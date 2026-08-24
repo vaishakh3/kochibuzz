@@ -45,8 +45,13 @@ test("month cells stay unambiguous and show the confirmed September Codex dates"
   const calicutDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-19"])');
   if (testInfo.project.name.startsWith("desktop")) {
     await expect(foundersDay.getByText(/Codex Community Meetup/i)).toBeVisible();
-    await expect(calicutDay.locator(".calendar-event-chip__title").first())
-      .toHaveText("Codex Community Hackathon — Calicut");
+    const calicutEvent = calicutDay.locator(".calendar-event-chip").first();
+    await expect(calicutEvent.locator(".calendar-event-chip__title"))
+      .toHaveText("Codex Community Hackathon - Calicut");
+    await calicutEvent.click();
+    await expect(page.getByRole("dialog", { name: /Codex Community Hackathon/i })
+      .getByRole("link", { name: /Event page|Register/ }))
+      .toHaveAttribute("href", "https://luma.com/l5tpblw3");
   } else {
     await expect(foundersDay.locator('[data-calendar-date="2026-09-16"]'))
       .toHaveAttribute("aria-label", /1 event/);
@@ -73,7 +78,8 @@ test("search opens an event brief and Escape returns to the calendar", async ({ 
   const dialog = page.getByRole("dialog", { name: /Codex Community Meetup/i });
   await expect(dialog).toBeVisible();
   await expect(dialog.getByRole("heading", { level: 3 })).toContainText("Codex");
-  await expect(dialog.getByRole("link", { name: /Event page|Register/ })).toBeVisible();
+  await expect(dialog.getByRole("link", { name: /Event page|Register/ }))
+    .toHaveAttribute("href", "https://luma.com/k65afwn7");
   await expect(dialog.getByRole("link", { name: "Google Calendar" })).toBeVisible();
   await expect(dialog.getByRole("link", { name: "Map" })).toBeVisible();
   await expectNoHorizontalOverflow(page);
@@ -87,8 +93,8 @@ test("keyboard event search works with Back and Forward", async ({ page }, testI
   test.skip(!testInfo.project.name.startsWith("desktop"), "Inline event search is desktop-only.");
   await page.goto("/");
   const search = page.getByRole("combobox", { name: "Search events" });
-  await search.fill("OpenAI Codex Community Meetup");
-  const result = page.getByRole("option", { name: /OpenAI Codex Community Meetup/i });
+  await search.fill("Founders Edition");
+  const result = page.getByRole("option", { name: /Codex Community Meetup.*Founders Edition/i });
   await search.press("Tab");
   await expect(result).toBeFocused();
   await page.keyboard.press("Enter");

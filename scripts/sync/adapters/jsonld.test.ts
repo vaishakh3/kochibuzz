@@ -30,7 +30,7 @@ describe("extractJsonLdEvents", () => {
         name: "Infopark",
         address: { addressLocality: "Kochi" },
       },
-      organizer: [{ name: "GDG Cochin" }, { name: "Maya" }],
+      organizer: [{ name: "GDG Cochin" }, { name: "GDG Cochin" }, { name: "Maya" }],
       offers: { url: "https://gdg.example/register" },
     })}</script>`;
     const [event] = extractJsonLdEvents(html, source, "https://gdg.example/events/details/build-night/");

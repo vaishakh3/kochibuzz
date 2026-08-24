@@ -41,7 +41,7 @@ function absoluteUrl(value: unknown, baseUrl: string): string | undefined {
 function nameOf(value: unknown): string | undefined {
   if (Array.isArray(value)) {
     const names = value.map(nameOf).filter((name): name is string => Boolean(name));
-    return names.length > 0 ? names.join(", ") : undefined;
+    return names.length > 0 ? [...new Set(names)].join(", ") : undefined;
   }
   if (typeof value === "string") return value.trim() || undefined;
   if (value && typeof value === "object" && typeof (value as JsonObject).name === "string") {
