@@ -91,6 +91,45 @@
     "firstSeenAt": "2026-08-24"
   },
   {
+    "id": "infopark-380-25178",
+    "title": "Digital Marketing Executive",
+    "company": "Infintor Solutions LLP",
+    "postedAt": "2026-08-24",
+    "deadlineAt": "2026-08-31",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/380/25178",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
+  },
+  {
+    "id": "infopark-380-25179",
+    "title": "Business Development Manager ( odoo )",
+    "company": "Infintor Solutions LLP",
+    "postedAt": "2026-08-24",
+    "deadlineAt": "2026-08-31",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/380/25179",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
+  },
+  {
+    "id": "infopark-380-25180",
+    "title": "Odoo Project Manager / Implementation Lead",
+    "company": "Infintor Solutions LLP",
+    "postedAt": "2026-08-24",
+    "deadlineAt": "2026-08-31",
+    "location": "Infopark, Kochi",
+    "category": "product",
+    "detailUrl": "https://infopark.in/company-jobs/details/380/25180",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
+  },
+  {
     "id": "infopark-530-25168",
     "title": "Senior Backend Engineer / Lead (.NET/Azure( 10+ Years)",
     "company": "Nesa Software Pvt Ltd",
@@ -99,19 +138,6 @@
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/530/25168",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-24"
-  },
-  {
-    "id": "infopark-76-25175",
-    "title": "Software Engineer - DevOps",
-    "company": "Emsyne Technologies Private Limited",
-    "postedAt": "2026-08-24",
-    "deadlineAt": "2026-08-31",
-    "location": "Infopark, Kochi",
-    "category": "devops-cloud",
-    "detailUrl": "https://infopark.in/company-jobs/details/76/25175",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-24"
@@ -916,6 +942,19 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "infopark-70-25087",
+    "title": "Software Engineer",
+    "company": "Empress InfoTech",
+    "postedAt": "2026-08-14",
+    "deadlineAt": "2026-08-28",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/70/25087",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
+  },
+  {
     "id": "infopark-450-25071",
     "title": "Project Management Solutions Consultant (Microsoft)",
     "company": "iCodeBees Private Limited",
@@ -1644,6 +1683,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-70-24932",
+    "title": "Solutions Consultant",
+    "company": "Empress InfoTech",
+    "postedAt": "2026-08-03",
+    "deadlineAt": "2026-08-28",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/70/24932",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
   },
   {
     "id": "infopark-95-24927",
@@ -2446,19 +2498,6 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/132/24718",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "infopark-138-24708",
-    "title": "Authorisation Specialist",
-    "company": "Cascade Revenue Management Pvt. Ltd",
-    "postedAt": "2026-07-17",
-    "deadlineAt": "2026-08-31",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/138/24708",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
@@ -3464,6 +3503,19 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "infopark-76-23900",
+    "title": "PostgreSql Database Administrator",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2026-06-04",
+    "deadlineAt": "2026-08-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/23900",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
+  },
+  {
     "id": "infopark-266-23893",
     "title": "Paid Ads Internship",
     "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
@@ -3501,6 +3553,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-76-23861",
+    "title": "Application Support Engineer",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2026-06-02",
+    "deadlineAt": "2026-08-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/23861",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
   },
   {
     "id": "infopark-378-23817",
@@ -3823,6 +3888,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-138-23323",
+    "title": "Senior AR Associate",
+    "company": "Cascade Revenue Management Pvt. Ltd",
+    "postedAt": "2026-04-30",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/138/23323",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
   },
   {
     "id": "infopark-390-23317",
@@ -4390,6 +4468,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-76-21897",
+    "title": "Team Lead – Technical (Housing Finance)",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2026-02-03",
+    "deadlineAt": "2026-08-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/21897",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-08-24"
   },
   {
     "id": "infopark-286-21736",
