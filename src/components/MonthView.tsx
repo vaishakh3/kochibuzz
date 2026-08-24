@@ -221,7 +221,6 @@ export default function MonthView({
                 aria-label={`${dayLabelFormatter.format(day)}, ${dayEvents.length} ${dayEvents.length === 1 ? "event" : "events"}`}
               >
                 <span>{day.getDate()}</span>
-                {dayEvents.length > 0 && <i>{dayEvents.length}</i>}
               </button>
 
               <div className={["calendar-month-day__events", hiddenEventCount > 0 ? "has-overflow" : ""].join(" ")}>

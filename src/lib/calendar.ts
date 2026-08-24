@@ -62,7 +62,9 @@ export function occursOn(event: TechEvent, date: Date): boolean {
 }
 
 export function eventsOn(events: TechEvent[], date: Date): TechEvent[] {
-  return events.filter((e) => occursOn(e, date)).sort(sortByStart);
+  return events.filter((e) => occursOn(e, date)).sort((a, b) =>
+    Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || sortByStart(a, b),
+  );
 }
 
 export function sortByStart(a: TechEvent, b: TechEvent): number {

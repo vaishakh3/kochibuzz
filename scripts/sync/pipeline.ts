@@ -52,7 +52,9 @@ export function dedupeEvents(
 }
 
 function canonicalEventUrls(event: EventRecord): Set<string> {
-  const values = [event.url, ...(event.sourceUrls ?? [])];
+  // Provenance URLs can be broad calendar/landing pages shared by hundreds of
+  // unrelated events. Only the event's own URL is strong enough identity.
+  const values = [event.url];
   return new Set(values.flatMap((value) => {
     try {
       const url = new URL(value);
@@ -74,8 +76,43 @@ export function eventsShareCanonicalUrl(left: EventRecord, right: EventRecord): 
   return [...canonicalEventUrls(right)].some((url) => leftUrls.has(url));
 }
 
+export function eventsShareEditorialIdentity(left: EventRecord, right: EventRecord): boolean {
+  return eventsShareCanonicalUrl(left, right)
+    || (
+      left.start === right.start
+      && comparableTitle(left.title) === comparableTitle(right.title)
+    );
+}
+
+/** Carry an explicit out-of-city editorial inclusion onto its future live feed record. */
+export function applyManualTravelAllowances(
+  liveEvents: EventRecord[],
+  manualEvents: EventRecord[],
+): EventRecord[] {
+  return liveEvents.map((live) =>
+    manualEvents.some((manual) => manual.travel && eventsShareEditorialIdentity(manual, live))
+      ? { ...live, travel: true }
+      : live,
+  );
+}
+
+/**
+ * An expired source page may remain online after organisers create or reschedule
+ * a future edition. It can enrich an archived manual record, but it must never
+ * drag a newer editorial date back into the past.
+ */
+export function canRefreshFromExpiredLinkedEvent(
+  manual: EventRecord,
+  live: EventRecord,
+  todayIso: string,
+): boolean {
+  return live.end < todayIso
+    && manual.end <= live.end
+    && eventsShareCanonicalUrl(manual, live);
+}
+
 function linkedManualSourcePair(left: EventRecord, right: EventRecord): boolean {
-  if (!eventsShareCanonicalUrl(left, right)) return false;
+  if (!eventsShareEditorialIdentity(left, right)) return false;
   if (Boolean(left.manual) !== Boolean(right.manual)) return true;
   if (!left.manual || !right.manual) return false;
   return hasLiveSource(left) !== hasLiveSource(right);
@@ -210,7 +247,9 @@ export function applyOverrides<T extends { id: string }>(
 
 export function sortEvents(events: EventRecord[]): EventRecord[] {
   return [...events].sort((a, b) =>
-    a.start === b.start ? a.id.localeCompare(b.id) : a.start.localeCompare(b.start),
+    a.start === b.start
+      ? Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || a.id.localeCompare(b.id)
+      : a.start.localeCompare(b.start),
   );
 }
 

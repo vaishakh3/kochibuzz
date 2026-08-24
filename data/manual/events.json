@@ -181,8 +181,8 @@
   {
     "id": "codex-meetup-kochi-founders",
     "title": "OpenAI Codex Community Meetup — Founder's Edition",
-    "start": "2026-09-10",
-    "end": "2026-09-10",
+    "start": "2026-09-16",
+    "end": "2026-09-16",
     "category": "ai",
     "venue": "Venue TBA",
     "city": "Kochi",
@@ -194,11 +194,35 @@
       "Demos"
     ],
     "url": "https://luma.com/w0ip6oxb",
-    "note": "Date confirmed by the organisers; venue, agenda and RSVP link not published yet.",
+    "note": "New date: 16 September. Venue and timings to follow.",
     "sourceUrls": [
       "https://luma.com/w0ip6oxb"
     ],
     "manual": true
+  },
+  {
+    "id": "codex-community-hackathon-calicut",
+    "title": "Codex Community Hackathon — Calicut",
+    "start": "2026-09-19",
+    "end": "2026-09-19",
+    "category": "hackathon",
+    "venue": "Calicut",
+    "city": "Calicut",
+    "organizer": "Codex Community",
+    "blurb": "A one-day Codex Community hackathon in Calicut on 19 September.",
+    "tags": [
+      "Hackathon",
+      "Codex",
+      "Calicut"
+    ],
+    "url": "https://luma.com/codex-community",
+    "sourceUrls": [
+      "https://luma.com/codex-community"
+    ],
+    "note": "The event page will be linked when the public listing is live.",
+    "travel": true,
+    "manual": true,
+    "featured": true
   },
   {
     "id": "pivot-2026",

@@ -1815,11 +1815,10 @@ body {
 .calendar-month-day.is-outside-month { --day-surface: #e8e4dc; color: #777471; }
 .calendar-month-day.is-selected { z-index: 2; box-shadow: inset 0 0 0 2px #55aea2; }
 .calendar-month-day.is-today { --day-surface: #f5f7df; }
-.calendar-month-day__date { display: flex; width: 100%; align-items: center; justify-content: space-between; border-radius: .5rem; color: #1d3139; }
+.calendar-month-day__date { display: flex; width: 100%; align-items: center; justify-content: flex-start; border-radius: .5rem; color: #1d3139; }
 .calendar-month-day__date > span { display: grid; width: 1.7rem; height: 1.7rem; place-items: center; border-radius: .4rem; font-family: var(--font-geist-sans), sans-serif; font-size: .8rem; font-weight: 730; font-variant-numeric: tabular-nums; }
 .calendar-month-day.is-today .calendar-month-day__date > span { background: var(--signal); color: var(--signal-ink); box-shadow: none; }
 .calendar-month-day.is-outside-month .calendar-month-day__date { opacity: .78; }
-.calendar-month-day__date > i { color: #3e555c; font-family: var(--font-geist-mono), monospace; font-size: 9px; font-style: normal; font-weight: 760; }
 .calendar-month-day__events { display: flex; min-width: 0; flex-direction: column; gap: .15rem; margin-top: .16rem; }
 .calendar-event-chip { --event-accent: #55aea2; display: block; width: 100%; min-width: 0; overflow: hidden; border: 1px solid rgba(20,29,31,.13); border-left: 3px solid var(--event-accent); border-radius: .3rem; padding: .3rem .42rem; background: rgba(255,255,255,.72); box-shadow: none; color: #243035; text-align: left; transition: background-color 150ms ease, color 150ms ease, opacity 150ms ease; }
 .calendar-event-chip.bg-violet-100 { --event-accent: #8f77ca; }
@@ -2029,7 +2028,6 @@ body {
   .calendar-month-day { padding: .2rem; }
   .calendar-month-day__date { justify-content: center; }
   .calendar-month-day__date > span { width: 1.6rem; height: 1.6rem; }
-  .calendar-month-day__date > i,
   .calendar-month-day__events { display: none; }
   .calendar-month-day__dots { display: flex; min-height: .4rem; justify-content: center; gap: .16rem; margin-top: .18rem; }
   .calendar-month-day__dots i { width: .28rem; height: .28rem; border-radius: 999px; }

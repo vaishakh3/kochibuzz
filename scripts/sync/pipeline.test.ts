@@ -2,12 +2,16 @@ import { describe, expect, it } from "vitest";
 import { decideLocality } from "./classify";
 import {
   applyOverrides,
+  applyManualTravelAllowances,
+  canRefreshFromExpiredLinkedEvent,
   comparableTitle,
   dedupeEvents,
   dedupeJobs,
   eventsShareCanonicalUrl,
+  eventsShareEditorialIdentity,
   filterActiveEvents,
   filterActiveJobs,
+  sortEvents,
 } from "./pipeline";
 import type { EventRecord, JobRecord } from "./schemas";
 
@@ -167,6 +171,103 @@ describe("eventsShareCanonicalUrl", () => {
     const manual = makeEvent({ url: "https://www.luma.com/abc123?utm_source=kochi" });
     const live = makeEvent({ url: "https://lu.ma/abc123", sourceUrls: ["https://luma.com/abc123"] });
     expect(eventsShareCanonicalUrl(manual, live)).toBe(true);
+  });
+
+  it("does not treat a shared calendar provenance URL as event identity", () => {
+    const manual = makeEvent({ url: "https://luma.com/codex-community", manual: true });
+    const live = makeEvent({
+      url: "https://luma.com/yvy17hzh",
+      sourceUrls: ["https://luma.com/codex-community"],
+      sourceIds: ["luma-kochi"],
+    });
+    expect(eventsShareCanonicalUrl(manual, live)).toBe(false);
+  });
+});
+
+describe("eventsShareEditorialIdentity", () => {
+  it("matches a future live record to a curated event by title and date", () => {
+    const manual = makeEvent({
+      title: "Codex Community Hackathon — Calicut",
+      start: "2026-09-19",
+      end: "2026-09-19",
+      url: "https://luma.com/codex-community",
+      manual: true,
+    });
+    const live = makeEvent({
+      title: "Codex Community Hackathon - Calicut",
+      start: "2026-09-19",
+      end: "2026-09-19",
+      url: "https://luma.com/new-event-url",
+      sourceIds: ["codex-community-luma"],
+    });
+
+    expect(eventsShareEditorialIdentity(manual, live)).toBe(true);
+  });
+
+  it("carries an explicit travel inclusion onto the matching live record", () => {
+    const manual = makeEvent({
+      title: "Codex Community Hackathon — Calicut",
+      start: "2026-09-19",
+      end: "2026-09-19",
+      travel: true,
+      manual: true,
+    });
+    const live = makeEvent({
+      title: "Codex Community Hackathon - Calicut",
+      start: "2026-09-19",
+      end: "2026-09-19",
+      city: "Unknown",
+      venue: "Calicut",
+      sourceIds: ["codex-community-luma"],
+    });
+
+    expect(applyManualTravelAllowances([live], [manual])[0].travel).toBe(true);
+  });
+});
+
+describe("canRefreshFromExpiredLinkedEvent", () => {
+  it("does not let a stale Luma page pull a newer manual date into the past", () => {
+    const manual = makeEvent({
+      start: "2026-09-16",
+      end: "2026-09-16",
+      url: "https://luma.com/abc123",
+      manual: true,
+    });
+    const staleLive = makeEvent({
+      start: "2026-07-28",
+      end: "2026-07-28",
+      url: "https://luma.com/abc123",
+      sourceIds: ["luma-kochi"],
+    });
+
+    expect(canRefreshFromExpiredLinkedEvent(manual, staleLive, "2026-08-25")).toBe(false);
+  });
+
+  it("still allows an expired source to enrich its matching archived record", () => {
+    const manual = makeEvent({
+      start: "2026-07-28",
+      end: "2026-07-28",
+      url: "https://luma.com/abc123",
+      manual: true,
+    });
+    const live = makeEvent({
+      start: "2026-07-28",
+      end: "2026-07-28",
+      url: "https://luma.com/abc123",
+      sourceIds: ["luma-kochi"],
+    });
+
+    expect(canRefreshFromExpiredLinkedEvent(manual, live, "2026-08-25")).toBe(true);
+  });
+});
+
+describe("sortEvents", () => {
+  it("places a featured event first when a day has multiple events", () => {
+    const regular = makeEvent({ id: "a-regular" });
+    const featured = makeEvent({ id: "z-featured", featured: true });
+
+    expect(sortEvents([regular, featured]).map((event) => event.id))
+      .toEqual(["z-featured", "a-regular"]);
   });
 });
 

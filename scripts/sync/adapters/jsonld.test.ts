@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import type { SourceDefinition } from "../schemas";
-import { extractJsonLdEvents } from "./jsonld";
+import { extractJsonLdDetailEvent, extractJsonLdEvents } from "./jsonld";
 
 const source: SourceDefinition = {
   id: "gdg-test",
@@ -44,5 +44,21 @@ describe("extractJsonLdEvents", () => {
       organizer: "GDG Cochin, Maya",
       registerUrl: "https://gdg.example/register",
     });
+  });
+
+  it("rejects a calendar page when it is supplied as an event permalink", () => {
+    const html = ["Kochi", "Chiang Mai"].map((city, index) =>
+      `<script type="application/ld+json">${JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Event",
+        name: `Codex meetup ${city}`,
+        startDate: `2026-09-${19 + index}T10:00:00+05:30`,
+        endDate: `2026-09-${19 + index}T12:00:00+05:30`,
+        url: `https://luma.com/event${index}`,
+      })}</script>`,
+    ).join("");
+
+    expect(extractJsonLdDetailEvent(html, source, "https://luma.com/codex-community"))
+      .toEqual([]);
   });
 });

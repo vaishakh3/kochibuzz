@@ -35,6 +35,8 @@ import { extractKsumCareers, extractKsumEvents, extractKsumTenders } from "./ada
 import { politeFetch, mapWithConcurrency } from "./fetch";
 import {
   applyOverrides,
+  applyManualTravelAllowances,
+  canRefreshFromExpiredLinkedEvent,
   dedupeEvents,
   dedupeJobs,
   dedupeOpportunities,
@@ -247,14 +249,16 @@ async function main() {
   const activeIngestedEvents = filterActiveEvents(ingestedEvents, today);
   const linkedExpiredEvents = ingestedEvents.filter((event) =>
     event.end < today
-    && manualEvents.some((manual) => eventsShareCanonicalUrl(manual, event)),
+    && manualEvents.some((manual) => canRefreshFromExpiredLinkedEvent(manual, event, today)),
   );
   const refreshableIngestedEvents = [
     ...activeIngestedEvents,
     ...linkedExpiredEvents.filter((event) => !activeIngestedEvents.includes(event)),
   ];
   stats.expiredEventsDropped = ingestedEvents.length - refreshableIngestedEvents.length;
-  const relevance = filterRelevantEvents(refreshableIngestedEvents);
+  const relevance = filterRelevantEvents(
+    applyManualTravelAllowances(refreshableIngestedEvents, manualEvents),
+  );
   stats.rejectedIrrelevant = relevance.rejected;
   const deduped = dedupeEvents(
     [...manualEvents, ...relevance.kept],

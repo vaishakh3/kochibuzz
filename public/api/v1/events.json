@@ -2,33 +2,6 @@
   "schemaVersion": 1,
   "events": [
     {
-      "id": "codex-meetup-kochi-founders",
-      "title": "Codex Community Meetup - Kochi",
-      "start": "2026-07-28",
-      "end": "2026-07-28",
-      "category": "ai",
-      "venue": "Kochi, India",
-      "city": "Kochi",
-      "organizer": "Codex Community Events, Vaishakh Suresh, Joji Panackal",
-      "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
-      "tags": [
-        "Founders",
-        "Coding agents",
-        "Demos"
-      ],
-      "url": "https://luma.com/w0ip6oxb",
-      "sourceUrls": [
-        "https://luma.com/w0ip6oxb"
-      ],
-      "manual": true,
-      "startTime": "18:00",
-      "endTime": "22:00",
-      "sourceIds": [
-        "luma-kochi"
-      ],
-      "firstSeenAt": "2026-08-20"
-    },
-    {
       "id": "cncg-kochi-aug-2026",
       "title": "CNCG Kochi August Meetup",
       "start": "2026-08-01",
@@ -219,6 +192,29 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "codex-meetup-kochi-founders",
+      "title": "OpenAI Codex Community Meetup — Founder's Edition",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "category": "ai",
+      "venue": "Venue TBA",
+      "city": "Kochi",
+      "organizer": "Codex Kochi community",
+      "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
+      "tags": [
+        "Founders",
+        "Coding agents",
+        "Demos"
+      ],
+      "url": "https://luma.com/w0ip6oxb",
+      "note": "New date: 16 September. Venue and timings to follow.",
+      "sourceUrls": [
+        "https://luma.com/w0ip6oxb"
+      ],
+      "manual": true,
+      "firstSeenAt": "2026-08-20"
+    },
+    {
       "id": "pivot-2026",
       "title": "PIVOT 2026 — Deep Tech Startup Summit",
       "start": "2026-09-18",
@@ -239,6 +235,31 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "codex-community-hackathon-calicut",
+      "title": "Codex Community Hackathon — Calicut",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "category": "hackathon",
+      "venue": "Calicut",
+      "city": "Calicut",
+      "organizer": "Codex Community",
+      "blurb": "A one-day Codex Community hackathon in Calicut on 19 September.",
+      "tags": [
+        "Hackathon",
+        "Codex",
+        "Calicut"
+      ],
+      "url": "https://luma.com/codex-community",
+      "note": "The event page will be linked when the public listing is live.",
+      "travel": true,
+      "sourceUrls": [
+        "https://luma.com/codex-community"
+      ],
+      "manual": true,
+      "featured": true,
+      "firstSeenAt": "2026-08-25"
     },
     {
       "id": "indiafoss-2026",

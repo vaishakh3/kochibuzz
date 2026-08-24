@@ -120,6 +120,20 @@ export function extractJsonLdEvents(
     .filter((event): event is EventRecord => Boolean(event));
 }
 
+/**
+ * A URL supplied as an event permalink must resolve to one event. Calendar and
+ * organizer pages often expose many Event nodes and must not inherit the
+ * source's default city as though every listing were local.
+ */
+export function extractJsonLdDetailEvent(
+  html: string,
+  source: SourceDefinition,
+  pageUrl: string,
+): EventRecord[] {
+  const events = extractJsonLdEvents(html, source, pageUrl);
+  return events.length === 1 ? events : [];
+}
+
 export function extractJsonLdEventLinks(html: string, source: SourceDefinition): string[] {
   const $ = cheerio.load(html);
   const links = new Set<string>();
@@ -152,7 +166,7 @@ export async function fetchJsonLdEvents(
     ...extraDetailUrls,
   ])].slice(0, 30);
   const details = await mapWithConcurrency(links, 4, async (url) =>
-    extractJsonLdEvents(await politeFetch(url), source, url),
+    extractJsonLdDetailEvent(await politeFetch(url), source, url),
   );
   for (const result of details) {
     if (result.status === "fulfilled") events.push(...result.value);

@@ -32,6 +32,29 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
   expect(browserErrors).toEqual([]);
 });
 
+test("month cells stay unambiguous and show the confirmed September Codex dates", async ({ page }, testInfo) => {
+  await page.goto("/");
+  await page.getByRole("button", { name: /month/i }).click();
+  await page.getByRole("button", { name: "Next period" }).click();
+
+  const grid = page.getByRole("grid", { name: /September 2026 events calendar/i });
+  await expect(grid).toBeVisible();
+  await expect(grid.locator(".calendar-month-day__date i")).toHaveCount(0);
+
+  const foundersDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-16"])');
+  const calicutDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-19"])');
+  if (testInfo.project.name.startsWith("desktop")) {
+    await expect(foundersDay.getByText(/Codex Community Meetup/i)).toBeVisible();
+    await expect(calicutDay.locator(".calendar-event-chip__title").first())
+      .toHaveText("Codex Community Hackathon — Calicut");
+  } else {
+    await expect(foundersDay.locator('[data-calendar-date="2026-09-16"]'))
+      .toHaveAttribute("aria-label", /1 event/);
+    await expect(calicutDay.locator('[data-calendar-date="2026-09-19"]'))
+      .toHaveAttribute("aria-label", /2 events/);
+  }
+});
+
 test("search opens an event brief and Escape returns to the calendar", async ({ page }) => {
   const browserErrors = captureBrowserErrors(page);
   await page.goto("/");
@@ -64,8 +87,8 @@ test("keyboard event search works with Back and Forward", async ({ page }, testI
   test.skip(!testInfo.project.name.startsWith("desktop"), "Inline event search is desktop-only.");
   await page.goto("/");
   const search = page.getByRole("combobox", { name: "Search events" });
-  await search.fill("Codex Community Meetup");
-  const result = page.getByRole("option", { name: /Codex Community Meetup/i });
+  await search.fill("OpenAI Codex Community Meetup");
+  const result = page.getByRole("option", { name: /OpenAI Codex Community Meetup/i });
   await search.press("Tab");
   await expect(result).toBeFocused();
   await page.keyboard.press("Enter");
