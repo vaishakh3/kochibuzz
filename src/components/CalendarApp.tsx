@@ -191,9 +191,12 @@ export default function CalendarApp() {
       const candidate = window.localStorage.getItem(VIEW_KEY);
       if (["month", "week", "day", "agenda"].includes(candidate ?? "")) remembered = candidate as View;
     } catch { /* use the responsive default */ }
+    const responsiveRemembered = compact && (remembered === "week" || remembered === "day")
+      ? "agenda"
+      : remembered;
     const timer = window.setTimeout(() => {
       setHydrated(true);
-      setView(remembered ?? (compact ? "agenda" : "month"));
+      setView(responsiveRemembered ?? (compact ? "agenda" : "month"));
       if (requested.length > 0) setActive(new Set(requested));
       if (event) focusEvent(event);
       if (params.get("mybuzz") === "1") {
@@ -270,10 +273,11 @@ export default function CalendarApp() {
   }
 
   function shift(direction: 1 | -1) {
-    if (view === "month") {
+    if (view === "month" || view === "agenda") {
       const next = new Date(cursor.getFullYear(), cursor.getMonth() + direction, 1);
       setCursor(next);
       setSelected(next);
+      if (view === "agenda") scrollAgendaTo(next);
       return;
     }
     const next = addDays(selected, (view === "week" ? 7 : 1) * direction);
@@ -312,7 +316,7 @@ export default function CalendarApp() {
     ? `${WEEKDAYS_LONG[selected.getDay()]}, ${selected.getDate()} ${MONTHS[selected.getMonth()]}`
     : view === "week"
       ? `Week of ${weekStart.getDate()} ${MONTHS[weekStart.getMonth()]}`
-      : view === "agenda" ? "The city schedule" : `${MONTHS[cursor.getMonth()]} ${cursor.getFullYear()}`;
+      : view === "agenda" ? "Upcoming in Kochi" : `${MONTHS[cursor.getMonth()]} ${cursor.getFullYear()}`;
 
   return (
     <div className="city-calendar-shell" data-view={view}>
@@ -330,8 +334,11 @@ export default function CalendarApp() {
           <SearchBox events={events} onPick={openEvent} />
           <div className="calendar-view-switch" aria-label="Calendar view">
             {(["month", "week", "day", "agenda"] as View[]).map((option) => (
-              <button key={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} title={`${option === "agenda" ? "Schedule" : option} view · ${option[0].toUpperCase()}`}>
-                {option === "agenda" ? "Schedule" : option}<kbd aria-hidden>{option[0].toUpperCase()}</kbd>
+              <button key={option} data-calendar-view={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} title={`${option === "agenda" ? "Schedule" : option} view · ${option[0].toUpperCase()}`}>
+                {option === "agenda" ? (
+                  <><span className="view-label-desktop">Schedule</span><span className="view-label-mobile">Upcoming</span></>
+                ) : option}
+                <kbd aria-hidden>{option[0].toUpperCase()}</kbd>
               </button>
             ))}
           </div>
@@ -376,7 +383,11 @@ export default function CalendarApp() {
                   })}
                 </div>
               </details>
-              <a href="/calendar.ics"><CalendarPlusIcon className="h-4 w-4" />Subscribe</a>
+              <a href="/calendar.ics" aria-label="Subscribe to the Kochi Buzz calendar">
+                <CalendarPlusIcon className="h-4 w-4" />
+                <span className="calendar-subscribe-desktop">Subscribe</span>
+                <span className="calendar-subscribe-mobile">Sync</span>
+              </a>
               <Link href="/submit" className="calendar-add-event">Add an event <ArrowUpRightIcon className="ui-arrow-up-right" /></Link>
             </div>
           </header>

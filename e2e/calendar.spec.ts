@@ -20,10 +20,19 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
     expect(bounds!.y + bounds!.height).toBeLessThanOrEqual(900);
     await expect(page.locator(".city-calendar-rail")).toHaveCount(0);
   } else {
-    await expect(page.getByRole("heading", { name: "The city schedule" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Upcoming in Kochi" })).toBeVisible();
     await expect(page.getByRole("button", { name: /open menu/i })).toBeVisible();
     await expect(page.locator(".calendar-filter-menu > summary")).toBeVisible();
     await expect(page.locator(".city-calendar-mobile-layers")).toHaveCount(0);
+    await expect(page.locator('[data-calendar-view="week"]')).toBeHidden();
+    await expect(page.locator('[data-calendar-view="day"]')).toBeHidden();
+
+    const firstEventBounds = await page.locator(".calendar-agenda-event").first().boundingBox();
+    expect(firstEventBounds).not.toBeNull();
+    expect(firstEventBounds!.y).toBeLessThan(300);
+    await page.mouse.wheel(0, 500);
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
+
     await page.getByRole("button", { name: /month/i }).click();
     await expect(page.locator(".city-dayticker")).toBeHidden();
   }

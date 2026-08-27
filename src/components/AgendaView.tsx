@@ -31,6 +31,13 @@ function groupByMonth(events: TechEvent[]): [string, TechEvent[]][] {
   return [...groups.entries()];
 }
 
+function eventPlace(event: TechEvent) {
+  const venue = event.venue.trim();
+  const city = event.city.trim();
+  if (!city || venue.toLocaleLowerCase().includes(city.toLocaleLowerCase())) return venue;
+  return `${venue}, ${city}`;
+}
+
 function EventRow({
   event,
   today,
@@ -69,8 +76,7 @@ function EventRow({
           )}
         </span>
         <span className="calendar-agenda-meta">
-          {formatDateRange(event)} · {formatTimeRange(event)} · {event.venue},{" "}
-          {event.city}
+          {formatDateRange(event)} · {formatTimeRange(event)} · {eventPlace(event)}
         </span>
       </span>
       <span className="calendar-agenda-countdown">
