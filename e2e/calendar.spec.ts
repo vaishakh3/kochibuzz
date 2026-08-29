@@ -34,7 +34,12 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
     await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
 
     await page.getByRole("button", { name: /month/i }).click();
+    await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
     await expect(page.locator(".city-dayticker")).toBeHidden();
+    await expect(page.locator(".calendar-month-selection")).toBeVisible();
+    await page.locator('[data-calendar-date="2026-08-28"]').click();
+    await expect(page.locator(".calendar-month-selection")).toContainText("Umbraco India Festival 2026");
+    await expect(page.locator(".calendar-day-lens")).toHaveCount(0);
   }
 
   await expectNoHorizontalOverflow(page);

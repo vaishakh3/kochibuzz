@@ -7,6 +7,7 @@ import { TechEvent, categoryById } from "@/data/events";
 import {
   WEEKDAYS,
   addDays,
+  eventPlace,
   eventsOn,
   formatTimeRange,
   isPast,
@@ -36,6 +37,51 @@ const monthLabelFormatter = new Intl.DateTimeFormat("en-IN", {
   month: "long",
   year: "numeric",
 });
+
+function MobileDayAgenda({
+  day,
+  events,
+  onOpenEvent,
+}: {
+  day: Date;
+  events: TechEvent[];
+  onOpenEvent: (event: TechEvent) => void;
+}) {
+  return (
+    <section className="calendar-month-selection" aria-label={`Events on ${dayLabelFormatter.format(day)}`}>
+      <header>
+        <div>
+          <p>Selected date</p>
+          <h2 className="font-display" aria-live="polite">{dayLabelFormatter.format(day)}</h2>
+        </div>
+        <span>{events.length} {events.length === 1 ? "event" : "events"}</span>
+      </header>
+
+      {events.length > 0 ? (
+        <ol>
+          {events.map((event) => {
+            const category = categoryById.get(event.category)!;
+            return (
+              <li key={event.id}>
+                <button type="button" onClick={() => onOpenEvent(event)}>
+                  <i className={category.dot} aria-hidden />
+                  <span>
+                    <small>{formatTimeRange(event)} · {category.label}</small>
+                    <strong>{event.title}</strong>
+                    <em>{eventPlace(event)}</em>
+                  </span>
+                  <ChevronRightIcon className="h-4 w-4" />
+                </button>
+              </li>
+            );
+          })}
+        </ol>
+      ) : (
+        <p className="calendar-month-selection__empty">Nothing scheduled on this date.</p>
+      )}
+    </section>
+  );
+}
 
 function DayLens({
   day,
@@ -158,6 +204,7 @@ export default function MonthView({
     () => new Map(cells.map((day) => [toISODate(day), eventsOn(events, day)])),
     [cells, events],
   );
+  const selectedDayEvents = useMemo(() => eventsOn(events, selected), [events, selected]);
   const [openDay, setOpenDay] = useState<Date | null>(null);
 
   function moveFocus(event: KeyboardEvent<HTMLButtonElement>, day: Date, offset: number) {
@@ -172,94 +219,98 @@ export default function MonthView({
 
   function selectDay(day: Date, dayEvents: TechEvent[]) {
     onSelectDate(day);
-    if (dayEvents.length > 0) setOpenDay(day);
+    if (dayEvents.length > 0 && !window.matchMedia("(max-width: 767px)").matches) setOpenDay(day);
   }
 
   return (
-    <div className="calendar-month-view" role="grid" aria-label={`${monthLabelFormatter.format(cursor)} events calendar`} aria-rowcount={6} aria-colcount={7}>
-      <div className="calendar-month-weekdays" role="row">
-        {WEEKDAYS.map((day) => (
-          <span key={day} role="columnheader">{day}</span>
-        ))}
-      </div>
+    <div className="calendar-month-view">
+      <div className="calendar-month-grid-shell" role="grid" aria-label={`${monthLabelFormatter.format(cursor)} events calendar`} aria-rowcount={6} aria-colcount={7}>
+        <div className="calendar-month-weekdays" role="row">
+          {WEEKDAYS.map((day) => (
+            <span key={day} role="columnheader">{day}</span>
+          ))}
+        </div>
 
-      <div className="calendar-month-scroll">
-        <div className="calendar-month-grid" role="rowgroup">
-        {weeks.map((week) => <div className="calendar-month-week" role="row" key={toISODate(week[0])}>{week.map((day) => {
-          const inMonth = day.getMonth() === cursor.getMonth();
-          const dayEvents = eventsByDay.get(toISODate(day)) ?? [];
-          const visibleDayEvents = dayEvents.slice(0, 1);
-          const hiddenEventCount = dayEvents.length - visibleDayEvents.length;
-          const isToday = isSameDay(day, today);
-          const isSelected = isSameDay(day, selected);
-          return (
-            <div
-              key={toISODate(day)}
-              className={[
-                "calendar-month-day",
-                inMonth ? "is-in-month" : "is-outside-month",
-                isSelected ? "is-selected" : "",
-                isToday ? "is-today" : "",
-              ].join(" ")}
-              role="gridcell"
-              aria-selected={isSelected}
-            >
-              <button
-                type="button"
-                data-calendar-date={toISODate(day)}
-                tabIndex={isSelected ? 0 : -1}
-                onClick={() => selectDay(day, dayEvents)}
-                onKeyDown={(event) => {
-                  if (event.key === "ArrowRight") moveFocus(event, day, 1);
-                  else if (event.key === "ArrowLeft") moveFocus(event, day, -1);
-                  else if (event.key === "ArrowDown") moveFocus(event, day, 7);
-                  else if (event.key === "ArrowUp") moveFocus(event, day, -7);
-                  else if (event.key === "Home") moveFocus(event, day, -day.getDay());
-                  else if (event.key === "End") moveFocus(event, day, 6 - day.getDay());
-                }}
-                className="calendar-month-day__date"
-                aria-label={`${dayLabelFormatter.format(day)}, ${dayEvents.length} ${dayEvents.length === 1 ? "event" : "events"}`}
+        <div className="calendar-month-scroll">
+          <div className="calendar-month-grid" role="rowgroup">
+          {weeks.map((week) => <div className="calendar-month-week" role="row" key={toISODate(week[0])}>{week.map((day) => {
+            const inMonth = day.getMonth() === cursor.getMonth();
+            const dayEvents = eventsByDay.get(toISODate(day)) ?? [];
+            const visibleDayEvents = dayEvents.slice(0, 1);
+            const hiddenEventCount = dayEvents.length - visibleDayEvents.length;
+            const isToday = isSameDay(day, today);
+            const isSelected = isSameDay(day, selected);
+            return (
+              <div
+                key={toISODate(day)}
+                className={[
+                  "calendar-month-day",
+                  inMonth ? "is-in-month" : "is-outside-month",
+                  isSelected ? "is-selected" : "",
+                  isToday ? "is-today" : "",
+                ].join(" ")}
+                role="gridcell"
+                aria-selected={isSelected}
               >
-                <span>{day.getDate()}</span>
-              </button>
+                <button
+                  type="button"
+                  data-calendar-date={toISODate(day)}
+                  tabIndex={isSelected ? 0 : -1}
+                  onClick={() => selectDay(day, dayEvents)}
+                  onKeyDown={(event) => {
+                    if (event.key === "ArrowRight") moveFocus(event, day, 1);
+                    else if (event.key === "ArrowLeft") moveFocus(event, day, -1);
+                    else if (event.key === "ArrowDown") moveFocus(event, day, 7);
+                    else if (event.key === "ArrowUp") moveFocus(event, day, -7);
+                    else if (event.key === "Home") moveFocus(event, day, -day.getDay());
+                    else if (event.key === "End") moveFocus(event, day, 6 - day.getDay());
+                  }}
+                  className="calendar-month-day__date"
+                  aria-label={`${dayLabelFormatter.format(day)}, ${dayEvents.length} ${dayEvents.length === 1 ? "event" : "events"}`}
+                >
+                  <span>{day.getDate()}</span>
+                </button>
 
-              <div className={["calendar-month-day__events", hiddenEventCount > 0 ? "has-overflow" : ""].join(" ")}>
-                {visibleDayEvents.map((event) => (
-                  <EventChip
-                    key={event.id}
-                    event={event}
-                    day={day}
-                    compact
-                    past={isPast(event, today)}
-                    active={event.id === selectedEventId}
-                    onClick={() => onOpenEvent(event)}
-                  />
-                ))}
-                {hiddenEventCount > 0 && (
-                  <button
-                    type="button"
-                    className="calendar-month-day__more"
-                    aria-haspopup="dialog"
-                    aria-label={`Show all ${dayEvents.length} events on ${dayLabelFormatter.format(day)}`}
-                    onClick={() => {
-                      onSelectDate(day);
-                      setOpenDay(day);
-                    }}
-                  >
-                    <span>+{hiddenEventCount} more</span>
-                    <small>Open day</small>
-                    <ChevronRightIcon className="h-3 w-3" />
-                  </button>
-                )}
+                <div className={["calendar-month-day__events", hiddenEventCount > 0 ? "has-overflow" : ""].join(" ")}>
+                  {visibleDayEvents.map((event) => (
+                    <EventChip
+                      key={event.id}
+                      event={event}
+                      day={day}
+                      compact
+                      past={isPast(event, today)}
+                      active={event.id === selectedEventId}
+                      onClick={() => onOpenEvent(event)}
+                    />
+                  ))}
+                  {hiddenEventCount > 0 && (
+                    <button
+                      type="button"
+                      className="calendar-month-day__more"
+                      aria-haspopup="dialog"
+                      aria-label={`Show all ${dayEvents.length} events on ${dayLabelFormatter.format(day)}`}
+                      onClick={() => {
+                        onSelectDate(day);
+                        setOpenDay(day);
+                      }}
+                    >
+                      <span>+{hiddenEventCount} more</span>
+                      <small>Open day</small>
+                      <ChevronRightIcon className="h-3 w-3" />
+                    </button>
+                  )}
+                </div>
+                <div className="calendar-month-day__dots" aria-hidden>
+                  {dayEvents.slice(0, 3).map((event) => <i key={event.id} className={categoryById.get(event.category)?.dot} />)}
+                </div>
               </div>
-              <div className="calendar-month-day__dots" aria-hidden>
-                {dayEvents.slice(0, 3).map((event) => <i key={event.id} className={categoryById.get(event.category)?.dot} />)}
-              </div>
-            </div>
-          );
-        })}</div>)}
+            );
+          })}</div>)}
+          </div>
         </div>
       </div>
+
+      <MobileDayAgenda day={selected} events={selectedDayEvents} onOpenEvent={onOpenEvent} />
       {openDay && (
         <DayLens
           day={openDay}

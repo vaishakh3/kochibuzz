@@ -5,6 +5,7 @@ import { TechEvent, categoryById } from "@/data/events";
 import {
   MONTHS,
   countdownLabel,
+  eventPlace,
   formatDateRange,
   formatTimeRange,
   isPast,
@@ -29,13 +30,6 @@ function groupByMonth(events: TechEvent[]): [string, TechEvent[]][] {
     groups.set(key, list);
   }
   return [...groups.entries()];
-}
-
-function eventPlace(event: TechEvent) {
-  const venue = event.venue.trim();
-  const city = event.city.trim();
-  if (!city || venue.toLocaleLowerCase().includes(city.toLocaleLowerCase())) return venue;
-  return `${venue}, ${city}`;
 }
 
 function EventRow({

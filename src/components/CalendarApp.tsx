@@ -149,6 +149,9 @@ export default function CalendarApp() {
   function chooseView(nextView: View) {
     setView(nextView);
     try { window.localStorage.setItem(VIEW_KEY, nextView); } catch { /* keep this session only */ }
+    if (window.matchMedia("(max-width: 767px)").matches) {
+      window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: "auto" }));
+    }
   }
 
   function focusEvent(event: TechEvent) {

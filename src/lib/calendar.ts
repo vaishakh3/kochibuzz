@@ -129,6 +129,14 @@ export function formatTimeRange(event: TechEvent): string {
     : formatTime(event.startTime);
 }
 
+/** Venue label without repeating the city when the source already included it. */
+export function eventPlace(event: TechEvent): string {
+  const venue = event.venue.trim();
+  const city = event.city.trim();
+  if (!city || venue.toLowerCase().includes(city.toLowerCase())) return venue;
+  return `${venue}, ${city}`;
+}
+
 export function isPast(event: TechEvent, today: Date): boolean {
   return event.end < toISODate(today);
 }
