@@ -5,7 +5,9 @@ import EventChip from "@/components/EventChip";
 import { ChevronRightIcon, CloseIcon } from "@/components/icons";
 import { TechEvent, categoryById } from "@/data/events";
 import {
+  MONTHS,
   WEEKDAYS,
+  WEEKDAYS_LONG,
   addDays,
   eventPlace,
   eventsOn,
@@ -26,17 +28,14 @@ type Props = {
   onOpenEvent: (event: TechEvent) => void;
 };
 
-const dayLabelFormatter = new Intl.DateTimeFormat("en-IN", {
-  weekday: "long",
-  day: "numeric",
-  month: "long",
-  year: "numeric",
-});
+/** Stable across Node, Chromium, and Safari; Intl punctuation varies by engine. */
+function dayLabel(date: Date): string {
+  return `${WEEKDAYS_LONG[date.getDay()]}, ${date.getDate()} ${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+}
 
-const monthLabelFormatter = new Intl.DateTimeFormat("en-IN", {
-  month: "long",
-  year: "numeric",
-});
+function monthLabel(date: Date): string {
+  return `${MONTHS[date.getMonth()]} ${date.getFullYear()}`;
+}
 
 function MobileDayAgenda({
   day,
@@ -48,11 +47,11 @@ function MobileDayAgenda({
   onOpenEvent: (event: TechEvent) => void;
 }) {
   return (
-    <section className="calendar-month-selection" aria-label={`Events on ${dayLabelFormatter.format(day)}`}>
+    <section className="calendar-month-selection" aria-label={`Events on ${dayLabel(day)}`}>
       <header>
         <div>
           <p>Selected date</p>
-          <h2 className="font-display" aria-live="polite">{dayLabelFormatter.format(day)}</h2>
+          <h2 className="font-display" aria-live="polite">{dayLabel(day)}</h2>
         </div>
         <span>{events.length} {events.length === 1 ? "event" : "events"}</span>
       </header>
@@ -147,7 +146,7 @@ function DayLens({
           <div>
             <p>Day lens · {events.length} {events.length === 1 ? "signal" : "signals"}</p>
             <h2 id="calendar-day-lens-title" className="font-display">
-              {dayLabelFormatter.format(day)}
+              {dayLabel(day)}
             </h2>
           </div>
           <button ref={closeRef} type="button" onClick={onClose} aria-label="Close day lens">
@@ -224,7 +223,7 @@ export default function MonthView({
 
   return (
     <div className="calendar-month-view">
-      <div className="calendar-month-grid-shell" role="grid" aria-label={`${monthLabelFormatter.format(cursor)} events calendar`} aria-rowcount={6} aria-colcount={7}>
+      <div className="calendar-month-grid-shell" role="grid" aria-label={`${monthLabel(cursor)} events calendar`} aria-rowcount={6} aria-colcount={7}>
         <div className="calendar-month-weekdays" role="row">
           {WEEKDAYS.map((day) => (
             <span key={day} role="columnheader">{day}</span>
@@ -266,7 +265,7 @@ export default function MonthView({
                     else if (event.key === "End") moveFocus(event, day, 6 - day.getDay());
                   }}
                   className="calendar-month-day__date"
-                  aria-label={`${dayLabelFormatter.format(day)}, ${dayEvents.length} ${dayEvents.length === 1 ? "event" : "events"}`}
+                  aria-label={`${dayLabel(day)}, ${dayEvents.length} ${dayEvents.length === 1 ? "event" : "events"}`}
                 >
                   <span>{day.getDate()}</span>
                 </button>
@@ -288,7 +287,7 @@ export default function MonthView({
                       type="button"
                       className="calendar-month-day__more"
                       aria-haspopup="dialog"
-                      aria-label={`Show all ${dayEvents.length} events on ${dayLabelFormatter.format(day)}`}
+                      aria-label={`Show all ${dayEvents.length} events on ${dayLabel(day)}`}
                       onClick={() => {
                         onSelectDate(day);
                         setOpenDay(day);
