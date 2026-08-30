@@ -12,6 +12,8 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
 
   if (testInfo.project.name.startsWith("desktop")) {
     await expect(page.getByRole("button", { name: /month/i })).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator(".calendar-view-switch kbd")).toHaveCount(0);
+    await expect(page.getByRole("button", { name: /Back to today/i })).toHaveCount(0);
     const grid = page.getByRole("grid", { name: /August 2026 events calendar/i });
     await expect(grid).toBeVisible();
     await expect(grid.getByRole("gridcell")).toHaveCount(42);
@@ -44,6 +46,21 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
 
   await expectNoHorizontalOverflow(page);
   expect(browserErrors).toEqual([]);
+});
+
+test("period navigation exposes today only as a contextual return action", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.getByRole("button", { name: /Back to today/i })).toHaveCount(0);
+
+  await page.getByRole("button", { name: "Next period" }).click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("September");
+  const returnToToday = page.getByRole("button", { name: /Back to today/i });
+  await expect(returnToToday).toBeVisible();
+  await expect(returnToToday).toHaveAttribute("aria-keyshortcuts", "T");
+
+  await returnToToday.click();
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("August");
+  await expect(returnToToday).toHaveCount(0);
 });
 
 test("month cells stay unambiguous and show the confirmed September Codex dates", async ({ page }, testInfo) => {

@@ -248,6 +248,11 @@ export default function CalendarApp() {
   });
   const weekStart = startOfWeek(selected);
   const tickerDays = Array.from({ length: 7 }, (_, index) => addDays(weekStart, index));
+  const isCurrentPeriod = view === "month" || view === "agenda"
+    ? cursor.getFullYear() === today.getFullYear() && cursor.getMonth() === today.getMonth()
+    : view === "week"
+      ? toISODate(weekStart) === toISODate(startOfWeek(today))
+      : toISODate(selected) === toISODate(today);
 
   function toggleCategory(id: CategoryId) {
     setActive((current) => {
@@ -329,19 +334,30 @@ export default function CalendarApp() {
           <h1 className="font-display">{MONTHS[cursor.getMonth()]} <em>{cursor.getFullYear()}</em></h1>
         </div>
         <div className="city-calendar-tools">
-          <div className="calendar-navigation">
-            <button type="button" onClick={() => shift(-1)} aria-label="Previous period"><ChevronRightIcon className="h-4 w-4 rotate-180" /></button>
-            <button type="button" onClick={goToToday} aria-label={`Return to today, ${WEEKDAYS_LONG[today.getDay()]} ${today.getDate()} ${MONTHS[today.getMonth()]}`}>Today <kbd aria-hidden>T</kbd></button>
-            <button type="button" onClick={() => shift(1)} aria-label="Next period"><ChevronRightIcon className="h-4 w-4" /></button>
+          <div className="calendar-period-controls">
+            {!isCurrentPeriod && (
+              <button
+                type="button"
+                className="calendar-today-return"
+                onClick={goToToday}
+                aria-keyshortcuts="T"
+                aria-label={`Back to today, ${WEEKDAYS_LONG[today.getDay()]} ${today.getDate()} ${MONTHS[today.getMonth()]}`}
+              >
+                Back to today
+              </button>
+            )}
+            <div className="calendar-navigation">
+              <button type="button" onClick={() => shift(-1)} aria-label="Previous period"><ChevronRightIcon className="h-4 w-4 rotate-180" /></button>
+              <button type="button" onClick={() => shift(1)} aria-label="Next period"><ChevronRightIcon className="h-4 w-4" /></button>
+            </div>
           </div>
           <SearchBox events={events} onPick={openEvent} />
           <div className="calendar-view-switch" aria-label="Calendar view">
             {(["month", "week", "day", "agenda"] as View[]).map((option) => (
-              <button key={option} data-calendar-view={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} title={`${option === "agenda" ? "Schedule" : option} view · ${option[0].toUpperCase()}`}>
+              <button key={option} data-calendar-view={option} type="button" onClick={() => chooseView(option)} aria-pressed={view === option} aria-keyshortcuts={option[0].toUpperCase()} title={`${option === "agenda" ? "Schedule" : option} view`}>
                 {option === "agenda" ? (
                   <><span className="view-label-desktop">Schedule</span><span className="view-label-mobile">Upcoming</span></>
                 ) : option}
-                <kbd aria-hidden>{option[0].toUpperCase()}</kbd>
               </button>
             ))}
           </div>
