@@ -31,6 +31,12 @@ export default defineConfig({
         ...devices["Pixel 7"],
       },
     },
+    {
+      name: "mobile-webkit",
+      use: {
+        ...devices["iPhone 13"],
+      },
+    },
   ],
   webServer: process.env.PLAYWRIGHT_BASE_URL
     ? undefined

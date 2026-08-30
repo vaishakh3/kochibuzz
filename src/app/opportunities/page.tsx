@@ -133,7 +133,7 @@ export default function OpportunitiesPage() {
                 </a>
                 <SaveToBuzzButton
                   compact
-                  className="mt-4 h-10 min-h-10 w-10 shrink-0 self-start p-0 text-[0] [&>span]:text-sm sm:mt-5"
+                  className="mt-4 h-10 min-h-10 w-[4.5rem] shrink-0 self-start rounded-full px-3 py-1 text-[11px] sm:mt-5"
                   item={{
                     id: `opportunity:${opportunity.id}`,
                     kind: "opportunity",

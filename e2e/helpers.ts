@@ -74,3 +74,28 @@ export async function expectNoHorizontalOverflow(page: Page) {
   }));
   expect(overflow.scrollWidth).toBeLessThanOrEqual(overflow.clientWidth + 1);
 }
+
+export async function expectNoClippedControls(page: Page) {
+  const clipped = await page.locator("button, summary").evaluateAll((controls) =>
+    controls.flatMap((control) => {
+      if (control.closest("details:not([open])") && control.tagName !== "SUMMARY") return [];
+      const style = window.getComputedStyle(control);
+      const bounds = control.getBoundingClientRect();
+      if (
+        style.display === "none"
+        || style.visibility === "hidden"
+        || bounds.width < 1
+        || bounds.height < 1
+        || control.scrollWidth <= control.clientWidth + 1
+      ) return [];
+      return [{
+        label: control.getAttribute("aria-label")
+          ?? control.textContent?.trim().replace(/\s+/g, " ")
+          ?? control.tagName,
+        clientWidth: control.clientWidth,
+        scrollWidth: control.scrollWidth,
+      }];
+    }),
+  );
+  expect(clipped).toEqual([]);
+}

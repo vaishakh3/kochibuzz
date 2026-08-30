@@ -32,16 +32,22 @@ const filterOrder: (JobCategory | "all")[] = [
 const sourceOrder: JobSourceFilter[] = ["all", "infopark", "lever", "workable", "ksum", "other"];
 const deadlineOrder: JobDeadlineFilter[] = ["all", "week", "month", "listed", "undated"];
 const PAGE = 40;
+const SHORT_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] as const;
 
 function formatDate(iso: string): string {
-  const [year, month, day] = iso.split("-").map(Number);
-  return new Date(year, month - 1, day).toLocaleDateString("en-IN", {
-    day: "numeric",
-    month: "short",
-  });
+  const [, month, day] = iso.split("-").map(Number);
+  return `${day} ${SHORT_MONTHS[month - 1]}`;
 }
 
 const jobFilterUrlEvent = "kochibuzz:job-filters";
+
+function stableTextCompare(a: string, b: string): number {
+  const left = a.normalize("NFKD").toLowerCase();
+  const right = b.normalize("NFKD").toLowerCase();
+  if (left < right) return -1;
+  if (left > right) return 1;
+  return a < b ? -1 : a > b ? 1 : 0;
+}
 
 function filtersFromSearch(search: string): JobFilters {
   const params = new URLSearchParams(search);
@@ -182,7 +188,7 @@ export default function JobsExplorer({
   }, [jobs]);
 
   const companies = useMemo(
-    () => [...new Set(jobs.map((job) => job.company))].sort((a, b) => a.localeCompare(b)),
+    () => [...new Set(jobs.map((job) => job.company))].sort(stableTextCompare),
     [jobs],
   );
 

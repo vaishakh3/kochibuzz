@@ -24,8 +24,8 @@ jobs:
 
       - run: npm ci
 
-      - name: Install Chromium
-        run: npx playwright install --with-deps chromium
+      - name: Install Chromium and WebKit
+        run: npx playwright install --with-deps chromium webkit
 
       - name: Lint
         run: npm run lint
@@ -36,7 +36,7 @@ jobs:
       - name: Production build
         run: npm run build
 
-      - name: Desktop and mobile end-to-end tests
+      - name: Desktop Chrome, Android Chrome, and iPhone Safari tests
         run: npm run test:e2e:only
 
       - name: Upload browser test report

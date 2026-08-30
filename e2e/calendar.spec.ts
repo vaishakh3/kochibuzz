@@ -1,5 +1,10 @@
 import { expect, test } from "@playwright/test";
-import { captureBrowserErrors, expectNoHorizontalOverflow, mockAttendance } from "./helpers";
+import {
+  captureBrowserErrors,
+  expectNoClippedControls,
+  expectNoHorizontalOverflow,
+  mockAttendance,
+} from "./helpers";
 
 test.beforeEach(async ({ page }) => {
   await mockAttendance(page);
@@ -32,7 +37,7 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
     const firstEventBounds = await page.locator(".calendar-agenda-event").first().boundingBox();
     expect(firstEventBounds).not.toBeNull();
     expect(firstEventBounds!.y).toBeLessThan(300);
-    await page.mouse.wheel(0, 500);
+    await page.evaluate(() => window.scrollBy(0, 500));
     await expect.poll(() => page.evaluate(() => window.scrollY)).toBeGreaterThan(0);
 
     await page.getByRole("button", { name: /month/i }).click();
@@ -45,6 +50,9 @@ test("calendar renders a complete, usable responsive view", async ({ page }, tes
   }
 
   await expectNoHorizontalOverflow(page);
+  if (testInfo.project.name.startsWith("mobile")) {
+    await expectNoClippedControls(page);
+  }
   expect(browserErrors).toEqual([]);
 });
 

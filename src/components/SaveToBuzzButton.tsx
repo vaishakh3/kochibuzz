@@ -45,10 +45,12 @@ export default function SaveToBuzzButton({
       onClick={toggle}
       aria-pressed={saved}
       aria-label={`${saved ? "Remove" : "Save"} ${item.title} ${saved ? "from" : "to"} My Buzz`}
-      className={`inline-flex min-h-10 items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-semibold ring-1 transition ${toneClass} ${className}`}
+      className={`inline-flex min-h-10 max-w-full items-center justify-center gap-2 whitespace-nowrap rounded-md px-4 py-2 text-sm font-semibold ring-1 transition ${toneClass} ${className}`}
     >
       <span aria-hidden>{saved ? "✓" : "+"}</span>
-      {compact ? (saved ? "Saved" : "Save") : (saved ? "Saved to My Buzz" : "Save to My Buzz")}
+      <span>
+        {compact ? (saved ? "Saved" : "Save") : (saved ? "Saved to My Buzz" : "Save to My Buzz")}
+      </span>
     </button>
   );
 }

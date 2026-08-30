@@ -1,5 +1,9 @@
 import { expect, test } from "@playwright/test";
-import { captureBrowserErrors, expectNoHorizontalOverflow } from "./helpers";
+import {
+  captureBrowserErrors,
+  expectNoClippedControls,
+  expectNoHorizontalOverflow,
+} from "./helpers";
 
 const routes = [
   "/jobs",
@@ -13,15 +17,38 @@ const routes = [
 ] as const;
 
 for (const path of routes) {
-  test(`${path} renders without browser errors`, async ({ page }) => {
+  test(`${path} renders without browser errors`, async ({ page }, testInfo) => {
     const browserErrors = captureBrowserErrors(page);
     const response = await page.goto(path);
     expect(response?.status()).toBe(200);
     await expect(page.getByRole("heading", { level: 1 }).first()).toBeVisible();
     await expectNoHorizontalOverflow(page);
+    if (testInfo.project.name.startsWith("mobile")) {
+      await expectNoClippedControls(page);
+    }
     expect(browserErrors).toEqual([]);
   });
 }
+
+test("opportunity save controls keep their labels inside the button", async ({ page }, testInfo) => {
+  test.skip(!testInfo.project.name.startsWith("mobile"), "Mobile control containment regression.");
+  await page.goto("/opportunities");
+
+  const saveButtons = page.getByRole("button", { name: /^Save .+ to My Buzz$/ });
+  await expect(saveButtons.first()).toBeVisible();
+  await expectNoClippedControls(page);
+
+  const first = page.locator("li[id]").first().getByRole("button");
+  const bounds = await first.boundingBox();
+  expect(bounds).not.toBeNull();
+  expect(bounds!.width).toBeGreaterThanOrEqual(64);
+  expect(bounds!.height).toBeGreaterThanOrEqual(40);
+
+  await first.click();
+  await expect(first).toHaveAttribute("aria-pressed", "true");
+  await expect(first).toContainText("Saved");
+  await expectNoClippedControls(page);
+});
 
 test("public calendar, feed, and JSON endpoints stay consumable", async ({ request }) => {
   const calendar = await request.get("/calendar.ics");

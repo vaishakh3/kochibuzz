@@ -295,7 +295,7 @@ All JSON endpoints use `schemaVersion: 1`.
 
 - Node.js 22
 - npm
-- Chromium for the Playwright suite (`npx playwright install chromium`)
+- Chromium and WebKit for the Playwright suite (`npx playwright install chromium webkit`)
 
 ```bash
 git clone https://github.com/vaishakh3/kochibuzz.git
@@ -333,7 +333,7 @@ belong in the browser or a committed file.
 | `npm run build` | Create a production build |
 | `npm run lint` | Lint app, workers and browser tests |
 | `npm test` | Run unit, adapter, pipeline and review tests |
-| `npm run test:e2e` | Build and run desktop + mobile Chromium journeys |
+| `npm run test:e2e` | Build and run desktop Chrome, Android Chrome and iPhone Safari journeys |
 | `npm run test:all` | Lint, unit tests, build and E2E in one pass |
 | `npm run sync:data:dry` | Fetch, validate and report without writing |
 | `npm run sync:data` | Refresh canonical data and public API files |
@@ -380,11 +380,11 @@ Before a PR:
 npm run test:all
 ```
 
-CI repeats linting, unit tests, a production build and real desktop/mobile
-browser journeys. Scheduled data commits rebase against `main`, so an hourly
-refresh cannot quietly overwrite code work. Hard pipeline failures are surfaced
-through one automatically managed GitHub issue and closed when the system
-recovers.
+CI repeats linting, unit tests, a production build and real desktop Chrome,
+Android Chrome and iPhone Safari journeys. Scheduled data commits rebase against
+`main`, so an hourly refresh cannot quietly overwrite code work. Hard pipeline
+failures are surfaced through one automatically managed GitHub issue and closed
+when the system recovers.
 
 ## A few non-negotiables
 

@@ -67,7 +67,7 @@ export default async function EventPage({ params }: { params: Params }) {
       />
       <main id="main-content" className="mx-auto w-full max-w-2xl flex-1 px-4 py-10 sm:px-6">
         <p className="text-xs text-white/70">
-          <Link href="/events" className="transition hover:text-white/80">
+          <Link href="/events" prefetch={false} className="transition hover:text-white/80">
             ← All Kochi tech events
           </Link>
         </p>
@@ -190,6 +190,7 @@ export default async function EventPage({ params }: { params: Params }) {
               </a>
               <Link
                 href={`/events?e=${event.id}`}
+                prefetch={false}
                 className="text-sm text-white/50 underline decoration-white/20 underline-offset-4 transition hover:text-white"
               >
                 Open in calendar

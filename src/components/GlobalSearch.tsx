@@ -141,6 +141,7 @@ export default function GlobalSearch({
                     <li key={`${item.group}-${item.href}-${item.title}`}>
                       <Link
                         href={item.href}
+                        prefetch={false}
                         className="flex items-baseline justify-between gap-3 px-4 py-2 transition hover:bg-white/[0.05]"
                         onClick={onClose}
                       >
