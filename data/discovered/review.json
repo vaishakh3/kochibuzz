@@ -1,0 +1,82 @@
+[
+  {
+    "candidate": {
+      "title": "ETHKochi 2026",
+      "start": "2026-09-05",
+      "end": "2026-09-06",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, India",
+      "city": "Kochi",
+      "organizer": "Web3 Kerala, backed by Kerala Startup Mission",
+      "description": "Two-day Ethereum conference and hackathon. Registration is free; team size is 1–4.",
+      "categoryHint": "conference; hackathon; Web3",
+      "evidenceUrl": "https://ethkochi.devfolio.co/",
+      "registrationUrl": "https://ethkochi.devfolio.co/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-08-31"
+  },
+  {
+    "candidate": {
+      "title": "Cochin Nano 2026",
+      "start": "2026-09-26",
+      "end": "2026-09-28",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Seminar Complex, Cochin University of Science and Technology",
+      "city": "Kochi",
+      "organizer": "Cochin University of Science and Technology",
+      "description": "5th International Conference on Frontiers in Nanoscience and Technology. Public conference registration is available; the registration deadline is 2026-09-15.",
+      "categoryHint": "conference; nanotechnology; research",
+      "evidenceUrl": "https://cochinnano.cusat.ac.in/registration/",
+      "registrationUrl": "https://cochinnano.cusat.ac.in/registration/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 500",
+    "discoveredAt": "2026-08-31"
+  },
+  {
+    "candidate": {
+      "title": "PIVOT 2026 — Deep Tech Startup Summit",
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
+      "city": "Kochi",
+      "organizer": "IIMK LIVE",
+      "description": "Deep-tech startup summit for founders, mentors and investors, including founder forums, investor feedback and prototype-focused sessions.",
+      "categoryHint": "startup / founder / deep tech",
+      "evidenceUrl": "https://pivot26.suit.iimklive.org/",
+      "registrationUrl": "https://pivot26.suit.iimklive.org/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-08-31"
+  },
+  {
+    "candidate": {
+      "title": "Maker Thursday",
+      "start": "2026-11-20",
+      "end": null,
+      "startTime": "13:30",
+      "endTime": null,
+      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub",
+      "description": "Public maker/technology gathering listed by TinkerHub.",
+      "categoryHint": "maker; technology",
+      "evidenceUrl": "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-08-31"
+  }
+]

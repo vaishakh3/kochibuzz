@@ -29,6 +29,22 @@ jobs:
 
       - run: npm ci
 
+      - name: Discover public event pages
+        id: discover_events
+        continue-on-error: true
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_DISCOVERY_MODEL: gpt-5.6-luna
+          OPENAI_DISCOVERY_REFRESH_HOURS: "12"
+          OPENAI_DISCOVERY_MAX_SEARCH_CALLS: "4"
+          OPENAI_DISCOVERY_MAX_CANDIDATES: "20"
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "OpenAI discovery skipped: repository secret is not configured."
+            exit 0
+          fi
+          npm run discover:events
+
       - name: Run data sync
         id: sync_data
         run: npx tsx scripts/sync/index.ts
@@ -38,7 +54,7 @@ jobs:
 
       - name: Commit data changes only
         run: |
-          git add data/generated data/state public/api/v1
+          git add data/discovered data/generated data/state public/api/v1
           if git diff --cached --quiet; then
             echo "No data changes. Exiting."
             exit 0

@@ -109,6 +109,7 @@ async function main() {
   const state = readJson("data/state/source-state.json", sourceStateSchema);
 
   const manualEvents = readJson("data/manual/events.json", z.array(eventSchema));
+  const discoveredEvents = readJson("data/discovered/events.json", z.array(eventSchema));
   const manualOpportunities = readJson(
     "data/manual/opportunities.json",
     z.array(opportunitySchema),
@@ -261,7 +262,7 @@ async function main() {
   );
   stats.rejectedIrrelevant = relevance.rejected;
   const deduped = dedupeEvents(
-    [...manualEvents, ...relevance.kept],
+    [...manualEvents, ...discoveredEvents, ...relevance.kept],
     trustForSource(sources),
   );
   stats.duplicatesMerged = deduped.merged;

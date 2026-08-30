@@ -173,6 +173,17 @@
     "notes": "Global public iCal calendar. Only events with explicit Kochi locality evidence are published."
   },
   {
+    "id": "openai-web-discovery",
+    "name": "Kochi Buzz — verified public web discovery",
+    "kind": "manual",
+    "entityTypes": ["event"],
+    "url": "https://kochi.buzz/about",
+    "enabled": false,
+    "trustLevel": 2,
+    "refreshHours": 12,
+    "notes": "GPT-5.6 Luna scouts public pages; deterministic title, date, locality and URL checks gate every published record. Disabled here because it runs as a separate cost-capped worker."
+  },
+  {
     "id": "ksum-events",
     "name": "Kerala Startup Mission — events",
     "kind": "json",

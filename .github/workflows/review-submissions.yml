@@ -1,0 +1,113 @@
+name: Review submissions
+
+on:
+  issues:
+    types: [opened, edited, reopened]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: "Submission issue number"
+        required: true
+        type: number
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: kochi-buzz-submission-${{ github.event.issue.number || inputs.issue_number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'submission')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Verify and review submission
+        id: review_submission
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_REVIEW_MODEL: gpt-5.6-luna
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number || inputs.issue_number }}
+        run: npm run review:submission
+
+      - name: Publish approved data
+        id: publish
+        if: steps.review_submission.outputs.decision == 'approved' && steps.review_submission.outputs.changed == 'true'
+        run: |
+          npm run sync:data
+          npm test
+          git add data/manual data/generated data/state public/api/v1
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "kochi-buzz-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "data: accept verified community submission"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
+      - name: Update the submission issue
+        if: steps.review_submission.outcome == 'success' && (steps.publish.outcome == 'success' || steps.publish.outcome == 'skipped')
+        uses: actions/github-script@v9
+        env:
+          REVIEW_RESULT_PATH: .review-result.json
+        with:
+          script: |
+            const fs = require("node:fs");
+            const result = JSON.parse(fs.readFileSync(process.env.REVIEW_RESULT_PATH, "utf8"));
+            const labels = {
+              approved: { name: "review:auto-added", color: "b9f227", description: "Verified and added automatically" },
+              review: { name: "review:needed", color: "f2b84b", description: "Needs a maintainer check" },
+              rejected: { name: "review:rejected", color: "d94b64", description: "Automated checks found a clear problem" },
+            };
+            const label = labels[result.decision];
+            try {
+              await github.rest.issues.getLabel({ owner: context.repo.owner, repo: context.repo.repo, name: label.name });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({ owner: context.repo.owner, repo: context.repo.repo, ...label });
+            }
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: result.issueNumber,
+              labels: [label.name],
+            });
+            const reasonList = result.reasons.length
+              ? `\n\n${result.reasons.map((reason) => `- ${reason}`).join("\n")}`
+              : "";
+            const ending = result.decision === "approved"
+              ? "It has been added to Kochi Buzz."
+              : result.decision === "review"
+                ? "A maintainer will take a quick look."
+                : "It was not added automatically; a maintainer can still review it here.";
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: result.issueNumber,
+              body: `${result.summary}\n\n${ending}${reasonList}`,
+            });
+            if (result.decision === "approved") {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: result.issueNumber,
+                state: "closed",
+                state_reason: "completed",
+              });
+            }

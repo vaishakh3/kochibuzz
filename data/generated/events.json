@@ -166,6 +166,28 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "web-d2c-mxr-business-connect-2026-6b6c2af83a",
+    "title": "D2C MXR Business Connect 2026",
+    "start": "2026-09-05",
+    "end": "2026-09-05",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "category": "startup",
+    "venue": "Kerala Startup Mission",
+    "city": "Kochi",
+    "organizer": "MXR.world | Powered by Crowd Product",
+    "blurb": "A networking and knowledge-sharing event for founders, D2C brands, entrepreneurs and ecosystem builders at Kerala Startup Mission.",
+    "tags": [],
+    "url": "https://luma.com/lf4ruje2",
+    "sourceUrls": [
+      "https://luma.com/lf4ruje2"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-08-31"
+  },
+  {
     "id": "openspeaks-kochi",
     "title": "OpenSpeaks: Language Documentation & Archiving",
     "start": "2026-09-07",
@@ -292,6 +314,28 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
+    "title": "eChai Startup Demo Day in Kochi",
+    "start": "2026-09-26",
+    "end": "2026-09-26",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "category": "startup",
+    "venue": "Kochi",
+    "city": "Kochi",
+    "organizer": "eChai Ventures",
+    "blurb": "Where founders show what they're building.",
+    "tags": [],
+    "url": "https://echai.ventures/events/echai-startup-demo-day-in-kochi-sep-26-2026",
+    "sourceUrls": [
+      "https://echai.ventures/events/echai-startup-demo-day-in-kochi-sep-26-2026"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-08-31"
   },
   {
     "id": "iedc-summit-2026",

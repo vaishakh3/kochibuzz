@@ -43,6 +43,8 @@ npm run lint
 npm test               # sync pipeline + adapter + buzz tests
 npm run test:e2e        # production build + desktop/mobile Chromium journeys
 npm run test:all        # lint + unit + build + desktop/mobile E2E
+npm run discover:events # cost-capped public-web event discovery (skips until due)
+npm run discover:events:dry # forced live discovery without writing data
 npm run sync:data:dry  # fetch sources, report, write nothing
 npm run sync:data      # regenerate data/generated + public/api/v1
 ```
@@ -51,6 +53,7 @@ npm run sync:data      # regenerate data/generated + public/api/v1
 
 ```txt
 data/
+  discovered/  source-verified web discoveries + leads awaiting review
   manual/      hand-curated records (events, opportunities, projects, announcements)
   overrides/   per-id corrections that always win over ingested data
   sources/     registry.json — every automated source, its kind and trust level
@@ -80,6 +83,24 @@ the change. A rebase-safe push prevents scheduled refreshes from overwriting cod
 changes, and one automatically managed GitHub issue exposes hard source/test failures
 until the pipeline recovers.
 
+### Public-web discovery
+
+`scripts/discovery/events.ts` uses the OpenAI Responses API with `gpt-5.6-luna`
+as a scout for public event pages that are not in the source registry yet. Search
+results never publish on model output alone: every accepted event must be in the
+next 120 days, pass greater-Kochi locality checks, resolve to a safe public URL,
+and have its title, date and location independently confirmed by the fetched page
+or Schema.org Event data. Known calendar events are suppressed with same-date
+title similarity, and unclear social/news leads stay in
+`data/discovered/review.json`.
+
+Discovery runs at most every 12 hours and stops after four measured web-search
+actions. At current standard pricing, that caps the search-tool portion at about
+$2.40/month; the measured Luna token volume adds roughly another $0.40/month at
+that schedule. The model, interval, call ceiling and candidate ceiling are configurable
+through the variables documented in `.env.example`. An OpenAI outage is non-fatal
+to the hourly deterministic sync, so existing feeds continue to refresh.
+
 `.github/workflows/quality.yml` runs lint, unit tests, a production build, and the
 desktop/mobile Playwright suite on every push and pull request to `main`.
 
@@ -95,6 +116,19 @@ with only **Issues: read and write** permission. The token is read only by the
 server route and must never use a broad personal `repo` token. If the variable is
 absent or GitHub is temporarily unavailable, the form retains the entered data
 and hands the user a prepared GitHub issue instead.
+
+`.github/workflows/review-submissions.yml` reviews new `submission` issues with
+Luna using strict structured output and no web-search tool. The submitted text and
+source page are explicitly treated as untrusted data. Events, opportunities,
+projects and communities are auto-added only when the official page is reachable,
+deterministic evidence checks pass, every model check passes, and confidence is at
+least 0.90. Ambiguous items remain open with `review:needed`; obvious spam is
+labelled but left available for a human decision. New scraper/source definitions
+always require manual security review.
+
+The automation needs a repository Actions secret named `OPENAI_API_KEY`. Keep the
+same variable in an ignored `.env.local` only for local discovery/testing; never
+use a `NEXT_PUBLIC_` name.
 
 ## Contributing data
 
