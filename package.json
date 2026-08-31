@@ -10,6 +10,8 @@
     "social:preview": "tsx scripts/generate-social-preview.ts",
     "discover:events": "tsx scripts/discovery/events.ts",
     "discover:events:dry": "tsx scripts/discovery/events.ts --dry-run --force",
+    "rank:calendar": "tsx scripts/ranking/calendar.ts",
+    "rank:calendar:force": "tsx scripts/ranking/calendar.ts --force",
     "review:submission": "tsx scripts/submissions/review.ts",
     "sync:data": "tsx scripts/sync/index.ts",
     "sync:data:dry": "tsx scripts/sync/index.ts --dry-run",

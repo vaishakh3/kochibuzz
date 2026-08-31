@@ -9,7 +9,7 @@ import { ArrowUpRightIcon, CalendarPlusIcon, ChevronRightIcon, CloseIcon } from 
 import MonthView from "@/components/MonthView";
 import SearchBox from "@/components/SearchBox";
 import WeekView from "@/components/WeekView";
-import { CategoryId, TechEvent, categories, categoryById, events } from "@/data/events";
+import { CategoryId, TechEvent, calendarHeadlineByDate, categories, categoryById, events } from "@/data/events";
 import {
   MONTHS,
   WEEKDAYS,
@@ -412,7 +412,7 @@ export default function CalendarApp() {
           </header>
 
           {view === "agenda" && <AgendaView today={today} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={openEvent} />}
-          {view === "month" && <MonthView cursor={cursor} selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={openEvent} />}
+          {view === "month" && <MonthView cursor={cursor} selected={selected} today={today} events={visibleEvents} headlineByDate={calendarHeadlineByDate} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={openEvent} />}
           {view === "week" && <WeekView selected={selected} today={today} events={visibleEvents} selectedEventId={openEventId} onSelectDate={selectDate} onOpenEvent={openEvent} />}
           {view === "day" && <DayView selected={selected} events={visibleEvents} selectedEventId={openEventId} onOpenEvent={openEvent} />}
         </section>

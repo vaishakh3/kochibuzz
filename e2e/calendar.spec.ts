@@ -71,7 +71,7 @@ test("period navigation exposes today only as a contextual return action", async
   await expect(returnToToday).toHaveCount(0);
 });
 
-test("month cells stay unambiguous and show the confirmed September Codex dates", async ({ page }, testInfo) => {
+test("month cells choose distinct headlines and show the confirmed September dates", async ({ page }, testInfo) => {
   await page.goto("/");
   await page.getByRole("button", { name: /month/i }).click();
   await page.getByRole("button", { name: "Next period" }).click();
@@ -83,7 +83,19 @@ test("month cells stay unambiguous and show the confirmed September Codex dates"
   const foundersDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-16"])');
   const calicutDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-19"])');
   const cyberSummitDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-05"])');
+  const openingConferenceDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-04"])');
+  const programmeDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-06"])');
+  const continuationOnlyDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-20"])');
   if (testInfo.project.name.startsWith("desktop")) {
+    await expect(openingConferenceDay.locator(".calendar-event-chip__title"))
+      .toHaveText("WikiConference India 2026");
+    await expect(cyberSummitDay.locator(".calendar-event-chip__title"))
+      .toHaveText("Kerala Cyber Suraksha Summit 2026");
+    await expect(programmeDay.locator(".calendar-event-chip__title"))
+      .toHaveText("Nights and Weekends");
+    await expect(continuationOnlyDay.locator(".calendar-event-chip")).toHaveCount(0);
+    await expect(continuationOnlyDay.getByRole("button", { name: /Show all 1 ongoing event/i }))
+      .toBeVisible();
     await expect(foundersDay.getByText(/Codex Community Meetup/i)).toBeVisible();
     const calicutEvent = calicutDay.locator(".calendar-event-chip").first();
     await expect(calicutEvent.locator(".calendar-event-chip__title"))
@@ -97,6 +109,8 @@ test("month cells stay unambiguous and show the confirmed September Codex dates"
     const dayLens = page.getByRole("dialog", { name: /Saturday, 5 September 2026/i });
     await expect(dayLens.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
     await expect(dayLens.getByText("bi0s Meetups", { exact: true })).toBeVisible();
+    await expect(dayLens.locator("li").first().getByText("Kerala Cyber Suraksha Summit 2026", { exact: true }))
+      .toBeVisible();
     const dayList = dayLens.locator("ol");
     await expect.poll(() => dayList.evaluate((element) => element.scrollHeight <= element.clientHeight + 1))
       .toBe(true);
@@ -107,6 +121,8 @@ test("month cells stay unambiguous and show the confirmed September Codex dates"
     const selectedDay = page.locator(".calendar-month-selection");
     await expect(selectedDay.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
     await expect(selectedDay.getByText("bi0s Meetups", { exact: true })).toBeVisible();
+    await expect(selectedDay.locator("li").first().getByText("Kerala Cyber Suraksha Summit 2026", { exact: true }))
+      .toBeVisible();
     await expect(foundersDay.locator('[data-calendar-date="2026-09-16"]'))
       .toHaveAttribute("aria-label", /1 event/);
     await expect(calicutDay.locator('[data-calendar-date="2026-09-19"]'))

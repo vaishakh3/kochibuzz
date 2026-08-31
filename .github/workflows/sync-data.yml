@@ -49,6 +49,12 @@ jobs:
         id: sync_data
         run: npx tsx scripts/sync/index.ts
 
+      - name: Rank crowded calendar dates
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_CALENDAR_RANKING_MODEL: gpt-5.6-luna
+        run: npm run rank:calendar
+
       - name: Run data tests
         run: npx vitest run
 

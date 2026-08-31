@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "decisions": {
+    "2026-09-04": {
+      "signature": "3485ad8e614dcab334146b23f4b59cc505c2fc95492e5f8c9c9000ffa3f6a31f",
+      "eventId": "wikiconference-india-2026",
+      "reason": "A national open-knowledge conference hosted in Kochi, with Indic-language and Wikimedia programming.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-08-31T03:27:06.853Z"
+    },
+    "2026-09-05": {
+      "signature": "57f8b710ac15416c681a55d9647a1478130cb80d411c56c6725f09ec2ba1fee9",
+      "eventId": "kerala-cyber-suraksha-summit-2026",
+      "reason": "A substantial Kochi summit covering cybersecurity leadership, attack simulations and practical masterclasses.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-08-31T03:27:06.853Z"
+    },
+    "2026-09-26": {
+      "signature": "811d47bba01fc173237034618427a8a44d619045fef8cf3568ec3a462da962aa",
+      "eventId": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
+      "reason": "The listed Kochi event is more locally useful than the Bengaluru conference for this calendar.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-08-31T03:27:06.853Z"
+    }
+  },
+  "lastUsage": {
+    "model": "gpt-5.6-luna",
+    "inputTokens": 1081,
+    "outputTokens": 156
+  }
+}

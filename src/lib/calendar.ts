@@ -67,6 +67,41 @@ export function eventsOn(events: TechEvent[], date: Date): TechEvent[] {
   );
 }
 
+export type CalendarDayPresentation = {
+  /** All events on the date, with the visible headline first when one exists. */
+  events: TechEvent[];
+  /** Undefined for continuation-only dates, keeping repeated multi-day cards off the grid. */
+  headline?: TechEvent;
+};
+
+/**
+ * Select one distinct month-grid headline. Luna supplies the preferred ID for
+ * crowded start dates; deterministic rules handle filtering and offline data.
+ * A multi-day event can headline its opening date, never every date it spans.
+ */
+export function calendarDayPresentation(
+  events: TechEvent[],
+  date: Date,
+  preferredId?: string,
+): CalendarDayPresentation {
+  const all = eventsOn(events, date);
+  const iso = toISODate(date);
+  const starting = all.filter((event) => event.start === iso);
+  const preferred = starting.find((event) => event.id === preferredId);
+  const fallback = [...starting].sort((a, b) =>
+    Number(Boolean(b.featured)) - Number(Boolean(a.featured))
+    || Number(Boolean(a.travel)) - Number(Boolean(b.travel))
+    || Number(Boolean(b.manual)) - Number(Boolean(a.manual))
+    || Number(Boolean(b.startTime)) - Number(Boolean(a.startTime))
+    || a.title.localeCompare(b.title),
+  )[0];
+  const headline = preferred ?? fallback;
+  return {
+    events: headline ? [headline, ...all.filter((event) => event.id !== headline.id)] : all,
+    headline,
+  };
+}
+
 export function sortByStart(a: TechEvent, b: TechEvent): number {
   if (a.start !== b.start) return a.start < b.start ? -1 : 1;
   return (a.startTime ?? "00:00") < (b.startTime ?? "00:00") ? -1 : 1;

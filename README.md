@@ -146,6 +146,7 @@ flowchart TB
     adapters["Typed source adapters"]
     liverefresh["Live page refresh<br/>title · date · time · venue · host"]
     scout["GPT-5.6 Luna scout<br/>candidate URLs only"]
+    ranker["GPT-5.6 Luna editor<br/>crowded-date headline only"]
     issue["GitHub issue"]
     reviewer["Luna structured review<br/>no search tool"]
   end
@@ -194,7 +195,7 @@ flowchart TB
   manual --> sync
   discovered --> sync
   overrides --> sync
-  sync --> priority --> generated --> commit --> quality --> deploy --> outputs
+  sync --> priority --> generated --> ranker --> commit --> quality --> deploy --> outputs
 
   classDef source fill:#F5F0E7,color:#0B0B12,stroke:#72DCC7;
   classDef ai fill:#C7B4EE,color:#0B0B12,stroke:#0B0B12;
@@ -202,7 +203,7 @@ flowchart TB
   classDef signal fill:#D7F24B,color:#0B0B12,stroke:#0B0B12;
   classDef coral fill:#FF6542,color:#0B0B12,stroke:#0B0B12;
   class feeds,pages,publicweb,form,curator source;
-  class scout,reviewer ai;
+  class scout,reviewer,ranker ai;
   class schema,evidence,relevance,dedupe gate;
   class manual,discovered,overrides,sync,priority,generated signal;
   class commit,quality,deploy,outputs coral;
@@ -237,6 +238,12 @@ Kalamassery (space 1), converts UTC timestamps to IST, and excludes campus-only
 and other-city records. Long cohort windows are published on their opening date
 with the programme end retained as context, so one course cannot paint over an
 entire month of the calendar.
+
+When several events begin on the same date, a separate Luna editorial pass
+chooses the one visible month-grid headline. Decisions are cached against the
+candidate data, so unchanged dates cost no additional API call. The browser
+never calls OpenAI: it reads the committed choice, falls back deterministically,
+and keeps continuing multi-day events behind the day view after opening day.
 
 #### Public-web discovery, every 12 hours at most
 

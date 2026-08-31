@@ -111,11 +111,15 @@ export type TechEvent = {
 };
 
 import generatedEvents from "../../data/generated/events.json";
+import generatedCalendarPicks from "../../data/generated/calendar-picks.json";
 
 /**
  * Canonical events come from the generated dataset (data/generated/events.json),
  * produced by the sync pipeline from data/manual + registered sources.
  */
 export const events: TechEvent[] = generatedEvents as TechEvent[];
+
+/** Cached Luna editorial choices for dates where multiple events begin. */
+export const calendarHeadlineByDate = generatedCalendarPicks as Record<string, string>;
 
 export const eventById = new Map(events.map((e) => [e.id, e]));

@@ -9,8 +9,8 @@ import {
   WEEKDAYS,
   WEEKDAYS_LONG,
   addDays,
+  calendarDayPresentation,
   eventPlace,
-  eventsOn,
   formatTimeRange,
   isPast,
   isSameDay,
@@ -26,6 +26,7 @@ type Props = {
   selectedEventId?: string;
   onSelectDate: (date: Date) => void;
   onOpenEvent: (event: TechEvent) => void;
+  headlineByDate: Record<string, string>;
 };
 
 /** Stable across Node, Chromium, and Safari; Intl punctuation varies by engine. */
@@ -193,17 +194,24 @@ export default function MonthView({
   selectedEventId,
   onSelectDate,
   onOpenEvent,
+  headlineByDate,
 }: Props) {
   const cells = useMemo(() => monthGrid(cursor), [cursor]);
   const weeks = useMemo(
     () => Array.from({ length: 6 }, (_, index) => cells.slice(index * 7, index * 7 + 7)),
     [cells],
   );
-  const eventsByDay = useMemo(
-    () => new Map(cells.map((day) => [toISODate(day), eventsOn(events, day)])),
-    [cells, events],
+  const presentationByDay = useMemo(
+    () => new Map(cells.map((day) => {
+      const iso = toISODate(day);
+      return [iso, calendarDayPresentation(events, day, headlineByDate[iso])] as const;
+    })),
+    [cells, events, headlineByDate],
   );
-  const selectedDayEvents = useMemo(() => eventsOn(events, selected), [events, selected]);
+  const selectedDayEvents = useMemo(() => {
+    const iso = toISODate(selected);
+    return calendarDayPresentation(events, selected, headlineByDate[iso]).events;
+  }, [events, headlineByDate, selected]);
   const [openDay, setOpenDay] = useState<Date | null>(null);
 
   function moveFocus(event: KeyboardEvent<HTMLButtonElement>, day: Date, offset: number) {
@@ -234,9 +242,11 @@ export default function MonthView({
           <div className="calendar-month-grid" role="rowgroup">
           {weeks.map((week) => <div className="calendar-month-week" role="row" key={toISODate(week[0])}>{week.map((day) => {
             const inMonth = day.getMonth() === cursor.getMonth();
-            const dayEvents = eventsByDay.get(toISODate(day)) ?? [];
-            const visibleDayEvents = dayEvents.slice(0, 1);
+            const presentation = presentationByDay.get(toISODate(day)) ?? { events: [] };
+            const dayEvents = presentation.events;
+            const visibleDayEvents = presentation.headline ? [presentation.headline] : [];
             const hiddenEventCount = dayEvents.length - visibleDayEvents.length;
+            const eventNoun = dayEvents.length === 1 ? "event" : "events";
             const isToday = isSameDay(day, today);
             const isSelected = isSameDay(day, selected);
             return (
@@ -287,13 +297,13 @@ export default function MonthView({
                       type="button"
                       className="calendar-month-day__more"
                       aria-haspopup="dialog"
-                      aria-label={`Show all ${dayEvents.length} events on ${dayLabel(day)}`}
+                      aria-label={`Show all ${dayEvents.length} ${presentation.headline ? eventNoun : `ongoing ${eventNoun}`} on ${dayLabel(day)}`}
                       onClick={() => {
                         onSelectDate(day);
                         setOpenDay(day);
                       }}
                     >
-                      <span>+{hiddenEventCount} more</span>
+                      <span>+{hiddenEventCount} {presentation.headline ? "more" : "ongoing"}</span>
                       <small>Open day</small>
                       <ChevronRightIcon className="h-3 w-3" />
                     </button>
@@ -313,7 +323,7 @@ export default function MonthView({
       {openDay && (
         <DayLens
           day={openDay}
-          events={eventsByDay.get(toISODate(openDay)) ?? []}
+          events={presentationByDay.get(toISODate(openDay))?.events ?? []}
           onClose={() => setOpenDay(null)}
           onOpenEvent={onOpenEvent}
         />
