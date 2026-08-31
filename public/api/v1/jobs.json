@@ -2,6 +2,97 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-312-25212",
+      "title": "Associate - QA Engineer",
+      "company": "2Base Technologies Pvt Ltd",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/312/25212",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-312-25213",
+      "title": "Business Development Manager",
+      "company": "2Base Technologies Pvt Ltd",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/312/25213",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-312-25214",
+      "title": "Associate - System Engineer",
+      "company": "2Base Technologies Pvt Ltd",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/312/25214",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-312-25215",
+      "title": "Marketing & Growth Lead",
+      "company": "2Base Technologies Pvt Ltd",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/312/25215",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-312-25216",
+      "title": "Visual Designer",
+      "company": "2Base Technologies Pvt Ltd",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "design",
+      "detailUrl": "https://infopark.in/company-jobs/details/312/25216",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-36-25217",
+      "title": "Immediate opening for Python developers",
+      "company": "Aspire Systems Digital Private Limited",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/36/25217",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "infopark-36-25219",
+      "title": "Immediate Opening for Gen ai + Python Developer SSE",
+      "company": "Aspire Systems Digital Private Limited",
+      "postedAt": "2026-08-31",
+      "deadlineAt": "2026-08-31",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/36/25219",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "infopark-435-25211",
       "title": "Sales Agent / ERP Software Dealer – Incentive Based",
       "company": "Carol Solutions",
@@ -1034,19 +1125,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "infopark-371-25086",
-      "title": "Software Test Engineer - 0-2 years",
-      "company": "Gizmeon Technologies Private Limited",
-      "postedAt": "2026-08-14",
-      "deadlineAt": "2026-08-31",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/371/25086",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-08-20"
-    },
-    {
       "id": "infopark-62-25079",
       "title": "Internal System Administrator",
       "company": "VIPoint Solutions Pvt Ltd",
@@ -1881,6 +1959,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-36-24888",
+      "title": "Immediate Opening for Gen AI SSE Position",
+      "company": "Aspire Systems Digital Private Limited",
+      "postedAt": "2026-07-29",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/36/24888",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "infopark-495-24887",
       "title": "Full-Stack Developer",
       "company": "Difinity Digital",
@@ -2152,6 +2243,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-27"
+    },
+    {
+      "id": "infopark-36-24785",
+      "title": "Immediate Opening for Data Engineer",
+      "company": "Aspire Systems Digital Private Limited",
+      "postedAt": "2026-07-22",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/36/24785",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
     },
     {
       "id": "infopark-372-24779",
@@ -4042,6 +4146,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-476-22177",
+      "title": "2D/3D Animator (Intern)",
+      "company": "Paoyaila Animation Studios LLP",
+      "postedAt": "2026-02-21",
+      "deadlineAt": "2026-09-15",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/476/22177",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "infopark-476-22178",
       "title": "Game Developer",
       "company": "Paoyaila Animation Studios LLP",
@@ -5501,7 +5618,7 @@
       "title": "Performance marketing Strategist (Exp:4+years)",
       "company": "Webandcrafts",
       "postedAt": "2023-11-16",
-      "deadlineAt": "2026-08-31",
+      "deadlineAt": "2026-09-01",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/105/15190",
@@ -5562,6 +5679,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-105-14473",
+      "title": "Project Manager (Exp: 7+years)",
+      "company": "Webandcrafts",
+      "postedAt": "2023-08-04",
+      "deadlineAt": "2026-09-01",
+      "location": "Infopark, Kochi",
+      "category": "product",
+      "detailUrl": "https://infopark.in/company-jobs/details/105/14473",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "infopark-95-12771",
       "title": "INTERNSHIP - SOFTWARE TESTING",
       "company": "Aabasoft Technologies India Private Limited",
@@ -5601,6 +5731,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-105-10233",
+      "title": "Project  Coordinator (0 - 4 Year)",
+      "company": "Webandcrafts",
+      "postedAt": "2022-06-24",
+      "deadlineAt": "2026-09-01",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/105/10233",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "infopark-234-9627",
       "title": "ASP.NET Developers",
       "company": "Seguro Technologies",
@@ -5612,6 +5755,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-105-9369",
+      "title": "Social Media Analyst (2-5 Years)",
+      "company": "Webandcrafts",
+      "postedAt": "2022-04-01",
+      "deadlineAt": "2026-09-01",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/105/9369",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-08-31"
     },
     {
       "id": "infopark-95-9357",
