@@ -32,6 +32,7 @@ import { extractLeverJobs } from "./adapters/lever";
 import { extractWorkableJobs } from "./adapters/workable";
 import { fetchJsonLdEvents } from "./adapters/jsonld";
 import { extractKsumCareers, extractKsumEvents, extractKsumTenders } from "./adapters/ksum";
+import { extractTinkerHubEvents } from "./adapters/tinkerhub";
 import { politeFetch, mapWithConcurrency } from "./fetch";
 import {
   applyOverrides,
@@ -188,6 +189,10 @@ async function main() {
         const opportunities = extractKsumTenders(await politeFetch(source.url), source);
         opportunityCandidates.push(...opportunities);
         records = opportunities.length;
+      } else if (source.parser === "tinkerhub-events") {
+        const events = extractTinkerHubEvents(await politeFetch(source.url), source);
+        eventCandidates.push(...events);
+        records = events.length;
       } else if (source.kind === "ics") {
         const body = await politeFetch(source.url);
         const events = normalizeIcsEvents(parseIcs(body), source);

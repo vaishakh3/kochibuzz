@@ -136,7 +136,7 @@ the same deterministic checks before anything reaches the website.
 flowchart TB
   subgraph sources["1 · Public inputs"]
     feeds["Structured feeds<br/>ICS · JSON · JSON-LD · Markdown"]
-    pages["Official pages<br/>Luma · GDG · KSUM · Infopark"]
+    pages["Official pages + APIs<br/>TinkerHub · Luma · GDG · KSUM · Infopark"]
     publicweb["Public web pages<br/>cost-capped search"]
     form["/submit<br/>visitor contribution"]
     curator["Manual curation<br/>source-linked records"]
@@ -230,6 +230,13 @@ that Kochi has been cancelled.
 Curated Luma event URLs receive an extra live refresh. The stable Kochi Buzz ID,
 summary, tags and attendance remain intact while changed titles, dates, times,
 venues and hosts are pulled from the source page.
+
+TinkerHub is read from its official public event feed every hour. The adapter
+accepts only public events with explicit Kochi locality or TinkerSpace
+Kalamassery (space 1), converts UTC timestamps to IST, and excludes campus-only
+and other-city records. Long cohort windows are published on their opening date
+with the programme end retained as context, so one course cannot paint over an
+entire month of the calendar.
 
 #### Public-web discovery, every 12 hours at most
 

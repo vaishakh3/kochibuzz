@@ -4,7 +4,7 @@ import type { EventRecord } from "../schemas";
 const EVENT_CATEGORY_RULES: Array<[EventRecord["category"], RegExp]> = [
   ["hackathon", /hackathon|hack day|code.?fest|build.?athon|capture the flag|\bctf\b/i],
   ["ai", /\bai\b|artificial intelligence|machine learning|\bml\b|gemini|data scien|agentic/i],
-  ["security", /security|cyber|owasp|privacy|zero trust/i],
+  ["security", /security|cyber|owasp|privacy|zero trust|\bbi0s\b/i],
   ["cloud", /cloud|devops|kubernetes|docker|aws|azure|google cloud|platform engineering|\bsre\b/i],
   ["opensource", /open.?source|\bfoss\b|linux|wiki|mozilla/i],
   ["startup", /startup|founder|entrepreneur|venture|pitch|incubat|accelerat/i],
@@ -38,4 +38,3 @@ export function dateTimeParts(value: unknown): { date: string; time?: string } |
   if (!match) return undefined;
   return { date: match[1], time: match[2] ? `${match[2]}:${match[3]}` : undefined };
 }
-

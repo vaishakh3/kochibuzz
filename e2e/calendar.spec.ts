@@ -82,16 +82,31 @@ test("month cells stay unambiguous and show the confirmed September Codex dates"
 
   const foundersDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-16"])');
   const calicutDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-19"])');
+  const cyberSummitDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-05"])');
   if (testInfo.project.name.startsWith("desktop")) {
     await expect(foundersDay.getByText(/Codex Community Meetup/i)).toBeVisible();
     const calicutEvent = calicutDay.locator(".calendar-event-chip").first();
     await expect(calicutEvent.locator(".calendar-event-chip__title"))
       .toHaveText("Codex Community Hackathon - Calicut");
     await calicutEvent.click();
-    await expect(page.getByRole("dialog", { name: /Codex Community Hackathon/i })
-      .getByRole("link", { name: /Event page|Register/ }))
+    const calicutDialog = page.getByRole("dialog", { name: /Codex Community Hackathon/i });
+    await expect(calicutDialog.getByRole("link", { name: /Event page|Register/ }))
       .toHaveAttribute("href", "https://luma.com/l5tpblw3");
+    await calicutDialog.getByRole("button", { name: "Close event details" }).click();
+    await cyberSummitDay.getByRole("button", { name: /Show all 5 events/i }).click();
+    const dayLens = page.getByRole("dialog", { name: /Saturday, 5 September 2026/i });
+    await expect(dayLens.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
+    await expect(dayLens.getByText("bi0s Meetups", { exact: true })).toBeVisible();
+    const dayList = dayLens.locator("ol");
+    await expect.poll(() => dayList.evaluate((element) => element.scrollHeight <= element.clientHeight + 1))
+      .toBe(true);
   } else {
+    await expect(cyberSummitDay.locator('[data-calendar-date="2026-09-05"]'))
+      .toHaveAttribute("aria-label", /5 events/);
+    await cyberSummitDay.locator('[data-calendar-date="2026-09-05"]').click();
+    const selectedDay = page.locator(".calendar-month-selection");
+    await expect(selectedDay.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
+    await expect(selectedDay.getByText("bi0s Meetups", { exact: true })).toBeVisible();
     await expect(foundersDay.locator('[data-calendar-date="2026-09-16"]'))
       .toHaveAttribute("aria-label", /1 event/);
     await expect(calicutDay.locator('[data-calendar-date="2026-09-19"]'))

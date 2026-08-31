@@ -17,6 +17,7 @@ const implementedParsers = new Set([
   "ksum-events",
   "ksum-careers",
   "ksum-tenders",
+  "tinkerhub-events",
 ]);
 
 describe("source registry", () => {

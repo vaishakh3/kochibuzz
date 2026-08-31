@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "name": "bi0s Meetups",
+      "type": "Talk_Session",
+      "description": "A security meetup with technical talks, demos and conversations.",
+      "startDate": "2026-09-05T04:00:00Z",
+      "endDate": "2026-09-05T07:30:00Z",
+      "uniqueId": "4IUKV0W6P8",
+      "campusExclusive": false,
+      "location": "TinkerSpace, 21/258, Cusat.P.O, Kalamassery, Kochi, Kerala 682022",
+      "status": "published",
+      "isExternal": true,
+      "isSpace": true,
+      "spaceId": 1,
+      "externalEventUrl": "https://forms.gle/3QZ8g7GKBhbtFkqW6",
+      "interests": "Cyber Security"
+    },
+    {
+      "name": "Medical & Surgical Intervention Hackathon",
+      "type": "Bootcamp",
+      "description": "An overnight hackathon at TinkerSpace Calicut.",
+      "startDate": "2026-09-05T12:30:00Z",
+      "endDate": "2026-09-06T02:30:00Z",
+      "uniqueId": "UN78CXI4LH",
+      "campusExclusive": false,
+      "location": "TinkerSpace Calicut, Medical College P.O., Kozhikode, Kerala 673008",
+      "status": "published",
+      "isSpace": true,
+      "spaceId": 2
+    },
+    {
+      "name": "Campus-only virtual meetup",
+      "type": "Talk_Session",
+      "description": "A private campus session.",
+      "startDate": "2026-09-06T13:30:00Z",
+      "endDate": "2026-09-06T14:30:00Z",
+      "uniqueId": "PRIVATE123",
+      "campusExclusive": true,
+      "location": "Kochi",
+      "status": "published",
+      "isVirtual": true,
+      "isSpace": false,
+      "spaceId": null
+    },
+    {
+      "name": "Nights and Weekends",
+      "type": "Learning_Program",
+      "description": "A five-week offline experimentation studio at TinkerSpace Kochi.",
+      "startDate": "2026-09-06T04:30:00Z",
+      "endDate": "2026-10-11T04:30:00Z",
+      "uniqueId": "6P3G4PHXM5",
+      "campusExclusive": false,
+      "location": "TinkerSpace, Kalamassery, Kochi",
+      "status": "published",
+      "isSpace": true,
+      "spaceId": 1
+    }
+  ]
+}

@@ -158,6 +158,20 @@
     "notes": "Public Kochi city calendar. Empty inventory is valid."
   },
   {
+    "id": "tinkerhub-events",
+    "name": "TinkerHub — official events",
+    "kind": "json",
+    "entityTypes": ["event"],
+    "url": "https://app-api.tinkerhub.org/v1/public/event/all",
+    "enabled": true,
+    "trustLevel": 5,
+    "refreshHours": 1,
+    "parser": "tinkerhub-events",
+    "organization": "TinkerHub Foundation",
+    "defaultCity": "Kochi",
+    "notes": "Official public TinkerHub feed. Only public events with explicit Kochi locality or TinkerSpace Kalamassery (space 1) are published; UTC timestamps are converted to Asia/Kolkata."
+  },
+  {
     "id": "codex-community-luma",
     "name": "Codex Community — Luma calendar",
     "kind": "ics",

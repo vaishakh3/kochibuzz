@@ -156,6 +156,29 @@
     "manual": true
   },
   {
+    "id": "kerala-cyber-suraksha-summit-2026",
+    "title": "Kerala Cyber Suraksha Summit 2026",
+    "start": "2026-09-05",
+    "end": "2026-09-05",
+    "startTime": "08:00",
+    "endTime": "16:45",
+    "category": "security",
+    "venue": "Le Meridien Kochi",
+    "city": "Kochi",
+    "organizer": "F9 Infotech",
+    "blurb": "Kerala's cybersecurity summit brings keynotes, leadership panels, live attack simulations and masterclasses across AI security, cloud security, Zero Trust and digital resilience.",
+    "tags": [
+      "Cybersecurity",
+      "AI security",
+      "Conference"
+    ],
+    "url": "https://keralacybersuraksha.com/",
+    "sourceUrls": [
+      "https://keralacybersuraksha.com/"
+    ],
+    "manual": true
+  },
+  {
     "id": "openspeaks-kochi",
     "title": "OpenSpeaks: Language Documentation & Archiving",
     "start": "2026-09-07",
