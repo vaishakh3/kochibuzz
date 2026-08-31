@@ -112,6 +112,27 @@
     "manual": true
   },
   {
+    "id": "techcon-26-kochi",
+    "title": "TECHCON ’26",
+    "start": "2026-09-03",
+    "end": "2026-09-05",
+    "category": "ai",
+    "venue": "KINFRA International Exhibition cum Convention Centre, Kakkanad",
+    "city": "Kochi",
+    "organizer": "Techfed Kerala",
+    "blurb": "A three-day national technology assembly with 23 programmes across AI, cybersecurity, robotics, startups, careers, esports and hands-on workshops, alongside ministers, MPs, vice-chancellors, founders and technologists.",
+    "tags": [
+      "National conference",
+      "23 programmes",
+      "Technology"
+    ],
+    "url": "https://www.techcon26.org/",
+    "sourceUrls": [
+      "https://www.techcon26.org/"
+    ],
+    "manual": true
+  },
+  {
     "id": "dothack-26",
     "title": ">.hack(); '26",
     "start": "2026-09-04",

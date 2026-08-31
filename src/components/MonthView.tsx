@@ -138,7 +138,7 @@ function DayLens({
     >
       <div
         ref={panelRef}
-        className="calendar-day-lens"
+        className={`calendar-day-lens${events.length > 5 ? " is-dense" : ""}`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="calendar-day-lens-title"

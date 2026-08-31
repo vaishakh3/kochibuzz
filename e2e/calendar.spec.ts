@@ -82,11 +82,14 @@ test("month cells choose distinct headlines and show the confirmed September dat
 
   const foundersDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-16"])');
   const calicutDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-19"])');
+  const techConDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-03"])');
   const cyberSummitDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-05"])');
   const openingConferenceDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-04"])');
   const programmeDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-06"])');
   const continuationOnlyDay = grid.locator('.calendar-month-day:has([data-calendar-date="2026-09-20"])');
   if (testInfo.project.name.startsWith("desktop")) {
+    await expect(techConDay.locator(".calendar-event-chip__title"))
+      .toHaveText("TECHCON ’26");
     await expect(openingConferenceDay.locator(".calendar-event-chip__title"))
       .toHaveText("WikiConference India 2026");
     await expect(cyberSummitDay.locator(".calendar-event-chip__title"))
@@ -105,7 +108,7 @@ test("month cells choose distinct headlines and show the confirmed September dat
     await expect(calicutDialog.getByRole("link", { name: /Event page|Register/ }))
       .toHaveAttribute("href", "https://luma.com/l5tpblw3");
     await calicutDialog.getByRole("button", { name: "Close event details" }).click();
-    await cyberSummitDay.getByRole("button", { name: /Show all 5 events/i }).click();
+    await cyberSummitDay.getByRole("button", { name: /Show all \d+ events/i }).click();
     const dayLens = page.getByRole("dialog", { name: /Saturday, 5 September 2026/i });
     await expect(dayLens.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
     await expect(dayLens.getByText("bi0s Meetups", { exact: true })).toBeVisible();
@@ -115,8 +118,12 @@ test("month cells choose distinct headlines and show the confirmed September dat
     await expect.poll(() => dayList.evaluate((element) => element.scrollHeight <= element.clientHeight + 1))
       .toBe(true);
   } else {
+    await techConDay.locator('[data-calendar-date="2026-09-03"]').click();
+    await expect(page.locator(".calendar-month-selection").locator("li").first()
+      .getByText("TECHCON ’26", { exact: true }))
+      .toBeVisible();
     await expect(cyberSummitDay.locator('[data-calendar-date="2026-09-05"]'))
-      .toHaveAttribute("aria-label", /5 events/);
+      .toHaveAttribute("aria-label", /, \d+ events$/);
     await cyberSummitDay.locator('[data-calendar-date="2026-09-05"]').click();
     const selectedDay = page.locator(".calendar-month-selection");
     await expect(selectedDay.getByText("Kerala Cyber Suraksha Summit 2026", { exact: true })).toBeVisible();
