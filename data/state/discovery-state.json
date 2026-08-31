@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-08-30T18:35:01.774Z",
-  "queryCursor": 4,
+  "lastRunAt": "2026-08-31T13:57:17.936Z",
+  "queryCursor": 6,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-08-31",
@@ -14,7 +14,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27110,
-    "outputTokens": 2180
+    "inputTokens": 27389,
+    "outputTokens": 223
   }
 }

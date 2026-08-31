@@ -50,6 +50,56 @@
     "firstSeenAt": "2026-08-23"
   },
   {
+    "id": "ksum-tenders-ksum-fablab-ssk-ppec-26-27-01",
+    "title": "Supply of Electronics Components",
+    "type": "other",
+    "organization": "Kerala Startup Mission",
+    "summary": "Kerala Startup Mission (KSUM), in collaboration with Samagra Shiksha Kerala (SSK), is establishing Centres for Early Innovations in 28 schools across Kerala. These centres will serve as tinkering spaces where students can explore fabrication techniques, experiment with technology, and develop innovative projects. The o",
+    "deadlineAt": "2026-09-14",
+    "locationScope": "kerala",
+    "benefit": "Closed Hardcopy",
+    "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01M1BH3VYBMQCFZQSXCN93JP7S.pdf",
+    "url": "https://startupmission.kerala.gov.in/storage/tenders/01M1BH3VYBMQCFZQSXCN93JP7S.pdf",
+    "sourceUrls": [
+      "https://startupmission.kerala.gov.in/api/public/tenders",
+      "https://startupmission.kerala.gov.in/storage/tenders/01M1BH3VYBMQCFZQSXCN93JP7S.pdf"
+    ],
+    "sourceIds": [
+      "ksum-tenders"
+    ],
+    "tags": [
+      "KSUM",
+      "RFP",
+      "tender"
+    ],
+    "firstSeenAt": "2026-08-31"
+  },
+  {
+    "id": "ksum-tenders-ksum-fablab-ssk-ppme-26-27-01",
+    "title": "Supply of Mechanical Components",
+    "type": "other",
+    "organization": "Kerala Startup Mission",
+    "summary": "Kerala Startup Mission (KSUM), in collaboration with Samagra Shiksha Kerala (SSK), is establishing Centres for Early Innovations in 28 schools across Kerala. These centres will serve as tinkering spaces where students can explore fabrication techniques, experiment with technology, and develop innovative projects. The o",
+    "deadlineAt": "2026-09-14",
+    "locationScope": "kerala",
+    "benefit": "Closed Hardcopy",
+    "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01M1BH5WW4NYE73P4HN76AY4HV.pdf",
+    "url": "https://startupmission.kerala.gov.in/storage/tenders/01M1BH5WW4NYE73P4HN76AY4HV.pdf",
+    "sourceUrls": [
+      "https://startupmission.kerala.gov.in/api/public/tenders",
+      "https://startupmission.kerala.gov.in/storage/tenders/01M1BH5WW4NYE73P4HN76AY4HV.pdf"
+    ],
+    "sourceIds": [
+      "ksum-tenders"
+    ],
+    "tags": [
+      "KSUM",
+      "RFP",
+      "tender"
+    ],
+    "firstSeenAt": "2026-08-31"
+  },
+  {
     "id": "huddle-global-2026-registration",
     "title": "Huddle Global 2026 — delegate registration",
     "type": "other",

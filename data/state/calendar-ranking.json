@@ -8,24 +8,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-08-31T03:27:06.853Z"
     },
-    "2026-09-05": {
-      "signature": "57f8b710ac15416c681a55d9647a1478130cb80d411c56c6725f09ec2ba1fee9",
-      "eventId": "kerala-cyber-suraksha-summit-2026",
-      "reason": "A substantial Kochi summit covering cybersecurity leadership, attack simulations and practical masterclasses.",
+    "2026-09-03": {
+      "signature": "94a4c4d34a6fcb07783611f308279f46c121b5d5e1bc53e40ac5b0b890298f98",
+      "eventId": "tinkerhub-events-m9yjs629c1",
+      "reason": "A hands-on workshop on language preservation offers substantive learning and community value in Kalamassery.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-08-31T03:27:06.853Z"
+      "rankedAt": "2026-08-31T13:57:39.971Z"
     },
-    "2026-09-26": {
-      "signature": "811d47bba01fc173237034618427a8a44d619045fef8cf3568ec3a462da962aa",
-      "eventId": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
-      "reason": "The listed Kochi event is more locally useful than the Bengaluru conference for this calendar.",
+    "2026-09-05": {
+      "signature": "55a8414d43f838cf8f9923c0a30ffda622f8f085b1502096911c62cfe1dd1214",
+      "eventId": "kerala-cyber-suraksha-summit-2026",
+      "reason": "The summit provides broad public-interest programming on cybersecurity, including keynotes, simulations and masterclasses.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-08-31T03:27:06.853Z"
+      "rankedAt": "2026-08-31T13:57:39.971Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 1081,
-    "outputTokens": 156
+    "inputTokens": 756,
+    "outputTokens": 111
   }
 }

@@ -149,6 +149,33 @@
       "firstSeenAt": "2026-08-31"
     },
     {
+      "id": "tinkerhub-events-27al3kigsa",
+      "title": "AI Wednesday",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "startTime": "07:00",
+      "endTime": "20:30",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Bring whatever you're building and show it around. Hear what other people are deep in right now. We'll catch up on what's been going on in AI lately, and spend some time on where AI Wednesday should head next and what you'd want out of it. You don't need a project of your own to ",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-08-31"
+    },
+    {
       "id": "tinkerhub-events-m9yjs629c1",
       "title": "OpenSpeaks Community language documentation and archiving workshop",
       "start": "2026-09-03",
@@ -171,6 +198,33 @@
         "https://app-api.tinkerhub.org/v1/public/event/all",
         "https://tinkerhub.org/events/M9YJS629C1/openspeaks-community-language-documentation-and-archiving-workshop",
         "https://forms.gle/55Xs4diMrdPHeGtr9"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "tinkerhub-events-zyt6cnwfyu",
+      "title": "Maker Thursday",
+      "start": "2026-09-03",
+      "end": "2026-09-03",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Let's explore what Ham Radio is, its history, licensing, equipment and technology, and its importance in emergency communication. Further, we will learn about how amateur radio operators communicate and the role of Ham Radio in public service and emergencies.",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/ZYT6CNWFYU/maker-thursday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/ZYT6CNWFYU/maker-thursday"
       ],
       "sourceIds": [
         "tinkerhub-events"
@@ -277,28 +331,6 @@
       "firstSeenAt": "2026-08-31"
     },
     {
-      "id": "web-d2c-mxr-business-connect-2026-6b6c2af83a",
-      "title": "D2C MXR Business Connect 2026",
-      "start": "2026-09-05",
-      "end": "2026-09-05",
-      "startTime": "14:00",
-      "endTime": "17:00",
-      "category": "startup",
-      "venue": "Kerala Startup Mission",
-      "city": "Kochi",
-      "organizer": "MXR.world | Powered by Crowd Product",
-      "blurb": "A networking and knowledge-sharing event for founders, D2C brands, entrepreneurs and ecosystem builders at Kerala Startup Mission.",
-      "tags": [],
-      "url": "https://luma.com/lf4ruje2",
-      "sourceUrls": [
-        "https://luma.com/lf4ruje2"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
       "id": "tinkerhub-events-6p3g4phxm5",
       "title": "Nights and Weekends",
       "start": "2026-09-06",
@@ -350,6 +382,35 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "tinkerhub-events-q29zgffnx2",
+      "title": "eywkaa - September Apple event watch party",
+      "start": "2026-09-09",
+      "end": "2026-09-10",
+      "startTime": "21:30",
+      "endTime": "01:30",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Join eywkaa for the September Tech Watch Party 2026, celebrating the “Surprise and shine” Apple Event. A live experience for Apple tech lovers to watch announcements, share reactions, discover new technology and connect with fellow enthusiasts.",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/Q29ZGFFNX2/eywkaa-september-apple-event-watch-party",
+      "registerUrl": "https://makemypass.com/event/eywkaa-watch-party-september-2026-1",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/Q29ZGFFNX2/eywkaa-september-apple-event-watch-party",
+        "https://makemypass.com/event/eywkaa-watch-party-september-2026-1"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-08-31"
     },
     {
       "id": "codex-meetup-kochi-founders",
@@ -454,28 +515,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
-      "title": "eChai Startup Demo Day in Kochi",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "startTime": "18:00",
-      "endTime": "20:00",
-      "category": "startup",
-      "venue": "Kochi",
-      "city": "Kochi",
-      "organizer": "eChai Ventures",
-      "blurb": "Where founders show what they're building.",
-      "tags": [],
-      "url": "https://echai.ventures/events/echai-startup-demo-day-in-kochi-sep-26-2026",
-      "sourceUrls": [
-        "https://echai.ventures/events/echai-startup-demo-day-in-kochi-sep-26-2026"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-08-31"
     },
     {
       "id": "iedc-summit-2026",
