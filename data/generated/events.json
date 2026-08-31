@@ -120,33 +120,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-n594eab8uh",
-    "title": "Security Tuesday",
-    "start": "2026-09-01",
-    "end": "2026-09-01",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "security",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Living Off the Land: Hacking with What’s Already There What if an attacker never had to bring a single malicious tool onto your system? This session dives into LOLBins (Living Off the Land Binaries) — legitimate, pre-installed system tools that attackers abuse to execute code, mo",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/N594EAB8UH/security-tuesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/N594EAB8UH/security-tuesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-08-31"
-  },
-  {
     "id": "tinkerhub-events-27al3kigsa",
     "title": "AI Wednesday",
     "start": "2026-09-02",
@@ -171,6 +144,28 @@
     "sourceIds": [
       "tinkerhub-events"
     ],
+    "firstSeenAt": "2026-08-31"
+  },
+  {
+    "id": "techcon-26-kochi",
+    "title": "TECHCON ’26",
+    "start": "2026-09-03",
+    "end": "2026-09-05",
+    "category": "ai",
+    "venue": "KINFRA International Exhibition cum Convention Centre, Kakkanad",
+    "city": "Kochi",
+    "organizer": "Techfed Kerala",
+    "blurb": "A three-day national technology assembly with 23 programmes across AI, cybersecurity, robotics, startups, careers, esports and hands-on workshops, alongside ministers, MPs, vice-chancellors, founders and technologists.",
+    "tags": [
+      "National conference",
+      "23 programmes",
+      "Technology"
+    ],
+    "url": "https://www.techcon26.org/",
+    "sourceUrls": [
+      "https://www.techcon26.org/"
+    ],
+    "manual": true,
     "firstSeenAt": "2026-08-31"
   },
   {

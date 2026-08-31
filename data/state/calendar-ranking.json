@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "decisions": {
+    "2026-09-03": {
+      "signature": "71fe516dcf7e6e5f6f47d1832dff81c3ae4b04afd466cfbc7244b769a99b3ed3",
+      "eventId": "techcon-26-kochi",
+      "reason": "A confirmed three-day Kochi technology assembly spanning AI, cybersecurity, robotics, startups, careers and hands-on programming.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-08-31T18:12:01.564Z"
+    },
     "2026-09-04": {
       "signature": "3485ad8e614dcab334146b23f4b59cc505c2fc95492e5f8c9c9000ffa3f6a31f",
       "eventId": "wikiconference-india-2026",
       "reason": "A national open-knowledge conference hosted in Kochi, with Indic-language and Wikimedia programming.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-08-31T03:27:06.853Z"
-    },
-    "2026-09-03": {
-      "signature": "94a4c4d34a6fcb07783611f308279f46c121b5d5e1bc53e40ac5b0b890298f98",
-      "eventId": "tinkerhub-events-m9yjs629c1",
-      "reason": "A hands-on workshop on language preservation offers substantive learning and community value in Kalamassery.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-08-31T13:57:39.971Z"
     },
     "2026-09-05": {
       "signature": "55a8414d43f838cf8f9923c0a30ffda622f8f085b1502096911c62cfe1dd1214",
@@ -25,7 +25,7 @@
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 756,
-    "outputTokens": 111
+    "inputTokens": 592,
+    "outputTokens": 62
   }
 }

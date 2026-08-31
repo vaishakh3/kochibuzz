@@ -453,7 +453,6 @@
     "infopark-49-24095": "2026-08-29",
     "infopark-49-22999": "2026-08-29",
     "infopark-435-25211": "2026-08-30",
-    "tinkerhub-events-n594eab8uh": "2026-08-31",
     "tinkerhub-events-m9yjs629c1": "2026-08-31",
     "kerala-cyber-suraksha-summit-2026": "2026-08-31",
     "tinkerhub-events-4iukv0w6p8": "2026-08-31",
@@ -498,7 +497,8 @@
     "infopark-220-22499": "2026-08-31",
     "infopark-117-21888": "2026-08-31",
     "ksum-tenders-ksum-fablab-ssk-ppec-26-27-01": "2026-08-31",
-    "ksum-tenders-ksum-fablab-ssk-ppme-26-27-01": "2026-08-31"
+    "ksum-tenders-ksum-fablab-ssk-ppme-26-27-01": "2026-08-31",
+    "techcon-26-kochi": "2026-08-31"
   },
   "lastCounts": {
     "infopark-jobs": 426,
@@ -515,6 +515,6 @@
     "paytm-payments-kochi-lever": 6,
     "gdg-cloud-kochi": 4,
     "gdg-cochin": 4,
-    "tinkerhub-events": 7
+    "tinkerhub-events": 6
   }
 }
