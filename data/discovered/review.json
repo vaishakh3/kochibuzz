@@ -47,17 +47,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit for founders, mentors and investors, including founder forums, investor feedback and prototype-focused sessions.",
-      "categoryHint": "startup / founder / deep tech",
+      "description": "A two-day deep-tech startup summit focused on founders, mentors, investors and moving from prototype to company.",
+      "categoryHint": "startup / deep tech / founder",
       "evidenceUrl": "https://pivot26.suit.iimklive.org/",
       "registrationUrl": "https://pivot26.suit.iimklive.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-08-31"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-02"
   },
   {
     "candidate": {
@@ -158,5 +158,105 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-01"
+  },
+  {
+    "candidate": {
+      "title": "CORE RENeV Expo 2026",
+      "start": "2026-09-11",
+      "end": "2026-09-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Jawaharlal Nehru International Stadium",
+      "city": "Kochi, Kerala",
+      "organizer": "CORE Kerala",
+      "description": "Renewable-energy exhibition and conference featuring technology providers, startups, researchers and a Startup Innovation Zone.",
+      "categoryHint": "technology/clean energy/startups",
+      "evidenceUrl": "https://corekerala.com/expo-details/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026 International Cybersecurity Conference",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Bolgatty",
+      "city": "Kochi, Kerala",
+      "organizer": "c0c0n",
+      "description": "International cybersecurity and hacking conference with talks, panels, villages and CTFs.",
+      "categoryHint": "technology/cybersecurity/conference",
+      "evidenceUrl": "https://www.c0c0n.org/",
+      "registrationUrl": "https://www.c0c0n.org/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "CSEA Senior Officers Leadership Programme",
+      "start": "2026-10-06",
+      "end": "2026-10-07",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Crowne Plaza Kochi, Kundanoor Junction, Maradu",
+      "city": "Kochi, Kerala",
+      "organizer": "c0c0n / Childlight / Kerala Police",
+      "description": "Leadership programme on technology-facilitated child sexual exploitation and abuse, held during c0c0n 2026 week.",
+      "categoryHint": "technology/cybersecurity/workshop",
+      "evidenceUrl": "https://csea.c0c0n.org/leadershipprogramme",
+      "registrationUrl": "https://csea.c0c0n.org/leadershipprogramme",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "AIRO MEDICON 2026",
+      "start": "2026-10-30",
+      "end": "2026-10-31",
+      "startTime": null,
+      "endTime": null,
+      "venue": "KINFRA International Convention & Exhibition Centre (IECC), Kakkanad",
+      "city": "Kochi, Kerala",
+      "organizer": "AIRO MEDICON 2026 organizing team",
+      "description": "National conference on AI and robotics in medical diagnosis, including hands-on robotic-surgery workshops, research presentations, healthcare technology exhibition and an AI startup innovation pitch.",
+      "categoryHint": "AI/robotics/health technology/conference",
+      "evidenceUrl": "https://www.airomedicon.com/",
+      "registrationUrl": "https://www.airomedicon.com/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.97
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "TinkerDay - Kochi",
+      "start": "2026-09-21",
+      "end": null,
+      "startTime": "04:30",
+      "endTime": "07:30",
+      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub Foundation",
+      "description": "A public, community-driven technology event for tech enthusiasts to connect, learn, share ideas and explore innovative projects.",
+      "categoryHint": "technology / maker / community",
+      "evidenceUrl": "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-02"
   }
 ]

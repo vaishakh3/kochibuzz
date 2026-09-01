@@ -21,11 +21,25 @@
       "reason": "A confirmed Kochi summit offers broad public value through security keynotes, panels, simulations and masterclasses.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-01T14:56:52.598Z"
+    },
+    "2026-09-26": {
+      "signature": "d66eaf29f16aa04c63a54134024387c3f2b8f4b51d4c5db7b47426b515d50e9f",
+      "eventId": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
+      "reason": "A Kochi-based public startup event, making it more locally useful than the Bengaluru conference.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-01T18:35:37.189Z"
+    },
+    "2026-10-06": {
+      "signature": "f2967a1a704c402cedbcd6e28761197d6eed65d7f370a85cebf7b715a26ed4a6",
+      "eventId": "c0c0n-2026",
+      "reason": "A long-running Kochi security conference with multi-day training, CTFs and live bug-hunting programming.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-01T18:35:37.189Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 573,
-    "outputTokens": 68
+    "inputTokens": 676,
+    "outputTokens": 115
   }
 }
