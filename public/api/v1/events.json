@@ -122,33 +122,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-27al3kigsa",
-      "title": "AI Wednesday",
-      "start": "2026-09-02",
-      "end": "2026-09-02",
-      "startTime": "07:00",
-      "endTime": "20:30",
-      "category": "ai",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Bring whatever you're building and show it around. Hear what other people are deep in right now. We'll catch up on what's been going on in AI lately, and spend some time on where AI Wednesday should head next and what you'd want out of it. You don't need a project of your own to ",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
       "id": "techcon-26-kochi",
       "title": "TECHCON ’26",
       "start": "2026-09-03",
@@ -324,6 +297,33 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "tinkerhub-events-j41o6dlaff",
+      "title": "BIR Week 8 - Build sprint",
+      "start": "2026-09-05",
+      "end": "2026-09-06",
+      "startTime": "14:00",
+      "endTime": "14:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Build sprint for builder in residency hardware",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/J41O6DLAFF/bir-week-8-build-sprint",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/J41O6DLAFF/bir-week-8-build-sprint"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-01"
     },
     {
       "id": "tinkerhub-events-6p3g4phxm5",
