@@ -78,5 +78,85 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-08-31"
+  },
+  {
+    "candidate": {
+      "title": "Hac'KP 2026 Awards & Prize Distribution",
+      "start": "2026-10-09",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "c0c0n Conference venue, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Kerala Police",
+      "description": "Awards and prize-cheque distribution for Hac'KP 2026 participants during the opening ceremony of c0c0n 2026.",
+      "categoryHint": "coding hackathon",
+      "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
+      "registrationUrl": "https://hackp.kerala.gov.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-01"
+  },
+  {
+    "candidate": {
+      "title": "IEEE Entrepreneurship 102 India Workshops",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Venue to be announced, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "IEEE Entrepreneurship",
+      "description": "Two-day entrepreneurship workshop. Applications are publicly listed, with a registration deadline of 2026-10-16. The official page does not provide an exact venue beyond Kochi.",
+      "categoryHint": "technology/startup workshop",
+      "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
+      "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.89
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-01"
+  },
+  {
+    "candidate": {
+      "title": "STN Conclave 2026",
+      "start": "2026-12-10",
+      "end": "2026-12-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Stanford Seed Transformation Network – South Asia",
+      "description": "Four-day gathering for founders and the Stanford Seed Transformation Network – South Asia.",
+      "categoryHint": "startup / technology / founders",
+      "evidenceUrl": "https://stnsa.org/conclave",
+      "registrationUrl": "https://stnsa.org/conclave",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-01"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi, Kerala",
+      "organizer": "c0c0n",
+      "description": "Cybersecurity conference covering offensive security, security research, AI security, cloud security and information security.",
+      "categoryHint": "cybersecurity / AI security / cloud security",
+      "evidenceUrl": "https://in.linkedin.com/company/c0c0nconference",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.92
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-01"
   }
 ]

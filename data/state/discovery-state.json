@@ -1,20 +1,23 @@
 {
-  "lastRunAt": "2026-08-31T13:57:17.936Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-01T05:14:59.556Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-08-31",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-01",
     "https://cochinnano.cusat.ac.in/registration": "2026-08-31",
     "https://pivot26.suit.iimklive.org/": "2026-08-31",
     "https://echai.ventures/kochi": "2026-08-31",
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
-    "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31"
+    "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
+    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-01",
+    "https://stnsa.org/conclave": "2026-09-01",
+    "https://in.linkedin.com/company/c0c0nconference": "2026-09-01"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27389,
-    "outputTokens": 223
+    "inputTokens": 27201,
+    "outputTokens": 950
   }
 }
