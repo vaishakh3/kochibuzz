@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-01T18:35:27.135Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-02T11:23:34.162Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-02",
@@ -17,12 +17,14 @@
     "https://c0c0n.org/": "2026-09-02",
     "https://csea.c0c0n.org/leadershipprogramme": "2026-09-02",
     "https://airomedicon.com/": "2026-09-02",
-    "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02"
+    "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
+    "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-02",
+    "https://tinkerhub.org/events": "2026-09-02"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27658,
-    "outputTokens": 1688
+    "inputTokens": 27674,
+    "outputTokens": 935
   }
 }

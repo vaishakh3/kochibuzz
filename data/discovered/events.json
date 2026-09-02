@@ -1,39 +1,19 @@
 [
   {
-    "id": "web-echai-startup-demo-day-in-kochi-5dd777d3f9",
-    "title": "eChai Startup Demo Day in Kochi",
-    "start": "2026-09-26",
-    "end": "2026-09-26",
-    "startTime": "18:00",
-    "endTime": "18:00",
-    "category": "startup",
-    "venue": "Kochi, Cochin",
-    "city": "Kochi, Kerala",
-    "organizer": "eChai Ventures",
-    "blurb": "eChai Startup Demo Day in Kochi",
+    "id": "web-omg-oh-my-google-badcab3f9e",
+    "title": "OMG — Oh My Google!",
+    "start": "2026-09-12",
+    "end": "2026-09-12",
+    "category": "webdev",
+    "venue": "Kerala Startup Mission, Kinfra Hi-Tech Park Main Road, Kalamassery",
+    "city": "Kochi",
+    "organizer": "GDG on Campus Mar Athanasius College of Engineering (GDG MACE)",
+    "blurb": "A public GDG event with workshops, talks, panels and games.",
     "tags": [],
-    "url": "https://echai.ventures/events/echai-startup-demo-day-in-kochi-sep-26-2026",
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration",
+    "registerUrl": "https://kutti.link/omg",
     "sourceUrls": [
-      "https://echai.ventures/kochi"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ]
-  },
-  {
-    "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
-    "title": "Hac’KP 2026 Boot Camp",
-    "start": "2026-10-06",
-    "end": "2026-10-08",
-    "category": "hackathon",
-    "venue": "Kochi, Kerala; exact venue not stated on the official schedule",
-    "city": "Kochi, Kerala",
-    "organizer": "Kerala Police",
-    "blurb": "On-site hackathon boot camp focused on solution integration, mentoring, evaluation and product showcase.",
-    "tags": [],
-    "url": "https://hackp.kerala.gov.in/schedule",
-    "sourceUrls": [
-      "https://hackp.kerala.gov.in/schedule"
+      "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration"
     ],
     "sourceIds": [
       "openai-web-discovery"

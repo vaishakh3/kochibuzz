@@ -258,5 +258,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "eywkaa — September Apple event watch party",
+      "start": "2026-09-09",
+      "end": "2026-09-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "description": "Apple event watch party listed on TinkerHub's events page.",
+      "categoryHint": "technology",
+      "evidenceUrl": "https://tinkerhub.org/events",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.8
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-02"
   }
 ]
