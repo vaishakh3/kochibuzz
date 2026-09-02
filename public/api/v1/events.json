@@ -122,6 +122,33 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "tinkerhub-events-27al3kigsa",
+      "title": "AI Wednesday",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Bring whatever you're building and show it around. Hear what other people are deep in right now. We'll catch up on what's been going on in AI lately, and spend some time on where AI Wednesday should head next and what you'd want out of it. You don't need a project of your own to ",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/27AL3KIGSA/ai-wednesday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-02"
+    },
+    {
       "id": "techcon-26-kochi",
       "title": "TECHCON ’26",
       "start": "2026-09-03",
