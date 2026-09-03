@@ -278,5 +278,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-02"
+  },
+  {
+    "candidate": {
+      "title": "PIVOT 2026 – Deep Tech Startup Summit",
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Lulu Twin Towers, Kakkanad",
+      "city": "Kochi",
+      "organizer": "IIMK LIVE",
+      "description": "A deep-tech startup summit for startups, founders, investors, innovators and industry leaders, with pitching, networking, learning and collaboration.",
+      "categoryHint": "technology/startup/deep tech",
+      "evidenceUrl": "https://www.linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-03"
   }
 ]
