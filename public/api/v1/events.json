@@ -144,62 +144,6 @@
       "firstSeenAt": "2026-08-31"
     },
     {
-      "id": "tinkerhub-events-m9yjs629c1",
-      "title": "OpenSpeaks Community language documentation and archiving workshop",
-      "start": "2026-09-03",
-      "end": "2026-09-03",
-      "startTime": "09:30",
-      "endTime": "17:30",
-      "category": "opensource",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "This workshop by OpenSpeaks will train language documenters and archivists preserving low-resourced languages. Participants will be trained using a curriculum, an open educational resource (OER), and a set of open-source tools.",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/M9YJS629C1/openspeaks-community-language-documentation-and-archiving-workshop",
-      "registerUrl": "https://forms.gle/55Xs4diMrdPHeGtr9",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/M9YJS629C1/openspeaks-community-language-documentation-and-archiving-workshop",
-        "https://forms.gle/55Xs4diMrdPHeGtr9"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
-      "id": "tinkerhub-events-zyt6cnwfyu",
-      "title": "Maker Thursday",
-      "start": "2026-09-03",
-      "end": "2026-09-03",
-      "startTime": "19:00",
-      "endTime": "20:30",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Let's explore what Ham Radio is, its history, licensing, equipment and technology, and its importance in emergency communication. Further, we will learn about how amateur radio operators communicate and the role of Ham Radio in public service and emergencies.",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/ZYT6CNWFYU/maker-thursday",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/ZYT6CNWFYU/maker-thursday"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
       "id": "dothack-26",
       "title": ">.hack(); '26",
       "start": "2026-09-04",
@@ -268,6 +212,33 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-31"
+    },
+    {
+      "id": "tinkerhub-events-3798lmpsu6",
+      "title": "Gramasabha",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "startTime": "20:00",
+      "endTime": "21:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Grama Sabha: The Monthly TinkerHub Meetup Grama Sabha is the monthly get-together where the TinkerHub community catches up and plans what's ahead. It's open to everyone. Come hear what's been happening across the community, share your own ideas, and help decide what the coming mo",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/3798LMPSU6/gramasabha",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/3798LMPSU6/gramasabha"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-03"
     },
     {
       "id": "tinkerhub-events-4iukv0w6p8",
@@ -579,6 +550,26 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
+      "title": "HAC'KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "category": "hackathon",
+      "venue": "On-site venue in Kochi; exact venue not stated on the official schedule",
+      "city": "Kochi",
+      "organizer": "Kerala Police",
+      "blurb": "Mentor-led cybersecurity hackathon boot camp focused on solution integration, expert evaluation and product showcase.",
+      "tags": [],
+      "url": "https://hackp.kerala.gov.in/schedule",
+      "sourceUrls": [
+        "https://hackp.kerala.gov.in/schedule"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-03"
     },
     {
       "id": "huddle-global-2026",

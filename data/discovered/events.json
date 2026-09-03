@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
+    "title": "HAC'KP 2026 Boot Camp",
+    "start": "2026-10-06",
+    "end": "2026-10-08",
+    "category": "hackathon",
+    "venue": "On-site venue in Kochi; exact venue not stated on the official schedule",
+    "city": "Kochi",
+    "organizer": "Kerala Police",
+    "blurb": "Mentor-led cybersecurity hackathon boot camp focused on solution integration, expert evaluation and product showcase.",
+    "tags": [],
+    "url": "https://hackp.kerala.gov.in/schedule",
+    "sourceUrls": [
+      "https://hackp.kerala.gov.in/schedule"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  }
+]

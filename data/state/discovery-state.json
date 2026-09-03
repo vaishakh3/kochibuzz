@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-09-03T01:08:34.013Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-03T16:29:06.698Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-02",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-03",
     "https://cochinnano.cusat.ac.in/registration": "2026-08-31",
     "https://pivot26.suit.iimklive.org/": "2026-09-02",
     "https://echai.ventures/kochi": "2026-09-02",
@@ -20,12 +20,14 @@
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-02",
     "https://tinkerhub.org/events": "2026-09-02",
-    "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-09-03"
+    "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-09-03",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web": "2026-09-03",
+    "https://f9infotech.com/kcss-2026": "2026-09-03"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27758,
-    "outputTokens": 377
+    "inputTokens": 27783,
+    "outputTokens": 699
   }
 }

@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-03": {
-      "signature": "71fe516dcf7e6e5f6f47d1832dff81c3ae4b04afd466cfbc7244b769a99b3ed3",
-      "eventId": "techcon-26-kochi",
-      "reason": "A confirmed three-day Kochi technology assembly spanning AI, cybersecurity, robotics, startups, careers and hands-on programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-08-31T18:12:01.564Z"
-    },
     "2026-09-04": {
       "signature": "3485ad8e614dcab334146b23f4b59cc505c2fc95492e5f8c9c9000ffa3f6a31f",
       "eventId": "wikiconference-india-2026",
@@ -16,16 +9,23 @@
       "rankedAt": "2026-08-31T03:27:06.853Z"
     },
     "2026-09-05": {
-      "signature": "1028f1322845da19f1d0e5dd4f22fab9b588c7b7a710cd85d1d7f5679327eeee",
+      "signature": "fbdc19722fb25d62c71cd4107e54412c151bb59b646112291ef40b8fff18c756",
       "eventId": "kerala-cyber-suraksha-summit-2026",
-      "reason": "A confirmed Kochi summit offers broad public value through security keynotes, panels, simulations and masterclasses.",
+      "reason": "A confirmed Kochi summit offers broad public value through cybersecurity keynotes, live simulations and practical masterclasses.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-01T14:56:52.598Z"
+      "rankedAt": "2026-09-03T16:29:17.483Z"
+    },
+    "2026-10-06": {
+      "signature": "5022c9dfa974a60726b528fb285886d50a9254ab006e1229dc5cbcf652b405d6",
+      "eventId": "c0c0n-2026",
+      "reason": "Kochi’s established c0c0n conference provides substantial cybersecurity programming, including training, CTFs and live bug hunting.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-03T16:29:17.483Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 676,
-    "outputTokens": 115
+    "inputTokens": 982,
+    "outputTokens": 119
   }
 }

@@ -298,5 +298,45 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-03"
+  },
+  {
+    "candidate": {
+      "title": "Attention is All You Web",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "startTime": "10:00",
+      "endTime": "16:30",
+      "venue": "Jain University Kochi, Nirmal Infopark, Infopark P.O., Kakkanad",
+      "city": "Kochi",
+      "organizer": "GDG Cloud Kochi",
+      "description": "Full-day event covering AI foundations, tokenizers, transformer architectures, WebMCP and agentic web patterns.",
+      "categoryHint": "AI; web technology; developer event",
+      "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web/",
+      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-03"
+  },
+  {
+    "candidate": {
+      "title": "Kerala Cyber Suraksha Summit 2026",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Le Méridien, Kochi",
+      "city": "Kochi",
+      "organizer": "F9 Infotech, in association with the Government of Kerala and Kerala Startup Mission",
+      "description": "Cybersecurity summit covering AI security, data protection, cloud security, Zero Trust architecture and emerging cyber threats.",
+      "categoryHint": "Security; AI security; cloud security; data protection",
+      "evidenceUrl": "https://www.f9infotech.com/kcss-2026/",
+      "registrationUrl": "https://keralacybersuraksha.com/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-03"
   }
 ]

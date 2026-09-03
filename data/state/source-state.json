@@ -303,7 +303,6 @@
     "infopark-49-24095": "2026-08-29",
     "infopark-49-22999": "2026-08-29",
     "infopark-435-25211": "2026-08-30",
-    "tinkerhub-events-m9yjs629c1": "2026-08-31",
     "kerala-cyber-suraksha-summit-2026": "2026-08-31",
     "tinkerhub-events-4iukv0w6p8": "2026-08-31",
     "tinkerhub-events-6p3g4phxm5": "2026-08-31",
@@ -311,7 +310,6 @@
     "infopark-36-24785": "2026-08-31",
     "infopark-476-22177": "2026-08-31",
     "infopark-105-9369": "2026-08-31",
-    "tinkerhub-events-zyt6cnwfyu": "2026-08-31",
     "tinkerhub-events-q29zgffnx2": "2026-08-31",
     "infopark-109-25234": "2026-08-31",
     "infopark-148-25227": "2026-08-31",
@@ -437,7 +435,6 @@
     "infopark-378-25291": "2026-09-03",
     "infopark-378-25292": "2026-09-03",
     "infopark-378-25293": "2026-09-03",
-    "infopark-296-25303": "2026-09-03",
     "infopark-312-25297": "2026-09-03",
     "infopark-312-25298": "2026-09-03",
     "infopark-312-25299": "2026-09-03",
@@ -477,10 +474,15 @@
     "infopark-83-23610": "2026-09-03",
     "paytm-payments-ernakulam-lever-7e140271-de8c-46e4-9b06-880bce9a0680": "2026-09-03",
     "infopark-83-23023": "2026-09-03",
-    "infopark-476-22178": "2026-09-03"
+    "infopark-476-22178": "2026-09-03",
+    "tinkerhub-events-3798lmpsu6": "2026-09-03",
+    "web-hac-kp-2026-boot-camp-3907f0fff1": "2026-09-03",
+    "infopark-296-25316": "2026-09-03",
+    "infopark-109-25233": "2026-09-03",
+    "infopark-397-25142": "2026-09-03"
   },
   "lastCounts": {
-    "infopark-jobs": 400,
+    "infopark-jobs": 402,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 9,
     "dodge-workable": 10,
@@ -494,6 +496,6 @@
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 6
+    "tinkerhub-events": 5
   }
 }

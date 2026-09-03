@@ -52,14 +52,14 @@
     "firstSeenAt": "2026-09-03"
   },
   {
-    "id": "infopark-296-25303",
+    "id": "infopark-296-25316",
     "title": "Senior Business Development Specialist – IT Services",
     "company": "Grapelime Innovations Private Limited",
     "postedAt": "2026-09-03",
-    "deadlineAt": "2026-09-03",
+    "deadlineAt": "2026-09-04",
     "location": "Infopark, Kochi",
     "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25303",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25316",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-03"
@@ -738,11 +738,24 @@
     "firstSeenAt": "2026-09-01"
   },
   {
+    "id": "infopark-109-25233",
+    "title": "Market Research & Business Intelligence Expert",
+    "company": "NewAgeSys Solutions (P) Ltd",
+    "postedAt": "2026-08-31",
+    "deadlineAt": "2026-09-04",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/109/25233",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-03"
+  },
+  {
     "id": "infopark-109-25234",
     "title": "International Sales specialist – US Market (1-5 Years)",
     "company": "NewAgeSys Solutions (P) Ltd",
     "postedAt": "2026-08-31",
-    "deadlineAt": "2026-09-03",
+    "deadlineAt": "2026-09-04",
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/109/25234",
@@ -1410,6 +1423,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-397-25142",
+    "title": "Accounts Executive",
+    "company": "In-Tech Group India Private Limited",
+    "postedAt": "2026-08-19",
+    "deadlineAt": "2026-09-11",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/397/25142",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-03"
   },
   {
     "id": "infopark-450-25137",
@@ -4444,7 +4470,7 @@
     "title": "Technical Support Executive/Help desk",
     "company": "WORKSENT TECHNOLOGIES PVT LTD",
     "postedAt": "2026-01-15",
-    "deadlineAt": "2026-09-04",
+    "deadlineAt": "2026-09-16",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/164/21635",
