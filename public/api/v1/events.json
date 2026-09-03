@@ -408,6 +408,29 @@
       "firstSeenAt": "2026-08-31"
     },
     {
+      "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
+      "title": "[Code for Communities] Attention is All You Web",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "startTime": "10:00",
+      "endTime": "16:30",
+      "category": "ai",
+      "venue": "Jain University Kochi",
+      "city": "Kochi",
+      "organizer": "Google Developer Groups",
+      "blurb": "Ever wondered what actually happens behind modern AI tools? Join GDG Cloud Kochi for Attention is all you Web, a full-day, step-by-step breakdown of AI foundations and WebMCP.",
+      "tags": [],
+      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web/",
+      "registerUrl": "https://forms.gle/BjJaPVCFx4M6SHJa7",
+      "sourceUrls": [
+        "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web/"
+      ],
+      "sourceIds": [
+        "gdg-cloud-kochi"
+      ],
+      "firstSeenAt": "2026-09-03"
+    },
+    {
       "id": "codex-meetup-kochi-founders",
       "title": "Codex Community Meetup – Founders Edition",
       "start": "2026-09-16",
