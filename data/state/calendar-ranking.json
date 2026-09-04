@@ -1,26 +1,12 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-04": {
-      "signature": "3485ad8e614dcab334146b23f4b59cc505c2fc95492e5f8c9c9000ffa3f6a31f",
-      "eventId": "wikiconference-india-2026",
-      "reason": "A national open-knowledge conference hosted in Kochi, with Indic-language and Wikimedia programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-08-31T03:27:06.853Z"
-    },
     "2026-09-05": {
       "signature": "fbdc19722fb25d62c71cd4107e54412c151bb59b646112291ef40b8fff18c756",
       "eventId": "kerala-cyber-suraksha-summit-2026",
       "reason": "A confirmed Kochi summit offers broad public value through cybersecurity keynotes, live simulations and practical masterclasses.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-03T16:29:17.483Z"
-    },
-    "2026-09-12": {
-      "signature": "058ea65a1cf00442a4083263529a3e155fba32ce51c3d58ffa18a988968e0881",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
-      "reason": "A confirmed full-day Kochi programme offering structured coverage of AI foundations and WebMCP.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-04T06:01:34.192Z"
     }
   },
   "lastUsage": {

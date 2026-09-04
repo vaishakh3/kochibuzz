@@ -341,26 +341,6 @@
   },
   {
     "candidate": {
-      "title": "Founder's Saga Series",
-      "start": "2026-09-04",
-      "end": null,
-      "startTime": "17:30",
-      "endTime": null,
-      "venue": "Kochi, Kerala",
-      "city": "Kochi",
-      "organizer": "Green Trunk Ventures and Srinath Nair",
-      "description": "Curated gathering for emerging consumer brands, founders, investors and ecosystem leaders, with a consumer-tech focus, founder panels, AMA sessions and networking. The page states that it is invite-only and subject to host approval.",
-      "categoryHint": "startup / consumer tech networking",
-      "evidenceUrl": "https://luma.com/j33aa5ss",
-      "registrationUrl": "https://luma.com/j33aa5ss",
-      "sourceKind": "official_event_page",
-      "confidence": 0.93
-    },
-    "reason": "Official page could not be fetched: Error: HTTP 429",
-    "discoveredAt": "2026-09-04"
-  },
-  {
-    "candidate": {
       "title": "CNCG Kochi September Offline Meetup",
       "start": "2026-09-12",
       "end": null,
@@ -369,14 +349,14 @@
       "venue": "Kakkanad",
       "city": "Kochi, Kerala",
       "organizer": "CNCG Kochi Team",
-      "description": "In-person cloud-native community meetup focused on Kubernetes, CNCF projects and open-source cloud-native technologies.",
-      "categoryHint": "open source / technology",
+      "description": "In-person cloud-native community meetup focused on Kubernetes, serverless and open-source technologies.",
+      "categoryHint": "CNCF / cloud-native / developer",
       "evidenceUrl": "https://kochi.cncg.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.97
     },
     "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-04"
+    "discoveredAt": "2026-09-05"
   }
 ]

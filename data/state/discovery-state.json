@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-04T06:01:23.064Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-04T19:38:39.065Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-03",
@@ -25,12 +25,12 @@
     "https://f9infotech.com/kcss-2026": "2026-09-03",
     "https://luma.com/j33aa5ss": "2026-09-04",
     "https://corekerala.com/": "2026-09-04",
-    "https://kochi.cncg.in/": "2026-09-04"
+    "https://kochi.cncg.in/": "2026-09-05"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27513,
-    "outputTokens": 1321
+    "inputTokens": 28145,
+    "outputTokens": 378
   }
 }

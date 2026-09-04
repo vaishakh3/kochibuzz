@@ -377,24 +377,26 @@
     "firstSeenAt": "2026-08-31"
   },
   {
-    "id": "web-core-renev-expo-2026-kerala-6adddca329",
-    "title": "CORE RENeV Expo 2026 Kerala",
-    "start": "2026-09-11",
-    "end": "2026-09-13",
-    "category": "startup",
-    "venue": "Jawaharlal Nehru Stadium, Kochi",
-    "city": "Kochi",
-    "organizer": "Confederation of Renewable Energy (CORE)",
-    "blurb": "India's premier expo for Solar, Battery Storage and EV, bringing together policymakers, industry leaders, researchers, entrepreneurs, investors, technology providers and clean energy stakeholders in Kochi, Kerala.",
+    "id": "codex-community-luma-evt-dfywrd7mxczgid4-events-lu-ma",
+    "title": "Astra Commons: Kochi",
+    "start": "2026-09-10",
+    "end": "2026-09-10",
+    "startTime": "18:30",
+    "endTime": "23:00",
+    "category": "webdev",
+    "venue": "Summer Town Cafe - Kakkanad",
+    "city": "Unknown",
+    "organizer": "Vaishakh Suresh",
+    "blurb": "Get up-to-date information at: https://luma.com/at5xkowe Address: Summer Town Cafe - Kakkanad Kakkanad, India Hosted by Vaishakh Suresh & Rhiannon Payne",
     "tags": [],
-    "url": "https://corekerala.com/",
+    "url": "https://luma.com/at5xkowe",
     "sourceUrls": [
-      "https://corekerala.com/"
+      "https://luma.com/at5xkowe"
     ],
     "sourceIds": [
-      "openai-web-discovery"
+      "codex-community-luma"
     ],
-    "firstSeenAt": "2026-09-04"
+    "firstSeenAt": "2026-09-05"
   },
   {
     "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
@@ -418,26 +420,6 @@
       "gdg-cloud-kochi"
     ],
     "firstSeenAt": "2026-09-03"
-  },
-  {
-    "id": "web-omg-oh-my-google-badcab3f9e",
-    "title": "OMG — Oh My Google!",
-    "start": "2026-09-12",
-    "end": "2026-09-12",
-    "category": "webdev",
-    "venue": "Kerala Startup Mission, Kinfra Hi-Tech Park Main Road, Kochi 683503",
-    "city": "Kochi",
-    "organizer": "Google Developer Groups on Campus Mar Athanasius College of Engineering (GDG MACE)",
-    "blurb": "One-day programme with workshops, talks, panel discussions and games. Registration is listed as open on the event page.",
-    "tags": [],
-    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration",
-    "sourceUrls": [
-      "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-04"
   },
   {
     "id": "codex-meetup-kochi-founders",
