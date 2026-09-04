@@ -1,18 +1,37 @@
 [
   {
-    "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
-    "title": "HAC'KP 2026 Boot Camp",
-    "start": "2026-10-06",
-    "end": "2026-10-08",
-    "category": "hackathon",
-    "venue": "On-site venue in Kochi; exact venue not stated on the official schedule",
+    "id": "web-core-renev-expo-2026-kerala-6adddca329",
+    "title": "CORE RENeV Expo 2026 Kerala",
+    "start": "2026-09-11",
+    "end": "2026-09-13",
+    "category": "startup",
+    "venue": "Jawaharlal Nehru Stadium, Kochi",
     "city": "Kochi",
-    "organizer": "Kerala Police",
-    "blurb": "Mentor-led cybersecurity hackathon boot camp focused on solution integration, expert evaluation and product showcase.",
+    "organizer": "Confederation of Renewable Energy (CORE)",
+    "blurb": "India's premier expo for Solar, Battery Storage and EV, bringing together policymakers, industry leaders, researchers, entrepreneurs, investors, technology providers and clean energy stakeholders in Kochi, Kerala.",
     "tags": [],
-    "url": "https://hackp.kerala.gov.in/schedule",
+    "url": "https://corekerala.com/",
     "sourceUrls": [
-      "https://hackp.kerala.gov.in/schedule"
+      "https://corekerala.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-omg-oh-my-google-badcab3f9e",
+    "title": "OMG — Oh My Google!",
+    "start": "2026-09-12",
+    "end": "2026-09-12",
+    "category": "webdev",
+    "venue": "Kerala Startup Mission, Kinfra Hi-Tech Park Main Road, Kochi 683503",
+    "city": "Kochi",
+    "organizer": "Google Developer Groups on Campus Mar Athanasius College of Engineering (GDG MACE)",
+    "blurb": "One-day programme with workshops, talks, panel discussions and games. Registration is listed as open on the event page.",
+    "tags": [],
+    "url": "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration",
+    "sourceUrls": [
+      "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration"
     ],
     "sourceIds": [
       "openai-web-discovery"

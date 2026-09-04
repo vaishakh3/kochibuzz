@@ -15,17 +15,17 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-03T16:29:17.483Z"
     },
-    "2026-10-06": {
-      "signature": "5022c9dfa974a60726b528fb285886d50a9254ab006e1229dc5cbcf652b405d6",
-      "eventId": "c0c0n-2026",
-      "reason": "Kochi’s established c0c0n conference provides substantial cybersecurity programming, including training, CTFs and live bug hunting.",
+    "2026-09-12": {
+      "signature": "058ea65a1cf00442a4083263529a3e155fba32ce51c3d58ffa18a988968e0881",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
+      "reason": "A confirmed full-day Kochi programme offering structured coverage of AI foundations and WebMCP.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-03T16:29:17.483Z"
+      "rankedAt": "2026-09-04T06:01:34.192Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 982,
-    "outputTokens": 119
+    "inputTokens": 464,
+    "outputTokens": 77
   }
 }

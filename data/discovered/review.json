@@ -21,7 +21,7 @@
   },
   {
     "candidate": {
-      "title": "Cochin Nano 2026",
+      "title": "Cochin Nano 2026 — 5th International Conference on Frontiers in Nanoscience and Technology",
       "start": "2026-09-26",
       "end": "2026-09-28",
       "startTime": null,
@@ -29,15 +29,15 @@
       "venue": "Seminar Complex, Cochin University of Science and Technology",
       "city": "Kochi",
       "organizer": "Cochin University of Science and Technology",
-      "description": "5th International Conference on Frontiers in Nanoscience and Technology. Public conference registration is available; the registration deadline is 2026-09-15.",
-      "categoryHint": "conference; nanotechnology; research",
+      "description": "International conference on nanoscience and technology. The registration page provides conference registration details and states that registration ends on September 15, 2026.",
+      "categoryHint": "technology conference / nanotechnology",
       "evidenceUrl": "https://cochinnano.cusat.ac.in/registration/",
       "registrationUrl": "https://cochinnano.cusat.ac.in/registration/",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "Official page could not be fetched: Error: HTTP 500",
-    "discoveredAt": "2026-08-31"
+    "discoveredAt": "2026-09-04"
   },
   {
     "candidate": {
@@ -101,23 +101,23 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship 102 India Workshops",
+      "title": "IEEE Entrepreneurship 102 India Workshop",
       "start": "2026-11-16",
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue to be announced, Kochi, Kerala",
-      "city": "Kochi",
+      "venue": "Venue not publicly specified beyond Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "IEEE Entrepreneurship",
-      "description": "Two-day entrepreneurship workshop. Applications are publicly listed, with a registration deadline of 2026-10-16. The official page does not provide an exact venue beyond Kochi.",
-      "categoryHint": "technology/startup workshop",
+      "description": "In-person entrepreneurship workshop in Kochi for startup and founder-oriented participants.",
+      "categoryHint": "startup / entrepreneurship",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
-      "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.89
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-01"
+    "discoveredAt": "2026-09-04"
   },
   {
     "candidate": {
@@ -181,23 +181,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 International Cybersecurity Conference",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
+      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing",
+      "start": "2026-10-06",
+      "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
+      "venue": "Grand Hyatt, Bolgatty, Kochi",
+      "city": "Kochi",
       "organizer": "c0c0n",
-      "description": "International cybersecurity and hacking conference with talks, panels, villages and CTFs.",
-      "categoryHint": "technology/cybersecurity/conference",
+      "description": "Cybersecurity and hacking event comprising pre-conference trainings from October 6–8, the main conference from October 9–10, and post-conference trainings from October 11–13.",
+      "categoryHint": "cybersecurity conference / training",
       "evidenceUrl": "https://www.c0c0n.org/",
       "registrationUrl": "https://www.c0c0n.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-02"
+    "discoveredAt": "2026-09-04"
   },
   {
     "candidate": {
@@ -338,5 +338,45 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-03"
+  },
+  {
+    "candidate": {
+      "title": "Founder's Saga Series",
+      "start": "2026-09-04",
+      "end": null,
+      "startTime": "17:30",
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Green Trunk Ventures and Srinath Nair",
+      "description": "Curated gathering for emerging consumer brands, founders, investors and ecosystem leaders, with a consumer-tech focus, founder panels, AMA sessions and networking. The page states that it is invite-only and subject to host approval.",
+      "categoryHint": "startup / consumer tech networking",
+      "evidenceUrl": "https://luma.com/j33aa5ss",
+      "registrationUrl": "https://luma.com/j33aa5ss",
+      "sourceKind": "official_event_page",
+      "confidence": 0.93
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 429",
+    "discoveredAt": "2026-09-04"
+  },
+  {
+    "candidate": {
+      "title": "CNCG Kochi September Offline Meetup",
+      "start": "2026-09-12",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": null,
+      "venue": "Kakkanad",
+      "city": "Kochi, Kerala",
+      "organizer": "CNCG Kochi Team",
+      "description": "In-person cloud-native community meetup focused on Kubernetes, CNCF projects and open-source cloud-native technologies.",
+      "categoryHint": "open source / technology",
+      "evidenceUrl": "https://kochi.cncg.in/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 403",
+    "discoveredAt": "2026-09-04"
   }
 ]
