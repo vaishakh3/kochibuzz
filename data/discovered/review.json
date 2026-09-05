@@ -181,23 +181,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing",
+      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing Conference",
       "start": "2026-10-06",
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty, Kochi",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Cybersecurity and hacking event comprising pre-conference trainings from October 6–8, the main conference from October 9–10, and post-conference trainings from October 11–13.",
-      "categoryHint": "cybersecurity conference / training",
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi, Kerala",
+      "organizer": "Kerala Police Cyberdome and Information Security Research Association (ISRA)",
+      "description": "Cybersecurity conference and training programme covering AI, cloud/API security, offensive security, malware analysis, vulnerability research, fintech security, IoT and critical infrastructure.",
+      "categoryHint": "security, AI, cloud security, cybersecurity",
       "evidenceUrl": "https://www.c0c0n.org/",
-      "registrationUrl": "https://www.c0c0n.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-04"
+    "discoveredAt": "2026-09-06"
   },
   {
     "candidate": {
@@ -321,26 +321,6 @@
   },
   {
     "candidate": {
-      "title": "Kerala Cyber Suraksha Summit 2026",
-      "start": "2026-09-05",
-      "end": "2026-09-05",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Le Méridien, Kochi",
-      "city": "Kochi",
-      "organizer": "F9 Infotech, in association with the Government of Kerala and Kerala Startup Mission",
-      "description": "Cybersecurity summit covering AI security, data protection, cloud security, Zero Trust architecture and emerging cyber threats.",
-      "categoryHint": "Security; AI security; cloud security; data protection",
-      "evidenceUrl": "https://www.f9infotech.com/kcss-2026/",
-      "registrationUrl": "https://keralacybersuraksha.com/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-03"
-  },
-  {
-    "candidate": {
       "title": "CNCG Kochi September Offline Meetup",
       "start": "2026-09-12",
       "end": null,
@@ -358,5 +338,25 @@
     },
     "reason": "Official page could not be fetched: Error: HTTP 403",
     "discoveredAt": "2026-09-05"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026 Post-Conference Trainings",
+      "start": "2026-10-11",
+      "end": "2026-10-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Bolgatty, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Kerala Police and Information Security Research Association (ISRA), hosted with Kerala Police",
+      "description": "Publicly listed cybersecurity training sessions with online registration. The registration page states the training dates and venue.",
+      "categoryHint": "developer workshop",
+      "evidenceUrl": "https://c0c0n.org/register",
+      "registrationUrl": "https://c0c0n.org/register",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-06"
   }
 ]

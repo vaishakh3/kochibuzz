@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-09-05T10:39:50.120Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-05T23:56:16.256Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-03",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-06",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
     "https://pivot26.suit.iimklive.org/": "2026-09-02",
     "https://echai.ventures/kochi": "2026-09-02",
@@ -14,7 +14,7 @@
     "https://stnsa.org/conclave": "2026-09-01",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-01",
     "https://corekerala.com/expo-details": "2026-09-02",
-    "https://c0c0n.org/": "2026-09-04",
+    "https://c0c0n.org/": "2026-09-06",
     "https://csea.c0c0n.org/leadershipprogramme": "2026-09-02",
     "https://airomedicon.com/": "2026-09-02",
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
@@ -25,12 +25,13 @@
     "https://f9infotech.com/kcss-2026": "2026-09-03",
     "https://luma.com/j33aa5ss": "2026-09-04",
     "https://corekerala.com/": "2026-09-04",
-    "https://kochi.cncg.in/": "2026-09-05"
+    "https://kochi.cncg.in/": "2026-09-05",
+    "https://c0c0n.org/register": "2026-09-06"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28003,
-    "outputTokens": 540
+    "inputTokens": 27780,
+    "outputTokens": 946
   }
 }
