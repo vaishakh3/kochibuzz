@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "decisions": {
     "2026-09-05": {
-      "signature": "fbdc19722fb25d62c71cd4107e54412c151bb59b646112291ef40b8fff18c756",
+      "signature": "4fbe2a4225b3f6681a27cd7cd23ee8c90b50858ff5dbf36ecda361f08d007f5a",
       "eventId": "kerala-cyber-suraksha-summit-2026",
-      "reason": "A confirmed Kochi summit offers broad public value through cybersecurity keynotes, live simulations and practical masterclasses.",
+      "reason": "A confirmed Kochi summit offers broad public value through cybersecurity keynotes, panels, simulations and masterclasses.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-03T16:29:17.483Z"
+      "rankedAt": "2026-09-05T10:40:00.684Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 464,
-    "outputTokens": 77
+    "inputTokens": 568,
+    "outputTokens": 68
   }
 }

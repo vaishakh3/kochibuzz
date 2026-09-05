@@ -241,35 +241,6 @@
       "firstSeenAt": "2026-09-03"
     },
     {
-      "id": "tinkerhub-events-4iukv0w6p8",
-      "title": "bi0s Meetups",
-      "start": "2026-09-05",
-      "end": "2026-09-05",
-      "startTime": "09:30",
-      "endTime": "13:00",
-      "category": "security",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "bi0s Meetups - where wise meets passionate is a community-driven event organized by bi0s Kochi. bi0s meetups is not just another professional networking event! bi0s meetups will be uniquely & exclusively the venue that brings together students & professionals. What happens in bi0",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/4IUKV0W6P8/bi0s-meetups",
-      "registerUrl": "https://forms.gle/3QZ8g7GKBhbtFkqW6",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/4IUKV0W6P8/bi0s-meetups",
-        "https://forms.gle/3QZ8g7GKBhbtFkqW6"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
       "id": "tinkerhub-events-j41o6dlaff",
       "title": "BIR Week 8 - Build sprint",
       "start": "2026-09-05",

@@ -101,23 +101,23 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship 102 India Workshop",
+      "title": "IEEE Entrepreneurship 102 Kerala Workshop",
       "start": "2026-11-16",
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not publicly specified beyond Kochi",
-      "city": "Kochi, Kerala",
+      "venue": "Venue not publicly specified; Kochi, Kerala, India",
+      "city": "Kochi",
       "organizer": "IEEE Entrepreneurship",
-      "description": "In-person entrepreneurship workshop in Kochi for startup and founder-oriented participants.",
+      "description": "A two-day in-person entrepreneurship workshop for technology start-ups, covering ownership, funding, partnerships, organizational growth, mentoring and pitching.",
       "categoryHint": "startup / entrepreneurship",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
-      "registrationUrl": null,
+      "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-04"
+    "discoveredAt": "2026-09-05"
   },
   {
     "candidate": {
@@ -289,15 +289,15 @@
       "venue": "Lulu Twin Towers, Kakkanad",
       "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "A deep-tech startup summit for startups, founders, investors, innovators and industry leaders, with pitching, networking, learning and collaboration.",
-      "categoryHint": "technology/startup/deep tech",
+      "description": "A two-day deep-tech startup summit for startups, founders, investors, innovators and industry leaders, with pitching, networking, learning and collaboration.",
+      "categoryHint": "startup/deep tech",
       "evidenceUrl": "https://www.linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD",
       "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.99
+      "sourceKind": "social_post",
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-03"
+    "discoveredAt": "2026-09-05"
   },
   {
     "candidate": {
