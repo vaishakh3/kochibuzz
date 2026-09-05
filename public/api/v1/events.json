@@ -214,35 +214,6 @@
       "firstSeenAt": "2026-08-31"
     },
     {
-      "id": "tinkerhub-events-6p3g4phxm5",
-      "title": "Nights and Weekends",
-      "start": "2026-09-06",
-      "end": "2026-09-06",
-      "startTime": "10:00",
-      "category": "startup",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "A free, five-week offline experimentation studio at TinkerSpace, Kochi, for people who've already built something and want to find out whether anyone actually wants it. It isn't a course or an accelerator, and there's no equity or pitching involved. You keep your job and give the",
-      "tags": [
-        "TinkerHub",
-        "Learning Program",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends",
-      "registerUrl": "https://bir-ashy.vercel.app/nights-and-weekends#apply",
-      "note": "Programme runs through 11 October 2026.",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends",
-        "https://bir-ashy.vercel.app/nights-and-weekends#apply"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-08-31"
-    },
-    {
       "id": "openspeaks-kochi",
       "title": "OpenSpeaks: Language Documentation & Archiving",
       "start": "2026-09-07",
