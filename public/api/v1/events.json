@@ -214,60 +214,6 @@
       "firstSeenAt": "2026-08-31"
     },
     {
-      "id": "tinkerhub-events-3798lmpsu6",
-      "title": "Gramasabha",
-      "start": "2026-09-05",
-      "end": "2026-09-05",
-      "startTime": "20:00",
-      "endTime": "21:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Grama Sabha: The Monthly TinkerHub Meetup Grama Sabha is the monthly get-together where the TinkerHub community catches up and plans what's ahead. It's open to everyone. Come hear what's been happening across the community, share your own ideas, and help decide what the coming mo",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/3798LMPSU6/gramasabha",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/3798LMPSU6/gramasabha"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-03"
-    },
-    {
-      "id": "tinkerhub-events-j41o6dlaff",
-      "title": "BIR Week 8 - Build sprint",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "startTime": "14:00",
-      "endTime": "14:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Build sprint for builder in residency hardware",
-      "tags": [
-        "TinkerHub",
-        "Bootcamp",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/J41O6DLAFF/bir-week-8-build-sprint",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/J41O6DLAFF/bir-week-8-build-sprint"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-01"
-    },
-    {
       "id": "tinkerhub-events-6p3g4phxm5",
       "title": "Nights and Weekends",
       "start": "2026-09-06",

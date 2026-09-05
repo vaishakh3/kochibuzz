@@ -322,7 +322,6 @@
     "infopark-3-24239": "2026-09-01",
     "infopark-530-23896": "2026-09-01",
     "infopark-259-23450": "2026-09-01",
-    "tinkerhub-events-j41o6dlaff": "2026-09-01",
     "infopark-480-25263": "2026-09-01",
     "infopark-372-25187": "2026-09-01",
     "dodge-workable-944edde231": "2026-09-01",
@@ -420,7 +419,6 @@
     "paytm-payments-ernakulam-lever-7e140271-de8c-46e4-9b06-880bce9a0680": "2026-09-03",
     "infopark-83-23023": "2026-09-03",
     "infopark-476-22178": "2026-09-03",
-    "tinkerhub-events-3798lmpsu6": "2026-09-03",
     "infopark-109-25233": "2026-09-03",
     "infopark-397-25142": "2026-09-03",
     "infopark-466-25317": "2026-09-04",
@@ -468,6 +466,6 @@
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 4
+    "tinkerhub-events": 2
   }
 }
