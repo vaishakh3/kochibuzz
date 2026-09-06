@@ -81,23 +81,23 @@
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Awards & Prize Distribution",
-      "start": "2026-10-09",
-      "end": null,
+      "title": "HAC'KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "c0c0n Conference venue, Kochi, Kerala",
+      "venue": "On-site venue in Kochi (exact venue not stated on the cited page)",
       "city": "Kochi",
-      "organizer": "Kerala Police",
-      "description": "Awards and prize-cheque distribution for Hac'KP 2026 participants during the opening ceremony of c0c0n 2026.",
-      "categoryHint": "coding hackathon",
+      "organizer": "Kerala Police / HAC'KP 2026",
+      "description": "On-site boot camp for shortlisted hackathon participants, focused on solution integration, mentoring, evaluation and product showcase.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
-      "registrationUrl": "https://hackp.kerala.gov.in/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.84
+      "confidence": 0.98
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-01"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-06"
   },
   {
     "candidate": {
@@ -126,18 +126,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi",
+      "venue": "Kochi, Kerala",
       "city": "Kochi, Kerala",
-      "organizer": "Stanford Seed Transformation Network – South Asia",
-      "description": "Four-day gathering for founders and the Stanford Seed Transformation Network – South Asia.",
-      "categoryHint": "startup / technology / founders",
+      "organizer": "STNSA",
+      "description": "A startup and founder conclave with 400+ founders listed by the organizer.",
+      "categoryHint": "startup; founders; technology",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-01"
+    "discoveredAt": "2026-09-06"
   },
   {
     "candidate": {
@@ -357,6 +357,46 @@
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-06"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026 International Cyber Security Conference",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi",
+      "organizer": "c0c0n / Information Security Research Association (ISRA) Kerala Chapter",
+      "description": "International cybersecurity conference. The cited organizer post also lists pre-conference trainings from October 6–8 and post-conference trainings from October 11–13, 2026.",
+      "categoryHint": "technology conference",
+      "evidenceUrl": "https://www.linkedin.com/showcase/information-security-research-association-isra-kerala-chapter/",
+      "registrationUrl": "https://c0c0n.org/",
+      "sourceKind": "social_post",
+      "confidence": 0.96
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-06"
+  },
+  {
+    "candidate": {
+      "title": "She Builds Tech 3.0 — AI Hackathon",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kerala Startup Mission facility, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Kerala Startup Mission",
+      "description": "A 20-hour AI hackathon for women student innovators, followed by a pre-incubation track.",
+      "categoryHint": "startup; AI; hackathon; maker",
+      "evidenceUrl": "https://shebuildstech.startupmission.in/",
+      "registrationUrl": "https://shebuildstech.startupmission.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-06"
   }
 ]

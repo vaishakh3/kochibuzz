@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-05T23:56:16.256Z",
-  "queryCursor": 0,
+  "lastRunAt": "2026-09-06T13:42:04.275Z",
+  "queryCursor": 2,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-06",
@@ -11,7 +11,7 @@
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
     "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-05",
-    "https://stnsa.org/conclave": "2026-09-01",
+    "https://stnsa.org/conclave": "2026-09-06",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-01",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-09-06",
@@ -26,12 +26,14 @@
     "https://luma.com/j33aa5ss": "2026-09-04",
     "https://corekerala.com/": "2026-09-04",
     "https://kochi.cncg.in/": "2026-09-05",
-    "https://c0c0n.org/register": "2026-09-06"
+    "https://c0c0n.org/register": "2026-09-06",
+    "https://linkedin.com/showcase/information-security-research-association-isra-kerala-chapter": "2026-09-06",
+    "https://shebuildstech.startupmission.in/": "2026-09-06"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27780,
-    "outputTokens": 946
+    "inputTokens": 27249,
+    "outputTokens": 805
   }
 }
