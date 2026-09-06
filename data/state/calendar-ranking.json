@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "decisions": {},
+  "decisions": {
+    "2026-09-09": {
+      "signature": "00b82bfc3e1e0ec2ee3c70dfdb702fd84670efb5bc25d34361be18a985d5b880",
+      "eventId": "tinkerhub-events-mqthi1ojo5",
+      "reason": "A substantive Kochi community session exploring the foundations of computing and programming languages.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-06T17:06:03.188Z"
+    },
+    "2026-09-12": {
+      "signature": "7c1dced61eb4762278a8709d49e6a7ab03ae9b3b99a838c6e00144962cb37c41",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
+      "reason": "A full-day Kochi programme offering a practical introduction to AI foundations and WebMCP.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-06T17:06:03.188Z"
+    }
+  },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 445,
-    "outputTokens": 63
+    "inputTokens": 899,
+    "outputTokens": 118
   }
 }
