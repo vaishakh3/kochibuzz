@@ -2,27 +2,118 @@
   "schemaVersion": 1,
   "jobs": [
     {
-      "id": "infopark-209-25343",
-      "title": "Senior PHP Developer (5+ years)",
-      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "id": "infopark-118-25361",
+      "title": "Solution Architect - DevOps",
+      "company": "UROLIME",
       "postedAt": "2026-09-07",
-      "deadlineAt": "2026-09-30",
+      "deadlineAt": "2026-09-15",
       "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/209/25343",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/118/25361",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-07"
     },
     {
-      "id": "infopark-209-25350",
-      "title": "PHP Developer (2-4 years)",
+      "id": "infopark-118-25362",
+      "title": "System Engineer",
+      "company": "UROLIME",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-09-15",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/118/25362",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-209-25352",
+      "title": "Payments & Integrations Engineer",
       "company": "NDimensionZ Solutions Pvt.Ltd",
       "postedAt": "2026-09-07",
       "deadlineAt": "2026-09-30",
       "location": "Infopark, Kochi",
       "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/209/25350",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/25352",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-209-25354",
+      "title": "Data & Tracking Engineer",
+      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/25354",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-209-25355",
+      "title": "Visual Builder Engineer",
+      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/25355",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-209-25356",
+      "title": "Senior Backend Engineer",
+      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-10-12",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/25356",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-209-25357",
+      "title": "Senior Frontend Engineer",
+      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-10-12",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/25357",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-266-25360",
+      "title": "SEO Analyst",
+      "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/266/25360",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-286-25359",
+      "title": "Business Development Manager",
+      "company": "Eqsoft Business Solutions Pvt Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/286/25359",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-07"
@@ -114,6 +205,32 @@
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/426/25351",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-480-25353",
+      "title": "Digital Marketing Executive -  0 - 1 Year Experience",
+      "company": "CloudHouse Technologies Pvt.Ltd",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-09-15",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/480/25353",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-76-25358",
+      "title": "DevOps Engineer",
+      "company": "Emsyne Technologies Private Limited",
+      "postedAt": "2026-09-07",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/76/25358",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-07"
@@ -276,7 +393,7 @@
     },
     {
       "id": "infopark-450-25336",
-      "title": "Healthcare Consultant",
+      "title": "Quality Assurance Specialist",
       "company": "iCodeBees Private Limited",
       "postedAt": "2026-09-04",
       "deadlineAt": "2026-09-08",
@@ -1225,7 +1342,7 @@
       "title": "Test Engineer-ERP",
       "company": "Voxtron Solutions LLP",
       "postedAt": "2026-08-27",
-      "deadlineAt": "2026-09-10",
+      "deadlineAt": "2026-09-08",
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/336/25183",
@@ -1349,6 +1466,45 @@
       "firstSeenAt": "2026-08-25"
     },
     {
+      "id": "infopark-157-25164",
+      "title": "Digital Marketing Executive",
+      "company": "Tranzmeo",
+      "postedAt": "2026-08-21",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/25164",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-189-25158",
+      "title": "Performance Marketing Specialist(2+)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-08-21",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/25158",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-189-25163",
+      "title": "Senior Digital Marketing Specialist(2+)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-08-21",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/25163",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-340-25156",
       "title": "Senior Software Engineer",
       "company": "Classic Technologies & Business Solutions Pvt. Ltd",
@@ -1451,19 +1607,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "infopark-397-25142",
-      "title": "Accounts Executive",
-      "company": "In-Tech Group India Private Limited",
-      "postedAt": "2026-08-19",
-      "deadlineAt": "2026-09-11",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/397/25142",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-09-03"
     },
     {
       "id": "infopark-85-25141",
@@ -1797,6 +1940,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-70-25087",
+      "title": "Software Engineer",
+      "company": "Empress InfoTech",
+      "postedAt": "2026-08-14",
+      "deadlineAt": "2026-09-11",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/70/25087",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-148-25051",
       "title": "Business Intelligence (BI) Analyst – GA & GSC Specialist",
       "company": "AVENTUS INFORMATICS",
@@ -1810,6 +1966,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-189-25059",
+      "title": "Digital Marketing Executive(1+ years)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-08-12",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/25059",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-468-25058",
       "title": "Technical Manager",
       "company": "SS Consulting",
@@ -1821,6 +1990,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-189-25040",
+      "title": "Business Development Executive (1– 2Years)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-08-11",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/25040",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-256-25037",
@@ -1911,6 +2093,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-189-25019",
+      "title": "Video Editor",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-08-07",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/25019",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-211-25018",
@@ -2134,6 +2329,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-70-24932",
+      "title": "Solutions Consultant",
+      "company": "Empress InfoTech",
+      "postedAt": "2026-08-03",
+      "deadlineAt": "2026-09-11",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/70/24932",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-95-24927",
       "title": "Internship – Product Consultant",
       "company": "Aabasoft Technologies India Private Limited",
@@ -2301,6 +2509,32 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-189-24848",
+      "title": "HR Manager(2+)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-07-27",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/24848",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
+      "id": "infopark-189-24849",
+      "title": "Management Trainee",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-07-27",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/24849",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-259-24844",
@@ -2730,6 +2964,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-157-24557",
+      "title": "Customer Support Executive",
+      "company": "Tranzmeo",
+      "postedAt": "2026-07-09",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/24557",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-259-24529",
       "title": "Business Development Specialist (IT Service)",
       "company": "Thomsun Infocare LLP",
@@ -2904,19 +3151,6 @@
       "firstSeenAt": "2026-09-03"
     },
     {
-      "id": "infopark-266-24432",
-      "title": "Junior SEO Analyst",
-      "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
-      "postedAt": "2026-07-02",
-      "deadlineAt": "2026-09-30",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/266/24432",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-09-02"
-    },
-    {
       "id": "paytm-payments-kochi-lever-8cee0f33-0af6-4e00-b954-5aa6ca0e4649",
       "title": "\"KAM GT- Team Lead - EDC- Kerala",
       "company": "Paytm Payments",
@@ -2977,19 +3211,6 @@
       "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
       "sourceId": "paytm-payments-kochi-lever",
       "firstSeenAt": "2026-08-23"
-    },
-    {
-      "id": "infopark-76-24342",
-      "title": "Junior .Net Core Developer",
-      "company": "Emsyne Technologies Private Limited",
-      "postedAt": "2026-06-25",
-      "deadlineAt": "2026-09-15",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/76/24342",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-09-02"
     },
     {
       "id": "infopark-85-24330",
@@ -3068,6 +3289,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-02"
+    },
+    {
+      "id": "infopark-189-24214",
+      "title": "Video Editor Intern",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2026-06-19",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/24214",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-352-24195",
@@ -3159,6 +3393,19 @@
       "firstSeenAt": "2026-09-02"
     },
     {
+      "id": "infopark-164-23976",
+      "title": "Content Writer",
+      "company": "WORKSENT TECHNOLOGIES PVT LTD",
+      "postedAt": "2026-06-09",
+      "deadlineAt": "2026-09-15",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/164/23976",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-340-23952",
       "title": "Senior Specialist – Technical Support",
       "company": "Classic Technologies & Business Solutions Pvt. Ltd",
@@ -3224,6 +3471,19 @@
       "firstSeenAt": "2026-09-01"
     },
     {
+      "id": "infopark-157-23863",
+      "title": "Junior Software Engineer Intern- AI ML",
+      "company": "Tranzmeo",
+      "postedAt": "2026-06-02",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23863",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-351-23854",
       "title": "Business Immigration Analyst (3+ yrs of exp with Excellent written and verbal communication skills in English)",
       "company": "Stepping Stone Consultancy Services",
@@ -3261,6 +3521,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-02"
+    },
+    {
+      "id": "infopark-157-23829",
+      "title": "Executive Assistant Trainee",
+      "company": "Tranzmeo",
+      "postedAt": "2026-06-01",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23829",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-378-23817",
@@ -3404,6 +3677,19 @@
       "firstSeenAt": "2026-08-23"
     },
     {
+      "id": "infopark-76-23516",
+      "title": "Network Engineer L3",
+      "company": "Emsyne Technologies Private Limited",
+      "postedAt": "2026-05-13",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/76/23516",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-266-23499",
       "title": "Business Development Executive",
       "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
@@ -3466,6 +3752,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-157-23344",
+      "title": "Technical Support Executive",
+      "company": "Tranzmeo",
+      "postedAt": "2026-05-04",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23344",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-340-23337",
@@ -3672,6 +3971,19 @@
       "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
       "sourceId": "paytm-payments-ernakulam-lever",
       "firstSeenAt": "2026-09-03"
+    },
+    {
+      "id": "infopark-157-23112",
+      "title": "HR Internship",
+      "company": "Tranzmeo",
+      "postedAt": "2026-04-21",
+      "deadlineAt": "2026-09-07",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23112",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-266-23065",
@@ -4000,7 +4312,7 @@
       "title": "Technical Support Executive/Help desk",
       "company": "WORKSENT TECHNOLOGIES PVT LTD",
       "postedAt": "2026-01-15",
-      "deadlineAt": "2026-09-16",
+      "deadlineAt": "2026-09-14",
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/164/21635",
@@ -4280,6 +4592,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-76-20982",
+      "title": ".Net Core Developer",
+      "company": "Emsyne Technologies Private Limited",
+      "postedAt": "2025-11-05",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/76/20982",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-85-20978",
@@ -4944,6 +5269,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-76-18922",
+      "title": "Business Analyst",
+      "company": "Emsyne Technologies Private Limited",
+      "postedAt": "2025-05-21",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "product",
+      "detailUrl": "https://infopark.in/company-jobs/details/76/18922",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-190-18858",
       "title": "QA Engineer",
       "company": "Innovature Software Labs (P) Ltd",
@@ -4970,6 +5308,19 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "infopark-189-18335",
+      "title": "Senior JS Full Stack Developer (MERN/ PHP)",
+      "company": "GALTech Technologies Pvt Ltd",
+      "postedAt": "2025-03-22",
+      "deadlineAt": "2026-09-19",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/189/18335",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
+    },
+    {
       "id": "infopark-398-18009",
       "title": "INTENSHIP PROGRAM",
       "company": "Virtual Impulse Technologies",
@@ -4994,6 +5345,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "infopark-76-17723",
+      "title": "Senior .Net Core Developer",
+      "company": "Emsyne Technologies Private Limited",
+      "postedAt": "2025-01-29",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/76/17723",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-383-17688",
@@ -5189,6 +5553,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-02"
+    },
+    {
+      "id": "infopark-164-13002",
+      "title": "System Engineer-L2",
+      "company": "WORKSENT TECHNOLOGIES PVT LTD",
+      "postedAt": "2023-02-14",
+      "deadlineAt": "2026-10-03",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/164/13002",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-07"
     },
     {
       "id": "infopark-95-12771",
