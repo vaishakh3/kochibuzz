@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "decisions": {
     "2026-09-12": {
-      "signature": "a4793974a82649b0573d8ea0032e2ed9a8711dc7fefee8471998b43eff38c10b",
+      "signature": "7c1dced61eb4762278a8709d49e6a7ab03ae9b3b99a838c6e00144962cb37c41",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
-      "reason": "A confirmed full-day Kochi program offering structured coverage of AI foundations and WebMCP.",
+      "reason": "A full-day Kochi programme offers broad, structured coverage of AI foundations and WebMCP for the public.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-07T04:47:39.073Z"
+      "rankedAt": "2026-09-07T20:36:49.083Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 719,
-    "outputTokens": 77
+    "inputTokens": 607,
+    "outputTokens": 81
   }
 }

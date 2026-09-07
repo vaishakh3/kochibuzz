@@ -161,23 +161,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing Conference",
+      "title": "c0c0n 2026",
       "start": "2026-10-06",
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
+      "venue": "Grand Hyatt, Bolgatty",
       "city": "Kochi, Kerala",
-      "organizer": "Kerala Police Cyberdome and Information Security Research Association (ISRA)",
-      "description": "Cybersecurity conference and training programme covering AI, cloud/API security, offensive security, malware analysis, vulnerability research, fintech security, IoT and critical infrastructure.",
-      "categoryHint": "security, AI, cloud security, cybersecurity",
+      "organizer": "c0c0n",
+      "description": "Cybersecurity and hacking event comprising pre-conference training from October 6–8, the main conference from October 9–10, and post-conference training from October 11–13, 2026.",
+      "categoryHint": "Cybersecurity / technology conference",
       "evidenceUrl": "https://www.c0c0n.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-06"
+    "discoveredAt": "2026-09-08"
   },
   {
     "candidate": {
@@ -398,5 +398,105 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-07"
+  },
+  {
+    "candidate": {
+      "title": "She Builds Tech 3.0 — AI Hackathon",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kerala Startup Mission, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Kerala Startup Mission",
+      "description": "A 20-hour AI hackathon for women student teams from across Kerala.",
+      "categoryHint": "technology / startup / hackathon",
+      "evidenceUrl": "https://www.linkedin.com/posts/kerala-startup-mission_keralastartupmission-shebuildstech3-aihackathon-activity-7494026712247164929-O83W",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.94
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "HOSPEX India 2026",
+      "start": "2026-09-24",
+      "end": "2026-09-26",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Chakolas Pavilion Event Centre",
+      "city": "Kochi, Kerala",
+      "organizer": "HOSPEX India, with Kerala Startup Mission participation",
+      "description": "Healthcare technology and innovation event featuring health-tech, med-tech and digital-health startups.",
+      "categoryHint": "health-tech / startup / innovation",
+      "evidenceUrl": "https://be.linkedin.com/company/hospexindia",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.89
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "Amrita Design Conclave 2026",
+      "start": "2026-09-08",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Amrita Vishwa Vidyapeetham, Kochi Campus",
+      "city": "Kochi, Kerala",
+      "organizer": "Department of Visual Media and Communication, Amrita Vishwa Vidyapeetham, Kochi Campus",
+      "description": "A two-day design and creative-technology platform covering design innovation, AI in creative practice, creative entrepreneurship, laser engraving and design research.",
+      "categoryHint": "creative-tech / design / AI",
+      "evidenceUrl": "https://www.linkedin.com/posts/amritakochi_amrita-design-conclave-adc-2026-activity-7433363968632463360-XvSo",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.55
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "She Builds Tech 3.0",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kerala Startup Mission (KSUM) Complex",
+      "city": "Kochi, Kerala",
+      "organizer": "Kerala Startup Mission",
+      "description": "A 20-hour AI hackathon for women student teams, with the top 20 teams receiving micro-innovation funding support and entry into a pre-incubation programme.",
+      "categoryHint": "AI / hackathon / startup",
+      "evidenceUrl": "https://in.linkedin.com/company/kerala-startup-mission",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.86
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "Elets AI Summit",
+      "start": "2026-10-14",
+      "end": null,
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "venue": "Not specified in the available evidence",
+      "city": "Kochi, Kerala",
+      "organizer": "Elets Technomedia",
+      "description": "AI summit featuring keynotes, panels, fireside chats, startup showcases, technology exhibitions and networking.",
+      "categoryHint": "Artificial intelligence / startup / technology summit",
+      "evidenceUrl": "https://www.indiaeve.com/event/elets-ai-summit",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.62
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-08"
   }
 ]
