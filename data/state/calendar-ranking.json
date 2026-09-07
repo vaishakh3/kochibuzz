@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-09": {
-      "signature": "00b82bfc3e1e0ec2ee3c70dfdb702fd84670efb5bc25d34361be18a985d5b880",
-      "eventId": "tinkerhub-events-mqthi1ojo5",
-      "reason": "A substantive Kochi community session exploring the foundations of computing and programming languages.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-06T17:06:03.188Z"
-    },
     "2026-09-12": {
       "signature": "a4793974a82649b0573d8ea0032e2ed9a8711dc7fefee8471998b43eff38c10b",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",

@@ -236,33 +236,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-mqthi1ojo5",
-    "title": "AI Wednesday",
-    "start": "2026-09-09",
-    "end": "2026-09-09",
-    "startTime": "19:00",
-    "endTime": "19:00",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Before Python. Before C. Before we even had general-purpose electronic computers, mathematicians were already asking: what does it mean to compute? That question gave us lambda calculus, and eventually Lisp, ML, Haskell, and an entirely different way of thinking about programs. T",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/MQTHI1OJO5/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/MQTHI1OJO5/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-06"
-  },
-  {
     "id": "tinkerhub-events-q29zgffnx2",
     "title": "eywkaa - September Apple event watch party",
     "start": "2026-09-09",
