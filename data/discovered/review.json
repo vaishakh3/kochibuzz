@@ -1,26 +1,6 @@
 [
   {
     "candidate": {
-      "title": "ETHKochi 2026",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi, India",
-      "city": "Kochi",
-      "organizer": "Web3 Kerala, backed by Kerala Startup Mission",
-      "description": "Two-day Ethereum conference and hackathon. Registration is free; team size is 1–4.",
-      "categoryHint": "conference; hackathon; Web3",
-      "evidenceUrl": "https://ethkochi.devfolio.co/",
-      "registrationUrl": "https://ethkochi.devfolio.co/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-08-31"
-  },
-  {
-    "candidate": {
       "title": "Cochin Nano 2026 — 5th International Conference on Frontiers in Nanoscience and Technology",
       "start": "2026-09-26",
       "end": "2026-09-28",
@@ -326,7 +306,7 @@
       "end": null,
       "startTime": "09:30",
       "endTime": null,
-      "venue": "Kakkanad",
+      "venue": "Jain University, Kakkanad",
       "city": "Kochi, Kerala",
       "organizer": "CNCG Kochi Team",
       "description": "In-person cloud-native community meetup focused on Kubernetes, serverless and open-source technologies.",
@@ -334,10 +314,10 @@
       "evidenceUrl": "https://kochi.cncg.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.98
     },
     "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-05"
+    "discoveredAt": "2026-09-07"
   },
   {
     "candidate": {
@@ -398,5 +378,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-06"
+  },
+  {
+    "candidate": {
+      "title": "Hack Your Future — 2-Day AI Bootcamp & Hackathon",
+      "start": "2026-09-10",
+      "end": "2026-09-11",
+      "startTime": "08:30",
+      "endTime": "16:00",
+      "venue": "Infopark Phase II",
+      "city": "Kakkanad, Kochi",
+      "organizer": "Sanskara School, supported by Google and powered by Muthoot Institute of Technology and Science",
+      "description": "A hands-on artificial-intelligence bootcamp and hackathon. The organizer page states the start date, venue area and schedule.",
+      "categoryHint": "technology / AI / hackathon",
+      "evidenceUrl": "https://sanskaraschool.com/hackathon/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.92
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-07"
   }
 ]
