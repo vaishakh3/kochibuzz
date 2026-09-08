@@ -21,11 +21,18 @@
       "reason": "Kochi’s established multi-day security conference offers substantial training, CTFs and public programming.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-08T09:45:18.905Z"
+    },
+    "2026-09-10": {
+      "signature": "768c6cd8949066d469e7f40d451c333032abde3f45ca112e7839a7d2cb02f53c",
+      "eventId": "tinkerhub-events-hg8rpi5k0d",
+      "reason": "A Kochi-based community session offering a substantive introduction to vehicle telematics and data systems.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-08T14:35:31.444Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 782,
-    "outputTokens": 105
+    "inputTokens": 462,
+    "outputTokens": 64
   }
 }

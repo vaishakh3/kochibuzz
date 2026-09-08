@@ -289,6 +289,33 @@
       "firstSeenAt": "2026-09-05"
     },
     {
+      "id": "tinkerhub-events-hg8rpi5k0d",
+      "title": "Maker thursday",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "startup",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Blackbox Telematics Ever wonder how vehicle tracking works? This session explores how telematics devices collect and send data; Location, speed, acceleration and more- and preserves data as evidence for incidents.",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/HG8RPI5K0D/maker-thursday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/HG8RPI5K0D/maker-thursday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-08"
+    },
+    {
       "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
       "title": "[Code for Communities] Attention is All You Web",
       "start": "2026-09-12",
