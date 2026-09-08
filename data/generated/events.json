@@ -422,29 +422,6 @@
     "firstSeenAt": "2026-09-06"
   },
   {
-    "id": "web-sparc-null-kochi-workshop-reverse-engineering-101-d01fb5012b",
-    "title": "SPARC × NULL Kochi Workshop: Reverse Engineering 101",
-    "start": "2026-09-13",
-    "end": "2026-09-13",
-    "startTime": "09:30",
-    "endTime": "12:30",
-    "category": "security",
-    "venue": "TinkerSpace, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-    "city": "Kochi, Kerala",
-    "organizer": "SPARC Kerala × NULL Kochi",
-    "blurb": "Hands-on introductory workshop on reverse engineering.",
-    "tags": [],
-    "url": "https://in.linkedin.com/company/null-kochi",
-    "registerUrl": "https://luma.com/9jjcvzys",
-    "sourceUrls": [
-      "https://in.linkedin.com/company/null-kochi"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-08"
-  },
-  {
     "id": "codex-meetup-kochi-founders",
     "title": "Codex Community Meetup – Founders Edition",
     "start": "2026-09-16",
@@ -593,26 +570,6 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "web-hac-kp-2026-boot-camp-and-grand-finale-3907f0fff1",
-    "title": "HAC'KP 2026 Boot Camp and Grand Finale",
-    "start": "2026-10-06",
-    "end": "2026-10-09",
-    "category": "hackathon",
-    "venue": "Kochi venue not specified on the cited schedule page",
-    "city": "Kochi",
-    "organizer": "HAC'KP 2026 organizers",
-    "blurb": "The schedule lists an on-site Kochi boot camp from October 6–8, 2026 and awards at the c0c0n conference on October 9, 2026. Excluded because the provided known URL must be omitted and the page does not provide a specific Kochi-area venue.",
-    "tags": [],
-    "url": "https://hackp.kerala.gov.in/schedule",
-    "sourceUrls": [
-      "https://hackp.kerala.gov.in/schedule"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-08"
   },
   {
     "id": "huddle-global-2026",

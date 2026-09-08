@@ -66,18 +66,18 @@
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "On-site venue in Kochi (exact venue not stated on the cited page)",
-      "city": "Kochi",
+      "venue": "On-site venue in Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "Kerala Police / HAC'KP 2026",
-      "description": "On-site boot camp for shortlisted hackathon participants, focused on solution integration, mentoring, evaluation and product showcase.",
+      "description": "On-site hackathon boot camp focused on final solution integration, intensive mentoring, expert evaluation and product showcase. The official schedule states that participant registration was conducted earlier, so this is not presented as an open registration event.",
       "categoryHint": "hackathon",
-      "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
+      "evidenceUrl": "https://hackp.kerala.gov.in/schedule",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-06"
+    "discoveredAt": "2026-09-09"
   },
   {
     "candidate": {
@@ -241,23 +241,23 @@
   },
   {
     "candidate": {
-      "title": "eywkaa — September Apple event watch party",
-      "start": "2026-09-09",
-      "end": "2026-09-10",
+      "title": "GitHub DevDays Kochi",
+      "start": "2026-09-12",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "TinkerSpace, Kalamassery",
+      "venue": "TinkerSpace, Kochi, Kerala",
       "city": "Kochi",
       "organizer": "TinkerHub Foundation",
-      "description": "Apple event watch party listed on TinkerHub's events page.",
-      "categoryHint": "technology",
+      "description": "A GitHub-focused developer event listed by TinkerHub for its Kochi space.",
+      "categoryHint": "open source",
       "evidenceUrl": "https://tinkerhub.org/events",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.8
+      "confidence": 0.88
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-02"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-09"
   },
   {
     "candidate": {
@@ -441,26 +441,6 @@
   },
   {
     "candidate": {
-      "title": "Amrita Design Conclave 2026",
-      "start": "2026-09-08",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Amrita Vishwa Vidyapeetham, Kochi Campus",
-      "city": "Kochi, Kerala",
-      "organizer": "Department of Visual Media and Communication, Amrita Vishwa Vidyapeetham, Kochi Campus",
-      "description": "A two-day design and creative-technology platform covering design innovation, AI in creative practice, creative entrepreneurship, laser engraving and design research.",
-      "categoryHint": "creative-tech / design / AI",
-      "evidenceUrl": "https://www.linkedin.com/posts/amritakochi_amrita-design-conclave-adc-2026-activity-7433363968632463360-XvSo",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.55
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
       "title": "She Builds Tech 3.0",
       "start": "2026-10-16",
       "end": "2026-10-17",
@@ -538,5 +518,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "ICDSE 2027 — 8th International Conference on Data Science & Engineering",
+      "start": "2027-01-06",
+      "end": "2027-01-07",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "Department of Computer Science, CUSAT",
+      "description": "International conference on data science and engineering, with the 2027 theme “Agentic AI for Public Health and Wellness.” The conference runs January 6–8, 2027; only January 6–7 fall within the requested date range.",
+      "categoryHint": "conference",
+      "evidenceUrl": "https://icdse.cusat.ac.in/",
+      "registrationUrl": "https://icdse.cusat.ac.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 500",
+    "discoveredAt": "2026-09-09"
   }
 ]

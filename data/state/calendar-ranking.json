@@ -14,20 +14,6 @@
       "reason": "A full-day Kochi programme offers broad, structured coverage of AI foundations and WebMCP for the public.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-07T20:36:49.083Z"
-    },
-    "2026-09-13": {
-      "signature": "32fcc2ff1afbbfe5bbed9cbc8f0dd2c0a648ece2de135ae400eac601233fbb4f",
-      "eventId": "tinkerhub-events-obn0l1e2y2",
-      "reason": "A confirmed, hands-on cybersecurity collaboration in Kochi with broad practical programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-08T09:45:18.905Z"
-    },
-    "2026-10-06": {
-      "signature": "9c40ad28483ceda50f8d87be2394b099a15fc1248712edcff635223ec7b51e22",
-      "eventId": "c0c0n-2026",
-      "reason": "Kochi’s established multi-day security conference offers substantial training, CTFs and public programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-08T09:45:18.905Z"
     }
   },
   "lastUsage": {
