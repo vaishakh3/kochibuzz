@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-09-07T20:36:39.207Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-08T09:45:08.339Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-06",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-08",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
     "https://pivot26.suit.iimklive.org/": "2026-09-02",
     "https://echai.ventures/kochi": "2026-09-02",
@@ -12,7 +12,7 @@
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
     "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-05",
     "https://stnsa.org/conclave": "2026-09-06",
-    "https://in.linkedin.com/company/c0c0nconference": "2026-09-01",
+    "https://in.linkedin.com/company/c0c0nconference": "2026-09-08",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-09-08",
     "https://csea.c0c0n.org/leadershipprogramme": "2026-09-02",
@@ -34,12 +34,15 @@
     "https://be.linkedin.com/company/hospexindia": "2026-09-08",
     "https://linkedin.com/posts/amritakochi_amrita-design-conclave-adc-2026-activity-7433363968632463360-XvSo": "2026-09-08",
     "https://in.linkedin.com/company/kerala-startup-mission": "2026-09-08",
-    "https://indiaeve.com/event/elets-ai-summit": "2026-09-08"
+    "https://indiaeve.com/event/elets-ai-summit": "2026-09-08",
+    "https://hackify.iedcmace.in/": "2026-09-08",
+    "https://hack-with-gdg-s4.vercel.app/": "2026-09-08",
+    "https://in.linkedin.com/company/null-kochi": "2026-09-08"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27978,
-    "outputTokens": 1131
+    "inputTokens": 27915,
+    "outputTokens": 986
   }
 }

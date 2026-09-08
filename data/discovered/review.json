@@ -129,15 +129,15 @@
       "venue": "Grand Hyatt Kochi Bolgatty",
       "city": "Kochi, Kerala",
       "organizer": "c0c0n",
-      "description": "Cybersecurity conference covering offensive security, security research, AI security, cloud security and information security.",
-      "categoryHint": "cybersecurity / AI security / cloud security",
+      "description": "Cybersecurity conference covering cybersecurity, information security, AI security, security operations and cyber resilience.",
+      "categoryHint": "security, AI",
       "evidenceUrl": "https://in.linkedin.com/company/c0c0nconference",
-      "registrationUrl": null,
+      "registrationUrl": "https://c0c0n.org/2026",
       "sourceKind": "social_post",
-      "confidence": 0.92
+      "confidence": 0.95
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-01"
+    "discoveredAt": "2026-09-08"
   },
   {
     "candidate": {
@@ -497,6 +497,46 @@
       "confidence": 0.62
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "Hackify 3.0 — Hack to Defy",
+      "start": "2026-10-09",
+      "end": "2026-10-11",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Mar Athanasius College of Engineering (MACE), Kothamangalam",
+      "city": "Kothamangalam, greater Kochi",
+      "organizer": "IEDC MACE",
+      "description": "36-hour offline national-level hackathon focused on building technology solutions. Applications are open through Devfolio; the stated registration deadline is September 27, 2026.",
+      "categoryHint": "college coding hackathon",
+      "evidenceUrl": "https://hackify.iedcmace.in/",
+      "registrationUrl": "https://hackify.iedcmace.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.97
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-08"
+  },
+  {
+    "candidate": {
+      "title": "Hack With GDG S4",
+      "start": "2026-10-08",
+      "end": "2026-10-10",
+      "startTime": "18:00",
+      "endTime": "06:00",
+      "venue": "KSR College of Engineering",
+      "city": "Tiruchengode, Tamil Nadu (not Kochi-area)",
+      "organizer": "GDG KSRCE",
+      "description": "36-hour offline hackathon with an idea-submission round and an in-person build phase. Excluded because the venue is outside greater Kochi.",
+      "categoryHint": "college coding hackathon",
+      "evidenceUrl": "https://hack-with-gdg-s4.vercel.app/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-08"
   }
 ]
