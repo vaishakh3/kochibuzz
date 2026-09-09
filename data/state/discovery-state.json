@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-08T21:54:07.979Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-09T11:28:29.972Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-09",
@@ -29,7 +29,7 @@
     "https://c0c0n.org/register": "2026-09-06",
     "https://linkedin.com/showcase/information-security-research-association-isra-kerala-chapter": "2026-09-06",
     "https://shebuildstech.startupmission.in/": "2026-09-06",
-    "https://sanskaraschool.com/hackathon": "2026-09-07",
+    "https://sanskaraschool.com/hackathon": "2026-09-09",
     "https://linkedin.com/posts/kerala-startup-mission_keralastartupmission-shebuildstech3-aihackathon-activity-7494026712247164929-O83W": "2026-09-08",
     "https://be.linkedin.com/company/hospexindia": "2026-09-08",
     "https://linkedin.com/posts/amritakochi_amrita-design-conclave-adc-2026-activity-7433363968632463360-XvSo": "2026-09-08",
@@ -38,12 +38,14 @@
     "https://hackify.iedcmace.in/": "2026-09-08",
     "https://hack-with-gdg-s4.vercel.app/": "2026-09-08",
     "https://in.linkedin.com/company/null-kochi": "2026-09-08",
-    "https://icdse.cusat.ac.in/": "2026-09-09"
+    "https://icdse.cusat.ac.in/": "2026-09-09",
+    "https://pivot26.suit.iimklive.org/agenda": "2026-09-09",
+    "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-09"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 27877,
-    "outputTokens": 968
+    "inputTokens": 28437,
+    "outputTokens": 715
   }
 }

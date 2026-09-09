@@ -381,23 +381,23 @@
   },
   {
     "candidate": {
-      "title": "Hack Your Future — 2-Day AI Bootcamp & Hackathon",
+      "title": "Hack Your Future — Season II: Inter-School Coding Hackathon",
       "start": "2026-09-10",
       "end": "2026-09-11",
       "startTime": "08:30",
       "endTime": "16:00",
-      "venue": "Infopark Phase II",
-      "city": "Kakkanad, Kochi",
-      "organizer": "Sanskara School, supported by Google and powered by Muthoot Institute of Technology and Science",
-      "description": "A hands-on artificial-intelligence bootcamp and hackathon. The organizer page states the start date, venue area and schedule.",
-      "categoryHint": "technology / AI / hackathon",
+      "venue": "Sanskara School, Infopark Phase II, Kakkanad",
+      "city": "Kochi",
+      "organizer": "Sanskara School",
+      "description": "Two-day AI bootcamp and coding hackathon for students in Grades 9–12, covering AI tools, machine learning, generative AI and prompt engineering.",
+      "categoryHint": "technology; AI; hackathon",
       "evidenceUrl": "https://sanskaraschool.com/hackathon/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.92
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-07"
+    "discoveredAt": "2026-09-09"
   },
   {
     "candidate": {
@@ -537,6 +537,46 @@
       "confidence": 0.98
     },
     "reason": "Official page could not be fetched: Error: HTTP 500",
+    "discoveredAt": "2026-09-09"
+  },
+  {
+    "candidate": {
+      "title": "PIVOT 2026 — Deep Tech Startup Summit",
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi, Kakkanad",
+      "city": "Kochi",
+      "organizer": "IIMK LIVE",
+      "description": "Two-day deep-tech startup summit featuring startup, innovation, investment and India DeepTech Awards programming.",
+      "categoryHint": "startup; deep tech; technology summit",
+      "evidenceUrl": "https://pivot26.suit.iimklive.org/agenda",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-09"
+  },
+  {
+    "candidate": {
+      "title": "Useless Projects",
+      "start": "2026-10-25",
+      "end": "2026-11-04",
+      "startTime": "04:30",
+      "endTime": "06:30",
+      "venue": "Future HQ @ TinkerSpace, Kochi; multiple venues",
+      "city": "Kochi",
+      "organizer": "Future HQ @ TinkerSpace, Kochi",
+      "description": "An 18-hour makeathon for TinkerHub Campus Chapter students to build intentionally impractical software, hardware or hybrid technology projects.",
+      "categoryHint": "maker; makeathon; creative technology",
+      "evidenceUrl": "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-09"
   }
 ]

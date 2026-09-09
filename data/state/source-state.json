@@ -229,7 +229,6 @@
     "infopark-36-24888": "2026-08-31",
     "infopark-36-24785": "2026-08-31",
     "infopark-476-22177": "2026-08-31",
-    "tinkerhub-events-q29zgffnx2": "2026-08-31",
     "infopark-148-25227": "2026-08-31",
     "infopark-292-25228": "2026-08-31",
     "infopark-332-25232": "2026-08-31",
@@ -472,10 +471,15 @@
     "infopark-85-20466": "2026-09-09",
     "infopark-105-15177": "2026-09-09",
     "infopark-105-9868": "2026-09-09",
-    "infopark-105-9369": "2026-09-09"
+    "infopark-105-9369": "2026-09-09",
+    "infopark-380-25397": "2026-09-09",
+    "infopark-421-25398": "2026-09-09",
+    "infopark-109-25331": "2026-09-09",
+    "infopark-282-23948": "2026-09-09",
+    "infopark-443-17145": "2026-09-09"
   },
   "lastCounts": {
-    "infopark-jobs": 405,
+    "infopark-jobs": 410,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 0,
     "dodge-workable": 10,
@@ -489,6 +493,6 @@
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 5
+    "tinkerhub-events": 4
   }
 }

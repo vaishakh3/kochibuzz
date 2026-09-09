@@ -236,35 +236,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-q29zgffnx2",
-    "title": "eywkaa - September Apple event watch party",
-    "start": "2026-09-09",
-    "end": "2026-09-10",
-    "startTime": "21:30",
-    "endTime": "01:30",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Join eywkaa for the September Tech Watch Party 2026, celebrating the “Surprise and shine” Apple Event. A live experience for Apple tech lovers to watch announcements, share reactions, discover new technology and connect with fellow enthusiasts.",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/Q29ZGFFNX2/eywkaa-september-apple-event-watch-party",
-    "registerUrl": "https://makemypass.com/event/eywkaa-watch-party-september-2026-1",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/Q29ZGFFNX2/eywkaa-september-apple-event-watch-party",
-      "https://makemypass.com/event/eywkaa-watch-party-september-2026-1"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-08-31"
-  },
-  {
     "id": "codex-community-luma-evt-dfywrd7mxczgid4-events-lu-ma",
     "title": "Astra Commons: Kochi",
     "start": "2026-09-10",
