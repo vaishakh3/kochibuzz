@@ -1,5 +1,18 @@
 [
   {
+    "id": "infopark-296-25400",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-09-09",
+    "deadlineAt": "2026-09-10",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25400",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-09"
+  },
+  {
     "id": "infopark-312-25387",
     "title": "Associate - QA Engineer",
     "company": "2Base Technologies Pvt Ltd",
@@ -78,6 +91,19 @@
     "firstSeenAt": "2026-09-09"
   },
   {
+    "id": "infopark-378-25401",
+    "title": "Salesforce Developer- Marketing Cloud",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-09-09",
+    "deadlineAt": "2026-11-11",
+    "location": "Infopark, Kochi",
+    "category": "devops-cloud",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/25401",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-09"
+  },
+  {
     "id": "infopark-380-25397",
     "title": "Digital Marketing Executive",
     "company": "Infintor Solutions LLP",
@@ -143,6 +169,19 @@
     "firstSeenAt": "2026-09-09"
   },
   {
+    "id": "infopark-530-25399",
+    "title": "Solution Architect",
+    "company": "Nesa Software Pvt Ltd",
+    "postedAt": "2026-09-09",
+    "deadlineAt": "2026-09-29",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/530/25399",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-09"
+  },
+  {
     "id": "infopark-109-25386",
     "title": "Pre-sales Business Analyst (1-4 years exp) - Software/product demonstrations",
     "company": "NewAgeSys Solutions (P) Ltd",
@@ -177,19 +216,6 @@
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/189/25382",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-08"
-  },
-  {
-    "id": "infopark-296-25385",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-09-08",
-    "deadlineAt": "2026-09-09",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25385",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-08"
@@ -3371,7 +3397,7 @@
     "title": "Video Editor Intern",
     "company": "GALTech Technologies Pvt Ltd",
     "postedAt": "2026-06-19",
-    "deadlineAt": "2026-09-19",
+    "deadlineAt": "2026-09-09",
     "location": "Infopark, Kochi",
     "category": "internship",
     "detailUrl": "https://infopark.in/company-jobs/details/189/24214",
