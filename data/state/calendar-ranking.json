@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
   "decisions": {
+    "2026-09-11": {
+      "signature": "9e70103eae35f7c5d2cf48aed53faf11fc4e2f35c29c574f97fe79c07e52ca87",
+      "eventId": "tinkerhub-events-co2iw8gnje",
+      "reason": "A practical Kochi community session on taking a product from development to customers, with a clear takeaway for participants.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-10T11:24:38.830Z"
+    },
     "2026-09-12": {
       "signature": "7c1dced61eb4762278a8709d49e6a7ab03ae9b3b99a838c6e00144962cb37c41",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
@@ -8,17 +15,17 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-07T20:36:49.083Z"
     },
-    "2026-09-11": {
-      "signature": "9e70103eae35f7c5d2cf48aed53faf11fc4e2f35c29c574f97fe79c07e52ca87",
-      "eventId": "tinkerhub-events-co2iw8gnje",
-      "reason": "A practical Kochi community session on taking a product from development to customers, with a clear takeaway for participants.",
+    "2026-10-06": {
+      "signature": "faabf1f52d80c282130883bc963afe88e26a84de163b527b21e5d2137d508504",
+      "eventId": "c0c0n-2026",
+      "reason": "Kochi’s established security conference includes hands-on training, CTFs and bug-hunting activities beginning this day.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-10T11:24:38.830Z"
+      "rankedAt": "2026-09-10T16:27:55.673Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 441,
+    "inputTokens": 481,
     "outputTokens": 65
   }
 }

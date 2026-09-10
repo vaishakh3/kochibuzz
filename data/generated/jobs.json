@@ -1,5 +1,31 @@
 [
   {
+    "id": "infopark-103-25421",
+    "title": "Snowflake Architect",
+    "company": "Experion Technologies",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/103/25421",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-10"
+  },
+  {
+    "id": "infopark-164-25424",
+    "title": "Sales Development Representative",
+    "company": "WORKSENT TECHNOLOGIES PVT LTD",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-09-10",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/164/25424",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-10"
+  },
+  {
     "id": "infopark-189-25415",
     "title": "Telecaller Cum Business Development Executive",
     "company": "GALTech Technologies Pvt Ltd",
@@ -52,6 +78,19 @@
     "firstSeenAt": "2026-09-10"
   },
   {
+    "id": "infopark-259-25422",
+    "title": "Business Analyst/Implementation Engineer-2-3 years (Immediate joiners required)",
+    "company": "Thomsun Infocare LLP",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "product",
+    "detailUrl": "https://infopark.in/company-jobs/details/259/25422",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-10"
+  },
+  {
     "id": "infopark-268-25417",
     "title": "Growth and Sales Intern",
     "company": "Techware Lab Pvt.Ltd",
@@ -60,6 +99,19 @@
     "location": "Infopark, Kochi",
     "category": "internship",
     "detailUrl": "https://infopark.in/company-jobs/details/268/25417",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-10"
+  },
+  {
+    "id": "infopark-296-25423",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-09-11",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25423",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-10"
@@ -245,19 +297,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-10"
-  },
-  {
-    "id": "infopark-296-25400",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-09-09",
-    "deadlineAt": "2026-09-10",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25400",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-09"
   },
   {
     "id": "infopark-378-25401",
@@ -2198,6 +2237,19 @@
     "firstSeenAt": "2026-09-10"
   },
   {
+    "id": "infopark-259-25077",
+    "title": "SEO Analyst-2-4 years-Immediate joiner required",
+    "company": "Thomsun Infocare LLP",
+    "postedAt": "2026-08-14",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/259/25077",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-10"
+  },
+  {
     "id": "infopark-62-25079",
     "title": "Internal System Administrator",
     "company": "VIPoint Solutions Pvt Ltd",
@@ -2796,10 +2848,10 @@
   },
   {
     "id": "infopark-259-24844",
-    "title": "Angular + .Net Core (Full Stack)",
+    "title": "Full Stack Developer-Dot Net Core +Angular-2-6 years",
     "company": "Thomsun Infocare LLP",
     "postedAt": "2026-07-27",
-    "deadlineAt": "2026-09-15",
+    "deadlineAt": "2026-10-31",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/259/24844",
@@ -4753,7 +4805,7 @@
     "title": "Technical Support Executive/Help desk",
     "company": "WORKSENT TECHNOLOGIES PVT LTD",
     "postedAt": "2026-01-15",
-    "deadlineAt": "2026-09-14",
+    "deadlineAt": "2026-09-11",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/164/21635",
