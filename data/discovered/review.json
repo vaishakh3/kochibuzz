@@ -546,18 +546,18 @@
       "end": "2026-09-19",
       "startTime": null,
       "endTime": null,
-      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi, Kakkanad",
-      "city": "Kochi",
+      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "IIMK LIVE",
-      "description": "Two-day deep-tech startup summit featuring startup, innovation, investment and India DeepTech Awards programming.",
-      "categoryHint": "startup; deep tech; technology summit",
+      "description": "Two-day deep-tech startup summit.",
+      "categoryHint": "startup/deep tech",
       "evidenceUrl": "https://pivot26.suit.iimklive.org/agenda",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-09"
+    "discoveredAt": "2026-09-10"
   },
   {
     "candidate": {
@@ -578,5 +578,65 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-09"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi",
+      "organizer": "c0c0n",
+      "description": "Cybersecurity conference announced in a LinkedIn post from the organizer. The post states the conference dates as 9–10 October 2026 and the venue as Grand Hyatt, Kochi.",
+      "categoryHint": "cybersecurity / technology conference",
+      "evidenceUrl": "https://www.linkedin.com/posts/c0c0nconference_cfp-callforpapers-cybersecurity-activity-7457013686541668352-4BPM",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-10"
+  },
+  {
+    "candidate": {
+      "title": "Energy Conclave 2026",
+      "start": "2026-09-11",
+      "end": "2026-09-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Jawaharlal Nehru Stadium",
+      "city": "Kochi, Kerala",
+      "organizer": "CORE Kerala",
+      "description": "Renewable-energy sector event involving technology providers, investors, policymakers and a startup pitch competition.",
+      "categoryHint": "technology/startup/energy",
+      "evidenceUrl": "https://corekerala.com/energy-conclave/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-10"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026",
+      "start": "2026-10-06",
+      "end": "2026-10-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Bolgatty",
+      "city": "Kochi, Kerala",
+      "organizer": "c0c0n",
+      "description": "Technology and cybersecurity event listed for Kochi.",
+      "categoryHint": "technology/cybersecurity",
+      "evidenceUrl": "https://c0c0n.org/2026",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-10"
   }
 ]

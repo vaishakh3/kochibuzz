@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-09T11:28:29.972Z",
-  "queryCursor": 4,
+  "lastRunAt": "2026-09-10T01:07:04.944Z",
+  "queryCursor": 6,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-09",
@@ -39,13 +39,16 @@
     "https://hack-with-gdg-s4.vercel.app/": "2026-09-08",
     "https://in.linkedin.com/company/null-kochi": "2026-09-08",
     "https://icdse.cusat.ac.in/": "2026-09-09",
-    "https://pivot26.suit.iimklive.org/agenda": "2026-09-09",
-    "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-09"
+    "https://pivot26.suit.iimklive.org/agenda": "2026-09-10",
+    "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-09",
+    "https://linkedin.com/posts/c0c0nconference_cfp-callforpapers-cybersecurity-activity-7457013686541668352-4BPM": "2026-09-10",
+    "https://corekerala.com/energy-conclave": "2026-09-10",
+    "https://c0c0n.org/2026": "2026-09-10"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28437,
-    "outputTokens": 715
+    "inputTokens": 28506,
+    "outputTokens": 752
   }
 }
