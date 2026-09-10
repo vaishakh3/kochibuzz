@@ -258,31 +258,58 @@
     "firstSeenAt": "2026-09-05"
   },
   {
-    "id": "tinkerhub-events-hg8rpi5k0d",
-    "title": "Maker thursday",
-    "start": "2026-09-10",
-    "end": "2026-09-10",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "startup",
+    "id": "tinkerhub-events-co2iw8gnje",
+    "title": "Nights and Weekends week 1 catchup",
+    "start": "2026-09-11",
+    "end": "2026-09-11",
+    "startTime": "18:00",
+    "endTime": "23:00",
+    "category": "webdev",
     "venue": "TinkerSpace, Kalamassery",
     "city": "Kochi",
     "organizer": "TinkerHub Foundation",
-    "blurb": "Blackbox Telematics Ever wonder how vehicle tracking works? This session explores how telematics devices collect and send data; Location, speed, acceleration and more- and preserves data as evidence for incidents.",
+    "blurb": "We’re starting with the Product → Customer Journey understanding what happens between building something and getting it in front of the right people. We’ll work through it together, and you’ll leave with a clear first step to take before our next session.",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/CO2IW8GNJE/nights-and-weekends-week-1-catchup",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/CO2IW8GNJE/nights-and-weekends-week-1-catchup"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-10"
+  },
+  {
+    "id": "tinkerhub-events-zhbj8utnzo",
+    "title": "Builder in Residency week 9 - Sprint",
+    "start": "2026-09-11",
+    "end": "2026-09-12",
+    "startTime": "17:00",
+    "endTime": "22:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Sprint for builder in residency week 9",
     "tags": [
       "TinkerHub",
       "Bootcamp",
       "Community Building"
     ],
-    "url": "https://tinkerhub.org/events/HG8RPI5K0D/maker-thursday",
+    "url": "https://tinkerhub.org/events/ZHBJ8UTNZO/builder-in-residency-week-9-sprint",
     "sourceUrls": [
       "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/HG8RPI5K0D/maker-thursday"
+      "https://tinkerhub.org/events/ZHBJ8UTNZO/builder-in-residency-week-9-sprint"
     ],
     "sourceIds": [
       "tinkerhub-events"
     ],
-    "firstSeenAt": "2026-09-08"
+    "firstSeenAt": "2026-09-10"
   },
   {
     "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",

@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-10": {
-      "signature": "768c6cd8949066d469e7f40d451c333032abde3f45ca112e7839a7d2cb02f53c",
-      "eventId": "tinkerhub-events-hg8rpi5k0d",
-      "reason": "A Kochi-based community session offering a substantive introduction to vehicle telematics and data systems.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-08T14:35:31.444Z"
-    },
     "2026-09-12": {
       "signature": "7c1dced61eb4762278a8709d49e6a7ab03ae9b3b99a838c6e00144962cb37c41",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
       "reason": "A full-day Kochi programme offers broad, structured coverage of AI foundations and WebMCP for the public.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-07T20:36:49.083Z"
+    },
+    "2026-09-11": {
+      "signature": "9e70103eae35f7c5d2cf48aed53faf11fc4e2f35c29c574f97fe79c07e52ca87",
+      "eventId": "tinkerhub-events-co2iw8gnje",
+      "reason": "A practical Kochi community session on taking a product from development to customers, with a clear takeaway for participants.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-10T11:24:38.830Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 462,
-    "outputTokens": 64
+    "inputTokens": 441,
+    "outputTokens": 65
   }
 }
