@@ -238,28 +238,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "codex-community-luma-evt-dfywrd7mxczgid4-events-lu-ma",
-      "title": "Astra Commons: Kochi",
-      "start": "2026-09-10",
-      "end": "2026-09-10",
-      "startTime": "18:30",
-      "endTime": "23:00",
-      "category": "webdev",
-      "venue": "Summer Town Cafe - Kakkanad",
-      "city": "Unknown",
-      "organizer": "Vaishakh Suresh",
-      "blurb": "Get up-to-date information at: https://luma.com/at5xkowe Address: Summer Town Cafe - Kakkanad Kakkanad, India Hosted by Vaishakh Suresh, Rhiannon Payne & Robin Francis",
-      "tags": [],
-      "url": "https://luma.com/at5xkowe",
-      "sourceUrls": [
-        "https://luma.com/at5xkowe"
-      ],
-      "sourceIds": [
-        "codex-community-luma"
-      ],
-      "firstSeenAt": "2026-09-05"
-    },
-    {
       "id": "tinkerhub-events-co2iw8gnje",
       "title": "Nights and Weekends week 1 catchup",
       "start": "2026-09-11",
