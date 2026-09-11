@@ -371,6 +371,28 @@
       "firstSeenAt": "2026-09-06"
     },
     {
+      "id": "web-dev-days-kochi-india-ae83e6b07e",
+      "title": "Dev Days | Kochi, India",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "startTime": "16:00",
+      "endTime": "19:00",
+      "category": "security",
+      "venue": "TinkerSpace",
+      "city": "Kochi",
+      "organizer": "Dev Days, Bodhish Thomas, Abhimanyu Rajeesh, Rithvik Nishad, Nandkishor R, Vysakh Premkumar",
+      "blurb": "Dev Days | Kochi, India Join Kochi’s developer and open-source community for a practical, hands-on session on agent-driven software development with the GitHub Copilot app.",
+      "tags": [],
+      "url": "https://luma.com/dyc9zw9l",
+      "sourceUrls": [
+        "https://luma.com/dyc9zw9l"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-11"
+    },
+    {
       "id": "tinkerhub-events-obn0l1e2y2",
       "title": "NULL X SPARC COMMUNITY COLLAB WORKSHOP",
       "start": "2026-09-13",
@@ -548,26 +570,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
-      "title": "Hac'KP 2026 Boot Camp",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
-      "category": "hackathon",
-      "venue": "Kochi",
-      "city": "Kochi",
-      "organizer": "Kerala Police / Hac'KP 2026",
-      "blurb": "On-site hackathon boot camp focused on final solution integration, intensive mentoring, expert evaluations, and product showcase. The official schedule states that it is part of Hac'KP 2026 and takes place in Kochi from 6–8 October 2026.",
-      "tags": [],
-      "url": "https://hackp.kerala.gov.in/schedule",
-      "sourceUrls": [
-        "https://hackp.kerala.gov.in/schedule"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-10"
     },
     {
       "id": "huddle-global-2026",

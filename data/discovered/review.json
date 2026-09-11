@@ -27,17 +27,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
-      "city": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "A two-day deep-tech startup summit focused on founders, mentors, investors and moving from prototype to company.",
-      "categoryHint": "startup / deep tech / founder",
+      "description": "Deep-tech startup summit bringing together founders, mentors, and investors around prototypes, validation, funding, and company building.",
+      "categoryHint": "startup / deep tech",
       "evidenceUrl": "https://pivot26.suit.iimklive.org/",
-      "registrationUrl": "https://pivot26.suit.iimklive.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-02"
+    "discoveredAt": "2026-09-11"
   },
   {
     "candidate": {
@@ -66,18 +66,18 @@
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "On-site venue in Kochi",
+      "venue": "On-site venue in Kochi; exact venue not stated on the cited page",
       "city": "Kochi, Kerala",
       "organizer": "Kerala Police / HAC'KP 2026",
-      "description": "On-site hackathon boot camp focused on final solution integration, intensive mentoring, expert evaluation and product showcase. The official schedule states that participant registration was conducted earlier, so this is not presented as an open registration event.",
-      "categoryHint": "hackathon",
+      "description": "On-site boot camp for shortlisted hackathon participants, focused on solution integration, mentoring, evaluation and product showcase.",
+      "categoryHint": "hackathon boot camp",
       "evidenceUrl": "https://hackp.kerala.gov.in/schedule",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.84
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-09"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-11"
   },
   {
     "candidate": {
@@ -306,18 +306,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": null,
-      "venue": "Jain University, Kakkanad",
-      "city": "Kochi, Kerala",
+      "venue": "Kakkanad",
+      "city": "Kochi",
       "organizer": "CNCG Kochi Team",
-      "description": "In-person cloud-native community meetup focused on Kubernetes, serverless and open-source technologies.",
-      "categoryHint": "CNCF / cloud-native / developer",
+      "description": "In-person cloud-native and open-source community meetup focused on Kubernetes, serverless, and CNCF projects.",
+      "categoryHint": "open source / cloud technology",
       "evidenceUrl": "https://kochi.cncg.in/",
       "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "sourceKind": "organizer_page",
+      "confidence": 0.97
     },
     "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-07"
+    "discoveredAt": "2026-09-11"
   },
   {
     "candidate": {
@@ -638,5 +638,45 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-10"
+  },
+  {
+    "candidate": {
+      "title": "PIVOT 2026 — IIMK LIVE Deep Tech Summit",
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "IIMK LIVE",
+      "description": "Two-day deep-tech startup summit for founders, mentors and investors, covering AI, hardware, climate, bio, space and robotics.",
+      "categoryHint": "startup/deep tech conference",
+      "evidenceUrl": "https://pivot26.suit.iimklive.org/about",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-11"
+  },
+  {
+    "candidate": {
+      "title": "Gartner IT Symposium/Xpo 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi, Kerala",
+      "organizer": "Gartner",
+      "description": "IT leadership symposium for executives and industry leaders.",
+      "categoryHint": "IT conference",
+      "evidenceUrl": "https://10times.com/kochi-in/conferences",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.69
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-11"
   }
 ]

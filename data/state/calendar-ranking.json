@@ -9,23 +9,16 @@
       "rankedAt": "2026-09-10T11:24:38.830Z"
     },
     "2026-09-12": {
-      "signature": "7c1dced61eb4762278a8709d49e6a7ab03ae9b3b99a838c6e00144962cb37c41",
+      "signature": "7bb2c63a1ea99b3aea2d1f1a68c43f52216c2ec5c35d49ee47e70dbf338afbf9",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-code-for-communities-attention-is-all-you-web",
-      "reason": "A full-day Kochi programme offers broad, structured coverage of AI foundations and WebMCP for the public.",
+      "reason": "A full-day Kochi program offering a structured introduction to AI foundations and WebMCP for a broad technology audience.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-07T20:36:49.083Z"
-    },
-    "2026-10-06": {
-      "signature": "faabf1f52d80c282130883bc963afe88e26a84de163b527b21e5d2137d508504",
-      "eventId": "c0c0n-2026",
-      "reason": "Kochi’s established security conference includes hands-on training, CTFs and bug-hunting activities beginning this day.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-10T16:27:55.673Z"
+      "rankedAt": "2026-09-11T06:03:47.828Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 481,
-    "outputTokens": 65
+    "inputTokens": 751,
+    "outputTokens": 82
   }
 }
