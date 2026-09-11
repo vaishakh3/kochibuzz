@@ -269,7 +269,7 @@
       "venue": "Lulu Twin Towers, Kakkanad",
       "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "A two-day deep-tech startup summit for startups, founders, investors, innovators and industry leaders, with pitching, networking, learning and collaboration.",
+      "description": "Deep-tech startup summit involving startups, founders, investors, innovators and industry leaders.",
       "categoryHint": "startup/deep tech",
       "evidenceUrl": "https://www.linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD",
       "registrationUrl": null,
@@ -277,7 +277,7 @@
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-05"
+    "discoveredAt": "2026-09-12"
   },
   {
     "candidate": {
@@ -301,23 +301,23 @@
   },
   {
     "candidate": {
-      "title": "CNCG Kochi September Offline Meetup",
+      "title": "Regional CNCG Kochi September Offline Meetup",
       "start": "2026-09-12",
       "end": null,
       "startTime": "09:30",
-      "endTime": null,
-      "venue": "Kakkanad",
-      "city": "Kochi",
-      "organizer": "CNCG Kochi Team",
-      "description": "In-person cloud-native and open-source community meetup focused on Kubernetes, serverless, and CNCF projects.",
-      "categoryHint": "open source / cloud technology",
+      "endTime": "13:00",
+      "venue": "Jain University, Knowledge Park, Kakkanad",
+      "city": "Kochi, Kerala",
+      "organizer": "CNCG Kochi / Cloud Native Kochi",
+      "description": "In-person cloud-native community meetup covering cloud-native technology, Kubernetes, platform engineering, AI infrastructure, DevOps, SRE, and open source.",
+      "categoryHint": "CNCF / cloud native / developer",
       "evidenceUrl": "https://kochi.cncg.in/",
-      "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.97
+      "registrationUrl": "https://ocgroups.dev/cncf/group/kochi",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
     },
     "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-11"
+    "discoveredAt": "2026-09-12"
   },
   {
     "candidate": {
@@ -378,26 +378,6 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-06"
-  },
-  {
-    "candidate": {
-      "title": "Hack Your Future — Season II: Inter-School Coding Hackathon",
-      "start": "2026-09-10",
-      "end": "2026-09-11",
-      "startTime": "08:30",
-      "endTime": "16:00",
-      "venue": "Sanskara School, Infopark Phase II, Kakkanad",
-      "city": "Kochi",
-      "organizer": "Sanskara School",
-      "description": "Two-day AI bootcamp and coding hackathon for students in Grades 9–12, covering AI tools, machine learning, generative AI and prompt engineering.",
-      "categoryHint": "technology; AI; hackathon",
-      "evidenceUrl": "https://sanskaraschool.com/hackathon/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-09"
   },
   {
     "candidate": {
@@ -562,22 +542,22 @@
   {
     "candidate": {
       "title": "Useless Projects",
-      "start": "2026-10-25",
-      "end": "2026-11-04",
-      "startTime": "04:30",
-      "endTime": "06:30",
-      "venue": "Future HQ @ TinkerSpace, Kochi; multiple venues",
+      "start": "2026-11-04",
+      "end": null,
+      "startTime": "06:30",
+      "endTime": null,
+      "venue": "Future HQ @ TinkerSpace",
       "city": "Kochi",
-      "organizer": "Future HQ @ TinkerSpace, Kochi",
-      "description": "An 18-hour makeathon for TinkerHub Campus Chapter students to build intentionally impractical software, hardware or hybrid technology projects.",
-      "categoryHint": "maker; makeathon; creative technology",
+      "organizer": "TinkerHub",
+      "description": "An 18-hour overnight event challenging TinkerHub Campus Chapter students to create impractical technology solutions.",
+      "categoryHint": "maker / creative-tech",
       "evidenceUrl": "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-09"
+    "discoveredAt": "2026-09-12"
   },
   {
     "candidate": {
@@ -678,5 +658,45 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-11"
+  },
+  {
+    "candidate": {
+      "title": "Dev Days | Kochi, India",
+      "start": "2026-09-12",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": null,
+      "venue": "TinkerSpace Kochi, CUSAT P.O., Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "Dev Days; hosted by Bodhish Thomas, Abhimanyu Rajeesh, Rithvik Nishad, Nandkishor R, and Vysakh Premkumar",
+      "description": "Practical, hands-on developer session on agent-driven software development with the GitHub Copilot app. The event is open to developers of all experience levels.",
+      "categoryHint": "developer / open source",
+      "evidenceUrl": "https://luma.com/dyc9zw9l",
+      "registrationUrl": "https://luma.com/dyc9zw9l",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-12"
+  },
+  {
+    "candidate": {
+      "title": "Nights and Weekends",
+      "start": "2026-09-06",
+      "end": "2026-10-11",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kalamassery, Kochi",
+      "organizer": "TinkerHub Foundation",
+      "description": "A free five-week offline experimentation studio for people who have already built something and want to validate it with customers. The event page describes it as a public learning program at TinkerSpace, Kochi.",
+      "categoryHint": "startup / maker",
+      "evidenceUrl": "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-09-12"
   }
 ]

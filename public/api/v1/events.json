@@ -238,33 +238,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-co2iw8gnje",
-      "title": "Nights and Weekends week 1 catchup",
-      "start": "2026-09-11",
-      "end": "2026-09-11",
-      "startTime": "18:00",
-      "endTime": "23:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "We’re starting with the Product → Customer Journey understanding what happens between building something and getting it in front of the right people. We’ll work through it together, and you’ll leave with a clear first step to take before our next session.",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/CO2IW8GNJE/nights-and-weekends-week-1-catchup",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/CO2IW8GNJE/nights-and-weekends-week-1-catchup"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-10"
-    },
-    {
       "id": "tinkerhub-events-zhbj8utnzo",
       "title": "Builder in Residency week 9 - Sprint",
       "start": "2026-09-11",
@@ -369,28 +342,6 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-09-06"
-    },
-    {
-      "id": "web-dev-days-kochi-india-ae83e6b07e",
-      "title": "Dev Days | Kochi, India",
-      "start": "2026-09-12",
-      "end": "2026-09-12",
-      "startTime": "16:00",
-      "endTime": "19:00",
-      "category": "security",
-      "venue": "TinkerSpace",
-      "city": "Kochi",
-      "organizer": "Dev Days, Bodhish Thomas, Abhimanyu Rajeesh, Rithvik Nishad, Nandkishor R, Vysakh Premkumar",
-      "blurb": "Dev Days | Kochi, India Join Kochi’s developer and open-source community for a practical, hands-on session on agent-driven software development with the GitHub Copilot app.",
-      "tags": [],
-      "url": "https://luma.com/dyc9zw9l",
-      "sourceUrls": [
-        "https://luma.com/dyc9zw9l"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-11"
     },
     {
       "id": "tinkerhub-events-obn0l1e2y2",

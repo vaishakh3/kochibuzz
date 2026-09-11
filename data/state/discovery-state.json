@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-11T06:03:36.363Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-11T19:45:46.162Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-11",
@@ -20,12 +20,12 @@
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-07",
     "https://tinkerhub.org/events": "2026-09-09",
-    "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-09-05",
+    "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-09-12",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web": "2026-09-03",
     "https://f9infotech.com/kcss-2026": "2026-09-03",
     "https://luma.com/j33aa5ss": "2026-09-04",
     "https://corekerala.com/": "2026-09-04",
-    "https://kochi.cncg.in/": "2026-09-11",
+    "https://kochi.cncg.in/": "2026-09-12",
     "https://c0c0n.org/register": "2026-09-06",
     "https://linkedin.com/showcase/information-security-research-association-isra-kerala-chapter": "2026-09-06",
     "https://shebuildstech.startupmission.in/": "2026-09-06",
@@ -40,19 +40,20 @@
     "https://in.linkedin.com/company/null-kochi": "2026-09-08",
     "https://icdse.cusat.ac.in/": "2026-09-09",
     "https://pivot26.suit.iimklive.org/agenda": "2026-09-10",
-    "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-09",
+    "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-12",
     "https://linkedin.com/posts/c0c0nconference_cfp-callforpapers-cybersecurity-activity-7457013686541668352-4BPM": "2026-09-10",
     "https://corekerala.com/energy-conclave": "2026-09-10",
     "https://c0c0n.org/2026": "2026-09-10",
     "https://pivot26.suit.iimklive.org/about": "2026-09-11",
-    "https://luma.com/dyc9zw9l": "2026-09-11",
+    "https://luma.com/dyc9zw9l": "2026-09-12",
     "https://10times.com/kochi-in/conferences": "2026-09-11",
-    "https://yikochi.in/": "2026-09-11"
+    "https://yikochi.in/": "2026-09-11",
+    "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends": "2026-09-12"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 4,
-    "inputTokens": 28347,
-    "outputTokens": 1488
+    "searchCalls": 5,
+    "inputTokens": 42054,
+    "outputTokens": 1145
   }
 }
