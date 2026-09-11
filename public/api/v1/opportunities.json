@@ -27,31 +27,6 @@
       "firstSeenAt": "2026-08-23"
     },
     {
-      "id": "ksum-tenders-ksum-rfp-ema-hg-2026-27-01",
-      "title": "RFP for Selection of Event Management Company for the conduct of Huddle Global 2026",
-      "type": "other",
-      "organization": "Kerala Startup Mission",
-      "summary": "RFP for Selection of Event Management Company for the conduct of Huddle Global 2026",
-      "deadlineAt": "2026-09-11",
-      "locationScope": "kerala",
-      "benefit": "eTender",
-      "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf",
-      "url": "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf",
-      "sourceUrls": [
-        "https://startupmission.kerala.gov.in/api/public/tenders",
-        "https://startupmission.kerala.gov.in/storage/tenders/01KZZQ7Z7ZN6396T6CTKZC04SN.pdf"
-      ],
-      "sourceIds": [
-        "ksum-tenders"
-      ],
-      "tags": [
-        "KSUM",
-        "RFP",
-        "tender"
-      ],
-      "firstSeenAt": "2026-08-23"
-    },
-    {
       "id": "ksum-tenders-ksum-fablab-ssk-ppec-26-27-01",
       "title": "Supply of Electronics Components",
       "type": "other",
