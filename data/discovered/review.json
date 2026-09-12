@@ -86,18 +86,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not publicly specified; Kochi, Kerala, India",
+      "venue": "Venue to be announced, Kochi, Kerala, India",
       "city": "Kochi",
       "organizer": "IEEE Entrepreneurship",
-      "description": "A two-day in-person entrepreneurship workshop for technology start-ups, covering ownership, funding, partnerships, organizational growth, mentoring and pitching.",
-      "categoryHint": "startup / entrepreneurship",
+      "description": "An in-person entrepreneurship workshop covering ownership, funding, partnerships and organizational growth, with mentoring and pitching. Public applications are available until October 16, 2026; accepted participants are notified by October 23, 2026.",
+      "categoryHint": "startup workshop",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-05"
+    "discoveredAt": "2026-09-12"
   },
   {
     "candidate": {
@@ -697,6 +697,46 @@
       "confidence": 0.99
     },
     "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-09-12"
+  },
+  {
+    "candidate": {
+      "title": "AI × Decentralized Trust: Kickoff of the LFDT AI Working Group",
+      "start": "2026-10-06",
+      "end": null,
+      "startTime": "21:30",
+      "endTime": null,
+      "venue": "Online / Kochi community listing; physical venue not stated",
+      "city": "Kochi",
+      "organizer": "LFDT Kochi",
+      "description": "Community technology event focused on AI and decentralized trust.",
+      "categoryHint": "technology / AI / blockchain",
+      "evidenceUrl": "https://www.meetup.com/lfdt-kochi/events/316485443/",
+      "registrationUrl": "https://www.meetup.com/lfdt-kochi/events/316485443/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.74
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-12"
+  },
+  {
+    "candidate": {
+      "title": "HAC'KP 2026 Prize Ceremony at c0c0n Conference",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Kochi",
+      "city": "Kochi",
+      "organizer": "Kerala Police / HAC'KP 2026",
+      "description": "Prize distribution ceremony for HAC'KP 2026 teams, held during c0c0n Conference.",
+      "categoryHint": "hackathon / cybersecurity / technology",
+      "evidenceUrl": "https://dev.hackp.kerala.gov.in/finale/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.97
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-12"
   }
 ]

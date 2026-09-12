@@ -286,33 +286,6 @@
     "firstSeenAt": "2026-09-03"
   },
   {
-    "id": "tinkerhub-events-c47j1oxhg1",
-    "title": "Introduction to hardware",
-    "start": "2026-09-12",
-    "end": "2026-09-12",
-    "startTime": "10:00",
-    "endTime": "13:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "A fun, interactive journey into the world of hardware- exploring how the tiny building blocks of matter ultimately come together to power the electronic devices we use every day, ending with a simple hands-on project.",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/C47J1OXHG1/introduction-to-hardware",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/C47J1OXHG1/introduction-to-hardware"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-06"
-  },
-  {
     "id": "tinkerhub-events-fguidiw1eg",
     "title": "Github Devdays Kochi",
     "start": "2026-09-12",
@@ -519,6 +492,27 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
+    "title": "Hac’KP 2026 Boot Camp",
+    "start": "2026-10-06",
+    "end": "2026-10-08",
+    "category": "hackathon",
+    "venue": "On-site Kochi venue; exact venue not stated on the schedule page",
+    "city": "Kochi",
+    "organizer": "Kerala Police Cyberdome",
+    "blurb": "A hackathon boot camp for shortlisted participants, focused on solution integration, mentoring, evaluation and product showcase.",
+    "tags": [],
+    "url": "https://hackp.kerala.gov.in/schedule",
+    "registerUrl": "https://hackp.kerala.gov.in/",
+    "sourceUrls": [
+      "https://hackp.kerala.gov.in/schedule"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-12"
   },
   {
     "id": "huddle-global-2026",

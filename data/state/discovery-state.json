@@ -1,16 +1,16 @@
 {
-  "lastRunAt": "2026-09-11T19:45:46.162Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-09-12T10:52:07.726Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-11",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-12",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
     "https://pivot26.suit.iimklive.org/": "2026-09-11",
     "https://echai.ventures/kochi": "2026-09-02",
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
-    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-05",
+    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-12",
     "https://stnsa.org/conclave": "2026-09-06",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-08",
     "https://corekerala.com/expo-details": "2026-09-02",
@@ -48,12 +48,14 @@
     "https://luma.com/dyc9zw9l": "2026-09-12",
     "https://10times.com/kochi-in/conferences": "2026-09-11",
     "https://yikochi.in/": "2026-09-11",
-    "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends": "2026-09-12"
+    "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends": "2026-09-12",
+    "https://meetup.com/lfdt-kochi/events/316485443": "2026-09-12",
+    "https://dev.hackp.kerala.gov.in/finale": "2026-09-12"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 5,
-    "inputTokens": 42054,
-    "outputTokens": 1145
+    "searchCalls": 4,
+    "inputTokens": 28584,
+    "outputTokens": 1005
   }
 }
