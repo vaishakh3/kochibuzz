@@ -698,5 +698,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-13"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026 IoT Security Village",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": "11:15",
+      "endTime": "16:30",
+      "venue": "Grand Hyatt Kochi",
+      "city": "Kochi",
+      "organizer": "c0c0n",
+      "description": "Hands-on IoT-security programme for hardware hackers, security researchers and IoT enthusiasts, including wireless, BLE, fault-injection and soldering activities.",
+      "categoryHint": "maker / technology / cybersecurity",
+      "evidenceUrl": "https://www.c0c0n.org/villages",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-13"
   }
 ]

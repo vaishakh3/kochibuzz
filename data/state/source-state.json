@@ -419,7 +419,6 @@
     "infopark-282-23948": "2026-09-09",
     "infopark-443-17145": "2026-09-09",
     "infopark-378-25401": "2026-09-09",
-    "infopark-530-25399": "2026-09-09",
     "infopark-251-25412": "2026-09-10",
     "infopark-352-25411": "2026-09-10",
     "infopark-4-25403": "2026-09-10",
@@ -487,7 +486,10 @@
     "tinkerhub-events-z22iwategn": "2026-09-13",
     "tinkerhub-events-x2pc5me0ll": "2026-09-13",
     "tinkerhub-events-rhlu15s280": "2026-09-13",
-    "tinkerhub-events-t3ze047o2u": "2026-09-13"
+    "tinkerhub-events-t3ze047o2u": "2026-09-13",
+    "tinkerhub-events-153tyx7etn": "2026-09-13",
+    "web-startup-dangal-kochi-246ddd6b69": "2026-09-13",
+    "infopark-530-25445": "2026-09-13"
   },
   "lastCounts": {
     "infopark-jobs": 422,
@@ -504,6 +506,6 @@
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 4,
     "gdg-cochin": 4,
-    "tinkerhub-events": 6
+    "tinkerhub-events": 7
   }
 }

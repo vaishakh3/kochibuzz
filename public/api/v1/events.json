@@ -238,6 +238,33 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "tinkerhub-events-153tyx7etn",
+      "title": "security tuesday",
+      "start": "2026-09-15",
+      "end": "2026-09-15",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "security",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "🕵️ Reading the Signs: Windows Event Logs & Security Monitoring What if your Windows system was quietly telling you that an attack was happening—but you didn’t know where to look? This session dives into Windows Event Logs and how security teams use them to detect suspicious acti",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/153TYX7ETN/security-tuesday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/153TYX7ETN/security-tuesday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
+    },
+    {
       "id": "codex-meetup-kochi-founders",
       "title": "Codex Community Meetup – Founders Edition",
       "start": "2026-09-16",
@@ -552,6 +579,26 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "web-startup-dangal-kochi-246ddd6b69",
+      "title": "Startup Dangal — Kochi",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "category": "startup",
+      "venue": "Venue not specified on the official event page",
+      "city": "Kochi",
+      "organizer": "Startup Dangal",
+      "blurb": "Startup competition and showcase for entrepreneurs, with live pitching to investors, jury members and ecosystem leaders.",
+      "tags": [],
+      "url": "https://startupdangal.com/",
+      "sourceUrls": [
+        "https://startupdangal.com/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-13"
     },
     {
       "id": "huddle-global-2026",

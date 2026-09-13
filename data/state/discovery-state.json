@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-13T01:03:53.561Z",
-  "queryCursor": 1,
+  "lastRunAt": "2026-09-13T16:22:17.470Z",
+  "queryCursor": 3,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-13",
@@ -52,12 +52,14 @@
     "https://meetup.com/lfdt-kochi/events/316485443": "2026-09-12",
     "https://dev.hackp.kerala.gov.in/finale": "2026-09-12",
     "https://linkedin.com/posts/c0c0nconference_c0c0n2026-aisecurity-aisecurityengineering-activity-7489492682285973504-xeGG": "2026-09-13",
-    "https://sites.google.com/startupmission.in/iedc/more/iedc-summit": "2026-09-13"
+    "https://sites.google.com/startupmission.in/iedc/more/iedc-summit": "2026-09-13",
+    "https://startupdangal.com/": "2026-09-13",
+    "https://c0c0n.org/villages": "2026-09-13"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28439,
-    "outputTokens": 858
+    "inputTokens": 28756,
+    "outputTokens": 628
   }
 }
