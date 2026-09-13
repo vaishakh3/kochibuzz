@@ -1,11 +1,11 @@
 {
-  "lastRunAt": "2026-09-12T10:52:07.726Z",
-  "queryCursor": 7,
+  "lastRunAt": "2026-09-13T01:03:53.561Z",
+  "queryCursor": 1,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-12",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-13",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
-    "https://pivot26.suit.iimklive.org/": "2026-09-11",
+    "https://pivot26.suit.iimklive.org/": "2026-09-13",
     "https://echai.ventures/kochi": "2026-09-02",
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
@@ -50,12 +50,14 @@
     "https://yikochi.in/": "2026-09-11",
     "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends": "2026-09-12",
     "https://meetup.com/lfdt-kochi/events/316485443": "2026-09-12",
-    "https://dev.hackp.kerala.gov.in/finale": "2026-09-12"
+    "https://dev.hackp.kerala.gov.in/finale": "2026-09-12",
+    "https://linkedin.com/posts/c0c0nconference_c0c0n2026-aisecurity-aisecurityengineering-activity-7489492682285973504-xeGG": "2026-09-13",
+    "https://sites.google.com/startupmission.in/iedc/more/iedc-summit": "2026-09-13"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28584,
-    "outputTokens": 1005
+    "inputTokens": 28439,
+    "outputTokens": 858
   }
 }

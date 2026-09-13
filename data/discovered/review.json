@@ -29,15 +29,15 @@
       "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
       "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit bringing together founders, mentors, and investors around prototypes, validation, funding, and company building.",
-      "categoryHint": "startup / deep tech",
+      "description": "Deep-tech startup summit for founders, mentors and investors, with investor-readiness sessions, panels and a demo floor.",
+      "categoryHint": "startup / deep tech conference",
       "evidenceUrl": "https://pivot26.suit.iimklive.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://pivot26.suit.iimklive.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-11"
+    "discoveredAt": "2026-09-13"
   },
   {
     "candidate": {
@@ -61,23 +61,23 @@
   },
   {
     "candidate": {
-      "title": "HAC'KP 2026 Boot Camp",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
+      "title": "c0c0n 2026 International Cyber Security Conference",
+      "start": "2026-10-09",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "On-site venue in Kochi; exact venue not stated on the cited page",
-      "city": "Kochi, Kerala",
-      "organizer": "Kerala Police / HAC'KP 2026",
-      "description": "On-site boot camp for shortlisted hackathon participants, focused on solution integration, mentoring, evaluation and product showcase.",
-      "categoryHint": "hackathon boot camp",
-      "evidenceUrl": "https://hackp.kerala.gov.in/schedule",
-      "registrationUrl": null,
+      "venue": "Kochi venue not stated on the available official evidence",
+      "city": "Kochi",
+      "organizer": "Kerala Police / c0c0n Conference",
+      "description": "International cybersecurity conference; the official HAC'KP schedule states that its awards ceremony takes place during the opening ceremony of c0c0n 2026 in Kochi on 9 October 2026.",
+      "categoryHint": "cybersecurity conference",
+      "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
+      "registrationUrl": "https://c0c0n.org/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.84
+      "confidence": 0.8
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-11"
+    "discoveredAt": "2026-09-13"
   },
   {
     "candidate": {
@@ -241,26 +241,6 @@
   },
   {
     "candidate": {
-      "title": "GitHub DevDays Kochi",
-      "start": "2026-09-12",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "TinkerSpace, Kochi, Kerala",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "description": "A GitHub-focused developer event listed by TinkerHub for its Kochi space.",
-      "categoryHint": "open source",
-      "evidenceUrl": "https://tinkerhub.org/events",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.88
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-09"
-  },
-  {
-    "candidate": {
       "title": "PIVOT 2026 – Deep Tech Startup Summit",
       "start": "2026-09-18",
       "end": "2026-09-19",
@@ -277,46 +257,6 @@
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
-      "title": "Attention is All You Web",
-      "start": "2026-09-12",
-      "end": "2026-09-12",
-      "startTime": "10:00",
-      "endTime": "16:30",
-      "venue": "Jain University Kochi, Nirmal Infopark, Infopark P.O., Kakkanad",
-      "city": "Kochi",
-      "organizer": "GDG Cloud Kochi",
-      "description": "Full-day event covering AI foundations, tokenizers, transformer architectures, WebMCP and agentic web patterns.",
-      "categoryHint": "AI; web technology; developer event",
-      "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web/",
-      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-03"
-  },
-  {
-    "candidate": {
-      "title": "Regional CNCG Kochi September Offline Meetup",
-      "start": "2026-09-12",
-      "end": null,
-      "startTime": "09:30",
-      "endTime": "13:00",
-      "venue": "Jain University, Knowledge Park, Kakkanad",
-      "city": "Kochi, Kerala",
-      "organizer": "CNCG Kochi / Cloud Native Kochi",
-      "description": "In-person cloud-native community meetup covering cloud-native technology, Kubernetes, platform engineering, AI infrastructure, DevOps, SRE, and open source.",
-      "categoryHint": "CNCF / cloud native / developer",
-      "evidenceUrl": "https://kochi.cncg.in/",
-      "registrationUrl": "https://ocgroups.dev/cncf/group/kochi",
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "Official page could not be fetched: Error: HTTP 403",
     "discoveredAt": "2026-09-12"
   },
   {
@@ -661,26 +601,6 @@
   },
   {
     "candidate": {
-      "title": "Dev Days | Kochi, India",
-      "start": "2026-09-12",
-      "end": null,
-      "startTime": "09:30",
-      "endTime": null,
-      "venue": "TinkerSpace Kochi, CUSAT P.O., Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "Dev Days; hosted by Bodhish Thomas, Abhimanyu Rajeesh, Rithvik Nishad, Nandkishor R, and Vysakh Premkumar",
-      "description": "Practical, hands-on developer session on agent-driven software development with the GitHub Copilot app. The event is open to developers of all experience levels.",
-      "categoryHint": "developer / open source",
-      "evidenceUrl": "https://luma.com/dyc9zw9l",
-      "registrationUrl": "https://luma.com/dyc9zw9l",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
       "title": "Nights and Weekends",
       "start": "2026-09-06",
       "end": "2026-10-11",
@@ -738,5 +658,45 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-12"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026 Pre-Conference Training: AI Security Engineering Masterclass",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi",
+      "city": "Kochi",
+      "organizer": "c0c0n",
+      "description": "Pre-conference training focused on AI security engineering, GenAI application vulnerabilities, prompt injection and practical defensive techniques.",
+      "categoryHint": "AI, cybersecurity, security engineering",
+      "evidenceUrl": "https://www.linkedin.com/posts/c0c0nconference_c0c0n2026-aisecurity-aisecurityengineering-activity-7489492682285973504-xeGG",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.94
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-13"
+  },
+  {
+    "candidate": {
+      "title": "IEDC Summit 2026",
+      "start": "2026-09-28",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi-area venue not stated on the available official evidence",
+      "city": "Kochi area",
+      "organizer": "Kerala Startup Mission",
+      "description": "Technology and student-entrepreneurship summit. The available event listing identifies 28 September 2026 but does not provide a specific venue.",
+      "categoryHint": "startup / technology summit",
+      "evidenceUrl": "https://sites.google.com/startupmission.in/iedc/more/iedc-summit",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-13"
   }
 ]
