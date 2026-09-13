@@ -238,35 +238,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-obn0l1e2y2",
-      "title": "NULL X SPARC COMMUNITY COLLAB WORKSHOP",
-      "start": "2026-09-13",
-      "end": "2026-09-13",
-      "startTime": "09:30",
-      "endTime": "13:30",
-      "category": "security",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Get ready for an action-packed, hands-on cybersecurity meetup brought to you by NULL and SPARC Cyber Security Community, powered by Zolnix Security and hosted at TinkerSpace Kochi. Whether you're looking to break down binaries, test wireless networks, or explore the physical side",
-      "tags": [
-        "TinkerHub",
-        "Bootcamp",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/OBN0L1E2Y2/null-x-sparc-community-collab-workshop",
-      "registerUrl": "https://luma.com/9jjcvzys",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/OBN0L1E2Y2/null-x-sparc-community-collab-workshop",
-        "https://luma.com/9jjcvzys"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-06"
-    },
-    {
       "id": "codex-meetup-kochi-founders",
       "title": "Codex Community Meetup – Founders Edition",
       "start": "2026-09-16",
@@ -294,6 +265,60 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "tinkerhub-events-0bzo8leu01",
+      "title": "AI Wednesday",
+      "start": "2026-09-16",
+      "end": "2026-09-16",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "From Chatbots to Digital Coworkers, How AI Agents Think, Use Tools, and Act in the Real World",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/0BZO8LEU01/ai-wednesday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/0BZO8LEU01/ai-wednesday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
+    },
+    {
+      "id": "tinkerhub-events-748rmvtraq",
+      "title": "Maker Thursday",
+      "start": "2026-09-17",
+      "end": "2026-09-17",
+      "startTime": "19:00",
+      "endTime": "20:30",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "A session to inculcate the spirit of building projects with real life purposes, where I would be talking about my journey as a beginner with no prior background in coding, to making a few projects of my own that can be implemented in real-life for daily purposes like the ones I'v",
+      "tags": [
+        "TinkerHub",
+        "Workshop",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/748RMVTRAQ/maker-thursday",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/748RMVTRAQ/maker-thursday"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
+    },
+    {
       "id": "pivot-2026",
       "title": "PIVOT 2026 — Deep Tech Startup Summit",
       "start": "2026-09-18",
@@ -314,6 +339,35 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "tinkerhub-events-z22iwategn",
+      "title": "AIBoomi Demo Room",
+      "start": "2026-09-18",
+      "end": "2026-09-18",
+      "startTime": "16:00",
+      "endTime": "20:00",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Demo Room is a curated space for AI-native founders to demo their product live, in front of a small room of serious builders. ​This is not a pitch competition. This is not a networking mixer. This is a room for peer-peer learning. ​What Makes Demo Room Different ​Demo Room is a c",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/Z22IWATEGN/aiboomi-demo-room",
+      "registerUrl": "https://luma.com/DemoRoomKochi",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/Z22IWATEGN/aiboomi-demo-room",
+        "https://luma.com/DemoRoomKochi"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
     },
     {
       "id": "codex-community-hackathon-calicut",
@@ -343,6 +397,89 @@
         "luma-kochi"
       ],
       "firstSeenAt": "2026-08-25"
+    },
+    {
+      "id": "tinkerhub-events-x2pc5me0ll",
+      "title": "Gen ai unlocked",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "startTime": "09:00",
+      "endTime": "15:30",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Gen AI Unlocked is a beginner-friendly, hands-on learning program designed to help students explore the world of Generative AI. Across four sessions led by experienced mentors, participants will discover different areas of Gen AI, experiment with tools and ideas, and work on prac",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/X2PC5ME0LL/gen-ai-unlocked",
+      "registerUrl": "https://fossclubceknpy-sandy.vercel.app/",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/X2PC5ME0LL/gen-ai-unlocked",
+        "https://fossclubceknpy-sandy.vercel.app/"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
+    },
+    {
+      "id": "tinkerhub-events-rhlu15s280",
+      "title": "Quantum computing computing 101",
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "startTime": "10:00",
+      "endTime": "12:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "A friendly and interactive learning program where a facilitator introduces the fundamentals of quantum computing. Participants can learn, discuss, and explore the fascinating world of quantum computing together.",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/RHLU15S280/quantum-computing-computing-101",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/RHLU15S280/quantum-computing-computing-101"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
+    },
+    {
+      "id": "tinkerhub-events-t3ze047o2u",
+      "title": "Builder in Residency Demo Day",
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "startTime": "14:00",
+      "endTime": "17:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Builder in Residence: Demo Day For weeks now, a room full of makers at TinkerSpace has been heads-down building hardware from scratch. Ideas turned into circuits, circuits into prototypes, and prototypes into things that actually work. Now they're ready to show you. Come see what",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/T3ZE047O2U/builder-in-residency-demo-day",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/T3ZE047O2U/builder-in-residency-demo-day"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-09-13"
     },
     {
       "id": "indiafoss-2026",

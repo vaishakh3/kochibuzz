@@ -1,9 +1,38 @@
 {
   "schemaVersion": 1,
-  "decisions": {},
+  "decisions": {
+    "2026-09-16": {
+      "signature": "d1d4538ead45ceb26d3d87182069d9b47856200f12746b2fff7802fbe9ae3f69",
+      "eventId": "codex-meetup-kochi-founders",
+      "reason": "Founder-focused AI coding demonstrations and community participation offer broad value for Kochi’s startup and developer audiences.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-13T11:59:35.915Z"
+    },
+    "2026-09-18": {
+      "signature": "b72a02c68ab0600937379022cd6a728c001dbe7db6f041016959f46ea936b7c7",
+      "eventId": "pivot-2026",
+      "reason": "This confirmed two-day summit brings together deep-tech founders, mentors and investors around moving prototypes toward companies.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-13T11:59:35.915Z"
+    },
+    "2026-09-19": {
+      "signature": "dde6d061e5ea78fc868b84d115a26eb7fe5caa881a3031790a14f835709e444e",
+      "eventId": "tinkerhub-events-x2pc5me0ll",
+      "reason": "The hands-on, beginner-friendly GenAI program provides structured learning for students in Kochi.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-13T11:59:35.915Z"
+    },
+    "2026-09-20": {
+      "signature": "cdf37d2f9aafef0d73ad8423beda5dbe3c9cfcbf091cdccefc1fcc8aa08b9e1d",
+      "eventId": "tinkerhub-events-t3ze047o2u",
+      "reason": "A public showcase of locally built hardware prototypes offers a distinctive view of Kochi’s maker community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-13T11:59:35.915Z"
+    }
+  },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 748,
-    "outputTokens": 126
+    "inputTokens": 1261,
+    "outputTokens": 193
   }
 }
