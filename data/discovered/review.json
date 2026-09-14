@@ -246,18 +246,18 @@
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty, Kochi, Kerala",
+      "venue": "Grand Hyatt, Bolgatty, Kochi",
       "city": "Kochi",
-      "organizer": "Kerala Police and Information Security Research Association (ISRA), hosted with Kerala Police",
-      "description": "Publicly listed cybersecurity training sessions with online registration. The registration page states the training dates and venue.",
+      "organizer": "Kerala Police and Information Security Research Association (ISRA), with partners",
+      "description": "Publicly listed cybersecurity training programme associated with c0c0n 2026. Registration is listed on the official event page.",
       "categoryHint": "developer workshop",
-      "evidenceUrl": "https://c0c0n.org/register",
-      "registrationUrl": "https://c0c0n.org/register",
+      "evidenceUrl": "https://www.c0c0n.org/register",
+      "registrationUrl": "https://www.c0c0n.org/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-06"
+    "discoveredAt": "2026-09-15"
   },
   {
     "candidate": {
@@ -601,23 +601,23 @@
   },
   {
     "candidate": {
-      "title": "HAC'KP 2026 Prize Ceremony at c0c0n Conference",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
+      "title": "HAC'KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Kochi",
+      "venue": "Crown Plaza, Kochi",
       "city": "Kochi",
-      "organizer": "Kerala Police / HAC'KP 2026",
-      "description": "Prize distribution ceremony for HAC'KP 2026 teams, held during c0c0n Conference.",
-      "categoryHint": "hackathon / cybersecurity / technology",
+      "organizer": "HAC'KP 2026 / Kerala Police and partners",
+      "description": "Three-day, fully sponsored hackathon boot camp for top-performing HAC'KP 2026 teams, with mentoring, solution integration and evaluation. Public participant registration for the hackathon has closed; attendance is limited to qualified teams.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://dev.hackp.kerala.gov.in/finale/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-12"
+    "discoveredAt": "2026-09-15"
   },
   {
     "candidate": {
@@ -698,5 +698,45 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-14"
+  },
+  {
+    "candidate": {
+      "title": "Gartner IT Symposium/Xpo™ 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Venue not specified on the public event page",
+      "city": "Kochi",
+      "organizer": "Gartner",
+      "description": "IT leadership conference covering AI, emerging technology, technology strategy and digital transformation.",
+      "categoryHint": "Technology conference",
+      "evidenceUrl": "https://www.gartner.com/en/conferences/apac/symposium-india",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.93
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 403",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "Technology Senate South",
+      "start": "2026-11-27",
+      "end": "2026-11-28",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "venue": "Venue not specified on the public event page",
+      "city": "Kochi",
+      "organizer": "Express Computer",
+      "description": "Technology conference focused on generative AI, quantum computing, edge intelligence and deep tech across South India.",
+      "categoryHint": "Technology conference",
+      "evidenceUrl": "https://www.expresscomputer.in/event/technology-senate-south-27th-28th-november-2026/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.7
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-15"
   }
 ]

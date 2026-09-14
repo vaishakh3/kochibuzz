@@ -625,5 +625,49 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
+    "title": "Dhanam BFSI Summit & Award Nite 2026",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "startTime": "09:30",
+    "endTime": "21:30",
+    "category": "webdev",
+    "venue": "Le Méridien, Nettoor, Maradu",
+    "city": "Kochi",
+    "organizer": "Dhanam",
+    "blurb": "BFSI summit with technology and financial-services industry content.",
+    "tags": [],
+    "url": "https://dhanambfsisummit.com/",
+    "sourceUrls": [
+      "https://dhanambfsisummit.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-15"
+  },
+  {
+    "id": "web-psu-summit-and-conference-india-national-psu-residentia-f5d86c9daf",
+    "title": "PSU Summit and Conference India | National PSU Residential Summit",
+    "start": "2026-12-04",
+    "end": "2026-12-06",
+    "startTime": "08:00",
+    "endTime": "23:59",
+    "category": "webdev",
+    "venue": "Crowne Plaza, Kochi",
+    "city": "Kochi",
+    "organizer": "ETGovernment.com",
+    "blurb": "PSU Summit and Conference India: The National PSU Residential Summit brings together government leaders, senior policymakers, industry kingpins, and academia to discuss the future of India's public sector.",
+    "tags": [],
+    "url": "https://government.economictimes.indiatimes.com/psu-summit",
+    "sourceUrls": [
+      "https://government.economictimes.indiatimes.com/psu-summit"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-15"
   }
 ]
