@@ -141,26 +141,6 @@
   },
   {
     "candidate": {
-      "title": "CORE RENeV Expo 2026",
-      "start": "2026-09-11",
-      "end": "2026-09-13",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Jawaharlal Nehru International Stadium",
-      "city": "Kochi, Kerala",
-      "organizer": "CORE Kerala",
-      "description": "Renewable-energy exhibition and conference featuring technology providers, startups, researchers and a Startup Innovation Zone.",
-      "categoryHint": "technology/clean energy/startups",
-      "evidenceUrl": "https://corekerala.com/expo-details/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-02"
-  },
-  {
-    "candidate": {
       "title": "c0c0n 2026",
       "start": "2026-10-06",
       "end": "2026-10-13",
@@ -521,26 +501,6 @@
   },
   {
     "candidate": {
-      "title": "Energy Conclave 2026",
-      "start": "2026-09-11",
-      "end": "2026-09-13",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Jawaharlal Nehru Stadium",
-      "city": "Kochi, Kerala",
-      "organizer": "CORE Kerala",
-      "description": "Renewable-energy sector event involving technology providers, investors, policymakers and a startup pitch competition.",
-      "categoryHint": "technology/startup/energy",
-      "evidenceUrl": "https://corekerala.com/energy-conclave/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-10"
-  },
-  {
-    "candidate": {
       "title": "c0c0n 2026",
       "start": "2026-10-06",
       "end": "2026-10-13",
@@ -718,5 +678,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-13"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026",
+      "start": "2026-10-06",
+      "end": "2026-10-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Bolgatty",
+      "city": "Kochi",
+      "organizer": "c0c0n Conference",
+      "description": "Cybersecurity technology conference.",
+      "categoryHint": "cybersecurity / technology conference",
+      "evidenceUrl": "https://www.kochi.buzz/digest",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.8
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-14"
   }
 ]
