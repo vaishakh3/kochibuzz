@@ -21,11 +21,18 @@
       "reason": "A public showcase of locally built hardware prototypes offers a distinctive view of Kochi’s maker community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-13T11:59:35.915Z"
+    },
+    "2026-09-26": {
+      "signature": "36118089f02ca9301f2899265ee786da8f18c77b65d3126fce7cbdcdc9a6e68c",
+      "eventId": "web-september-offline-meetup-c403f2d72f",
+      "reason": "A confirmed Kochi meetup on securing agentic AI workloads, offering locally relevant technical programming.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-15T21:28:01.060Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 1261,
-    "outputTokens": 193
+    "inputTokens": 429,
+    "outputTokens": 66
   }
 }

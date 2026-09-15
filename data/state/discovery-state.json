@@ -1,11 +1,11 @@
 {
-  "lastRunAt": "2026-09-15T07:48:58.620Z",
-  "queryCursor": 1,
+  "lastRunAt": "2026-09-15T21:27:50.576Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-13",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
-    "https://pivot26.suit.iimklive.org/": "2026-09-13",
+    "https://pivot26.suit.iimklive.org/": "2026-09-16",
     "https://echai.ventures/kochi": "2026-09-02",
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
@@ -66,12 +66,16 @@
     "https://c0c0n.org/home": "2026-09-15",
     "https://kph.club/hack": "2026-09-15",
     "https://irad2027.org/about": "2026-09-15",
-    "https://cmfri.org.in/index.php/news/national-workshop-on-hands-on-training-on-advanced-instrumentation-techniques-sample-preparation-processing-and-analysis-11-15-january-2027": "2026-09-15"
+    "https://cmfri.org.in/index.php/news/national-workshop-on-hands-on-training-on-advanced-instrumentation-techniques-sample-preparation-processing-and-analysis-11-15-january-2027": "2026-09-15",
+    "https://founderslive.com/events-list/kochi-2026-09": "2026-09-16",
+    "https://founderbeinglaunchpad.com/": "2026-09-16",
+    "https://meetup.com/awsugkochi/events/316567713": "2026-09-16",
+    "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 4,
-    "inputTokens": 28726,
-    "outputTokens": 1853
+    "searchCalls": 5,
+    "inputTokens": 43315,
+    "outputTokens": 1103
   }
 }

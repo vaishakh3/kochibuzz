@@ -29,15 +29,15 @@
       "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
       "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit for founders, mentors and investors, with investor-readiness sessions, panels and a demo floor.",
-      "categoryHint": "startup / deep tech conference",
+      "description": "Deep-tech startup summit for founders, mentors and investors, with prototype-focused sessions, investor feedback and a demo floor.",
+      "categoryHint": "startup founders; technology",
       "evidenceUrl": "https://pivot26.suit.iimklive.org/",
-      "registrationUrl": "https://pivot26.suit.iimklive.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-13"
+    "discoveredAt": "2026-09-16"
   },
   {
     "candidate": {
@@ -898,5 +898,45 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "Founder-Being LaunchPad Demo Day",
+      "start": "2026-09-29",
+      "end": "2026-09-29",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi",
+      "city": "Kochi",
+      "organizer": "Founder-Being LaunchPad",
+      "description": "Demo Day for a 16-week, 16-module startup programme for young founders.",
+      "categoryHint": "startup founders",
+      "evidenceUrl": "https://www.founderbeinglaunchpad.com/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.83
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-16"
+  },
+  {
+    "candidate": {
+      "title": "Space Carnival",
+      "start": "2026-12-17",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, 21/258, CUSAT P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+      "city": "Kalamassery, Kochi",
+      "organizer": "TinkerSpace Kochi / TinkerHub",
+      "description": "A public technology-focused community event where members present tech projects and share their creative journeys.",
+      "categoryHint": "maker / creative technology",
+      "evidenceUrl": "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.88
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-16"
   }
 ]
