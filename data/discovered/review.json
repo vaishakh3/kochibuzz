@@ -86,18 +86,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue to be announced, Kochi, Kerala, India",
+      "venue": "Venue not specified; Kochi, Kerala",
       "city": "Kochi",
       "organizer": "IEEE Entrepreneurship",
-      "description": "An in-person entrepreneurship workshop covering ownership, funding, partnerships and organizational growth, with mentoring and pitching. Public applications are available until October 16, 2026; accepted participants are notified by October 23, 2026.",
-      "categoryHint": "startup workshop",
+      "description": "Entrepreneurship workshop covering ownership, funding, partnerships, organizational growth, mentoring and pitching ideas.",
+      "categoryHint": "startup, product",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
-      "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-12"
+    "discoveredAt": "2026-09-15"
   },
   {
     "candidate": {
@@ -423,21 +423,21 @@
     "candidate": {
       "title": "ICDSE 2027 — 8th International Conference on Data Science & Engineering",
       "start": "2027-01-06",
-      "end": "2027-01-07",
+      "end": "2027-01-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT)",
-      "city": "Kochi, Kerala",
-      "organizer": "Department of Computer Science, CUSAT",
-      "description": "International conference on data science and engineering, with the 2027 theme “Agentic AI for Public Health and Wellness.” The conference runs January 6–8, 2027; only January 6–7 fall within the requested date range.",
-      "categoryHint": "conference",
+      "venue": "CUSAT",
+      "city": "Kochi",
+      "organizer": "Department of Computer Science, Cochin University of Science and Technology (CUSAT)",
+      "description": "International conference covering data science, advanced computing and BioAI, themed around agentic AI for public health and wellness. The official page provides a registration option.",
+      "categoryHint": "conference; data science; AI",
       "evidenceUrl": "https://icdse.cusat.ac.in/",
       "registrationUrl": "https://icdse.cusat.ac.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "Official page could not be fetched: Error: HTTP 500",
-    "discoveredAt": "2026-09-09"
+    "discoveredAt": "2026-09-15"
   },
   {
     "candidate": {
@@ -726,17 +726,177 @@
       "end": "2026-11-28",
       "startTime": "15:00",
       "endTime": "15:30",
-      "venue": "Venue not specified on the public event page",
+      "venue": "Not specified on the evidence page",
       "city": "Kochi",
-      "organizer": "Express Computer",
-      "description": "Technology conference focused on generative AI, quantum computing, edge intelligence and deep tech across South India.",
-      "categoryHint": "Technology conference",
+      "organizer": "Express Group",
+      "description": "Technology event covering generative AI, quantum computing, edge intelligence and deep tech, with South Indian technology ecosystems including Kochi in scope.",
+      "categoryHint": "AI, cloud, technology, startup",
       "evidenceUrl": "https://www.expresscomputer.in/event/technology-senate-south-27th-28th-november-2026/",
       "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.7
+      "sourceKind": "news_listing",
+      "confidence": 0.62
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "Kerala International AI Film Festival (KIAFF 2027)",
+      "start": "2027-01-22",
+      "end": "2027-01-24",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not specified on the evidence page",
+      "city": "Kochi",
+      "organizer": "SoStorytelling",
+      "description": "AI-focused film festival for filmmakers, technologists, artists, media executives, startups and developers, covering AI use in film conception, design and production.",
+      "categoryHint": "creative technology, AI, design",
+      "evidenceUrl": "https://sostorytelling.com/ai-film-festival/",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.93
+    },
+    "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "FoodTech Kerala",
+      "start": "2027-01-07",
+      "end": "2027-01-09",
+      "startTime": "11:00",
+      "endTime": "20:00",
+      "venue": "Rena Event Hub & Convention Centre",
+      "city": "Kochi",
+      "organizer": "Not specified on the evidence page",
+      "description": "Food-technology exhibition covering processing, refrigeration and freezing, storage, packaging, retail and related technology and equipment.",
+      "categoryHint": "technology, product",
+      "evidenceUrl": "https://infood.gr/event-pro/foodtech-kerala/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.76
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "Dhanam BFSI Summit & Award Nite 2026",
+      "start": "2026-11-25",
+      "end": "2026-11-25",
+      "startTime": "09:30",
+      "endTime": "21:30",
+      "venue": "Le Méridien, Nettoor, Maradu",
+      "city": "Kochi",
+      "organizer": "Dhanam Business Media",
+      "description": "Business and finance summit with entrepreneurship and industry networking; included because of its technology/product relevance to BFSI innovation.",
+      "categoryHint": "product, startup, technology",
+      "evidenceUrl": "https://dhanambfsisummit.com/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "Kochi Design Week Design Fair",
+      "start": "2026-12-16",
+      "end": "2026-12-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Bolgatty Palace",
+      "city": "Kochi",
+      "organizer": "Kochi Design Week",
+      "description": "Design and maker fair for tech innovators, artists, crafters and creators, including robots, crafts and business ideas.",
+      "categoryHint": "design, maker, creative technology, product",
+      "evidenceUrl": "https://kochidesignweek.org/design-fair/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 404",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "c0c0n 2026",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt, Bolgatty",
+      "city": "Kochi",
+      "organizer": "Kerala Police",
+      "description": "Cybersecurity and hacking conference covering information security, data protection, privacy, AI/ML-driven cybersecurity and cyber resilience.",
+      "categoryHint": "security, AI, data",
+      "evidenceUrl": "https://c0c0n.org/home",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "KPH Hackathon '26",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not stated on the official page; Kochi-area location not publicly specified",
+      "city": "Kochi",
+      "organizer": "KPH Club",
+      "description": "Two-day product/startup hackathon focused on building and launching products. Registration is shown as open, with limited spots.",
+      "categoryHint": "hackathon; startup; technology",
+      "evidenceUrl": "https://kph.club/hack",
+      "registrationUrl": "https://kph.club/hack",
+      "sourceKind": "official_event_page",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "iRAD 2027 — 9th Conference on India Radar Meteorology",
+      "start": "2027-01-05",
+      "end": "2027-01-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Advanced Centre for Atmospheric Radar Research, CUSAT",
+      "city": "Kochi",
+      "organizer": "Advanced Centre for Atmospheric Radar Research (ACARR) and Cochin University of Science and Technology (CUSAT)",
+      "description": "Conference on radar meteorology, including AI/ML techniques in radar-data applications and a hands-on workshop on radar applications. The official page states that registration opened on 15 August 2026.",
+      "categoryHint": "conference; workshop; research technology",
+      "evidenceUrl": "https://irad2027.org/about/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-15"
+  },
+  {
+    "candidate": {
+      "title": "National Workshop on Hands-on Training on Advanced Instrumentation Techniques: Sample Preparation, Processing and Analysis",
+      "start": "2027-01-11",
+      "end": "2027-01-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "ICAR–Central Marine Fisheries Research Institute (CMFRI), Kochi",
+      "city": "Kochi",
+      "organizer": "ICAR–Central Marine Fisheries Research Institute (CMFRI)",
+      "description": "Five-day hands-on national workshop scheduled for 11–15 January 2027. Only the portion through 13 January 2027 falls within the requested date range. The official page includes a registration link.",
+      "categoryHint": "workshop; instrumentation; applied technology",
+      "evidenceUrl": "https://www.cmfri.org.in/index.php/news/national-workshop-on-hands-on-training-on-advanced-instrumentation-techniques-sample-preparation-processing-and-analysis-11-15-january-2027",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-15"
   }
 ]
