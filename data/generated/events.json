@@ -263,33 +263,6 @@
     "firstSeenAt": "2026-09-13"
   },
   {
-    "id": "codex-meetup-kochi-founders",
-    "title": "Codex Community Meetup – Founders Edition",
-    "start": "2026-09-16",
-    "end": "2026-09-16",
-    "category": "ai",
-    "venue": "Kochi, India",
-    "city": "Kochi",
-    "organizer": "Vaishakh Suresh, Pauline P. Narvas",
-    "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
-    "tags": [
-      "Founders",
-      "Coding agents",
-      "Demos"
-    ],
-    "url": "https://luma.com/k65afwn7",
-    "sourceUrls": [
-      "https://luma.com/k65afwn7"
-    ],
-    "manual": true,
-    "startTime": "09:00",
-    "endTime": "14:00",
-    "sourceIds": [
-      "luma-kochi"
-    ],
-    "firstSeenAt": "2026-08-20"
-  },
-  {
     "id": "tinkerhub-events-0bzo8leu01",
     "title": "AI Wednesday",
     "start": "2026-09-16",
@@ -576,6 +549,33 @@
       "https://c0c0n.org/2026/"
     ],
     "manual": true,
+    "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "codex-meetup-kochi-founders",
+    "title": "Codex Community Meetup – Founders Edition",
+    "start": "2026-10-28",
+    "end": "2026-10-28",
+    "category": "ai",
+    "venue": "Kochi, India",
+    "city": "Kochi",
+    "organizer": "Vaishakh Suresh, Pauline P. Narvas",
+    "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
+    "tags": [
+      "Founders",
+      "Coding agents",
+      "Demos"
+    ],
+    "url": "https://luma.com/k65afwn7",
+    "sourceUrls": [
+      "https://luma.com/k65afwn7"
+    ],
+    "manual": true,
+    "startTime": "09:00",
+    "endTime": "14:00",
+    "sourceIds": [
+      "luma-kochi"
+    ],
     "firstSeenAt": "2026-08-20"
   },
   {

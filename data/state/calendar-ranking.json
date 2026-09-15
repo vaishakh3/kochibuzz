@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-16": {
-      "signature": "d1d4538ead45ceb26d3d87182069d9b47856200f12746b2fff7802fbe9ae3f69",
-      "eventId": "codex-meetup-kochi-founders",
-      "reason": "Founder-focused AI coding demonstrations and community participation offer broad value for Kochi’s startup and developer audiences.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-13T11:59:35.915Z"
-    },
     "2026-09-18": {
       "signature": "b72a02c68ab0600937379022cd6a728c001dbe7db6f041016959f46ea936b7c7",
       "eventId": "pivot-2026",
