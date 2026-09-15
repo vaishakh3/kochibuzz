@@ -1428,6 +1428,19 @@
     "firstSeenAt": "2026-09-02"
   },
   {
+    "id": "infopark-262-25289",
+    "title": "Backend Developer / Laravel Developer (Immediate Hiring)",
+    "company": "Ynot Infosolutions",
+    "postedAt": "2026-09-02",
+    "deadlineAt": "2026-09-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/262/25289",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-15"
+  },
+  {
     "id": "infopark-352-25273",
     "title": "Graphic Designer",
     "company": "TouchWorld Technology",
@@ -2561,18 +2574,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "paytm-payments-ernakulam-lever-1f6b0dc2-5aa4-4ff3-a86b-efb6f8ee61a2",
-    "title": "Team Leader - O&G Adj 1 - Ernakulam",
-    "company": "Paytm Payments",
-    "postedAt": "2026-08-11",
-    "location": "Ernakulam, Kerala",
-    "category": "other",
-    "detailUrl": "https://jobs.lever.co/paytmpayments/1f6b0dc2-5aa4-4ff3-a86b-efb6f8ee61a2",
-    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
-    "sourceId": "paytm-payments-ernakulam-lever",
-    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-269-25020",

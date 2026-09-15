@@ -155,7 +155,6 @@
     "dodge-workable-0c7d574f83": "2026-08-23",
     "dodge-workable-6e801499b4": "2026-08-23",
     "dodge-workable-dd7d833942": "2026-08-23",
-    "paytm-payments-ernakulam-lever-1f6b0dc2-5aa4-4ff3-a86b-efb6f8ee61a2": "2026-08-23",
     "dodge-workable-7a5eb34735": "2026-08-23",
     "paytm-payments-kochi-lever-1980b40a-8aa2-42a8-8328-17239145be66": "2026-08-23",
     "zaintech-workable-33eb14865f": "2026-08-23",
@@ -458,7 +457,6 @@
     "tinkerhub-events-x2pc5me0ll": "2026-09-13",
     "tinkerhub-events-rhlu15s280": "2026-09-13",
     "tinkerhub-events-t3ze047o2u": "2026-09-13",
-    "tinkerhub-events-153tyx7etn": "2026-09-13",
     "infopark-530-25445": "2026-09-13",
     "infopark-374-25454": "2026-09-14",
     "infopark-381-25452": "2026-09-14",
@@ -533,23 +531,24 @@
     "infopark-58-25473": "2026-09-15",
     "infopark-328-25333": "2026-09-15",
     "infopark-55-25045": "2026-09-15",
-    "infopark-164-16434": "2026-09-15"
+    "infopark-164-16434": "2026-09-15",
+    "infopark-262-25289": "2026-09-15"
   },
   "lastCounts": {
-    "infopark-jobs": 471,
-    "paytm-payments-ernakulam-lever": 5,
+    "infopark-jobs": 472,
+    "paytm-payments-ernakulam-lever": 4,
     "opalus-workable": 0,
     "dodge-workable": 8,
     "zaintech-workable": 11,
     "reply-lever": 3,
     "ksum-careers": 0,
     "luma-kochi": 3,
-    "codex-community-luma": 240,
+    "codex-community-luma": 242,
     "ksum-events": 1,
     "ksum-tenders": 0,
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 4,
     "gdg-cochin": 4,
-    "tinkerhub-events": 7
+    "tinkerhub-events": 6
   }
 }
