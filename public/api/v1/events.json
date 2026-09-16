@@ -623,6 +623,29 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "18:30",
+      "category": "ai",
+      "venue": "Holiday Inn Cochin, an IHG Hotel",
+      "city": "Kochi",
+      "organizer": "Google Developer Groups",
+      "blurb": "You think it. By evening, it's running. A full day of Gemini, AI agents and Google Cloud with Kerala's sharpest builders.",
+      "tags": [],
+      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
+      "registerUrl": "https://ccd.gdgcloudkochi.com/",
+      "sourceUrls": [
+        "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/"
+      ],
+      "sourceIds": [
+        "gdg-cloud-kochi"
+      ],
+      "firstSeenAt": "2026-09-16"
+    },
+    {
       "id": "gartner-symposium-kochi-2026",
       "title": "Gartner IT Symposium/Xpo Kochi",
       "start": "2026-11-16",
