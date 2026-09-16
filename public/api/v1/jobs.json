@@ -2,6 +2,45 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-182-25488",
+      "title": "Business Development Executive",
+      "company": "2Hats Logic Solutions Pvt. Ltd",
+      "postedAt": "2026-09-16",
+      "deadlineAt": "2026-10-03",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/182/25488",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
+      "id": "infopark-266-25486",
+      "title": "Senior Full Stack Developer / Technical Lead",
+      "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
+      "postedAt": "2026-09-16",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/266/25486",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
+      "id": "infopark-266-25490",
+      "title": "Frontend Developer",
+      "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
+      "postedAt": "2026-09-16",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/266/25490",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
       "id": "infopark-312-25477",
       "title": "Associate - QA Engineer",
       "company": "2Base Technologies Pvt Ltd",
@@ -106,6 +145,19 @@
       "firstSeenAt": "2026-09-16"
     },
     {
+      "id": "infopark-485-25489",
+      "title": "Content Writer Intern",
+      "company": "ThoughtMinds System Pvt Ltd",
+      "postedAt": "2026-09-16",
+      "deadlineAt": "2026-09-16",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/485/25489",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
       "id": "infopark-49-25484",
       "title": "Japanese Language Market Research Analyst, Kochi/Chennai",
       "company": "Thinkpalm Technologies Pvt.Ltd",
@@ -114,6 +166,19 @@
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/49/25484",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
+      "id": "infopark-529-25487",
+      "title": "API Configure Engineer",
+      "company": "Distinct Infotech Solutions",
+      "postedAt": "2026-09-16",
+      "deadlineAt": "2026-09-25",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/529/25487",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-16"
@@ -535,6 +600,19 @@
       "firstSeenAt": "2026-09-10"
     },
     {
+      "id": "infopark-164-25424",
+      "title": "Sales Development Representative",
+      "company": "WORKSENT TECHNOLOGIES PVT LTD",
+      "postedAt": "2026-09-10",
+      "deadlineAt": "2026-09-17",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/164/25424",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
+    },
+    {
       "id": "infopark-189-25415",
       "title": "Telecaller Cum Business Development Executive",
       "company": "GALTech Technologies Pvt Ltd",
@@ -669,7 +747,7 @@
       "title": "Inside Sales Executive",
       "company": "Fingent Global Solutions",
       "postedAt": "2026-09-10",
-      "deadlineAt": "2026-10-02",
+      "deadlineAt": "2026-10-16",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/83/25414",
@@ -1232,19 +1310,6 @@
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/542/25295",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-09-03"
-    },
-    {
-      "id": "infopark-59-25304",
-      "title": "UI/UX Designer",
-      "company": "iLeaf Solutions Pvt Ltd",
-      "postedAt": "2026-09-03",
-      "deadlineAt": "2026-09-25",
-      "location": "Infopark, Kochi",
-      "category": "design",
-      "detailUrl": "https://infopark.in/company-jobs/details/59/25304",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-03"
@@ -1925,7 +1990,7 @@
       "title": "Sr.Executive / Executive Operations",
       "company": "Fingent Global Solutions",
       "postedAt": "2026-08-24",
-      "deadlineAt": "2026-09-30",
+      "deadlineAt": "2026-10-08",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/83/25181",
@@ -2790,26 +2855,13 @@
       "title": "Junior DevOps Engineer/DevOps Engineer.",
       "company": "Fingent Global Solutions",
       "postedAt": "2026-07-30",
-      "deadlineAt": "2026-09-30",
+      "deadlineAt": "2026-10-21",
       "location": "Infopark, Kochi",
       "category": "devops-cloud",
       "detailUrl": "https://infopark.in/company-jobs/details/83/24899",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-10"
-    },
-    {
-      "id": "infopark-266-24878",
-      "title": "Full Stack Tech Lead",
-      "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
-      "postedAt": "2026-07-29",
-      "deadlineAt": "2026-09-30",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/266/24878",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-09-02"
     },
     {
       "id": "infopark-36-24888",
@@ -3752,7 +3804,7 @@
       "title": "Sr. Accountant",
       "company": "Daskalos virtual Academy pvt Limited",
       "postedAt": "2026-06-15",
-      "deadlineAt": "2026-09-30",
+      "deadlineAt": "2026-09-16",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/328/24097",
@@ -3862,6 +3914,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-09"
+    },
+    {
+      "id": "infopark-59-23938",
+      "title": "Business Development Manager",
+      "company": "iLeaf Solutions Pvt Ltd",
+      "postedAt": "2026-06-08",
+      "deadlineAt": "2026-10-16",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/59/23938",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
     },
     {
       "id": "infopark-95-23947",
@@ -4081,6 +4146,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-10"
+    },
+    {
+      "id": "infopark-268-23523",
+      "title": "Quality Assurance Analyst -(Immediate join- 1 Month)",
+      "company": "Techware Lab Pvt.Ltd",
+      "postedAt": "2026-05-13",
+      "deadlineAt": "2026-09-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/268/23523",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-09-16"
     },
     {
       "id": "infopark-76-23516",
@@ -5473,7 +5551,7 @@
       "title": "Sales Development Representative",
       "company": "WORKSENT TECHNOLOGIES PVT LTD",
       "postedAt": "2025-09-12",
-      "deadlineAt": "2026-09-16",
+      "deadlineAt": "2026-09-21",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/164/20341",

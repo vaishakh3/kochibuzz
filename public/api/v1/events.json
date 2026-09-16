@@ -481,51 +481,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "web-september-offline-meetup-c403f2d72f",
-      "title": "September Offline Meetup",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "startTime": "09:30",
-      "endTime": "12:30",
-      "category": "ai",
-      "venue": "Jain University Kochi",
-      "city": "Kochi",
-      "organizer": "AWS User Group Kochi",
-      "blurb": "We're excited to announce our next AWS User Group Kochi session! **From OpenClaw to Production: Securing Agentic AI Workloads on AWS** Anirudh Sharma,",
-      "tags": [],
-      "url": "https://www.meetup.com/awsugkochi/events/316567713/",
-      "sourceUrls": [
-        "https://meetup.com/awsugkochi/events/316567713"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-16"
-    },
-    {
-      "id": "web-founders-live-kochi-c0374474c6",
-      "title": "Founders Live Kochi",
-      "start": "2026-09-27",
-      "end": "2026-09-27",
-      "startTime": "15:30",
-      "endTime": "18:30",
-      "category": "startup",
-      "venue": "InnerSpace Coworking, Trinity World Road",
-      "city": "Kochi",
-      "organizer": "Founders Live; city leader Praveen Prabhakar",
-      "blurb": "Founder pitch competition featuring five founders, 99-second pitches, audience Q&A and voting.",
-      "tags": [],
-      "url": "https://founderslive.com/events-list/kochi-2026-09",
-      "registerUrl": "https://luma.com/founderslive-kochi-2026-09",
-      "sourceUrls": [
-        "https://founderslive.com/events-list/kochi-2026-09"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-16"
-    },
-    {
       "id": "iedc-summit-2026",
       "title": "IEDC Summit 2026",
       "start": "2026-09-28",

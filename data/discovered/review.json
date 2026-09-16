@@ -221,7 +221,7 @@
   },
   {
     "candidate": {
-      "title": "PIVOT 2026 – Deep Tech Startup Summit",
+      "title": "PIVOT 2026 – Where Ideas Meet Opportunities",
       "start": "2026-09-18",
       "end": "2026-09-19",
       "startTime": null,
@@ -229,15 +229,15 @@
       "venue": "Lulu Twin Towers, Kakkanad",
       "city": "Kochi",
       "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit involving startups, founders, investors, innovators and industry leaders.",
+      "description": "Deep-tech startup summit with startups, founders, investors, innovators and industry leaders.",
       "categoryHint": "startup/deep tech",
       "evidenceUrl": "https://www.linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD",
       "registrationUrl": null,
       "sourceKind": "social_post",
       "confidence": 0.98
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-12"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-16"
   },
   {
     "candidate": {
@@ -937,6 +937,26 @@
       "confidence": 0.88
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-16"
+  },
+  {
+    "candidate": {
+      "title": "The Advancing Global Conference on Research & Development in Science and Technology",
+      "start": "2026-10-30",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "The Avenue Regent",
+      "city": "Kochi",
+      "organizer": "Not stated on the cited listing",
+      "description": "Science and technology conference listed for Kochi; the available listing identifies the date and venue but does not state an organizer.",
+      "categoryHint": "technology",
+      "evidenceUrl": "https://10times.com/kochi-in?radius=50",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.58
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-16"
   }
 ]
