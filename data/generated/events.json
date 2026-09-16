@@ -236,33 +236,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-0bzo8leu01",
-    "title": "AI Wednesday",
-    "start": "2026-09-16",
-    "end": "2026-09-16",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "From Chatbots to Digital Coworkers, How AI Agents Think, Use Tools, and Act in the Real World",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/0BZO8LEU01/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/0BZO8LEU01/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
-  },
-  {
     "id": "tinkerhub-events-748rmvtraq",
     "title": "Maker Thursday",
     "start": "2026-09-17",
@@ -397,6 +370,33 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-13"
+  },
+  {
+    "id": "tinkerhub-events-m62lf4mvvt",
+    "title": "Classrooms",
+    "start": "2026-09-20",
+    "end": "2026-09-20",
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "TinkerHub Classrooms is a hands-on journey into the fundamentals of software engineering. We’ll start by building a ChatGPT-style chatbot from scratch, understanding the systems, abstractions, and engineering decisions behind it instead of treating them as magic. Along the way, w",
+    "tags": [
+      "TinkerHub",
+      "Bootcamp",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/M62LF4MVVT/classrooms",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/M62LF4MVVT/classrooms"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-16"
   },
   {
     "id": "tinkerhub-events-rhlu15s280",
