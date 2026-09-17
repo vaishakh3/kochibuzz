@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-20": {
-      "signature": "d01aa109b1d90320a324fc2af6ce44776a50ac0cc225c5b3a67b7a1dd4381f22",
-      "eventId": "tinkerhub-events-t3ze047o2u",
-      "reason": "A public showcase of locally built hardware prototypes, offering distinctive programming and broad interest for Kochi’s maker community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-16T17:01:47.414Z"
-    },
     "2026-09-18": {
       "signature": "9a5400eed323982e2bb4af3d9eacb040ac5f717328dac43944cf61e496dec2cd",
       "eventId": "pivot-2026",
@@ -21,6 +14,13 @@
       "reason": "This Kochi event offers a broad, in-person developer program, while the other local listing is a beginner-focused Gen AI bootcamp.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-17T13:32:15.349Z"
+    },
+    "2026-09-20": {
+      "signature": "d01aa109b1d90320a324fc2af6ce44776a50ac0cc225c5b3a67b7a1dd4381f22",
+      "eventId": "tinkerhub-events-t3ze047o2u",
+      "reason": "A public showcase of locally built hardware prototypes, offering distinctive programming and broad interest for Kochi’s maker community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-16T17:01:47.414Z"
     }
   },
   "lastUsage": {

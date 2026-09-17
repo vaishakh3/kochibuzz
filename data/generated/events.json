@@ -236,33 +236,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-748rmvtraq",
-    "title": "Maker Thursday",
-    "start": "2026-09-17",
-    "end": "2026-09-17",
-    "startTime": "19:00",
-    "endTime": "20:30",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "A session to inculcate the spirit of building projects with real life purposes, where I would be talking about my journey as a beginner with no prior background in coding, to making a few projects of my own that can be implemented in real-life for daily purposes like the ones I'v",
-    "tags": [
-      "TinkerHub",
-      "Workshop",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/748RMVTRAQ/maker-thursday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/748RMVTRAQ/maker-thursday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
-  },
-  {
     "id": "pivot-2026",
     "title": "PIVOT 2026 — Deep Tech Startup Summit",
     "start": "2026-09-18",
