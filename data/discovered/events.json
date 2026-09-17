@@ -1,39 +1,58 @@
 [
   {
-    "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
-    "title": "HAC'KP 2026 Boot Camp",
-    "start": "2026-10-06",
-    "end": "2026-10-08",
-    "category": "security",
-    "venue": "On-site venue, Kochi",
-    "city": "Kochi, Kerala, India",
-    "organizer": "Kerala Police",
-    "blurb": "Boot camp focused on final solution integration, intensive mentoring, expert evaluations and product showcase for HAC'KP 2026.",
+    "id": "web-dev-days-kochi-india-48ba4074c4",
+    "title": "Dev Days | Kochi, India",
+    "start": "2026-09-19",
+    "end": "2026-09-19",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Jain University Kochi",
+    "city": "Kochi",
+    "organizer": "Dev Days, Anuraj Parameswaran",
+    "blurb": "Dev Days is a global, in-person community-led initiative taking place from September 1st - October 31st, 2026.",
     "tags": [],
-    "url": "https://hackp.kerala.gov.in/schedule",
+    "url": "https://luma.com/xoxsnozt",
     "sourceUrls": [
-      "https://hackp.kerala.gov.in/schedule"
+      "https://luma.com/xoxsnozt"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ]
   },
   {
-    "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
-    "title": "Dhanam BFSI Summit & Award Nite 2026",
-    "start": "2026-11-25",
-    "end": "2026-11-25",
-    "startTime": "09:30",
-    "endTime": "21:30",
-    "category": "webdev",
-    "venue": "Le Méridien, Nettoor, Maradu",
-    "city": "Kochi, Ernakulam, Kerala, India",
-    "organizer": "Dhanam Business Media",
-    "blurb": "Summit for banking, insurance, NBFC, fintech and investment professionals.",
+    "id": "web-founder-being-launchpad-cohort-1-programme-start-96f25d9ab1",
+    "title": "Founder-Being LaunchPad Cohort 1 — programme start",
+    "start": "2026-10-04",
+    "end": "2026-10-04",
+    "category": "startup",
+    "venue": "Kochi, Kerala, India",
+    "city": "Kochi",
+    "organizer": "Founder-Being LaunchPad",
+    "blurb": "A 16-week venture-building programme for young founders, including MVP development, customer discovery and a later Demo Day.",
     "tags": [],
-    "url": "https://dhanambfsisummit.com/",
+    "url": "https://founderbeinglaunchpad.com/",
     "sourceUrls": [
-      "https://dhanambfsisummit.com/"
+      "https://founderbeinglaunchpad.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-hac-kp-2026-awards-prize-distribution-e551793326",
+    "title": "HAC'KP 2026 Awards & Prize Distribution",
+    "start": "2026-10-09",
+    "end": "2026-10-09",
+    "category": "hackathon",
+    "venue": "Kochi, Kerala, India",
+    "city": "Kochi",
+    "organizer": "HAC'KP 2026",
+    "blurb": "Awards and prize distribution for HAC'KP 2026 participants during the opening ceremony of c0c0n 2026.",
+    "tags": [],
+    "url": "https://dev.hackp.kerala.gov.in/schedule",
+    "sourceUrls": [
+      "https://dev.hackp.kerala.gov.in/schedule"
     ],
     "sourceIds": [
       "openai-web-discovery"

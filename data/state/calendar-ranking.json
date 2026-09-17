@@ -1,20 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-18": {
-      "signature": "b72a02c68ab0600937379022cd6a728c001dbe7db6f041016959f46ea936b7c7",
-      "eventId": "pivot-2026",
-      "reason": "This confirmed two-day summit brings together deep-tech founders, mentors and investors around moving prototypes toward companies.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-13T11:59:35.915Z"
-    },
-    "2026-09-19": {
-      "signature": "dde6d061e5ea78fc868b84d115a26eb7fe5caa881a3031790a14f835709e444e",
-      "eventId": "tinkerhub-events-x2pc5me0ll",
-      "reason": "The hands-on, beginner-friendly GenAI program provides structured learning for students in Kochi.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-13T11:59:35.915Z"
-    },
     "2026-09-20": {
       "signature": "d01aa109b1d90320a324fc2af6ce44776a50ac0cc225c5b3a67b7a1dd4381f22",
       "eventId": "tinkerhub-events-t3ze047o2u",
@@ -22,17 +8,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-16T17:01:47.414Z"
     },
-    "2026-10-06": {
-      "signature": "c76030da845c8d36eed882f8c76c3c9fbedb3264dc7453559d688da8eaced9eb",
-      "eventId": "c0c0n-2026",
-      "reason": "A major Kochi cybersecurity conference begins its multi-day training programme, with CTFs, villages and live bug hunting.",
+    "2026-09-18": {
+      "signature": "9a5400eed323982e2bb4af3d9eacb040ac5f717328dac43944cf61e496dec2cd",
+      "eventId": "pivot-2026",
+      "reason": "A confirmed two-day Kochi summit connects deep-tech founders with mentors and investors, offering broader city-wide value than the smaller meetup sessions.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-17T01:28:46.865Z"
+      "rankedAt": "2026-09-17T13:32:15.349Z"
+    },
+    "2026-09-19": {
+      "signature": "a47e39aa7bd25412e0deb13b8bfaa73d91af11c4763230ef2390ae9fff8a1598",
+      "eventId": "web-dev-days-kochi-india-48ba4074c4",
+      "reason": "This Kochi event offers a broad, in-person developer program, while the other local listing is a beginner-focused Gen AI bootcamp.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-17T13:32:15.349Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 449,
-    "outputTokens": 65
+    "inputTokens": 1002,
+    "outputTokens": 121
   }
 }

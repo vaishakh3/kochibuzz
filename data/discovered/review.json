@@ -61,23 +61,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 International Cyber Security Conference",
-      "start": "2026-10-09",
-      "end": null,
+      "title": "HAC’KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi venue not stated on the available official evidence",
+      "venue": "Kochi; exact venue not stated on the cited schedule page",
       "city": "Kochi",
-      "organizer": "Kerala Police / c0c0n Conference",
-      "description": "International cybersecurity conference; the official HAC'KP schedule states that its awards ceremony takes place during the opening ceremony of c0c0n 2026 in Kochi on 9 October 2026.",
-      "categoryHint": "cybersecurity conference",
+      "organizer": "Kerala Police Cyberdome",
+      "description": "On-site cybersecurity hackathon boot camp focused on final solution integration, mentoring, evaluation and product showcase.",
+      "categoryHint": "cybersecurity hackathon",
       "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
-      "registrationUrl": "https://c0c0n.org/register",
+      "registrationUrl": "https://hackp.kerala.gov.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.8
+      "confidence": 0.94
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-13"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -106,17 +106,17 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue details not specified on the event page, Kochi",
-      "city": "Kochi, Kerala, India",
+      "venue": "Kochi, Kerala, India",
+      "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day gathering for founders involving learning, connection and networking.",
-      "categoryHint": "startup; entrepreneurship; product",
+      "description": "A four-day gathering for founders featuring learning, networking and community activities.",
+      "categoryHint": "startup founder",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
       "confidence": 0.96
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "reason": "Official page could not be fetched: TimeoutError: The operation was aborted due to timeout",
     "discoveredAt": "2026-09-17"
   },
   {
@@ -841,43 +841,43 @@
   },
   {
     "candidate": {
-      "title": "KPH Hackathon '26",
+      "title": "KPH Hackathon ’26 — Build.Launch.Scale",
       "start": "2026-10-03",
       "end": "2026-10-04",
       "startTime": null,
       "endTime": null,
-      "venue": "Not stated on the official page; Kochi-area location not publicly specified",
+      "venue": "KPH Club, Kochi area",
       "city": "Kochi",
-      "organizer": "KPH Club",
-      "description": "Two-day product/startup hackathon focused on building and launching products. Registration is shown as open, with limited spots.",
-      "categoryHint": "hackathon; startup; technology",
+      "organizer": "KPH",
+      "description": "A 24-hour product-building hackathon with mentorship, launch support, funding and demo day. The page states that participation is by application and invitation.",
+      "categoryHint": "startup hackathon",
       "evidenceUrl": "https://kph.club/hack",
       "registrationUrl": "https://kph.club/hack",
       "sourceKind": "official_event_page",
-      "confidence": 0.78
+      "confidence": 0.96
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-15"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
-      "title": "iRAD 2027 — 9th Conference on India Radar Meteorology",
+      "title": "iRAD 2027 — International Radar Atmospheric Dynamics Conference",
       "start": "2027-01-05",
       "end": "2027-01-08",
       "startTime": null,
       "endTime": null,
       "venue": "Advanced Centre for Atmospheric Radar Research, CUSAT",
-      "city": "Kochi",
+      "city": "Kochi area — Cochin University of Science and Technology, Kalamassery",
       "organizer": "Advanced Centre for Atmospheric Radar Research (ACARR) and Cochin University of Science and Technology (CUSAT)",
-      "description": "Conference on radar meteorology, including AI/ML techniques in radar-data applications and a hands-on workshop on radar applications. The official page states that registration opened on 15 August 2026.",
-      "categoryHint": "conference; workshop; research technology",
-      "evidenceUrl": "https://irad2027.org/about/",
-      "registrationUrl": null,
+      "description": "A research conference covering radar atmospheric dynamics, wind-profiling radar and AI/ML applications in radar data. The official page states that registration opened on 15 August 2026.",
+      "categoryHint": "scientific technology conference",
+      "evidenceUrl": "https://www.irad2027.org/about/",
+      "registrationUrl": "https://www.irad2027.org/about/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -977,6 +977,26 @@
       "confidence": 0.98
     },
     "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-09-17"
+  },
+  {
+    "candidate": {
+      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "startTime": null,
+      "endTime": null,
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kochi",
+      "organizer": "Future Kerala Mission / Future Kerala",
+      "description": "A youth innovation competition on urban and societal challenges in Kochi and Kerala, with a preceding online design-thinking workshop and final presentations on 9 October 2026.",
+      "categoryHint": "innovation competition",
+      "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
+      "registrationUrl": "https://www.futurekerala.org.in/ideafest/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-17"
   }
 ]
