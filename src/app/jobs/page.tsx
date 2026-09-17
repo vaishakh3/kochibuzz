@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import DirectoryShell from "@/components/DirectoryShell";
 import JobsExplorer from "@/components/JobsExplorer";
+import SponsorPlacement from "@/components/SponsorPlacement";
 import { jobs } from "@/data/dataset";
 import { NEW_DAYS } from "@/lib/buzz";
 import { toISODate, todayInIST } from "@/lib/calendar";
@@ -30,6 +31,7 @@ export default function JobsPage() {
       intro={`${jobs.length} live Kochi-area openings, refreshed through the day.`}
       submitLabel="Suggest a job source"
     >
+      <SponsorPlacement />
       <JobsExplorer jobs={jobs} todayIso={todayIso} newDays={NEW_DAYS} />
       <p className="mt-7 max-w-3xl text-[11px] leading-relaxed text-white/42">
         Listings come from Infopark and public company feeds. Expired roles are

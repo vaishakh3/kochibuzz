@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/places`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/digest`, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/submit`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/sponsor`, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/about`, changeFrequency: "monthly", priority: 0.5 },
     ...communityDirectory.map((community) => ({
       url: `${base}/communities/${community.slug}`,

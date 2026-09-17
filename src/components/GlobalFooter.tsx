@@ -25,6 +25,7 @@ const columns = [
     heading: "Join in",
     links: [
       { href: "/submit", label: "Submit a signal" },
+      { href: "/sponsor", label: "Sponsor Kochi Buzz" },
       { href: "/about", label: "How it works" },
       { href: "/feed.xml", label: "RSS" },
       {

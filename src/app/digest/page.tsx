@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import DirectoryShell from "@/components/DirectoryShell";
 import DigestView, { type DigestRange } from "@/components/DigestView";
+import SponsorPlacement from "@/components/SponsorPlacement";
 import { categoryById } from "@/data/events";
 import { opportunityTypeLabels } from "@/data/dataset";
 import { closingSoon } from "@/lib/buzz";
@@ -79,6 +80,7 @@ export default function DigestPage() {
       title={<>The Buzz</>}
       intro="Everything on the Kochi tech calendar, as one printed-bulletin timeline — built to be pasted into a community group, not just browsed."
     >
+      <SponsorPlacement />
       <DigestView week={week} month={month} />
 
       {closing.length > 0 && (

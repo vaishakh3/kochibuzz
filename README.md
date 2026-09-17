@@ -85,7 +85,55 @@ the same visual language without forcing calendar controls onto the wrong job.
 | [`/places`](https://kochi.buzz/places) | Maker spaces, hubs, coworking rooms and useful places to meet |
 | [`/digest`](https://kochi.buzz/digest) | The next 30 days in one compact, shareable list |
 | [`/submit`](https://kochi.buzz/submit) | First-party contribution forms backed by a public GitHub review queue |
+| [`/sponsor`](https://kochi.buzz/sponsor) | Seven-day sponsorship pilot, placement details and public GitHub inquiries |
 | [`/about`](https://kochi.buzz/about) | Source registry, provenance, feeds and how the data moves |
+
+## Sponsorship pilot
+
+The proposed pilot is ₹1,499 for seven consecutive IST calendar days, with one
+labelled text placement above the content on both `/jobs` and `/digest`.
+`/sponsor` states the deliverables and exclusions without audience or performance
+claims. Ordinary listings remain free and keep their editorial ordering.
+
+The inquiry form prepares a GitHub issue URL in the browser. The buyer must
+consent to public disclosure, sign in to GitHub and submit the draft. No data is
+posted automatically, no dates are reserved, and no payment is collected.
+Inquiries have no `submission` label or editorial-review marker, so they cannot
+be automatically published by the submission worker.
+
+### Fulfilling a confirmed sponsorship
+
+1. Review the business, destination and proposed creative on the inquiry.
+2. Agree on dates, copy, total including applicable taxes, payment method and
+   cancellation terms. Billing and payment details must stay outside public
+   issues. **A merchant account and a private billing channel are not configured
+   by this feature.**
+3. Verify payment in the merchant account before adding a campaign to
+   `data/manual/sponsorships.json`. Do not treat an inquiry or payment screenshot
+   as proof of settlement.
+4. Use this record shape (example only; never publish an unpaid example):
+
+   ```json
+   {
+     "id": "business-october-2026",
+     "business": "Business name",
+     "headline": "Approved headline, at most 90 characters",
+     "description": "Approved description, at most 180 characters.",
+     "url": "https://business.example/campaign",
+     "startsOn": "2026-10-01",
+     "endsBefore": "2026-10-08"
+   }
+   ```
+
+5. Run `npm run test:all`, review and deploy the change before the agreed start.
+   The schedule rejects overlaps, duplicate IDs, unsafe URL schemes and durations
+   other than seven days. Dates are interpreted in `Asia/Kolkata`; `endsBefore`
+   is exclusive. The existing hourly page revalidation can delay transitions by
+   up to an hour after the next request.
+
+The schedule starts empty. Unbooked pages show an inquiry link, not a fictional
+sponsor. Sponsorship is not included in copied digest text, RSS, ICS or JSON feeds.
+Paid outbound links use `rel="sponsored noopener noreferrer"`.
 
 ## Architecture
 

@@ -18,6 +18,7 @@ const explore = [
   { href: "/communities", label: "Communities" },
   { href: "/places", label: "Places" },
   { href: "/digest", label: "Digest" },
+  { href: "/sponsor", label: "Sponsor Kochi Buzz" },
 ];
 
 const utility = [
