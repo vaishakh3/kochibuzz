@@ -86,18 +86,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not specified; Kochi, Kerala",
-      "city": "Kochi",
+      "venue": "Venue to be announced, Kochi",
+      "city": "Kochi, Kerala, India",
       "organizer": "IEEE Entrepreneurship",
-      "description": "Entrepreneurship workshop covering ownership, funding, partnerships, organizational growth, mentoring and pitching ideas.",
-      "categoryHint": "startup, product",
+      "description": "In-person entrepreneurship workshop covering ownership, funding, partnerships and organizational growth, with mentoring and idea pitches.",
+      "categoryHint": "startup; entrepreneurship; product",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
-      "registrationUrl": null,
+      "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -106,18 +106,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
-      "city": "Kochi, Kerala",
-      "organizer": "STNSA",
-      "description": "A startup and founder conclave with 400+ founders listed by the organizer.",
-      "categoryHint": "startup; founders; technology",
+      "venue": "Venue details not specified on the event page, Kochi",
+      "city": "Kochi, Kerala, India",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "Four-day gathering for founders involving learning, connection and networking.",
+      "categoryHint": "startup; entrepreneurship; product",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
       "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-06"
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -421,23 +421,23 @@
   },
   {
     "candidate": {
-      "title": "ICDSE 2027 — 8th International Conference on Data Science & Engineering",
+      "title": "8th International Conference on Data Science & Engineering (ICDSE 2027)",
       "start": "2027-01-06",
       "end": "2027-01-08",
       "startTime": null,
       "endTime": null,
-      "venue": "CUSAT",
-      "city": "Kochi",
-      "organizer": "Department of Computer Science, Cochin University of Science and Technology (CUSAT)",
-      "description": "International conference covering data science, advanced computing and BioAI, themed around agentic AI for public health and wellness. The official page provides a registration option.",
-      "categoryHint": "conference; data science; AI",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala, India",
+      "organizer": "Department of Computer Science, CUSAT",
+      "description": "Conference on data science, advanced computing and applications, with a 2027 focus on BioAI and agentic AI for public health and wellness.",
+      "categoryHint": "data; AI; machine learning; advanced computing",
       "evidenceUrl": "https://icdse.cusat.ac.in/",
       "registrationUrl": "https://icdse.cusat.ac.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "Official page could not be fetched: Error: HTTP 500",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -608,16 +608,16 @@
       "endTime": null,
       "venue": "Crown Plaza, Kochi",
       "city": "Kochi",
-      "organizer": "HAC'KP 2026 / Kerala Police and partners",
-      "description": "Three-day, fully sponsored hackathon boot camp for top-performing HAC'KP 2026 teams, with mentoring, solution integration and evaluation. Public participant registration for the hackathon has closed; attendance is limited to qualified teams.",
+      "organizer": "Kerala Police Cyberdome",
+      "description": "A fully sponsored three-day hackathon boot camp for top-performing teams, covering solution refinement, mentoring, evaluation and product showcase.",
       "categoryHint": "hackathon",
       "evidenceUrl": "https://dev.hackp.kerala.gov.in/finale/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hackp.kerala.gov.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-09-17"
   },
   {
     "candidate": {
@@ -958,5 +958,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-16"
+  },
+  {
+    "candidate": {
+      "title": "Dev Days | Kochi, India",
+      "start": "2026-09-01",
+      "end": "2026-10-31",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Jain University Kochi, Knowledge Park, Nirmal Infopark, Kakkanad",
+      "city": "Kochi",
+      "organizer": "Dev Days",
+      "description": "An in-person developer event series with practical, hands-on GitHub Copilot sessions and workshops. Public registration is available on the event page.",
+      "categoryHint": "developer workshop",
+      "evidenceUrl": "https://luma.com/xoxsnozt",
+      "registrationUrl": "https://luma.com/xoxsnozt",
+      "sourceKind": "organizer_page",
+      "confidence": 0.98
+    },
+    "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-09-17"
   }
 ]

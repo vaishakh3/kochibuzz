@@ -1,17 +1,17 @@
 {
-  "lastRunAt": "2026-09-16T11:41:20.974Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-17T01:28:35.701Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-13",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-17",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
     "https://pivot26.suit.iimklive.org/": "2026-09-16",
     "https://echai.ventures/kochi": "2026-09-02",
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
-    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-15",
-    "https://stnsa.org/conclave": "2026-09-06",
+    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-17",
+    "https://stnsa.org/conclave": "2026-09-17",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-08",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-09-08",
@@ -38,7 +38,7 @@
     "https://hackify.iedcmace.in/": "2026-09-08",
     "https://hack-with-gdg-s4.vercel.app/": "2026-09-08",
     "https://in.linkedin.com/company/null-kochi": "2026-09-08",
-    "https://icdse.cusat.ac.in/": "2026-09-15",
+    "https://icdse.cusat.ac.in/": "2026-09-17",
     "https://pivot26.suit.iimklive.org/agenda": "2026-09-10",
     "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects": "2026-09-12",
     "https://linkedin.com/posts/c0c0nconference_cfp-callforpapers-cybersecurity-activity-7457013686541668352-4BPM": "2026-09-10",
@@ -50,7 +50,7 @@
     "https://yikochi.in/": "2026-09-11",
     "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends": "2026-09-12",
     "https://meetup.com/lfdt-kochi/events/316485443": "2026-09-12",
-    "https://dev.hackp.kerala.gov.in/finale": "2026-09-15",
+    "https://dev.hackp.kerala.gov.in/finale": "2026-09-17",
     "https://linkedin.com/posts/c0c0nconference_c0c0n2026-aisecurity-aisecurityengineering-activity-7489492682285973504-xeGG": "2026-09-13",
     "https://sites.google.com/startupmission.in/iedc/more/iedc-summit": "2026-09-13",
     "https://startupdangal.com/": "2026-09-13",
@@ -58,7 +58,7 @@
     "https://kochi.buzz/digest": "2026-09-14",
     "https://government.economictimes.indiatimes.com/psu-summit": "2026-09-15",
     "https://gartner.com/en/conferences/apac/symposium-india": "2026-09-15",
-    "https://dhanambfsisummit.com/": "2026-09-15",
+    "https://dhanambfsisummit.com/": "2026-09-17",
     "https://expresscomputer.in/event/technology-senate-south-27th-28th-november-2026": "2026-09-15",
     "https://sostorytelling.com/ai-film-festival": "2026-09-15",
     "https://infood.gr/event-pro/foodtech-kerala": "2026-09-15",
@@ -71,12 +71,13 @@
     "https://founderbeinglaunchpad.com/": "2026-09-16",
     "https://meetup.com/awsugkochi/events/316567713": "2026-09-16",
     "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16",
-    "https://10times.com/kochi-in?radius=50": "2026-09-16"
+    "https://10times.com/kochi-in?radius=50": "2026-09-16",
+    "https://luma.com/xoxsnozt": "2026-09-17"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28757,
-    "outputTokens": 643
+    "inputTokens": 29071,
+    "outputTokens": 1250
   }
 }

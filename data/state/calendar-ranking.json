@@ -21,11 +21,18 @@
       "reason": "A public showcase of locally built hardware prototypes, offering distinctive programming and broad interest for Kochi’s maker community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-16T17:01:47.414Z"
+    },
+    "2026-10-06": {
+      "signature": "c76030da845c8d36eed882f8c76c3c9fbedb3264dc7453559d688da8eaced9eb",
+      "eventId": "c0c0n-2026",
+      "reason": "A major Kochi cybersecurity conference begins its multi-day training programme, with CTFs, villages and live bug hunting.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-17T01:28:46.865Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 603,
-    "outputTokens": 66
+    "inputTokens": 449,
+    "outputTokens": 65
   }
 }
