@@ -8,24 +8,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-17T13:32:15.349Z"
     },
-    "2026-09-19": {
-      "signature": "a47e39aa7bd25412e0deb13b8bfaa73d91af11c4763230ef2390ae9fff8a1598",
-      "eventId": "web-dev-days-kochi-india-48ba4074c4",
-      "reason": "This Kochi event offers a broad, in-person developer program, while the other local listing is a beginner-focused Gen AI bootcamp.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-17T13:32:15.349Z"
-    },
     "2026-09-20": {
       "signature": "d01aa109b1d90320a324fc2af6ce44776a50ac0cc225c5b3a67b7a1dd4381f22",
       "eventId": "tinkerhub-events-t3ze047o2u",
       "reason": "A public showcase of locally built hardware prototypes, offering distinctive programming and broad interest for Kochi’s maker community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-09-16T17:01:47.414Z"
+    },
+    "2026-09-19": {
+      "signature": "dde6d061e5ea78fc868b84d115a26eb7fe5caa881a3031790a14f835709e444e",
+      "eventId": "tinkerhub-events-x2pc5me0ll",
+      "reason": "A confirmed Kochi program offering hands-on generative AI learning across four mentor-led sessions.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-18T05:58:19.167Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 1002,
-    "outputTokens": 121
+    "inputTokens": 450,
+    "outputTokens": 62
   }
 }

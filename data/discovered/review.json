@@ -998,5 +998,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-17"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi - 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cloud Kochi",
+      "description": "Full-day developer event focused on Gemini, AI agents and Google Cloud, with talks, networking and hands-on learning.",
+      "categoryHint": "Google Cloud / AI / Developer conference",
+      "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-18"
   }
 ]
