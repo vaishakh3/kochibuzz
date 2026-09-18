@@ -983,21 +983,21 @@
     "candidate": {
       "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
       "start": "2026-10-09",
-      "end": "2026-10-09",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "venue": "Not specified on the cited page; connected with Future Kochi Conclave 2026",
       "city": "Kochi",
-      "organizer": "Future Kerala Mission / Future Kerala",
-      "description": "A youth innovation competition on urban and societal challenges in Kochi and Kerala, with a preceding online design-thinking workshop and final presentations on 9 October 2026.",
-      "categoryHint": "innovation competition",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
+      "description": "Youth innovation competition on urban and societal challenges in Kochi. The cited page gives the event date and Kochi connection but does not state a precise venue.",
+      "categoryHint": "startup/innovation",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
-      "registrationUrl": "https://www.futurekerala.org.in/ideafest/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.9
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-17"
+    "discoveredAt": "2026-09-19"
   },
   {
     "candidate": {
@@ -1018,5 +1018,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-18"
+  },
+  {
+    "candidate": {
+      "title": "Hac'KP 2026 Boot Camp",
+      "start": "2026-10-05",
+      "end": "2026-10-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Crowne Plaza Kochi",
+      "city": "Kochi",
+      "organizer": "Kerala Police Cyberdome",
+      "description": "Residential technology innovation boot camp for the top 50 Hac'KP 2026 innovators, focused on agentic AI for investigations.",
+      "categoryHint": "technology/startup",
+      "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-19"
   }
 ]

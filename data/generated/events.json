@@ -287,87 +287,6 @@
     "firstSeenAt": "2026-08-25"
   },
   {
-    "id": "tinkerhub-events-m62lf4mvvt",
-    "title": "Classrooms",
-    "start": "2026-09-20",
-    "end": "2026-09-20",
-    "startTime": "18:00",
-    "endTime": "21:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "TinkerHub Classrooms is a hands-on journey into the fundamentals of software engineering. We’ll start by building a ChatGPT-style chatbot from scratch, understanding the systems, abstractions, and engineering decisions behind it instead of treating them as magic. Along the way, w",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/M62LF4MVVT/classrooms",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/M62LF4MVVT/classrooms"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-16"
-  },
-  {
-    "id": "tinkerhub-events-rhlu15s280",
-    "title": "Quantum computing computing 101",
-    "start": "2026-09-20",
-    "end": "2026-09-20",
-    "startTime": "10:00",
-    "endTime": "12:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "A friendly and interactive learning program where a facilitator introduces the fundamentals of quantum computing. Participants can learn, discuss, and explore the fascinating world of quantum computing together.",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/RHLU15S280/quantum-computing-computing-101",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/RHLU15S280/quantum-computing-computing-101"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
-  },
-  {
-    "id": "tinkerhub-events-t3ze047o2u",
-    "title": "Builder in Residency Demo Day",
-    "start": "2026-09-20",
-    "end": "2026-09-20",
-    "startTime": "14:00",
-    "endTime": "17:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Builder in Residence: Demo Day For weeks now, a room full of makers at TinkerSpace has been heads-down building hardware from scratch. Ideas turned into circuits, circuits into prototypes, and prototypes into things that actually work. Now they're ready to show you. Come see what",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/T3ZE047O2U/builder-in-residency-demo-day",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/T3ZE047O2U/builder-in-residency-demo-day"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
-  },
-  {
     "id": "indiafoss-2026",
     "title": "IndiaFOSS 2026",
     "start": "2026-09-26",
@@ -416,28 +335,6 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "web-night-out-with-devin-adec1e98ee",
-    "title": "Night Out with Devin",
-    "start": "2026-09-30",
-    "end": "2026-09-30",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "category": "webdev",
-    "venue": "TinkerSpace Kochi",
-    "city": "Kochi",
-    "organizer": "Vaishakh Suresh",
-    "blurb": "Night Out with Devin An after-hours builder night by Devin Community Kochi, happening at TinkerSpace.",
-    "tags": [],
-    "url": "https://luma.com/fivtwyix",
-    "sourceUrls": [
-      "https://luma.com/fivtwyix"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-18"
   },
   {
     "id": "tinkerhub-events-dgppravtii",
@@ -597,8 +494,35 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "tinkerhub-events-74i0hsq8ow",
+    "title": "Introduction to Zephyr RTOS",
+    "start": "2026-10-17",
+    "end": "2026-10-17",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "category": "opensource",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Introduction to Zephyr An introduction to Zephyr, the open source real-time operating system built for embedded and IoT devices. We'll look at what Zephyr is and why it exists: a proper RTOS with a scheduler, drivers, and networking, running on boards small enough that you'd norm",
+    "tags": [
+      "TinkerHub",
+      "Bootcamp",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/74I0HSQ8OW/introduction-to-zephyr-rtos",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/74I0HSQ8OW/introduction-to-zephyr-rtos"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-19"
+  },
+  {
     "id": "tinkerhub-events-gkzdfe56jp",
-    "title": "Tinkering with Freecad",
+    "title": "Tinkering with FreeCAD",
     "start": "2026-10-18",
     "end": "2026-10-18",
     "startTime": "10:00",
@@ -774,5 +698,25 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-final-round-e78e5f8f79",
+    "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Institute campus; exact campus not specified on the cited page",
+    "city": "Kochi",
+    "organizer": "Odoo and Make-A-Ton",
+    "blurb": "Twenty-four-hour coding marathon final round for selected teams. The cited page identifies Kochi in the event title and provides the final-round dates, but does not state the exact venue.",
+    "tags": [],
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-19"
   }
 ]

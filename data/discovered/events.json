@@ -1,20 +1,18 @@
 [
   {
-    "id": "web-night-out-with-devin-adec1e98ee",
-    "title": "Night Out with Devin",
-    "start": "2026-09-30",
-    "end": "2026-09-30",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "category": "webdev",
-    "venue": "TinkerSpace Kochi",
+    "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-final-round-e78e5f8f79",
+    "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Institute campus; exact campus not specified on the cited page",
     "city": "Kochi",
-    "organizer": "Vaishakh Suresh",
-    "blurb": "Night Out with Devin An after-hours builder night by Devin Community Kochi, happening at TinkerSpace.",
+    "organizer": "Odoo and Make-A-Ton",
+    "blurb": "Twenty-four-hour coding marathon final round for selected teams. The cited page identifies Kochi in the event title and provides the final-round dates, but does not state the exact venue.",
     "tags": [],
-    "url": "https://luma.com/fivtwyix",
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://luma.com/fivtwyix"
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
     ],
     "sourceIds": [
       "openai-web-discovery"

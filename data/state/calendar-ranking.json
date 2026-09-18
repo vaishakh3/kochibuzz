@@ -1,14 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-09-20": {
-      "signature": "d01aa109b1d90320a324fc2af6ce44776a50ac0cc225c5b3a67b7a1dd4381f22",
-      "eventId": "tinkerhub-events-t3ze047o2u",
-      "reason": "A public showcase of locally built hardware prototypes, offering distinctive programming and broad interest for Kochi’s maker community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-16T17:01:47.414Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 450,
