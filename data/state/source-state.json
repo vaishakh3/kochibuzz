@@ -323,16 +323,13 @@
     "infopark-138-22164": "2026-09-08",
     "infopark-506-20970": "2026-09-08",
     "infopark-189-25382": "2026-09-08",
-    "infopark-396-25384": "2026-09-08",
     "infopark-442-25378": "2026-09-08",
     "infopark-68-25379": "2026-09-08",
     "infopark-68-25381": "2026-09-08",
-    "infopark-396-25042": "2026-09-08",
     "infopark-68-24901": "2026-09-08",
     "infopark-68-24132": "2026-09-08",
     "infopark-68-24133": "2026-09-08",
     "infopark-397-25395": "2026-09-09",
-    "infopark-420-25393": "2026-09-09",
     "infopark-483-25394": "2026-09-09",
     "infopark-85-25141": "2026-09-09",
     "infopark-190-25006": "2026-09-09",
@@ -404,8 +401,6 @@
     "infopark-378-25438": "2026-09-11",
     "infopark-378-25439": "2026-09-11",
     "infopark-378-25440": "2026-09-11",
-    "tinkerhub-events-z22iwategn": "2026-09-13",
-    "tinkerhub-events-x2pc5me0ll": "2026-09-13",
     "tinkerhub-events-rhlu15s280": "2026-09-13",
     "tinkerhub-events-t3ze047o2u": "2026-09-13",
     "infopark-530-25445": "2026-09-13",
@@ -480,7 +475,6 @@
     "infopark-105-15190": "2026-09-17",
     "infopark-105-15178": "2026-09-17",
     "infopark-105-9369": "2026-09-17",
-    "tinkerhub-events-nv1i4w9zjm": "2026-09-17",
     "infopark-352-25510": "2026-09-17",
     "infopark-380-25509": "2026-09-17",
     "infopark-4-25512": "2026-09-17",
@@ -528,7 +522,18 @@
     "infopark-168-22697": "2026-09-18",
     "infopark-476-20022": "2026-09-18",
     "infopark-168-16967": "2026-09-18",
-    "infopark-168-15904": "2026-09-18"
+    "infopark-168-15904": "2026-09-18",
+    "tinkerhub-events-dgppravtii": "2026-09-18",
+    "tinkerhub-events-xz5qofiwiv": "2026-09-18",
+    "tinkerhub-events-ayxrig2zgp": "2026-09-18",
+    "tinkerhub-events-tdonyxx4s6": "2026-09-18",
+    "tinkerhub-events-jg9s2v7din": "2026-09-18",
+    "tinkerhub-events-gkzdfe56jp": "2026-09-18",
+    "tinkerhub-events-eombn5og1l": "2026-09-18",
+    "tinkerhub-events-i8reafcqe2": "2026-09-18",
+    "infopark-109-25572": "2026-09-18",
+    "infopark-396-25570": "2026-09-18",
+    "infopark-420-25571": "2026-09-18"
   },
   "lastCounts": {
     "infopark-jobs": 465,
@@ -545,6 +550,6 @@
     "paytm-payments-kochi-lever": 7,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 6
+    "tinkerhub-events": 11
   }
 }

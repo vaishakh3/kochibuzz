@@ -258,62 +258,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-nv1i4w9zjm",
-    "title": "Nights & Weekends - Founder Session",
-    "start": "2026-09-18",
-    "end": "2026-09-18",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "startup",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Hey everyone, John Paul, Founder & CEO of Maya, will be joining our Nights & Weekends weekly session tomorrow at 7 PM at TinkerSpace, Kochi. John built Maya, a global women’s health app that has reached 10M+ women worldwide. He has been building and scaling consumer products for ",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/NV1I4W9ZJM/nights-weekends-founder-session",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/NV1I4W9ZJM/nights-weekends-founder-session"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-17"
-  },
-  {
-    "id": "tinkerhub-events-z22iwategn",
-    "title": "AIBoomi Demo Room",
-    "start": "2026-09-18",
-    "end": "2026-09-18",
-    "startTime": "16:00",
-    "endTime": "19:00",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Demo Room is a curated space for AI-native founders to demo their product live, in front of a small room of serious builders. ​This is not a pitch competition. This is not a networking mixer. This is a room for peer-peer learning. ​What Makes Demo Room Different ​Demo Room is a c",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/Z22IWATEGN/aiboomi-demo-room",
-    "registerUrl": "https://luma.com/DemoRoomKochi",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/Z22IWATEGN/aiboomi-demo-room",
-      "https://luma.com/DemoRoomKochi"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
-  },
-  {
     "id": "codex-community-hackathon-calicut",
     "title": "Codex Community Hackathon - Calicut",
     "start": "2026-09-19",
@@ -341,35 +285,6 @@
       "luma-kochi"
     ],
     "firstSeenAt": "2026-08-25"
-  },
-  {
-    "id": "tinkerhub-events-x2pc5me0ll",
-    "title": "Gen ai unlocked",
-    "start": "2026-09-19",
-    "end": "2026-09-19",
-    "startTime": "09:00",
-    "endTime": "15:30",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Gen AI Unlocked is a beginner-friendly, hands-on learning program designed to help students explore the world of Generative AI. Across four sessions led by experienced mentors, participants will discover different areas of Gen AI, experiment with tools and ideas, and work on prac",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/X2PC5ME0LL/gen-ai-unlocked",
-    "registerUrl": "https://fossclubceknpy-sandy.vercel.app/",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/X2PC5ME0LL/gen-ai-unlocked",
-      "https://fossclubceknpy-sandy.vercel.app/"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-13"
   },
   {
     "id": "tinkerhub-events-m62lf4mvvt",
@@ -525,6 +440,33 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "tinkerhub-events-dgppravtii",
+    "title": "Maker Thursday",
+    "start": "2026-10-01",
+    "end": "2026-10-01",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Maker Thursday: Community Meetup This week Maker Thursday is an open evening rather than a session. No talk, no agenda, just the people who turn up and whatever they're working on. Bring a project and work on it in the room. See what everyone else has going. Catch up with people ",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/DGPPRAVTII/maker-thursday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/DGPPRAVTII/maker-thursday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
     "id": "c0c0n-2026",
     "title": "c0c0n 2026",
     "start": "2026-10-06",
@@ -545,6 +487,168 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "tinkerhub-events-xz5qofiwiv",
+    "title": "Maker Thursday",
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Maker Thursday: Getting Into MotorsMaker Thursday: Getting Into Motors A look at how motors actually work, and how to pick the right one for what you're building. We'll go through the main types you A look at how motors actually work, and how to pick the right one for what you're",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/XZ5QOFIWIV/maker-thursday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/XZ5QOFIWIV/maker-thursday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-ayxrig2zgp",
+    "title": "Repair Cafe",
+    "start": "2026-10-11",
+    "end": "2026-10-11",
+    "startTime": "16:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Repair Café at TinkerSpace Got something broken lying around? Bring it in and let's try to fix it together. Or if you just want to get your hands dirty, come tear something down and see how it works inside. An open afternoon of fixing, tinkering, and figuring out what makes thing",
+    "tags": [
+      "TinkerHub",
+      "Bootcamp",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/AYXRIG2ZGP/repair-cafe",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/AYXRIG2ZGP/repair-cafe"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-tdonyxx4s6",
+    "title": "AI Wednesday",
+    "start": "2026-10-14",
+    "end": "2026-10-14",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "ai",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "AI Wednesday: Running Open Models on Hardware Most AI runs somewhere in a data centre. This session is about the other option: getting open models running on hardware you can hold. We'll look at what actually fits on a Raspberry Pi, a Jetson, or an ESP32, and where each one runs ",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/TDONYXX4S6/ai-wednesday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/TDONYXX4S6/ai-wednesday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-jg9s2v7din",
+    "title": "Maker Thursday",
+    "start": "2026-10-15",
+    "end": "2026-10-15",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Maker Thursday: Exploring RTOS An introduction to real-time operating systems, and why they show up once an embedded project outgrows a simple loop. We'll start with what a real-time OS actually is and what makes it different from the loop() you're used to. Tasks and scheduling, ",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/JG9S2V7DIN/maker-thursday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/JG9S2V7DIN/maker-thursday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-gkzdfe56jp",
+    "title": "Tinkering with Freecad",
+    "start": "2026-10-18",
+    "end": "2026-10-18",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "category": "opensource",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Tinkering with FreeCAD An introduction to FreeCAD, the free and open source CAD tool, for anyone who wants to start designing parts of their own. We'll find our way around the interface, sketch a simple part, and turn it into a 3D model. Along the way we'll cover parametric desig",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/GKZDFE56JP/tinkering-with-freecad",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/GKZDFE56JP/tinkering-with-freecad"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-eombn5og1l",
+    "title": "Maker Thursday",
+    "start": "2026-10-22",
+    "end": "2026-10-22",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Maker Thursday: Come Showcase Your Projects Bring whatever you've been building and put it on the table. Finished, half-working, or still a mess of jumper wires, it all counts. Talk through what you made, what broke along the way, and what you're stuck on. Someone in the room has",
+    "tags": [
+      "TinkerHub",
+      "Bootcamp",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/EOMBN5OG1L/maker-thursday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/EOMBN5OG1L/maker-thursday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
   },
   {
     "id": "codex-meetup-kochi-founders",
@@ -572,6 +676,33 @@
       "luma-kochi"
     ],
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "tinkerhub-events-i8reafcqe2",
+    "title": "Maker Thursday",
+    "start": "2026-10-29",
+    "end": "2026-10-29",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Maker Thursday: How Does a Lighter Work? You've used one a hundred times. This week we take it apart. A lighter packs a surprising amount of engineering into something you'd throw away without a thought. The piezo element that makes a spark from a click, the valve metering out ga",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/I8REAFCQE2/maker-thursday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/I8REAFCQE2/maker-thursday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-18"
   },
   {
     "id": "huddle-global-2026",
