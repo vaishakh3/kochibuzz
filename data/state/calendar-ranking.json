@@ -1,14 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-10-06": {
-      "signature": "d14d53e694257e18b9f2fedddc3c7ce4c88972028929849f8ae2222f53637126",
-      "eventId": "c0c0n-2026",
-      "reason": "A major Kochi cybersecurity conference with training, CTFs and live security activities.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-19T11:04:52.144Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 433,

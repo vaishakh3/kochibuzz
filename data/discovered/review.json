@@ -21,26 +21,6 @@
   },
   {
     "candidate": {
-      "title": "PIVOT 2026 — Deep Tech Startup Summit",
-      "start": "2026-09-18",
-      "end": "2026-09-19",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
-      "city": "Kochi",
-      "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit for founders, mentors and investors, with prototype-focused sessions, investor feedback and a demo floor.",
-      "categoryHint": "startup founders; technology",
-      "evidenceUrl": "https://pivot26.suit.iimklive.org/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-16"
-  },
-  {
-    "candidate": {
       "title": "Maker Thursday",
       "start": "2026-11-20",
       "end": null,
@@ -86,18 +66,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue to be announced, Kochi",
-      "city": "Kochi, Kerala, India",
+      "venue": "Venue to be announced by the organizer",
+      "city": "Kochi",
       "organizer": "IEEE Entrepreneurship",
-      "description": "In-person entrepreneurship workshop covering ownership, funding, partnerships and organizational growth, with mentoring and idea pitches.",
-      "categoryHint": "startup; entrepreneurship; product",
+      "description": "In-person workshop for Indian and Sri Lankan technology startups covering commercialization, ownership, funding, partnerships and organizational growth. Applications are due by 2026-10-16.",
+      "categoryHint": "startup workshop",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-17"
+    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
@@ -106,18 +86,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala, India",
+      "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "A four-day gathering for founders featuring learning, networking and community activities.",
-      "categoryHint": "startup founder",
+      "description": "Founder-focused conclave with conference sessions, workshops, networking and commencement activities.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
       "confidence": 0.96
     },
-    "reason": "Official page could not be fetched: TimeoutError: The operation was aborted due to timeout",
-    "discoveredAt": "2026-09-17"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
@@ -218,26 +198,6 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-02"
-  },
-  {
-    "candidate": {
-      "title": "PIVOT 2026 – Where Ideas Meet Opportunities",
-      "start": "2026-09-18",
-      "end": "2026-09-19",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Lulu Twin Towers, Kakkanad",
-      "city": "Kochi",
-      "organizer": "IIMK LIVE",
-      "description": "Deep-tech startup summit with startups, founders, investors, innovators and industry leaders.",
-      "categoryHint": "startup/deep tech",
-      "evidenceUrl": "https://www.linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.98
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-16"
   },
   {
     "candidate": {
@@ -441,26 +401,6 @@
   },
   {
     "candidate": {
-      "title": "PIVOT 2026 — Deep Tech Startup Summit",
-      "start": "2026-09-18",
-      "end": "2026-09-19",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "IIMK LIVE",
-      "description": "Two-day deep-tech startup summit.",
-      "categoryHint": "startup/deep tech",
-      "evidenceUrl": "https://pivot26.suit.iimklive.org/agenda",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-10"
-  },
-  {
-    "candidate": {
       "title": "Useless Projects",
       "start": "2026-11-04",
       "end": null,
@@ -518,26 +458,6 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-10"
-  },
-  {
-    "candidate": {
-      "title": "PIVOT 2026 — IIMK LIVE Deep Tech Summit",
-      "start": "2026-09-18",
-      "end": "2026-09-19",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Amenity Tower Auditorium, Lulu IT Twin Towers, SmartCity Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "IIMK LIVE",
-      "description": "Two-day deep-tech startup summit for founders, mentors and investors, covering AI, hardware, climate, bio, space and robotics.",
-      "categoryHint": "startup/deep tech conference",
-      "evidenceUrl": "https://pivot26.suit.iimklive.org/about",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-11"
   },
   {
     "candidate": {
@@ -1001,62 +921,82 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology event focused on Gemini, agentic AI, Google Cloud, cloud architecture and AI systems.",
-      "categoryHint": "AI, cloud, technology, product",
+      "description": "Technology community event covering Gemini, AI agents and Google Cloud.",
+      "categoryHint": "technology",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.9
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-19"
+    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Boot Camp",
+      "title": "HAC'KP 2026 Boot Camp",
       "start": "2026-10-05",
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Crowne Plaza Kochi",
+      "venue": "Crowne Plaza",
       "city": "Kochi",
-      "organizer": "Kerala Police Cyberdome",
-      "description": "Residential technology innovation boot camp for the top 50 Hac'KP 2026 innovators, focused on agentic AI for investigations.",
-      "categoryHint": "technology/startup",
+      "organizer": "HAC'KP 2026",
+      "description": "Residential hackathon finale and boot camp for shortlisted teams, focused on agentic AI for investigations.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hackp.kerala.gov.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-19"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
       "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
-      "start": "2026-10-31",
+      "start": "2026-10-25",
       "end": "2026-10-31",
       "startTime": null,
       "endTime": null,
       "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "Odoo",
-      "description": "Public hackathon with a virtual 8-hour coding round from 9:00 AM to 5:00 PM. The official page states that registration is free and mandatory and allows teams of one to four members.",
-      "categoryHint": "coding hackathon",
+      "description": "Hackathon with an in-person Kochi round on October 25, 2026 and a virtual coding round on October 31, 2026.",
+      "categoryHint": "maker / technology",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
-      "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.86
+      "confidence": 0.88
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-19"
+    "discoveredAt": "2026-09-20"
+  },
+  {
+    "candidate": {
+      "title": "KCD Kochi 2026",
+      "start": "2026-10-11",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Cloud Native Computing Group Kochi (CNCG Kochi)",
+      "description": "Second event day; the official page identifies KCD Kochi 2026 as a CNCF-supported, open-source-focused event.",
+      "categoryHint": "open source",
+      "evidenceUrl": "https://kcd.cncgkochi.in/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-20"
   }
 ]
