@@ -289,6 +289,28 @@
       "firstSeenAt": "2026-08-25"
     },
     {
+      "id": "web-dev-days-kochi-india-48ba4074c4",
+      "title": "Dev Days | Kochi, India",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "category": "ai",
+      "venue": "Jain University Kochi",
+      "city": "Kochi",
+      "organizer": "Dev Days, Anuraj Parameswaran",
+      "blurb": "Dev Days is a global, in-person community-led initiative taking place from September 1st - October 31st, 2026.",
+      "tags": [],
+      "url": "https://luma.com/xoxsnozt",
+      "sourceUrls": [
+        "https://luma.com/xoxsnozt"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-19"
+    },
+    {
       "id": "indiafoss-2026",
       "title": "IndiaFOSS 2026",
       "start": "2026-09-26",
@@ -386,6 +408,27 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "web-hac-kp-2026-boot-camp-3907f0fff1",
+      "title": "HAC’KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "category": "hackathon",
+      "venue": "Rajagiri College of Social Sciences, Kochi",
+      "city": "Kochi",
+      "organizer": "Kerala Police Cyberdome",
+      "blurb": "On-site hackathon boot camp focused on final solution integration, mentoring, evaluation and product showcase.",
+      "tags": [],
+      "url": "https://hackp.kerala.gov.in/schedule",
+      "registerUrl": "https://hackp.kerala.gov.in/",
+      "sourceUrls": [
+        "https://hackp.kerala.gov.in/schedule"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-19"
     },
     {
       "id": "tinkerhub-events-xz5qofiwiv",
@@ -700,26 +743,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-final-round-e78e5f8f79",
-      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
-      "start": "2026-12-19",
-      "end": "2026-12-20",
-      "category": "hackathon",
-      "venue": "Institute campus; exact campus not specified on the cited page",
-      "city": "Kochi",
-      "organizer": "Odoo and Make-A-Ton",
-      "blurb": "Twenty-four-hour coding marathon final round for selected teams. The cited page identifies Kochi in the event title and provides the final-round dates, but does not state the exact venue.",
-      "tags": [],
-      "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
-      "sourceUrls": [
-        "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-19"
     }
   ]
 }

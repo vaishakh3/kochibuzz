@@ -126,18 +126,18 @@
       "end": "2026-10-10",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
-      "city": "Kochi, Kerala",
+      "venue": "Grand Hyatt Bolgatty",
+      "city": "Kochi",
       "organizer": "c0c0n",
-      "description": "Cybersecurity conference covering cybersecurity, information security, AI security, security operations and cyber resilience.",
-      "categoryHint": "security, AI",
+      "description": "Cybersecurity conference covering AI security, agentic AI, software supply-chain security, application security and DevSecOps.",
+      "categoryHint": "Cybersecurity, AI security, cloud security",
       "evidenceUrl": "https://in.linkedin.com/company/c0c0nconference",
-      "registrationUrl": "https://c0c0n.org/2026",
+      "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.95
+      "confidence": 0.92
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-08"
+    "discoveredAt": "2026-09-19"
   },
   {
     "candidate": {
@@ -241,23 +241,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 Post-Conference Trainings",
-      "start": "2026-10-11",
-      "end": "2026-10-13",
+      "title": "c0c0n 2026 Pre-Conference Trainings",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
       "venue": "Grand Hyatt, Bolgatty, Kochi",
       "city": "Kochi",
-      "organizer": "Kerala Police and Information Security Research Association (ISRA), with partners",
-      "description": "Publicly listed cybersecurity training programme associated with c0c0n 2026. Registration is listed on the official event page.",
-      "categoryHint": "developer workshop",
+      "organizer": "Kerala Police and Information Security Research Association (ISRA)",
+      "description": "Publicly registered cybersecurity training programme associated with c0c0n 2026. The official registration page lists the exact dates, venue and registration availability.",
+      "categoryHint": "developer/security workshop",
       "evidenceUrl": "https://www.c0c0n.org/register",
       "registrationUrl": "https://www.c0c0n.org/register",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-09-19"
   },
   {
     "candidate": {
@@ -701,23 +701,23 @@
   },
   {
     "candidate": {
-      "title": "Gartner IT Symposium/Xpo™ 2026",
+      "title": "Gartner IT Symposium/Xpo 2026",
       "start": "2026-11-16",
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not specified on the public event page",
+      "venue": "Grand Hyatt Kochi Bolgatty",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "IT leadership conference covering AI, emerging technology, technology strategy and digital transformation.",
-      "categoryHint": "Technology conference",
+      "description": "Conference for CIOs and technology executives covering AI, cloud FinOps, data and analytics, cybersecurity, emerging technology and digital transformation.",
+      "categoryHint": "AI, data, cloud, cybersecurity, enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/conferences/apac/symposium-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.93
+      "confidence": 0.99
     },
-    "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-15"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-19"
   },
   {
     "candidate": {
@@ -1001,23 +1001,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": null,
+      "end": "2026-11-14",
       "startTime": null,
       "endTime": null,
       "venue": "Holiday Inn Cochin, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day developer event focused on Gemini, AI agents and Google Cloud, with talks, networking and hands-on learning.",
-      "categoryHint": "Google Cloud / AI / Developer conference",
+      "description": "Technology event focused on Gemini, agentic AI, Google Cloud, cloud architecture and AI systems.",
+      "categoryHint": "AI, cloud, technology, product",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-18"
+    "discoveredAt": "2026-09-19"
   },
   {
     "candidate": {
@@ -1035,6 +1035,26 @@
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-19"
+  },
+  {
+    "candidate": {
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Odoo",
+      "description": "Public hackathon with a virtual 8-hour coding round from 9:00 AM to 5:00 PM. The official page states that registration is free and mandatory and allows teams of one to four members.",
+      "categoryHint": "coding hackathon",
+      "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceKind": "official_event_page",
+      "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-19"
