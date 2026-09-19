@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-09-19": {
-      "signature": "1acc0bddaeb29207ac4fcd548ae85a455814b599b6de330a88fa86952a0a299a",
-      "eventId": "web-dev-days-kochi-india-48ba4074c4",
-      "reason": "A confirmed Kochi-based developer event with city relevance, unlike the competing listing in Kozhikode.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-19T14:27:50.166Z"
-    },
     "2026-10-06": {
       "signature": "d14d53e694257e18b9f2fedddc3c7ce4c88972028929849f8ae2222f53637126",
       "eventId": "c0c0n-2026",
