@@ -1,9 +1,9 @@
 {
-  "lastRunAt": "2026-09-19T23:10:21.804Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-20T12:26:08.005Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
-    "https://hackp.kerala.gov.in/schedule": "2026-09-19",
+    "https://hackp.kerala.gov.in/schedule": "2026-09-20",
     "https://cochinnano.cusat.ac.in/registration": "2026-09-04",
     "https://pivot26.suit.iimklive.org/": "2026-09-16",
     "https://echai.ventures/kochi": "2026-09-02",
@@ -73,18 +73,19 @@
     "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16",
     "https://10times.com/kochi-in?radius=50": "2026-09-16",
     "https://luma.com/xoxsnozt": "2026-09-19",
-    "https://futurekerala.org.in/ideafest": "2026-09-19",
+    "https://futurekerala.org.in/ideafest": "2026-09-20",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-09-17",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-20",
     "https://luma.com/fivtwyix": "2026-09-18",
     "https://hackp.kerala.gov.in/finale": "2026-09-20",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-20",
-    "https://kcd.cncgkochi.in/": "2026-09-20"
+    "https://kcd.cncgkochi.in/": "2026-09-20",
+    "https://luma.com/ndjvmw7w": "2026-09-20"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28897,
-    "outputTokens": 1674
+    "inputTokens": 28690,
+    "outputTokens": 850
   }
 }

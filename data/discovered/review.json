@@ -901,23 +901,23 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
+      "title": "IdeaFest 2026 — Inter-College and Inter-School Final Presentations",
       "start": "2026-10-09",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Not specified on the cited page; connected with Future Kochi Conclave 2026",
-      "city": "Kochi",
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "Future Kerala Mission of JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
-      "description": "Youth innovation competition on urban and societal challenges in Kochi. The cited page gives the event date and Kochi connection but does not state a precise venue.",
-      "categoryHint": "startup/innovation",
+      "description": "Youth innovation competition featuring final presentations, judging and winner announcement for ideas addressing urban and societal challenges in Kochi.",
+      "categoryHint": "innovation; startup; creative-tech",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.97
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-19"
+    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
@@ -941,22 +941,22 @@
   },
   {
     "candidate": {
-      "title": "HAC'KP 2026 Boot Camp",
+      "title": "Hac'KP 2026 Boot Camp",
       "start": "2026-10-05",
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Crowne Plaza",
-      "city": "Kochi",
-      "organizer": "HAC'KP 2026",
-      "description": "Residential hackathon finale and boot camp for shortlisted teams, focused on agentic AI for investigations.",
-      "categoryHint": "hackathon",
+      "venue": "Crowne Plaza Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Hac'KP 2026 / Kerala Police Cyberdome",
+      "description": "Residential technology boot camp for shortlisted innovators, focused on agentic AI for investigations, with mentoring, solution integration and product showcase.",
+      "categoryHint": "technology; AI; cybersecurity; startup",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
-      "registrationUrl": "https://hackp.kerala.gov.in/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
-    "reason": "This is already covered by an existing calendar event.",
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-20"
   },
   {
@@ -995,6 +995,26 @@
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-20"
+  },
+  {
+    "candidate": {
+      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "start": "2026-10-17",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace Kochi, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "Qiskit Fall Fest 2026 organizers",
+      "description": "Hands-on quantum-computing innovation challenge bringing together students, developers, researchers and technology enthusiasts.",
+      "categoryHint": "technology / hackathon / quantum computing",
+      "evidenceUrl": "https://luma.com/ndjvmw7w",
+      "registrationUrl": "https://luma.com/ndjvmw7w",
+      "sourceKind": "official_event_page",
+      "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-20"

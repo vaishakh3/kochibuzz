@@ -366,26 +366,6 @@
       "firstSeenAt": "2026-09-18"
     },
     {
-      "id": "web-founder-being-launchpad-cohort-1-96f25d9ab1",
-      "title": "Founder-Being LaunchPad Cohort 1",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "category": "startup",
-      "venue": "Kochi, Kerala, India",
-      "city": "Kochi",
-      "organizer": "Founder-Being",
-      "blurb": "Sixteen-week venture-building programme for young founders; the programme page states that the cohort starts on October 4, 2026.",
-      "tags": [],
-      "url": "https://founderbeinglaunchpad.com/",
-      "sourceUrls": [
-        "https://founderbeinglaunchpad.com/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-20"
-    },
-    {
       "id": "c0c0n-2026",
       "title": "c0c0n 2026",
       "start": "2026-10-06",
@@ -433,6 +413,26 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-09-18"
+    },
+    {
+      "id": "web-hac-kp-2026-awards-and-prize-distribution-3907f0fff1",
+      "title": "Hac'KP 2026 Awards and Prize Distribution",
+      "start": "2026-10-09",
+      "end": "2026-10-09",
+      "category": "ai",
+      "venue": "c0c0n Conference venue, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Hac'KP 2026 / Kerala Police Cyberdome",
+      "blurb": "Awards and prize distribution for Hac'KP 2026 participants during the opening ceremony of c0c0n 2026.",
+      "tags": [],
+      "url": "https://hackp.kerala.gov.in/schedule",
+      "sourceUrls": [
+        "https://hackp.kerala.gov.in/schedule"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-20"
     },
     {
       "id": "tinkerhub-events-ayxrig2zgp",
@@ -720,28 +720,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
-      "title": "Dhanam BFSI Summit & Award Nite 2026",
-      "start": "2026-11-25",
-      "end": "2026-11-25",
-      "startTime": "09:30",
-      "endTime": "21:30",
-      "category": "startup",
-      "venue": "Le Méridien",
-      "city": "Kochi",
-      "organizer": "Dhanam",
-      "blurb": "BFSI summit and awards event with an entrepreneurship and business-technology focus.",
-      "tags": [],
-      "url": "https://dhanambfsisummit.com/",
-      "sourceUrls": [
-        "https://dhanambfsisummit.com/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-20"
     }
   ]
 }
