@@ -313,6 +313,29 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-ccd-pre-event-where-is-the-meaning",
+    "title": "[CCD Pre-Event] Where is the Meaning?",
+    "start": "2026-09-27",
+    "end": "2026-09-27",
+    "startTime": "10:00",
+    "endTime": "16:30",
+    "category": "ai",
+    "venue": "Jain University Kochi",
+    "city": "Kochi",
+    "organizer": "Google Developer Groups",
+    "blurb": "Ever wondered where “meaning” lives inside an AI model? Join GDG Cloud Kochi for Where is the Meaning?, a hands-on exploration of how machines transform language into numbers, compare ideas, and retrieve relevant information.",
+    "tags": [],
+    "url": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-ccd-pre-event-where-is-the-meaning/",
+    "registerUrl": "https://forms.gle/mzCVcpZiQ2edabid9",
+    "sourceUrls": [
+      "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-ccd-pre-event-where-is-the-meaning/"
+    ],
+    "sourceIds": [
+      "gdg-cloud-kochi"
+    ],
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "iedc-summit-2026",
     "title": "IEDC Summit 2026",
     "start": "2026-09-28",
@@ -411,6 +434,28 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "codex-community-luma-evt-m5dj827u7qrr5y1-events-lu-ma",
+    "title": "DevDay Exchange Community Hackathon: Kochi",
+    "start": "2026-10-10",
+    "end": "2026-10-11",
+    "startTime": "18:00",
+    "endTime": "09:00",
+    "category": "hackathon",
+    "venue": "Jain University Kochi",
+    "city": "Unknown",
+    "organizer": "Vaishakh Suresh",
+    "blurb": "Get up-to-date information at: https://luma.com/z10nz8gp Address: Jain University Kochi Kochi, India Hosted by Vaishakh Suresh & Rhiannon Payne",
+    "tags": [],
+    "url": "https://luma.com/z10nz8gp",
+    "sourceUrls": [
+      "https://luma.com/z10nz8gp"
+    ],
+    "sourceIds": [
+      "codex-community-luma"
+    ],
+    "firstSeenAt": "2026-09-22"
   },
   {
     "id": "tinkerhub-events-ayxrig2zgp",
