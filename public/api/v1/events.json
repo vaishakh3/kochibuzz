@@ -415,26 +415,6 @@
       "firstSeenAt": "2026-09-18"
     },
     {
-      "id": "web-hac-kp-2026-awards-and-prize-distribution-3907f0fff1",
-      "title": "Hac'KP 2026 Awards and Prize Distribution",
-      "start": "2026-10-09",
-      "end": "2026-10-09",
-      "category": "ai",
-      "venue": "c0c0n Conference venue, Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Hac'KP 2026 / Kerala Police Cyberdome",
-      "blurb": "Awards and prize distribution for Hac'KP 2026 participants during the opening ceremony of c0c0n 2026.",
-      "tags": [],
-      "url": "https://hackp.kerala.gov.in/schedule",
-      "sourceUrls": [
-        "https://hackp.kerala.gov.in/schedule"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-09-20"
-    },
-    {
       "id": "tinkerhub-events-ayxrig2zgp",
       "title": "Repair Cafe",
       "start": "2026-10-11",

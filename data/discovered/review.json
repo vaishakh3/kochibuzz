@@ -89,15 +89,15 @@
       "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Founder-focused conclave with conference sessions, workshops, networking and commencement activities.",
-      "categoryHint": "startup founders",
+      "description": "Four-day gathering of founders featuring learning, connection, networking and celebration.",
+      "categoryHint": "startup; founders; entrepreneurship",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": "https://stnsa.org/conclave",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-20"
+    "discoveredAt": "2026-09-21"
   },
   {
     "candidate": {
@@ -121,23 +121,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026",
-      "start": "2026-10-06",
+      "title": "c0c0n 2026 — Post-Conference Training",
+      "start": "2026-10-11",
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi",
       "organizer": "c0c0n",
-      "description": "Cybersecurity and hacking event comprising pre-conference training from October 6–8, the main conference from October 9–10, and post-conference training from October 11–13, 2026.",
-      "categoryHint": "Cybersecurity / technology conference",
+      "description": "Hands-on cybersecurity and hacking training held after the main c0c0n conference.",
+      "categoryHint": "technology; cybersecurity; training",
       "evidenceUrl": "https://www.c0c0n.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-08"
+    "discoveredAt": "2026-09-21"
   },
   {
     "candidate": {
@@ -901,23 +901,23 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026 — Inter-College and Inter-School Final Presentations",
+      "title": "IdeaFest 2026",
       "start": "2026-10-09",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
-      "description": "Youth innovation competition featuring final presentations, judging and winner announcement for ideas addressing urban and societal challenges in Kochi.",
-      "categoryHint": "innovation; startup; creative-tech",
+      "city": "Kochi",
+      "organizer": "Future Kerala Mission, JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
+      "description": "Youth-focused innovation competition addressing urban and societal challenges in Kochi, with final presentations, judging and winner announcement.",
+      "categoryHint": "innovation; entrepreneurship; creative technology",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-20"
+    "discoveredAt": "2026-09-21"
   },
   {
     "candidate": {
@@ -947,17 +947,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Crowne Plaza Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Hac'KP 2026 / Kerala Police Cyberdome",
-      "description": "Residential technology boot camp for shortlisted innovators, focused on agentic AI for investigations, with mentoring, solution integration and product showcase.",
-      "categoryHint": "technology; AI; cybersecurity; startup",
+      "city": "Kochi",
+      "organizer": "Hac'KP 2026",
+      "description": "Residential technology hackathon boot camp for the top 50 innovators, focused on agentic AI for investigations.",
+      "categoryHint": "technology; hackathon; AI",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-20"
+    "discoveredAt": "2026-09-21"
   },
   {
     "candidate": {
