@@ -588,16 +588,16 @@
       "endTime": null,
       "venue": "Grand Hyatt, Bolgatty",
       "city": "Kochi",
-      "organizer": "c0c0n Conference",
-      "description": "Cybersecurity technology conference.",
-      "categoryHint": "cybersecurity / technology conference",
-      "evidenceUrl": "https://www.kochi.buzz/digest",
+      "organizer": "c0c0n",
+      "description": "Technology and cybersecurity event.",
+      "categoryHint": "cybersecurity / developer",
+      "evidenceUrl": "https://kochi.buzz/digest",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.8
+      "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-14"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -901,23 +901,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "venue": "Not stated in the available public evidence",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology event focused on Gemini, agentic AI, Google Cloud, cloud architecture, AI agents and AI applications.",
-      "categoryHint": "AI, cloud, developer technology",
+      "description": "Full-day event focused on Gemini, AI agents and Google Cloud, featuring Googlers, Google Developer Experts and engineers working on AI in production.",
+      "categoryHint": "developer / cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com",
+      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.86
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -1021,22 +1021,42 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship Workshop",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
+      "title": "ANCHORAGE'26",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Ernakulam; exact venue not stated on the cited page",
-      "city": "Kochi, Ernakulam, Kerala, India",
-      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
-      "description": "A two-day workshop for early-stage founders and academic entrepreneurs covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
-      "categoryHint": "startup/founder",
+      "venue": "Department of Ship Technology, Cochin University of Science and Technology",
+      "city": "Kalamassery, Ernakulam, Kerala",
+      "organizer": "Department of Ship Technology, Cochin University of Science and Technology",
+      "description": "Annual technology fest featuring competitions, sessions and shows.",
+      "categoryHint": "technology / creative-tech / student fest",
       "evidenceUrl": "https://arinjo.in/",
+      "registrationUrl": "https://arinjo.in/",
+      "sourceKind": "organizer_page",
+      "confidence": 0.86
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-23"
+  },
+  {
+    "candidate": {
+      "title": "[CCD Pre-Event] Where is the Meaning?",
+      "start": "2026-09-27",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not stated in the available public evidence",
+      "city": "Kochi",
+      "organizer": "GDG Cloud Kochi",
+      "description": "Hands-on exploration of how machines transform language into numerical representations, compare ideas, and retrieve relevant information.",
+      "categoryHint": "developer / AI",
+      "evidenceUrl": "https://gdg.community.dev/gdg-cloud-kochi/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.74
+      "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-22"
+    "discoveredAt": "2026-09-23"
   }
 ]

@@ -1,39 +1,20 @@
 [
   {
-    "id": "web-startup-dangal-kochi-roadshow-246ddd6b69",
-    "title": "Startup Dangal — Kochi Roadshow",
-    "start": "2026-11-05",
-    "end": "2026-11-05",
-    "category": "startup",
-    "venue": "Kochi; exact venue not stated on the event page",
-    "city": "Kochi, Kerala, India",
-    "organizer": "Startup Dangal",
-    "blurb": "A startup competition roadshow in Kochi where selected startups can showcase products and pitch to investors, jury members and ecosystem leaders.",
-    "tags": [],
-    "url": "https://startupdangal.com/",
-    "sourceUrls": [
-      "https://startupdangal.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ]
-  },
-  {
-    "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
-    "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
-    "start": "2026-12-19",
-    "end": "2026-12-20",
-    "startTime": "07:00",
-    "endTime": "18:00",
+    "id": "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea",
+    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "startTime": "10:00",
+    "endTime": "17:00",
     "category": "hackathon",
-    "venue": "Institute campus; exact campus name not stated on the event page",
-    "city": "Kochi, Kerala, India",
-    "organizer": "Odoo",
-    "blurb": "A 24-hour coding hackathon with a virtual round on 2026-11-19 and an in-person final round on 2026-12-19 to 2026-12-20.",
+    "venue": "TinkerSpace Kochi",
+    "city": "Kochi",
+    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
+    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
     "tags": [],
-    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "url": "https://luma.com/ndjvmw7w",
     "sourceUrls": [
-      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+      "https://luma.com/ndjvmw7w"
     ],
     "sourceIds": [
       "openai-web-discovery"
