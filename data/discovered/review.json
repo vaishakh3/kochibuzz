@@ -181,26 +181,6 @@
   },
   {
     "candidate": {
-      "title": "TinkerDay - Kochi",
-      "start": "2026-09-21",
-      "end": null,
-      "startTime": "04:30",
-      "endTime": "07:30",
-      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "TinkerHub Foundation",
-      "description": "A public, community-driven technology event for tech enthusiasts to connect, learn, share ideas and explore innovative projects.",
-      "categoryHint": "technology / maker / community",
-      "evidenceUrl": "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-02"
-  },
-  {
-    "candidate": {
       "title": "c0c0n 2026 Pre-Conference Trainings",
       "start": "2026-10-06",
       "end": "2026-10-08",
@@ -1041,42 +1021,22 @@
   },
   {
     "candidate": {
-      "title": "Fab Academy 2026 — Digital Fabrication",
-      "start": "2026-09-21",
-      "end": null,
+      "title": "IEEE Entrepreneurship Workshop",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Super Fab Lab Kochi, Kerala Technology Innovation Zone, Kalamassery, Kochi",
-      "city": "Kochi",
-      "organizer": "Super Fab Lab Kochi / Kerala Startup Mission",
-      "description": "A hands-on digital-fabrication programme covering electronics, programming, 3D printing and laser cutting. The official page states that 2027 applications are open and provides registration access; the programme is associated with Super Fab Lab Kochi.",
-      "categoryHint": "maker/digital fabrication",
-      "evidenceUrl": "https://fabacademy.fablabkerala.in/",
-      "registrationUrl": "https://fabacademy.fablabkerala.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.78
+      "venue": "Kochi, Ernakulam; exact venue not stated on the cited page",
+      "city": "Kochi, Ernakulam, Kerala, India",
+      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
+      "description": "A two-day workshop for early-stage founders and academic entrepreneurs covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
+      "categoryHint": "startup/founder",
+      "evidenceUrl": "https://arinjo.in/",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.74
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-21"
-  },
-  {
-    "candidate": {
-      "title": "IEDC Summit 2026 Workshops",
-      "start": "2026-09-21",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kerala Technology Innovation Zone, Kochi",
-      "city": "Kochi",
-      "organizer": "Kerala Startup Mission",
-      "description": "Public workshop registration is available for sessions including laser cutting, PCB designing, device-to-device communication, Agentic AI with Google ADK, and connecting remote agents with ADK/A2A SDK. The cited page confirms workshop registration and session choices, but the retrieved page does not expose an exact workshop date.",
-      "categoryHint": "technology/maker/AI workshop",
-      "evidenceUrl": "https://iedcsummit.in/workshops/register",
-      "registrationUrl": "https://iedcsummit.in/workshops/register",
-      "sourceKind": "official_event_page",
-      "confidence": 0.55
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-22"
   }
 ]

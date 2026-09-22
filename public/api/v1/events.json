@@ -676,6 +676,26 @@
       "firstSeenAt": "2026-09-18"
     },
     {
+      "id": "web-startup-dangal-kochi-roadshow-246ddd6b69",
+      "title": "Startup Dangal — Kochi Roadshow",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "category": "startup",
+      "venue": "Kochi; exact venue not stated on the event page",
+      "city": "Kochi, Kerala, India",
+      "organizer": "Startup Dangal",
+      "blurb": "A startup competition roadshow in Kochi where selected startups can showcase products and pitch to investors, jury members and ecosystem leaders.",
+      "tags": [],
+      "url": "https://startupdangal.com/",
+      "sourceUrls": [
+        "https://startupdangal.com/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-22"
+    },
+    {
       "id": "huddle-global-2026",
       "title": "Huddle Global 2026",
       "start": "2026-11-12",
@@ -745,6 +765,28 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "startTime": "07:00",
+      "endTime": "18:00",
+      "category": "hackathon",
+      "venue": "Institute campus; exact campus name not stated on the event page",
+      "city": "Kochi, Kerala, India",
+      "organizer": "Odoo",
+      "blurb": "A 24-hour coding hackathon with a virtual round on 2026-11-19 and an in-person final round on 2026-12-19 to 2026-12-20.",
+      "tags": [],
+      "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-09-22"
     }
   ]
 }
