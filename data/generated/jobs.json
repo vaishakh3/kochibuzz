@@ -1,5 +1,31 @@
 [
   {
+    "id": "infopark-266-25635",
+    "title": "Jr Graphic Designer",
+    "company": "Planet Media India ( PMIN Agency Pvt.Ltd.)",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-10-23",
+    "location": "Infopark, Kochi",
+    "category": "design",
+    "detailUrl": "https://infopark.in/company-jobs/details/266/25635",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-268-25637",
+    "title": "AI-Powered Video Editor (Entry Level / 0-1 Year Experience)- Immediate Joiners",
+    "company": "Techware Lab Pvt.Ltd",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-10-22",
+    "location": "Infopark, Kochi",
+    "category": "ai-data",
+    "detailUrl": "https://infopark.in/company-jobs/details/268/25637",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-312-25628",
     "title": "Associate - QA Engineer",
     "company": "2Base Technologies Pvt Ltd",
@@ -192,6 +218,31 @@
     "detailUrl": "https://infopark.in/company-jobs/details/480/25627",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-495-25636",
+    "title": "Computer Vision Engineer",
+    "company": "Difinity Digital",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/495/25636",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "paytm-payments-kochi-lever-ec5b5070-21e9-499c-b88e-4575fe096ad3",
+    "title": "Team Leader- Medium Merchant Business 4 - Kerala",
+    "company": "Paytm Payments",
+    "postedAt": "2026-09-22",
+    "location": "Kochi, Kerala",
+    "category": "other",
+    "detailUrl": "https://jobs.lever.co/paytmpayments/ec5b5070-21e9-499c-b88e-4575fe096ad3",
+    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
+    "sourceId": "paytm-payments-kochi-lever",
     "firstSeenAt": "2026-09-22"
   },
   {
@@ -605,19 +656,6 @@
     "location": "Infopark, Kochi",
     "category": "design",
     "detailUrl": "https://infopark.in/company-jobs/details/547/25513",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-17"
-  },
-  {
-    "id": "infopark-63-25500",
-    "title": "QA Engineer Trainee",
-    "company": "SparkSupport Infotech Pvt Ltd",
-    "postedAt": "2026-09-17",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "internship",
-    "detailUrl": "https://infopark.in/company-jobs/details/63/25500",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-17"
@@ -1494,6 +1532,19 @@
     "firstSeenAt": "2026-09-06"
   },
   {
+    "id": "infopark-378-25342",
+    "title": "Technical Lead - Salesforce",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-09-06",
+    "deadlineAt": "2026-10-22",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/25342",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-481-25339",
     "title": "Team Lead – Java Development",
     "company": "CSEIDC TECHNOLOGIES PVT LTD",
@@ -2167,6 +2218,19 @@
     "firstSeenAt": "2026-08-28"
   },
   {
+    "id": "infopark-372-25187",
+    "title": "Software Sales Executive (North Kerala)",
+    "company": "Voyon Technology Pvt Ltd",
+    "postedAt": "2026-08-27",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/372/25187",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-95-25184",
     "title": "Full Stack Developer (Angular & .NET)",
     "company": "Aabasoft Technologies India Private Limited",
@@ -2394,6 +2458,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-378-25094",
+    "title": "Senior Cybersecurity Engineer",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-08-17",
+    "deadlineAt": "2026-10-06",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/25094",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
   },
   {
     "id": "infopark-390-25112",
@@ -3069,6 +3146,19 @@
     "firstSeenAt": "2026-08-31"
   },
   {
+    "id": "infopark-372-24779",
+    "title": "Business Development Executive - UAE",
+    "company": "Voyon Technology Pvt Ltd",
+    "postedAt": "2026-07-22",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/372/24779",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-390-24782",
     "title": "Sales Intern",
     "company": "Orestes Technologies Pvt Ltd",
@@ -3551,6 +3641,19 @@
     "firstSeenAt": "2026-08-23"
   },
   {
+    "id": "infopark-189-24333",
+    "title": "AI & Data Science Trainer Cum Developer",
+    "company": "GALTech Technologies Pvt Ltd",
+    "postedAt": "2026-06-25",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "ai-data",
+    "detailUrl": "https://infopark.in/company-jobs/details/189/24333",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-85-24330",
     "title": ".NET Technical Lead",
     "company": "Techversant Infotech Pvt Ltd",
@@ -3717,6 +3820,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-10"
+  },
+  {
+    "id": "infopark-502-24117",
+    "title": "ERP Implementation Executive",
+    "company": "Cyberion Software Solutions Pvt. Ltd",
+    "postedAt": "2026-06-16",
+    "deadlineAt": "2026-10-15",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/502/24117",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
   },
   {
     "id": "infopark-68-24132",
@@ -4467,6 +4583,19 @@
     "firstSeenAt": "2026-09-14"
   },
   {
+    "id": "infopark-372-22765",
+    "title": "Software Engineer (.Net)",
+    "company": "Voyon Technology Pvt Ltd",
+    "postedAt": "2026-03-31",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/372/22765",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-168-22697",
     "title": "Student Counsellor - Overseas Education - Freshers",
     "company": "Opshore Talent Solutions Pvt.Ltd",
@@ -4543,6 +4672,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-09"
+  },
+  {
+    "id": "infopark-529-22364",
+    "title": "Software Engineer",
+    "company": "Distinct Infotech Solutions",
+    "postedAt": "2026-03-06",
+    "deadlineAt": "2026-09-25",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/529/22364",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
   },
   {
     "id": "zaintech-workable-bcf7984a34",
@@ -4931,6 +5073,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "infopark-372-21522",
+    "title": "Implementation/ Product Support Executive",
+    "company": "Voyon Technology Pvt Ltd",
+    "postedAt": "2026-01-08",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/372/21522",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
   },
   {
     "id": "infopark-85-21505",
