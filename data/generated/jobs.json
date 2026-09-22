@@ -26,6 +26,19 @@
     "firstSeenAt": "2026-09-22"
   },
   {
+    "id": "infopark-296-25641",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-23",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25641",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-312-25628",
     "title": "Associate - QA Engineer",
     "company": "2Base Technologies Pvt Ltd",
@@ -99,6 +112,19 @@
     "location": "Infopark, Kochi",
     "category": "other",
     "detailUrl": "https://infopark.in/company-jobs/details/312/25634",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-312-25646",
+    "title": "Sr. UI/UX Designer",
+    "company": "2Base Technologies Pvt Ltd",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-22",
+    "location": "Infopark, Kochi",
+    "category": "design",
+    "detailUrl": "https://infopark.in/company-jobs/details/312/25646",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-22"
@@ -208,6 +234,19 @@
     "firstSeenAt": "2026-09-22"
   },
   {
+    "id": "infopark-363-25643",
+    "title": "WordPress Developer",
+    "company": "Jachoos Technologies Private Limited",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-25",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/363/25643",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-480-25627",
     "title": "Digital Marketing Intern",
     "company": "CloudHouse Technologies Pvt.Ltd",
@@ -221,6 +260,32 @@
     "firstSeenAt": "2026-09-22"
   },
   {
+    "id": "infopark-480-25642",
+    "title": "Software Tester Intern",
+    "company": "CloudHouse Technologies Pvt.Ltd",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-29",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/480/25642",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-482-25638",
+    "title": "Junior Security Test Engineer",
+    "company": "YOUGotaGift Pvt Ltd",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-10-22",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/482/25638",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
     "id": "infopark-495-25636",
     "title": "Computer Vision Engineer",
     "company": "Difinity Digital",
@@ -229,6 +294,58 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/495/25636",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-51-25645",
+    "title": "Software Developer",
+    "company": "Braddock Infotech Pvt. Ltd",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/51/25645",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-58-25640",
+    "title": "Team Lead – Content",
+    "company": "Nuvento Systems Private Limited",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-10-13",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/58/25640",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-58-25644",
+    "title": "HR Trainee – Payroll & Statutory Compliance",
+    "company": "Nuvento Systems Private Limited",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-10-14",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/58/25644",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "infopark-95-25639",
+    "title": "Document Digitization Assistant",
+    "company": "Aabasoft Technologies India Private Limited",
+    "postedAt": "2026-09-22",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/95/25639",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-22"
@@ -254,19 +371,6 @@
     "location": "Infopark, Kochi",
     "category": "internship",
     "detailUrl": "https://infopark.in/company-jobs/details/148/25616",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-21"
-  },
-  {
-    "id": "infopark-296-25618",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-09-21",
-    "deadlineAt": "2026-09-22",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25618",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-21"
@@ -912,7 +1016,7 @@
     "title": "Website QA Engineer Intern",
     "company": "NewAgeSys Solutions (P) Ltd",
     "postedAt": "2026-09-14",
-    "deadlineAt": "2026-09-22",
+    "deadlineAt": "2026-09-23",
     "location": "Infopark, Kochi",
     "category": "internship",
     "detailUrl": "https://infopark.in/company-jobs/details/109/25456",
@@ -1374,19 +1478,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-08"
-  },
-  {
-    "id": "infopark-481-25375",
-    "title": "QA Engineer (Immediate Joiner)",
-    "company": "CSEIDC TECHNOLOGIES PVT LTD",
-    "postedAt": "2026-09-08",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/481/25375",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-20"
   },
   {
     "id": "infopark-68-25379",
@@ -5826,19 +5917,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-15"
-  },
-  {
-    "id": "infopark-95-19431",
-    "title": "Internship - Flutter Development (Kannur Location)",
-    "company": "Aabasoft Technologies India Private Limited",
-    "postedAt": "2025-07-01",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "internship",
-    "detailUrl": "https://infopark.in/company-jobs/details/95/19431",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
   },
   {
     "id": "infopark-171-19377",
