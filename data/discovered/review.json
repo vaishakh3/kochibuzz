@@ -61,23 +61,23 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship 102 Kerala Workshop",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
+      "title": "IEEE Entrepreneurship 102 India Workshops",
+      "start": "2026-11-17",
+      "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue to be announced by the organizer",
-      "city": "Kochi",
+      "venue": "Venue in Kochi, Kerala — exact venue not specified on the public page",
+      "city": "Kochi, Kerala",
       "organizer": "IEEE Entrepreneurship",
-      "description": "In-person workshop for Indian and Sri Lankan technology startups covering commercialization, ownership, funding, partnerships and organizational growth. Applications are due by 2026-10-16.",
-      "categoryHint": "startup workshop",
+      "description": "Public application-based entrepreneurship workshop. The public event page states that applications close on October 16, 2026, and that the workshop will take place in Kochi from November 17–18, 2026.",
+      "categoryHint": "technology/startup workshop",
       "evidenceUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "registrationUrl": "https://entrepreneurship.ieee.org/2026-102-india-workshops/",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.9
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-20"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -127,17 +127,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Cybersecurity conference covering deep technical research, offensive security, AI, financial technology, critical infrastructure and law-enforcement investigations.",
-      "categoryHint": "technology / cybersecurity",
+      "city": "Kochi, Kerala",
+      "organizer": "c0c0n, organised by Kerala Police",
+      "description": "Cybersecurity and hacking conference with AI, cloud/security-adjacent, deep-tech, information-security, privacy, CTF, training and exhibition programming. Pre-conference training: October 6–8; conference: October 9–10; post-conference training: October 11–13.",
+      "categoryHint": "security; AI; deep tech; cloud/security-adjacent",
       "evidenceUrl": "https://c0c0n.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -624,20 +624,20 @@
       "title": "Technology Senate South",
       "start": "2026-11-27",
       "end": "2026-11-28",
-      "startTime": "15:00",
-      "endTime": "15:30",
-      "venue": "Kochi — venue not specified on the available event page",
-      "city": "Kochi",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not specified in the available public event listing",
+      "city": "Kochi referenced in the event scope; exact venue not specified",
       "organizer": "Express Computer / Express Group",
-      "description": "Technology conference focused on generative AI, quantum computing, edge intelligence, deep tech and digital transformation.",
-      "categoryHint": "technology",
+      "description": "Technology leadership event covering regional technology innovation, AI and cloud innovation, cybersecurity and digital trust. The available listing provides the dates and references Kochi among the South India locations, but does not establish an exact Kochi-area venue; included as a lower-confidence lead.",
+      "categoryHint": "AI; cloud; cybersecurity; digital transformation",
       "evidenceUrl": "https://www.expresscomputer.in/event/technology-senate-south-27th-28th-november-2026/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.81
+      "confidence": 0.55
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -901,23 +901,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Not stated in the available public evidence",
-      "city": "Kochi",
+      "end": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "18:30",
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day event focused on Gemini, AI agents and Google Cloud, featuring Googlers, Google Developer Experts and engineers working on AI in production.",
-      "categoryHint": "developer / cloud / AI",
+      "description": "Full-day Google Cloud event covering Gemini, AI agents, Google Cloud, AI product development, networking, talks and hands-on sessions.",
+      "categoryHint": "cloud; AI; product technology",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.86
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -1078,5 +1078,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-23"
+  },
+  {
+    "candidate": {
+      "title": "Global AI Kochi — Chapter Meet — October 2026",
+      "start": "2026-10-01",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Infopark Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Global AI Community — Kochi chapter",
+      "description": "AI community gathering for developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. The public listing confirms October 2026 and the Kochi-area venue, but does not expose an exact day in the available event-page data; therefore this result is retained as a dated month-level lead only if month-level dates are acceptable.",
+      "categoryHint": "AI; data; technology community",
+      "evidenceUrl": "https://globalai.community/e/1xf5gxza",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.75
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-24"
   }
 ]

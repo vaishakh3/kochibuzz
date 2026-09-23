@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-23T11:43:08.549Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-09-23T23:44:52.876Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -10,11 +10,11 @@
     "https://luma.com/lf4ruje2": "2026-08-31",
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
-    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-20",
+    "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-24",
     "https://stnsa.org/conclave": "2026-09-21",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-19",
     "https://corekerala.com/expo-details": "2026-09-02",
-    "https://c0c0n.org/": "2026-09-23",
+    "https://c0c0n.org/": "2026-09-24",
     "https://csea.c0c0n.org/leadershipprogramme": "2026-09-02",
     "https://airomedicon.com/": "2026-09-02",
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
@@ -59,7 +59,7 @@
     "https://government.economictimes.indiatimes.com/psu-summit": "2026-09-23",
     "https://gartner.com/en/conferences/apac/symposium-india": "2026-09-21",
     "https://dhanambfsisummit.com/": "2026-09-23",
-    "https://expresscomputer.in/event/technology-senate-south-27th-28th-november-2026": "2026-09-23",
+    "https://expresscomputer.in/event/technology-senate-south-27th-28th-november-2026": "2026-09-24",
     "https://sostorytelling.com/ai-film-festival": "2026-09-15",
     "https://infood.gr/event-pro/foodtech-kerala": "2026-09-15",
     "https://kochidesignweek.org/design-fair": "2026-09-15",
@@ -75,7 +75,7 @@
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-23",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-09-17",
-    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-23",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-24",
     "https://luma.com/fivtwyix": "2026-09-18",
     "https://hackp.kerala.gov.in/finale": "2026-09-23",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-22",
@@ -86,12 +86,14 @@
     "https://iedcsummit.in/workshops/register": "2026-09-21",
     "https://arinjo.in/": "2026-09-23",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-09-23",
-    "https://arinjo.in/events/anchorage-26": "2026-09-23"
+    "https://arinjo.in/events/anchorage-26": "2026-09-23",
+    "https://makeaton.in/": "2026-09-24",
+    "https://globalai.community/e/1xf5gxza": "2026-09-24"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28812,
-    "outputTokens": 1199
+    "inputTokens": 28744,
+    "outputTokens": 1326
   }
 }
