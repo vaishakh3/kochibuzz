@@ -121,23 +121,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — Post-Conference Training",
-      "start": "2026-10-11",
+      "title": "c0c0n 2026",
+      "start": "2026-10-06",
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
+      "venue": "Grand Hyatt, Bolgatty",
       "city": "Kochi",
       "organizer": "c0c0n",
-      "description": "Hands-on cybersecurity and hacking training held after the main c0c0n conference.",
-      "categoryHint": "technology; cybersecurity; training",
-      "evidenceUrl": "https://www.c0c0n.org/",
+      "description": "Cybersecurity conference covering deep technical research, offensive security, AI, financial technology, critical infrastructure and law-enforcement investigations.",
+      "categoryHint": "technology / cybersecurity",
+      "evidenceUrl": "https://c0c0n.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.96
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -624,20 +624,20 @@
       "title": "Technology Senate South",
       "start": "2026-11-27",
       "end": "2026-11-28",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Not stated on the evidence page",
-      "city": "Kochi-area / South India venue not confirmed",
-      "organizer": "Express Computer",
-      "description": "Technology conference covering generative AI, quantum computing, edge intelligence, cybersecurity, digital trust and digital transformation. The evidence page references Kochi among the region's technology centres but does not establish a Kochi venue.",
-      "categoryHint": "AI, cybersecurity, cloud and enterprise technology",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "venue": "Kochi — venue not specified on the available event page",
+      "city": "Kochi",
+      "organizer": "Express Computer / Express Group",
+      "description": "Technology conference focused on generative AI, quantum computing, edge intelligence, deep tech and digital transformation.",
+      "categoryHint": "technology",
       "evidenceUrl": "https://www.expresscomputer.in/event/technology-senate-south-27th-28th-november-2026/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.42
+      "confidence": 0.81
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -881,23 +881,23 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026",
+      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
       "start": "2026-10-09",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "JAIN (Deemed-to-be University), Kochi",
       "city": "Kochi",
-      "organizer": "Future Kerala Mission, JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University, Wales, U.K.",
       "description": "Youth-focused innovation competition addressing urban and societal challenges in Kochi, with final presentations, judging and winner announcement.",
-      "categoryHint": "innovation; entrepreneurship; creative technology",
+      "categoryHint": "startup / innovation / creative technology",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -921,23 +921,23 @@
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Boot Camp",
+      "title": "Hac'KP 2026 Finale — Boot Camp",
       "start": "2026-10-05",
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Crowne Plaza Kochi",
+      "venue": "Crowne Plaza, Kochi",
       "city": "Kochi",
       "organizer": "Hac'KP 2026",
-      "description": "Residential technology hackathon boot camp for the top 50 innovators, focused on agentic AI for investigations.",
-      "categoryHint": "technology; hackathon; AI",
+      "description": "Residential boot camp for the top 50 innovators, focused on agentic AI for investigations and practical technology solutions.",
+      "categoryHint": "technology / startup / hackathon",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.97
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -1057,6 +1057,26 @@
       "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-23"
+  },
+  {
+    "candidate": {
+      "title": "ANCHORAGE'26",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Department of Ship Technology, Cochin University of Science and Technology (CUSAT), Ernakulam",
+      "city": "Ernakulam",
+      "organizer": "Arinjo",
+      "description": "Technology fest featuring the C-Marine CEO Command Deck, IMO Chamber mock-up session and other competitions.",
+      "categoryHint": "technology / innovation / maker",
+      "evidenceUrl": "https://arinjo.in/events/anchorage-26",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-23"
   }
 ]

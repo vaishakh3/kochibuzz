@@ -26,6 +26,19 @@
     "firstSeenAt": "2026-09-23"
   },
   {
+    "id": "infopark-209-25668",
+    "title": "Junior Business Development Executive",
+    "company": "NDimensionZ Solutions Pvt.Ltd",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/209/25668",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
     "id": "infopark-312-25657",
     "title": "Associate - QA Engineer",
     "company": "2Base Technologies Pvt Ltd",
@@ -216,6 +229,84 @@
     "location": "Infopark, Kochi",
     "category": "other",
     "detailUrl": "https://infopark.in/company-jobs/details/333/25654",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-373-25666",
+    "title": "NOC ENGINEER",
+    "company": "Intbrains Private Limited",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-09-24",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/373/25666",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-421-25667",
+    "title": "SEO Specialist",
+    "company": "Global Surf IT Pvt Ltd",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-10-09",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/421/25667",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-421-25669",
+    "title": "Content Writer",
+    "company": "Global Surf IT Pvt Ltd",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-10-09",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/421/25669",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-481-25670",
+    "title": "QA Lead (Immediate Joiner)",
+    "company": "CSEIDC TECHNOLOGIES PVT LTD",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/481/25670",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-55-25664",
+    "title": "Mobile App Developer-Flutter required for JTSi Technologies India Pvt Ltd at Kochi Infopark.",
+    "company": "JTSi Technologies India Private Limited",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-09-25",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/55/25664",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "infopark-55-25665",
+    "title": "Technical Project Lead/Manager – .NET required for JTSi Technologies India Pvt Ltd at Kochi Infopark./EST Time Zone/ 06:30PM-03:30AM",
+    "company": "JTSi Technologies India Private Limited",
+    "postedAt": "2026-09-23",
+    "deadlineAt": "2026-09-25",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/55/25665",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-23"
@@ -666,7 +757,7 @@
     "title": "WordPress Developer required for JTSi Technologies India Pvt Ltd at Kochi Infopark.",
     "company": "JTSi Technologies India Private Limited",
     "postedAt": "2026-09-18",
-    "deadlineAt": "2026-09-23",
+    "deadlineAt": "2026-09-25",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/55/25525",
@@ -1280,19 +1371,6 @@
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/189/25415",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-10"
-  },
-  {
-    "id": "infopark-209-25419",
-    "title": "Marketing Executive (junior)",
-    "company": "NDimensionZ Solutions Pvt.Ltd",
-    "postedAt": "2026-09-10",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/209/25419",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-10"
@@ -2450,6 +2528,19 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "infopark-421-25138",
+    "title": "HR Recruiter",
+    "company": "Global Surf IT Pvt Ltd",
+    "postedAt": "2026-08-19",
+    "deadlineAt": "2026-10-07",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/421/25138",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
+  },
+  {
     "id": "infopark-85-25141",
     "title": "Technical Program Manager",
     "company": "Techversant Infotech Pvt Ltd",
@@ -3248,18 +3339,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-23"
-  },
-  {
-    "id": "dodge-workable-7a5eb34735",
-    "title": "Staff Engineer-UI",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-07-20",
-    "location": "Kochi, India (Hybrid)",
-    "category": "design",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/7A5EB34735/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-378-24730",
@@ -4455,18 +4534,6 @@
     "firstSeenAt": "2026-09-17"
   },
   {
-    "id": "dodge-workable-a086d5bd24",
-    "title": "Senior GCP DevOps Engineer",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-04-28",
-    "location": "Kochi, India (Hybrid)",
-    "category": "devops-cloud",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/A086D5BD24/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-08-23"
-  },
-  {
     "id": "infopark-352-23255",
     "title": "Video Editor",
     "company": "TouchWorld Technology",
@@ -4995,6 +5062,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-31"
+  },
+  {
+    "id": "infopark-286-21736",
+    "title": "Full Stack Developer",
+    "company": "Eqsoft Business Solutions Pvt Ltd",
+    "postedAt": "2026-01-22",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/286/21736",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
   },
   {
     "id": "infopark-272-21695",
@@ -5762,6 +5842,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "infopark-169-19812",
+    "title": "ORACLE APPS DBA",
+    "company": "EXACORE IT SOLUTIONS PRIVATE LIMITED",
+    "postedAt": "2025-07-29",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/169/19812",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-23"
   },
   {
     "id": "infopark-171-19772",

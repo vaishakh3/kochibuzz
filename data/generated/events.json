@@ -674,28 +674,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea",
-    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "startTime": "10:00",
-    "endTime": "17:00",
-    "category": "hackathon",
-    "venue": "TinkerSpace Kochi",
-    "city": "Kochi",
-    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
-    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
-    "tags": [],
-    "url": "https://luma.com/ndjvmw7w",
-    "sourceUrls": [
-      "https://luma.com/ndjvmw7w"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-23"
-  },
-  {
     "id": "huddle-global-2026",
     "title": "Huddle Global 2026",
     "start": "2026-11-12",
@@ -765,5 +743,49 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
+    "title": "Dhanam BFSI Summit & Award Nite 2026",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "startTime": "09:30",
+    "endTime": "21:30",
+    "category": "startup",
+    "venue": "Le Méridien, Nettoor, Maradu, Kochi, Ernakulam",
+    "city": "Kochi",
+    "organizer": "Dhanam Business Media",
+    "blurb": "BFSI summit and award event involving entrepreneurship, industry and technology discussions.",
+    "tags": [],
+    "url": "https://dhanambfsisummit.com/",
+    "sourceUrls": [
+      "https://dhanambfsisummit.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-23"
+  },
+  {
+    "id": "web-psu-summit-and-conference-india-national-psu-residentia-f5d86c9daf",
+    "title": "PSU Summit and Conference India | National PSU Residential Summit",
+    "start": "2026-12-04",
+    "end": "2026-12-06",
+    "startTime": "08:00",
+    "endTime": "23:59",
+    "category": "webdev",
+    "venue": "Crowne Plaza, Kochi",
+    "city": "Kochi",
+    "organizer": "ETGovernment.com",
+    "blurb": "PSU Summit and Conference India: The National PSU Residential Summit brings together government leaders, senior policymakers, industry kingpins, and academia to discuss the future of India's public sector.",
+    "tags": [],
+    "url": "https://government.economictimes.indiatimes.com/psu-summit",
+    "sourceUrls": [
+      "https://government.economictimes.indiatimes.com/psu-summit"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-23"
   }
 ]

@@ -27,6 +27,31 @@
       "firstSeenAt": "2026-08-23"
     },
     {
+      "id": "ksum-tenders-ksum-ret-sw-acs-2026-27-01",
+      "title": "Supply and installation of AutoCAD (Re-tender)",
+      "type": "other",
+      "organization": "Kerala Startup Mission",
+      "summary": "Supply and installation of AutoCAD",
+      "deadlineAt": "2026-10-06",
+      "locationScope": "kerala",
+      "benefit": "Closed Hardcopy",
+      "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01M36PK6FDPVH86BHN1XDSH819.pdf",
+      "url": "https://startupmission.kerala.gov.in/storage/tenders/01M36PK6FDPVH86BHN1XDSH819.pdf",
+      "sourceUrls": [
+        "https://startupmission.kerala.gov.in/api/public/tenders",
+        "https://startupmission.kerala.gov.in/storage/tenders/01M36PK6FDPVH86BHN1XDSH819.pdf"
+      ],
+      "sourceIds": [
+        "ksum-tenders"
+      ],
+      "tags": [
+        "KSUM",
+        "RFP",
+        "tender"
+      ],
+      "firstSeenAt": "2026-09-23"
+    },
+    {
       "id": "huddle-global-2026-registration",
       "title": "Huddle Global 2026 — delegate registration",
       "type": "other",
