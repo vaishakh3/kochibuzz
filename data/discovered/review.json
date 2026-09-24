@@ -741,23 +741,23 @@
   },
   {
     "candidate": {
-      "title": "KPH Hackathon ’26 — Build.Launch.Scale",
+      "title": "KPH Hackathon ’26 — Build, Launch, Scale",
       "start": "2026-10-03",
       "end": "2026-10-04",
       "startTime": null,
       "endTime": null,
-      "venue": "KPH Club, Kochi area",
+      "venue": "KPH, Kochi area",
       "city": "Kochi",
       "organizer": "KPH",
-      "description": "A 24-hour product-building hackathon with mentorship, launch support, funding and demo day. The page states that participation is by application and invitation.",
+      "description": "A curated 24-hour startup/product hackathon with mentorship, launch support and prizes. Participation is application-based and invite-only.",
       "categoryHint": "startup hackathon",
       "evidenceUrl": "https://kph.club/hack",
       "registrationUrl": "https://kph.club/hack",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.83
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-17"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -881,23 +881,23 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
+      "title": "IdeaFest 2026 – Inter-College & Inter-School Edition",
       "start": "2026-10-09",
-      "end": null,
+      "end": "2026-10-09",
       "startTime": null,
       "endTime": null,
       "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University, Wales, U.K.",
-      "description": "Youth-focused innovation competition addressing urban and societal challenges in Kochi, with final presentations, judging and winner announcement.",
-      "categoryHint": "startup / innovation / creative technology",
+      "city": "Kochi, Kerala",
+      "organizer": "Future Kerala Mission, JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
+      "description": "Youth innovation competition focused on identifying urban and societal challenges in Kochi and developing practical solutions. Includes final presentations, judging and winner announcement.",
+      "categoryHint": "innovation / entrepreneurship / creative technology",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -1061,23 +1061,23 @@
   },
   {
     "candidate": {
-      "title": "ANCHORAGE'26",
+      "title": "ANCHORAGE’26",
       "start": "2026-10-10",
       "end": "2026-10-12",
       "startTime": null,
       "endTime": null,
-      "venue": "Department of Ship Technology, Cochin University of Science and Technology (CUSAT), Ernakulam",
-      "city": "Ernakulam",
-      "organizer": "Arinjo",
-      "description": "Technology fest featuring the C-Marine CEO Command Deck, IMO Chamber mock-up session and other competitions.",
-      "categoryHint": "technology / innovation / maker",
+      "venue": "Department of Ship Technology, Cochin University of Science and Technology, Kalamassery",
+      "city": "Kalamassery, Kochi area",
+      "organizer": "Department of Ship Technology, CUSAT",
+      "description": "Annual tech fest featuring maritime technology competitions, a CEO command-deck competition, a startup-style pitch event and other challenges. Registration is listed for individual components.",
+      "categoryHint": "technology fest / competitions",
       "evidenceUrl": "https://arinjo.in/events/anchorage-26",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "registrationUrl": "https://arinjo.in/events/anchorage-26",
+      "sourceKind": "organizer_page",
+      "confidence": 0.95
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-24"
   },
   {
     "candidate": {
@@ -1097,6 +1097,26 @@
       "confidence": 0.75
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-24"
+  },
+  {
+    "candidate": {
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
+      "start": "2026-12-18",
+      "end": "2026-12-20",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Cochin University of Science and Technology, Kalamassery",
+      "city": "Kalamassery, Kochi area",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "A multi-stage hiring hackathon. The CUSAT-only HackForCUSAT round is scheduled for December 18, followed by the 24-hour final round on December 19–20. Registration is listed on the official event page.",
+      "categoryHint": "hiring hackathon",
+      "evidenceUrl": "https://www.makeaton.in/",
+      "registrationUrl": "https://www.makeaton.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-24"
   }
 ]
