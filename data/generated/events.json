@@ -360,6 +360,28 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "web-night-out-with-devin-adec1e98ee",
+    "title": "Night Out with Devin",
+    "start": "2026-09-30",
+    "end": "2026-09-30",
+    "startTime": "19:00",
+    "endTime": "23:00",
+    "category": "webdev",
+    "venue": "TinkerSpace Kochi",
+    "city": "Kochi",
+    "organizer": "Vaishakh Suresh",
+    "blurb": "Night Out with Devin An after-hours builder night by Devin Community Kochi, happening at TinkerSpace.",
+    "tags": [],
+    "url": "https://luma.com/fivtwyix",
+    "sourceUrls": [
+      "https://luma.com/fivtwyix"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-25"
+  },
+  {
     "id": "tinkerhub-events-dgppravtii",
     "title": "Maker Thursday",
     "start": "2026-10-01",
@@ -385,26 +407,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
-  },
-  {
-    "id": "web-founder-being-launchpad-cohort-1-96f25d9ab1",
-    "title": "Founder-Being LaunchPad – Cohort 1",
-    "start": "2026-10-04",
-    "end": "2027-01-22",
-    "category": "startup",
-    "venue": "Cochin University of Science and Technology (CUSAT), Kochi",
-    "city": "Kochi, Kerala",
-    "organizer": "Founder-Being LaunchPad",
-    "blurb": "A 16-week venture-building programme for young founders aged 15–25. The programme starts on 4 October 2026 and runs for 16 weeks, with weekly founder-building sessions and a demo day.",
-    "tags": [],
-    "url": "https://founderbeinglaunchpad.com/",
-    "sourceUrls": [
-      "https://founderbeinglaunchpad.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-24"
   },
   {
     "id": "c0c0n-2026",
@@ -476,6 +478,27 @@
       "codex-community-luma"
     ],
     "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "web-kochi-jug-online-meetup-october-2026-1ed9d8a011",
+    "title": "Kochi JUG Online Meetup — October 2026",
+    "start": "2026-10-10",
+    "end": "2026-10-10",
+    "startTime": "10:30",
+    "category": "cloud",
+    "venue": "Online",
+    "city": "Kochi-area organizer; online event",
+    "organizer": "Kochi Java User Group",
+    "blurb": "Online developer meetup covering Quarkus/cloud-native Java and post-quantum cryptography in Java.",
+    "tags": [],
+    "url": "https://meetup.com/kochijug/events/316578088",
+    "sourceUrls": [
+      "https://meetup.com/kochijug/events/316578088"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-25"
   },
   {
     "id": "tinkerhub-events-ayxrig2zgp",
@@ -640,28 +663,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
-    "title": "Global AI Kochi – Chapter Meet – October 2026",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "10:00",
-    "endTime": "13:00",
-    "category": "ai",
-    "venue": "Infopark Kochi Knowledge Park, Kakkanad",
-    "city": "Kochi, Kerala",
-    "organizer": "Global AI Community – Kochi Chapter",
-    "blurb": "In-person chapter meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. Agenda includes AI security, Blazor web applications and Playwright MCP.",
-    "tags": [],
-    "url": "https://globalai.community/e/1xf5gxza",
-    "sourceUrls": [
-      "https://globalai.community/e/1xf5gxza"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-24"
-  },
-  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -714,6 +715,28 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea",
+    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "startTime": "10:00",
+    "endTime": "17:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace Kochi",
+    "city": "Kochi",
+    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
+    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
+    "tags": [],
+    "url": "https://luma.com/ndjvmw7w",
+    "sourceUrls": [
+      "https://luma.com/ndjvmw7w"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-25"
   },
   {
     "id": "huddle-global-2026",

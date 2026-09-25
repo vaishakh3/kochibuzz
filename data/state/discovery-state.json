@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-24T15:10:32.010Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-09-25T07:53:27.879Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -75,12 +75,12 @@
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-24",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-09-17",
-    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-24",
-    "https://luma.com/fivtwyix": "2026-09-18",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-25",
+    "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-09-23",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-22",
     "https://kcd.cncgkochi.in/": "2026-09-20",
-    "https://luma.com/ndjvmw7w": "2026-09-23",
+    "https://luma.com/ndjvmw7w": "2026-09-25",
     "https://typoday.futuresummit.in/": "2026-09-21",
     "https://fabacademy.fablabkerala.in/": "2026-09-21",
     "https://iedcsummit.in/workshops/register": "2026-09-21",
@@ -88,12 +88,13 @@
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-09-23",
     "https://arinjo.in/events/anchorage-26": "2026-09-24",
     "https://makeaton.in/": "2026-09-24",
-    "https://globalai.community/e/1xf5gxza": "2026-09-24"
+    "https://globalai.community/e/1xf5gxza": "2026-09-25",
+    "https://meetup.com/kochijug/events/316578088": "2026-09-25"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 4,
-    "inputTokens": 28965,
-    "outputTokens": 1531
+    "searchCalls": 5,
+    "inputTokens": 42936,
+    "outputTokens": 1095
   }
 }

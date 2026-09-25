@@ -903,21 +903,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
+      "end": null,
       "startTime": "09:00",
       "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day Google Cloud event covering Gemini, AI agents, Google Cloud, AI product development, networking, talks and hands-on sessions.",
-      "categoryHint": "cloud; AI; product technology",
+      "description": "Full-day Google Cloud and AI event for developers, architects, founders, students and community leaders.",
+      "categoryHint": "developer/cloud",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-09-25"
   },
   {
     "candidate": {
@@ -1081,23 +1081,23 @@
   },
   {
     "candidate": {
-      "title": "Global AI Kochi — Chapter Meet — October 2026",
-      "start": "2026-10-01",
+      "title": "Global AI Kochi – Chapter Meet – October 2026",
+      "start": "2026-10-24",
       "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Infopark Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Global AI Community — Kochi chapter",
-      "description": "AI community gathering for developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. The public listing confirms October 2026 and the Kochi-area venue, but does not expose an exact day in the available event-page data; therefore this result is retained as a dated month-level lead only if month-level dates are acceptable.",
-      "categoryHint": "AI; data; technology community",
+      "startTime": "10:00",
+      "endTime": "13:00",
+      "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
+      "city": "Kochi, Ernakulam",
+      "organizer": "Global AI Community – Kochi Chapter",
+      "description": "Community chapter meet covering AI security, Blazor web applications and test automation with Playwright MCP.",
+      "categoryHint": "AI / developer technology / community meetup",
       "evidenceUrl": "https://globalai.community/e/1xf5gxza",
-      "registrationUrl": null,
+      "registrationUrl": "https://globalai.community/e/1xf5gxza",
       "sourceKind": "official_event_page",
-      "confidence": 0.75
+      "confidence": 0.98
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-24"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-25"
   },
   {
     "candidate": {

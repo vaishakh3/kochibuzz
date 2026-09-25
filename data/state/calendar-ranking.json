@@ -1,9 +1,17 @@
 {
   "schemaVersion": 1,
-  "decisions": {},
+  "decisions": {
+    "2026-10-10": {
+      "signature": "fa0266bd935401cda9f0edf98e433cf8f7c370e63541a81127b04485e709fed2",
+      "eventId": "codex-community-luma-evt-m5dj827u7qrr5y1-events-lu-ma",
+      "reason": "A Kochi-based, in-person community hackathon offers hands-on programming and broader local participation.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-25T07:53:38.984Z"
+    }
+  },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 433,
-    "outputTokens": 67
+    "inputTokens": 450,
+    "outputTokens": 74
   }
 }
