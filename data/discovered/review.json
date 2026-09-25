@@ -86,18 +86,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Kochi, Kerala; specific venue not stated on the event page",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day gathering of founders featuring learning, connection, networking and celebration.",
-      "categoryHint": "startup; founders; entrepreneurship",
+      "description": "Four-day gathering for the Stanford Seed Transformation Network South Asia, with more than 400 founders expected.",
+      "categoryHint": "startup / founders / entrepreneurship",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.9
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-21"
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {
@@ -881,23 +881,23 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026 – Inter-College & Inter-School Edition",
+      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
       "start": "2026-10-09",
-      "end": "2026-10-09",
+      "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Future Kerala Mission, JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
-      "description": "Youth innovation competition focused on identifying urban and societal challenges in Kochi and developing practical solutions. Includes final presentations, judging and winner announcement.",
-      "categoryHint": "innovation / entrepreneurship / creative technology",
+      "city": "Kochi",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
+      "description": "Youth-focused innovation competition covering entrepreneurship, quality of life and urban problem-solving; final presentations, judging and winner announcement.",
+      "categoryHint": "startup / innovation / creative technology",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {
@@ -906,18 +906,18 @@
       "end": null,
       "startTime": "09:00",
       "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "venue": "Holiday Inn Cochin, National Highway Bypass, Kochi 682028",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day Google Cloud and AI event for developers, architects, founders, students and community leaders.",
-      "categoryHint": "developer/cloud",
+      "description": "Technology community conference focused on Google Cloud, Gemini, AI agents, developer technologies and networking.",
+      "categoryHint": "technology / developer / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-25"
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {
@@ -1118,5 +1118,65 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-24"
+  },
+  {
+    "candidate": {
+      "title": "DMCon 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi-area venue not stated on the available event page",
+      "city": "Kochi, Kerala",
+      "organizer": "DevOps Malayalam community",
+      "description": "Community-driven technology conference for engineers, developers, SREs, DevOps and platform engineers, architects, open-source contributors and technology leaders.",
+      "categoryHint": "technology / DevOps / cloud native",
+      "evidenceUrl": "https://events.devopsmalayalam.io/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-26"
+  },
+  {
+    "candidate": {
+      "title": "She Builds Tech 3.0",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kerala Startup Mission (KSUM), Kochi",
+      "city": "Kochi",
+      "organizer": "Kerala Startup Mission",
+      "description": "A 20-hour AI hackathon for women student teams. Public applications are listed in the event announcement.",
+      "categoryHint": "college hackathon",
+      "evidenceUrl": "https://happeningsaroundme.in/event/kochi-she-builds-tech-30",
+      "registrationUrl": "https://shebuildstech.startupmission.in/",
+      "sourceKind": "news_listing",
+      "confidence": 0.82
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-26"
+  },
+  {
+    "candidate": {
+      "title": "DevDay Exchange Community Hackathon: Kochi",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "startTime": "18:00",
+      "endTime": "09:00",
+      "venue": "JAIN University Kochi",
+      "city": "Kochi",
+      "organizer": "DevDay Exchange",
+      "description": "An overnight community hackathon listed for developers in Kochi, with public event registration information.",
+      "categoryHint": "developer hackathon",
+      "evidenceUrl": "https://indiahackathons.com/hi/events/devday-exchange-community-hackathon-kochi",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-26"
   }
 ]

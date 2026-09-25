@@ -360,28 +360,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "web-night-out-with-devin-adec1e98ee",
-    "title": "Night Out with Devin",
-    "start": "2026-09-30",
-    "end": "2026-09-30",
-    "startTime": "19:00",
-    "endTime": "23:00",
-    "category": "webdev",
-    "venue": "TinkerSpace Kochi",
-    "city": "Kochi",
-    "organizer": "Vaishakh Suresh",
-    "blurb": "Night Out with Devin An after-hours builder night by Devin Community Kochi, happening at TinkerSpace.",
-    "tags": [],
-    "url": "https://luma.com/fivtwyix",
-    "sourceUrls": [
-      "https://luma.com/fivtwyix"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-25"
-  },
-  {
     "id": "tinkerhub-events-dgppravtii",
     "title": "Maker Thursday",
     "start": "2026-10-01",
@@ -478,27 +456,6 @@
       "codex-community-luma"
     ],
     "firstSeenAt": "2026-09-22"
-  },
-  {
-    "id": "web-kochi-jug-online-meetup-october-2026-1ed9d8a011",
-    "title": "Kochi JUG Online Meetup — October 2026",
-    "start": "2026-10-10",
-    "end": "2026-10-10",
-    "startTime": "10:30",
-    "category": "cloud",
-    "venue": "Online",
-    "city": "Kochi-area organizer; online event",
-    "organizer": "Kochi Java User Group",
-    "blurb": "Online developer meetup covering Quarkus/cloud-native Java and post-quantum cryptography in Java.",
-    "tags": [],
-    "url": "https://meetup.com/kochijug/events/316578088",
-    "sourceUrls": [
-      "https://meetup.com/kochijug/events/316578088"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-25"
   },
   {
     "id": "tinkerhub-events-ayxrig2zgp",
@@ -663,6 +620,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
+    "title": "Global AI Kochi — Chapter Meet, October 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Infopark Kochi Knowledge Park, Kakkanad, Kochi, Kerala 682042",
+    "city": "Kochi",
+    "organizer": "Global AI Community — Kochi chapter",
+    "blurb": "Community meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators; sessions cover AI security, Blazor and Playwright MCP.",
+    "tags": [],
+    "url": "https://globalai.community/e/1xf5gxza",
+    "sourceUrls": [
+      "https://globalai.community/e/1xf5gxza"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-26"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -717,26 +696,25 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea",
-    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "startTime": "10:00",
-    "endTime": "17:00",
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
     "category": "hackathon",
-    "venue": "TinkerSpace Kochi",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
     "city": "Kochi",
-    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
-    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
+    "organizer": "CITTIC, CUSAT and Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
     "tags": [],
-    "url": "https://luma.com/ndjvmw7w",
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://luma.com/ndjvmw7w"
+      "https://makeaton.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-09-25"
+    "firstSeenAt": "2026-09-26"
   },
   {
     "id": "huddle-global-2026",
@@ -808,5 +786,27 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
+    "title": "Dhanam BFSI Summit & Award Nite 2026",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "startTime": "09:30",
+    "endTime": "21:30",
+    "category": "startup",
+    "venue": "Le Méridien, Nettoor, Maradu, Kochi, Ernakulam, Kerala",
+    "city": "Kochi",
+    "organizer": "Dhanam Business Media",
+    "blurb": "BFSI summit and awards event with business, finance and industry discussions; included because the announcement explicitly positions it around entrepreneurship and industry connection.",
+    "tags": [],
+    "url": "https://dhanambfsisummit.com/",
+    "sourceUrls": [
+      "https://dhanambfsisummit.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-26"
   }
 ]
