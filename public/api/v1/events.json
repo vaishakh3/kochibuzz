@@ -362,33 +362,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-dgppravtii",
-      "title": "Maker Thursday",
-      "start": "2026-10-01",
-      "end": "2026-10-01",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Maker Thursday: Community Meetup This week Maker Thursday is an open evening rather than a session. No talk, no agenda, just the people who turn up and whatever they're working on. Bring a project and work on it in the room. See what everyone else has going. Catch up with people ",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/DGPPRAVTII/maker-thursday",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/DGPPRAVTII/maker-thursday"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-18"
-    },
-    {
       "id": "web-founder-being-launchpad-cohort-1-96f25d9ab1",
       "title": "Founder-Being LaunchPad Cohort 1",
       "start": "2026-10-04",
