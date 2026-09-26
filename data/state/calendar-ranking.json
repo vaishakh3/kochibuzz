@@ -1,9 +1,24 @@
 {
   "schemaVersion": 1,
-  "decisions": {},
+  "decisions": {
+    "2026-10-06": {
+      "signature": "abbbabf318e6bf8fc0b854bc049528702fb5f317d3706744a695170b19868e4c",
+      "eventId": "c0c0n-2026",
+      "reason": "A major Kochi security conference begins its multi-day programme, including training, CTFs and live bug hunting.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-26T13:09:46.321Z"
+    },
+    "2026-11-14": {
+      "signature": "ffbbcf93669fa8e3422eea1285828dc1deda1bab464e836b855a9c6a0f7503ef",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Kochi community event covers Gemini, AI agents and Google Cloud for local builders.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-09-26T13:09:46.321Z"
+    }
+  },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 450,
-    "outputTokens": 74
+    "inputTokens": 744,
+    "outputTokens": 123
   }
 }

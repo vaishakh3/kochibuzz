@@ -104,6 +104,19 @@
     "firstSeenAt": "2026-09-26"
   },
   {
+    "id": "infopark-538-25737",
+    "title": "Engineering Draftsman",
+    "company": "Gravity Business Process Private Limited",
+    "postedAt": "2026-09-26",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/538/25737",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-26"
+  },
+  {
     "id": "infopark-119-25722",
     "title": "Film Research Coordinator",
     "company": "Vtrio Solutions Private Limited",
@@ -868,19 +881,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-21"
-  },
-  {
-    "id": "infopark-132-25584",
-    "title": "Front Office Executive",
-    "company": "Dynamed Healthcare Solutions Pvt.Ltd",
-    "postedAt": "2026-09-19",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/132/25584",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-19"
   },
   {
     "id": "infopark-462-25582",
@@ -3471,6 +3471,19 @@
     "firstSeenAt": "2026-08-23"
   },
   {
+    "id": "infopark-132-24681",
+    "title": "IT Executive - L0 Support",
+    "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+    "postedAt": "2026-07-16",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/132/24681",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-26"
+  },
+  {
     "id": "infopark-138-24686",
     "title": "Senior HR Recruiter - RCM",
     "company": "Cascade Revenue Management Pvt. Ltd",
@@ -3501,7 +3514,7 @@
     "title": "Azure Infrastructure Architect",
     "company": "Dynamed Healthcare Solutions Pvt.Ltd",
     "postedAt": "2026-07-15",
-    "deadlineAt": "2026-09-30",
+    "deadlineAt": "2026-10-15",
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/132/24660",

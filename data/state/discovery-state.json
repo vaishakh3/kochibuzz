@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-25T22:24:52.660Z",
-  "queryCursor": 7,
+  "lastRunAt": "2026-09-26T13:09:33.784Z",
+  "queryCursor": 2,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -65,20 +65,20 @@
     "https://kochidesignweek.org/design-fair": "2026-09-15",
     "https://c0c0n.org/home": "2026-09-15",
     "https://kph.club/hack": "2026-09-24",
-    "https://irad2027.org/about": "2026-09-17",
+    "https://irad2027.org/about": "2026-09-26",
     "https://cmfri.org.in/index.php/news/national-workshop-on-hands-on-training-on-advanced-instrumentation-techniques-sample-preparation-processing-and-analysis-11-15-january-2027": "2026-09-15",
     "https://founderslive.com/events-list/kochi-2026-09": "2026-09-16",
-    "https://founderbeinglaunchpad.com/": "2026-09-24",
+    "https://founderbeinglaunchpad.com/": "2026-09-26",
     "https://meetup.com/awsugkochi/events/316567713": "2026-09-16",
     "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16",
     "https://10times.com/kochi-in?radius=50": "2026-09-16",
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-26",
-    "https://dev.hackp.kerala.gov.in/schedule": "2026-09-17",
+    "https://dev.hackp.kerala.gov.in/schedule": "2026-09-26",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-26",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-09-23",
-    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-22",
+    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-26",
     "https://kcd.cncgkochi.in/": "2026-09-20",
     "https://luma.com/ndjvmw7w": "2026-09-25",
     "https://typoday.futuresummit.in/": "2026-09-21",
@@ -96,8 +96,8 @@
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 4,
-    "inputTokens": 29120,
-    "outputTokens": 1904
+    "searchCalls": 5,
+    "inputTokens": 43165,
+    "outputTokens": 1957
   }
 }

@@ -86,15 +86,15 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; specific venue not stated on the event page",
-      "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day gathering for the Stanford Seed Transformation Network South Asia, with more than 400 founders expected.",
-      "categoryHint": "startup / founders / entrepreneurship",
+      "venue": "Not specified on official event page",
+      "city": "Kochi, Kerala",
+      "organizer": "Stanford Seed Transformation Network – South Asia",
+      "description": "Annual South Asia gathering for founders and CEOs, with learning, networking and celebration.",
+      "categoryHint": "startup/founder",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": null,
+      "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.97
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-26"
@@ -761,23 +761,23 @@
   },
   {
     "candidate": {
-      "title": "iRAD 2027 — International Radar Atmospheric Dynamics Conference",
+      "title": "iRAD 2027 — 9th Conference on India Radar Meteorology",
       "start": "2027-01-05",
       "end": "2027-01-08",
       "startTime": null,
       "endTime": null,
       "venue": "Advanced Centre for Atmospheric Radar Research, CUSAT",
-      "city": "Kochi area — Cochin University of Science and Technology, Kalamassery",
-      "organizer": "Advanced Centre for Atmospheric Radar Research (ACARR) and Cochin University of Science and Technology (CUSAT)",
-      "description": "A research conference covering radar atmospheric dynamics, wind-profiling radar and AI/ML applications in radar data. The official page states that registration opened on 15 August 2026.",
-      "categoryHint": "scientific technology conference",
+      "city": "Kochi",
+      "organizer": "Advanced Centre for Atmospheric Radar Research and Cochin University of Science and Technology",
+      "description": "Conference covering radar meteorology, including AI/ML techniques in radar-data applications. The official page states that registration opened on August 15, 2026.",
+      "categoryHint": "research and technology conference",
       "evidenceUrl": "https://www.irad2027.org/about/",
       "registrationUrl": "https://www.irad2027.org/about/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-17"
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {
@@ -883,18 +883,18 @@
     "candidate": {
       "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
       "start": "2026-10-09",
-      "end": null,
+      "end": "2026-10-09",
       "startTime": null,
       "endTime": null,
       "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
-      "description": "Youth-focused innovation competition covering entrepreneurship, quality of life and urban problem-solving; final presentations, judging and winner announcement.",
-      "categoryHint": "startup / innovation / creative technology",
+      "city": "Kochi, Kerala",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, with Kochi Municipal Corporation and Cardiff University",
+      "description": "Youth innovation competition involving final presentations, judging and winner announcement around urban and societal challenges.",
+      "categoryHint": "innovation/creative-tech",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-26"
@@ -941,23 +941,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Virtual Round",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "startTime": "09:00",
-      "endTime": "17:00",
-      "venue": "Virtual; Kochi edition",
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Institute campus; exact Kochi-area campus not specified on the public event page",
       "city": "Kochi",
       "organizer": "Odoo",
-      "description": "An 8-hour coding challenge with public team registration. The official registration page specifies the virtual-round date, time, coding format and team-size requirements.",
-      "categoryHint": "coding hackathon",
+      "description": "A 24-hour coding marathon final round for the Odoo x Make-A-Ton 9.0 Kochi Hackathon. The public registration page specifies 19–20 December 2026 but does not identify the exact campus venue.",
+      "categoryHint": "startup; product; AI; maker; hackathon",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.8
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-21"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {
@@ -1102,22 +1102,22 @@
   {
     "candidate": {
       "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
-      "start": "2026-12-18",
+      "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology, Kalamassery",
-      "city": "Kalamassery, Kochi area",
-      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-      "description": "A multi-stage hiring hackathon. The CUSAT-only HackForCUSAT round is scheduled for December 18, followed by the 24-hour final round on December 19–20. Registration is listed on the official event page.",
-      "categoryHint": "hiring hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "description": "24-hour hackathon focused on building, prototyping and technology opportunities.",
+      "categoryHint": "maker/technology/hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-09-26"
   },
   {
     "candidate": {

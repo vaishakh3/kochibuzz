@@ -387,6 +387,26 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-founder-being-launchpad-cohort-1-96f25d9ab1",
+    "title": "Founder-Being LaunchPad Cohort 1",
+    "start": "2026-10-04",
+    "end": "2026-10-04",
+    "category": "startup",
+    "venue": "Not specified on official event page",
+    "city": "Kochi, Kerala",
+    "organizer": "Founder-Being",
+    "blurb": "Sixteen-week venture-building programme for young founders, including idea validation, MVP development, customer discovery and a demo day.",
+    "tags": [],
+    "url": "https://founderbeinglaunchpad.com/",
+    "sourceUrls": [
+      "https://founderbeinglaunchpad.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-26"
+  },
+  {
     "id": "c0c0n-2026",
     "title": "c0c0n 2026",
     "start": "2026-10-06",
@@ -407,6 +427,27 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-hac-kp-2026-boot-camp-and-grand-finale-e551793326",
+    "title": "HAC'KP 2026 Boot Camp and Grand Finale",
+    "start": "2026-10-06",
+    "end": "2026-10-09",
+    "category": "hackathon",
+    "venue": "On-site Kochi; awards during the c0c0n 2026 conference",
+    "city": "Kochi",
+    "organizer": "Kerala Police Cyberdome",
+    "blurb": "The official schedule lists an on-site Kochi boot camp from October 6–8, 2026, followed by awards and prize distribution on October 9, 2026, during the c0c0n conference.",
+    "tags": [],
+    "url": "https://dev.hackp.kerala.gov.in/schedule",
+    "registerUrl": "https://hackp.kerala.gov.in/",
+    "sourceUrls": [
+      "https://dev.hackp.kerala.gov.in/schedule"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-26"
   },
   {
     "id": "tinkerhub-events-xz5qofiwiv",
@@ -620,28 +661,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
-    "title": "Global AI Kochi — Chapter Meet, October 2026",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "10:00",
-    "endTime": "13:00",
-    "category": "ai",
-    "venue": "Infopark Kochi Knowledge Park, Kakkanad, Kochi, Kerala 682042",
-    "city": "Kochi",
-    "organizer": "Global AI Community — Kochi chapter",
-    "blurb": "Community meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators; sessions cover AI security, Blazor and Playwright MCP.",
-    "tags": [],
-    "url": "https://globalai.community/e/1xf5gxza",
-    "sourceUrls": [
-      "https://globalai.community/e/1xf5gxza"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-26"
-  },
-  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -696,27 +715,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
-    "title": "Odoo × Make-A-Ton 9.0",
-    "start": "2026-10-31",
-    "end": "2026-12-20",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology (CUSAT)",
-    "city": "Kochi",
-    "organizer": "CITTIC, CUSAT and Odoo",
-    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
-    "tags": [],
-    "url": "https://www.makeaton.in/",
-    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
-    "sourceUrls": [
-      "https://makeaton.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-26"
-  },
-  {
     "id": "huddle-global-2026",
     "title": "Huddle Global 2026",
     "start": "2026-11-12",
@@ -764,6 +762,26 @@
     "firstSeenAt": "2026-09-16"
   },
   {
+    "id": "web-dmcon-2026-6e1b1482da",
+    "title": "DMCon 2026",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "category": "cloud",
+    "venue": "Kochi, Kerala",
+    "city": "Kochi",
+    "organizer": "DevOps Malayalam",
+    "blurb": "Community-driven technology conference for engineers, developers, SREs, DevOps and cloud-native practitioners. The official page also lists pre-event co-located events and a workshop on November 13, 2026.",
+    "tags": [],
+    "url": "https://events.devopsmalayalam.io/",
+    "sourceUrls": [
+      "https://events.devopsmalayalam.io/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-26"
+  },
+  {
     "id": "gartner-symposium-kochi-2026",
     "title": "Gartner IT Symposium/Xpo Kochi",
     "start": "2026-11-16",
@@ -786,27 +804,5 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "web-dhanam-bfsi-summit-award-nite-2026-652513af79",
-    "title": "Dhanam BFSI Summit & Award Nite 2026",
-    "start": "2026-11-25",
-    "end": "2026-11-25",
-    "startTime": "09:30",
-    "endTime": "21:30",
-    "category": "startup",
-    "venue": "Le Méridien, Nettoor, Maradu, Kochi, Ernakulam, Kerala",
-    "city": "Kochi",
-    "organizer": "Dhanam Business Media",
-    "blurb": "BFSI summit and awards event with business, finance and industry discussions; included because the announcement explicitly positions it around entrepreneurship and industry connection.",
-    "tags": [],
-    "url": "https://dhanambfsisummit.com/",
-    "sourceUrls": [
-      "https://dhanambfsisummit.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-26"
   }
 ]
