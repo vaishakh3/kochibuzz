@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-27T01:30:48.570Z",
-  "queryCursor": 4,
+  "lastRunAt": "2026-09-27T18:28:04.649Z",
+  "queryCursor": 6,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -11,7 +11,7 @@
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
     "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-24",
-    "https://stnsa.org/conclave": "2026-09-26",
+    "https://stnsa.org/conclave": "2026-09-27",
     "https://in.linkedin.com/company/c0c0nconference": "2026-09-19",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-09-24",
@@ -73,7 +73,7 @@
     "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16",
     "https://10times.com/kochi-in?radius=50": "2026-09-16",
     "https://luma.com/xoxsnozt": "2026-09-19",
-    "https://futurekerala.org.in/ideafest": "2026-09-26",
+    "https://futurekerala.org.in/ideafest": "2026-09-27",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-09-26",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-27",
     "https://luma.com/fivtwyix": "2026-09-25",
@@ -98,7 +98,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28960,
-    "outputTokens": 868
+    "inputTokens": 28697,
+    "outputTokens": 509
   }
 }

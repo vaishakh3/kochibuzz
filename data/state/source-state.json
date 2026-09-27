@@ -520,8 +520,6 @@
     "ksum-tenders-ksum-ret-fablab-ssk-ppme-26-27-01": "2026-09-25",
     "infopark-538-25737": "2026-09-26",
     "infopark-132-24681": "2026-09-26",
-    "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7": "2026-09-27",
-    "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea": "2026-09-27",
     "infopark-261-25746": "2026-09-27",
     "infopark-333-25738": "2026-09-27",
     "infopark-333-25739": "2026-09-27",
@@ -536,10 +534,11 @@
     "infopark-312-25717": "2026-09-27",
     "infopark-312-25718": "2026-09-27",
     "infopark-312-25719": "2026-09-27",
-    "infopark-312-25720": "2026-09-27"
+    "infopark-312-25720": "2026-09-27",
+    "infopark-542-25747": "2026-09-27"
   },
   "lastCounts": {
-    "infopark-jobs": 467,
+    "infopark-jobs": 468,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 0,
     "dodge-workable": 6,
@@ -551,7 +550,7 @@
     "ksum-events": 1,
     "ksum-tenders": 3,
     "paytm-payments-kochi-lever": 7,
-    "gdg-cloud-kochi": 6,
+    "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
     "tinkerhub-events": 8
   }
