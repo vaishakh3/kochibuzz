@@ -1,21 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-10-06": {
-      "signature": "b7cbc1aa3002b43d68b48a800b85199eb4736760481833ae7ad25516d96247b7",
-      "eventId": "c0c0n-2026",
-      "reason": "A major Kochi cybersecurity conference with training, CTFs, villages and live bug-hunting programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-28T06:59:52.406Z"
-    },
-    "2026-10-10": {
-      "signature": "7b57d5ec2fd3c9a7456397d91c7b9a0aa2da5f92a9abf430d320be2d519e449a",
-      "eventId": "web-anchorage-26-e3d66f6d66",
-      "reason": "A three-day CUSAT technology fest combining competitions, maritime programming, sessions and a startup pitch event.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-09-28T06:59:52.406Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 760,

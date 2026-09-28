@@ -1,26 +1,6 @@
 [
   {
     "candidate": {
-      "title": "Cochin Nano 2026 — 5th International Conference on Frontiers in Nanoscience and Technology",
-      "start": "2026-09-26",
-      "end": "2026-09-28",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Seminar Complex, Cochin University of Science and Technology",
-      "city": "Kochi",
-      "organizer": "Cochin University of Science and Technology",
-      "description": "International conference on nanoscience and technology. The registration page provides conference registration details and states that registration ends on September 15, 2026.",
-      "categoryHint": "technology conference / nanotechnology",
-      "evidenceUrl": "https://cochinnano.cusat.ac.in/registration/",
-      "registrationUrl": "https://cochinnano.cusat.ac.in/registration/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "Official page could not be fetched: Error: HTTP 500",
-    "discoveredAt": "2026-09-04"
-  },
-  {
-    "candidate": {
       "title": "Maker Thursday",
       "start": "2026-11-20",
       "end": null,
@@ -86,18 +66,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala, India",
+      "venue": "Kochi, Kerala — specific venue not stated on the event page",
       "city": "Kochi",
-      "organizer": "STNSA",
-      "description": "A flagship conclave listing 400+ founders and scheduled for December 10–13, 2026.",
-      "categoryHint": "startup, technology, founders",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "A four-day gathering for founders and the Stanford Seed Transformation Network community.",
+      "categoryHint": "startup/founder",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": null,
+      "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-27"
+    "discoveredAt": "2026-09-29"
   },
   {
     "candidate": {
@@ -521,26 +501,6 @@
   },
   {
     "candidate": {
-      "title": "IEDC Summit 2026",
-      "start": "2026-09-28",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi-area venue not stated on the available official evidence",
-      "city": "Kochi area",
-      "organizer": "Kerala Startup Mission",
-      "description": "Technology and student-entrepreneurship summit. The available event listing identifies 28 September 2026 but does not provide a specific venue.",
-      "categoryHint": "startup / technology summit",
-      "evidenceUrl": "https://sites.google.com/startupmission.in/iedc/more/iedc-summit",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.72
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-13"
-  },
-  {
-    "candidate": {
       "title": "c0c0n 2026 IoT Security Village",
       "start": "2026-10-09",
       "end": "2026-10-10",
@@ -881,23 +841,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "18:30",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
       "venue": "Holiday Inn Cochin, National Highway Bypass",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day event focused on Gemini, AI agents, Google Cloud, cloud architecture and AI application building.",
-      "categoryHint": "AI; cloud; developer; product technology",
+      "description": "Full-day technology community event focused on Gemini, AI agents, Google Cloud, cloud architecture, talks, workshops and networking.",
+      "categoryHint": "developer conference / cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-28"
+    "discoveredAt": "2026-09-29"
   },
   {
     "candidate": {
@@ -1067,17 +1027,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "CITTIC, CUSAT × Odoo",
-      "description": "24-hour hackathon focused on building, prototyping and technology opportunities.",
-      "categoryHint": "maker/technology/hackathon",
+      "city": "Kochi",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "A 24-hour hackathon focused on building and experimentation, with startup and hiring opportunities for participants.",
+      "categoryHint": "hackathon/maker/startup",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-26"
+    "discoveredAt": "2026-09-29"
   },
   {
     "candidate": {
@@ -1158,5 +1118,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-27"
+  },
+  {
+    "candidate": {
+      "title": "DevDay Exchange Community Hackathon: Kochi",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "startTime": "18:00",
+      "endTime": "09:00",
+      "venue": "JAIN University, Knowledge Park - Kochi, Nirmal Infopark, Kakkanad",
+      "city": "Kochi",
+      "organizer": "Codex Community Events",
+      "description": "In-person overnight hackathon for developers, students, founders and builders, including project building, demos and networking.",
+      "categoryHint": "developer hackathon",
+      "evidenceUrl": "https://luma.com/z10nz8gp",
+      "registrationUrl": "https://luma.com/z10nz8gp",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-29"
   }
 ]
