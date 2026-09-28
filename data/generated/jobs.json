@@ -1,5 +1,31 @@
 [
   {
+    "id": "infopark-142-25762",
+    "title": "Executive / Senior Executive – HR (HRBP)",
+    "company": "Speridian Technologies Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-10",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/142/25762",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-296-25765",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-09-29",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25765",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
     "id": "infopark-312-25756",
     "title": "Associate - QA Engineer",
     "company": "2Base Technologies Pvt Ltd",
@@ -182,6 +208,110 @@
     "firstSeenAt": "2026-09-28"
   },
   {
+    "id": "infopark-41-25766",
+    "title": "IT Service Desk SME (Payment Card Systems)",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25766",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-41-25767",
+    "title": "Golang Microservices Engineer (Payment Card Middleware)",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25767",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-41-25768",
+    "title": "Business Development Executive - IT & Software (Exp: 2+ Yrs)",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-09-28",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25768",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-41-25769",
+    "title": "Trainee  - Sales & Business Development",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25769",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-41-25770",
+    "title": "Digital Marketing Specialist (Exp: 2 - 4 Yrs)",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25770",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-41-25771",
+    "title": "Flutter Developer (Exp: 06 Months to 3 Years)",
+    "company": "LucidPlus Infotech Pvt Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/41/25771",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-539-25763",
+    "title": "Sales & Purchase Associate",
+    "company": "Alphasky Ventures Pvt. Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-10-28",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/539/25763",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-539-25764",
+    "title": "Logistics Executive",
+    "company": "Alphasky Ventures Pvt. Ltd",
+    "postedAt": "2026-09-28",
+    "deadlineAt": "2026-09-28",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/539/25764",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
     "id": "infopark-261-25746",
     "title": "SEO & Digital Marketing Expert (Experience: 3–5 Years)",
     "company": "9Commerce Technologies",
@@ -255,19 +385,6 @@
     "location": "Infopark, Kochi",
     "category": "other",
     "detailUrl": "https://infopark.in/company-jobs/details/119/25725",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-25"
-  },
-  {
-    "id": "infopark-296-25728",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-09-25",
-    "deadlineAt": "2026-09-28",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25728",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-25"
@@ -398,19 +515,6 @@
     "location": "Infopark, Kochi",
     "category": "design",
     "detailUrl": "https://infopark.in/company-jobs/details/332/25697",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-24"
-  },
-  {
-    "id": "infopark-41-25694",
-    "title": "Trainee  - Sales & Business Development",
-    "company": "LucidPlus Infotech Pvt Ltd",
-    "postedAt": "2026-09-24",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "internship",
-    "detailUrl": "https://infopark.in/company-jobs/details/41/25694",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-24"
@@ -1462,19 +1566,6 @@
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/378/25440",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-11"
-  },
-  {
-    "id": "infopark-41-25425",
-    "title": "Golang Microservices Engineer – Payment Card Middleware",
-    "company": "LucidPlus Infotech Pvt Ltd",
-    "postedAt": "2026-09-11",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/41/25425",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-11"
@@ -2656,19 +2747,6 @@
     "firstSeenAt": "2026-08-23"
   },
   {
-    "id": "infopark-539-25126",
-    "title": "Sales & Purchase Associate",
-    "company": "Alphasky Ventures Pvt. Ltd",
-    "postedAt": "2026-08-18",
-    "deadlineAt": "2026-10-15",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/539/25126",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
-  },
-  {
     "id": "infopark-378-25094",
     "title": "Senior Cybersecurity Engineer",
     "company": "Simelabs - An Astek Company",
@@ -3106,19 +3184,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-02"
-  },
-  {
-    "id": "infopark-539-24883",
-    "title": "Logistics Executive",
-    "company": "Alphasky Ventures Pvt. Ltd",
-    "postedAt": "2026-07-29",
-    "deadlineAt": "2026-10-15",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/539/24883",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-08-20"
   },
   {
     "id": "infopark-95-24868",
@@ -3916,18 +3981,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "paytm-payments-ernakulam-lever-3b29c732-5167-4f97-b15c-61663f139530",
-    "title": "Team Leader - O&G Adjacent 1 - Ernakulam",
-    "company": "Paytm Payments",
-    "postedAt": "2026-06-17",
-    "location": "Ernakulam, Kerala",
-    "category": "other",
-    "detailUrl": "https://jobs.lever.co/paytmpayments/3b29c732-5167-4f97-b15c-61663f139530",
-    "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
-    "sourceId": "paytm-payments-ernakulam-lever",
-    "firstSeenAt": "2026-08-23"
-  },
-  {
     "id": "infopark-4-24135",
     "title": "AI Engineering Lead -Kochi-Bangalore-Fulltime",
     "company": "Art Technology and Software",
@@ -3942,12 +3995,12 @@
   },
   {
     "id": "infopark-502-24117",
-    "title": "ERP Implementation Executive",
+    "title": "Business Analyst",
     "company": "Cyberion Software Solutions Pvt. Ltd",
     "postedAt": "2026-06-16",
     "deadlineAt": "2026-10-15",
     "location": "Infopark, Kochi",
-    "category": "other",
+    "category": "product",
     "detailUrl": "https://infopark.in/company-jobs/details/502/24117",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
@@ -4030,18 +4083,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "dodge-workable-0c9449f98a",
-    "title": "Operations Manager",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-06-10",
-    "location": "Kochi, India",
-    "category": "business",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/0C9449F98A/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-08-23"
   },
   {
     "id": "infopark-138-24000",
@@ -6494,6 +6535,32 @@
     "firstSeenAt": "2026-09-21"
   },
   {
+    "id": "infopark-309-10728",
+    "title": "HR Interns",
+    "company": "ROGERSOFT",
+    "postedAt": "2022-08-02",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/309/10728",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
+    "id": "infopark-309-10729",
+    "title": "Digital marketing executive (Minimum 4 Years experience)",
+    "company": "ROGERSOFT",
+    "postedAt": "2022-08-02",
+    "deadlineAt": "2026-10-03",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/309/10729",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
+  },
+  {
     "id": "infopark-190-10422",
     "title": "DevOps Engineer",
     "company": "Innovature Software Labs (P) Ltd",
@@ -6505,6 +6572,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-21"
+  },
+  {
+    "id": "infopark-309-9356",
+    "title": "Digital Marketing Intern",
+    "company": "ROGERSOFT",
+    "postedAt": "2022-03-29",
+    "deadlineAt": "2026-10-03",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/309/9356",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-28"
   },
   {
     "id": "infopark-95-9357",
