@@ -359,6 +359,27 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "web-hac-kp-2026-boot-camp-and-awards-e551793326",
+    "title": "HAC'KP 2026 Boot Camp and Awards",
+    "start": "2026-10-06",
+    "end": "2026-10-09",
+    "category": "hackathon",
+    "venue": "Kochi; boot camp venue is not further specified on the schedule page; awards at Grand Hyatt, Bolgatty, Kochi",
+    "city": "Kochi",
+    "organizer": "Kerala Police",
+    "blurb": "The official schedule lists an on-site Kochi boot camp from October 6–8 and awards/prize distribution on October 9 during c0c0n 2026.",
+    "tags": [],
+    "url": "https://dev.hackp.kerala.gov.in/schedule",
+    "registerUrl": "https://hackp.kerala.gov.in/",
+    "sourceUrls": [
+      "https://dev.hackp.kerala.gov.in/schedule"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-28"
+  },
+  {
     "id": "tinkerhub-events-xz5qofiwiv",
     "title": "Maker Thursday",
     "start": "2026-10-08",
@@ -406,6 +427,26 @@
       "codex-community-luma"
     ],
     "firstSeenAt": "2026-09-22"
+  },
+  {
+    "id": "web-anchorage-26-e3d66f6d66",
+    "title": "ANCHORAGE'26",
+    "start": "2026-10-10",
+    "end": "2026-10-12",
+    "category": "startup",
+    "venue": "Department of Ship Technology, Cochin University of Science and Technology, Kalamassery",
+    "city": "Kalamassery, Kochi area",
+    "organizer": "Department of Ship Technology, CUSAT",
+    "blurb": "Three-day technology fest with competitions, sessions and shows, including a quiz, maritime diplomacy mock-up session and startup-pitch-style Shark Tank competition. Registration is listed on the event page.",
+    "tags": [],
+    "url": "https://arinjo.in/events/anchorage-26",
+    "sourceUrls": [
+      "https://arinjo.in/events/anchorage-26"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-28"
   },
   {
     "id": "tinkerhub-events-ayxrig2zgp",
@@ -570,6 +611,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
+    "title": "Global AI Kochi – Chapter Meet, October 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Infopark Kochi Knowledge Park, Kakkanad",
+    "city": "Kochi, Ernakulam",
+    "organizer": "Global AI Community – Kochi Chapter",
+    "blurb": "Community meet covering AI security scenarios, Blazor web applications and Playwright MCP test automation.",
+    "tags": [],
+    "url": "https://globalai.community/e/1xf5gxza",
+    "sourceUrls": [
+      "https://globalai.community/e/1xf5gxza"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-28"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -622,6 +685,27 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kalamassery, Kochi area",
+    "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, in association with Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+    "tags": [],
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://makeaton.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-28"
   },
   {
     "id": "huddle-global-2026",

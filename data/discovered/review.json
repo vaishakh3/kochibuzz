@@ -121,23 +121,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026",
-      "start": "2026-10-06",
-      "end": "2026-10-13",
+      "title": "c0c0n 2026 International Cybersecurity Conference",
+      "start": "2026-10-09",
+      "end": "2026-10-10",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
-      "organizer": "c0c0n, organised by Kerala Police",
-      "description": "Cybersecurity and hacking conference with AI, cloud/security-adjacent, deep-tech, information-security, privacy, CTF, training and exhibition programming. Pre-conference training: October 6–8; conference: October 9–10; post-conference training: October 11–13.",
-      "categoryHint": "security; AI; deep tech; cloud/security-adjacent",
+      "venue": "Grand Hyatt, Bolgatty, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "c0c0n",
+      "description": "International hacking and cybersecurity conference. The official event page lists the Kochi dates and provides conference registration.",
+      "categoryHint": "technology conference / cybersecurity",
       "evidenceUrl": "https://c0c0n.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://c0c0n.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -181,23 +181,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 Pre-Conference Trainings",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
+      "title": "c0c0n 2026 — Post-Conference Training",
+      "start": "2026-10-11",
+      "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty, Kochi",
-      "city": "Kochi",
+      "venue": "Grand Hyatt, Bolgatty",
+      "city": "Kochi, Kerala",
       "organizer": "Kerala Police and Information Security Research Association (ISRA)",
-      "description": "Publicly registered cybersecurity training programme associated with c0c0n 2026. The official registration page lists the exact dates, venue and registration availability.",
-      "categoryHint": "developer/security workshop",
+      "description": "Publicly registrable cybersecurity training sessions held after the c0c0n 2026 conference.",
+      "categoryHint": "developer workshop / cybersecurity training",
       "evidenceUrl": "https://www.c0c0n.org/register",
       "registrationUrl": "https://www.c0c0n.org/register",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-19"
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -401,23 +401,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026",
+      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing Conference",
       "start": "2026-10-06",
       "end": "2026-10-13",
       "startTime": null,
       "endTime": null,
       "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
-      "organizer": "c0c0n",
-      "description": "Technology and cybersecurity event listed for Kochi.",
-      "categoryHint": "technology/cybersecurity",
+      "city": "Kochi",
+      "organizer": "c0c0n / Keralam Police",
+      "description": "Cybersecurity conference and technical training programme covering AI, cloud security, API security, offensive security, financial technology, critical infrastructure, IoT and hardware security. The main conference is scheduled for October 9–10, with pre-conference training October 6–8 and post-conference training October 11–13.",
+      "categoryHint": "Cybersecurity; AI; cloud security; data protection",
       "evidenceUrl": "https://c0c0n.org/2026",
-      "registrationUrl": null,
+      "registrationUrl": "https://c0c0n.org/2026",
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-10"
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -621,23 +621,23 @@
   },
   {
     "candidate": {
-      "title": "Kerala International AI Film Festival (KIAFF 2027)",
+      "title": "International AI Film Festival of Kerala (AIFFK) — Kochi 2027",
       "start": "2027-01-22",
       "end": "2027-01-24",
       "startTime": null,
       "endTime": null,
-      "venue": "Not specified on the evidence page",
-      "city": "Kochi",
-      "organizer": "SoStorytelling",
-      "description": "AI-focused film festival for filmmakers, technologists, artists, media executives, startups and developers, covering AI use in film conception, design and production.",
-      "categoryHint": "creative technology, AI, design",
+      "venue": "Kochi venue not specified on the public event page",
+      "city": "Kochi, Kerala",
+      "organizer": "So Storytelling",
+      "description": "AI-focused creative-technology film festival for filmmakers, technologists, artists, media executives, startups and developers. Public submissions are scheduled to open on 2026-10-15.",
+      "categoryHint": "creative technology / AI festival",
       "evidenceUrl": "https://sostorytelling.com/ai-film-festival/",
       "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.93
+      "sourceKind": "official_event_page",
+      "confidence": 0.83
     },
-    "reason": "Date is outside the upcoming 120-day window.",
-    "discoveredAt": "2026-09-15"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -721,23 +721,23 @@
   },
   {
     "candidate": {
-      "title": "KPH Hackathon ’26 — Build, Launch, Scale",
+      "title": "KPH Hackathon'26",
       "start": "2026-10-03",
       "end": "2026-10-04",
       "startTime": null,
       "endTime": null,
-      "venue": "KPH, Kochi area",
+      "venue": "Kochi-area venue not specified on the public event page",
       "city": "Kochi",
       "organizer": "KPH",
-      "description": "A curated 24-hour startup/product hackathon with mentorship, launch support and prizes. Participation is application-based and invite-only.",
+      "description": "24-hour product-building hackathon focused on startup/product development, mentorship, funding and go-to-market support. The public page states that participation is invite-only and requires an application; no public venue is stated.",
       "categoryHint": "startup hackathon",
       "evidenceUrl": "https://kph.club/hack",
       "registrationUrl": "https://kph.club/hack",
       "sourceKind": "official_event_page",
-      "confidence": 0.83
+      "confidence": 0.87
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-24"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -861,43 +861,43 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026 — Inter-College & Inter-School Edition",
-      "start": "2026-10-09",
-      "end": null,
+      "title": "Idea Fest 2026 — Design Thinking Workshop and On-Campus Competition",
+      "start": "2026-10-06",
+      "end": "2026-10-09",
       "startTime": null,
       "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "venue": "JAIN (Deemed-to-be University), Kochi; online workshop for the workshop phase",
       "city": "Kochi",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University, Wales, U.K.",
-      "description": "A youth-focused innovation competition focused on identifying urban and societal challenges in Kochi and developing practical solutions.",
-      "categoryHint": "innovation, entrepreneurship, creative technology",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
+      "description": "Online design-thinking workshop on October 6–7, followed by the on-campus Idea Fest competition with final presentations, judging and winner announcement on October 9. Registration deadline: October 4, 2026.",
+      "categoryHint": "creative-tech / innovation workshop / competition",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
-      "registrationUrl": null,
+      "registrationUrl": "https://www.futurekerala.org.in/ideafest/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.97
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-27"
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": "2026-11-14",
       "startTime": "09:00",
       "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day developer and cloud event covering Gemini, AI agents, Google Cloud, cloud architecture and related technologies.",
-      "categoryHint": "developer, cloud, AI",
+      "description": "Full-day event focused on Gemini, AI agents, Google Cloud, cloud architecture and AI application building.",
+      "categoryHint": "AI; cloud; developer; product technology",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-27"
+    "discoveredAt": "2026-09-28"
   },
   {
     "candidate": {
@@ -1017,26 +1017,6 @@
       "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-23"
-  },
-  {
-    "candidate": {
-      "title": "[CCD Pre-Event] Where is the Meaning?",
-      "start": "2026-09-27",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Not stated in the available public evidence",
-      "city": "Kochi",
-      "organizer": "GDG Cloud Kochi",
-      "description": "Hands-on exploration of how machines transform language into numerical representations, compare ideas, and retrieve relevant information.",
-      "categoryHint": "developer / AI",
-      "evidenceUrl": "https://gdg.community.dev/gdg-cloud-kochi/",
-      "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.82
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-23"
   },
   {
