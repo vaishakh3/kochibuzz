@@ -337,6 +337,33 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "tinkerhub-events-902pj5q96s",
+    "title": "Classrooms",
+    "start": "2026-10-04",
+    "end": "2026-10-04",
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Last Sunday, we took Gemmaiku, my fine-tuned version of Gemma, and started turning it into a ChatGPT-style product. This Sunday, we go one layer deeper. We’ll build the part that makes the chatbot work using Python + FastAPI, connect it to Ollama, and serve Gemma/Gemmaiku through",
+    "tags": [
+      "TinkerHub",
+      "Learning Program",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/902PJ5Q96S/classrooms",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/902PJ5Q96S/classrooms"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-09-29"
+  },
+  {
     "id": "c0c0n-2026",
     "title": "c0c0n 2026",
     "start": "2026-10-06",
@@ -386,26 +413,24 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "codex-community-luma-evt-m5dj827u7qrr5y1-events-lu-ma",
-    "title": "DevDay Exchange Community Hackathon: Kochi",
+    "id": "web-anchorage-26-e3d66f6d66",
+    "title": "ANCHORAGE'26",
     "start": "2026-10-10",
-    "end": "2026-10-11",
-    "startTime": "18:00",
-    "endTime": "09:00",
-    "category": "hackathon",
-    "venue": "Jain University Kochi",
-    "city": "Unknown",
-    "organizer": "Vaishakh Suresh",
-    "blurb": "Get up-to-date information at: https://luma.com/z10nz8gp Address: Jain University Kochi Kochi, India Hosted by Vaishakh Suresh & Rhiannon Payne",
+    "end": "2026-10-12",
+    "category": "webdev",
+    "venue": "Department of Ship Technology, Cochin University of Science and Technology (CUSAT)",
+    "city": "Kalamassery, Ernakulam",
+    "organizer": "Department of Ship Technology, CUSAT",
+    "blurb": "Annual technology fest featuring competitions, sessions and shows.",
     "tags": [],
-    "url": "https://luma.com/z10nz8gp",
+    "url": "https://arinjo.in/events/anchorage-26",
     "sourceUrls": [
-      "https://luma.com/z10nz8gp"
+      "https://arinjo.in/events/anchorage-26"
     ],
     "sourceIds": [
-      "codex-community-luma"
+      "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-09-22"
+    "firstSeenAt": "2026-09-29"
   },
   {
     "id": "tinkerhub-events-ayxrig2zgp",
@@ -570,6 +595,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
+    "title": "Global AI Kochi – Chapter Meet – October 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Infopark Kochi Knowledge Park – Kochi, Nirmal Infopark, Infopark P.O., Kakkanad",
+    "city": "Kochi, Ernakulam",
+    "organizer": "Global AI Community",
+    "blurb": "A public chapter meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. Agenda topics include AI security, Blazor web applications and Playwright MCP test automation.",
+    "tags": [],
+    "url": "https://globalai.community/e/1xf5gxza",
+    "sourceUrls": [
+      "https://globalai.community/e/1xf5gxza"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-09-29"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -622,50 +669,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
-  },
-  {
-    "id": "web-echai-startup-demo-day-in-kochi-c07a7192be",
-    "title": "eChai Startup Demo Day in Kochi",
-    "start": "2026-10-31",
-    "end": "2026-10-31",
-    "startTime": "18:00",
-    "endTime": "20:00",
-    "category": "startup",
-    "venue": "Kochi",
-    "city": "Kochi",
-    "organizer": "eChai Ventures",
-    "blurb": "Where founders show what they're building.",
-    "tags": [],
-    "url": "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026",
-    "sourceUrls": [
-      "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-29"
-  },
-  {
-    "id": "web-qiskit-fall-fest-2026-quantum-hack-day-kochi-cbeeb55eea",
-    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "startTime": "10:00",
-    "endTime": "17:00",
-    "category": "hackathon",
-    "venue": "TinkerSpace Kochi",
-    "city": "Kochi",
-    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
-    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
-    "tags": [],
-    "url": "https://luma.com/ndjvmw7w",
-    "sourceUrls": [
-      "https://luma.com/ndjvmw7w"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-09-29"
   },
   {
     "id": "huddle-global-2026",

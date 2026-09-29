@@ -102,6 +102,31 @@
       "firstSeenAt": "2026-09-23"
     },
     {
+      "id": "ksum-tenders-ksum-et-fm-2026-27-09-29",
+      "title": "TENDER FOR PROVIDING MANPOWER FOR FACILITY MANAGEMENT AT VARIOUS LOCATIONS OF KSUM",
+      "type": "other",
+      "organization": "Kerala Startup Mission",
+      "summary": "TENDER FOR PROVIDING MANPOWER FOR FACILITY MANAGEMENT AT VARIOUS LOCATIONS OF KSUM",
+      "deadlineAt": "2026-10-13",
+      "locationScope": "kerala",
+      "benefit": "eTender",
+      "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/01M3PEADAB3PACTX9212XWC99T.pdf",
+      "url": "https://startupmission.kerala.gov.in/storage/tenders/01M3PEADAB3PACTX9212XWC99T.pdf",
+      "sourceUrls": [
+        "https://startupmission.kerala.gov.in/api/public/tenders",
+        "https://startupmission.kerala.gov.in/storage/tenders/01M3PEADAB3PACTX9212XWC99T.pdf"
+      ],
+      "sourceIds": [
+        "ksum-tenders"
+      ],
+      "tags": [
+        "KSUM",
+        "RFP",
+        "tender"
+      ],
+      "firstSeenAt": "2026-09-29"
+    },
+    {
       "id": "huddle-global-2026-registration",
       "title": "Huddle Global 2026 — delegate registration",
       "type": "other",

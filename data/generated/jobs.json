@@ -91,6 +91,19 @@
     "firstSeenAt": "2026-09-29"
   },
   {
+    "id": "infopark-190-25804",
+    "title": "Sr. Data Analyst",
+    "company": "Innovature Software Labs (P) Ltd",
+    "postedAt": "2026-09-29",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "ai-data",
+    "detailUrl": "https://infopark.in/company-jobs/details/190/25804",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-29"
+  },
+  {
     "id": "infopark-209-25795",
     "title": "Senior Fullstack Developer",
     "company": "NDimensionZ Solutions Pvt.Ltd",
@@ -99,6 +112,32 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/209/25795",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-29"
+  },
+  {
+    "id": "infopark-283-25803",
+    "title": "Freelance Consultant QA Automation Tester – Mobile & Web Applications",
+    "company": "Zamorins Solutions (P) Ltd",
+    "postedAt": "2026-09-29",
+    "deadlineAt": "2026-10-10",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/283/25803",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-29"
+  },
+  {
+    "id": "infopark-296-25805",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-09-29",
+    "deadlineAt": "2026-09-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25805",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-29"
@@ -299,6 +338,19 @@
     "firstSeenAt": "2026-09-29"
   },
   {
+    "id": "infopark-387-25802",
+    "title": "QA Consultant (Automation)",
+    "company": "AlignMinds Technologies",
+    "postedAt": "2026-09-29",
+    "deadlineAt": "2026-10-03",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/387/25802",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-29"
+  },
+  {
     "id": "infopark-417-25791",
     "title": "BIM Engineer - MEP",
     "company": "Endeion Engineering Services Pvt.Ltd",
@@ -329,7 +381,7 @@
     "title": "FULL STACK DEVELOPER- WALK IN",
     "company": "TNP Consultancy Private Limited",
     "postedAt": "2026-09-29",
-    "deadlineAt": "2026-10-08",
+    "deadlineAt": "2026-10-02",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/489/25793",
@@ -385,19 +437,6 @@
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/142/25762",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-28"
-  },
-  {
-    "id": "infopark-296-25765",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-09-28",
-    "deadlineAt": "2026-09-29",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25765",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-28"
@@ -2652,7 +2691,7 @@
     "title": "Machine Learning Engineer (Generative AI & Document Intelligence)",
     "company": "QC Verify Private Limited",
     "postedAt": "2026-08-27",
-    "deadlineAt": "2026-09-30",
+    "deadlineAt": "2026-10-30",
     "location": "Infopark, Kochi",
     "category": "ai-data",
     "detailUrl": "https://infopark.in/company-jobs/details/257/25186",
@@ -3112,7 +3151,7 @@
     "title": "Data Engineer",
     "company": "Innovature Software Labs (P) Ltd",
     "postedAt": "2026-08-06",
-    "deadlineAt": "2026-09-30",
+    "deadlineAt": "2026-10-29",
     "location": "Infopark, Kochi",
     "category": "ai-data",
     "detailUrl": "https://infopark.in/company-jobs/details/190/25006",
@@ -3210,6 +3249,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-70-24932",
+    "title": "Solutions Consultant",
+    "company": "Empress InfoTech",
+    "postedAt": "2026-08-03",
+    "deadlineAt": "2026-10-05",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/70/24932",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-09-29"
   },
   {
     "id": "infopark-95-24927",
@@ -3719,10 +3771,10 @@
   },
   {
     "id": "infopark-283-24659",
-    "title": "Web & Digital Marketing Specialist (Remote / WFH or Work From Office – Kochi)",
+    "title": "Web & Digital Marketing Specialist (Work From Office – Kochi)",
     "company": "Zamorins Solutions (P) Ltd",
     "postedAt": "2026-07-15",
-    "deadlineAt": "2026-09-30",
+    "deadlineAt": "2026-10-10",
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/283/24659",
@@ -4575,19 +4627,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-10"
-  },
-  {
-    "id": "infopark-268-23523",
-    "title": "Quality Assurance Analyst -(Immediate join- 1 Month)",
-    "company": "Techware Lab Pvt.Ltd",
-    "postedAt": "2026-05-13",
-    "deadlineAt": "2026-09-30",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/268/23523",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-16"
   },
   {
     "id": "infopark-76-23516",
