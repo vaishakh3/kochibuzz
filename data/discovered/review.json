@@ -741,26 +741,6 @@
   },
   {
     "candidate": {
-      "title": "Founder-Being LaunchPad Demo Day",
-      "start": "2026-09-29",
-      "end": "2026-09-29",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi",
-      "organizer": "Founder-Being LaunchPad",
-      "description": "Demo Day for a 16-week, 16-module startup programme for young founders.",
-      "categoryHint": "startup founders",
-      "evidenceUrl": "https://www.founderbeinglaunchpad.com/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.83
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-16"
-  },
-  {
-    "candidate": {
       "title": "Space Carnival",
       "start": "2026-12-17",
       "end": null,
@@ -821,23 +801,23 @@
   },
   {
     "candidate": {
-      "title": "Idea Fest 2026 — Design Thinking Workshop and On-Campus Competition",
-      "start": "2026-10-06",
-      "end": "2026-10-09",
+      "title": "Idea Fest 2026",
+      "start": "2026-10-09",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi; online workshop for the workshop phase",
-      "city": "Kochi",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, in collaboration with Kochi Municipal Corporation and Cardiff University",
-      "description": "Online design-thinking workshop on October 6–7, followed by the on-campus Idea Fest competition with final presentations, judging and winner announcement on October 9. Registration deadline: October 4, 2026.",
-      "categoryHint": "creative-tech / innovation workshop / competition",
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Future Kerala Mission of JAIN University, Kochi, with Cardiff University, Wales, U.K.",
+      "description": "Public registration is described on the official event page. The on-campus inter-college/inter-school competition follows an online Design Thinking Workshop on 2026-10-06 and 2026-10-07. Registration deadline: 2026-10-04.",
+      "categoryHint": "college innovation competition / workshop",
       "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
       "registrationUrl": "https://www.futurekerala.org.in/ideafest/",
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-28"
+    "discoveredAt": "2026-09-30"
   },
   {
     "candidate": {
@@ -861,23 +841,23 @@
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Finale — Boot Camp",
+      "title": "Hac'KP 2026 Boot Camp — The Finale",
       "start": "2026-10-05",
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Crowne Plaza, Kochi",
+      "venue": "Crowne Plaza",
       "city": "Kochi",
-      "organizer": "Hac'KP 2026",
-      "description": "Residential boot camp for the top 50 innovators, focused on agentic AI for investigations and practical technology solutions.",
-      "categoryHint": "technology / startup / hackathon",
+      "organizer": "Hac'KP 2026 / Kerala Police",
+      "description": "Residential technology innovation boot camp for shortlisted innovators, focused on agentic AI for investigations.",
+      "categoryHint": "technology/startup",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-23"
+    "discoveredAt": "2026-09-30"
   },
   {
     "candidate": {
@@ -1138,5 +1118,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-29"
+  },
+  {
+    "candidate": {
+      "title": "Gartner IT Symposium/Xpo 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt",
+      "city": "Kochi",
+      "organizer": "Gartner",
+      "description": "Technology and business conference for CIOs and IT executives, covering AI, cybersecurity, emerging technologies and enterprise transformation.",
+      "categoryHint": "technology/conference",
+      "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-09-30"
   }
 ]

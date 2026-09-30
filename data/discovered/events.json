@@ -1,39 +1,40 @@
 [
   {
-    "id": "web-anchorage-26-e3d66f6d66",
-    "title": "ANCHORAGE'26",
+    "id": "web-devday-exchange-community-hackathon-kochi-e8c99ad377",
+    "title": "DevDay Exchange Community Hackathon: Kochi",
     "start": "2026-10-10",
-    "end": "2026-10-12",
-    "category": "webdev",
-    "venue": "Department of Ship Technology, Cochin University of Science and Technology (CUSAT)",
-    "city": "Kalamassery, Ernakulam",
-    "organizer": "Department of Ship Technology, CUSAT",
-    "blurb": "Annual technology fest featuring competitions, sessions and shows.",
+    "end": "2026-10-11",
+    "startTime": "18:00",
+    "endTime": "09:00",
+    "category": "hackathon",
+    "venue": "Kochi, India",
+    "city": "Kochi",
+    "organizer": "Codex Community Events, Vaishakh Suresh, Rhiannon Payne",
+    "blurb": "Join DevDay Exchange Community Hackathon: Kochi , hosted by Vaishakh Suresh, your local Codex Ambassador.",
     "tags": [],
-    "url": "https://arinjo.in/events/anchorage-26",
+    "url": "https://luma.com/z10nz8gp",
     "sourceUrls": [
-      "https://arinjo.in/events/anchorage-26"
+      "https://luma.com/z10nz8gp"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ]
   },
   {
-    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
-    "title": "Global AI Kochi – Chapter Meet – October 2026",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "10:00",
-    "endTime": "13:00",
-    "category": "ai",
-    "venue": "Infopark Kochi Knowledge Park – Kochi, Nirmal Infopark, Infopark P.O., Kakkanad",
-    "city": "Kochi, Ernakulam",
-    "organizer": "Global AI Community",
-    "blurb": "A public chapter meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. Agenda topics include AI security, Blazor web applications and Playwright MCP test automation.",
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kochi, Kerala",
+    "organizer": "CITTIC, CUSAT × Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
     "tags": [],
-    "url": "https://globalai.community/e/1xf5gxza",
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://globalai.community/e/1xf5gxza"
+      "https://makeaton.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"

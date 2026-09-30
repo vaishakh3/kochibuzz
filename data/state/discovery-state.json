@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-09-29T15:56:08.301Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-09-30T06:47:09.495Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -73,11 +73,11 @@
     "https://tinkerhub.frappe.cloud/tinkerspace/spacecarnival": "2026-09-16",
     "https://10times.com/kochi-in?radius=50": "2026-09-16",
     "https://luma.com/xoxsnozt": "2026-09-19",
-    "https://futurekerala.org.in/ideafest": "2026-09-28",
+    "https://futurekerala.org.in/ideafest": "2026-09-30",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-09-28",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-09-29",
     "https://luma.com/fivtwyix": "2026-09-25",
-    "https://hackp.kerala.gov.in/finale": "2026-09-23",
+    "https://hackp.kerala.gov.in/finale": "2026-09-30",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-09-26",
     "https://kcd.cncgkochi.in/": "2026-09-20",
     "https://luma.com/ndjvmw7w": "2026-09-29",
@@ -87,7 +87,7 @@
     "https://arinjo.in/": "2026-09-23",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-09-23",
     "https://arinjo.in/events/anchorage-26": "2026-09-29",
-    "https://makeaton.in/": "2026-09-29",
+    "https://makeaton.in/": "2026-09-30",
     "https://globalai.community/e/1xf5gxza": "2026-09-29",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
     "https://events.devopsmalayalam.io/": "2026-09-26",
@@ -95,12 +95,13 @@
     "https://indiahackathons.com/hi/events/devday-exchange-community-hackathon-kochi": "2026-09-26",
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
-    "https://luma.com/z10nz8gp": "2026-09-29"
+    "https://luma.com/z10nz8gp": "2026-09-30",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-09-30"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28741,
-    "outputTokens": 557
+    "inputTokens": 28965,
+    "outputTokens": 1474
   }
 }
