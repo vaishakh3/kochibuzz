@@ -81,23 +81,23 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026",
+      "title": "c0c0n 2026 — International Cyber Security Conference",
       "start": "2026-10-09",
       "end": "2026-10-10",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Bolgatty",
+      "venue": "Grand Hyatt Kochi",
       "city": "Kochi",
       "organizer": "c0c0n",
-      "description": "Cybersecurity conference covering AI security, agentic AI, software supply-chain security, application security and DevSecOps.",
-      "categoryHint": "Cybersecurity, AI security, cloud security",
+      "description": "International cybersecurity conference. The organizer’s public listing states the conference dates, venue and registration destination.",
+      "categoryHint": "technology conference",
       "evidenceUrl": "https://in.linkedin.com/company/c0c0nconference",
-      "registrationUrl": null,
+      "registrationUrl": "https://c0c0n.org/2026",
       "sourceKind": "social_post",
-      "confidence": 0.92
+      "confidence": 0.97
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-19"
+    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
@@ -841,23 +841,23 @@
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Boot Camp — The Finale",
+      "title": "Hac'KP 2026 Finale Boot Camp",
       "start": "2026-10-05",
       "end": "2026-10-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Crowne Plaza",
+      "venue": "Crowne Plaza Kochi",
       "city": "Kochi",
-      "organizer": "Hac'KP 2026 / Kerala Police",
-      "description": "Residential technology innovation boot camp for shortlisted innovators, focused on agentic AI for investigations.",
-      "categoryHint": "technology/startup",
+      "organizer": "Kerala Police / Hac'KP 2026",
+      "description": "Residential technology boot camp focused on agentic AI for investigations, with technology experts and mentors.",
+      "categoryHint": "AI, cybersecurity, startup innovation",
       "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-30"
+    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
@@ -921,26 +921,6 @@
   },
   {
     "candidate": {
-      "title": "TYPODAY 2026",
-      "start": "2026-09-28",
-      "end": "2026-09-30",
-      "startTime": null,
-      "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi",
-      "organizer": "Future Summit / TYPODAY",
-      "description": "A typography-focused conference and workshop with public paid registration, including student registration. The official page lists the event dates, Kochi venue and registration options.",
-      "categoryHint": "creative-tech workshop/conference",
-      "evidenceUrl": "https://typoday.futuresummit.in/",
-      "registrationUrl": "https://typoday.futuresummit.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "Official page could not be fetched: Error: HTTP 403",
-    "discoveredAt": "2026-09-21"
-  },
-  {
-    "candidate": {
       "title": "ANCHORAGE'26",
       "start": "2026-10-10",
       "end": "2026-10-12",
@@ -1001,23 +981,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
+      "title": "Odoo × Make-A-Ton 9.0 — Final Round",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
       "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
       "city": "Kochi",
-      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-      "description": "A 24-hour hackathon focused on building and experimentation, with startup and hiring opportunities for participants.",
-      "categoryHint": "hackathon/maker/startup",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "description": "24-hour hiring hackathon final round. The official event page states the dates, CUSAT venue, organizer collaboration and registration timeline.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
-      "registrationUrl": "https://www.makeaton.in/",
+      "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-29"
+    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
@@ -1126,17 +1106,77 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt",
+      "venue": "Kochi, exact venue not stated in the available evidence",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "Technology and business conference for CIOs and IT executives, covering AI, cybersecurity, emerging technologies and enterprise transformation.",
-      "categoryHint": "technology/conference",
+      "description": "IT leadership event covering generative AI, cybersecurity, emerging technologies, customer experience and business value of IT.",
+      "categoryHint": "AI, cloud, data, cybersecurity, enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.97
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-30"
+    "discoveredAt": "2026-10-01"
+  },
+  {
+    "candidate": {
+      "title": "bi0s Meetups — October 2026 edition",
+      "start": "2026-10-03",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, Vidya Nagar Colony, Thrikkakara, Kalamassery",
+      "city": "Kochi",
+      "organizer": "Team bi0s Kochi",
+      "description": "Technology/security meetup. The organizer’s public post gives the exact date and Kochi-area venue and invites speaker applications; public attendee-registration details were not visible in the evidence reviewed.",
+      "categoryHint": "technology meetup",
+      "evidenceUrl": "https://in.linkedin.com/company/teambi0skochi",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.83
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-01"
+  },
+  {
+    "candidate": {
+      "title": "HAC'KP 2026 Boot Camp",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "On-site Kochi venue; exact venue name not stated on the official schedule",
+      "city": "Kochi",
+      "organizer": "HAC'KP 2026",
+      "description": "On-site hackathon boot camp focused on solution integration, mentoring, evaluations and product showcase. The official schedule states Kochi but does not provide a more specific venue.",
+      "categoryHint": "hackathon boot camp",
+      "evidenceUrl": "https://dev.hackp.kerala.gov.in/schedule/",
+      "registrationUrl": "https://hackp.kerala.gov.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-01"
+  },
+  {
+    "candidate": {
+      "title": "IdeaFest 2026",
+      "start": "2026-10-09",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kochi",
+      "organizer": "Future Kerala Mission / JAIN (Deemed-to-be University)",
+      "description": "Student innovation event with design-thinking exposure, mentoring and idea pitching. The public announcement states that the preceding Design Thinking Workshop is on October 6–7, 2026 and IdeaFest is on October 9, 2026.",
+      "categoryHint": "startup/innovation event",
+      "evidenceUrl": "https://in.linkedin.com/in/future-kerala-mission-010b1b35a",
+      "registrationUrl": "https://futurekerala.org.in/ideafest",
+      "sourceKind": "social_post",
+      "confidence": 0.9
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 999",
+    "discoveredAt": "2026-10-01"
   }
 ]
