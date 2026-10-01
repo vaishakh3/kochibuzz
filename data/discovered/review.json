@@ -823,21 +823,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
+      "end": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "18:30",
       "venue": "Holiday Inn Cochin, National Highway Bypass",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day technology community event focused on Gemini, AI agents, Google Cloud, cloud architecture, talks, workshops and networking.",
-      "categoryHint": "developer conference / cloud / AI",
+      "description": "Full-day developer and cloud technology event covering Gemini, AI agents, Google Cloud, cloud architecture and related technologies.",
+      "categoryHint": "developer, cloud, AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-29"
+    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
@@ -882,22 +882,22 @@
   {
     "candidate": {
       "title": "KCD Kochi 2026",
-      "start": "2026-10-11",
+      "start": "2026-11-01",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "Kochi, Kerala",
       "city": "Kochi",
-      "organizer": "Cloud Native Computing Group Kochi (CNCG Kochi)",
-      "description": "Second event day; the official page identifies KCD Kochi 2026 as a CNCF-supported, open-source-focused event.",
-      "categoryHint": "open source",
+      "organizer": "Cloud Native Computing Group Kochi (CNCG Kochi), with CNCF support",
+      "description": "Kubernetes and cloud-native event focused on open source, technical sessions, workshops and community collaboration. The official page confirms the Kochi location and organizer information, but the retrieved page did not expose an exact event date; therefore this result is excluded from the final qualifying set.",
+      "categoryHint": "open source / cloud native",
       "evidenceUrl": "https://kcd.cncgkochi.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.72
+      "confidence": 0.2
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-20"
+    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
@@ -1177,6 +1177,26 @@
       "confidence": 0.9
     },
     "reason": "Official page could not be fetched: Error: HTTP 999",
+    "discoveredAt": "2026-10-01"
+  },
+  {
+    "candidate": {
+      "title": "AIBoomi Startup Weekend | 5th Edition | Kochi",
+      "start": "2026-10-23",
+      "end": "2026-10-25",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Ernakulam, Kochi area",
+      "city": "Kochi",
+      "organizer": "AIBoomi",
+      "description": "Startup weekend for AI builders and founders. The official AIBoomi events page states the Kochi edition is scheduled for 23 October 2026 in Ernakulam.",
+      "categoryHint": "startup / founders / AI",
+      "evidenceUrl": "https://aiboomi.org/events/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.91
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-01"
   }
 ]
