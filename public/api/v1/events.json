@@ -339,33 +339,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-902pj5q96s",
-      "title": "Classrooms",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "startTime": "18:00",
-      "endTime": "21:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Last Sunday, we took Gemmaiku, my fine-tuned version of Gemma, and started turning it into a ChatGPT-style product. This Sunday, we go one layer deeper. We’ll build the part that makes the chatbot work using Python + FastAPI, connect it to Ollama, and serve Gemma/Gemmaiku through",
-      "tags": [
-        "TinkerHub",
-        "Learning Program",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/902PJ5Q96S/classrooms",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/902PJ5Q96S/classrooms"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-29"
-    },
-    {
       "id": "c0c0n-2026",
       "title": "c0c0n 2026",
       "start": "2026-10-06",
