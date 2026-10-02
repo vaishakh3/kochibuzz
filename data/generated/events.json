@@ -386,6 +386,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-devday-exchange-community-hackathon-kochi-e8c99ad377",
+    "title": "DevDay Exchange Community Hackathon: Kochi",
+    "start": "2026-10-10",
+    "end": "2026-10-11",
+    "startTime": "18:00",
+    "endTime": "09:00",
+    "category": "hackathon",
+    "venue": "Kochi, India",
+    "city": "Kochi",
+    "organizer": "Codex Community Events, Vaishakh Suresh, Rhiannon Payne",
+    "blurb": "Join DevDay Exchange Community Hackathon: Kochi , hosted by Vaishakh Suresh, your local Codex Ambassador.",
+    "tags": [],
+    "url": "https://luma.com/z10nz8gp",
+    "sourceUrls": [
+      "https://luma.com/z10nz8gp"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-02"
+  },
+  {
     "id": "tinkerhub-events-ayxrig2zgp",
     "title": "Repair Cafe",
     "start": "2026-10-11",
@@ -602,6 +624,27 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kochi",
+    "organizer": "CITTIC and CUSAT, with Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+    "tags": [],
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://makeaton.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-02"
+  },
+  {
     "id": "huddle-global-2026",
     "title": "Huddle Global 2026",
     "start": "2026-11-12",
@@ -671,5 +714,25 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-make-a-ton-9-0-final-round-e78e5f8f79",
+    "title": "Make-A-Ton 9.0 — Final Round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology, Kalamassery",
+    "city": "Kochi",
+    "organizer": "CUSAT and CITTIC, with Odoo",
+    "blurb": "Twenty-four-hour on-campus final round of the hiring hackathon. Registration is through the official Odoo event page and is team-based, with one team leader registering the team.",
+    "tags": [],
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-02"
   }
 ]

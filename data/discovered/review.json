@@ -581,23 +581,23 @@
   },
   {
     "candidate": {
-      "title": "International AI Film Festival of Kerala (AIFFK) — Kochi 2027",
+      "title": "KIAFF 2027 — Kerala International AI Film Festival",
       "start": "2027-01-22",
       "end": "2027-01-24",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi venue not specified on the public event page",
+      "venue": "Kochi",
       "city": "Kochi, Kerala",
       "organizer": "So Storytelling",
-      "description": "AI-focused creative-technology film festival for filmmakers, technologists, artists, media executives, startups and developers. Public submissions are scheduled to open on 2026-10-15.",
-      "categoryHint": "creative technology / AI festival",
+      "description": "International AI film festival announced for January 22–24, 2027, in Kochi.",
+      "categoryHint": "creative-tech / AI",
       "evidenceUrl": "https://sostorytelling.com/ai-film-festival/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.83
+      "confidence": 0.96
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-28"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-02"
   },
   {
     "candidate": {
@@ -921,23 +921,23 @@
   },
   {
     "candidate": {
-      "title": "ANCHORAGE'26",
+      "title": "TECverso ’26",
       "start": "2026-10-10",
-      "end": "2026-10-12",
+      "end": "2026-10-11",
       "startTime": null,
       "endTime": null,
-      "venue": "Department of Ship Technology, Cochin University of Science and Technology",
-      "city": "Kalamassery, Ernakulam, Kerala",
-      "organizer": "Department of Ship Technology, Cochin University of Science and Technology",
-      "description": "Annual technology fest featuring competitions, sessions and shows.",
-      "categoryHint": "technology / creative-tech / student fest",
+      "venue": "Federal Institute of Science and Technology (FISAT)",
+      "city": "Angamaly, Ernakulam, Kerala",
+      "organizer": "IEDC FISAT Horizon Club",
+      "description": "Technology fest listed for October 10–11, 2026, at FISAT, Angamaly.",
+      "categoryHint": "technology fest / student innovation",
       "evidenceUrl": "https://arinjo.in/",
-      "registrationUrl": "https://arinjo.in/",
+      "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.86
+      "confidence": 0.83
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-23"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-02"
   },
   {
     "candidate": {
