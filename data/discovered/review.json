@@ -66,18 +66,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala — specific venue not stated on the event page",
+      "venue": "Kochi, Kerala",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "A four-day gathering for founders and the Stanford Seed Transformation Network community.",
-      "categoryHint": "startup/founder",
+      "organizer": "Stanford Seed Transformation Network South Asia",
+      "description": "Four-day gathering for the Stanford Seed Transformation Network South Asia, including conference sessions, workshops, networking and founder participation.",
+      "categoryHint": "Startup / founders / business technology",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
       "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-29"
+    "discoveredAt": "2026-10-04"
   },
   {
     "candidate": {
@@ -821,23 +821,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
       "end": "2026-11-14",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi",
+      "startTime": "09:00",
+      "endTime": "18:30",
+      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology event focused on Gemini, AI agents, Google Cloud, AI product management, data science, cloud architecture and related developer technologies.",
-      "categoryHint": "AI, data, cloud, product technology",
+      "description": "Full-day developer and cloud event covering Gemini, AI agents, Google Cloud, cloud architecture and related technologies.",
+      "categoryHint": "developer / cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-03"
+    "discoveredAt": "2026-10-04"
   },
   {
     "candidate": {
@@ -921,23 +921,23 @@
   },
   {
     "candidate": {
-      "title": "TECverso ’26",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
+      "title": "IEEE Entrepreneurship Workshop",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Federal Institute of Science and Technology (FISAT)",
-      "city": "Angamaly, Ernakulam, Kerala",
-      "organizer": "IEDC FISAT Horizon Club",
-      "description": "Technology fest listed for October 10–11, 2026, at FISAT, Angamaly.",
-      "categoryHint": "technology fest / student innovation",
+      "venue": "Kochi, Ernakulam",
+      "city": "Kochi",
+      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
+      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
+      "categoryHint": "Startup / founder / technology commercialization",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.83
+      "confidence": 0.9
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-02"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-04"
   },
   {
     "candidate": {
@@ -1118,26 +1118,6 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-03"
-  },
-  {
-    "candidate": {
-      "title": "bi0s Meetups — October 2026 edition",
-      "start": "2026-10-03",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "TinkerSpace, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-      "city": "Kochi",
-      "organizer": "Team bi0s Kochi",
-      "description": "Technology/security meetup. The organizer’s public post gives the exact date and Kochi-area venue and invites speaker applications; public attendee-registration details were not visible in the evidence reviewed.",
-      "categoryHint": "technology meetup",
-      "evidenceUrl": "https://in.linkedin.com/company/teambi0skochi",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.83
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-01"
   },
   {
     "candidate": {
