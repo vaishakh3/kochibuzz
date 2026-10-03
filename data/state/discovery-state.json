@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-02T18:27:53.148Z",
-  "queryCursor": 7,
+  "lastRunAt": "2026-10-03T08:11:25.078Z",
+  "queryCursor": 1,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -75,10 +75,10 @@
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-30",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-10-01",
-    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-01",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-03",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
-    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-02",
+    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-03",
     "https://kcd.cncgkochi.in/": "2026-10-01",
     "https://luma.com/ndjvmw7w": "2026-09-29",
     "https://typoday.futuresummit.in/": "2026-09-21",
@@ -96,15 +96,16 @@
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-02",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-01",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-03",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
-    "https://aiboomi.org/events": "2026-10-01"
+    "https://aiboomi.org/events": "2026-10-01",
+    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-03"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29132,
-    "outputTokens": 1575
+    "inputTokens": 28792,
+    "outputTokens": 1132
   }
 }

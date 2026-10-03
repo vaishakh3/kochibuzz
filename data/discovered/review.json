@@ -821,23 +821,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day developer and cloud technology event covering Gemini, AI agents, Google Cloud, cloud architecture and related technologies.",
-      "categoryHint": "developer, cloud, AI",
+      "description": "Technology event focused on Gemini, AI agents, Google Cloud, AI product management, data science, cloud architecture and related developer technologies.",
+      "categoryHint": "AI, data, cloud, product technology",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-01"
+    "discoveredAt": "2026-10-03"
   },
   {
     "candidate": {
@@ -861,23 +861,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+      "title": "Odoo × Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Institute campus; exact Kochi-area campus not specified on the public event page",
-      "city": "Kochi",
-      "organizer": "Odoo",
-      "description": "A 24-hour coding marathon final round for the Odoo x Make-A-Ton 9.0 Kochi Hackathon. The public registration page specifies 19–20 December 2026 but does not identify the exact campus venue.",
-      "categoryHint": "startup; product; AI; maker; hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT) campus",
+      "city": "Kalamassery, Kochi",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "24-hour final coding marathon for shortlisted teams. The official registration page lists the final round for 19–20 December 2026 and provides registration details.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.8
+      "confidence": 0.98
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-26"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-03"
   },
   {
     "candidate": {
@@ -1106,18 +1106,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, exact venue not stated in the available evidence",
+      "venue": "Grand Hyatt",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "IT leadership event covering generative AI, cybersecurity, emerging technologies, customer experience and business value of IT.",
-      "categoryHint": "AI, cloud, data, cybersecurity, enterprise technology",
+      "description": "Technology leadership event covering generative AI, cybersecurity, customer experience, emerging technologies and enterprise IT transformation.",
+      "categoryHint": "AI, cybersecurity, enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-01"
+    "discoveredAt": "2026-10-03"
   },
   {
     "candidate": {
@@ -1198,5 +1198,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-01"
+  },
+  {
+    "candidate": {
+      "title": "Hack4Good 2.0 — National Humanitarian Tech-a-thon, Phase 3",
+      "start": "2026-12-21",
+      "end": "2026-12-27",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not specified on the official event page",
+      "city": "Kochi area not confirmed",
+      "organizer": "IEEE SPS Kerala Chapter, with IEEE Kerala Section",
+      "description": "Three-day in-person capacity-building programme and 36-hour final hack. The official page specifies only the last week of December 2026 and does not state a Kochi-area venue or city.",
+      "categoryHint": "hackathon",
+      "evidenceUrl": "https://hack4good2-0.ieeespskc.in/index.html",
+      "registrationUrl": "https://hack4good2-0.ieeespskc.in/index.html",
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-03"
   }
 ]
