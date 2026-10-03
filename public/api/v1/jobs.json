@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-132-25895",
+      "title": "Graphic Designer",
+      "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+      "postedAt": "2026-10-03",
+      "deadlineAt": "2026-10-20",
+      "location": "Infopark, Kochi",
+      "category": "design",
+      "detailUrl": "https://infopark.in/company-jobs/details/132/25895",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
+    },
+    {
       "id": "infopark-189-25894",
       "title": "Education Counsellor Cum Sales Executive",
       "company": "GALTech Technologies Pvt Ltd",
@@ -114,6 +127,32 @@
       "location": "Infopark, Kochi",
       "category": "other",
       "detailUrl": "https://infopark.in/company-jobs/details/333/25893",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
+    },
+    {
+      "id": "infopark-467-25896",
+      "title": "DevOps / AWS Trainee",
+      "company": "Pagematics India Pvt. Ltd",
+      "postedAt": "2026-10-03",
+      "deadlineAt": "2026-10-15",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/467/25896",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
+    },
+    {
+      "id": "infopark-467-25897",
+      "title": "Software QA / Application Testing Trainee",
+      "company": "Pagematics India Pvt. Ltd",
+      "postedAt": "2026-10-03",
+      "deadlineAt": "2026-10-15",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/467/25897",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-03"
@@ -2889,6 +2928,19 @@
       "firstSeenAt": "2026-09-23"
     },
     {
+      "id": "infopark-132-24718",
+      "title": "SOC Lead",
+      "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+      "postedAt": "2026-07-18",
+      "deadlineAt": "2026-10-20",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/132/24718",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
+    },
+    {
       "id": "paytm-payments-kochi-lever-1980b40a-8aa2-42a8-8328-17239145be66",
       "title": "Team Leader - O&G Adjacent 4 - Kochi",
       "company": "Paytm Payments",
@@ -3286,6 +3338,19 @@
       "firstSeenAt": "2026-10-01"
     },
     {
+      "id": "infopark-132-23660",
+      "title": "SAP ABAP Consultant",
+      "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+      "postedAt": "2026-05-21",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/132/23660",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
+    },
+    {
       "id": "infopark-352-23666",
       "title": "VIDEO EDITOR INTERN",
       "company": "TouchWorld Technology",
@@ -3504,6 +3569,19 @@
       "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
       "sourceId": "paytm-payments-ernakulam-lever",
       "firstSeenAt": "2026-09-03"
+    },
+    {
+      "id": "infopark-132-23147",
+      "title": "MRD Technician",
+      "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+      "postedAt": "2026-04-22",
+      "deadlineAt": "2026-10-20",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/132/23147",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-03"
     },
     {
       "id": "infopark-83-23023",
