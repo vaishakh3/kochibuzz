@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-03T21:21:24.019Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-04T13:14:29.963Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-09-20",
@@ -100,12 +100,13 @@
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-01",
-    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-03"
+    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-03",
+    "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday": "2026-10-04"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28770,
-    "outputTokens": 1482
+    "inputTokens": 28890,
+    "outputTokens": 635
   }
 }

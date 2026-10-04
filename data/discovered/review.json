@@ -963,21 +963,21 @@
     "candidate": {
       "title": "Global AI Kochi – Chapter Meet – October 2026",
       "start": "2026-10-24",
-      "end": null,
+      "end": "2026-10-24",
       "startTime": "10:00",
       "endTime": "13:00",
       "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
       "city": "Kochi, Ernakulam",
       "organizer": "Global AI Community – Kochi Chapter",
-      "description": "Community chapter meet covering AI security, Blazor web applications and test automation with Playwright MCP.",
-      "categoryHint": "AI / developer technology / community meetup",
+      "description": "In-person chapter meet covering AI security, Blazor web applications, and Playwright MCP.",
+      "categoryHint": "technology / AI",
       "evidenceUrl": "https://globalai.community/e/1xf5gxza",
       "registrationUrl": "https://globalai.community/e/1xf5gxza",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-25"
+    "discoveredAt": "2026-10-04"
   },
   {
     "candidate": {
@@ -1198,5 +1198,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-03"
+  },
+  {
+    "candidate": {
+      "title": "TinkerDay – Kochi",
+      "start": "2026-10-26",
+      "end": "2026-10-26",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, 21/258, CUSAT P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
+      "city": "Kochi, Ernakulam",
+      "organizer": "TinkerHub",
+      "description": "Monthly gathering of makers, founders, and new TinkerHub learners, featuring community project showcases.",
+      "categoryHint": "maker / technology / startup",
+      "evidenceUrl": "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday",
+      "registrationUrl": "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday",
+      "sourceKind": "official_event_page",
+      "confidence": 0.93
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-04"
   }
 ]
