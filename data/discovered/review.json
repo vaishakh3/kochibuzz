@@ -906,18 +906,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Ernakulam",
-      "city": "Kochi",
+      "venue": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
-      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
-      "categoryHint": "Startup / founder / technology commercialization",
+      "description": "Workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
+      "categoryHint": "startup / founder",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.9
+      "confidence": 0.78
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-04"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-06"
   },
   {
     "candidate": {
@@ -961,23 +961,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × Make-A-Ton 9.0 — Final Round",
+      "title": "Odoo × CUSAT Make-A-Ton 9.0",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
       "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi",
-      "organizer": "CITTIC, CUSAT × Odoo",
-      "description": "24-hour hiring hackathon final round. The official event page states the dates, CUSAT venue, organizer collaboration and registration timeline.",
-      "categoryHint": "hackathon",
+      "city": "Kochi, Kerala",
+      "organizer": "Odoo and CUSAT CITTIC",
+      "description": "24-hour hiring hackathon for technology students, freshers and coding enthusiasts, with startup-building and prototyping relevance.",
+      "categoryHint": "maker / technology / startup",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-01"
+    "discoveredAt": "2026-10-06"
   },
   {
     "candidate": {
