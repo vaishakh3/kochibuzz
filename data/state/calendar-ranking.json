@@ -1,9 +1,17 @@
 {
   "schemaVersion": 1,
-  "decisions": {},
+  "decisions": {
+    "2026-10-06": {
+      "signature": "d2823d65dd4d95fd97331f270d2f8787adb69be524a96d06542421d2435f73cf",
+      "eventId": "c0c0n-2026",
+      "reason": "A major Kochi cybersecurity conference begins its multi-day programme with training, CTFs and live bug-hunting activities.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-05T07:07:37.488Z"
+    }
+  },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 760,
-    "outputTokens": 113
+    "inputTokens": 450,
+    "outputTokens": 65
   }
 }
