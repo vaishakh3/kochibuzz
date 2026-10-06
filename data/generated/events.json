@@ -359,33 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-xz5qofiwiv",
-    "title": "Maker Thursday",
-    "start": "2026-10-08",
-    "end": "2026-10-08",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Maker Thursday: Getting Into MotorsMaker Thursday: Getting Into Motors A look at how motors actually work, and how to pick the right one for what you're building. We'll go through the main types you A look at how motors actually work, and how to pick the right one for what you're",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/XZ5QOFIWIV/maker-thursday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/XZ5QOFIWIV/maker-thursday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-18"
-  },
-  {
     "id": "tinkerhub-events-ayxrig2zgp",
     "title": "Repair Cafe",
     "start": "2026-10-11",
@@ -548,6 +521,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
+    "title": "Global AI Kochi - Chapter Meet - October 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
+    "city": "Kochi, Kerala",
+    "organizer": "Global AI Community — Kochi chapter",
+    "blurb": "A community chapter meet for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. The listed agenda includes AI security, Blazor web applications and Playwright MCP.",
+    "tags": [],
+    "url": "https://globalai.community/e/1xf5gxza",
+    "sourceUrls": [
+      "https://globalai.community/e/1xf5gxza"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -602,19 +597,20 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-startup-dangal-kochi-roadshow-246ddd6b69",
-    "title": "Startup Dangal — Kochi Roadshow",
-    "start": "2026-11-05",
-    "end": "2026-11-05",
-    "category": "startup",
-    "venue": "Not stated on the public event page; Kochi, Kerala",
-    "city": "Kochi",
-    "organizer": "Startup Dangal",
-    "blurb": "Startup competition roadshow stop listed for Kochi on November 5, 2026. The page provides a registration form.",
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kochi, Kerala",
+    "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
     "tags": [],
-    "url": "https://startupdangal.com/",
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://startupdangal.com/"
+      "https://makeaton.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"

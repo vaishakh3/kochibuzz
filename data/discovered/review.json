@@ -801,23 +801,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "Holiday Inn Cochin, National Highway Bypass",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Public technology event featuring Google Cloud, Gemini, AI agents, networking, talks and hands-on workshop content. The official event page provides a Get tickets registration option.",
-      "categoryHint": "developer workshop / technology event",
+      "description": "A full-day Google Cloud and AI community event covering Gemini, AI agents, Google Cloud, networking and technical talks. The event page lists Saturday, November 14, 2026; its displayed UTC time is 03:30–13:00, corresponding to 09:00–18:30 IST.",
+      "categoryHint": "Developer / Google Cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": null,
+      "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-05"
+    "discoveredAt": "2026-10-06"
   },
   {
     "candidate": {
@@ -1218,5 +1218,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-05"
+  },
+  {
+    "candidate": {
+      "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
+      "start": "2026-10-28",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": "14:00",
+      "venue": "Infopark Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Codex Community Events; hosted by Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
+      "description": "A developer and technology-leader meetup focused on practical Codex demonstrations, founder perspectives, AI-assisted development workflows, networking and lunch. Registration is approval-based and the exact room is disclosed after registration.",
+      "categoryHint": "Developer / AI / startup",
+      "evidenceUrl": "https://luma.com/k65afwn7",
+      "registrationUrl": "https://luma.com/k65afwn7",
+      "sourceKind": "official_event_page",
+      "confidence": 0.94
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-06"
   }
 ]

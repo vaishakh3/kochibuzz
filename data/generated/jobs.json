@@ -13,6 +13,45 @@
     "firstSeenAt": "2026-10-06"
   },
   {
+    "id": "infopark-138-25952",
+    "title": "Senior Full Stack Engineer (Django & React)",
+    "company": "Cascade Revenue Management Pvt. Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-12-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/138/25952",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-138-25953",
+    "title": "Senior Frontend Engineer – React",
+    "company": "Cascade Revenue Management Pvt. Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-12-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/138/25953",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-138-25954",
+    "title": "Backend Engineer – Python / Django",
+    "company": "Cascade Revenue Management Pvt. Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-12-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/138/25954",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "infopark-262-25947",
     "title": "SEO Analyst (Immediate Hiring)",
     "company": "Ynot Infosolutions",
@@ -21,6 +60,19 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/262/25947",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-296-25955",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-10-07",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/25955",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-06"
@@ -221,6 +273,45 @@
     "firstSeenAt": "2026-10-06"
   },
   {
+    "id": "infopark-341-25956",
+    "title": "Software Engineer – Frontend (React)",
+    "company": "Edstem Technologies Pvt Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/341/25956",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-341-25957",
+    "title": "Senior DevOps Engineer (AWS / Azure)",
+    "company": "Edstem Technologies Pvt Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "devops-cloud",
+    "detailUrl": "https://infopark.in/company-jobs/details/341/25957",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-341-25958",
+    "title": "Software Engineer – Backend (Java / Spring Boot)",
+    "company": "Edstem Technologies Pvt Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/341/25958",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "infopark-380-25948",
     "title": "Odoo Functional Consultant",
     "company": "Infintor Solutions LLP",
@@ -242,6 +333,19 @@
     "location": "Infopark, Kochi",
     "category": "other",
     "detailUrl": "https://infopark.in/company-jobs/details/380/25949",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-485-25951",
+    "title": "Content Writer",
+    "company": "ThoughtMinds System Pvt Ltd",
+    "postedAt": "2026-10-06",
+    "deadlineAt": "2026-10-06",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/485/25951",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-06"
@@ -307,19 +411,6 @@
     "location": "Infopark, Kochi",
     "category": "product",
     "detailUrl": "https://infopark.in/company-jobs/details/28/25922",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-05"
-  },
-  {
-    "id": "infopark-296-25929",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-10-05",
-    "deadlineAt": "2026-10-06",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/25929",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-05"
@@ -2026,6 +2117,19 @@
     "firstSeenAt": "2026-09-10"
   },
   {
+    "id": "infopark-259-25422",
+    "title": "Business Analyst/Implementation Engineer-2-3 years (Immediate joiners required)",
+    "company": "Thomsun Infocare LLP",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "product",
+    "detailUrl": "https://infopark.in/company-jobs/details/259/25422",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "infopark-268-25417",
     "title": "Growth and Sales Intern",
     "company": "Techware Lab Pvt.Ltd",
@@ -2427,6 +2531,19 @@
     "firstSeenAt": "2026-09-01"
   },
   {
+    "id": "infopark-49-25229",
+    "title": "Presales Executive - 6+ Years",
+    "company": "Thinkpalm Technologies Pvt.Ltd",
+    "postedAt": "2026-08-31",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/49/25229",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "infopark-435-25211",
     "title": "Sales Agent / ERP Software Dealer – Incentive Based",
     "company": "Carol Solutions",
@@ -2438,6 +2555,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-30"
+  },
+  {
+    "id": "infopark-49-25210",
+    "title": "Devops Engineer - 8+ Years",
+    "company": "Thinkpalm Technologies Pvt.Ltd",
+    "postedAt": "2026-08-29",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "devops-cloud",
+    "detailUrl": "https://infopark.in/company-jobs/details/49/25210",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
   },
   {
     "id": "infopark-442-25207",
@@ -2991,6 +3121,45 @@
     "firstSeenAt": "2026-09-21"
   },
   {
+    "id": "infopark-49-24822",
+    "title": "Manual Testing with experience in Mobile Application Testing - 4+ Years",
+    "company": "Thinkpalm Technologies Pvt.Ltd",
+    "postedAt": "2026-07-24",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/49/24822",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-341-24795",
+    "title": "Technical Project Manager / Lead",
+    "company": "Edstem Technologies Pvt Ltd",
+    "postedAt": "2026-07-23",
+    "deadlineAt": "2026-10-15",
+    "location": "Infopark, Kochi",
+    "category": "product",
+    "detailUrl": "https://infopark.in/company-jobs/details/341/24795",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
+    "id": "infopark-341-24796",
+    "title": "Senior Software Engineer – Squad Lead (Java + React)",
+    "company": "Edstem Technologies Pvt Ltd",
+    "postedAt": "2026-07-23",
+    "deadlineAt": "2026-10-15",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/341/24796",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
+  },
+  {
     "id": "infopark-85-24759",
     "title": "Web Developer",
     "company": "Techversant Infotech Pvt Ltd",
@@ -3027,19 +3196,6 @@
     "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
     "sourceId": "paytm-payments-kochi-lever",
     "firstSeenAt": "2026-08-23"
-  },
-  {
-    "id": "infopark-138-24686",
-    "title": "Senior HR Recruiter - RCM",
-    "company": "Cascade Revenue Management Pvt. Ltd",
-    "postedAt": "2026-07-16",
-    "deadlineAt": "2026-10-30",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/138/24686",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-09-15"
   },
   {
     "id": "infopark-132-24660",
@@ -3322,6 +3478,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-49-24212",
+    "title": "Native iOS Developer with Flutter knowledge - 4+ Years",
+    "company": "Thinkpalm Technologies Pvt.Ltd",
+    "postedAt": "2026-06-19",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/49/24212",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-06"
   },
   {
     "id": "infopark-502-24117",
