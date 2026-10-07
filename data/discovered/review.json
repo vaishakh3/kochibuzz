@@ -441,26 +441,6 @@
   },
   {
     "candidate": {
-      "title": "AI × Decentralized Trust: Kickoff of the LFDT AI Working Group",
-      "start": "2026-10-06",
-      "end": null,
-      "startTime": "21:30",
-      "endTime": null,
-      "venue": "Online / Kochi community listing; physical venue not stated",
-      "city": "Kochi",
-      "organizer": "LFDT Kochi",
-      "description": "Community technology event focused on AI and decentralized trust.",
-      "categoryHint": "technology / AI / blockchain",
-      "evidenceUrl": "https://www.meetup.com/lfdt-kochi/events/316485443/",
-      "registrationUrl": "https://www.meetup.com/lfdt-kochi/events/316485443/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.74
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
       "title": "HAC'KP 2026 Boot Camp",
       "start": "2026-10-06",
       "end": "2026-10-08",
@@ -1238,5 +1218,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-06"
+  },
+  {
+    "candidate": {
+      "title": "NISM SPARDHA 26",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Centre for Budget Studies, Cochin University of Science and Technology",
+      "city": "Kochi, Kerala",
+      "organizer": "IEEE MACE and IEEE",
+      "description": "Technology fest listed as an offline event in Ernakulam, Kerala.",
+      "categoryHint": "technology / student tech fest",
+      "evidenceUrl": "https://arinjo.in/categories/techfest",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.87
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-07"
   }
 ]
