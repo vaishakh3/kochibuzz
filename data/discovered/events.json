@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "web-codiin-agentic-ai-workshop-3f0504c16f",
+    "title": "CODiiN Agentic AI Workshop",
+    "start": "2026-10-08",
+    "end": "2026-10-08",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "category": "ai",
+    "venue": "CODiiN Tech Mentors Lab, Kakkanad",
+    "city": "Kochi",
+    "organizer": "CODiiN Tech Mentors Lab",
+    "blurb": "Public online workshop for students, fresh graduates, developers and technology enthusiasts covering agentic AI systems. Registration is indicated on the official event page.",
+    "tags": [],
+    "url": "https://codiin.com/events",
+    "sourceUrls": [
+      "https://codiin.com/events"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-anchorage-26-e3d66f6d66",
+    "title": "ANCHORAGE’26",
+    "start": "2026-10-10",
+    "end": "2026-10-12",
+    "category": "webdev",
+    "venue": "Department of Ship Technology, Cochin University of Science and Technology (CUSAT), Kalamassery",
+    "city": "Kalamassery, Ernakulam",
+    "organizer": "Department of Ship Technology, CUSAT",
+    "blurb": "Three-day technology fest featuring competitions, sessions and shows, with separate event registrations listed by the organizer.",
+    "tags": [],
+    "url": "https://arinjo.in/events/anchorage-26",
+    "sourceUrls": [
+      "https://arinjo.in/events/anchorage-26"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kalamassery, Kochi",
+    "organizer": "Odoo and CUSAT Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC)",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+    "tags": [],
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://makeaton.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  }
+]

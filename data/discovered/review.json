@@ -121,26 +121,6 @@
   },
   {
     "candidate": {
-      "title": "CSEA Senior Officers Leadership Programme",
-      "start": "2026-10-06",
-      "end": "2026-10-07",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Crowne Plaza Kochi, Kundanoor Junction, Maradu",
-      "city": "Kochi, Kerala",
-      "organizer": "c0c0n / Childlight / Kerala Police",
-      "description": "Leadership programme on technology-facilitated child sexual exploitation and abuse, held during c0c0n 2026 week.",
-      "categoryHint": "technology/cybersecurity/workshop",
-      "evidenceUrl": "https://csea.c0c0n.org/leadershipprogramme",
-      "registrationUrl": "https://csea.c0c0n.org/leadershipprogramme",
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-02"
-  },
-  {
-    "candidate": {
       "title": "AIRO MEDICON 2026",
       "start": "2026-10-30",
       "end": "2026-10-31",
@@ -781,23 +761,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "A full-day Google Cloud and AI community event covering Gemini, AI agents, Google Cloud, networking and technical talks. The event page lists Saturday, November 14, 2026; its displayed UTC time is 03:30–13:00, corresponding to 09:00–18:30 IST.",
-      "categoryHint": "Developer / Google Cloud / AI",
+      "description": "Technology event focused on Gemini, AI agents, Google Cloud, AI product management, cloud architecture and related systems.",
+      "categoryHint": "AI, cloud, product",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-06"
+    "discoveredAt": "2026-10-08"
   },
   {
     "candidate": {
@@ -1001,23 +981,23 @@
   },
   {
     "candidate": {
-      "title": "DevDay Exchange Community Hackathon: Kochi",
+      "title": "DevDay Exchange Community Hackathon",
       "start": "2026-10-10",
       "end": "2026-10-11",
       "startTime": "18:00",
       "endTime": "09:00",
-      "venue": "JAIN University Kochi",
+      "venue": "JAIN University, Kochi",
       "city": "Kochi",
-      "organizer": "DevDay Exchange",
-      "description": "An overnight community hackathon listed for developers in Kochi, with public event registration information.",
-      "categoryHint": "developer hackathon",
+      "organizer": "DevDay Exchange community organizers",
+      "description": "Overnight community hackathon with public event listing and registration information.",
+      "categoryHint": "coding hackathon",
       "evidenceUrl": "https://indiahackathons.com/hi/events/devday-exchange-community-hackathon-kochi",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.72
+      "confidence": 0.73
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-26"
+    "discoveredAt": "2026-10-08"
   },
   {
     "candidate": {
@@ -1238,5 +1218,45 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-07"
+  },
+  {
+    "candidate": {
+      "title": "DevDay Exchange Community Meetup: Kochi — Founders Edition",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "startTime": "09:30",
+      "endTime": "14:00",
+      "venue": "Kochi, venue not specified on the cited event page",
+      "city": "Kochi",
+      "organizer": "DevDay Exchange",
+      "description": "Curated gathering for founders, CEOs, CTOs and technology leaders exploring how AI is changing software development and delivery.",
+      "categoryHint": "technology/startup meetup",
+      "evidenceUrl": "https://luma.com/k65afwn7k",
+      "registrationUrl": "https://luma.com/k65afwn7k",
+      "sourceKind": "official_event_page",
+      "confidence": 0.82
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-08"
+  },
+  {
+    "candidate": {
+      "title": "TECHCON ’26",
+      "start": "2026-11-06",
+      "end": "2026-11-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "KINFRA on Day 1; JAIN University on Days 2–3",
+      "city": "Kochi",
+      "organizer": "Techfed Kerala",
+      "description": "National technology conference covering AI, networking and software engineering, with project competition and other registered activities.",
+      "categoryHint": "technology conference",
+      "evidenceUrl": "https://techcon26.org/",
+      "registrationUrl": "https://techcon26.org/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.86
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-08"
   }
 ]
