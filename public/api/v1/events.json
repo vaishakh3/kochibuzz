@@ -361,33 +361,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-ayxrig2zgp",
-      "title": "Repair Cafe",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "startTime": "16:00",
-      "endTime": "21:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Repair Café at TinkerSpace Got something broken lying around? Bring it in and let's try to fix it together. Or if you just want to get your hands dirty, come tear something down and see how it works inside. An open afternoon of fixing, tinkering, and figuring out what makes thing",
-      "tags": [
-        "TinkerHub",
-        "Bootcamp",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/AYXRIG2ZGP/repair-cafe",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/AYXRIG2ZGP/repair-cafe"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-18"
-    },
-    {
       "id": "tinkerhub-events-tdonyxx4s6",
       "title": "AI Wednesday",
       "start": "2026-10-14",
