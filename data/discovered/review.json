@@ -66,18 +66,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Kochi, Kerala (specific venue not stated on the event page)",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network South Asia",
-      "description": "Four-day gathering for the Stanford Seed Transformation Network South Asia, including conference sessions, workshops, networking and founder participation.",
-      "categoryHint": "Startup / founders / business technology",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "Four-day gathering for founders and CEOs from South Asia, featuring a conference, workshops, networking and learning sessions.",
+      "categoryHint": "startup; founders",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": "https://stnsa.org/conclave",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.95
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-04"
+    "discoveredAt": "2026-10-08"
   },
   {
     "candidate": {
@@ -761,18 +761,18 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology event focused on Gemini, AI agents, Google Cloud, AI product management, cloud architecture and related systems.",
-      "categoryHint": "AI, cloud, product",
+      "description": "Full-day community event focused on Gemini, AI agents, Google Cloud, cloud architecture and developer networking.",
+      "categoryHint": "GDG / Google Cloud / developer conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registrationUrl": null,
+      "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
@@ -1186,18 +1186,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark Kochi",
+      "venue": "Infopark",
       "city": "Kochi, Kerala",
-      "organizer": "Codex Community Events; hosted by Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
-      "description": "A developer and technology-leader meetup focused on practical Codex demonstrations, founder perspectives, AI-assisted development workflows, networking and lunch. Registration is approval-based and the exact room is disclosed after registration.",
-      "categoryHint": "Developer / AI / startup",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas & Rhiannon Payne",
+      "description": "Curated technology leadership meetup covering practical Codex demonstrations, AI-assisted development workflows, founder perspectives and networking.",
+      "categoryHint": "Developer / AI / startup meetup",
       "evidenceUrl": "https://luma.com/k65afwn7",
-      "registrationUrl": "https://luma.com/k65afwn7",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.96
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-06"
+    "discoveredAt": "2026-10-08"
   },
   {
     "candidate": {
@@ -1255,6 +1255,26 @@
       "registrationUrl": "https://techcon26.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.86
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-08"
+  },
+  {
+    "candidate": {
+      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "start": "2026-11-01",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kochi",
+      "organizer": "QuantumX Foundation",
+      "description": "Public quantum-computing hack day held as part of Qiskit Fall Fest 2026.",
+      "categoryHint": "technology; maker; open source",
+      "evidenceUrl": "https://qff26.quantumx.foundation/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-08"
