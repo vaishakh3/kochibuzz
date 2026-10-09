@@ -21,26 +21,6 @@
   },
   {
     "candidate": {
-      "title": "HAC’KP 2026 Boot Camp",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi; exact venue not stated on the cited schedule page",
-      "city": "Kochi",
-      "organizer": "Kerala Police Cyberdome",
-      "description": "On-site cybersecurity hackathon boot camp focused on final solution integration, mentoring, evaluation and product showcase.",
-      "categoryHint": "cybersecurity hackathon",
-      "evidenceUrl": "https://hackp.kerala.gov.in/schedule/",
-      "registrationUrl": "https://hackp.kerala.gov.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.94
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-17"
-  },
-  {
-    "candidate": {
       "title": "IEEE Entrepreneurship 102 India Workshops",
       "start": "2026-11-17",
       "end": "2026-11-18",
@@ -421,46 +401,6 @@
   },
   {
     "candidate": {
-      "title": "HAC'KP 2026 Boot Camp",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Crown Plaza, Kochi",
-      "city": "Kochi",
-      "organizer": "Kerala Police Cyberdome",
-      "description": "A fully sponsored three-day hackathon boot camp for top-performing teams, covering solution refinement, mentoring, evaluation and product showcase.",
-      "categoryHint": "hackathon",
-      "evidenceUrl": "https://dev.hackp.kerala.gov.in/finale/",
-      "registrationUrl": "https://hackp.kerala.gov.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-17"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026 Pre-Conference Training: AI Security Engineering Masterclass",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt Kochi",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Pre-conference training focused on AI security engineering, GenAI application vulnerabilities, prompt injection and practical defensive techniques.",
-      "categoryHint": "AI, cybersecurity, security engineering",
-      "evidenceUrl": "https://www.linkedin.com/posts/c0c0nconference_c0c0n2026-aisecurity-aisecurityengineering-activity-7489492682285973504-xeGG",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.94
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-13"
-  },
-  {
-    "candidate": {
       "title": "c0c0n 2026 IoT Security Village",
       "start": "2026-10-09",
       "end": "2026-10-10",
@@ -781,26 +721,6 @@
   },
   {
     "candidate": {
-      "title": "Hac'KP 2026 Finale Boot Camp",
-      "start": "2026-10-05",
-      "end": "2026-10-08",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Crowne Plaza Kochi",
-      "city": "Kochi",
-      "organizer": "Kerala Police / Hac'KP 2026",
-      "description": "Residential technology boot camp focused on agentic AI for investigations, with technology experts and mentors.",
-      "categoryHint": "AI, cybersecurity, startup innovation",
-      "evidenceUrl": "https://hackp.kerala.gov.in/finale/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-01"
-  },
-  {
-    "candidate": {
       "title": "Odoo × Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
       "start": "2026-12-19",
       "end": "2026-12-20",
@@ -1061,26 +981,6 @@
   },
   {
     "candidate": {
-      "title": "HAC'KP 2026 Boot Camp",
-      "start": "2026-10-06",
-      "end": "2026-10-08",
-      "startTime": null,
-      "endTime": null,
-      "venue": "On-site Kochi venue; exact venue name not stated on the official schedule",
-      "city": "Kochi",
-      "organizer": "HAC'KP 2026",
-      "description": "On-site hackathon boot camp focused on solution integration, mentoring, evaluations and product showcase. The official schedule states Kochi but does not provide a more specific venue.",
-      "categoryHint": "hackathon boot camp",
-      "evidenceUrl": "https://dev.hackp.kerala.gov.in/schedule/",
-      "registrationUrl": "https://hackp.kerala.gov.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.78
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-01"
-  },
-  {
-    "candidate": {
       "title": "IdeaFest 2026",
       "start": "2026-10-09",
       "end": null,
@@ -1183,21 +1083,21 @@
     "candidate": {
       "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
       "start": "2026-10-28",
-      "end": null,
+      "end": "2026-10-28",
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark",
-      "city": "Kochi, Kerala",
-      "organizer": "Vaishakh Suresh, Pauline P. Narvas & Rhiannon Payne",
-      "description": "Curated technology leadership meetup covering practical Codex demonstrations, AI-assisted development workflows, founder perspectives and networking.",
-      "categoryHint": "Developer / AI / startup meetup",
+      "venue": "Infopark Kochi",
+      "city": "Kochi, Ernakulam",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
+      "description": "Curated technology meetup for founders, CEOs, CTOs and technology leaders, featuring Codex demonstrations, founder perspectives, AI workflows, networking and lunch. Exact venue address is disclosed after registration.",
+      "categoryHint": "technology / artificial intelligence / startup",
       "evidenceUrl": "https://luma.com/k65afwn7",
-      "registrationUrl": null,
+      "registrationUrl": "https://luma.com/k65afwn7",
       "sourceKind": "official_event_page",
       "confidence": 0.96
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-08"
+    "discoveredAt": "2026-10-09"
   },
   {
     "candidate": {

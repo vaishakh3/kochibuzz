@@ -494,6 +494,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
+    "title": "Global AI Kochi – Chapter Meet – October 2026",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
+    "city": "Kochi, Ernakulam",
+    "organizer": "Global AI Community – Kochi chapter",
+    "blurb": "Community gathering for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. Agenda includes AI security, Blazor web applications and Playwright MCP test automation.",
+    "tags": [],
+    "url": "https://globalai.community/e/1xf5gxza",
+    "sourceUrls": [
+      "https://globalai.community/e/1xf5gxza"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-09"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -546,28 +568,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
-  },
-  {
-    "id": "web-qff-2026-quantum-hack-day-kochi-x-tinkerspace-cbeeb55eea",
-    "title": "QFF 2026: Quantum Hack Day Kochi X TinkerSpace",
-    "start": "2026-11-01",
-    "end": "2026-11-01",
-    "startTime": "10:00",
-    "endTime": "17:00",
-    "category": "hackathon",
-    "venue": "TinkerSpace Kochi",
-    "city": "Kochi",
-    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
-    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
-    "tags": [],
-    "url": "https://luma.com/ndjvmw7w",
-    "sourceUrls": [
-      "https://luma.com/ndjvmw7w"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-08"
   },
   {
     "id": "huddle-global-2026",
