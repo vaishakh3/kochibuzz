@@ -442,6 +442,33 @@
       "firstSeenAt": "2026-09-19"
     },
     {
+      "id": "tinkerhub-events-vfhoqwje6v",
+      "title": "Hacktoberfest 2026 Meetup Kochi",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "startTime": "10:00",
+      "endTime": "13:30",
+      "category": "opensource",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Hacktoberfest 2026 - Meetup Kochi A gathering for developers, students, maintainers, contributors, founders, and open-source enthusiasts coming together to celebrate and experience the culture of Open Source in Kochi. This meetup is a space to meet, build, contribute, learn, and ",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-10"
+    },
+    {
       "id": "tinkerhub-events-gkzdfe56jp",
       "title": "Tinkering with FreeCAD",
       "start": "2026-10-18",
@@ -467,6 +494,33 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-09-18"
+    },
+    {
+      "id": "tinkerhub-events-ph2vicq6ys",
+      "title": "NULL KOCHI MEETUP OCTOBER",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "startTime": "09:30",
+      "endTime": "14:00",
+      "category": "security",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "NULL Kochi's monthly meetup brings the local cybersecurity community together for in-depth security talks, ranging from intermediate to advanced topics. Expect practical sessions from experienced practitioners, real-world insights, and open Q&A. The event is free and open to secu",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/PH2VICQ6YS/null-kochi-meetup-october",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/PH2VICQ6YS/null-kochi-meetup-october"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-10"
     },
     {
       "id": "tinkerhub-events-eombn5og1l",

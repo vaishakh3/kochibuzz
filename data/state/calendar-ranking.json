@@ -7,11 +7,25 @@
       "reason": "A confirmed, full-day Kochi event with published timing, venue, and programming focused on Gemini, AI agents, and Google Cloud.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-10T00:56:03.953Z"
+    },
+    "2026-10-17": {
+      "signature": "a2153145333c0e44fb4714b026f46c316bb43b53a828055ee78f5cbb504a68a3",
+      "eventId": "tinkerhub-events-vfhoqwje6v",
+      "reason": "A citywide open-source gathering connecting developers, students, maintainers and other contributors.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-10T07:12:25.703Z"
+    },
+    "2026-10-18": {
+      "signature": "101e45d2c1f5ea48bf4a0384af42f51d84e05bbdbbbb5eb77e076749e2964bfe",
+      "eventId": "tinkerhub-events-ph2vicq6ys",
+      "reason": "A recurring Kochi cybersecurity meetup offering practical talks and discussion for the local security community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-10T07:12:25.703Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 449,
-    "outputTokens": 84
+    "inputTokens": 808,
+    "outputTokens": 104
   }
 }
