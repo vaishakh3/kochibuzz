@@ -1,20 +1,57 @@
 [
   {
-    "id": "web-global-ai-kochi-chapter-meet-october-2026-ea555128e7",
-    "title": "Global AI Kochi – Chapter Meet – October 2026",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "10:00",
-    "endTime": "13:00",
-    "category": "ai",
-    "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
-    "city": "Kochi, Ernakulam",
-    "organizer": "Global AI Community – Kochi chapter",
-    "blurb": "Community gathering for AI enthusiasts, developers, architects, technology professionals, researchers, students, entrepreneurs and innovators. Agenda includes AI security, Blazor web applications and Playwright MCP test automation.",
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kochi, Kerala",
+    "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
     "tags": [],
-    "url": "https://globalai.community/e/1xf5gxza",
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://globalai.community/e/1xf5gxza"
+      "https://makeaton.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-devops-malayalam-conference-2026-6e1b1482da",
+    "title": "DevOps Malayalam Conference 2026",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "category": "cloud",
+    "venue": "Kochi",
+    "city": "Kochi, Kerala",
+    "organizer": "DevOps Malayalam",
+    "blurb": "A public DevOps-focused conference listing that states the date as 14 November 2026 and location as Kochi, Kerala. The page also identifies a workshop among the co-located pre-event activities.",
+    "tags": [],
+    "url": "https://events.devopsmalayalam.io/",
+    "sourceUrls": [
+      "https://events.devopsmalayalam.io/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-odoo-make-a-ton-9-0-kochi-hackathon-2026-final-round-e78e5f8f79",
+    "title": "Odoo × Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT) campus",
+    "city": "Kalamassery, Kochi, Kerala",
+    "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+    "blurb": "A 24-hour final coding hackathon. Registration is public and mandatory; only teams advancing from the virtual round participate in the final round.",
+    "tags": [],
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
     ],
     "sourceIds": [
       "openai-web-discovery"

@@ -681,26 +681,6 @@
   },
   {
     "candidate": {
-      "title": "Idea Fest 2026",
-      "start": "2026-10-09",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Future Kerala Mission of JAIN University, Kochi, with Cardiff University, Wales, U.K.",
-      "description": "Public registration is described on the official event page. The on-campus inter-college/inter-school competition follows an online Design Thinking Workshop on 2026-10-06 and 2026-10-07. Registration deadline: 2026-10-04.",
-      "categoryHint": "college innovation competition / workshop",
-      "evidenceUrl": "https://www.futurekerala.org.in/ideafest/",
-      "registrationUrl": "https://www.futurekerala.org.in/ideafest/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.94
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-30"
-  },
-  {
-    "candidate": {
       "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
       "end": null,
@@ -781,23 +761,23 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship Workshop",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
+      "title": "KOCHI ZONALS 2026",
+      "start": "2026-12-16",
+      "end": "2026-12-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
-      "description": "Workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
-      "categoryHint": "startup / founder",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Ernakulam",
+      "organizer": "Techfest, IIT Bombay",
+      "description": "A technology competition featuring robotics, autonomous maze bots, prompt-to-app development, civic tech and an AI challenge.",
+      "categoryHint": "technology competition; robotics; AI; maker",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
       "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-06"
+    "discoveredAt": "2026-10-10"
   },
   {
     "candidate": {
@@ -981,26 +961,6 @@
   },
   {
     "candidate": {
-      "title": "IdeaFest 2026",
-      "start": "2026-10-09",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi",
-      "organizer": "Future Kerala Mission / JAIN (Deemed-to-be University)",
-      "description": "Student innovation event with design-thinking exposure, mentoring and idea pitching. The public announcement states that the preceding Design Thinking Workshop is on October 6–7, 2026 and IdeaFest is on October 9, 2026.",
-      "categoryHint": "startup/innovation event",
-      "evidenceUrl": "https://in.linkedin.com/in/future-kerala-mission-010b1b35a",
-      "registrationUrl": "https://futurekerala.org.in/ideafest",
-      "sourceKind": "social_post",
-      "confidence": 0.9
-    },
-    "reason": "Official page could not be fetched: Error: HTTP 999",
-    "discoveredAt": "2026-10-01"
-  },
-  {
-    "candidate": {
       "title": "AIBoomi Startup Weekend | 5th Edition | Kochi",
       "start": "2026-10-23",
       "end": "2026-10-25",
@@ -1178,5 +1138,45 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-08"
+  },
+  {
+    "candidate": {
+      "title": "IGNITE 2.0 — AI & Robotics Ideathon Grand Finale",
+      "start": "2026-10-15",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala; specific venue and finale date not stated",
+      "city": "Kochi, Kerala",
+      "organizer": "I HUB School of Learning (IHSL)",
+      "description": "A national AI and robotics ideathon whose offline grand finale is announced for Kochi; the available page gives a registration deadline but not the finale date.",
+      "categoryHint": "AI; robotics; ideathon",
+      "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
+      "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.55
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-10"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "venue": "Holiday Inn, NH Bypass",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cloud Kochi",
+      "description": "A public developer event featuring deep dives on Gemini, AI agents, cloud architecture and developer tools. The official event page states that registration is open and provides the date, venue and schedule.",
+      "categoryHint": "developer conference / workshop-style technical sessions",
+      "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-10"
   }
 ]
