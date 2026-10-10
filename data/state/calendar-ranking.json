@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-14": {
-      "signature": "48ca5d0b0a48fcbccc07a57a06abbebd18eb9d82de82be298baad0be83c78cef",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A confirmed, full-day Kochi event with published timing, venue, and programming focused on Gemini, AI agents, and Google Cloud.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-10T00:56:03.953Z"
-    },
     "2026-10-17": {
       "signature": "a2153145333c0e44fb4714b026f46c316bb43b53a828055ee78f5cbb504a68a3",
       "eventId": "tinkerhub-events-vfhoqwje6v",

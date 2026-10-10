@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-10T00:55:52.566Z",
-  "queryCursor": 7,
+  "lastRunAt": "2026-10-10T13:46:54.266Z",
+  "queryCursor": 1,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -96,7 +96,7 @@
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-05",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-03",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-10",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-01",
@@ -108,14 +108,14 @@
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-08",
-    "https://qff26.quantumx.foundation/": "2026-10-08",
+    "https://qff26.quantumx.foundation/": "2026-10-10",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-10",
     "https://ccd.gdgcloudkochi.com/": "2026-10-10"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29024,
-    "outputTokens": 1641
+    "inputTokens": 29104,
+    "outputTokens": 1522
   }
 }

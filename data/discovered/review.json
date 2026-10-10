@@ -761,20 +761,20 @@
   },
   {
     "candidate": {
-      "title": "KOCHI ZONALS 2026",
-      "start": "2026-12-16",
-      "end": "2026-12-18",
+      "title": "CCD Kochi '26",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "venue": "Holiday Inn, Kochi",
       "city": "Kochi, Ernakulam",
-      "organizer": "Techfest, IIT Bombay",
-      "description": "A technology competition featuring robotics, autonomous maze bots, prompt-to-app development, civic tech and an AI challenge.",
-      "categoryHint": "technology competition; robotics; AI; maker",
+      "organizer": "Google Developer Groups Cloud Kochi",
+      "description": "Technology fest listed for 2026-11-14 at Holiday Inn, Kochi.",
+      "categoryHint": "technology festival",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.78
+      "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-10"
@@ -946,18 +946,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt",
-      "city": "Kochi",
+      "venue": "Grand Hyatt, Kochi",
+      "city": "Kochi, India",
       "organizer": "Gartner",
-      "description": "Technology leadership event covering generative AI, cybersecurity, customer experience, emerging technologies and enterprise IT transformation.",
-      "categoryHint": "AI, cybersecurity, enterprise technology",
+      "description": "IT leadership and technology symposium covering generative AI, cybersecurity, customer experience, emerging technologies and enterprise transformation.",
+      "categoryHint": "AI; cybersecurity; enterprise technology; product",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-03"
+    "discoveredAt": "2026-10-10"
   },
   {
     "candidate": {
@@ -1121,23 +1121,23 @@
   },
   {
     "candidate": {
-      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "title": "Qiskit Fall Fest 2026 — Quantum Hack Day Kochi",
       "start": "2026-11-01",
-      "end": null,
+      "end": "2026-11-01",
       "startTime": null,
       "endTime": null,
-      "venue": "TinkerSpace",
-      "city": "Kochi",
+      "venue": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "QuantumX Foundation",
-      "description": "Public quantum-computing hack day held as part of Qiskit Fall Fest 2026.",
-      "categoryHint": "technology; maker; open source",
+      "description": "Quantum hack day listed as part of QFF26. The official QFF26 page provides event-specific registration links.",
+      "categoryHint": "quantum-computing hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
-      "registrationUrl": null,
+      "registrationUrl": "https://qff26.quantumx.foundation/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.7
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-08"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-10"
   },
   {
     "candidate": {
