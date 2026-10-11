@@ -604,6 +604,28 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "web-qff-2026-quantum-hack-day-kochi-x-tinkerspace-cbeeb55eea",
+    "title": "QFF 2026: Quantum Hack Day Kochi X TinkerSpace",
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "startTime": "10:00",
+    "endTime": "17:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace Kochi",
+    "city": "Kochi",
+    "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
+    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
+    "tags": [],
+    "url": "https://luma.com/ndjvmw7w",
+    "sourceUrls": [
+      "https://luma.com/ndjvmw7w"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-11"
+  },
+  {
     "id": "huddle-global-2026",
     "title": "Huddle Global 2026",
     "start": "2026-11-12",

@@ -1038,5 +1038,45 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-10"
+  },
+  {
+    "candidate": {
+      "title": "Maker Thursday: From Microcontroller to Firmware",
+      "start": "2026-10-29",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, 21/258, CUSAT P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerSpace",
+      "description": "Microcontroller and firmware session listed on TinkerHub’s upcoming-events page.",
+      "categoryHint": "maker; embedded systems; firmware",
+      "evidenceUrl": "https://tinkerhub.org/events",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.82
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-11"
+  },
+  {
+    "candidate": {
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+      "start": "2026-10-25",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Co-in University of Science and Technology (CUSAT), Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Odoo Education Program and Make-A-Ton",
+      "description": "Hackathon open to participants aged 18 and above; the announcement states free registration, a ₹1,05,000 prize pool and registration deadline of October 25, 2026. The retrieved announcement does not state the hackathon's event date, so this exact date is the announced registration deadline.",
+      "categoryHint": "hackathon",
+      "evidenceUrl": "https://www.linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.58
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-11"
   }
 ]
