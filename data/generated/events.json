@@ -359,33 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-tdonyxx4s6",
-    "title": "AI Wednesday",
-    "start": "2026-10-14",
-    "end": "2026-10-14",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "AI Wednesday: Running Open Models on Hardware Most AI runs somewhere in a data centre. This session is about the other option: getting open models running on hardware you can hold. We'll look at what actually fits on a Raspberry Pi, a Jetson, or an ESP32, and where each one runs ",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/TDONYXX4S6/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/TDONYXX4S6/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-18"
-  },
-  {
     "id": "tinkerhub-events-jg9s2v7din",
     "title": "Maker Thursday",
     "start": "2026-10-15",
@@ -457,9 +430,11 @@
       "Community Building"
     ],
     "url": "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi",
+    "registerUrl": "https://events.mlh.com/events/15156-hacktoberfest-meetup-kochi",
     "sourceUrls": [
       "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi"
+      "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi",
+      "https://events.mlh.com/events/15156-hacktoberfest-meetup-kochi"
     ],
     "sourceIds": [
       "tinkerhub-events"
@@ -546,6 +521,33 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-aqdehcstze",
+    "title": "Scrap Hack - Kochi",
+    "start": "2026-10-24",
+    "end": "2026-10-25",
+    "startTime": "14:00",
+    "endTime": "10:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Scrap Hack is a hardware hackathon that challenges participants to explore discarded electronics, identify useful components, and build something new using what they find. Unlike conventional hackathons, where teams begin with an idea and acquire the components required to build ",
+    "tags": [
+      "TinkerHub",
+      "Hackathon",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/AQDEHCSTZE/scrap-hack-kochi",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/AQDEHCSTZE/scrap-hack-kochi"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-11"
   },
   {
     "id": "codex-meetup-kochi-founders",
