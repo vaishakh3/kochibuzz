@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-10T13:46:54.266Z",
-  "queryCursor": 1,
+  "lastRunAt": "2026-10-11T01:57:34.811Z",
+  "queryCursor": 3,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -75,7 +75,7 @@
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-30",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-10-01",
-    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-08",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-11",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-10",
@@ -115,7 +115,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29104,
-    "outputTokens": 1522
+    "inputTokens": 28475,
+    "outputTokens": 2180
   }
 }

@@ -61,46 +61,6 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — International Cyber Security Conference",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt Kochi",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "International cybersecurity conference. The organizer’s public listing states the conference dates, venue and registration destination.",
-      "categoryHint": "technology conference",
-      "evidenceUrl": "https://in.linkedin.com/company/c0c0nconference",
-      "registrationUrl": "https://c0c0n.org/2026",
-      "sourceKind": "social_post",
-      "confidence": 0.97
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-01"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026 International Cyber Security Conference",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
-      "organizer": "Keralam Police",
-      "description": "Cybersecurity and hacking conference covering deep technical research, offensive security, AI, fintech, critical infrastructure and related areas.",
-      "categoryHint": "Cybersecurity / technology",
-      "evidenceUrl": "https://www.c0c0n.org/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-05"
-  },
-  {
-    "candidate": {
       "title": "AIRO MEDICON 2026",
       "start": "2026-10-30",
       "end": "2026-10-31",
@@ -138,26 +98,6 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-09-28"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026 International Cyber Security Conference",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
-      "city": "Kochi",
-      "organizer": "c0c0n / Information Security Research Association (ISRA) Kerala Chapter",
-      "description": "International cybersecurity conference. The cited organizer post also lists pre-conference trainings from October 6–8 and post-conference trainings from October 11–13, 2026.",
-      "categoryHint": "technology conference",
-      "evidenceUrl": "https://www.linkedin.com/showcase/information-security-research-association-isra-kerala-chapter/",
-      "registrationUrl": "https://c0c0n.org/",
-      "sourceKind": "social_post",
-      "confidence": 0.96
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-06"
   },
   {
     "candidate": {
@@ -261,26 +201,6 @@
   },
   {
     "candidate": {
-      "title": "Hack With GDG S4",
-      "start": "2026-10-08",
-      "end": "2026-10-10",
-      "startTime": "18:00",
-      "endTime": "06:00",
-      "venue": "KSR College of Engineering",
-      "city": "Tiruchengode, Tamil Nadu (not Kochi-area)",
-      "organizer": "GDG KSRCE",
-      "description": "36-hour offline hackathon with an idea-submission round and an in-person build phase. Excluded because the venue is outside greater Kochi.",
-      "categoryHint": "college coding hackathon",
-      "evidenceUrl": "https://hack-with-gdg-s4.vercel.app/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
       "title": "8th International Conference on Data Science & Engineering (ICDSE 2027)",
       "start": "2027-01-06",
       "end": "2027-01-08",
@@ -318,26 +238,6 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Cybersecurity conference announced in a LinkedIn post from the organizer. The post states the conference dates as 9–10 October 2026 and the venue as Grand Hyatt, Kochi.",
-      "categoryHint": "cybersecurity / technology conference",
-      "evidenceUrl": "https://www.linkedin.com/posts/c0c0nconference_cfp-callforpapers-cybersecurity-activity-7457013686541668352-4BPM",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.98
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-10"
   },
   {
     "candidate": {
@@ -398,26 +298,6 @@
     },
     "reason": "Date is outside the upcoming 120-day window.",
     "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026 IoT Security Village",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": "11:15",
-      "endTime": "16:30",
-      "venue": "Grand Hyatt Kochi",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Hands-on IoT-security programme for hardware hackers, security researchers and IoT enthusiasts, including wireless, BLE, fault-injection and soldering activities.",
-      "categoryHint": "maker / technology / cybersecurity",
-      "evidenceUrl": "https://www.c0c0n.org/villages",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-13"
   },
   {
     "candidate": {
@@ -561,26 +441,6 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi",
-      "organizer": "Kerala Police",
-      "description": "Cybersecurity and hacking conference covering information security, data protection, privacy, AI/ML-driven cybersecurity and cyber resilience.",
-      "categoryHint": "security, AI, data",
-      "evidenceUrl": "https://c0c0n.org/home",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-15"
-  },
-  {
-    "candidate": {
       "title": "iRAD 2027 — 9th Conference on India Radar Meteorology",
       "start": "2027-01-05",
       "end": "2027-01-08",
@@ -681,23 +541,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi, Kerala",
+      "startTime": "09:00",
+      "endTime": "18:30",
+      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day community event focused on Gemini, AI agents, Google Cloud, cloud architecture and developer networking.",
-      "categoryHint": "GDG / Google Cloud / developer conference",
+      "description": "Full-day developer and cloud community event covering Gemini, AI agents, Google Cloud, cloud architecture, and related technologies.",
+      "categoryHint": "developer / cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-08"
+    "discoveredAt": "2026-10-11"
   },
   {
     "candidate": {
