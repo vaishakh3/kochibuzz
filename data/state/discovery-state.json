@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-11T15:45:37.001Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-10-12T07:25:16.002Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -109,14 +109,16 @@
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-08",
     "https://qff26.quantumx.foundation/": "2026-10-10",
-    "https://ihubschooloflearning.ignite2.in/": "2026-10-10",
-    "https://ccd.gdgcloudkochi.com/": "2026-10-10",
-    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-11"
+    "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
+    "https://ccd.gdgcloudkochi.com/": "2026-10-12",
+    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-11",
+    "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents": "2026-10-12",
+    "https://makeaton9-0xodoo.vercel.app/": "2026-10-12"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29019,
-    "outputTokens": 2003
+    "inputTokens": 28776,
+    "outputTokens": 940
   }
 }

@@ -181,26 +181,6 @@
   },
   {
     "candidate": {
-      "title": "Hackify 3.0 — Hack to Defy",
-      "start": "2026-10-09",
-      "end": "2026-10-11",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Mar Athanasius College of Engineering (MACE), Kothamangalam",
-      "city": "Kothamangalam, greater Kochi",
-      "organizer": "IEDC MACE",
-      "description": "36-hour offline national-level hackathon focused on building technology solutions. Applications are open through Devfolio; the stated registration deadline is September 27, 2026.",
-      "categoryHint": "college coding hackathon",
-      "evidenceUrl": "https://hackify.iedcmace.in/",
-      "registrationUrl": "https://hackify.iedcmace.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.97
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
       "title": "8th International Conference on Data Science & Engineering (ICDSE 2027)",
       "start": "2027-01-06",
       "end": "2027-01-08",
@@ -278,26 +258,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-11"
-  },
-  {
-    "candidate": {
-      "title": "Nights and Weekends",
-      "start": "2026-09-06",
-      "end": "2026-10-11",
-      "startTime": null,
-      "endTime": null,
-      "venue": "TinkerSpace",
-      "city": "Kalamassery, Kochi",
-      "organizer": "TinkerHub Foundation",
-      "description": "A free five-week offline experimentation studio for people who have already built something and want to validate it with customers. The event page describes it as a public learning program at TinkerSpace, Kochi.",
-      "categoryHint": "startup / maker",
-      "evidenceUrl": "https://tinkerhub.org/events/6P3G4PHXM5/nights-and-weekends",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "Date is outside the upcoming 120-day window.",
-    "discoveredAt": "2026-09-12"
   },
   {
     "candidate": {
@@ -741,26 +701,6 @@
   },
   {
     "candidate": {
-      "title": "DevDay Exchange Community Hackathon",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
-      "startTime": "18:00",
-      "endTime": "09:00",
-      "venue": "JAIN University, Kochi",
-      "city": "Kochi",
-      "organizer": "DevDay Exchange community organizers",
-      "description": "Overnight community hackathon with public event listing and registration information.",
-      "categoryHint": "coding hackathon",
-      "evidenceUrl": "https://indiahackathons.com/hi/events/devday-exchange-community-hackathon-kochi",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.73
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-08"
-  },
-  {
-    "candidate": {
       "title": "Maker Faire Kochi",
       "start": "2027-01-23",
       "end": "2027-01-24",
@@ -778,26 +718,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-27"
-  },
-  {
-    "candidate": {
-      "title": "DevDay Exchange Community Hackathon: Kochi",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
-      "startTime": "18:00",
-      "endTime": "09:00",
-      "venue": "JAIN University, Knowledge Park - Kochi, Nirmal Infopark, Kakkanad",
-      "city": "Kochi",
-      "organizer": "Codex Community Events",
-      "description": "In-person overnight hackathon for developers, students, founders and builders, including project building, demos and networking.",
-      "categoryHint": "developer hackathon",
-      "evidenceUrl": "https://luma.com/z10nz8gp",
-      "registrationUrl": "https://luma.com/z10nz8gp",
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-29"
   },
   {
     "candidate": {
@@ -1001,43 +921,43 @@
   },
   {
     "candidate": {
-      "title": "IGNITE 2.0 — AI & Robotics Ideathon Grand Finale",
-      "start": "2026-10-15",
+      "title": "IGNITE 2.0 – AI & Robotics Ideathon — Grand Finale",
+      "start": "2026-10-12",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; specific venue and finale date not stated",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi, Kerala (specific venue not published on the official page)",
+      "city": "Kochi",
       "organizer": "I HUB School of Learning (IHSL)",
-      "description": "A national AI and robotics ideathon whose offline grand finale is announced for Kochi; the available page gives a registration deadline but not the finale date.",
-      "categoryHint": "AI; robotics; ideathon",
+      "description": "National-level AI and robotics ideathon; the official page states that the journey culminates in an offline grand finale in Kochi. The page confirms registration closes October 15, 2026, but does not publish an exact grand-finale date.",
+      "categoryHint": "AI / robotics / innovation",
       "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.55
+      "confidence": 0.63
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-10"
+    "discoveredAt": "2026-10-12"
   },
   {
     "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": null,
+      "end": "2026-11-14",
       "startTime": "09:00",
       "endTime": "18:00",
-      "venue": "Holiday Inn, NH Bypass",
+      "venue": "Holiday Inn, NH Bypass, Kochi 682028",
       "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "A public developer event featuring deep dives on Gemini, AI agents, cloud architecture and developer tools. The official event page states that registration is open and provides the date, venue and schedule.",
-      "categoryHint": "developer conference / workshop-style technical sessions",
+      "description": "Public developer-focused event with sessions on Gemini, AI agents, cloud architecture and Google Cloud developer tools. Registrations are open.",
+      "categoryHint": "developer workshop",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-10"
+    "discoveredAt": "2026-10-12"
   },
   {
     "candidate": {
