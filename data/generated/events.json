@@ -359,33 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-jg9s2v7din",
-    "title": "Maker Thursday",
-    "start": "2026-10-15",
-    "end": "2026-10-15",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Maker Thursday: Exploring RTOS An introduction to real-time operating systems, and why they show up once an embedded project outgrows a simple loop. We'll start with what a real-time OS actually is and what makes it different from the loop() you're used to. Tasks and scheduling, ",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/JG9S2V7DIN/maker-thursday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/JG9S2V7DIN/maker-thursday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-18"
-  },
-  {
     "id": "tinkerhub-events-74i0hsq8ow",
     "title": "Introduction to Zephyr RTOS",
     "start": "2026-10-17",
@@ -555,8 +528,8 @@
     "start": "2026-10-28",
     "end": "2026-10-28",
     "category": "ai",
-    "venue": "Kochi, India",
-    "city": "Kochi",
+    "venue": "Kakkanad, India",
+    "city": "Kakkanad",
     "organizer": "Vaishakh Suresh, Pauline P. Narvas, Rhiannon Payne",
     "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
     "tags": [
