@@ -46,15 +46,15 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala, India",
+      "venue": "Kochi, Kerala; specific venue not stated on the event page",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network – South Asia",
-      "description": "Four-day gathering for founders focused on learning, connection and celebration.",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "Four-day gathering for founders and members of the Stanford Seed Transformation Network — South Asia.",
       "categoryHint": "startup / founders",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.97
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-13"
@@ -581,20 +581,20 @@
   },
   {
     "candidate": {
-      "title": "IEEE Entrepreneurship Workshop",
-      "start": "2026-11-16",
-      "end": "2026-11-17",
+      "title": "Google Cloud Community Day Kochi 2026",
+      "start": "2026-11-14",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi, Ernakulam",
-      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
-      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. Public listing states entry is free and includes a registration closing date.",
-      "categoryHint": "startup workshop",
+      "venue": "Holiday Inn, Kochi, Ernakulam",
+      "city": "Kochi",
+      "organizer": "Google Developer Groups Cloud-Kochi",
+      "description": "One-day cloud technology conference with demonstrations, technical sessions, networking and community participation.",
+      "categoryHint": "technology / developer community",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.72
+      "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-13"
@@ -621,23 +621,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × CUSAT Make-A-Ton 9.0",
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "Odoo and CUSAT CITTIC",
-      "description": "24-hour hiring hackathon for technology students, freshers and coding enthusiasts, with startup-building and prototyping relevance.",
-      "categoryHint": "maker / technology / startup",
+      "venue": "CUSAT, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "description": "24-hour hiring hackathon focused on building prototypes and software projects; top performers may be considered for hiring at Odoo.",
+      "categoryHint": "maker / startup / technology / hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
-      "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-06"
+    "discoveredAt": "2026-10-13"
   },
   {
     "candidate": {
@@ -721,23 +721,23 @@
   },
   {
     "candidate": {
-      "title": "AIBoomi Startup Weekend | 5th Edition | Kochi",
+      "title": "AIBoomi Startup Weekend | Kochi",
       "start": "2026-10-23",
-      "end": "2026-10-25",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Ernakulam, Kochi area",
-      "city": "Kochi",
+      "venue": "Ernakulam, Kochi area; specific venue not stated on the event page",
+      "city": "Ernakulam",
       "organizer": "AIBoomi",
-      "description": "Startup weekend for AI builders and founders. The official AIBoomi events page states the Kochi edition is scheduled for 23 October 2026 in Ernakulam.",
+      "description": "Startup weekend for AI founders, builders and operators.",
       "categoryHint": "startup / founders / AI",
       "evidenceUrl": "https://aiboomi.org/events/",
-      "registrationUrl": null,
+      "registrationUrl": "https://aiboomi.org/events/",
       "sourceKind": "official_event_page",
-      "confidence": 0.91
+      "confidence": 0.95
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-01"
+    "discoveredAt": "2026-10-13"
   },
   {
     "candidate": {
@@ -881,23 +881,23 @@
   },
   {
     "candidate": {
-      "title": "Qiskit Fall Fest 2026 — Quantum Hack Day Kochi",
+      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
-      "end": "2026-11-01",
+      "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi; specific venue not stated on the event page",
+      "city": "Kochi",
       "organizer": "QuantumX Foundation",
-      "description": "Quantum hack day listed as part of QFF26. The official QFF26 page provides event-specific registration links.",
-      "categoryHint": "quantum-computing hackathon",
+      "description": "Quantum hack event listed as part of Qiskit Fall Fest 2026, a programme for researchers, builders, industry and institutions.",
+      "categoryHint": "technology / maker / hackathon / open source",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
       "registrationUrl": "https://qff26.quantumx.foundation/",
       "sourceKind": "official_event_page",
-      "confidence": 0.7
+      "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-10"
+    "discoveredAt": "2026-10-13"
   },
   {
     "candidate": {
