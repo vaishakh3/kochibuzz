@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala (specific venue not stated on the event page)",
+      "venue": "Kochi, Kerala, India",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day gathering for founders and CEOs from South Asia, featuring a conference, workshops, networking and learning sessions.",
-      "categoryHint": "startup; founders",
+      "organizer": "Stanford Seed Transformation Network – South Asia",
+      "description": "Four-day gathering for founders focused on learning, connection and celebration.",
+      "categoryHint": "startup / founders",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": null,
+      "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.95
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-08"
+    "discoveredAt": "2026-10-13"
   },
   {
     "candidate": {
@@ -581,43 +581,23 @@
   },
   {
     "candidate": {
-      "title": "CCD Kochi '26",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
+      "title": "IEEE Entrepreneurship Workshop",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn, Kochi",
+      "venue": "Kochi",
       "city": "Kochi, Ernakulam",
-      "organizer": "Google Developer Groups Cloud Kochi",
-      "description": "Technology fest listed for 2026-11-14 at Holiday Inn, Kochi.",
-      "categoryHint": "technology festival",
+      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
+      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. Public listing states entry is free and includes a registration closing date.",
+      "categoryHint": "startup workshop",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
       "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-10"
-  },
-  {
-    "candidate": {
-      "title": "ANCHORAGE’26",
-      "start": "2026-10-10",
-      "end": "2026-10-12",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Department of Ship Technology, Cochin University of Science and Technology, Kalamassery",
-      "city": "Kalamassery, Kochi area",
-      "organizer": "Department of Ship Technology, CUSAT",
-      "description": "Annual tech fest featuring maritime technology competitions, a CEO command-deck competition, a startup-style pitch event and other challenges. Registration is listed for individual components.",
-      "categoryHint": "technology fest / competitions",
-      "evidenceUrl": "https://arinjo.in/events/anchorage-26",
-      "registrationUrl": "https://arinjo.in/events/anchorage-26",
-      "sourceKind": "organizer_page",
-      "confidence": 0.95
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-10-13"
   },
   {
     "candidate": {
@@ -921,26 +901,6 @@
   },
   {
     "candidate": {
-      "title": "IGNITE 2.0 – AI & Robotics Ideathon — Grand Finale",
-      "start": "2026-10-12",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi, Kerala (specific venue not published on the official page)",
-      "city": "Kochi",
-      "organizer": "I HUB School of Learning (IHSL)",
-      "description": "National-level AI and robotics ideathon; the official page states that the journey culminates in an offline grand finale in Kochi. The page confirms registration closes October 15, 2026, but does not publish an exact grand-finale date.",
-      "categoryHint": "AI / robotics / innovation",
-      "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
-      "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.63
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-12"
-  },
-  {
-    "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -998,5 +958,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-11"
+  },
+  {
+    "candidate": {
+      "title": "ISV Symposium 2027",
+      "start": "2027-02-23",
+      "end": "2027-02-24",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala, India",
+      "city": "Kochi",
+      "organizer": "IEEE Smart Village South Asia Regional Committee",
+      "description": "Symposium on sustainable livelihoods and technology-enabled development, including enterprise development, education and community-centered solutions.",
+      "categoryHint": "technology / innovation",
+      "evidenceUrl": "https://isvsymposium.org/",
+      "registrationUrl": "https://isvsymposium.org/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "Date is outside the upcoming 120-day window.",
+    "discoveredAt": "2026-10-13"
   }
 ]

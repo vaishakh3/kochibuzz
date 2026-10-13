@@ -1,41 +1,19 @@
 [
   {
-    "id": "web-odoo-make-a-ton-9-0-629c6507ab",
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
     "title": "Odoo × Make-A-Ton 9.0",
     "start": "2026-10-31",
     "end": "2026-12-20",
     "category": "hackathon",
     "venue": "Cochin University of Science and Technology (CUSAT)",
     "city": "Kochi, Kerala",
-    "organizer": "Odoo and CITTIC, CUSAT",
+    "organizer": "CITTIC, CUSAT",
     "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
     "tags": [],
     "url": "https://www.makeaton.in/",
     "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
     "sourceUrls": [
-      "https://makeaton9-0xodoo.vercel.app/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ]
-  },
-  {
-    "id": "web-forge-development-rovo-building-apps-and-ai-agents-fd75c02503",
-    "title": "Forge Development & Rovo: Building Apps and AI Agents",
-    "start": "2026-11-04",
-    "end": "2026-11-04",
-    "startTime": "17:00",
-    "endTime": "19:00",
-    "category": "ai",
-    "venue": "ACTIO TECH LLP Office",
-    "city": "Kochi",
-    "organizer": "Atlassian Community Events",
-    "blurb": "Join Jozef and ACE Kochi to explore Forge development and Rovo, from custom Atlassian apps to AI agents and actions. Discover possibilities for Jira and Confluence, exchange ideas, and connect with the community.",
-    "tags": [],
-    "url": "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents",
-    "registerUrl": "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents/",
-    "sourceUrls": [
-      "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents"
+      "https://makeaton.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"
