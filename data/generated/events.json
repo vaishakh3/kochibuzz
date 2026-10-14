@@ -359,62 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-74i0hsq8ow",
-    "title": "Introduction to Zephyr RTOS",
-    "start": "2026-10-17",
-    "end": "2026-10-17",
-    "startTime": "10:00",
-    "endTime": "16:00",
-    "category": "opensource",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Introduction to Zephyr An introduction to Zephyr, the open source real-time operating system built for embedded and IoT devices. We'll look at what Zephyr is and why it exists: a proper RTOS with a scheduler, drivers, and networking, running on boards small enough that you'd norm",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/74I0HSQ8OW/introduction-to-zephyr-rtos",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/74I0HSQ8OW/introduction-to-zephyr-rtos"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-19"
-  },
-  {
-    "id": "tinkerhub-events-vfhoqwje6v",
-    "title": "Hacktoberfest 2026 Meetup Kochi",
-    "start": "2026-10-17",
-    "end": "2026-10-17",
-    "startTime": "10:00",
-    "endTime": "13:30",
-    "category": "opensource",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Hacktoberfest 2026 - Meetup Kochi A gathering for developers, students, maintainers, contributors, founders, and open-source enthusiasts coming together to celebrate and experience the culture of Open Source in Kochi. This meetup is a space to meet, build, contribute, learn, and ",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi",
-    "registerUrl": "https://events.mlh.com/events/15156-hacktoberfest-meetup-kochi",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/VFHOQWJE6V/hacktoberfest-2026-meetup-kochi",
-      "https://events.mlh.com/events/15156-hacktoberfest-meetup-kochi"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-10"
-  },
-  {
     "id": "tinkerhub-events-gkzdfe56jp",
     "title": "Tinkering with FreeCAD",
     "start": "2026-10-18",
@@ -496,6 +440,35 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "tinkerhub-events-3xaqhy38px",
+    "title": "AIBoomi Startup Weekend Kochi 2026",
+    "start": "2026-10-23",
+    "end": "2026-10-24",
+    "startTime": "16:00",
+    "endTime": "16:30",
+    "category": "hackathon",
+    "venue": "Kerala Startup Mission , Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Build an AI product in 20 hours. Compete for $17,500 in OpenAI API credit pool. Oct 23-24 | In person, Kochi | Free to participate ​What's up for grabs ​$17,500 OpenAI API credit pool for the top 3 teams ​Complimentary passes to AIBoomi's flagship event in Bengaluru (Mar 2027) fo",
+    "tags": [
+      "TinkerHub",
+      "Hackathon",
+      "AI/ML"
+    ],
+    "url": "https://tinkerhub.org/events/3XAQHY38PX/aiboomi-startup-weekend-kochi-2026",
+    "registerUrl": "https://luma.com/StartupWeekendKochi",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/3XAQHY38PX/aiboomi-startup-weekend-kochi-2026",
+      "https://luma.com/StartupWeekendKochi"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-14"
+  },
+  {
     "id": "tinkerhub-events-aqdehcstze",
     "title": "Scrap Hack - Kochi",
     "start": "2026-10-24",
@@ -575,6 +548,35 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "tinkerhub-events-fsbu1lqk2m",
+    "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+    "start": "2026-11-01",
+    "end": "2026-11-01",
+    "startTime": "10:00",
+    "endTime": "18:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum computing SDK. Unlike traditional hackathons tha",
+    "tags": [
+      "TinkerHub",
+      "Bootcamp",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi",
+    "registerUrl": "https://luma.com/ndjvmw7w",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi",
+      "https://luma.com/ndjvmw7w"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-14"
   },
   {
     "id": "web-qff-2026-quantum-hack-day-kochi-x-tinkerspace-cbeeb55eea",
