@@ -81,26 +81,6 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — Post-Conference Training",
-      "start": "2026-10-11",
-      "end": "2026-10-13",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi, Kerala",
-      "organizer": "Kerala Police and Information Security Research Association (ISRA)",
-      "description": "Publicly registrable cybersecurity training sessions held after the c0c0n 2026 conference.",
-      "categoryHint": "developer workshop / cybersecurity training",
-      "evidenceUrl": "https://www.c0c0n.org/register",
-      "registrationUrl": "https://www.c0c0n.org/register",
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-28"
-  },
-  {
-    "candidate": {
       "title": "She Builds Tech 3.0 — AI Hackathon",
       "start": "2026-10-16",
       "end": "2026-10-17",
@@ -221,26 +201,6 @@
   },
   {
     "candidate": {
-      "title": "c0c0n 2026 — Hacking & Cyber Security Briefing Conference",
-      "start": "2026-10-06",
-      "end": "2026-10-13",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi",
-      "organizer": "c0c0n / Keralam Police",
-      "description": "Cybersecurity conference and technical training programme covering AI, cloud security, API security, offensive security, financial technology, critical infrastructure, IoT and hardware security. The main conference is scheduled for October 9–10, with pre-conference training October 6–8 and post-conference training October 11–13.",
-      "categoryHint": "Cybersecurity; AI; cloud security; data protection",
-      "evidenceUrl": "https://c0c0n.org/2026",
-      "registrationUrl": "https://c0c0n.org/2026",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-28"
-  },
-  {
-    "candidate": {
       "title": "Gartner IT Symposium/Xpo 2026",
       "start": "2026-11-16",
       "end": "2026-11-18",
@@ -258,26 +218,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-11"
-  },
-  {
-    "candidate": {
-      "title": "c0c0n 2026",
-      "start": "2026-10-06",
-      "end": "2026-10-13",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Grand Hyatt, Bolgatty",
-      "city": "Kochi",
-      "organizer": "c0c0n",
-      "description": "Technology and cybersecurity event.",
-      "categoryHint": "cybersecurity / developer",
-      "evidenceUrl": "https://kochi.buzz/digest",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.78
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-23"
   },
   {
     "candidate": {
@@ -803,21 +743,21 @@
     "candidate": {
       "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
       "start": "2026-10-28",
-      "end": "2026-10-28",
+      "end": null,
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark Kochi",
-      "city": "Kochi, Ernakulam",
-      "organizer": "Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
-      "description": "Curated technology meetup for founders, CEOs, CTOs and technology leaders, featuring Codex demonstrations, founder perspectives, AI workflows, networking and lunch. Exact venue address is disclosed after registration.",
-      "categoryHint": "technology / artificial intelligence / startup",
+      "venue": "Infopark Kochi; exact venue disclosed after registration",
+      "city": "Kakkanad, Kochi, Kerala",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas & Rhiannon Payne",
+      "description": "A founders-focused community meetup covering Codex demonstrations, founder perspectives, AI-assisted development workflows, networking and lunch.",
+      "categoryHint": "technology / startup / AI",
       "evidenceUrl": "https://luma.com/k65afwn7",
       "registrationUrl": "https://luma.com/k65afwn7",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.97
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-09"
+    "discoveredAt": "2026-10-14"
   },
   {
     "candidate": {
@@ -946,18 +886,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Co-in University of Science and Technology (CUSAT), Kochi, Kerala",
-      "city": "Kochi",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
       "organizer": "Odoo Education Program and Make-A-Ton",
-      "description": "Hackathon open to participants aged 18 and above; the announcement states free registration, a ₹1,05,000 prize pool and registration deadline of October 25, 2026. The retrieved announcement does not state the hackathon's event date, so this exact date is the announced registration deadline.",
-      "categoryHint": "hackathon",
-      "evidenceUrl": "https://www.linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
+      "description": "Hackathon registration post states that the event is at CUSAT, Kochi, Kerala, with registration open until October 25, 2026. The post identifies the event as Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026.",
+      "categoryHint": "hackathon / developer event",
+      "evidenceUrl": "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.58
+      "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-11"
+    "discoveredAt": "2026-10-14"
   },
   {
     "candidate": {

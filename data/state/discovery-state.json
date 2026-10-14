@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-13T16:03:32.619Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-14T06:14:15.480Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -80,7 +80,7 @@
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-10",
     "https://kcd.cncgkochi.in/": "2026-10-01",
-    "https://luma.com/ndjvmw7w": "2026-10-11",
+    "https://luma.com/ndjvmw7w": "2026-10-14",
     "https://typoday.futuresummit.in/": "2026-09-21",
     "https://fabacademy.fablabkerala.in/": "2026-09-21",
     "https://iedcsummit.in/workshops/register": "2026-09-21",
@@ -103,7 +103,7 @@
     "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-03",
     "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday": "2026-10-04",
     "https://10times.com/kochi-in": "2026-10-05",
-    "https://luma.com/k65afwn7": "2026-10-09",
+    "https://luma.com/k65afwn7": "2026-10-14",
     "https://arinjo.in/categories/techfest": "2026-10-07",
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
@@ -111,7 +111,7 @@
     "https://qff26.quantumx.foundation/": "2026-10-13",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-12",
-    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-11",
+    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-14",
     "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents": "2026-10-12",
     "https://makeaton9-0xodoo.vercel.app/": "2026-10-12",
     "https://isvsymposium.org/": "2026-10-13"
@@ -119,7 +119,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28867,
-    "outputTokens": 925
+    "inputTokens": 29013,
+    "outputTokens": 806
   }
 }
