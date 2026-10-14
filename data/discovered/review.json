@@ -141,26 +141,6 @@
   },
   {
     "candidate": {
-      "title": "Elets AI Summit",
-      "start": "2026-10-14",
-      "end": null,
-      "startTime": "09:00",
-      "endTime": "17:00",
-      "venue": "Not specified in the available evidence",
-      "city": "Kochi, Kerala",
-      "organizer": "Elets Technomedia",
-      "description": "AI summit featuring keynotes, panels, fireside chats, startup showcases, technology exhibitions and networking.",
-      "categoryHint": "Artificial intelligence / startup / technology summit",
-      "evidenceUrl": "https://www.indiaeve.com/event/elets-ai-summit",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.62
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
       "title": "8th International Conference on Data Science & Engineering (ICDSE 2027)",
       "start": "2027-01-06",
       "end": "2027-01-08",
@@ -521,23 +501,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
-      "start": "2026-11-14",
-      "end": null,
+      "title": "IEEE Entrepreneurship Workshop",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn, Kochi, Ernakulam",
-      "city": "Kochi",
-      "organizer": "Google Developer Groups Cloud-Kochi",
-      "description": "One-day cloud technology conference with demonstrations, technical sessions, networking and community participation.",
-      "categoryHint": "technology / developer community",
+      "venue": "Not specified beyond Kochi, Ernakulam",
+      "city": "Kochi, Ernakulam, Kerala",
+      "organizer": "IEEE Entrepreneurship, Kerala Startup Mission",
+      "description": "Two-day workshop on technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. The listing states that entry is free and provides a registration/wait-list option.",
+      "categoryHint": "entrepreneurship and technology workshop",
       "evidenceUrl": "https://arinjo.in/",
-      "registrationUrl": null,
+      "registrationUrl": "https://arinjo.in/",
       "sourceKind": "organizer_page",
-      "confidence": 0.78
+      "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-13"
+    "discoveredAt": "2026-10-15"
   },
   {
     "candidate": {
@@ -861,23 +841,23 @@
   },
   {
     "candidate": {
-      "title": "Maker Thursday: From Microcontroller to Firmware",
-      "start": "2026-10-29",
-      "end": null,
-      "startTime": null,
+      "title": "Scrap Hack - Kochi",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "startTime": "14:00",
       "endTime": null,
-      "venue": "TinkerSpace, 21/258, CUSAT P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "TinkerSpace",
-      "description": "Microcontroller and firmware session listed on TinkerHub’s upcoming-events page.",
-      "categoryHint": "maker; embedded systems; firmware",
+      "venue": "TinkerSpace, Kalamassery, Kochi",
+      "city": "Kochi",
+      "organizer": "TinkerHub",
+      "description": "Hands-on hack event using scrap materials.",
+      "categoryHint": "maker; hardware; creative technology",
       "evidenceUrl": "https://tinkerhub.org/events",
       "registrationUrl": null,
-      "sourceKind": "official_event_page",
+      "sourceKind": "organizer_page",
       "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-11"
+    "discoveredAt": "2026-10-15"
   },
   {
     "candidate": {

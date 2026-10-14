@@ -361,6 +361,28 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "web-the-narrator-49272b8560",
+      "title": "THE NARRATOR",
+      "start": "2026-10-15",
+      "end": "2026-10-15",
+      "startTime": "14:00",
+      "endTime": "16:30",
+      "category": "webdev",
+      "venue": "SMEC Technologies, II Floor, Express House, Kaloor, Kochi 682017",
+      "city": "Kochi, Kerala",
+      "organizer": "SMEC Technologies",
+      "blurb": "An in-person coding challenge set inside a crime thriller. Use code to uncover clues, connect evidence and solve a mystery as the clock runs down.",
+      "tags": [],
+      "url": "https://smectechnologies.co.in/events/the-narrator",
+      "sourceUrls": [
+        "https://smectechnologies.co.in/events/the-narrator"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-15"
+    },
+    {
       "id": "tinkerhub-events-gkzdfe56jp",
       "title": "Tinkering with FreeCAD",
       "start": "2026-10-18",
@@ -552,6 +574,27 @@
       "firstSeenAt": "2026-09-18"
     },
     {
+      "id": "web-odoo-make-a-ton-9-0-629c6507ab",
+      "title": "Odoo × Make-A-Ton 9.0",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "category": "hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+      "tags": [],
+      "url": "https://www.makeaton.in/",
+      "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://makeaton9-0xodoo.vercel.app/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-15"
+    },
+    {
       "id": "tinkerhub-events-fsbu1lqk2m",
       "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
@@ -577,28 +620,6 @@
       ],
       "sourceIds": [
         "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-14"
-    },
-    {
-      "id": "web-qff-2026-quantum-hack-day-kochi-x-tinkerspace-cbeeb55eea",
-      "title": "QFF 2026: Quantum Hack Day Kochi X TinkerSpace",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "startTime": "10:00",
-      "endTime": "17:00",
-      "category": "hackathon",
-      "venue": "TinkerSpace Kochi",
-      "city": "Kochi",
-      "organizer": "Qiskit Fall Fest x Quantumx, QuantumX",
-      "blurb": "As part of Qiskit Fall Fest 2026, QuantumX is excited to present Quantum Hack Day Kochi; a beginner-friendly quantum computing hackathon designed to help participants learn, explore, and build with Qiskit, IBM's open-source quantum…",
-      "tags": [],
-      "url": "https://luma.com/ndjvmw7w",
-      "sourceUrls": [
-        "https://luma.com/ndjvmw7w"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
       ],
       "firstSeenAt": "2026-10-14"
     },

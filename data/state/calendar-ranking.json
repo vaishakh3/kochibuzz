@@ -7,13 +7,6 @@
       "reason": "A recurring Kochi cybersecurity meetup offering practical talks and discussion for the local security community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-10T07:12:25.703Z"
-    },
-    "2026-11-01": {
-      "signature": "c5df12b201c9089b129e4f3ca2e6d624ebfdd3a7d8e2ec16a3b201924daa2a19",
-      "eventId": "tinkerhub-events-fsbu1lqk2m",
-      "reason": "A confirmed Kochi hackathon offering hands-on, beginner-friendly quantum computing learning and project building.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-14T17:15:41.742Z"
     }
   },
   "lastUsage": {
