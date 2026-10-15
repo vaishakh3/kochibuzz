@@ -469,6 +469,27 @@
     "firstSeenAt": "2026-10-11"
   },
   {
+    "id": "web-october-2026-kochifoss-meetup-0fb0bdb3b7",
+    "title": "October 2026 KochiFOSS Meetup",
+    "start": "2026-10-24",
+    "end": "2026-10-24",
+    "startTime": "09:30",
+    "category": "opensource",
+    "venue": "Hatio, Kalamassery",
+    "city": "Kochi, Kerala",
+    "organizer": "Kochi FOSS",
+    "blurb": "In-person meetup for developers and enthusiasts of Free/Libre/Open Source Software.",
+    "tags": [],
+    "url": "https://kochifoss.org/",
+    "sourceUrls": [
+      "https://kochifoss.org/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-16"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
@@ -550,26 +571,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-14"
-  },
-  {
-    "id": "web-startup-dangal-kochi-246ddd6b69",
-    "title": "Startup Dangal — Kochi",
-    "start": "2026-11-05",
-    "end": "2026-11-05",
-    "category": "startup",
-    "venue": "Kochi, Kerala, India",
-    "city": "Kochi",
-    "organizer": "Startup Dangal",
-    "blurb": "Startup competition and roadshow stop with startup showcasing, live pitching, investors, jury members and ecosystem leaders. The official page lists Kochi for 5 November 2026 and provides registration.",
-    "tags": [],
-    "url": "https://startupdangal.com/",
-    "sourceUrls": [
-      "https://startupdangal.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-15"
   },
   {
     "id": "huddle-global-2026",

@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; specific venue not stated on the event page",
-      "city": "Kochi",
+      "venue": "Kochi, Kerala",
+      "city": "Kochi, Kerala",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day gathering for founders and members of the Stanford Seed Transformation Network — South Asia.",
-      "categoryHint": "startup / founders",
+      "description": "Annual gathering of the Stanford Seed Transformation Network South Asia, with 400+ founders and four days of learning, connection and celebration.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": "https://stnsa.org/conclave",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-13"
+    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {
@@ -506,18 +506,18 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Ernakulam, Kerala, India",
-      "city": "Kochi",
-      "organizer": "IEEE Entrepreneurship, with Kerala Startup Mission",
-      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. The public listing states the dates and Kochi/Ernakulam location.",
-      "categoryHint": "startup workshop / entrepreneurship",
+      "venue": "Kochi, Ernakulam",
+      "city": "Kochi, Kerala",
+      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
+      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation for early-stage founders and academic entrepreneurs.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://arinjo.in/",
-      "registrationUrl": "https://arinjo.in/",
+      "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.86
+      "confidence": 0.85
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-15"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {
@@ -646,18 +646,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Ernakulam, Kochi area; specific venue not stated on the event page",
-      "city": "Ernakulam",
+      "venue": "Ernakulam, Kerala",
+      "city": "Kochi area",
       "organizer": "AIBoomi",
-      "description": "Startup weekend for AI founders, builders and operators.",
-      "categoryHint": "startup / founders / AI",
+      "description": "Startup weekend for AI builders, founders and operators.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://aiboomi.org/events/",
-      "registrationUrl": "https://aiboomi.org/events/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.95
+      "confidence": 0.92
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-13"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {
@@ -806,18 +806,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi; specific venue not stated on the event page",
-      "city": "Kochi",
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
       "organizer": "QuantumX Foundation",
-      "description": "Quantum hack event listed as part of Qiskit Fall Fest 2026, a programme for researchers, builders, industry and institutions.",
-      "categoryHint": "technology / maker / hackathon / open source",
+      "description": "Public quantum hack day bringing together builders and technology enthusiasts as part of Qiskit Fall Fest 2026.",
+      "categoryHint": "maker / technology",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
-      "registrationUrl": "https://qff26.quantumx.foundation/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.84
+      "confidence": 0.98
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-13"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {
@@ -898,5 +898,25 @@
     },
     "reason": "Date is outside the upcoming 120-day window.",
     "discoveredAt": "2026-10-13"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi - 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cloud Kochi",
+      "description": "A full-day event covering Gemini, AI agents and Google Cloud.",
+      "categoryHint": "Google Cloud / developer conference",
+      "evidenceUrl": "https://gdg.community.dev/gdg-cloud-kochi/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-16"
   }
 ]
