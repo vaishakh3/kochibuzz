@@ -359,28 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "web-the-narrator-49272b8560",
-    "title": "THE NARRATOR",
-    "start": "2026-10-15",
-    "end": "2026-10-15",
-    "startTime": "14:00",
-    "endTime": "16:30",
-    "category": "webdev",
-    "venue": "SMEC Technologies, II Floor, Express House, Kaloor, Kochi 682017",
-    "city": "Kochi, Kerala",
-    "organizer": "SMEC Technologies",
-    "blurb": "An in-person coding challenge set inside a crime thriller. Use code to uncover clues, connect evidence and solve a mystery as the clock runs down.",
-    "tags": [],
-    "url": "https://smectechnologies.co.in/events/the-narrator",
-    "sourceUrls": [
-      "https://smectechnologies.co.in/events/the-narrator"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-15"
-  },
-  {
     "id": "tinkerhub-events-gkzdfe56jp",
     "title": "Tinkering with FreeCAD",
     "start": "2026-10-18",
@@ -572,27 +550,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-odoo-make-a-ton-9-0-629c6507ab",
-    "title": "Odoo × Make-A-Ton 9.0",
-    "start": "2026-10-31",
-    "end": "2026-12-20",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology (CUSAT)",
-    "city": "Kochi, Kerala",
-    "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
-    "tags": [],
-    "url": "https://www.makeaton.in/",
-    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
-    "sourceUrls": [
-      "https://makeaton9-0xodoo.vercel.app/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-15"
-  },
-  {
     "id": "tinkerhub-events-fsbu1lqk2m",
     "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
     "start": "2026-11-01",
@@ -620,6 +577,26 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-14"
+  },
+  {
+    "id": "web-startup-dangal-kochi-246ddd6b69",
+    "title": "Startup Dangal — Kochi",
+    "start": "2026-11-05",
+    "end": "2026-11-05",
+    "category": "startup",
+    "venue": "Kochi, Kerala, India",
+    "city": "Kochi",
+    "organizer": "Startup Dangal",
+    "blurb": "Startup competition and roadshow stop with startup showcasing, live pitching, investors, jury members and ecosystem leaders. The official page lists Kochi for 5 November 2026 and provides registration.",
+    "tags": [],
+    "url": "https://startupdangal.com/",
+    "sourceUrls": [
+      "https://startupdangal.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-15"
   },
   {
     "id": "huddle-global-2026",

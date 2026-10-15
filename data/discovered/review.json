@@ -441,23 +441,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
       "start": "2026-12-19",
       "end": "2026-12-20",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT) campus",
-      "city": "Kalamassery, Kochi",
-      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-      "description": "24-hour final coding marathon for shortlisted teams. The official registration page lists the final round for 19–20 December 2026 and provides registration details.",
+      "startTime": "07:00",
+      "endTime": "18:00",
+      "venue": "CITTIC, Cochin University of Science and Technology, Kochi, Kerala, India",
+      "city": "Kochi",
+      "organizer": "Odoo and Make-A-Ton 9.0 / CITTIC, CUSAT",
+      "description": "A 24-hour coding hackathon. The official registration page specifies the final round dates and states that the final round takes place at the institute campus in Kochi.",
       "categoryHint": "hackathon",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.91
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-03"
+    "discoveredAt": "2026-10-15"
   },
   {
     "candidate": {
@@ -506,17 +506,17 @@
       "end": "2026-11-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Not specified beyond Kochi, Ernakulam",
-      "city": "Kochi, Ernakulam, Kerala",
-      "organizer": "IEEE Entrepreneurship, Kerala Startup Mission",
-      "description": "Two-day workshop on technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. The listing states that entry is free and provides a registration/wait-list option.",
-      "categoryHint": "entrepreneurship and technology workshop",
+      "venue": "Kochi, Ernakulam, Kerala, India",
+      "city": "Kochi",
+      "organizer": "IEEE Entrepreneurship, with Kerala Startup Mission",
+      "description": "Two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation. The public listing states the dates and Kochi/Ernakulam location.",
+      "categoryHint": "startup workshop / entrepreneurship",
       "evidenceUrl": "https://arinjo.in/",
       "registrationUrl": "https://arinjo.in/",
       "sourceKind": "organizer_page",
-      "confidence": 0.84
+      "confidence": 0.86
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-15"
   },
   {
@@ -661,23 +661,23 @@
   },
   {
     "candidate": {
-      "title": "Hack4Good 2.0 — National Humanitarian Tech-a-thon, Phase 3",
+      "title": "Hack4Good 2.0 — National Humanitarian Tech-a-thon, Kochi finale",
       "start": "2026-12-21",
-      "end": "2026-12-27",
+      "end": "2026-12-31",
       "startTime": null,
       "endTime": null,
-      "venue": "Not specified on the official event page",
-      "city": "Kochi area not confirmed",
-      "organizer": "IEEE SPS Kerala Chapter, with IEEE Kerala Section",
-      "description": "Three-day in-person capacity-building programme and 36-hour final hack. The official page specifies only the last week of December 2026 and does not state a Kochi-area venue or city.",
-      "categoryHint": "hackathon",
+      "venue": "Kochi, Kerala, India (exact venue not stated on the public page)",
+      "city": "Kochi",
+      "organizer": "IEEE SPS Kerala Chapter with IEEE Kerala Section",
+      "description": "Three-day offline technology finale in the last week of December 2026, preceded by workshops and a 36-hour final hack. The official page gives only the week, not an exact calendar date or exact venue; therefore this result is included as a date-range lead rather than a fully date-specific event.",
+      "categoryHint": "humanitarian technology hackathon",
       "evidenceUrl": "https://hack4good2-0.ieeespskc.in/index.html",
       "registrationUrl": "https://hack4good2-0.ieeespskc.in/index.html",
       "sourceKind": "official_event_page",
       "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-03"
+    "discoveredAt": "2026-10-15"
   },
   {
     "candidate": {
@@ -823,21 +823,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "18:00",
-      "venue": "Holiday Inn, NH Bypass, Kochi 682028",
-      "city": "Kochi, Kerala",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Holiday Inn, Kochi, Kerala, India",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Public developer-focused event with sessions on Gemini, AI agents, cloud architecture and Google Cloud developer tools. Registrations are open.",
-      "categoryHint": "developer workshop",
+      "description": "The fifth edition of Google Cloud Community Day Kochi. The official event page lists the date, venue and registration access.",
+      "categoryHint": "technology conference / community event",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-12"
+    "discoveredAt": "2026-10-15"
   },
   {
     "candidate": {
