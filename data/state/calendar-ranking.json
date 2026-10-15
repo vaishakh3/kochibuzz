@@ -1,14 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-10-18": {
-      "signature": "101e45d2c1f5ea48bf4a0384af42f51d84e05bbdbbbb5eb77e076749e2964bfe",
-      "eventId": "tinkerhub-events-ph2vicq6ys",
-      "reason": "A recurring Kochi cybersecurity meetup offering practical talks and discussion for the local security community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-10T07:12:25.703Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 520,
