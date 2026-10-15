@@ -1,5 +1,18 @@
 [
   {
+    "id": "infopark-103-26169",
+    "title": "Java Spring Boot Developer",
+    "company": "Experion Technologies",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-11-27",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/103/26169",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
     "id": "infopark-209-26157",
     "title": "Kubernetes Admin/System Admin(On-site, Mumbai)",
     "company": "NDimensionZ Solutions Pvt.Ltd",
@@ -8,6 +21,19 @@
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/209/26157",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
+    "id": "infopark-296-26173",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-10-16",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/26173",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-15"
@@ -273,6 +299,19 @@
     "firstSeenAt": "2026-10-15"
   },
   {
+    "id": "infopark-450-26172",
+    "title": "Customer Solution Engineer",
+    "company": "iCodeBees Private Limited",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-10-19",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/450/26172",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
     "id": "infopark-49-26160",
     "title": "Hiring for RDK-B Stack developer-Kochi/Trivandrum",
     "company": "Thinkpalm Technologies Pvt.Ltd",
@@ -312,6 +351,32 @@
     "firstSeenAt": "2026-10-15"
   },
   {
+    "id": "infopark-538-26170",
+    "title": "Technical Proposal Engineer",
+    "company": "Gravity Business Process Private Limited",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/538/26170",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
+    "id": "infopark-6-26162",
+    "title": "Accounts Executive (2-4 Years Experience)",
+    "company": "CoolMinds Technologies Pvt Ltd",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-11-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/6/26162",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
     "id": "infopark-62-26158",
     "title": "Technical Support Coach",
     "company": "VIPoint Solutions Pvt Ltd",
@@ -320,6 +385,19 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/62/26158",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
+    "id": "infopark-76-26171",
+    "title": "Senior Engineer - Linux",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2026-10-15",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/26171",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-15"
@@ -372,19 +450,6 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/257/26128",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-14"
-  },
-  {
-    "id": "infopark-296-26140",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-10-14",
-    "deadlineAt": "2026-10-15",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/26140",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-14"
@@ -2754,7 +2819,7 @@
     "title": "DevOps Engineer",
     "company": "Emsyne Technologies Private Limited",
     "postedAt": "2026-09-07",
-    "deadlineAt": "2026-10-15",
+    "deadlineAt": "2026-10-31",
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/76/25358",
@@ -4838,6 +4903,19 @@
     "firstSeenAt": "2026-09-21"
   },
   {
+    "id": "infopark-76-20982",
+    "title": ".Net Core Developer",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2025-11-05",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/20982",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
+  },
+  {
     "id": "infopark-85-20978",
     "title": "Senior AI/ML Engineer",
     "company": "Techversant Infotech Pvt Ltd",
@@ -5413,7 +5491,7 @@
     "title": "Business Analyst",
     "company": "Emsyne Technologies Private Limited",
     "postedAt": "2025-05-21",
-    "deadlineAt": "2026-10-15",
+    "deadlineAt": "2026-10-31",
     "location": "Infopark, Kochi",
     "category": "product",
     "detailUrl": "https://infopark.in/company-jobs/details/76/18922",
@@ -5537,6 +5615,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-09"
+  },
+  {
+    "id": "infopark-76-17723",
+    "title": "Senior .Net Core Developer",
+    "company": "Emsyne Technologies Private Limited",
+    "postedAt": "2025-01-29",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/76/17723",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-15"
   },
   {
     "id": "infopark-398-17678",
