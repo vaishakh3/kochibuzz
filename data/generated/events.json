@@ -523,6 +523,35 @@
     "firstSeenAt": "2026-09-18"
   },
   {
+    "id": "tinkerhub-events-axandlvwsi",
+    "title": "Ghosted",
+    "start": "2026-10-30",
+    "end": "2026-10-31",
+    "startTime": "18:00",
+    "endTime": "08:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Ghosted: Halloween Hacknight! 🎃 Done playing games? Let’s build some instead! Join us for an overnight mini game jam where Notion isn't just for notes; it's your game engine. Build interactive games or mystery-solving experiences using Notion with help from your Notion Campus Le",
+    "tags": [
+      "TinkerHub",
+      "Hackathon",
+      "Gaming"
+    ],
+    "url": "https://tinkerhub.org/events/AXANDLVWSI/ghosted",
+    "registerUrl": "https://luma.com/kxhb6dar",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/AXANDLVWSI/ghosted",
+      "https://luma.com/kxhb6dar"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-17"
+  },
+  {
     "id": "tinkerhub-events-fsbu1lqk2m",
     "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
     "start": "2026-11-01",
