@@ -1,14 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-10-24": {
-      "signature": "6875192f5f17f282045e38c7335a00fd0044806c9d8ef37c3afd511aaf7db716",
-      "eventId": "tinkerhub-events-aqdehcstze",
-      "reason": "A distinctive hands-on hardware hackathon using discarded electronics, with broad appeal to Kochi’s maker and technology community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-15T22:23:27.498Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 447,

@@ -866,18 +866,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT)",
-      "city": "Kochi, Kerala",
-      "organizer": "Odoo Education Program and Make-A-Ton",
-      "description": "Hackathon registration post states that the event is at CUSAT, Kochi, Kerala, with registration open until October 25, 2026. The post identifies the event as Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026.",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Odoo Education Program and Make-A-Ton, with CUSAT community partners",
+      "description": "Hackathon registration announcement states that the event is at CUSAT, Kochi, and gives a registration deadline of October 25, 2026. The event page supplied by the user is omitted; this LinkedIn announcement is used as the public evidence.",
       "categoryHint": "hackathon / developer event",
-      "evidenceUrl": "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
+      "evidenceUrl": "https://www.linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.84
+      "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-14"
+    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {

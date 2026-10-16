@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-15T22:23:18.750Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-16T12:30:56.656Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -111,7 +111,7 @@
     "https://qff26.quantumx.foundation/": "2026-10-16",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-15",
-    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-14",
+    "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
     "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents": "2026-10-12",
     "https://makeaton9-0xodoo.vercel.app/": "2026-10-15",
     "https://isvsymposium.org/": "2026-10-13",
@@ -121,7 +121,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28906,
-    "outputTokens": 1105
+    "inputTokens": 29060,
+    "outputTokens": 2269
   }
 }
