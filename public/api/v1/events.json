@@ -444,6 +444,35 @@
       "firstSeenAt": "2026-10-11"
     },
     {
+      "id": "tinkerhub-events-padsl3qw21",
+      "title": "AIBoomi Demo Room",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "startTime": "16:00",
+      "endTime": "19:00",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Demo Room is a curated space for AI-native founders to demo their product live, in front of a small room of serious builders. ​This is not a pitch competition. This is not a networking mixer. This is a room for peer-peer learning. ​What Makes Demo Room Different ​Demo Room is a c",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "AI/ML"
+      ],
+      "url": "https://tinkerhub.org/events/PADSL3QW21/aiboomi-demo-room",
+      "registerUrl": "https://luma.com/demo-room-Kochi",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/PADSL3QW21/aiboomi-demo-room",
+        "https://luma.com/demo-room-Kochi"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-17"
+    },
+    {
       "id": "codex-meetup-kochi-founders",
       "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
       "start": "2026-10-28",
@@ -644,6 +673,35 @@
       "firstSeenAt": "2026-09-16"
     },
     {
+      "id": "tinkerhub-events-w326pvf8hn",
+      "title": "Haven Kerala",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "startTime": "10:00",
+      "endTime": "10:00",
+      "category": "hackathon",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "A 24 hour game jam for teenagers in Kerala in partnership with international non profit hackclub.",
+      "tags": [
+        "TinkerHub",
+        "Hackathon",
+        "Gaming"
+      ],
+      "url": "https://tinkerhub.org/events/W326PVF8HN/haven-kerala",
+      "registerUrl": "https://haven.hackclub.com/kerala",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/W326PVF8HN/haven-kerala",
+        "https://haven.hackclub.com/kerala"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-17"
+    },
+    {
       "id": "gartner-symposium-kochi-2026",
       "title": "Gartner IT Symposium/Xpo Kochi",
       "start": "2026-11-16",
@@ -685,6 +743,35 @@
       ],
       "sourceIds": [
         "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-17"
+    },
+    {
+      "id": "tinkerhub-events-irwwe08c0t",
+      "title": "bi0s Meetup",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "startTime": "09:30",
+      "endTime": "13:00",
+      "category": "security",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "bi0s Meetup, where the wise meet the passionate, is a monthly cybersecurity meetup conducted by Team bi0s. Our aim is to bridge the gap between students and industry. What happens at bi0s Meetup? - Discussions on current hot topics - Networking - Community growth Whether you're a",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/IRWWE08C0T/bi0s-meetup",
+      "registerUrl": "https://forms.gle/LqUFRybxT4LxMDDi7",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/IRWWE08C0T/bi0s-meetup",
+        "https://forms.gle/LqUFRybxT4LxMDDi7"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
     }
