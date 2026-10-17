@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-16T12:30:56.656Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-10-17T04:33:12.113Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -87,7 +87,7 @@
     "https://arinjo.in/": "2026-10-16",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-16",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
-    "https://makeaton.in/": "2026-10-13",
+    "https://makeaton.in/": "2026-10-17",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
     "https://events.devopsmalayalam.io/": "2026-10-10",
@@ -96,7 +96,7 @@
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-05",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-10",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-17",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
@@ -110,18 +110,23 @@
     "https://techcon26.org/": "2026-10-08",
     "https://qff26.quantumx.foundation/": "2026-10-16",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
-    "https://ccd.gdgcloudkochi.com/": "2026-10-15",
+    "https://ccd.gdgcloudkochi.com/": "2026-10-17",
     "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
     "https://ace.atlassian.com/events/details/atlassian-kochi-presents-forge-development-amp-rovo-building-apps-and-ai-agents": "2026-10-12",
     "https://makeaton9-0xodoo.vercel.app/": "2026-10-15",
     "https://isvsymposium.org/": "2026-10-13",
     "https://smectechnologies.co.in/events/the-narrator": "2026-10-15",
-    "https://kochifoss.org/": "2026-10-16"
+    "https://kochifoss.org/": "2026-10-16",
+    "https://campuzine.com/event/teknova-26": "2026-10-17",
+    "https://arinjo.in/categories/workshop": "2026-10-17",
+    "https://makeherhack.makeaton.in/": "2026-10-17",
+    "https://iimk.ac.in/centres/cdiit/training2026": "2026-10-17",
+    "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud": "2026-10-17"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 4,
-    "inputTokens": 29060,
-    "outputTokens": 2269
+    "searchCalls": 5,
+    "inputTokens": 43151,
+    "outputTokens": 1660
   }
 }

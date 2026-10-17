@@ -361,33 +361,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-gkzdfe56jp",
-      "title": "Tinkering with FreeCAD",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "startTime": "10:00",
-      "endTime": "16:00",
-      "category": "opensource",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Tinkering with FreeCAD An introduction to FreeCAD, the free and open source CAD tool, for anyone who wants to start designing parts of their own. We'll find our way around the interface, sketch a simple part, and turn it into a 3D model. Along the way we'll cover parametric desig",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/GKZDFE56JP/tinkering-with-freecad",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/GKZDFE56JP/tinkering-with-freecad"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-09-18"
-    },
-    {
       "id": "tinkerhub-events-eombn5og1l",
       "title": "Maker Thursday",
       "start": "2026-10-22",
@@ -554,6 +527,27 @@
       "firstSeenAt": "2026-10-17"
     },
     {
+      "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+      "title": "Odoo × Make-A-Ton 9.0",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "category": "hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, in collaboration with Odoo",
+      "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+      "tags": [],
+      "url": "https://www.makeaton.in/",
+      "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://makeaton.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-17"
+    },
+    {
       "id": "tinkerhub-events-fsbu1lqk2m",
       "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
@@ -581,6 +575,26 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-14"
+    },
+    {
+      "id": "web-dr-stack-2026-technology-dispute-resolution-training-pr-b9b69ba658",
+      "title": "DR-STACK 2026: Technology Dispute Resolution Training Programme",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "category": "ai",
+      "venue": "NUALS Campus",
+      "city": "Kochi, Kerala",
+      "organizer": "National University of Advanced Legal Studies (NUALS) / Centre for Digital Innovation and Information Technology",
+      "blurb": "Three-day on-campus programme covering AI and emerging-technology risk, cybersecurity disputes, online dispute resolution, digital evidence, governance and capstone work.",
+      "tags": [],
+      "url": "https://iimk.ac.in/centres/cdiit/training2026",
+      "sourceUrls": [
+        "https://iimk.ac.in/centres/cdiit/training2026"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-17"
     },
     {
       "id": "huddle-global-2026",
@@ -652,6 +666,27 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
+    },
+    {
+      "id": "web-teknova-26-a7ed16d9d1",
+      "title": "TEKNOVA ’26",
+      "start": "2026-12-02",
+      "end": "2026-12-03",
+      "startTime": "09:00",
+      "category": "webdev",
+      "venue": "KMM College of Arts and Science, Thrikkakara",
+      "city": "Kochi, Kerala",
+      "organizer": "Department of MCA, KMM College of Arts and Science",
+      "blurb": "A two-day intercollegiate technology and innovation festival featuring an ideathon, debugging competitions, creative contests and interactive exhibitions.",
+      "tags": [],
+      "url": "https://campuzine.com/event/teknova-26",
+      "sourceUrls": [
+        "https://campuzine.com/event/teknova-26"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-17"
     }
   ]
 }

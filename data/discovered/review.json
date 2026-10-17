@@ -626,18 +626,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Kochi",
-      "city": "Kochi, India",
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi, Kerala",
       "organizer": "Gartner",
-      "description": "IT leadership and technology symposium covering generative AI, cybersecurity, customer experience, emerging technologies and enterprise transformation.",
-      "categoryHint": "AI; cybersecurity; enterprise technology; product",
+      "description": "Enterprise technology conference covering generative AI, cybersecurity, data and analytics, cloud, infrastructure and emerging technologies for CIOs and IT executives.",
+      "categoryHint": "AI; data; cloud; cybersecurity; enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-10"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -823,21 +823,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Holiday Inn, Kochi, Kerala, India",
+      "end": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "venue": "Holiday Inn, NH Bypass",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "The fifth edition of Google Cloud Community Day Kochi. The official event page lists the date, venue and registration access.",
-      "categoryHint": "technology conference / community event",
+      "description": "Public developer event with sessions on Gemini, AI agents, cloud architecture and Google Cloud developer tools. Registration is open according to the official event page.",
+      "categoryHint": "developer workshop",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "registrationUrl": "https://konfhub.com/ccd-kochi-2026",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-15"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -918,5 +918,65 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-16"
+  },
+  {
+    "candidate": {
+      "title": "IEEE Entrepreneurship Workshop",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala (venue not specified in the available event listing)",
+      "city": "Kochi, Kerala",
+      "organizer": "IEEE Entrepreneurship and Kerala Startup Mission",
+      "description": "A two-day workshop covering technology commercialisation, intellectual property, business models, venture financing, marketing, investor pitching and negotiation.",
+      "categoryHint": "startup; entrepreneurship; technology commercialisation",
+      "evidenceUrl": "https://arinjo.in/categories/workshop",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-17"
+  },
+  {
+    "candidate": {
+      "title": "Make-Her Hack",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "startTime": "18:00",
+      "endTime": "12:00",
+      "venue": "CITTIC, Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi",
+      "organizer": "Make-A-Ton 9.0 / CITTIC, CUSAT",
+      "description": "Girls-only college hackathon; teams of 2–4 are eligible, and students from any college, branch and year may participate. The event runs for 20 hours from 6 PM on October 23 to 12 PM on October 24, 2026.",
+      "categoryHint": "college coding hackathon",
+      "evidenceUrl": "https://makeherhack.makeaton.in/",
+      "registrationUrl": "https://makeherhack.makeaton.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-17"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Holiday Inn, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Google Developer Groups Cloud Kochi",
+      "description": "Technology event focused on Gemini, agentic AI, cloud architecture and practical AI/cloud systems. Listed sessions include AI application security, enterprise AI agents, supply-chain orchestration and generative UI.",
+      "categoryHint": "AI; cloud; cybersecurity; product technology",
+      "evidenceUrl": "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "sourceKind": "organizer_page",
+      "confidence": 0.91
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-17"
   }
 ]
