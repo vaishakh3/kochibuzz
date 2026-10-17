@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Kochi",
       "city": "Kochi, Kerala",
-      "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Annual gathering of the Stanford Seed Transformation Network South Asia, with 400+ founders and four days of learning, connection and celebration.",
-      "categoryHint": "startup founders",
+      "organizer": "Stanford Seed Transformation Network – South Asia (STN South Asia)",
+      "description": "Four-day founder gathering featuring conference sessions, workshops, networking, SeedX peer learning, commencement and a gala.",
+      "categoryHint": "startup/founder",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": null,
+      "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-16"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -283,21 +283,21 @@
     "candidate": {
       "title": "Dhanam BFSI Summit & Award Nite 2026",
       "start": "2026-11-25",
-      "end": "2026-11-25",
+      "end": null,
       "startTime": "09:30",
       "endTime": "21:30",
-      "venue": "Le Méridien, Nettoor, Maradu",
-      "city": "Kochi",
+      "venue": "Le Méridien, Kochi",
+      "city": "Nettoor, Maradu, Kochi, Ernakulam",
       "organizer": "Dhanam Business Media",
-      "description": "Business and finance summit with entrepreneurship and industry networking; included because of its technology/product relevance to BFSI innovation.",
-      "categoryHint": "product, startup, technology",
+      "description": "Business summit covering banking, finance, insurance and investment, with networking and awards.",
+      "categoryHint": "business/technology-adjacent",
       "evidenceUrl": "https://dhanambfsisummit.com/",
-      "registrationUrl": null,
+      "registrationUrl": "https://dhanambfsisummit.com/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.97
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-09-15"
+    "reason": "Official page could not be fetched: TypeError: fetch failed",
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -541,23 +541,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon: Final Round",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "CUSAT, Kochi, Kerala",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
       "city": "Kochi",
-      "organizer": "CITTIC, CUSAT × Odoo",
-      "description": "24-hour hiring hackathon focused on building prototypes and software projects; top performers may be considered for hiring at Odoo.",
-      "categoryHint": "maker / startup / technology / hackathon",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "A 24-hour on-site hiring hackathon final round at CUSAT. The official page states that registration is open from 21 September through 25 October 2026.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-13"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -661,23 +661,23 @@
   },
   {
     "candidate": {
-      "title": "Hack4Good 2.0 — National Humanitarian Tech-a-thon, Kochi finale",
-      "start": "2026-12-21",
+      "title": "Hack4Good 2.0 — National Humanitarian Tech-a-thon",
+      "start": "2026-12-01",
       "end": "2026-12-31",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala, India (exact venue not stated on the public page)",
+      "venue": "Kochi, Kerala (offline three-day finale; exact venue not stated on the official page)",
       "city": "Kochi",
       "organizer": "IEEE SPS Kerala Chapter with IEEE Kerala Section",
-      "description": "Three-day offline technology finale in the last week of December 2026, preceded by workshops and a 36-hour final hack. The official page gives only the week, not an exact calendar date or exact venue; therefore this result is included as a date-range lead rather than a fully date-specific event.",
-      "categoryHint": "humanitarian technology hackathon",
+      "description": "A three-phase humanitarian technology challenge running from October to December 2026, with a three-day offline finale in the last week of December. The official page states that registration opens soon.",
+      "categoryHint": "technology hackathon",
       "evidenceUrl": "https://hack4good2-0.ieeespskc.in/index.html",
       "registrationUrl": "https://hack4good2-0.ieeespskc.in/index.html",
       "sourceKind": "official_event_page",
       "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-15"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -726,18 +726,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark Kochi; exact venue disclosed after registration",
-      "city": "Kakkanad, Kochi, Kerala",
-      "organizer": "Vaishakh Suresh, Pauline P. Narvas & Rhiannon Payne",
-      "description": "A founders-focused community meetup covering Codex demonstrations, founder perspectives, AI-assisted development workflows, networking and lunch.",
-      "categoryHint": "technology / startup / AI",
+      "venue": "Infopark Kochi; exact location disclosed after registration",
+      "city": "Kakkanad, Kochi",
+      "organizer": "Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
+      "description": "Curated founders edition with Codex demonstrations, founder perspectives, AI-development workflows, networking and lunch.",
+      "categoryHint": "technology/founder",
       "evidenceUrl": "https://luma.com/k65afwn7",
       "registrationUrl": "https://luma.com/k65afwn7",
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.96
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-14"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {
@@ -806,18 +806,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "TinkerSpace",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "QuantumX Foundation",
-      "description": "Public quantum hack day bringing together builders and technology enthusiasts as part of Qiskit Fall Fest 2026.",
-      "categoryHint": "maker / technology",
+      "description": "Quantum hack day listed as part of Qiskit Fall Fest 2026; the official program lists Kochi as a location and provides separate registration for each event.",
+      "categoryHint": "quantum computing hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
-      "registrationUrl": null,
+      "registrationUrl": "https://qff26.quantumx.foundation/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.94
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-16"
+    "discoveredAt": "2026-10-17"
   },
   {
     "candidate": {

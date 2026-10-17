@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-17T04:33:12.113Z",
-  "queryCursor": 0,
+  "lastRunAt": "2026-10-17T17:15:08.310Z",
+  "queryCursor": 2,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -11,7 +11,7 @@
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
     "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-24",
-    "https://stnsa.org/conclave": "2026-10-16",
+    "https://stnsa.org/conclave": "2026-10-17",
     "https://in.linkedin.com/company/c0c0nconference": "2026-10-01",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-10-05",
@@ -58,7 +58,7 @@
     "https://kochi.buzz/digest": "2026-09-23",
     "https://government.economictimes.indiatimes.com/psu-summit": "2026-09-23",
     "https://gartner.com/en/conferences/apac/symposium-india": "2026-09-21",
-    "https://dhanambfsisummit.com/": "2026-09-26",
+    "https://dhanambfsisummit.com/": "2026-10-17",
     "https://expresscomputer.in/event/technology-senate-south-27th-28th-november-2026": "2026-09-24",
     "https://sostorytelling.com/ai-film-festival": "2026-10-02",
     "https://infood.gr/event-pro/foodtech-kerala": "2026-09-15",
@@ -100,15 +100,15 @@
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
-    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-15",
+    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-17",
     "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday": "2026-10-04",
     "https://10times.com/kochi-in": "2026-10-05",
-    "https://luma.com/k65afwn7": "2026-10-14",
+    "https://luma.com/k65afwn7": "2026-10-17",
     "https://arinjo.in/categories/techfest": "2026-10-07",
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-08",
-    "https://qff26.quantumx.foundation/": "2026-10-16",
+    "https://qff26.quantumx.foundation/": "2026-10-17",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-17",
     "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
@@ -116,7 +116,7 @@
     "https://makeaton9-0xodoo.vercel.app/": "2026-10-15",
     "https://isvsymposium.org/": "2026-10-13",
     "https://smectechnologies.co.in/events/the-narrator": "2026-10-15",
-    "https://kochifoss.org/": "2026-10-16",
+    "https://kochifoss.org/": "2026-10-17",
     "https://campuzine.com/event/teknova-26": "2026-10-17",
     "https://arinjo.in/categories/workshop": "2026-10-17",
     "https://makeherhack.makeaton.in/": "2026-10-17",
@@ -125,8 +125,8 @@
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 5,
-    "inputTokens": 43151,
-    "outputTokens": 1660
+    "searchCalls": 4,
+    "inputTokens": 29103,
+    "outputTokens": 1285
   }
 }
