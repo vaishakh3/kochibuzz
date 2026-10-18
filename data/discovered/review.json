@@ -81,66 +81,6 @@
   },
   {
     "candidate": {
-      "title": "She Builds Tech 3.0 — AI Hackathon",
-      "start": "2026-10-16",
-      "end": "2026-10-17",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kerala Startup Mission facility, Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Kerala Startup Mission",
-      "description": "A 20-hour AI hackathon for women student innovators, followed by a pre-incubation track.",
-      "categoryHint": "startup; AI; hackathon; maker",
-      "evidenceUrl": "https://shebuildstech.startupmission.in/",
-      "registrationUrl": "https://shebuildstech.startupmission.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-06"
-  },
-  {
-    "candidate": {
-      "title": "She Builds Tech 3.0 — AI Hackathon",
-      "start": "2026-10-16",
-      "end": "2026-10-17",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kerala Startup Mission, Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Kerala Startup Mission",
-      "description": "A 20-hour AI hackathon for women student teams from across Kerala.",
-      "categoryHint": "technology / startup / hackathon",
-      "evidenceUrl": "https://www.linkedin.com/posts/kerala-startup-mission_keralastartupmission-shebuildstech3-aihackathon-activity-7494026712247164929-O83W",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.94
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
-      "title": "She Builds Tech 3.0",
-      "start": "2026-10-16",
-      "end": "2026-10-17",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kerala Startup Mission (KSUM) Complex",
-      "city": "Kochi, Kerala",
-      "organizer": "Kerala Startup Mission",
-      "description": "A 20-hour AI hackathon for women student teams, with the top 20 teams receiving micro-innovation funding support and entry into a pre-incubation programme.",
-      "categoryHint": "AI / hackathon / startup",
-      "evidenceUrl": "https://in.linkedin.com/company/kerala-startup-mission",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.86
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-08"
-  },
-  {
-    "candidate": {
       "title": "8th International Conference on Data Science & Engineering (ICDSE 2027)",
       "start": "2027-01-06",
       "end": "2027-01-08",
@@ -421,23 +361,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": null,
+      "end": "2026-11-14",
       "startTime": "09:00",
       "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, National Highway Bypass",
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day developer and cloud community event covering Gemini, AI agents, Google Cloud, cloud architecture, and related technologies.",
-      "categoryHint": "developer / cloud / AI",
+      "description": "Full-day developer conference focused on Gemini, AI agents, Google Cloud, cloud architecture, and related developer technologies.",
+      "categoryHint": "Developer / cloud / AI conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-11"
+    "discoveredAt": "2026-10-18"
   },
   {
     "candidate": {
@@ -478,26 +418,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-01"
-  },
-  {
-    "candidate": {
-      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
-      "start": "2026-10-17",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "TinkerSpace Kochi, Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "Qiskit Fall Fest 2026 organizers",
-      "description": "Hands-on quantum-computing innovation challenge bringing together students, developers, researchers and technology enthusiasts.",
-      "categoryHint": "technology / hackathon / quantum computing",
-      "evidenceUrl": "https://luma.com/ndjvmw7w",
-      "registrationUrl": "https://luma.com/ndjvmw7w",
-      "sourceKind": "official_event_page",
-      "confidence": 0.78
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-20"
   },
   {
     "candidate": {
@@ -575,26 +495,6 @@
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.72
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-26"
-  },
-  {
-    "candidate": {
-      "title": "She Builds Tech 3.0",
-      "start": "2026-10-16",
-      "end": "2026-10-17",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kerala Startup Mission (KSUM), Kochi",
-      "city": "Kochi",
-      "organizer": "Kerala Startup Mission",
-      "description": "A 20-hour AI hackathon for women student teams. Public applications are listed in the event announcement.",
-      "categoryHint": "college hackathon",
-      "evidenceUrl": "https://happeningsaroundme.in/event/kochi-she-builds-tech-30",
-      "registrationUrl": "https://shebuildstech.startupmission.in/",
-      "sourceKind": "news_listing",
-      "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-09-26"
@@ -786,18 +686,18 @@
       "end": "2026-11-08",
       "startTime": null,
       "endTime": null,
-      "venue": "KINFRA on Day 1; JAIN University on Days 2–3",
+      "venue": "KINFRA International Exhibition cum Convention Centre and JAIN (Deemed-to-be University), Kakkanad, Kochi",
       "city": "Kochi",
       "organizer": "Techfed Kerala",
-      "description": "National technology conference covering AI, networking and software engineering, with project competition and other registered activities.",
+      "description": "National technology conference covering AI, networking and software engineering. The official page identifies Day 1 at KINFRA International Exhibition cum Convention Centre and Days 2–3 at JAIN University, both in Kakkanad, Kochi.",
       "categoryHint": "technology conference",
-      "evidenceUrl": "https://techcon26.org/",
-      "registrationUrl": "https://techcon26.org/",
+      "evidenceUrl": "https://www.techcon26.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-08"
+    "discoveredAt": "2026-10-18"
   },
   {
     "candidate": {

@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-17T17:15:08.310Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-10-18T05:58:20.789Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -75,7 +75,7 @@
     "https://luma.com/xoxsnozt": "2026-09-19",
     "https://futurekerala.org.in/ideafest": "2026-09-30",
     "https://dev.hackp.kerala.gov.in/schedule": "2026-10-01",
-    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-11",
+    "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-18",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
     "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-15",
@@ -107,7 +107,7 @@
     "https://arinjo.in/categories/techfest": "2026-10-07",
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
-    "https://techcon26.org/": "2026-10-08",
+    "https://techcon26.org/": "2026-10-18",
     "https://qff26.quantumx.foundation/": "2026-10-17",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-17",
@@ -126,7 +126,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29103,
-    "outputTokens": 1285
+    "inputTokens": 29151,
+    "outputTokens": 598
   }
 }
