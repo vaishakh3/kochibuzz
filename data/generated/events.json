@@ -359,6 +359,33 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "tinkerhub-events-qbn0f1zffp",
+    "title": "AI Wednesday",
+    "start": "2026-10-21",
+    "end": "2026-10-21",
+    "startTime": "19:30",
+    "endTime": "20:30",
+    "category": "ai",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "A session on using AI ethically, covering data privacy, failure, misuse and human oversight.",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "AI/ML"
+    ],
+    "url": "https://tinkerhub.org/events/QBN0F1ZFFP/ai-wednesday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/QBN0F1ZFFP/ai-wednesday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-18"
+  },
+  {
     "id": "tinkerhub-events-eombn5og1l",
     "title": "Maker Thursday",
     "start": "2026-10-22",
