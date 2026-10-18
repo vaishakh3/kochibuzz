@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Stanford Seed Transformation Network – South Asia (STN South Asia)",
-      "description": "Four-day founder gathering featuring conference sessions, workshops, networking, SeedX peer learning, commencement and a gala.",
-      "categoryHint": "startup/founder",
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "Annual gathering of the Stanford Seed Transformation Network — South Asia, bringing together founders and members for learning, connection and collaboration.",
+      "categoryHint": "startup/founder community",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-18"
   },
   {
     "candidate": {
@@ -878,5 +878,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-17"
+  },
+  {
+    "candidate": {
+      "title": "BITEX AI Summit 2026",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "BITEX India",
+      "description": "Artificial-intelligence summit with technology leaders, AI startups, founders, investors, demos, panels and startup pitches.",
+      "categoryHint": "technology/startup/AI",
+      "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
+      "registrationUrl": "https://bitexindia.com/events/ai-summit-2026",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-18"
   }
 ]
