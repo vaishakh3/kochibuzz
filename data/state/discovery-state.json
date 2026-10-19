@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-18T18:09:04.202Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-10-19T07:51:21.690Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -87,7 +87,7 @@
     "https://arinjo.in/": "2026-10-16",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-16",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
-    "https://makeaton.in/": "2026-10-17",
+    "https://makeaton.in/": "2026-10-19",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
     "https://events.devopsmalayalam.io/": "2026-10-10",
@@ -100,7 +100,7 @@
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
-    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-17",
+    "https://hack4good2-0.ieeespskc.in/index.html": "2026-10-19",
     "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday": "2026-10-04",
     "https://10times.com/kochi-in": "2026-10-05",
     "https://luma.com/k65afwn7": "2026-10-17",
@@ -119,15 +119,17 @@
     "https://kochifoss.org/": "2026-10-17",
     "https://campuzine.com/event/teknova-26": "2026-10-17",
     "https://arinjo.in/categories/workshop": "2026-10-17",
-    "https://makeherhack.makeaton.in/": "2026-10-17",
+    "https://makeherhack.makeaton.in/": "2026-10-19",
     "https://iimk.ac.in/centres/cdiit/training2026": "2026-10-17",
-    "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud": "2026-10-17",
-    "https://bitexindia.com/events/ai-summit-2026": "2026-10-18"
+    "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud": "2026-10-19",
+    "https://bitexindia.com/events/ai-summit-2026": "2026-10-18",
+    "https://yugantra.in/yugantra": "2026-10-19",
+    "https://campuzine.com/campus_connect/teknova-26": "2026-10-19"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29191,
-    "outputTokens": 658
+    "inputTokens": 29153,
+    "outputTokens": 1451
   }
 }

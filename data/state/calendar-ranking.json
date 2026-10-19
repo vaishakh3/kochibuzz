@@ -1,17 +1,24 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
+    "2026-10-29": {
+      "signature": "07f5f6af3350d876dad15efe55afce2abcb6ae454135e02375e9460ba74c3a87",
+      "eventId": "web-yugantra-2026-7395005258",
+      "reason": "A university-wide technology fest offers broader programming and public interest than a single maker demonstration.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-17T13:45:59.183Z"
+      "rankedAt": "2026-10-19T07:51:31.497Z"
+    },
+    "2026-11-14": {
+      "signature": "3e5af3e9a76d81c552d4b165867bd37dd551260f98045bc1b7059d5659368e0c",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Google Cloud community event provides substantial programming for Kochi’s wider technology community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-19T07:51:31.497Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 452,
-    "outputTokens": 61
+    "inputTokens": 841,
+    "outputTokens": 120
   }
 }
