@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Kochi, Kerala (specific venue not stated on the event page)",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Annual gathering of the Stanford Seed Transformation Network — South Asia, bringing together founders and members for learning, connection and collaboration.",
-      "categoryHint": "startup/founder community",
+      "organizer": "Stanford Seed Transformation Network – South Asia",
+      "description": "Four-day gathering for founders and business-network members, featuring conferences, workshops and networking.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-18"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -246,18 +246,18 @@
       "end": "2026-12-17",
       "startTime": null,
       "endTime": null,
-      "venue": "Bolgatty Palace",
+      "venue": "Bolgatty Palace, Kochi",
       "city": "Kochi",
       "organizer": "Kochi Design Week",
-      "description": "Design and maker fair for tech innovators, artists, crafters and creators, including robots, crafts and business ideas.",
-      "categoryHint": "design, maker, creative technology, product",
+      "description": "Design, innovation and creative showcase inviting technology innovators, artists, crafters and creators. The official page gives the exact dates and Kochi venue.",
+      "categoryHint": "creative technology; design; maker",
       "evidenceUrl": "https://kochidesignweek.org/design-fair/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.92
     },
     "reason": "Official page could not be fetched: Error: HTTP 404",
-    "discoveredAt": "2026-09-15"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -461,23 +461,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon: Final Round",
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon, Kochi 2026",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
       "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi",
-      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-      "description": "A 24-hour on-site hiring hackathon final round at CUSAT. The official page states that registration is open from 21 September through 25 October 2026.",
-      "categoryHint": "hackathon",
+      "city": "Kalamassery, Kochi",
+      "organizer": "CITTIC, CUSAT and Odoo",
+      "description": "24-hour hiring hackathon with a stated prize pool and potential hiring opportunities at Odoo.",
+      "categoryHint": "developer / hackathon / startup",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -626,18 +626,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark Kochi; exact location disclosed after registration",
+      "venue": "Infopark, Kakkanad, Kochi",
       "city": "Kakkanad, Kochi",
-      "organizer": "Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
-      "description": "Curated founders edition with Codex demonstrations, founder perspectives, AI-development workflows, networking and lunch.",
-      "categoryHint": "technology/founder",
+      "organizer": "Codex Community Events; hosted by Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
+      "description": "Curated meetup for founders, CEOs, CTOs and technology leaders focused on AI-assisted software development, demos and practical workflows.",
+      "categoryHint": "developer / AI / startup",
       "evidenceUrl": "https://luma.com/k65afwn7",
       "registrationUrl": "https://luma.com/k65afwn7",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.95
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -703,21 +703,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
+      "end": null,
       "startTime": "09:00",
       "endTime": "18:00",
-      "venue": "Holiday Inn, NH Bypass",
+      "venue": "Holiday Inn, NH Bypass, Kochi 682028",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Public developer event with sessions on Gemini, AI agents, cloud architecture and Google Cloud developer tools. Registration is open according to the official event page.",
-      "categoryHint": "developer workshop",
+      "description": "Full-day community event covering Gemini, AI agents, Google Cloud, cloud architecture and developer tools.",
+      "categoryHint": "developer / cloud / AI",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
-      "registrationUrl": "https://konfhub.com/ccd-kochi-2026",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -878,5 +878,85 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-18"
+  },
+  {
+    "candidate": {
+      "title": "Yugantra 2026",
+      "start": "2026-10-30",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kochi",
+      "organizer": "Yugantra / JAIN University, Kochi",
+      "description": "Technology fest including an AWS workshop, a GDGC workshop, a CSAI masterclass, a pitchathon and other technology and creative activities.",
+      "categoryHint": "developer / AWS / startup / creative tech",
+      "evidenceUrl": "https://yugantra.in/yugantra/",
+      "registrationUrl": "https://yugantra.in/yugantra/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.94
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-20"
+  },
+  {
+    "candidate": {
+      "title": "TEKNOVA ’26",
+      "start": "2026-12-02",
+      "end": "2026-12-03",
+      "startTime": "09:00",
+      "endTime": null,
+      "venue": "KMM College of Arts and Science, Thrikkakara",
+      "city": "Kochi",
+      "organizer": "Department of MCA, KMM College of Arts and Science",
+      "description": "Two-day technology and innovation festival featuring an ideathon, debugging competitions, interactive exhibitions and creative technology activities. The dated event listing identifies the Kochi-area venue and organizer.",
+      "categoryHint": "technology festival; ideathon; creative technology",
+      "evidenceUrl": "https://campuzine.com/campus_connect/teknova-26/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.89
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-20"
+  },
+  {
+    "candidate": {
+      "title": "Maker Thursday: Come Showcase Your Projects",
+      "start": "2026-10-22",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala, India",
+      "city": "Kochi",
+      "organizer": "Not stated on the available evidence page",
+      "description": "Hardware and open-source demo meetup listed for 22 October 2026. The available listing does not identify the organizer or provide a direct official event page, so it is excluded.",
+      "categoryHint": "maker / open source",
+      "evidenceUrl": "https://events.heapheaphurray.com/kochi",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.2
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-20"
+  },
+  {
+    "candidate": {
+      "title": "AIBoomi Startup Weekend | Kochi",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Exact venue disclosed after registration; city listed as Ernakulam, India",
+      "city": "Ernakulam (greater Kochi)",
+      "organizer": "AIBoomi, in partnership with TinkerHub and Kerala Startup Mission (KSUM)",
+      "description": "In-person AI startup weekend and overnight buildathon for founders, product and technology participants, indie builders, domain experts and students.",
+      "categoryHint": "startup / AI / hackathon",
+      "evidenceUrl": "https://luma.com/StartupWeekendKochi",
+      "registrationUrl": "https://luma.com/StartupWeekendKochi",
+      "sourceKind": "official_event_page",
+      "confidence": 0.88
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-20"
   }
 ]
