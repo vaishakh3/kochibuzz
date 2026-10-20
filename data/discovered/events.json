@@ -1,19 +1,19 @@
 [
   {
-    "id": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
-    "title": "Kochi FOSS October 2026 Meetup",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "09:30",
-    "category": "opensource",
-    "venue": "Hatio, Kalamassery",
-    "city": "Kalamassery, Kochi",
-    "organizer": "Kochi FOSS",
-    "blurb": "In-person free/open-source software meetup for developers and enthusiasts.",
+    "id": "web-destination-expand-north-star-08353e8fa6",
+    "title": "Destination Expand North Star",
+    "start": "2026-10-22",
+    "end": "2026-10-22",
+    "startTime": "16:00",
+    "category": "startup",
+    "venue": "Kerala Startup Mission, KINFRA Hi-Tech Park, Kalamassery, Kochi, Ernakulam",
+    "city": "Kochi",
+    "organizer": "Kerala Startup Mission, with support from TiE Kerala",
+    "blurb": "A startup event focused on international opportunities, connections and scaling startups globally.",
     "tags": [],
-    "url": "https://kochifoss.org/",
+    "url": "https://arinjo.in/",
     "sourceUrls": [
-      "https://kochifoss.org/"
+      "https://arinjo.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"

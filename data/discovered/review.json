@@ -684,20 +684,20 @@
       "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
       "end": null,
-      "startTime": null,
+      "startTime": "04:30",
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
       "city": "Kochi",
-      "organizer": "QuantumX Foundation",
-      "description": "Quantum hack day listed as part of Qiskit Fall Fest 2026; the official program lists Kochi as a location and provides separate registration for each event.",
-      "categoryHint": "quantum computing hackathon",
+      "organizer": "QuantumX Foundation, with TinkerHub Foundation",
+      "description": "A quantum-computing hack day in Kochi, part of QFF26.",
+      "categoryHint": "Quantum computing / hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
-      "registrationUrl": "https://qff26.quantumx.foundation/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.97
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -721,23 +721,23 @@
   },
   {
     "candidate": {
-      "title": "Scrap Hack - Kochi",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "startTime": "14:00",
+      "title": "Haven Kerala",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": "04:30",
       "endTime": null,
       "venue": "TinkerSpace, Kalamassery, Kochi",
       "city": "Kochi",
-      "organizer": "TinkerHub",
-      "description": "Hands-on hack event using scrap materials.",
-      "categoryHint": "maker; hardware; creative technology",
+      "organizer": "TinkerHub Foundation",
+      "description": "A public event listed on TinkerHub’s upcoming events page.",
+      "categoryHint": "Technology / community",
       "evidenceUrl": "https://tinkerhub.org/events",
       "registrationUrl": null,
-      "sourceKind": "organizer_page",
+      "sourceKind": "official_event_page",
       "confidence": 0.82
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-15"
+    "discoveredAt": "2026-10-20"
   },
   {
     "candidate": {
@@ -957,6 +957,26 @@
       "confidence": 0.88
     },
     "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-20"
+  },
+  {
+    "candidate": {
+      "title": "CIO ReConnect 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Courtyard by Marriott, Kochi",
+      "city": "Kochi",
+      "organizer": "CIO Association Kerala Chapter",
+      "description": "Technology leadership and innovation event for the CIO Association Kerala Chapter community.",
+      "categoryHint": "technology leadership",
+      "evidenceUrl": "https://www.linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.91
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-20"
   }
 ]

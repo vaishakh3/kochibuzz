@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-19T21:07:00.352Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-20T11:44:16.169Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -19,7 +19,7 @@
     "https://airomedicon.com/": "2026-09-02",
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-07",
-    "https://tinkerhub.org/events": "2026-10-15",
+    "https://tinkerhub.org/events": "2026-10-20",
     "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-10-18",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web": "2026-09-03",
     "https://f9infotech.com/kcss-2026": "2026-09-03",
@@ -84,7 +84,7 @@
     "https://typoday.futuresummit.in/": "2026-09-21",
     "https://fabacademy.fablabkerala.in/": "2026-09-21",
     "https://iedcsummit.in/workshops/register": "2026-09-21",
-    "https://arinjo.in/": "2026-10-16",
+    "https://arinjo.in/": "2026-10-20",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-16",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
     "https://makeaton.in/": "2026-10-20",
@@ -108,7 +108,7 @@
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-18",
-    "https://qff26.quantumx.foundation/": "2026-10-17",
+    "https://qff26.quantumx.foundation/": "2026-10-20",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-20",
     "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
@@ -126,12 +126,13 @@
     "https://yugantra.in/yugantra": "2026-10-20",
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-20",
-    "https://luma.com/StartupWeekendKochi": "2026-10-20"
+    "https://luma.com/StartupWeekendKochi": "2026-10-20",
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-20"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 5,
-    "inputTokens": 43594,
-    "outputTokens": 2421
+    "searchCalls": 4,
+    "inputTokens": 28943,
+    "outputTokens": 1897
   }
 }

@@ -1,24 +1,31 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-24": {
-      "signature": "09f3c2fbea08308fd7514c3630d74d4798b5928cdee93fd78c39c425a5b474d2",
-      "eventId": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
-      "reason": "A confirmed, free/open-source meetup offers broad value for Kochi’s developer and technology community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-19T21:07:10.433Z"
-    },
     "2026-11-14": {
       "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
       "reason": "A full-day Google Cloud and AI community event provides substantial programming for a city-wide technology audience.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-19T21:07:10.433Z"
+    },
+    "2026-10-22": {
+      "signature": "bfb76ff102f9e94fbf3e4b8e19cf85674411dda2b384c2140400d7133eda6363",
+      "eventId": "web-destination-expand-north-star-08353e8fa6",
+      "reason": "A Kochi startup event focused on international connections and scaling opportunities.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-20T11:44:25.859Z"
+    },
+    "2026-10-23": {
+      "signature": "ba6e3aca09cacf7725e65146bd322c3a6b820df7500789c35ddd96ccef654c7b",
+      "eventId": "tinkerhub-events-3xaqhy38px",
+      "reason": "A substantial in-person hackathon offering AI product building, competition and startup-focused opportunities.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-20T11:44:25.859Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 688,
-    "outputTokens": 134
+    "inputTokens": 784,
+    "outputTokens": 104
   }
 }

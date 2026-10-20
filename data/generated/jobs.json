@@ -208,14 +208,79 @@
     "firstSeenAt": "2026-10-20"
   },
   {
+    "id": "infopark-363-26268",
+    "title": "WordPress Developer",
+    "company": "Jachoos Technologies Private Limited",
+    "postedAt": "2026-10-20",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/363/26268",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
+    "id": "infopark-363-26269",
+    "title": "Cloud Infrastructure Engineer",
+    "company": "Jachoos Technologies Private Limited",
+    "postedAt": "2026-10-20",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "devops-cloud",
+    "detailUrl": "https://infopark.in/company-jobs/details/363/26269",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
     "id": "infopark-428-26265",
     "title": "Oracle Fusion Finance Consultant",
     "company": "Gapblue Software Labs Pvt Ltd",
     "postedAt": "2026-10-20",
-    "deadlineAt": "2026-10-20",
+    "deadlineAt": "2026-10-30",
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/428/26265",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
+    "id": "infopark-428-26267",
+    "title": "AMS Product Lead / AMS Transformation Lead",
+    "company": "Gapblue Software Labs Pvt Ltd",
+    "postedAt": "2026-10-20",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/428/26267",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
+    "id": "infopark-554-26266",
+    "title": "Facade Designer - Trainee",
+    "company": "Enveetech BIM Solutions Pvt. Ltd",
+    "postedAt": "2026-10-20",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/554/26266",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
+    "id": "infopark-58-26270",
+    "title": "Marketing Trainee",
+    "company": "Nuvento Systems Private Limited",
+    "postedAt": "2026-10-20",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/58/26270",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-20"
@@ -1884,7 +1949,7 @@
     "title": "DevOps Engineer",
     "company": "Fingent Global Solutions",
     "postedAt": "2026-10-01",
-    "deadlineAt": "2026-11-02",
+    "deadlineAt": "2026-12-04",
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/83/25852",
@@ -2580,6 +2645,19 @@
     "firstSeenAt": "2026-10-06"
   },
   {
+    "id": "infopark-83-25414",
+    "title": "Inside Sales Executive",
+    "company": "Fingent Global Solutions",
+    "postedAt": "2026-09-10",
+    "deadlineAt": "2026-11-26",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/83/25414",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
     "id": "infopark-378-25401",
     "title": "Salesforce Developer- Marketing Cloud",
     "company": "Simelabs - An Astek Company",
@@ -2940,6 +3018,19 @@
     "firstSeenAt": "2026-08-26"
   },
   {
+    "id": "infopark-83-25181",
+    "title": "Sr.Executive / Executive Operations",
+    "company": "Fingent Global Solutions",
+    "postedAt": "2026-08-24",
+    "deadlineAt": "2026-11-18",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/83/25181",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
     "id": "infopark-91-25182",
     "title": "Business Development Executive (BDE)",
     "company": "iDatalytics Pvt. Ltd",
@@ -3211,7 +3302,7 @@
     "title": "Junior DevOps Engineer",
     "company": "Fingent Global Solutions",
     "postedAt": "2026-07-30",
-    "deadlineAt": "2026-11-01",
+    "deadlineAt": "2026-12-04",
     "location": "Infopark, Kochi",
     "category": "devops-cloud",
     "detailUrl": "https://infopark.in/company-jobs/details/83/24899",
@@ -3929,6 +4020,19 @@
     "firstSeenAt": "2026-10-07"
   },
   {
+    "id": "infopark-234-23210",
+    "title": "Business Development Executive",
+    "company": "Seguro Technologies",
+    "postedAt": "2026-04-27",
+    "deadlineAt": "2026-11-22",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/234/23210",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
+  },
+  {
     "id": "infopark-286-23175",
     "title": "Business Development Officer",
     "company": "Eqsoft Business Solutions Pvt Ltd",
@@ -4290,6 +4394,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-19"
+  },
+  {
+    "id": "infopark-286-21736",
+    "title": "Full Stack Developer",
+    "company": "Eqsoft Business Solutions Pvt Ltd",
+    "postedAt": "2026-01-22",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/286/21736",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-20"
   },
   {
     "id": "infopark-85-21621",

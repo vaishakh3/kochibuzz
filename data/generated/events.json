@@ -359,33 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-qbn0f1zffp",
-    "title": "AI Wednesday",
-    "start": "2026-10-21",
-    "end": "2026-10-21",
-    "startTime": "19:30",
-    "endTime": "20:30",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "A session on using AI ethically, covering data privacy, failure, misuse and human oversight.",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "AI/ML"
-    ],
-    "url": "https://tinkerhub.org/events/QBN0F1ZFFP/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/QBN0F1ZFFP/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-18"
-  },
-  {
     "id": "tinkerhub-events-eombn5og1l",
     "title": "Maker Thursday",
     "start": "2026-10-22",
@@ -411,6 +384,27 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-09-18"
+  },
+  {
+    "id": "web-destination-expand-north-star-08353e8fa6",
+    "title": "Destination Expand North Star",
+    "start": "2026-10-22",
+    "end": "2026-10-22",
+    "startTime": "16:00",
+    "category": "startup",
+    "venue": "Kerala Startup Mission, KINFRA Hi-Tech Park, Kalamassery, Kochi, Ernakulam",
+    "city": "Kochi",
+    "organizer": "Kerala Startup Mission, with support from TiE Kerala",
+    "blurb": "A startup event focused on international opportunities, connections and scaling startups globally.",
+    "tags": [],
+    "url": "https://arinjo.in/",
+    "sourceUrls": [
+      "https://arinjo.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-20"
   },
   {
     "id": "tinkerhub-events-3xaqhy38px",
@@ -442,6 +436,33 @@
     "firstSeenAt": "2026-10-14"
   },
   {
+    "id": "tinkerhub-events-8ulp26c2x0",
+    "title": "Quantum computing : Intro to Qiskit",
+    "start": "2026-10-23",
+    "end": "2026-10-23",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Learn fundamentals of quantum computing and learn how to setup IBM account and how to program using IBM's Qiskit language. Bring Laptop with python 3.10 or newer to get hands-on learning",
+    "tags": [
+      "TinkerHub",
+      "Talk Session",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/8ULP26C2X0/quantum-computing-intro-to-qiskit",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/8ULP26C2X0/quantum-computing-intro-to-qiskit"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-20"
+  },
+  {
     "id": "tinkerhub-events-aqdehcstze",
     "title": "Scrap Hack - Kochi",
     "start": "2026-10-24",
@@ -467,27 +488,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-11"
-  },
-  {
-    "id": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
-    "title": "Kochi FOSS October 2026 Meetup",
-    "start": "2026-10-24",
-    "end": "2026-10-24",
-    "startTime": "09:30",
-    "category": "opensource",
-    "venue": "Hatio, Kalamassery",
-    "city": "Kalamassery, Kochi",
-    "organizer": "Kochi FOSS",
-    "blurb": "In-person free/open-source software meetup for developers and enthusiasts.",
-    "tags": [],
-    "url": "https://kochifoss.org/",
-    "sourceUrls": [
-      "https://kochifoss.org/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-20"
   },
   {
     "id": "tinkerhub-events-padsl3qw21",
