@@ -388,27 +388,6 @@
       "firstSeenAt": "2026-09-18"
     },
     {
-      "id": "web-destination-expand-north-star-08353e8fa6",
-      "title": "Destination Expand North Star",
-      "start": "2026-10-22",
-      "end": "2026-10-22",
-      "startTime": "16:00",
-      "category": "startup",
-      "venue": "Kerala Startup Mission, KINFRA Hi-Tech Park, Kalamassery, Kochi, Ernakulam",
-      "city": "Kochi",
-      "organizer": "Kerala Startup Mission, with support from TiE Kerala",
-      "blurb": "A startup event focused on international opportunities, connections and scaling startups globally.",
-      "tags": [],
-      "url": "https://arinjo.in/",
-      "sourceUrls": [
-        "https://arinjo.in/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-10-20"
-    },
-    {
       "id": "tinkerhub-events-3xaqhy38px",
       "title": "AIBoomi Startup Weekend Kochi 2026",
       "start": "2026-10-23",
@@ -602,6 +581,26 @@
       "firstSeenAt": "2026-09-18"
     },
     {
+      "id": "web-yugantra-2026-7395005258",
+      "title": "Yugantra 2026",
+      "start": "2026-10-29",
+      "end": "2026-10-30",
+      "category": "hackathon",
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kakkanad, Kochi",
+      "organizer": "JAIN (Deemed-to-be University), Kochi",
+      "blurb": "Yugantra 2026 is a tech fest at JAIN (Deemed-to-be University), Kochi on 30 October 2026, presented by the Department of Computer Science and Engineering.",
+      "tags": [],
+      "url": "https://yugantra.in/yugantra/",
+      "sourceUrls": [
+        "https://yugantra.in/yugantra"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-21"
+    },
+    {
       "id": "tinkerhub-events-axandlvwsi",
       "title": "Ghosted",
       "start": "2026-10-30",
@@ -629,6 +628,27 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
+    },
+    {
+      "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+      "title": "Odoo × Make-A-Ton 9.0",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "category": "hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+      "tags": [],
+      "url": "https://www.makeaton.in/",
+      "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://makeaton.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-21"
     },
     {
       "id": "tinkerhub-events-fsbu1lqk2m",
@@ -734,6 +754,26 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
+    },
+    {
+      "id": "web-ccd-kochi-26-a04838d82c",
+      "title": "CCD Kochi '26",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "category": "ai",
+      "venue": "Holiday Inn, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Google Developer Groups Cloud Kochi",
+      "blurb": "Technology festival with sessions including Firebase AI application security and enterprise AI agents on Google Cloud.",
+      "tags": [],
+      "url": "https://arinjo.in/categories/techfest",
+      "sourceUrls": [
+        "https://arinjo.in/categories/techfest"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-21"
     },
     {
       "id": "gartner-symposium-kochi-2026",

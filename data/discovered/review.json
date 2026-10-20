@@ -978,5 +978,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-20"
+  },
+  {
+    "candidate": {
+      "title": "Kochi Startup Festival 2026",
+      "start": "2026-10-28",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi (venue not specified)",
+      "city": "Kochi, Kerala",
+      "organizer": "Not stated on the evidence page",
+      "description": "Startup festival listed for October 28, 2026. The public listing does not specify the venue or organizer.",
+      "categoryHint": "startup",
+      "evidenceUrl": "https://www.inmycity.today/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-21"
   }
 ]

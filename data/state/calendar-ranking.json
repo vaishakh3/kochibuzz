@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-22": {
-      "signature": "bfb76ff102f9e94fbf3e4b8e19cf85674411dda2b384c2140400d7133eda6363",
-      "eventId": "web-destination-expand-north-star-08353e8fa6",
-      "reason": "A Kochi startup event focused on international connections and scaling opportunities.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-20T11:44:25.859Z"
-    },
     "2026-10-23": {
       "signature": "ba6e3aca09cacf7725e65146bd322c3a6b820df7500789c35ddd96ccef654c7b",
       "eventId": "tinkerhub-events-3xaqhy38px",
@@ -22,17 +15,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-20T17:13:16.667Z"
     },
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Google Cloud and AI community event provides substantial programming for a city-wide technology audience.",
+    "2026-10-29": {
+      "signature": "e306dd112f307efc7352aa1c9c1abe18ca2b03d40430514797548cb88bb044b8",
+      "eventId": "tinkerhub-events-i8reafcqe2",
+      "reason": "A confirmed Kochi community event offering a focused, hands-on look at everyday engineering.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-19T21:07:10.433Z"
+      "rankedAt": "2026-10-20T23:56:05.932Z"
+    },
+    "2026-11-14": {
+      "signature": "788441cf65dd135fb66c642bab909b84bdca8a77faa2a6bf4c64c88dbf7bce13",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Kochi technology programme covering Gemini, AI agents and Google Cloud for a broad developer audience.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-20T23:56:05.932Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 503,
-    "outputTokens": 68
+    "inputTokens": 817,
+    "outputTokens": 122
   }
 }

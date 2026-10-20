@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-20T11:44:16.169Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-10-20T23:55:55.155Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -87,7 +87,7 @@
     "https://arinjo.in/": "2026-10-20",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-16",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
-    "https://makeaton.in/": "2026-10-20",
+    "https://makeaton.in/": "2026-10-21",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
     "https://events.devopsmalayalam.io/": "2026-10-10",
@@ -104,7 +104,7 @@
     "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday": "2026-10-04",
     "https://10times.com/kochi-in": "2026-10-05",
     "https://luma.com/k65afwn7": "2026-10-20",
-    "https://arinjo.in/categories/techfest": "2026-10-07",
+    "https://arinjo.in/categories/techfest": "2026-10-21",
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-18",
@@ -123,16 +123,17 @@
     "https://iimk.ac.in/centres/cdiit/training2026": "2026-10-17",
     "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud": "2026-10-19",
     "https://bitexindia.com/events/ai-summit-2026": "2026-10-18",
-    "https://yugantra.in/yugantra": "2026-10-20",
+    "https://yugantra.in/yugantra": "2026-10-21",
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-20",
     "https://luma.com/StartupWeekendKochi": "2026-10-20",
-    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-20"
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-20",
+    "https://inmycity.today/": "2026-10-21"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28943,
-    "outputTokens": 1897
+    "inputTokens": 29328,
+    "outputTokens": 735
   }
 }
