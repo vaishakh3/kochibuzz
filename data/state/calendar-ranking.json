@@ -8,31 +8,31 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-20T17:13:16.667Z"
     },
-    "2026-10-29": {
-      "signature": "e306dd112f307efc7352aa1c9c1abe18ca2b03d40430514797548cb88bb044b8",
-      "eventId": "tinkerhub-events-i8reafcqe2",
-      "reason": "A confirmed Kochi community event offering a focused, hands-on look at everyday engineering.",
+    "2026-10-24": {
+      "signature": "0f38ce6e65cdb836e65506f1a14b7c8df5a09d3f9ec110f248f3d5576b45f43d",
+      "eventId": "tinkerhub-events-aqdehcstze",
+      "reason": "A confirmed hardware hackathon with a distinctive focus on reusing discarded electronics at TinkerSpace.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-20T23:56:05.932Z"
-    },
-    "2026-11-14": {
-      "signature": "788441cf65dd135fb66c642bab909b84bdca8a77faa2a6bf4c64c88dbf7bce13",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi technology programme covering Gemini, AI agents and Google Cloud for a broad developer audience.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-20T23:56:05.932Z"
+      "rankedAt": "2026-10-21T15:20:36.216Z"
     },
     "2026-10-28": {
-      "signature": "8d2e5fcc89f255da8ba2aab6d32cc55323f752b7691b15de7bc3294d365be8ae",
-      "eventId": "codex-meetup-kochi-founders",
-      "reason": "A substantial Kochi-area meetup combining live coding-agent demos with practical founder-focused discussion.",
+      "signature": "c580a2b05f53cda14d485309d306975d2495afee1ac0d95db8d51f58256d5086",
+      "eventId": "tinkerhub-events-q2y0prtw2u",
+      "reason": "A confirmed AI session addressing model performance on real-world data, with a specific technical topic and public venue.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-21T10:13:57.072Z"
+      "rankedAt": "2026-10-21T15:20:36.216Z"
+    },
+    "2026-11-14": {
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Google Cloud community event covering Gemini, AI agents and cloud technologies for Kochi’s developer community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-21T15:20:36.216Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 484,
-    "outputTokens": 59
+    "inputTokens": 976,
+    "outputTokens": 173
   }
 }

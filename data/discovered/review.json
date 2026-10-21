@@ -161,23 +161,23 @@
   },
   {
     "candidate": {
-      "title": "Technology Senate South",
+      "title": "Technology Senate South 2026",
       "start": "2026-11-27",
       "end": "2026-11-28",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Not specified in the available public event listing",
-      "city": "Kochi referenced in the event scope; exact venue not specified",
-      "organizer": "Express Computer / Express Group",
-      "description": "Technology leadership event covering regional technology innovation, AI and cloud innovation, cybersecurity and digital trust. The available listing provides the dates and references Kochi among the South India locations, but does not establish an exact Kochi-area venue; included as a lower-confidence lead.",
-      "categoryHint": "AI; cloud; cybersecurity; digital transformation",
+      "startTime": "15:00",
+      "endTime": "15:30",
+      "venue": "Venue not specified on the cited event listing",
+      "city": "Kochi-area / South India listing; exact Kochi venue not established",
+      "organizer": "Express Computer / Technology Senate",
+      "description": "Technology conference listing covering generative AI, quantum computing, edge intelligence and deep tech. The cited page does not establish an exact Kochi-area venue, so this result does not fully meet the requested venue requirement.",
+      "categoryHint": "technology conference",
       "evidenceUrl": "https://www.expresscomputer.in/event/technology-senate-south-27th-28th-november-2026/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
+      "registrationUrl": "https://technologysenate.com/south/2026/registration.php",
+      "sourceKind": "news_listing",
       "confidence": 0.55
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-24"
+    "discoveredAt": "2026-10-21"
   },
   {
     "candidate": {
@@ -266,18 +266,18 @@
       "end": "2027-01-08",
       "startTime": null,
       "endTime": null,
-      "venue": "Advanced Centre for Atmospheric Radar Research, CUSAT",
+      "venue": "Advanced Centre for Atmospheric Radar Research, Cochin University of Science and Technology, Cochin, Kerala",
       "city": "Kochi",
-      "organizer": "Advanced Centre for Atmospheric Radar Research and Cochin University of Science and Technology",
-      "description": "Conference covering radar meteorology, including AI/ML techniques in radar-data applications. The official page states that registration opened on August 15, 2026.",
-      "categoryHint": "research and technology conference",
+      "organizer": "Advanced Centre for Atmospheric Radar Research, CUSAT",
+      "description": "Radar meteorology conference including a hands-on workshop on radar and its applications. The official page states that registration opens on August 15, 2026.",
+      "categoryHint": "scientific technology conference/workshop",
       "evidenceUrl": "https://www.irad2027.org/about/",
       "registrationUrl": "https://www.irad2027.org/about/",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-26"
+    "discoveredAt": "2026-10-21"
   },
   {
     "candidate": {
@@ -529,15 +529,15 @@
       "venue": "Grand Hyatt Kochi Bolgatty",
       "city": "Kochi, Kerala",
       "organizer": "Gartner",
-      "description": "Enterprise technology conference covering generative AI, cybersecurity, data and analytics, cloud, infrastructure and emerging technologies for CIOs and IT executives.",
-      "categoryHint": "AI; data; cloud; cybersecurity; enterprise technology",
+      "description": "IT leadership symposium covering generative AI, business value of IT, cybersecurity, customer experience, emerging technologies, and executive technology strategy.",
+      "categoryHint": "AI; cloud; security; data; enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-10-21"
   },
   {
     "candidate": {
@@ -866,18 +866,18 @@
       "end": "2026-12-06",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Venue not specified; Kochi, Kerala",
       "city": "Kochi",
       "organizer": "BITEX India",
-      "description": "Artificial-intelligence summit with technology leaders, AI startups, founders, investors, demos, panels and startup pitches.",
-      "categoryHint": "technology/startup/AI",
+      "description": "AI summit with deep-dive sessions, demonstrations, panels, startup pitches and investor meetings. The official page provides a registration-interest option but does not identify the exact venue.",
+      "categoryHint": "AI conference",
       "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
       "registrationUrl": "https://bitexindia.com/events/ai-summit-2026",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.85
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-18"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-21"
   },
   {
     "candidate": {
@@ -997,6 +997,66 @@
       "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-21"
+  },
+  {
+    "candidate": {
+      "title": "Huddle Global 2026",
+      "start": "2026-11-12",
+      "end": "2026-11-14",
+      "startTime": null,
+      "endTime": null,
+      "venue": "The Leela Kovalam, A Raviz Hotel, Kovalam, Kerala",
+      "city": "Kovalam",
+      "organizer": "Kerala Startup Mission",
+      "description": "Technology and startup event featuring startups, investors, mentors, corporates and innovators. Kovalam is outside greater Kochi; included as a Kerala technology/startup event only if the user's Kochi-area scope is interpreted broadly.",
+      "categoryHint": "technology/startup conference",
+      "evidenceUrl": "https://www.huddleglobal.co.in/technology/",
+      "registrationUrl": "https://www.huddleglobal.co.in/technology/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-21"
+  },
+  {
+    "candidate": {
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, in association with Odoo",
+      "description": "24-hour hiring hackathon. The cited page states the dates and CUSAT venue and describes registration through the official registration portal. This URL was listed by the user as already known and is therefore omitted from the evidence URL field.",
+      "categoryHint": "hackathon",
+      "evidenceUrl": "https://makeaton9-0xodoo.vercel.app/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.97
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-21"
+  },
+  {
+    "candidate": {
+      "title": "Hack For Tomorrow 2026",
+      "start": "2027-01-02",
+      "end": "2027-01-03",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
+      "city": "Kochi",
+      "organizer": "Excel 2026, Government Model Engineering College",
+      "description": "Flagship 24-hour hackathon of Excel 2026. The official page states that registration is handled through Devfolio and that registration is free.",
+      "categoryHint": "hackathon",
+      "evidenceUrl": "https://hft.excelmec.org/",
+      "registrationUrl": "https://hft.excelmec.org/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-21"
   }
 ]
