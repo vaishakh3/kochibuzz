@@ -359,62 +359,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-eombn5og1l",
-    "title": "Maker Thursday",
-    "start": "2026-10-22",
-    "end": "2026-10-22",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Maker Thursday: Come Showcase Your Projects Bring whatever you've been building and put it on the table. Finished, half-working, or still a mess of jumper wires, it all counts. Talk through what you made, what broke along the way, and what you're stuck on. Someone in the room has",
-    "tags": [
-      "TinkerHub",
-      "Bootcamp",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/EOMBN5OG1L/maker-thursday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/EOMBN5OG1L/maker-thursday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-18"
-  },
-  {
-    "id": "tinkerhub-events-3xaqhy38px",
-    "title": "AIBoomi Startup Weekend Kochi 2026",
-    "start": "2026-10-23",
-    "end": "2026-10-24",
-    "startTime": "16:00",
-    "endTime": "16:30",
-    "category": "hackathon",
-    "venue": "Kerala Startup Mission , Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Build an AI product in 20 hours. Compete for $17,500 in OpenAI API credit pool. Oct 23-24 | In person, Kochi | Free to participate ​What's up for grabs ​$17,500 OpenAI API credit pool for the top 3 teams ​Complimentary passes to AIBoomi's flagship event in Bengaluru (Mar 2027) fo",
-    "tags": [
-      "TinkerHub",
-      "Hackathon",
-      "AI/ML"
-    ],
-    "url": "https://tinkerhub.org/events/3XAQHY38PX/aiboomi-startup-weekend-kochi-2026",
-    "registerUrl": "https://luma.com/StartupWeekendKochi",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/3XAQHY38PX/aiboomi-startup-weekend-kochi-2026",
-      "https://luma.com/StartupWeekendKochi"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-14"
-  },
-  {
     "id": "tinkerhub-events-8ulp26c2x0",
     "title": "Quantum computing : Intro to Qiskit",
     "start": "2026-10-23",

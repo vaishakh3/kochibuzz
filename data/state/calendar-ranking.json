@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-23": {
-      "signature": "ba6e3aca09cacf7725e65146bd322c3a6b820df7500789c35ddd96ccef654c7b",
-      "eventId": "tinkerhub-events-3xaqhy38px",
-      "reason": "A substantial in-person hackathon offering AI product building, competition and startup-focused opportunities.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-20T11:44:25.859Z"
-    },
     "2026-10-25": {
       "signature": "50b3323991f7048359784d4f9159c7754678b1ac59c74c97d45ab14c085700b5",
       "eventId": "tinkerhub-events-27wupzmnkl",
