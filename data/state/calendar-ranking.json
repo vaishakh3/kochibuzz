@@ -21,11 +21,18 @@
       "reason": "A full-day Kochi technology programme covering Gemini, AI agents and Google Cloud for a broad developer audience.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-20T23:56:05.932Z"
+    },
+    "2026-10-28": {
+      "signature": "8d2e5fcc89f255da8ba2aab6d32cc55323f752b7691b15de7bc3294d365be8ae",
+      "eventId": "codex-meetup-kochi-founders",
+      "reason": "A substantial Kochi-area meetup combining live coding-agent demos with practical founder-focused discussion.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-21T10:13:57.072Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 817,
-    "outputTokens": 122
+    "inputTokens": 484,
+    "outputTokens": 59
   }
 }
