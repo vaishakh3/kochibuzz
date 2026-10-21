@@ -603,6 +603,36 @@
       "firstSeenAt": "2026-10-14"
     },
     {
+      "id": "tinkerhub-events-sxkooaedkx",
+      "title": "BUILD Day Cochin (AI, Hardware & Game Development)",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "startTime": "09:30",
+      "endTime": "17:30",
+      "category": "ai",
+      "venue": "Jain University Kochi",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "​The Build Collective is a full-day experience designed to help students learn, explore, build, play, and share across the worlds of AI, Open Source, innovation, and gaming.",
+      "tags": [
+        "TinkerHub",
+        "Bootcamp",
+        "Gaming",
+        "AI/ML"
+      ],
+      "url": "https://tinkerhub.org/events/SXKOOAEDKX/build-day-cochin-ai-hardware-game-development",
+      "registerUrl": "https://luma.com/eo83h85y",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/SXKOOAEDKX/build-day-cochin-ai-hardware-game-development",
+        "https://luma.com/eo83h85y"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-22"
+    },
+    {
       "id": "huddle-global-2026",
       "title": "Huddle Global 2026",
       "start": "2026-11-12",
