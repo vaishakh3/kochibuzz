@@ -1,17 +1,5 @@
 [
   {
-    "id": "dodge-workable-944edde231",
-    "title": "Revenue Operations Reporting Specialist",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-10-22",
-    "location": "Kochi, India",
-    "category": "business",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/944EDDE231/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-09-01"
-  },
-  {
     "id": "infopark-107-26299",
     "title": "Quality Analyst - Steel Detailing",
     "company": "Advenser Engineering Services Private Limited",
@@ -46,6 +34,45 @@
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/118/26289",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-209-26307",
+    "title": "Project/Program Manager",
+    "company": "NDimensionZ Solutions Pvt.Ltd",
+    "postedAt": "2026-10-22",
+    "deadlineAt": "2026-11-20",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/209/26307",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-209-26308",
+    "title": "Software Engineer (Python Developer)",
+    "company": "NDimensionZ Solutions Pvt.Ltd",
+    "postedAt": "2026-10-22",
+    "deadlineAt": "2026-11-22",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/209/26308",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-296-26310",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-10-22",
+    "deadlineAt": "2026-10-23",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/26310",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-22"
@@ -124,6 +151,19 @@
     "location": "Infopark, Kochi",
     "category": "business",
     "detailUrl": "https://infopark.in/company-jobs/details/312/26295",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-332-26309",
+    "title": "Creative Content Writer",
+    "company": "KL Koncepts Lab Media and IT Park",
+    "postedAt": "2026-10-22",
+    "deadlineAt": "2026-10-22",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/332/26309",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-22"
@@ -221,7 +261,7 @@
   },
   {
     "id": "infopark-363-26300",
-    "title": "Google Ads Expert",
+    "title": "GOOGLE ADS SPECIALIST",
     "company": "Jachoos Technologies Private Limited",
     "postedAt": "2026-10-22",
     "deadlineAt": "2026-10-30",
@@ -280,6 +320,19 @@
     "location": "Infopark, Kochi",
     "category": "other",
     "detailUrl": "https://infopark.in/company-jobs/details/421/26298",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-466-26311",
+    "title": "looking for Freelancers",
+    "company": "Zoiteckh Informations Solutions",
+    "postedAt": "2026-10-22",
+    "deadlineAt": "2026-11-22",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/466/26311",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-22"
@@ -347,19 +400,6 @@
     "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
     "sourceId": "dodge-workable",
     "firstSeenAt": "2026-10-22"
-  },
-  {
-    "id": "infopark-296-26281",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-10-21",
-    "deadlineAt": "2026-10-22",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/26281",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-381-26279",
@@ -1310,19 +1350,6 @@
     "firstSeenAt": "2026-10-13"
   },
   {
-    "id": "infopark-129-26075",
-    "title": "HR Intern",
-    "company": "SayOne Technologies Pvt.Ltd",
-    "postedAt": "2026-10-12",
-    "deadlineAt": "2026-10-31",
-    "location": "Infopark, Kochi",
-    "category": "internship",
-    "detailUrl": "https://infopark.in/company-jobs/details/129/26075",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-12"
-  },
-  {
     "id": "infopark-209-26062",
     "title": "Business Development Manager",
     "company": "NDimensionZ Solutions Pvt.Ltd",
@@ -2071,19 +2098,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-30"
-  },
-  {
-    "id": "infopark-132-25772",
-    "title": "HR Recruiter - Male",
-    "company": "Dynamed Healthcare Solutions Pvt.Ltd",
-    "postedAt": "2026-09-29",
-    "deadlineAt": "2026-10-25",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/132/25772",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-13"
   },
   {
     "id": "infopark-143-25796",
@@ -3044,18 +3058,6 @@
     "firstSeenAt": "2026-10-11"
   },
   {
-    "id": "dodge-workable-dbecad5611",
-    "title": "Salesforce Developer",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-08-25",
-    "location": "Kochi, India",
-    "category": "business",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/DBECAD5611/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-08-26"
-  },
-  {
     "id": "infopark-83-25181",
     "title": "Sr.Executive / Executive Operations",
     "company": "Fingent Global Solutions",
@@ -3463,6 +3465,19 @@
     "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Kochi%2C%20Kerala",
     "sourceId": "paytm-payments-kochi-lever",
     "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "infopark-132-24660",
+    "title": "Azure Infrastructure Architect",
+    "company": "Dynamed Healthcare Solutions Pvt.Ltd",
+    "postedAt": "2026-07-15",
+    "deadlineAt": "2026-11-15",
+    "location": "Infopark, Kochi",
+    "category": "devops-cloud",
+    "detailUrl": "https://infopark.in/company-jobs/details/132/24660",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-22"
   },
   {
     "id": "infopark-95-24624",
