@@ -1,38 +1,19 @@
 [
   {
-    "id": "web-devin-hacks-kochi-e1339062a5",
-    "title": "Devin Hacks Kochi",
+    "id": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
+    "title": "Kochi FOSS October 2026 Meetup",
     "start": "2026-10-24",
     "end": "2026-10-24",
-    "category": "hackathon",
-    "venue": "Venue to be announced, Kochi, Kerala",
-    "city": "Kochi",
-    "organizer": "Devin Hacks",
-    "blurb": "A 12-hour solo hackathon in Kochi. Registration is open; the official page states that the exact venue and start time are still to be announced.",
+    "startTime": "09:30",
+    "category": "opensource",
+    "venue": "Hatio, Kalamassery",
+    "city": "Kochi, Kerala",
+    "organizer": "Kochi FOSS",
+    "blurb": "In-person meetup for developers and enthusiasts of Free/Libre and Open Source Software.",
     "tags": [],
-    "url": "https://devinhacks.in/",
+    "url": "https://kochifoss.org/",
     "sourceUrls": [
-      "https://devinhacks.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ]
-  },
-  {
-    "id": "web-teknova-26-a7ed16d9d1",
-    "title": "TEKNOVA ’26",
-    "start": "2026-12-02",
-    "end": "2026-12-03",
-    "startTime": "09:00",
-    "category": "webdev",
-    "venue": "KMM College of Arts and Science, Thrikkakara, Kochi, Kerala",
-    "city": "Kochi",
-    "organizer": "Department of MCA, KMM College of Arts and Science",
-    "blurb": "Two-day intercollegiate technology and innovation festival with an ideathon, debugging competitions, creative contests and exhibitions.",
-    "tags": [],
-    "url": "https://campuzine.com/event/teknova-26",
-    "sourceUrls": [
-      "https://campuzine.com/event/teknova-26"
+      "https://kochifoss.org/"
     ],
     "sourceIds": [
       "openai-web-discovery"

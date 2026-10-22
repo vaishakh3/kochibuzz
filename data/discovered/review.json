@@ -363,21 +363,21 @@
     "candidate": {
       "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "18:30",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
       "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi",
-      "organizer": "GDG Cloud Kochi",
-      "description": "Full-day developer conference focused on Gemini, AI agents, Google Cloud, cloud architecture, and related developer technologies.",
-      "categoryHint": "Developer / cloud / AI conference",
+      "city": "Kochi, Kerala",
+      "organizer": "Google Developer Groups GDG Cloud Kochi",
+      "description": "Full-day developer and cloud event focused on Google Cloud, AI, architecture and developer technologies.",
+      "categoryHint": "GDG / Cloud / Developer Conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-18"
+    "discoveredAt": "2026-10-22"
   },
   {
     "candidate": {
@@ -1046,17 +1046,17 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
-      "city": "Kochi",
-      "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "Flagship 24-hour hackathon of Excel 2026. The official page states that registration is handled through Devfolio and that registration is free.",
-      "categoryHint": "hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel, Government Model Engineering College",
+      "description": "24-hour hackathon focused on building technical solutions to real-world problems, with mentorship and industry participation.",
+      "categoryHint": "maker/technology",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-21"
+    "discoveredAt": "2026-10-22"
   }
 ]
