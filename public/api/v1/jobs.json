@@ -2,6 +2,44 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "dodge-workable-944edde231",
+      "title": "Revenue Operations Reporting Specialist",
+      "company": "Dodge Construction Network",
+      "postedAt": "2026-10-22",
+      "location": "Kochi, India",
+      "category": "business",
+      "detailUrl": "https://apply.workable.com/dodge-construction-network/j/944EDDE231/",
+      "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+      "sourceId": "dodge-workable",
+      "firstSeenAt": "2026-09-01"
+    },
+    {
+      "id": "infopark-107-26299",
+      "title": "Quality Analyst - Steel Detailing",
+      "company": "Advenser Engineering Services Private Limited",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-11-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/107/26299",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-107-26303",
+      "title": "Junior Engineer – BIM Consulting",
+      "company": "Advenser Engineering Services Private Limited",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-11-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/107/26303",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
       "id": "infopark-118-26289",
       "title": "Sales Development Representative (SDR)",
       "company": "UROLIME",
@@ -184,6 +222,84 @@
       "firstSeenAt": "2026-10-22"
     },
     {
+      "id": "infopark-363-26300",
+      "title": "Google Ads Expert",
+      "company": "Jachoos Technologies Private Limited",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/363/26300",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-378-26302",
+      "title": "Observability Engineer",
+      "company": "Simelabs - An Astek Company",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-11-22",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/378/26302",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-378-26304",
+      "title": "Lead Observability Architect",
+      "company": "Simelabs - An Astek Company",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-11-22",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/378/26304",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-378-26305",
+      "title": "Senior Cloud Architect",
+      "company": "Simelabs - An Astek Company",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-11-22",
+      "location": "Infopark, Kochi",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/378/26305",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-421-26298",
+      "title": "Content Writer",
+      "company": "Global Surf IT Pvt Ltd",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/421/26298",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-495-26301",
+      "title": "Business Central Consultant",
+      "company": "Difinity Digital",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/495/26301",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
       "id": "infopark-519-26296",
       "title": "Associate - Appeals",
       "company": "ALB Technologies Pvt Ltd",
@@ -205,6 +321,19 @@
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/519/26297",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-95-26306",
+      "title": "VIDEO EDITOR",
+      "company": "Aabasoft Technologies India Private Limited",
+      "postedAt": "2026-10-22",
+      "deadlineAt": "2026-10-22",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/95/26306",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-22"
@@ -454,6 +583,32 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-19"
+    },
+    {
+      "id": "infopark-267-26235",
+      "title": "Quality Analyst",
+      "company": "Airpay Financial Technologies Pvt. Ltd",
+      "postedAt": "2026-10-19",
+      "deadlineAt": "2026-10-22",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/267/26235",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-267-26247",
+      "title": "Technical Support Engineer",
+      "company": "Airpay Financial Technologies Pvt. Ltd",
+      "postedAt": "2026-10-19",
+      "deadlineAt": "2026-10-22",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/267/26247",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
     },
     {
       "id": "infopark-286-26245",
@@ -1491,19 +1646,6 @@
       "firstSeenAt": "2026-10-07"
     },
     {
-      "id": "infopark-495-25977",
-      "title": "Manual & Automation Test Engineer",
-      "company": "Difinity Digital",
-      "postedAt": "2026-10-07",
-      "deadlineAt": "2026-10-31",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/495/25977",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-07"
-    },
-    {
       "id": "infopark-138-25952",
       "title": "Senior Full Stack Engineer (Django & React)",
       "company": "Cascade Revenue Management Pvt. Ltd",
@@ -1820,7 +1962,7 @@
       "title": "Talent Acquisition Specialist – IT Recruitment",
       "company": "Origent Technologies",
       "postedAt": "2026-10-01",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-10",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/506/25860",
@@ -2270,6 +2412,19 @@
       "firstSeenAt": "2026-09-22"
     },
     {
+      "id": "infopark-476-25614",
+      "title": "Data Analytics Developer / Data Analytics Developer(Intern)",
+      "company": "Paoyaila Animation Studios LLP",
+      "postedAt": "2026-09-21",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/476/25614",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
       "id": "infopark-538-25613",
       "title": "Graphic Designer - Datasheets & Technical Layout Specialist",
       "company": "Gravity Business Process Private Limited",
@@ -2540,19 +2695,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-10"
-    },
-    {
-      "id": "infopark-259-25422",
-      "title": "Business Analyst-2-3 years (Immediate joiners required)",
-      "company": "Thomsun Infocare LLP",
-      "postedAt": "2026-09-10",
-      "deadlineAt": "2026-10-30",
-      "location": "Infopark, Kochi",
-      "category": "product",
-      "detailUrl": "https://infopark.in/company-jobs/details/259/25422",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-06"
     },
     {
       "id": "infopark-83-25414",
@@ -2902,18 +3044,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-11"
-    },
-    {
-      "id": "dodge-workable-944edde231",
-      "title": "Revenue Operations Reporting Specialist",
-      "company": "Dodge Construction Network",
-      "postedAt": "2026-08-25",
-      "location": "Kochi, India",
-      "category": "business",
-      "detailUrl": "https://apply.workable.com/dodge-construction-network/j/944EDDE231/",
-      "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-      "sourceId": "dodge-workable",
-      "firstSeenAt": "2026-09-01"
     },
     {
       "id": "dodge-workable-dbecad5611",
@@ -3428,6 +3558,19 @@
       "firstSeenAt": "2026-10-14"
     },
     {
+      "id": "infopark-292-24514",
+      "title": "Transactions Analyst",
+      "company": "MapleTech Space Pvt Ltd",
+      "postedAt": "2026-07-07",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/292/24514",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
       "id": "infopark-495-24507",
       "title": "Senior SAP B1 Functional Consultant",
       "company": "Difinity Digital",
@@ -3730,6 +3873,19 @@
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/164/23690",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "infopark-476-23684",
+      "title": "AI Developer / AI Developer (Intern)",
+      "company": "Paoyaila Animation Studios LLP",
+      "postedAt": "2026-05-22",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/476/23684",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-22"
@@ -4135,6 +4291,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-09-03"
+    },
+    {
+      "id": "infopark-476-22178",
+      "title": "Game Developer",
+      "company": "Paoyaila Animation Studios LLP",
+      "postedAt": "2026-02-21",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/476/22178",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-22"
     },
     {
       "id": "infopark-138-22164",
