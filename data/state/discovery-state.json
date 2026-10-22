@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-22T04:54:47.346Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-22T20:10:51.439Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -19,7 +19,7 @@
     "https://airomedicon.com/": "2026-09-02",
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-07",
-    "https://tinkerhub.org/events": "2026-10-20",
+    "https://tinkerhub.org/events": "2026-10-23",
     "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-10-18",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web": "2026-09-03",
     "https://f9infotech.com/kcss-2026": "2026-09-03",
@@ -108,7 +108,7 @@
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-18",
-    "https://qff26.quantumx.foundation/": "2026-10-20",
+    "https://qff26.quantumx.foundation/": "2026-10-23",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-12",
     "https://ccd.gdgcloudkochi.com/": "2026-10-20",
     "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
@@ -131,12 +131,13 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-21",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-10-22"
+    "https://hft.excelmec.org/": "2026-10-22",
+    "https://tinkerhub.org/tinkerspace": "2026-10-23"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29403,
-    "outputTokens": 743
+    "inputTokens": 28863,
+    "outputTokens": 1984
   }
 }

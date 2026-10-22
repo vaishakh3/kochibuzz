@@ -684,20 +684,20 @@
       "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
       "end": null,
-      "startTime": "04:30",
-      "endTime": null,
-      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
-      "city": "Kochi",
-      "organizer": "QuantumX Foundation, with TinkerHub Foundation",
-      "description": "A quantum-computing hack day in Kochi, part of QFF26.",
-      "categoryHint": "Quantum computing / hackathon",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "venue": "TinkerSpace, 21/258, CUSAT P.O., Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+      "city": "Kalamassery, Kochi",
+      "organizer": "QuantumX Foundation / IBM Quantum / TinkerSpace",
+      "description": "Public hands-on quantum-computing hack day with Qiskit; no prior quantum-computing experience is required.",
+      "categoryHint": "quantum computing / hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.97
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-23"
   },
   {
     "candidate": {
@@ -721,23 +721,23 @@
   },
   {
     "candidate": {
-      "title": "Haven Kerala",
-      "start": "2026-11-14",
+      "title": "BUILD Day Cochin (AI, Hardware & Game Development)",
+      "start": "2026-11-01",
       "end": null,
-      "startTime": "04:30",
+      "startTime": null,
       "endTime": null,
-      "venue": "TinkerSpace, Kalamassery, Kochi",
+      "venue": "Jain University Kochi, Kochi, Kerala",
       "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "description": "A public event listed on TinkerHub’s upcoming events page.",
-      "categoryHint": "Technology / community",
+      "organizer": "BUILD Day / Jain University Kochi",
+      "description": "Public build-focused event covering AI, hardware and game development.",
+      "categoryHint": "AI / hardware / game development",
       "evidenceUrl": "https://tinkerhub.org/events",
       "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.82
+      "sourceKind": "organizer_page",
+      "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-23"
   },
   {
     "candidate": {
@@ -921,26 +921,6 @@
   },
   {
     "candidate": {
-      "title": "Maker Thursday: Come Showcase Your Projects",
-      "start": "2026-10-22",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi, Kerala, India",
-      "city": "Kochi",
-      "organizer": "Not stated on the available evidence page",
-      "description": "Hardware and open-source demo meetup listed for 22 October 2026. The available listing does not identify the organizer or provide a direct official event page, so it is excluded.",
-      "categoryHint": "maker / open source",
-      "evidenceUrl": "https://events.heapheaphurray.com/kochi",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.2
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-20"
-  },
-  {
-    "candidate": {
       "title": "AIBoomi Startup Weekend | Kochi",
       "start": "2026-10-23",
       "end": "2026-10-24",
@@ -1058,5 +1038,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-22"
+  },
+  {
+    "candidate": {
+      "title": "bi0s Meetup",
+      "start": "2026-12-05",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, Kochi area",
+      "city": "Kochi",
+      "organizer": "bi0s / TinkerHub / TinkerSpace",
+      "description": "Public cybersecurity and technology meetup listed on the TinkerSpace upcoming-events calendar.",
+      "categoryHint": "cybersecurity / technology meetup",
+      "evidenceUrl": "https://tinkerhub.org/tinkerspace",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-23"
   }
 ]

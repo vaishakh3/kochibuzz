@@ -388,27 +388,6 @@
       "firstSeenAt": "2026-10-11"
     },
     {
-      "id": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
-      "title": "Kochi FOSS October 2026 Meetup",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "startTime": "09:30",
-      "category": "opensource",
-      "venue": "Hatio, Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "Kochi FOSS",
-      "blurb": "In-person meetup for developers and enthusiasts of Free/Libre and Open Source Software.",
-      "tags": [],
-      "url": "https://kochifoss.org/",
-      "sourceUrls": [
-        "https://kochifoss.org/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-10-22"
-    },
-    {
       "id": "tinkerhub-events-27wupzmnkl",
       "title": "Nights and Weekends Demo Day",
       "start": "2026-10-25",

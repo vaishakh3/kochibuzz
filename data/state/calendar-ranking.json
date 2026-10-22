@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-24": {
-      "signature": "1b3967a15b30f6c26ec505b2285fdc81f85427e099b9dc8d8d2bef9d21f9fc48",
-      "eventId": "tinkerhub-events-aqdehcstze",
-      "reason": "A hands-on hardware hackathon with a distinctive reuse-focused format and broad community appeal.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-22T04:54:57.231Z"
-    },
     "2026-10-25": {
       "signature": "50b3323991f7048359784d4f9159c7754678b1ac59c74c97d45ab14c085700b5",
       "eventId": "tinkerhub-events-27wupzmnkl",
