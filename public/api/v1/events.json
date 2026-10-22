@@ -361,33 +361,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-aqdehcstze",
-      "title": "Scrap Hack - Kochi",
-      "start": "2026-10-24",
-      "end": "2026-10-25",
-      "startTime": "14:00",
-      "endTime": "10:00",
-      "category": "hackathon",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Scrap Hack is a hardware hackathon that challenges participants to explore discarded electronics, identify useful components, and build something new using what they find. Unlike conventional hackathons, where teams begin with an idea and acquire the components required to build ",
-      "tags": [
-        "TinkerHub",
-        "Hackathon",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/AQDEHCSTZE/scrap-hack-kochi",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/AQDEHCSTZE/scrap-hack-kochi"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-11"
-    },
-    {
       "id": "tinkerhub-events-27wupzmnkl",
       "title": "Nights and Weekends Demo Day",
       "start": "2026-10-25",
