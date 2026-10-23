@@ -526,38 +526,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, India",
+      "venue": "Grand Hyatt Kochi Bolgatty, Mulavukad, Kochi",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "Technology conference covering AI, cybersecurity, emerging technologies, executive leadership and enterprise transformation.",
-      "categoryHint": "enterprise technology",
+      "description": "Technology leadership event covering generative AI, cybersecurity, customer experience, emerging technologies, digital transformation and IT strategy.",
+      "categoryHint": "AI; data; cloud; cybersecurity; enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-23"
-  },
-  {
-    "candidate": {
-      "title": "AIBoomi Startup Weekend | Kochi",
-      "start": "2026-10-23",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Ernakulam, Kerala",
-      "city": "Kochi area",
-      "organizer": "AIBoomi",
-      "description": "Startup weekend for AI builders, founders and operators.",
-      "categoryHint": "startup founders",
-      "evidenceUrl": "https://aiboomi.org/events/",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.92
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-16"
+    "discoveredAt": "2026-10-24"
   },
   {
     "candidate": {
@@ -866,18 +846,18 @@
       "end": "2026-12-06",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not specified; Kochi, Kerala",
+      "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "BITEX India",
-      "description": "AI summit with deep-dive sessions, demonstrations, panels, startup pitches and investor meetings. The official page provides a registration-interest option but does not identify the exact venue.",
-      "categoryHint": "AI conference",
+      "description": "AI summit with deep-dive sessions, demonstrations, panels, startup pitches, investor meetings and discussions on AI ethics, regulation and enterprise adoption.",
+      "categoryHint": "AI; startup; product; data",
       "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
       "registrationUrl": "https://bitexindia.com/events/ai-summit-2026",
       "sourceKind": "official_event_page",
-      "confidence": 0.85
+      "confidence": 0.97
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-21"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-24"
   },
   {
     "candidate": {
@@ -1026,18 +1006,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
-      "city": "Kochi",
+      "venue": "Government Model Engineering College, Thrikkakara",
+      "city": "Kochi, Kerala",
       "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "24-hour student hackathon with mentorship, team participation, project demos and prizes. Registration is free and handled through Devfolio; the event page states registration is open, with the closing date listed as TBD.",
-      "categoryHint": "college hackathon",
+      "description": "A 24-hour collegiate hackathon conducted under the annual techno-managerial fest Excel. Registration is described as free and handled through Devfolio.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": "https://hft2026.devfolio.co/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-23"
+    "discoveredAt": "2026-10-24"
   },
   {
     "candidate": {
@@ -1058,5 +1038,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-23"
+  },
+  {
+    "candidate": {
+      "title": "IGNITE 2.0 – AI & Robotics Ideathon",
+      "start": "2026-11-30",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not specified; Kochi, Kerala grand finale",
+      "city": "Kochi, Kerala",
+      "organizer": "I HUB School of Learning (IHSL)",
+      "description": "National AI and robotics ideathon with an offline grand finale in Kochi. The official page states that registration closes on November 30, 2026, but does not provide the grand finale date.",
+      "categoryHint": "AI / robotics ideathon",
+      "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
+      "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.86
+    },
+    "reason": "Official page could not be fetched: Error: getaddrinfo ENOTFOUND ihubschooloflearning.ignite2.in",
+    "discoveredAt": "2026-10-24"
   }
 ]

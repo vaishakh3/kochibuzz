@@ -361,6 +361,26 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "web-devin-hacks-kochi-e1339062a5",
+      "title": "Devin Hacks Kochi",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "category": "hackathon",
+      "venue": "Venue to be announced",
+      "city": "Kochi, Kerala",
+      "organizer": "Devin Hacks",
+      "blurb": "A 12-hour solo hackathon for 100 builders. Registration is stated as open; the exact venue has not yet been announced.",
+      "tags": [],
+      "url": "https://devinhacks.in/",
+      "sourceUrls": [
+        "https://devinhacks.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-24"
+    },
+    {
       "id": "tinkerhub-events-27wupzmnkl",
       "title": "Nights and Weekends Demo Day",
       "start": "2026-10-25",
@@ -498,6 +518,26 @@
       "firstSeenAt": "2026-09-18"
     },
     {
+      "id": "web-yugantra-2026-7395005258",
+      "title": "Yugantra 2026",
+      "start": "2026-10-29",
+      "end": "2026-10-30",
+      "category": "hackathon",
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kakkanad, Kochi",
+      "organizer": "JAIN (Deemed-to-be University), Kochi",
+      "blurb": "Yugantra 2026 is a tech fest at JAIN (Deemed-to-be University), Kochi on 30 October 2026, presented by the Department of Computer Science and Engineering.",
+      "tags": [],
+      "url": "https://yugantra.in/yugantra/",
+      "sourceUrls": [
+        "https://yugantra.in/yugantra"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-24"
+    },
+    {
       "id": "tinkerhub-events-axandlvwsi",
       "title": "Ghosted",
       "start": "2026-10-30",
@@ -525,6 +565,27 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
+    },
+    {
+      "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+      "title": "Odoo × Make-A-Ton 9.0",
+      "start": "2026-10-31",
+      "end": "2026-12-20",
+      "category": "hackathon",
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+      "tags": [],
+      "url": "https://www.makeaton.in/",
+      "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://makeaton.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-24"
     },
     {
       "id": "tinkerhub-events-fsbu1lqk2m",
@@ -584,6 +645,26 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-22"
+    },
+    {
+      "id": "web-technology-dispute-resolution-training-programme-b9b69ba658",
+      "title": "Technology Dispute Resolution Training Programme",
+      "start": "2026-11-05",
+      "end": "2026-11-07",
+      "category": "ai",
+      "venue": "NUALS Campus, Kochi",
+      "city": "Kochi",
+      "organizer": "C-DiIT, IIM Kozhikode × CPSLR, NUALS",
+      "blurb": "Three-day executive programme covering AI and emerging-technology risk, cybersecurity disputes, online dispute resolution, digital evidence, governance and technology-dispute case studies involving SaaS, cloud migration and fintech systems.",
+      "tags": [],
+      "url": "https://iimk.ac.in/centres/cdiit/training2026",
+      "sourceUrls": [
+        "https://iimk.ac.in/centres/cdiit/training2026"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-10-24"
     },
     {
       "id": "huddle-global-2026",
@@ -684,26 +765,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "web-teknova-26-a7ed16d9d1",
-      "title": "TEKNOVA ’26",
-      "start": "2026-12-02",
-      "end": "2026-12-03",
-      "category": "webdev",
-      "venue": "KMM College of Arts and Science, Thrikkakara",
-      "city": "Kochi",
-      "organizer": "Department of MCA, KMM College of Arts and Science",
-      "blurb": "Intercollegiate technology and innovation festival featuring an ideathon, debugging competitions, gaming, creative contests and interactive exhibitions.",
-      "tags": [],
-      "url": "https://campuzine.com/event/teknova-26",
-      "sourceUrls": [
-        "https://campuzine.com/event/teknova-26"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-10-23"
     },
     {
       "id": "tinkerhub-events-irwwe08c0t",

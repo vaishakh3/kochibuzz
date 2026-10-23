@@ -28,11 +28,18 @@
       "reason": "A full-day Google Cloud community event covering Gemini, AI agents and cloud technologies for Kochi’s developer community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-21T15:20:36.216Z"
+    },
+    "2026-10-29": {
+      "signature": "e306dd112f307efc7352aa1c9c1abe18ca2b03d40430514797548cb88bb044b8",
+      "eventId": "tinkerhub-events-i8reafcqe2",
+      "reason": "A confirmed Kochi community event with hands-on engineering programming; Yugantra is listed for 30 October rather than this date.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-23T23:11:49.529Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 449,
-    "outputTokens": 60
+    "inputTokens": 479,
+    "outputTokens": 70
   }
 }
