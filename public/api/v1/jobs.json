@@ -2,6 +2,32 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-171-26330",
+      "title": "HR Internship",
+      "company": "Penguin Data Centre Pvt.Ltd",
+      "postedAt": "2026-10-23",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/171/26330",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
+      "id": "infopark-272-26328",
+      "title": "Senior .NET Developer",
+      "company": "Apps Team Technologies Pvt.Ltd",
+      "postedAt": "2026-10-23",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/272/26328",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-312-26320",
       "title": "Sr.DevSecOps Engineer",
       "company": "2Base Technologies Pvt Ltd",
@@ -192,6 +218,45 @@
       "location": "Infopark, Kochi",
       "category": "engineering",
       "detailUrl": "https://infopark.in/company-jobs/details/390/26326",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
+      "id": "infopark-410-26329",
+      "title": "Graphic Designer & Video Editor Intern",
+      "company": "Valoriz Digital Pvt. Ltd",
+      "postedAt": "2026-10-23",
+      "deadlineAt": "2026-10-25",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/410/26329",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
+      "id": "infopark-58-26331",
+      "title": "HR Trainee - Payroll and Statutory",
+      "company": "Nuvento Systems Private Limited",
+      "postedAt": "2026-10-23",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/58/26331",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
+      "id": "infopark-62-26327",
+      "title": "Technical Writer I",
+      "company": "VIPoint Solutions Pvt Ltd",
+      "postedAt": "2026-10-23",
+      "deadlineAt": "2026-11-30",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/62/26327",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-23"
@@ -603,7 +668,7 @@
       "title": "US Recruiter (2-6 Years)",
       "company": "NewAgeSys Solutions (P) Ltd",
       "postedAt": "2026-10-19",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-10-26",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/109/26232",
@@ -1632,6 +1697,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-07"
+    },
+    {
+      "id": "infopark-525-25982",
+      "title": "Business Development Executive",
+      "company": "Flycatch Infotech Pvt. Ltd",
+      "postedAt": "2026-10-07",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/525/25982",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
     },
     {
       "id": "infopark-138-25952",
@@ -3145,6 +3223,19 @@
       "firstSeenAt": "2026-08-23"
     },
     {
+      "id": "infopark-542-25075",
+      "title": "Business Development Executive (BDE)",
+      "company": "Lisbell Technologies Pvt Ltd",
+      "postedAt": "2026-08-14",
+      "deadlineAt": "2026-10-24",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/542/25075",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-189-25040",
       "title": "Business Development Executive (1– 2Years)",
       "company": "GALTech Technologies Pvt Ltd",
@@ -3764,6 +3855,19 @@
       "firstSeenAt": "2026-10-13"
     },
     {
+      "id": "infopark-157-23863",
+      "title": "Junior Software Engineer Intern- AI ML",
+      "company": "Tranzmeo",
+      "postedAt": "2026-06-02",
+      "deadlineAt": "2026-10-23",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23863",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-76-23862",
       "title": "Security Engineer",
       "company": "Emsyne Technologies Private Limited",
@@ -3919,6 +4023,19 @@
       "firstSeenAt": "2026-09-03"
     },
     {
+      "id": "infopark-399-23435",
+      "title": "Microsoft Dynamics 365 Business Central Technical Trainee Position",
+      "company": "Woxro",
+      "postedAt": "2026-05-08",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/399/23435",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-506-23432",
       "title": "Sr Database Tech Lead",
       "company": "Origent Technologies",
@@ -3949,7 +4066,7 @@
       "title": "UI/UX Designer Intern",
       "company": "Mantra IT Solutions",
       "postedAt": "2026-05-07",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/383/23411",
@@ -3962,7 +4079,7 @@
       "title": "Social Media Intern",
       "company": "Mantra IT Solutions",
       "postedAt": "2026-04-29",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/383/23289",
@@ -4074,6 +4191,19 @@
       "firstSeenAt": "2026-09-03"
     },
     {
+      "id": "infopark-157-23112",
+      "title": "HR Internship",
+      "company": "Tranzmeo",
+      "postedAt": "2026-04-21",
+      "deadlineAt": "2026-10-23",
+      "location": "Infopark, Kochi",
+      "category": "internship",
+      "detailUrl": "https://infopark.in/company-jobs/details/157/23112",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-83-23023",
       "title": "Data Engineer",
       "company": "Fingent Global Solutions",
@@ -4182,7 +4312,7 @@
       "title": "Reservation and Sales Executive",
       "company": "Fine Destination",
       "postedAt": "2026-03-09",
-      "deadlineAt": "2026-10-30",
+      "deadlineAt": "2026-11-30",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/497/22416",
@@ -4295,6 +4425,19 @@
       "firstSeenAt": "2026-10-20"
     },
     {
+      "id": "infopark-399-22102",
+      "title": "Sales Executive (1 Year)",
+      "company": "Woxro",
+      "postedAt": "2026-02-16",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/399/22102",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
+    },
+    {
       "id": "infopark-286-22036",
       "title": "CUSTOMER SERVICE ANALYST",
       "company": "Eqsoft Business Solutions Pvt Ltd",
@@ -4384,6 +4527,19 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-19"
+    },
+    {
+      "id": "infopark-497-21865",
+      "title": "Social Media & SEO Manager",
+      "company": "Fine Destination",
+      "postedAt": "2026-01-30",
+      "deadlineAt": "2026-10-31",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/497/21865",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-23"
     },
     {
       "id": "infopark-286-21736",
@@ -4675,7 +4831,7 @@
       "title": "Social Media Manager",
       "company": "Mantra IT Solutions",
       "postedAt": "2025-11-14",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "other",
       "detailUrl": "https://infopark.in/company-jobs/details/383/21066",
@@ -4805,7 +4961,7 @@
       "title": "Performance Marketing Specialist",
       "company": "Mantra IT Solutions",
       "postedAt": "2025-10-22",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "business",
       "detailUrl": "https://infopark.in/company-jobs/details/383/20818",
@@ -4896,7 +5052,7 @@
       "title": "UI/UX Designer",
       "company": "Mantra IT Solutions",
       "postedAt": "2025-09-12",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "design",
       "detailUrl": "https://infopark.in/company-jobs/details/383/20346",
@@ -4986,7 +5142,7 @@
       "title": "Senior Graphic  Designer",
       "company": "Mantra IT Solutions",
       "postedAt": "2025-07-04",
-      "deadlineAt": "2026-10-23",
+      "deadlineAt": "2026-11-06",
       "location": "Infopark, Kochi",
       "category": "design",
       "detailUrl": "https://infopark.in/company-jobs/details/383/19488",

@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-22T20:10:51.439Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-10-23T10:08:44.718Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -96,7 +96,7 @@
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-05",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-21",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-23",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
@@ -117,7 +117,7 @@
     "https://isvsymposium.org/": "2026-10-13",
     "https://smectechnologies.co.in/events/the-narrator": "2026-10-15",
     "https://kochifoss.org/": "2026-10-22",
-    "https://campuzine.com/event/teknova-26": "2026-10-21",
+    "https://campuzine.com/event/teknova-26": "2026-10-23",
     "https://arinjo.in/categories/workshop": "2026-10-17",
     "https://makeherhack.makeaton.in/": "2026-10-19",
     "https://iimk.ac.in/centres/cdiit/training2026": "2026-10-17",
@@ -127,17 +127,17 @@
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-20",
     "https://luma.com/StartupWeekendKochi": "2026-10-20",
-    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-20",
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-23",
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-21",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-10-22",
+    "https://hft.excelmec.org/": "2026-10-23",
     "https://tinkerhub.org/tinkerspace": "2026-10-23"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28863,
-    "outputTokens": 1984
+    "inputTokens": 29348,
+    "outputTokens": 931
   }
 }

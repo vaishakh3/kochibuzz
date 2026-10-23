@@ -684,6 +684,26 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "web-teknova-26-a7ed16d9d1",
+    "title": "TEKNOVA ’26",
+    "start": "2026-12-02",
+    "end": "2026-12-03",
+    "category": "webdev",
+    "venue": "KMM College of Arts and Science, Thrikkakara",
+    "city": "Kochi",
+    "organizer": "Department of MCA, KMM College of Arts and Science",
+    "blurb": "Intercollegiate technology and innovation festival featuring an ideathon, debugging competitions, gaming, creative contests and interactive exhibitions.",
+    "tags": [],
+    "url": "https://campuzine.com/event/teknova-26",
+    "sourceUrls": [
+      "https://campuzine.com/event/teknova-26"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-23"
+  },
+  {
     "id": "tinkerhub-events-irwwe08c0t",
     "title": "bi0s Meetup",
     "start": "2026-12-05",

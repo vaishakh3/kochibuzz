@@ -526,18 +526,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi, India",
+      "city": "Kochi",
       "organizer": "Gartner",
-      "description": "IT leadership symposium covering generative AI, business value of IT, cybersecurity, customer experience, emerging technologies, and executive technology strategy.",
-      "categoryHint": "AI; cloud; security; data; enterprise technology",
+      "description": "Technology conference covering AI, cybersecurity, emerging technologies, executive leadership and enterprise transformation.",
+      "categoryHint": "enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-21"
+    "discoveredAt": "2026-10-23"
   },
   {
     "candidate": {
@@ -948,16 +948,16 @@
       "endTime": null,
       "venue": "Courtyard by Marriott, Kochi",
       "city": "Kochi",
-      "organizer": "CIO Association Kerala Chapter",
-      "description": "Technology leadership and innovation event for the CIO Association Kerala Chapter community.",
+      "organizer": "CIO Association Kerala",
+      "description": "Technology leadership and innovation event for CIOs and technology leaders.",
       "categoryHint": "technology leadership",
       "evidenceUrl": "https://www.linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.91
+      "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-23"
   },
   {
     "candidate": {
@@ -1026,18 +1026,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel, Government Model Engineering College",
-      "description": "24-hour hackathon focused on building technical solutions to real-world problems, with mentorship and industry participation.",
-      "categoryHint": "maker/technology",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
+      "city": "Kochi",
+      "organizer": "Excel 2026, Government Model Engineering College",
+      "description": "24-hour student hackathon with mentorship, team participation, project demos and prizes. Registration is free and handled through Devfolio; the event page states registration is open, with the closing date listed as TBD.",
+      "categoryHint": "college hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-22"
+    "discoveredAt": "2026-10-23"
   },
   {
     "candidate": {
