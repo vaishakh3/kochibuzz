@@ -1,76 +1,83 @@
 [
   {
-    "id": "web-devin-hacks-kochi-e1339062a5",
-    "title": "Devin Hacks Kochi",
+    "id": "web-kochi-foss-october-2026-meetup-0fb0bdb3b7",
+    "title": "Kochi FOSS October 2026 Meetup",
     "start": "2026-10-24",
     "end": "2026-10-24",
-    "category": "hackathon",
-    "venue": "Venue to be announced",
+    "startTime": "09:30",
+    "category": "opensource",
+    "venue": "Hatio, Kalamassery",
     "city": "Kochi, Kerala",
-    "organizer": "Devin Hacks",
-    "blurb": "A 12-hour solo hackathon for 100 builders. Registration is stated as open; the exact venue has not yet been announced.",
+    "organizer": "Kochi FOSS",
+    "blurb": "In-person meetup for developers and enthusiasts of Free/Libre and Open Source Software.",
     "tags": [],
-    "url": "https://devinhacks.in/",
+    "url": "https://kochifoss.org/",
+    "registerUrl": "https://kochifoss.org/rsvp",
     "sourceUrls": [
-      "https://devinhacks.in/"
+      "https://kochifoss.org/"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ]
   },
   {
-    "id": "web-yugantra-2026-7395005258",
-    "title": "Yugantra 2026",
-    "start": "2026-10-29",
-    "end": "2026-10-30",
-    "category": "hackathon",
-    "venue": "JAIN (Deemed-to-be University), Kochi",
-    "city": "Kakkanad, Kochi",
-    "organizer": "JAIN (Deemed-to-be University), Kochi",
-    "blurb": "Yugantra 2026 is a tech fest at JAIN (Deemed-to-be University), Kochi on 30 October 2026, presented by the Department of Computer Science and Engineering.",
+    "id": "web-devbyzero-2-0-c61ad45b4f",
+    "title": "DevByZero 2.0",
+    "start": "2026-11-14",
+    "end": "2026-11-15",
+    "startTime": "00:00",
+    "endTime": "05:29",
+    "category": "webdev",
+    "venue": "Gokulam Park Hotel and Convention Center Kochi, Banerji Road, Kaloor, Kochi, Ernakulam, Keralam, India",
+    "city": "Ernakulam",
+    "organizer": "DevOps Malayalam",
+    "blurb": "DevByZero 2.0 will take place at Gokulam Park Hotel and Convention Center in Ernakulam on November 14-15, 2026.",
     "tags": [],
-    "url": "https://yugantra.in/yugantra/",
+    "url": "https://mybzz.com/business-events/fvsko1",
+    "registerUrl": "https://konfhub.com/devbyzero-test",
     "sourceUrls": [
-      "https://yugantra.in/yugantra"
+      "https://mybzz.com/business-events/fvsko1"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ]
   },
   {
-    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
-    "title": "Odoo × Make-A-Ton 9.0",
-    "start": "2026-10-31",
-    "end": "2026-12-20",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "id": "web-dmcon-keralam-2026-5-years-of-devops-malayalam-6e1b1482da",
+    "title": "DMCon Keralam 2026 — 5 Years of DevOps Malayalam",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "startTime": "09:00",
+    "endTime": "18:00",
+    "category": "cloud",
+    "venue": "Gokulam Park Kochi",
+    "city": "Ernakulam",
+    "organizer": "DevOps Malayalam",
+    "blurb": "Kerala's community DevOps, SRE, Platform Engineering & Cloud Native conference. 14 November 2026, Kochi.",
+    "tags": [],
+    "url": "https://events.devopsmalayalam.io/",
+    "registerUrl": "https://konfhub.com/dmcon-keralam-2026",
+    "sourceUrls": [
+      "https://events.devopsmalayalam.io/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-startup-dangal-kochi-246ddd6b69",
+    "title": "Startup Dangal — Kochi",
+    "start": "2027-01-15",
+    "end": "2027-01-15",
+    "category": "startup",
+    "venue": "Kochi venue not specified on the official page",
     "city": "Kochi, Kerala",
-    "organizer": "CITTIC, CUSAT × Odoo",
-    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+    "organizer": "Startup Dangal",
+    "blurb": "Startup competition in which selected startups showcase products and pitch to investors, jury members and ecosystem leaders.",
     "tags": [],
-    "url": "https://www.makeaton.in/",
-    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "url": "https://startupdangal.com/",
     "sourceUrls": [
-      "https://makeaton.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ]
-  },
-  {
-    "id": "web-technology-dispute-resolution-training-programme-b9b69ba658",
-    "title": "Technology Dispute Resolution Training Programme",
-    "start": "2026-11-05",
-    "end": "2026-11-07",
-    "category": "ai",
-    "venue": "NUALS Campus, Kochi",
-    "city": "Kochi",
-    "organizer": "C-DiIT, IIM Kozhikode × CPSLR, NUALS",
-    "blurb": "Three-day executive programme covering AI and emerging-technology risk, cybersecurity disputes, online dispute resolution, digital evidence, governance and technology-dispute case studies involving SaaS, cloud migration and fintech systems.",
-    "tags": [],
-    "url": "https://iimk.ac.in/centres/cdiit/training2026",
-    "sourceUrls": [
-      "https://iimk.ac.in/centres/cdiit/training2026"
+      "https://startupdangal.com/"
     ],
     "sourceIds": [
       "openai-web-discovery"

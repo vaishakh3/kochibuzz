@@ -1,26 +1,12 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-25": {
-      "signature": "50b3323991f7048359784d4f9159c7754678b1ac59c74c97d45ab14c085700b5",
-      "eventId": "tinkerhub-events-27wupzmnkl",
-      "reason": "A public showcase of projects from TinkerHub’s cohort, offering broader community value than the smaller peer-learning demo session.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-20T17:13:16.667Z"
-    },
     "2026-10-28": {
       "signature": "c580a2b05f53cda14d485309d306975d2495afee1ac0d95db8d51f58256d5086",
       "eventId": "tinkerhub-events-q2y0prtw2u",
       "reason": "A confirmed AI session addressing model performance on real-world data, with a specific technical topic and public venue.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-21T15:20:36.216Z"
-    },
-    "2026-10-29": {
-      "signature": "e306dd112f307efc7352aa1c9c1abe18ca2b03d40430514797548cb88bb044b8",
-      "eventId": "tinkerhub-events-i8reafcqe2",
-      "reason": "A confirmed Kochi community event with hands-on engineering programming; Yugantra is listed for 30 October rather than this date.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-23T23:11:49.529Z"
     },
     "2026-11-01": {
       "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
@@ -30,16 +16,16 @@
       "rankedAt": "2026-10-21T20:12:43.270Z"
     },
     "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
+      "signature": "a7e8e1b2240ddb572a4c5b3e786080a0051745439345b550f371f253aa4fd860",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Google Cloud community event covering Gemini, AI agents and cloud technologies for Kochi’s developer community.",
+      "reason": "A full-day Kochi programme on Gemini, AI agents and Google Cloud with broad relevance to the city’s technology community.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-21T15:20:36.216Z"
+      "rankedAt": "2026-10-24T12:43:38.841Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 479,
-    "outputTokens": 70
+    "inputTokens": 698,
+    "outputTokens": 81
   }
 }

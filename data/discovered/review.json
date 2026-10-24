@@ -461,23 +461,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon, Kochi 2026",
+      "title": "Odoo × Make-A-Ton 9.0 — 24-hour final",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
       "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kalamassery, Kochi",
-      "organizer": "CITTIC, CUSAT and Odoo",
-      "description": "24-hour hiring hackathon with a stated prize pool and potential hiring opportunities at Odoo.",
-      "categoryHint": "developer / hackathon / startup",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT × Odoo",
+      "description": "Hiring hackathon focused on building technical solutions, with startup and industry opportunities.",
+      "categoryHint": "maker / technology / startup",
       "evidenceUrl": "https://www.makeaton.in/",
-      "registrationUrl": "https://www.makeaton.in/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-24"
   },
   {
     "candidate": {
@@ -1006,15 +1006,15 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi, Kerala",
       "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "A 24-hour collegiate hackathon conducted under the annual techno-managerial fest Excel. Registration is described as free and handled through Devfolio.",
-      "categoryHint": "hackathon",
+      "description": "24-hour hackathon for building technical solutions with mentorship from industry professionals.",
+      "categoryHint": "maker / technology",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft2026.devfolio.co/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-24"
@@ -1057,6 +1057,26 @@
       "confidence": 0.86
     },
     "reason": "Official page could not be fetched: Error: getaddrinfo ENOTFOUND ihubschooloflearning.ignite2.in",
+    "discoveredAt": "2026-10-24"
+  },
+  {
+    "candidate": {
+      "title": "Global Game Jam 2026 – Kerala",
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Integrated Startup Complex, Kerala Technology Innovation Zone, Kinfra Hi-Tech Park Main Road, North Kalamassery",
+      "city": "Kalamassery, Kochi, Kerala",
+      "organizer": "SAIK Kerala and partners",
+      "description": "A 48-hour game-creation event for game developers, designers and creative technologists.",
+      "categoryHint": "Creative technology; game development; maker",
+      "evidenceUrl": "https://luma.com/uugxqprx",
+      "registrationUrl": "https://luma.com/uugxqprx",
+      "sourceKind": "official_event_page",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-24"
   }
 ]
