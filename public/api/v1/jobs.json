@@ -2,6 +2,58 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-262-26361",
+      "title": "Junior Laravel Developer(Immediate Hiring)",
+      "company": "Ynot Infosolutions",
+      "postedAt": "2026-10-24",
+      "deadlineAt": "2026-11-01",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/262/26361",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-24"
+    },
+    {
+      "id": "infopark-262-26362",
+      "title": "SEO Specialist (Immediate Hiring)",
+      "company": "Ynot Infosolutions",
+      "postedAt": "2026-10-24",
+      "deadlineAt": "2026-11-01",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/262/26362",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-24"
+    },
+    {
+      "id": "infopark-262-26363",
+      "title": "Digital Marketing Executive",
+      "company": "Ynot Infosolutions",
+      "postedAt": "2026-10-24",
+      "deadlineAt": "2026-11-01",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/262/26363",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-24"
+    },
+    {
+      "id": "infopark-262-26364",
+      "title": "Telecalling & Inside Sales Executive",
+      "company": "Ynot Infosolutions",
+      "postedAt": "2026-10-24",
+      "deadlineAt": "2026-11-08",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/262/26364",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-24"
+    },
+    {
       "id": "infopark-333-26351",
       "title": "Legal Content Specialist (LLB)",
       "company": "Mozilor Technologies Pvt. Ltd",
