@@ -361,6 +361,33 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "tinkerhub-events-27wupzmnkl",
+      "title": "Nights and Weekends Demo Day",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "startTime": "10:00",
+      "endTime": "14:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Every idea starts somewhere. Over the past few weeks, our Nights & Weekends cohort has been turning ideas into things that work. Now, it’s time to share what they’ve built. Join us for a morning of projects, experiments, and new beginnings. Come see what they’ve built. 🌱",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/27WUPZMNKL/nights-and-weekends-demo-day",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/27WUPZMNKL/nights-and-weekends-demo-day"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-25"
+    },
+    {
       "id": "tinkerhub-events-padsl3qw21",
       "title": "AIBoomi Demo Room",
       "start": "2026-10-25",

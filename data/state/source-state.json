@@ -449,13 +449,6 @@
     "infopark-218-25928": "2026-10-23",
     "infopark-218-24921": "2026-10-23",
     "infopark-259-23357": "2026-10-23",
-    "infopark-333-26351": "2026-10-24",
-    "infopark-333-26352": "2026-10-24",
-    "infopark-333-26353": "2026-10-24",
-    "infopark-333-26354": "2026-10-24",
-    "infopark-333-26355": "2026-10-24",
-    "infopark-333-26356": "2026-10-24",
-    "infopark-333-26357": "2026-10-24",
     "infopark-363-26358": "2026-10-24",
     "infopark-363-26359": "2026-10-24",
     "infopark-286-24917": "2026-10-24",
@@ -465,10 +458,24 @@
     "infopark-262-26362": "2026-10-24",
     "infopark-262-26363": "2026-10-24",
     "infopark-262-26364": "2026-10-24",
-    "infopark-262-26365": "2026-10-25"
+    "infopark-262-26365": "2026-10-25",
+    "tinkerhub-events-27wupzmnkl": "2026-10-25",
+    "infopark-333-26366": "2026-10-25",
+    "infopark-333-26367": "2026-10-25",
+    "infopark-333-26368": "2026-10-25",
+    "infopark-333-26369": "2026-10-25",
+    "infopark-333-26370": "2026-10-25",
+    "infopark-333-26371": "2026-10-25",
+    "infopark-333-26372": "2026-10-25",
+    "infopark-312-26320": "2026-10-25",
+    "infopark-312-26321": "2026-10-25",
+    "infopark-312-26322": "2026-10-25",
+    "infopark-312-26323": "2026-10-25",
+    "infopark-312-26324": "2026-10-25",
+    "infopark-312-26325": "2026-10-25"
   },
   "lastCounts": {
-    "infopark-jobs": 408,
+    "infopark-jobs": 414,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 0,
     "dodge-workable": 6,
@@ -482,6 +489,6 @@
     "paytm-payments-kochi-lever": 12,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 9
+    "tinkerhub-events": 10
   }
 }
