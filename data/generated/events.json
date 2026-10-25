@@ -359,6 +359,33 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "tinkerhub-events-u73zooaxon",
+    "title": "Security Tuesday: Black October Breakdown",
+    "start": "2026-10-27",
+    "end": "2026-10-27",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "security",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Security Tuesday is our weekly hangout for everyone who loves cybersecurity. 🔐 October 2026 hit hard. In just 72 hours we saw eMudhra CA key compromises, an SBI data exposure under investigation, WordPress sites backdoored through UpdraftCentral, and critical patches for PHP, Ch",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/U73ZOOAXON/security-tuesday-black-october-breakdown",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/U73ZOOAXON/security-tuesday-black-october-breakdown"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-26"
+  },
+  {
     "id": "codex-meetup-kochi-founders",
     "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
     "start": "2026-10-28",
