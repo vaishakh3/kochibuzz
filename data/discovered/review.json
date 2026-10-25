@@ -441,26 +441,6 @@
   },
   {
     "candidate": {
-      "title": "Global AI Kochi – Chapter Meet – October 2026",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "startTime": "10:00",
-      "endTime": "13:00",
-      "venue": "Infopark Kochi Knowledge Park, Nirmal Infopark, Infopark P.O., Kakkanad",
-      "city": "Kochi, Ernakulam",
-      "organizer": "Global AI Community – Kochi Chapter",
-      "description": "In-person chapter meet covering AI security, Blazor web applications, and Playwright MCP.",
-      "categoryHint": "technology / AI",
-      "evidenceUrl": "https://globalai.community/e/1xf5gxza",
-      "registrationUrl": "https://globalai.community/e/1xf5gxza",
-      "sourceKind": "official_event_page",
-      "confidence": 0.99
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-04"
-  },
-  {
-    "candidate": {
       "title": "Odoo × Make-A-Ton 9.0 — 24-hour final",
       "start": "2026-12-19",
       "end": "2026-12-20",
@@ -701,23 +681,23 @@
   },
   {
     "candidate": {
-      "title": "BUILD Day Cochin (AI, Hardware & Game Development)",
+      "title": "BUILD Day Cochin — AI, Hardware & Game Development",
       "start": "2026-11-01",
       "end": null,
-      "startTime": null,
+      "startTime": "10:00",
       "endTime": null,
       "venue": "Jain University Kochi, Kochi, Kerala",
       "city": "Kochi",
-      "organizer": "BUILD Day / Jain University Kochi",
-      "description": "Public build-focused event covering AI, hardware and game development.",
+      "organizer": "BUILD Day Cochin organizers",
+      "description": "Public technology event focused on AI, hardware and game development.",
       "categoryHint": "AI / hardware / game development",
       "evidenceUrl": "https://tinkerhub.org/events",
       "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.78
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-23"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -801,26 +781,6 @@
   },
   {
     "candidate": {
-      "title": "MakeHerHack — Girls-Only Startup Hackathon",
-      "start": "2026-10-23",
-      "end": "2026-10-24",
-      "startTime": "18:00",
-      "endTime": "12:00",
-      "venue": "CITTIC, Cochin University of Science and Technology, Kalamassery, Kochi, Kerala",
-      "city": "Kochi",
-      "organizer": "Make-A-Ton 9.0 / CUSAT CITTIC",
-      "description": "Public startup hackathon open to students from any college, branch, and year. The event is a 20-hour sprint with online registration information on the official page.",
-      "categoryHint": "college hackathon; startup; creative tech",
-      "evidenceUrl": "https://makeherhack.makeaton.in/",
-      "registrationUrl": "https://makeherhack.makeaton.in/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.97
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-19"
-  },
-  {
-    "candidate": {
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": null,
@@ -901,26 +861,6 @@
   },
   {
     "candidate": {
-      "title": "AIBoomi Startup Weekend | Kochi",
-      "start": "2026-10-23",
-      "end": "2026-10-24",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Exact venue disclosed after registration; city listed as Ernakulam, India",
-      "city": "Ernakulam (greater Kochi)",
-      "organizer": "AIBoomi, in partnership with TinkerHub and Kerala Startup Mission (KSUM)",
-      "description": "In-person AI startup weekend and overnight buildathon for founders, product and technology participants, indie builders, domain experts and students.",
-      "categoryHint": "startup / AI / hackathon",
-      "evidenceUrl": "https://luma.com/StartupWeekendKochi",
-      "registrationUrl": "https://luma.com/StartupWeekendKochi",
-      "sourceKind": "official_event_page",
-      "confidence": 0.88
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
-  },
-  {
-    "candidate": {
       "title": "CIO ReConnect 2026",
       "start": "2026-11-14",
       "end": null,
@@ -928,16 +868,16 @@
       "endTime": null,
       "venue": "Courtyard by Marriott, Kochi",
       "city": "Kochi",
-      "organizer": "CIO Association Kerala",
-      "description": "Technology leadership and innovation event for CIOs and technology leaders.",
+      "organizer": "CIO Association Kerala Chapter",
+      "description": "Technology leadership and innovation event for the CIO Association Kerala Chapter community.",
       "categoryHint": "technology leadership",
       "evidenceUrl": "https://www.linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.86
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-23"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -1078,5 +1018,65 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-24"
+  },
+  {
+    "candidate": {
+      "title": "AI Connect Kochi",
+      "start": "2026-10-31",
+      "end": null,
+      "startTime": "10:00",
+      "endTime": null,
+      "venue": "IBS Software Kochi Campus, Kakkanad, Kochi",
+      "city": "Kakkanad, Kochi",
+      "organizer": "CNCG Kochi",
+      "description": "Public AI-focused technology meetup listed with an exact date and Kakkanad venue.",
+      "categoryHint": "AI / machine learning / community meetup",
+      "evidenceUrl": "https://kochi2go.in/events/tech",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.62
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-25"
+  },
+  {
+    "candidate": {
+      "title": "Quantum Hack Day Kochi — Qiskit Fall Fest 2026",
+      "start": "2026-11-01",
+      "end": null,
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "venue": "TinkerSpace, Kochi, Kerala; 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+      "city": "Kalamassery, Kochi",
+      "organizer": "QuantumX Foundation and TinkerSpace",
+      "description": "Public in-person hackathon for students, developers, researchers and technology enthusiasts exploring quantum computing and Qiskit.",
+      "categoryHint": "quantum computing / hackathon",
+      "evidenceUrl": "https://qff26.quantumx.foundation/kochi-hack",
+      "registrationUrl": "https://qff26.quantumx.foundation/kochi-hack",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-25"
+  },
+  {
+    "candidate": {
+      "title": "Haven Kerala",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace, Kochi, Kerala",
+      "city": "Kalamassery, Kochi",
+      "organizer": "Arinjo",
+      "description": "Public two-day technology event listed as being conducted at TinkerSpace Kochi.",
+      "categoryHint": "technology community / maker",
+      "evidenceUrl": "https://arinjo.in/events/haven-kerala",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.89
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-25"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-24T12:43:28.178Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-25T01:13:57.110Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -19,7 +19,7 @@
     "https://airomedicon.com/": "2026-09-02",
     "https://tinkerhub.org/events/VA49AH0207/TinkerDay%20-%20Kochi": "2026-09-02",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-mar-athanasius-college-of-engineering-kothamangalam-india-presents-omg-oh-my-google-registration": "2026-09-07",
-    "https://tinkerhub.org/events": "2026-10-23",
+    "https://tinkerhub.org/events": "2026-10-25",
     "https://linkedin.com/posts/iimklive_pivot2026-whereideasmeetopportunities-activity-7491093903560003584-gFVD": "2026-10-18",
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-attention-is-all-you-web": "2026-09-03",
     "https://f9infotech.com/kcss-2026": "2026-09-03",
@@ -127,19 +127,22 @@
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-20",
     "https://luma.com/StartupWeekendKochi": "2026-10-20",
-    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-23",
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-25",
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
     "https://hft.excelmec.org/": "2026-10-24",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-24",
-    "https://luma.com/uugxqprx": "2026-10-24"
+    "https://luma.com/uugxqprx": "2026-10-24",
+    "https://kochi2go.in/events/tech": "2026-10-25",
+    "https://qff26.quantumx.foundation/kochi-hack": "2026-10-25",
+    "https://arinjo.in/events/haven-kerala": "2026-10-25"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28706,
-    "outputTokens": 1275
+    "inputTokens": 28743,
+    "outputTokens": 1226
   }
 }

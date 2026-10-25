@@ -16,16 +16,16 @@
       "rankedAt": "2026-10-21T20:12:43.270Z"
     },
     "2026-11-14": {
-      "signature": "a7e8e1b2240ddb572a4c5b3e786080a0051745439345b550f371f253aa4fd860",
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi programme on Gemini, AI agents and Google Cloud with broad relevance to the city’s technology community.",
+      "reason": "A confirmed full-day Kochi programme on Google Cloud, Gemini and AI agents with broad relevance for the city’s technology community.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-24T12:43:38.841Z"
+      "rankedAt": "2026-10-25T01:14:08.745Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 698,
-    "outputTokens": 81
+    "inputTokens": 428,
+    "outputTokens": 82
   }
 }
