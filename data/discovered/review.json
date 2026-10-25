@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala (specific venue not stated on the event page)",
+      "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network – South Asia",
-      "description": "Four-day gathering for founders and business-network members, featuring conferences, workshops and networking.",
-      "categoryHint": "startup founders",
+      "description": "Four-day gathering of founders featuring conferences, workshops, learning sessions and networking.",
+      "categoryHint": "startup / founders conference",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.95
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -586,18 +586,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": "14:00",
-      "venue": "Infopark, Kakkanad, Kochi",
-      "city": "Kakkanad, Kochi",
-      "organizer": "Codex Community Events; hosted by Vaishakh Suresh, Pauline P. Narvas and Rhiannon Payne",
-      "description": "Curated meetup for founders, CEOs, CTOs and technology leaders focused on AI-assisted software development, demos and practical workflows.",
-      "categoryHint": "developer / AI / startup",
+      "venue": "Infopark, Kochi",
+      "city": "Kochi",
+      "organizer": "Codex Community Meetup / hosted by Vaishakh Suresh",
+      "description": "A curated gathering of founders, CEOs, CTOs and technology leaders focused on AI-assisted software development, with demos, founder perspectives, networking and lunch.",
+      "categoryHint": "startup / technology meetup",
       "evidenceUrl": "https://luma.com/k65afwn7",
       "registrationUrl": "https://luma.com/k65afwn7",
       "sourceKind": "official_event_page",
-      "confidence": 0.95
+      "confidence": 0.94
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -809,15 +809,15 @@
       "venue": "Kochi, Kerala",
       "city": "Kochi",
       "organizer": "BITEX India",
-      "description": "AI summit with deep-dive sessions, demonstrations, panels, startup pitches, investor meetings and discussions on AI ethics, regulation and enterprise adoption.",
-      "categoryHint": "AI; startup; product; data",
+      "description": "Two-day artificial-intelligence summit with deep-dive sessions, demos, panels, networking, startup pitches and investor meetings.",
+      "categoryHint": "AI / startup summit",
       "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
-      "registrationUrl": "https://bitexindia.com/events/ai-summit-2026",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-24"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -946,18 +946,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "24-hour hackathon for building technical solutions with mentorship from industry professionals.",
-      "categoryHint": "maker / technology",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
+      "city": "Kochi",
+      "organizer": "Excel 2026 at Government Model Engineering College",
+      "description": "24-hour student hackathon with mentorship, project building, demos and awards. Registration is free and handled through Devfolio; the event page states registration is open.",
+      "categoryHint": "college hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-24"
+    "discoveredAt": "2026-10-25"
   },
   {
     "candidate": {
@@ -1043,18 +1043,18 @@
     "candidate": {
       "title": "Quantum Hack Day Kochi — Qiskit Fall Fest 2026",
       "start": "2026-11-01",
-      "end": null,
+      "end": "2026-11-01",
       "startTime": "10:00",
       "endTime": "18:00",
-      "venue": "TinkerSpace, Kochi, Kerala; 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
-      "city": "Kalamassery, Kochi",
-      "organizer": "QuantumX Foundation and TinkerSpace",
-      "description": "Public in-person hackathon for students, developers, researchers and technology enthusiasts exploring quantum computing and Qiskit.",
-      "categoryHint": "quantum computing / hackathon",
+      "venue": "TinkerSpace, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "QuantumX and TinkerSpace",
+      "description": "In-person quantum-computing hackathon for students, developers, researchers and technology enthusiasts. The event page states that participation is free and supports individual or team participation.",
+      "categoryHint": "maker/developer hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/kochi-hack",
-      "registrationUrl": "https://qff26.quantumx.foundation/kochi-hack",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-25"

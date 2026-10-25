@@ -21,11 +21,18 @@
       "reason": "A confirmed full-day Kochi programme on Google Cloud, Gemini and AI agents with broad relevance for the city’s technology community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-25T01:14:08.745Z"
+    },
+    "2026-10-29": {
+      "signature": "e306dd112f307efc7352aa1c9c1abe18ca2b03d40430514797548cb88bb044b8",
+      "eventId": "tinkerhub-events-i8reafcqe2",
+      "reason": "A confirmed Kochi community session with practical engineering content and a clear public programme.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-25T16:28:15.248Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 503,
-    "outputTokens": 68
+    "inputTokens": 479,
+    "outputTokens": 60
   }
 }

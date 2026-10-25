@@ -1,1 +1,40 @@
-[]
+[
+  {
+    "id": "web-yugantra-2026-7395005258",
+    "title": "Yugantra 2026",
+    "start": "2026-10-29",
+    "end": "2026-10-30",
+    "category": "hackathon",
+    "venue": "JAIN (Deemed-to-be University), Kochi",
+    "city": "Kakkanad, Kochi",
+    "organizer": "JAIN (Deemed-to-be University), Kochi",
+    "blurb": "Yugantra 2026 is a tech fest at JAIN (Deemed-to-be University), Kochi on 30 October 2026, presented by the Department of Computer Science and Engineering.",
+    "tags": [],
+    "url": "https://yugantra.in/yugantra/",
+    "sourceUrls": [
+      "https://yugantra.in/yugantra"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-startup-dangal-kochi-246ddd6b69",
+    "title": "Startup Dangal – Kochi",
+    "start": "2027-01-15",
+    "end": "2027-01-15",
+    "category": "startup",
+    "venue": "Kochi, Kerala",
+    "city": "Kochi",
+    "organizer": "Startup Dangal",
+    "blurb": "A startup competition event where selected startups showcase products and pitch to investors, jury members and ecosystem leaders.",
+    "tags": [],
+    "url": "https://startupdangal.com/",
+    "sourceUrls": [
+      "https://startupdangal.com/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  }
+]
