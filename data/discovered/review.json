@@ -361,23 +361,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
-      "city": "Kochi, Kerala",
-      "organizer": "Google Developer Groups GDG Cloud Kochi",
-      "description": "Full-day developer and cloud event focused on Google Cloud, AI, architecture and developer technologies.",
-      "categoryHint": "GDG / Cloud / Developer Conference",
+      "venue": "Holiday Inn, Kochi",
+      "city": "Kochi",
+      "organizer": "GDG Cloud Kochi",
+      "description": "Technology community event covering cloud, AI, agents and related developer topics.",
+      "categoryHint": "technology/cloud/AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-22"
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -541,26 +541,6 @@
   },
   {
     "candidate": {
-      "title": "TinkerDay – Kochi",
-      "start": "2026-10-26",
-      "end": "2026-10-26",
-      "startTime": null,
-      "endTime": null,
-      "venue": "TinkerSpace, 21/258, CUSAT P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-      "city": "Kochi, Ernakulam",
-      "organizer": "TinkerHub",
-      "description": "Monthly gathering of makers, founders, and new TinkerHub learners, featuring community project showcases.",
-      "categoryHint": "maker / technology / startup",
-      "evidenceUrl": "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday",
-      "registrationUrl": "https://tinkerhub.org/study-jam/O93C4X2TQE/tinkerday",
-      "sourceKind": "official_event_page",
-      "confidence": 0.93
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-04"
-  },
-  {
-    "candidate": {
       "title": "Advancing Global Conference on Research & Development in Science and Technology",
       "start": "2026-10-30",
       "end": null,
@@ -661,23 +641,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
-      "end": null,
+      "end": "2026-11-14",
       "startTime": "09:00",
       "endTime": "18:00",
-      "venue": "Holiday Inn, NH Bypass",
+      "venue": "Holiday Inn, Kochi, NH Bypass, Kochi 682028",
       "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology conference covering Gemini, AI agents, cloud architecture and developer tools.",
-      "categoryHint": "technology conference",
+      "description": "Full-day community event covering Gemini, AI agents, Google Cloud, cloud architecture and developer tools.",
+      "categoryHint": "Google Cloud / AI / developer",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "registrationUrl": "https://konfhub.com/ccd-kochi-2026",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -1001,23 +981,23 @@
   },
   {
     "candidate": {
-      "title": "AI Connect Kochi",
-      "start": "2026-10-31",
+      "title": "DMCON Keralam 2026",
+      "start": "2026-11-14",
       "end": null,
-      "startTime": "10:00",
+      "startTime": "09:00",
       "endTime": null,
-      "venue": "IBS Software Kochi Campus, Kakkanad, Kochi",
-      "city": "Kakkanad, Kochi",
-      "organizer": "CNCG Kochi",
-      "description": "Public AI-focused technology meetup listed with an exact date and Kakkanad venue.",
-      "categoryHint": "AI / machine learning / community meetup",
+      "venue": "Gokulam Park Hotel and Convention Center, Kaloor",
+      "city": "Kochi, Kerala",
+      "organizer": "DMCON Keralam",
+      "description": "Technology conference listed for Kochi.",
+      "categoryHint": "technology conference",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
       "confidence": 0.62
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -1066,18 +1046,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi-area venue not stated on the public listing",
-      "city": "Kochi",
-      "organizer": "Not stated on the public listing",
-      "description": "Event tagged with go-to-market, fintech, SaaS, product management and networking.",
-      "categoryHint": "product; startup; SaaS; business technology",
+      "venue": "Kochi, Kerala",
+      "city": "Kochi, Kerala",
+      "organizer": "Not stated on the available evidence page",
+      "description": "Strategic alliance event covering go-to-market, fintech, SaaS, product management and networking.",
+      "categoryHint": "startup / SaaS / product",
       "evidenceUrl": "https://events.heapheaphurray.com/kochi",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.55
+      "confidence": 0.54
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -1158,5 +1138,45 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-26"
+  },
+  {
+    "candidate": {
+      "title": "PIVOT 2026 — Deep Tech Startup Summit",
+      "start": "2026-11-13",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "IIM Kozhikode Kochi Campus, Kochi",
+      "city": "Kochi",
+      "organizer": "IIMK LIVE",
+      "description": "Deep-tech startup summit for founders, mentors and investors.",
+      "categoryHint": "startup/deep tech",
+      "evidenceUrl": "https://pivot26.suit.iimklive.org/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-27"
+  },
+  {
+    "candidate": {
+      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "start": "2026-11-01",
+      "end": null,
+      "startTime": "10:00",
+      "endTime": null,
+      "venue": "TinkerSpace Kochi, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub / TinkerSpace Kochi",
+      "description": "Quantum-computing hack day with an open-source and Python focus.",
+      "categoryHint": "quantum / Python / open source / hackathon",
+      "evidenceUrl": "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.95
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-27"
   }
 ]

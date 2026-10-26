@@ -8,13 +8,6 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-26T06:23:12.307Z"
     },
-    "2026-10-31": {
-      "signature": "2840f4589cf827e6e9a00be43e2c543c436c4035581a230e2ca2b5ae69983ad3",
-      "eventId": "web-odoo-make-a-ton-9-0-a657bae2ef",
-      "reason": "A substantial CUSAT hackathon offering hands-on building and hiring opportunities.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-26T06:23:12.307Z"
-    },
     "2026-11-01": {
       "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
       "eventId": "tinkerhub-events-sxkooaedkx",
@@ -23,16 +16,16 @@
       "rankedAt": "2026-10-21T20:12:43.270Z"
     },
     "2026-11-14": {
-      "signature": "bc689b8400ad0e712601e6122113970d92120635da99ebd5427e0ec6605811de",
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi programme covering Gemini, AI agents and Google Cloud for local builders.",
+      "reason": "A full-day public technology programme covering Gemini, AI agents and Google Cloud for Kerala’s developer community.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-26T06:23:12.307Z"
+      "rankedAt": "2026-10-26T20:32:25.446Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 1118,
-    "outputTokens": 162
+    "inputTokens": 428,
+    "outputTokens": 77
   }
 }
