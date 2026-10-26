@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-01": {
-      "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
-      "eventId": "tinkerhub-events-sxkooaedkx",
-      "reason": "A full-day Kochi programme spanning AI, open source, hardware and game development, with broader public relevance than a single-topic hackathon.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-21T20:12:43.270Z"
-    },
     "2026-10-28": {
       "signature": "d0d3fdae2e74c40875a2475c1a1cac35cb1310b4a460f251776273b160615942",
       "eventId": "codex-meetup-kochi-founders",
@@ -21,6 +14,13 @@
       "reason": "A substantial CUSAT hackathon offering hands-on building and hiring opportunities.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-26T06:23:12.307Z"
+    },
+    "2026-11-01": {
+      "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
+      "eventId": "tinkerhub-events-sxkooaedkx",
+      "reason": "A full-day Kochi programme spanning AI, open source, hardware and game development, with broader public relevance than a single-topic hackathon.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-21T20:12:43.270Z"
     },
     "2026-11-14": {
       "signature": "bc689b8400ad0e712601e6122113970d92120635da99ebd5427e0ec6605811de",

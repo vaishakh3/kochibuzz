@@ -1,5 +1,43 @@
 [
   {
+    "id": "dodge-workable-66ecf705c9",
+    "title": "Marketing Tech Specialist",
+    "company": "Dodge Construction Network",
+    "postedAt": "2026-10-26",
+    "location": "Kochi, India",
+    "category": "business",
+    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/66ECF705C9/",
+    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
+    "sourceId": "dodge-workable",
+    "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "infopark-1-26384",
+    "title": "Embedded Software Engineer (ESE-2)",
+    "company": "Calpine Group",
+    "postedAt": "2026-10-26",
+    "deadlineAt": "2026-11-16",
+    "location": "Infopark, Kochi",
+    "category": "engineering",
+    "detailUrl": "https://infopark.in/company-jobs/details/1/26384",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
+    "id": "infopark-118-26385",
+    "title": "Sales Development Representative (SDR)",
+    "company": "UROLIME",
+    "postedAt": "2026-10-26",
+    "deadlineAt": "2026-10-30",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/118/26385",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
     "id": "infopark-149-26381",
     "title": "Test Engineer",
     "company": "White Rabbit Group",
@@ -8,6 +46,19 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/149/26381",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
+    "id": "infopark-296-26386",
+    "title": "Senior Business Development Specialist – IT Services",
+    "company": "Grapelime Innovations Private Limited",
+    "postedAt": "2026-10-26",
+    "deadlineAt": "2026-10-27",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/296/26386",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-26"
@@ -112,6 +163,19 @@
     "location": "Infopark, Kochi",
     "category": "design",
     "detailUrl": "https://infopark.in/company-jobs/details/333/26379",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
+    "id": "infopark-428-26383",
+    "title": "Business Presentation Specialist",
+    "company": "Gapblue Software Labs Pvt Ltd",
+    "postedAt": "2026-10-26",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/428/26383",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-26"
@@ -234,19 +298,6 @@
     "firstSeenAt": "2026-10-24"
   },
   {
-    "id": "infopark-118-26343",
-    "title": "Sales Development Representative (SDR)",
-    "company": "UROLIME",
-    "postedAt": "2026-10-23",
-    "deadlineAt": "2026-10-30",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/118/26343",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-23"
-  },
-  {
     "id": "infopark-171-26330",
     "title": "HR Internship",
     "company": "Penguin Data Centre Pvt.Ltd",
@@ -268,19 +319,6 @@
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/272/26328",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-23"
-  },
-  {
-    "id": "infopark-296-26346",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-10-23",
-    "deadlineAt": "2026-10-26",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/26346",
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-23"
@@ -492,6 +530,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-23"
+  },
+  {
+    "id": "infopark-410-26329",
+    "title": "Graphic Designer & Video Editor Intern",
+    "company": "Valoriz Digital Pvt. Ltd",
+    "postedAt": "2026-10-23",
+    "deadlineAt": "2026-10-28",
+    "location": "Infopark, Kochi",
+    "category": "internship",
+    "detailUrl": "https://infopark.in/company-jobs/details/410/26329",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "infopark-428-26348",
@@ -764,18 +815,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-23"
-  },
-  {
-    "id": "dodge-workable-66ecf705c9",
-    "title": "Marketing Tech Specialist",
-    "company": "Dodge Construction Network",
-    "postedAt": "2026-10-21",
-    "location": "Kochi, India",
-    "category": "business",
-    "detailUrl": "https://apply.workable.com/dodge-construction-network/j/66ECF705C9/",
-    "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
-    "sourceId": "dodge-workable",
-    "firstSeenAt": "2026-10-22"
   },
   {
     "id": "infopark-381-26279",
@@ -2463,19 +2502,6 @@
     "firstSeenAt": "2026-09-26"
   },
   {
-    "id": "infopark-349-25723",
-    "title": "Trainee - E Commerce Intern",
-    "company": "Hotpack Global",
-    "postedAt": "2026-09-25",
-    "deadlineAt": "2026-10-31",
-    "location": "Infopark, Kochi",
-    "category": "internship",
-    "detailUrl": "https://infopark.in/company-jobs/details/349/25723",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-19"
-  },
-  {
     "id": "infopark-83-25721",
     "title": "Senior Business Analyst (Techno Functional)",
     "company": "Fingent Global Solutions",
@@ -2725,7 +2751,7 @@
     "title": "Talent Acquisition Intern",
     "company": "WORKSENT TECHNOLOGIES PVT LTD",
     "postedAt": "2026-09-17",
-    "deadlineAt": "2026-10-26",
+    "deadlineAt": "2026-10-30",
     "location": "Infopark, Kochi",
     "category": "internship",
     "detailUrl": "https://infopark.in/company-jobs/details/164/25507",
@@ -3005,6 +3031,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-03"
+  },
+  {
+    "id": "infopark-542-25296",
+    "title": "Digital Marketing Executive",
+    "company": "Lisbell Technologies Pvt Ltd",
+    "postedAt": "2026-09-03",
+    "deadlineAt": "2026-10-28",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/542/25296",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "paytm-payments-kochi-lever-799f0360-7102-4ee7-975c-917f3635de96",
@@ -3309,6 +3348,19 @@
     "sourceUrl": "https://apply.workable.com/dodge-construction-network/jobs.md",
     "sourceId": "dodge-workable",
     "firstSeenAt": "2026-08-23"
+  },
+  {
+    "id": "infopark-542-25075",
+    "title": "Business Development Executive (BDE)",
+    "company": "Lisbell Technologies Pvt Ltd",
+    "postedAt": "2026-08-14",
+    "deadlineAt": "2026-10-28",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/542/25075",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "infopark-256-25037",
@@ -3843,7 +3895,7 @@
     "title": "Business Analyst – ERP Implementation",
     "company": "Cyberion Software Solutions Pvt. Ltd",
     "postedAt": "2026-06-16",
-    "deadlineAt": "2026-10-31",
+    "deadlineAt": "2026-11-30",
     "location": "Infopark, Kochi",
     "category": "product",
     "detailUrl": "https://infopark.in/company-jobs/details/502/24117",
@@ -4591,6 +4643,19 @@
     "firstSeenAt": "2026-10-20"
   },
   {
+    "id": "infopark-502-21724",
+    "title": "Technical Project Manager-.NET Core/ERP Systems",
+    "company": "Cyberion Software Solutions Pvt. Ltd",
+    "postedAt": "2026-01-21",
+    "deadlineAt": "2026-11-30",
+    "location": "Infopark, Kochi",
+    "category": "product",
+    "detailUrl": "https://infopark.in/company-jobs/details/502/21724",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
     "id": "infopark-164-21635",
     "title": "Technical Support Executive/Help desk",
     "company": "WORKSENT TECHNOLOGIES PVT LTD",
@@ -4757,6 +4822,19 @@
     "sourceUrl": "https://api.lever.co/v0/postings/paytmpayments?mode=json&location=Ernakulam%2C%20Kerala",
     "sourceId": "paytm-payments-ernakulam-lever",
     "firstSeenAt": "2026-10-08"
+  },
+  {
+    "id": "infopark-368-21276",
+    "title": "Business Development Executive",
+    "company": "ALTOS Technologies",
+    "postedAt": "2025-12-08",
+    "deadlineAt": "2026-11-01",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/368/21276",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "infopark-85-21255",
@@ -4967,6 +5045,19 @@
     "firstSeenAt": "2026-10-06"
   },
   {
+    "id": "infopark-368-20840",
+    "title": "Telecaller executive",
+    "company": "ALTOS Technologies",
+    "postedAt": "2025-10-23",
+    "deadlineAt": "2026-11-01",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/368/20840",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
+  },
+  {
     "id": "infopark-383-20818",
     "title": "Performance Marketing Specialist",
     "company": "Mantra IT Solutions",
@@ -5010,7 +5101,7 @@
     "title": "Database Developer",
     "company": "Cyberion Software Solutions Pvt. Ltd",
     "postedAt": "2025-10-10",
-    "deadlineAt": "2026-10-31",
+    "deadlineAt": "2026-11-30",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/502/20705",
@@ -5023,7 +5114,7 @@
     "title": ".Net Core Developer",
     "company": "Cyberion Software Solutions Pvt. Ltd",
     "postedAt": "2025-10-10",
-    "deadlineAt": "2026-10-31",
+    "deadlineAt": "2026-11-30",
     "location": "Infopark, Kochi",
     "category": "engineering",
     "detailUrl": "https://infopark.in/company-jobs/details/502/20706",
@@ -5159,6 +5250,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "infopark-443-19206",
+    "title": "GRAPHIC DESIGN & VIDEO EDITOR 2 Year Experience",
+    "company": "Bramma IT Solutions",
+    "postedAt": "2025-06-13",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "design",
+    "detailUrl": "https://infopark.in/company-jobs/details/443/19206",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "infopark-336-19084",
@@ -5432,6 +5536,19 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-14"
+  },
+  {
+    "id": "infopark-443-17145",
+    "title": "Digital Marketing Executive",
+    "company": "Bramma IT Solutions",
+    "postedAt": "2024-11-11",
+    "deadlineAt": "2026-10-31",
+    "location": "Infopark, Kochi",
+    "category": "business",
+    "detailUrl": "https://infopark.in/company-jobs/details/443/17145",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "infopark-194-17124",
