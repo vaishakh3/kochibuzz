@@ -506,18 +506,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty, Mulavukad, Kochi",
+      "venue": "Grand Hyatt, Kochi, India",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "Technology leadership event covering generative AI, cybersecurity, customer experience, emerging technologies, digital transformation and IT strategy.",
-      "categoryHint": "AI; data; cloud; cybersecurity; enterprise technology",
+      "description": "Technology leadership event covering generative AI, cybersecurity, emerging technologies, customer experience and IT strategy.",
+      "categoryHint": "AI; cybersecurity; enterprise technology; product/IT strategy",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-24"
+    "discoveredAt": "2026-10-26"
   },
   {
     "candidate": {
@@ -666,18 +666,18 @@
       "end": null,
       "startTime": "09:00",
       "endTime": "18:00",
-      "venue": "Holiday Inn, NH Bypass, Kochi 682028",
-      "city": "Kochi",
+      "venue": "Holiday Inn, NH Bypass",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day community event covering Gemini, AI agents, Google Cloud, cloud architecture and developer tools.",
-      "categoryHint": "developer / cloud / AI",
+      "description": "Technology conference covering Gemini, AI agents, cloud architecture and developer tools.",
+      "categoryHint": "technology conference",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
+    "discoveredAt": "2026-10-26"
   },
   {
     "candidate": {
@@ -698,26 +698,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-25"
-  },
-  {
-    "candidate": {
-      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
-      "start": "2026-10-25",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT), Kochi, Kerala",
-      "city": "Kochi",
-      "organizer": "Odoo Education Program and Make-A-Ton, with CUSAT community partners",
-      "description": "Hackathon registration announcement states that the event is at CUSAT, Kochi, and gives a registration deadline of October 25, 2026. The event page supplied by the user is omitted; this LinkedIn announcement is used as the public evidence.",
-      "categoryHint": "hackathon / developer event",
-      "evidenceUrl": "https://www.linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd",
-      "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.82
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-16"
   },
   {
     "candidate": {
@@ -806,18 +786,18 @@
       "end": "2026-12-06",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Venue not stated beyond Kochi, Kerala",
       "city": "Kochi",
       "organizer": "BITEX India",
-      "description": "Two-day artificial-intelligence summit with deep-dive sessions, demos, panels, networking, startup pitches and investor meetings.",
-      "categoryHint": "AI / startup summit",
+      "description": "AI summit with talks, demos, startup pitches, investor meetings and panels on AI ethics, regulation and enterprise adoption.",
+      "categoryHint": "AI; startup; product; data/technology leadership",
       "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.9
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-26"
   },
   {
     "candidate": {
@@ -946,18 +926,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
-      "city": "Kochi",
-      "organizer": "Excel 2026 at Government Model Engineering College",
-      "description": "24-hour student hackathon with mentorship, project building, demos and awards. Registration is free and handled through Devfolio; the event page states registration is open.",
-      "categoryHint": "college hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel 2026, Government Model Engineering College",
+      "description": "A 24-hour hackathon focused on solving real-world problems; registration is handled through Devfolio.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-26"
   },
   {
     "candidate": {
@@ -1041,23 +1021,23 @@
   },
   {
     "candidate": {
-      "title": "Quantum Hack Day Kochi — Qiskit Fall Fest 2026",
+      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
-      "end": "2026-11-01",
+      "end": null,
       "startTime": "10:00",
       "endTime": "18:00",
-      "venue": "TinkerSpace, Kochi, Kerala",
-      "city": "Kochi",
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
       "organizer": "QuantumX and TinkerSpace",
-      "description": "In-person quantum-computing hackathon for students, developers, researchers and technology enthusiasts. The event page states that participation is free and supports individual or team participation.",
-      "categoryHint": "maker/developer hackathon",
+      "description": "Hands-on quantum-computing hackathon using Qiskit, with project development and demos.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/kochi-hack",
-      "registrationUrl": null,
+      "registrationUrl": "https://qff26.quantumx.foundation/kochi-hack",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-26"
   },
   {
     "candidate": {
@@ -1078,5 +1058,105 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-25"
+  },
+  {
+    "candidate": {
+      "title": "The NEXT Strategic Alliance Playbook",
+      "start": "2026-12-12",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi-area venue not stated on the public listing",
+      "city": "Kochi",
+      "organizer": "Not stated on the public listing",
+      "description": "Event tagged with go-to-market, fintech, SaaS, product management and networking.",
+      "categoryHint": "product; startup; SaaS; business technology",
+      "evidenceUrl": "https://events.heapheaphurray.com/kochi",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.55
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-26"
+  },
+  {
+    "candidate": {
+      "title": "International Conference on Big Data, IoT, Cyber Security and Information Technology (ICBDICSIT)",
+      "start": "2027-01-05",
+      "end": "2027-01-05",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Venue not more specifically stated than Kochi, Kerala, India",
+      "city": "Kochi",
+      "organizer": "Iraj",
+      "description": "Conference covering big data, IoT, cybersecurity and information technology.",
+      "categoryHint": "data; IoT; cybersecurity; information technology",
+      "evidenceUrl": "https://www.conferencealerts.in/eventdetail/2685504",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.7
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-26"
+  },
+  {
+    "candidate": {
+      "title": "Startup Dangal — Kochi",
+      "start": "2027-01-15",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Not stated on the official event page",
+      "city": "Kochi, Kerala",
+      "organizer": "Startup Dangal",
+      "description": "Startup competition event in Kochi; the official page provides a registration prompt.",
+      "categoryHint": "startup event",
+      "evidenceUrl": "https://startupdangal.com/",
+      "registrationUrl": "https://startupdangal.com/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.87
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-26"
+  },
+  {
+    "candidate": {
+      "title": "Playwright + AI — Test Smarter, Ship Faster",
+      "start": "2026-10-31",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "venue": "Thapasya Auditorium, Infopark Phase 1",
+      "city": "Kochi, Kerala",
+      "organizer": "Prathidhwani Technical Forum and KnoaLabs",
+      "description": "Free workshop on using Playwright with AI for testing workflows.",
+      "categoryHint": "technology workshop",
+      "evidenceUrl": "https://in.linkedin.com/company/prathidhwani-technical-forum",
+      "registrationUrl": "https://lnkd.in/g2_YU8ke",
+      "sourceKind": "social_post",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-26"
+  },
+  {
+    "candidate": {
+      "title": "DevByZero 2.0",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Gokulam Park Hotel and Convention Center, Banerji Road, Kaloor",
+      "city": "Kochi, Kerala",
+      "organizer": "DevOps Malayalam",
+      "description": "Technology event for developers and technology-innovation enthusiasts.",
+      "categoryHint": "technology conference",
+      "evidenceUrl": "https://mybzz.com/business-events/fvsko1",
+      "registrationUrl": "https://konfhub.com/",
+      "sourceKind": "news_listing",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-26"
   }
 ]

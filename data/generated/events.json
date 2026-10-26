@@ -393,7 +393,7 @@
     "category": "ai",
     "venue": "Kakkanad, India",
     "city": "Kakkanad",
-    "organizer": "Vaishakh Suresh",
+    "organizer": "Vaishakh Suresh, VAISHAKH",
     "blurb": "Founder-focused edition of the Kochi Codex meetups: shipping with OpenAI's coding agent, live demos from the community, and a room full of people building AI-native products.",
     "tags": [
       "Founders",
@@ -467,26 +467,6 @@
     "firstSeenAt": "2026-09-18"
   },
   {
-    "id": "web-yugantra-2026-7395005258",
-    "title": "Yugantra 2026",
-    "start": "2026-10-29",
-    "end": "2026-10-30",
-    "category": "hackathon",
-    "venue": "JAIN (Deemed-to-be University), Kochi",
-    "city": "Kakkanad, Kochi",
-    "organizer": "JAIN (Deemed-to-be University), Kochi",
-    "blurb": "Yugantra 2026 is a tech fest at JAIN (Deemed-to-be University), Kochi on 30 October 2026, presented by the Department of Computer Science and Engineering.",
-    "tags": [],
-    "url": "https://yugantra.in/yugantra/",
-    "sourceUrls": [
-      "https://yugantra.in/yugantra"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-25"
-  },
-  {
     "id": "tinkerhub-events-axandlvwsi",
     "title": "Ghosted",
     "start": "2026-10-30",
@@ -541,6 +521,27 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-24"
+  },
+  {
+    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
+    "title": "Odoo × Make-A-Ton 9.0",
+    "start": "2026-10-31",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT)",
+    "city": "Kochi",
+    "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, in collaboration with Odoo",
+    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
+    "tags": [],
+    "url": "https://www.makeaton.in/",
+    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://makeaton.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-26"
   },
   {
     "id": "tinkerhub-events-fsbu1lqk2m",
@@ -678,6 +679,26 @@
     "firstSeenAt": "2026-10-17"
   },
   {
+    "id": "web-secure-by-design-building-enterprise-ai-agents-on-googl-26d8b5a8ec",
+    "title": "Secure by Design: Building Enterprise AI Agents on Google Cloud",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "category": "ai",
+    "venue": "Holiday Inn, Kochi",
+    "city": "Kochi",
+    "organizer": "Google Developer Groups Cloud Kochi",
+    "blurb": "A session on building secure enterprise AI agents on Google Cloud from the ground up, led by Jitendra Gupta, Enterprise Cloud & AI Architect at EPAM Systems and Google Developer Expert in Google Cloud Platform.",
+    "tags": [],
+    "url": "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud",
+    "sourceUrls": [
+      "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-26"
+  },
+  {
     "id": "gartner-symposium-kochi-2026",
     "title": "Gartner IT Symposium/Xpo Kochi",
     "start": "2026-11-16",
@@ -729,25 +750,5 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-17"
-  },
-  {
-    "id": "web-startup-dangal-kochi-246ddd6b69",
-    "title": "Startup Dangal – Kochi",
-    "start": "2027-01-15",
-    "end": "2027-01-15",
-    "category": "startup",
-    "venue": "Kochi, Kerala",
-    "city": "Kochi",
-    "organizer": "Startup Dangal",
-    "blurb": "A startup competition event where selected startups showcase products and pitch to investors, jury members and ecosystem leaders.",
-    "tags": [],
-    "url": "https://startupdangal.com/",
-    "sourceUrls": [
-      "https://startupdangal.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-25"
   }
 ]
