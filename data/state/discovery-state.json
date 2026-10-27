@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-26T20:32:15.777Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-10-27T13:16:17.483Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-10-26",
+    "https://hft.excelmec.org/": "2026-10-27",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-26",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -140,12 +140,13 @@
     "https://arinjo.in/events/haven-kerala": "2026-10-25",
     "https://conferencealerts.in/eventdetail/2685504": "2026-10-26",
     "https://in.linkedin.com/company/prathidhwani-technical-forum": "2026-10-26",
-    "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi": "2026-10-27"
+    "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi": "2026-10-27",
+    "https://bitexindia.com/events": "2026-10-27"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28925,
-    "outputTokens": 1513
+    "inputTokens": 28940,
+    "outputTokens": 590
   }
 }

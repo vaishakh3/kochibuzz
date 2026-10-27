@@ -906,18 +906,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "A 24-hour hackathon focused on solving real-world problems; registration is handled through Devfolio.",
-      "categoryHint": "hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Excel, Government Model Engineering College",
+      "description": "A 24-hour hackathon focused on building technical solutions to real-world problems.",
+      "categoryHint": "technology; hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -1081,23 +1081,23 @@
   },
   {
     "candidate": {
-      "title": "Startup Dangal — Kochi",
+      "title": "Startup Dangal Screening — Kochi",
       "start": "2027-01-15",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Not stated on the official event page",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi, Kerala; exact venue not stated on the public page",
+      "city": "Kochi",
       "organizer": "Startup Dangal",
-      "description": "Startup competition event in Kochi; the official page provides a registration prompt.",
-      "categoryHint": "startup event",
+      "description": "A Kochi screening for a national startup competition.",
+      "categoryHint": "startup; competition",
       "evidenceUrl": "https://startupdangal.com/",
-      "registrationUrl": "https://startupdangal.com/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.87
+      "confidence": 0.82
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-26"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-27"
   },
   {
     "candidate": {
@@ -1177,6 +1177,26 @@
       "confidence": 0.95
     },
     "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-27"
+  },
+  {
+    "candidate": {
+      "title": "BITEX AI Summit 2026",
+      "start": "2026-12-05",
+      "end": "2026-12-06",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "BITEX India",
+      "description": "An AI summit for innovators, technology leaders, startups and investors.",
+      "categoryHint": "technology; AI; startup",
+      "evidenceUrl": "https://bitexindia.com/events",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.9
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-27"
   }
 ]

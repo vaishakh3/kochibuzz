@@ -386,33 +386,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-q2y0prtw2u",
-    "title": "AI Wednesday",
-    "start": "2026-10-28",
-    "end": "2026-10-28",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Beyond Accuracy: What Happens When AI Meets Real-World Data? An AI model can perform exceptionally well on its test dataset and still struggle with images from a different source. Why does this happen, and how can we evaluate models more meaningfully? In this session, Devanandha ",
-    "tags": [
-      "TinkerHub",
-      "Talk Session",
-      "AI/ML"
-    ],
-    "url": "https://tinkerhub.org/events/Q2Y0PRTW2U/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/Q2Y0PRTW2U/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "tinkerhub-events-i8reafcqe2",
     "title": "Maker Thursday",
     "start": "2026-10-29",
@@ -467,6 +440,33 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-17"
+  },
+  {
+    "id": "tinkerhub-events-km17yh89ye",
+    "title": "Game Night",
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "startTime": "20:00",
+    "endTime": "22:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "An introduction session to 3d designing and 3D printing",
+    "tags": [
+      "TinkerHub",
+      "Learning Program",
+      "Gaming"
+    ],
+    "url": "https://tinkerhub.org/events/KM17YH89YE/game-night",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/KM17YH89YE/game-night"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-27"
   },
   {
     "id": "tinkerhub-events-o546l5zsq6",
@@ -682,25 +682,5 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-17"
-  },
-  {
-    "id": "web-startup-dangal-kochi-246ddd6b69",
-    "title": "Startup Dangal — Kochi",
-    "start": "2027-01-15",
-    "end": "2027-01-15",
-    "category": "startup",
-    "venue": "Kochi",
-    "city": "Kochi",
-    "organizer": "Startup Dangal",
-    "blurb": "Startup competition featuring startup showcases and live pitches to investors and ecosystem leaders.",
-    "tags": [],
-    "url": "https://startupdangal.com/",
-    "sourceUrls": [
-      "https://startupdangal.com/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-27"
   }
 ]
