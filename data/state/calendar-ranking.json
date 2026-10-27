@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
   "decisions": {
+    "2026-10-31": {
+      "signature": "8e60c90633e329f12204bfd5603fc6203f2ac41dde1e1ee2a7a7265f5ed320ea",
+      "eventId": "tinkerhub-events-o546l5zsq6",
+      "reason": "A practical introductory session on 3D design and printing with clear learning value for Kochi’s maker community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-27T13:16:28.709Z"
+    },
     "2026-11-01": {
       "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
       "eventId": "tinkerhub-events-sxkooaedkx",
@@ -14,13 +21,6 @@
       "reason": "A full-day public technology programme covering Gemini, AI agents and Google Cloud for Kerala’s developer community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-26T20:32:25.446Z"
-    },
-    "2026-10-31": {
-      "signature": "8e60c90633e329f12204bfd5603fc6203f2ac41dde1e1ee2a7a7265f5ed320ea",
-      "eventId": "tinkerhub-events-o546l5zsq6",
-      "reason": "A practical introductory session on 3D design and printing with clear learning value for Kochi’s maker community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-27T13:16:28.709Z"
     }
   },
   "lastUsage": {
