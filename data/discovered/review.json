@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
+      "venue": "Kochi, Kerala; specific venue not stated on the public event page",
       "city": "Kochi",
-      "organizer": "Stanford Seed Transformation Network – South Asia",
-      "description": "Four-day gathering of founders featuring conferences, workshops, learning sessions and networking.",
-      "categoryHint": "startup / founders conference",
+      "organizer": "Stanford Seed Transformation Network — South Asia",
+      "description": "Four-day founder and business gathering featuring a conference, workshops, learning sessions and networking.",
+      "categoryHint": "startups / product / creative business",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": "https://stnsa.org/conclave",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -364,20 +364,20 @@
       "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": null,
-      "startTime": null,
+      "startTime": "09:00",
       "endTime": null,
-      "venue": "Holiday Inn, Kochi",
+      "venue": "Holiday Inn Cochin, National Highway Bypass, Kochi",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Technology community event covering cloud, AI, agents and related developer topics.",
-      "categoryHint": "technology/cloud/AI",
+      "description": "Full-day event covering Gemini, AI agents, cloud architecture, Google Cloud and related developer technologies.",
+      "categoryHint": "AI / cloud / data",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -506,18 +506,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt, Kochi, India",
+      "venue": "Grand Hyatt Kochi Bolgatty, Bolgatty Island, Mulavukad",
       "city": "Kochi",
       "organizer": "Gartner",
-      "description": "Technology leadership event covering generative AI, cybersecurity, emerging technologies, customer experience and IT strategy.",
-      "categoryHint": "AI; cybersecurity; enterprise technology; product/IT strategy",
+      "description": "Technology leadership event covering generative AI, cybersecurity, cloud, infrastructure, data and analytics, and digital transformation.",
+      "categoryHint": "AI / cloud / security / data",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -766,18 +766,18 @@
       "end": "2026-12-06",
       "startTime": null,
       "endTime": null,
-      "venue": "Venue not stated beyond Kochi, Kerala",
+      "venue": "Kochi, Kerala; specific venue not stated on the public event page",
       "city": "Kochi",
       "organizer": "BITEX India",
-      "description": "AI summit with talks, demos, startup pitches, investor meetings and panels on AI ethics, regulation and enterprise adoption.",
-      "categoryHint": "AI; startup; product; data/technology leadership",
+      "description": "AI summit with sessions, demos, panels, startup pitches, investor meetings and product-focused participation.",
+      "categoryHint": "AI / startups / product",
       "evidenceUrl": "https://bitexindia.com/events/ai-summit-2026",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -904,20 +904,20 @@
       "title": "Hack For Tomorrow 2026",
       "start": "2027-01-02",
       "end": "2027-01-03",
-      "startTime": null,
+      "startTime": "09:00",
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala",
       "city": "Kochi",
       "organizer": "Excel, Government Model Engineering College",
-      "description": "A 24-hour hackathon focused on building technical solutions to real-world problems.",
-      "categoryHint": "technology; hackathon",
+      "description": "Public 24-hour student hackathon associated with Excel 2026. The official event page states that registration is free and handled through Devfolio; the registration closing date is listed as TBD.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -942,22 +942,22 @@
   {
     "candidate": {
       "title": "IGNITE 2.0 – AI & Robotics Ideathon",
-      "start": "2026-11-30",
+      "start": "2026-12-01",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Not specified; Kochi, Kerala grand finale",
-      "city": "Kochi, Kerala",
+      "venue": "Kochi, Kerala — exact venue not stated on the evidence page",
+      "city": "Kochi",
       "organizer": "I HUB School of Learning (IHSL)",
-      "description": "National AI and robotics ideathon with an offline grand finale in Kochi. The official page states that registration closes on November 30, 2026, but does not provide the grand finale date.",
+      "description": "Public AI and robotics ideathon with team registration; the official page states that the offline grand finale is in Kochi and registration closes on November 30, 2026. The exact event date and venue are not stated, so this is included only as a dated registration opportunity with the stated Kochi finale location.",
       "categoryHint": "AI / robotics ideathon",
       "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.86
+      "confidence": 0.62
     },
-    "reason": "Official page could not be fetched: Error: getaddrinfo ENOTFOUND ihubschooloflearning.ignite2.in",
-    "discoveredAt": "2026-10-24"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -981,23 +981,23 @@
   },
   {
     "candidate": {
-      "title": "DMCON Keralam 2026",
-      "start": "2026-11-14",
+      "title": "AI Connect Kochi",
+      "start": "2026-10-31",
       "end": null,
-      "startTime": "09:00",
+      "startTime": null,
       "endTime": null,
-      "venue": "Gokulam Park Hotel and Convention Center, Kaloor",
-      "city": "Kochi, Kerala",
-      "organizer": "DMCON Keralam",
-      "description": "Technology conference listed for Kochi.",
-      "categoryHint": "technology conference",
+      "venue": "IBS Software Kochi Campus, Kakkanad",
+      "city": "Kochi",
+      "organizer": "Not stated on the available public listing",
+      "description": "AI-focused event listed in Kochi.",
+      "categoryHint": "AI / data",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.62
+      "confidence": 0.54
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -1198,5 +1198,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-27"
+  },
+  {
+    "candidate": {
+      "title": "BUILD Day Cochin (AI, Hardware & Game Development)",
+      "start": "2026-11-01",
+      "end": null,
+      "startTime": "10:00",
+      "endTime": "18:00",
+      "venue": "Kochi, India",
+      "city": "Kochi",
+      "organizer": "The Build Collective, with BLDR Collective and India Gaming Collective",
+      "description": "Public full-day technology event with AI, on-device AI, open source, innovation and a hands-on game-development workshop. The event page states that registration is open.",
+      "categoryHint": "developer workshop / creative technology",
+      "evidenceUrl": "https://allai.events/event/bld-day-cochin",
+      "registrationUrl": "https://allai.events/event/bld-day-cochin",
+      "sourceKind": "organizer_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-28"
   }
 ]

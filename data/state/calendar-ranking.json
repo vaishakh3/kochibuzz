@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-31": {
-      "signature": "8e60c90633e329f12204bfd5603fc6203f2ac41dde1e1ee2a7a7265f5ed320ea",
-      "eventId": "tinkerhub-events-o546l5zsq6",
-      "reason": "A practical introductory session on 3D design and printing with clear learning value for Kochi’s maker community.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-27T13:16:28.709Z"
-    },
     "2026-11-01": {
       "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
       "eventId": "tinkerhub-events-sxkooaedkx",
@@ -15,17 +8,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-21T20:12:43.270Z"
     },
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day public technology programme covering Gemini, AI agents and Google Cloud for Kerala’s developer community.",
+    "2026-10-31": {
+      "signature": "72cf820cd411321120a2b87cf34b30f5b911aeceafb25b0c6ec5c011df3c3dca",
+      "eventId": "web-odoo-make-a-ton-9-0-a657bae2ef",
+      "reason": "A substantial CUSAT hackathon with broad relevance for Kochi’s student and technology community.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-26T20:32:25.446Z"
+      "rankedAt": "2026-10-28T02:20:44.826Z"
+    },
+    "2026-11-14": {
+      "signature": "9c9713104aeff43511f39595f921f274a9e2b3c24b8d429338bcc4ab292598cc",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Kochi event covering Google Cloud, Gemini and AI agents for a broad developer audience.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-28T02:20:44.826Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 401,
-    "outputTokens": 66
+    "inputTokens": 924,
+    "outputTokens": 129
   }
 }
