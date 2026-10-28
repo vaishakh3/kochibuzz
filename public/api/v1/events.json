@@ -578,6 +578,35 @@
       "firstSeenAt": "2026-10-22"
     },
     {
+      "id": "tinkerhub-events-uydb39jj1y",
+      "title": "Café Compute",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "category": "ai",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Café Compute ☕⚡ | Cerebras Kochi Good coffee. Great conversations. Ridiculously fast AI. Café Compute is a casual meetup bringing together developers, AI enthusiasts, founders, and curious minds to explore what's possible with Cerebras and its ultra-fast AI inference. Expect live",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "AI/ML"
+      ],
+      "url": "https://tinkerhub.org/events/UYDB39JJ1Y/cafe-compute",
+      "registerUrl": "https://luma.com/vk73ackj",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/UYDB39JJ1Y/cafe-compute",
+        "https://luma.com/vk73ackj"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-10-28"
+    },
+    {
       "id": "huddle-global-2026",
       "title": "Huddle Global 2026",
       "start": "2026-11-12",
