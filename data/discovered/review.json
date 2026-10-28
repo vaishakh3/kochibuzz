@@ -386,18 +386,18 @@
       "end": "2026-12-20",
       "startTime": "07:00",
       "endTime": "18:00",
-      "venue": "CITTIC, Cochin University of Science and Technology, Kochi, Kerala, India",
+      "venue": "Kochi (specific venue not stated on the registration page)",
       "city": "Kochi",
-      "organizer": "Odoo and Make-A-Ton 9.0 / CITTIC, CUSAT",
-      "description": "A 24-hour coding hackathon. The official registration page specifies the final round dates and states that the final round takes place at the institute campus in Kochi.",
-      "categoryHint": "hackathon",
+      "organizer": "Odoo and Make-A-Ton",
+      "description": "24-hour coding hackathon open to students, freshers and coding enthusiasts; teams may have up to four members.",
+      "categoryHint": "hackathon / coding",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.91
+      "confidence": 0.86
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-15"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -942,21 +942,21 @@
   {
     "candidate": {
       "title": "IGNITE 2.0 – AI & Robotics Ideathon",
-      "start": "2026-12-01",
+      "start": "2026-11-30",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala — exact venue not stated on the evidence page",
+      "venue": "Kochi, Kerala (grand-finale venue not specified)",
       "city": "Kochi",
       "organizer": "I HUB School of Learning (IHSL)",
-      "description": "Public AI and robotics ideathon with team registration; the official page states that the offline grand finale is in Kochi and registration closes on November 30, 2026. The exact event date and venue are not stated, so this is included only as a dated registration opportunity with the stated Kochi finale location.",
-      "categoryHint": "AI / robotics ideathon",
+      "description": "National-level AI and robotics ideathon. The official page states that the offline grand finale is in Kochi and that team registration closes on November 30, 2026; it does not publish the grand-finale date.",
+      "categoryHint": "ideathon / AI / robotics",
       "evidenceUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "registrationUrl": "https://www.ihubschooloflearning.ignite2.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.62
+      "confidence": 0.9
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
+    "reason": "Official page could not be fetched: Error: getaddrinfo ENOTFOUND ihubschooloflearning.ignite2.in",
     "discoveredAt": "2026-10-28"
   },
   {
@@ -1086,18 +1086,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; exact venue not stated on the public page",
+      "venue": "Not specified on the official page",
       "city": "Kochi",
       "organizer": "Startup Dangal",
-      "description": "A Kochi screening for a national startup competition.",
-      "categoryHint": "startup; competition",
-      "evidenceUrl": "https://startupdangal.com/",
+      "description": "Startup competition screening for startups to showcase their products and pitch to investors, jury members and ecosystem leaders.",
+      "categoryHint": "startup / founder",
+      "evidenceUrl": "https://www.startupdangal.com/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.82
+      "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -1127,17 +1127,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Gokulam Park Hotel and Convention Center, Banerji Road, Kaloor",
-      "city": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "DevOps Malayalam",
-      "description": "Technology event for developers and technology-innovation enthusiasts.",
-      "categoryHint": "technology conference",
+      "description": "Developer and technology-innovation event with registration handled by the organizer.",
+      "categoryHint": "developer conference / technology meetup",
       "evidenceUrl": "https://mybzz.com/business-events/fvsko1",
       "registrationUrl": "https://konfhub.com/",
       "sourceKind": "news_listing",
       "confidence": 0.78
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-28"
   },
   {
     "candidate": {
@@ -1217,6 +1217,66 @@
       "confidence": 0.72
     },
     "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-28"
+  },
+  {
+    "candidate": {
+      "title": "PACC 2027",
+      "start": "2027-02-25",
+      "end": "2027-02-28",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi",
+      "organizer": "FSAI PACC",
+      "description": "Smart-city and built-environment technology conclave with technology discussions, panels, debates, best-practice sessions, and networking.",
+      "categoryHint": "technology / startup-adjacent",
+      "evidenceUrl": "https://www.pacc.fsai.in/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-28"
+  },
+  {
+    "candidate": {
+      "title": "KGDTIS 2026",
+      "start": "2026-11-24",
+      "end": "2026-11-25",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Adlux International Convention & Exhibition Centre, Angamaly",
+      "city": "Greater Kochi / Angamaly",
+      "organizer": "Bluecloude Events",
+      "description": "Technology and enterprise summit with a tech and enterprise expo, startup and innovation expo, pitch arena, investor meetings and GCC–Kerala Investment Forum.",
+      "categoryHint": "technology summit / startup conference",
+      "evidenceUrl": "https://events.bluecloude.com/register",
+      "registrationUrl": "https://events.bluecloude.com/register",
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-28"
+  },
+  {
+    "candidate": {
+      "title": "KREEPA Green Power Expo 2026",
+      "start": "2026-11-26",
+      "end": "2026-11-28",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Adlux International Convention & Exhibition Centre, Angamaly",
+      "city": "Angamaly, Kochi",
+      "organizer": "Kerala Renewable Energy Entrepreneurs and Promoters Association (KREEPA)",
+      "description": "Green-energy and e-mobility technology expo featuring a technology conference, student workshops, regulatory and policy seminars, and live demonstrations.",
+      "categoryHint": "technology / innovation / maker-adjacent",
+      "evidenceUrl": "https://kreepaexpo.com/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "Official page could not be fetched: TypeError: fetch failed",
     "discoveredAt": "2026-10-28"
   }
 ]

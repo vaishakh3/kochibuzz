@@ -386,33 +386,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-i8reafcqe2",
-    "title": "Maker Thursday",
-    "start": "2026-10-29",
-    "end": "2026-10-29",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Maker Thursday: How Does a Lighter Work? You've used one a hundred times. This week we take it apart. A lighter packs a surprising amount of engineering into something you'd throw away without a thought. The piezo element that makes a spark from a click, the valve metering out ga",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/I8REAFCQE2/maker-thursday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/I8REAFCQE2/maker-thursday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-09-18"
-  },
-  {
     "id": "tinkerhub-events-axandlvwsi",
     "title": "Ghosted",
     "start": "2026-10-30",
@@ -494,27 +467,6 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-24"
-  },
-  {
-    "id": "web-odoo-make-a-ton-9-0-a657bae2ef",
-    "title": "Odoo × Make-A-Ton 9.0",
-    "start": "2026-10-31",
-    "end": "2026-12-20",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology (CUSAT)",
-    "city": "Kochi",
-    "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
-    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon, run by CITTIC at CUSAT, Kochi in collaboration with Odoo.",
-    "tags": [],
-    "url": "https://www.makeaton.in/",
-    "registerUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
-    "sourceUrls": [
-      "https://makeaton.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-28"
   },
   {
     "id": "tinkerhub-events-fsbu1lqk2m",
@@ -681,29 +633,6 @@
     "firstSeenAt": "2026-10-17"
   },
   {
-    "id": "web-dmcon-keralam-2026-5-years-of-devops-malayalam-6e1b1482da",
-    "title": "DMCon Keralam 2026 — 5 Years of DevOps Malayalam",
-    "start": "2026-11-14",
-    "end": "2026-11-14",
-    "startTime": "09:00",
-    "endTime": "18:00",
-    "category": "cloud",
-    "venue": "Gokulam Park Kochi",
-    "city": "Ernakulam",
-    "organizer": "DevOps Malayalam",
-    "blurb": "Join DMCon Keralam, a community tech conference in Kochi, Kerala, on 14 November 2026 at Gokulam Park, Kaloor. Explore DevOps, SRE and cloud native.",
-    "tags": [],
-    "url": "https://events.devopsmalayalam.io/",
-    "registerUrl": "https://konfhub.com/dmcon-keralam-2026",
-    "sourceUrls": [
-      "https://events.devopsmalayalam.io/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-28"
-  },
-  {
     "id": "gartner-symposium-kochi-2026",
     "title": "Gartner IT Symposium/Xpo Kochi",
     "start": "2026-11-16",
@@ -755,26 +684,5 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-17"
-  },
-  {
-    "id": "web-make-a-ton-9-0-d0fd10cf05",
-    "title": "Make-A-Ton 9.0",
-    "start": "2026-12-19",
-    "end": "2026-12-20",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology",
-    "city": "Kochi",
-    "organizer": "Odoo",
-    "blurb": "Make-A-Ton 9.0 is South India's largest hiring hackathon organized by Odoo. It features an 8-hour virtual selection round on 31st October 2026, followed by a grand finale at CUSAT on 19-20 December 2026.",
-    "tags": [],
-    "url": "https://arinjo.in/events/make-a-ton-9-0",
-    "registerUrl": "https://www.makeaton.in/",
-    "sourceUrls": [
-      "https://arinjo.in/events/make-a-ton-9-0"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-10-28"
   }
 ]

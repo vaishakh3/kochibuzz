@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-164-26445",
+      "title": "System Engineer – L2 | Bengaluru",
+      "company": "WORKSENT TECHNOLOGIES PVT LTD",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-30",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/164/26445",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
       "id": "infopark-182-26437",
       "title": "Content Marketer",
       "company": "2Hats Logic Solutions Pvt. Ltd",
@@ -10,6 +23,32 @@
       "location": "Infopark, Kochi",
       "category": "other",
       "detailUrl": "https://infopark.in/company-jobs/details/182/26437",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-209-26446",
+      "title": "Infrastructure Engineer ( Kubernetes, Terraform, Linux) Onsite - Thrissur",
+      "company": "NDimensionZ Solutions Pvt.Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/209/26446",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-296-26449",
+      "title": "Senior Business Development Specialist – IT Services",
+      "company": "Grapelime Innovations Private Limited",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-29",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/296/26449",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-28"
@@ -184,6 +223,19 @@
       "firstSeenAt": "2026-10-28"
     },
     {
+      "id": "infopark-363-26443",
+      "title": "IT PURCHASE COORDINATOR",
+      "company": "Jachoos Technologies Private Limited",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-11-06",
+      "location": "Infopark, Kochi",
+      "category": "other",
+      "detailUrl": "https://infopark.in/company-jobs/details/363/26443",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
       "id": "infopark-390-26428",
       "title": "Social Media Executive",
       "company": "Orestes Technologies Pvt Ltd",
@@ -249,6 +301,19 @@
       "firstSeenAt": "2026-10-28"
     },
     {
+      "id": "infopark-519-26438",
+      "title": "Associate - Customer Support",
+      "company": "ALB Technologies Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-11-13",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/519/26438",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
       "id": "infopark-522-26432",
       "title": "Unity Game Development Trainer",
       "company": "Rextech Studios",
@@ -257,6 +322,97 @@
       "location": "Infopark, Kochi",
       "category": "other",
       "detailUrl": "https://infopark.in/company-jobs/details/522/26432",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26439",
+      "title": "Sr.Cloud Product Engineer",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "devops-cloud",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26439",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26440",
+      "title": "Technical Project Manager -Digital & Website Services",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "product",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26440",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26441",
+      "title": "Sr.Devsecops Engineer",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26441",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26442",
+      "title": "AI Full stack Architect",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26442",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26444",
+      "title": "L3 Application Support Engineer",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "engineering",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26444",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26447",
+      "title": "Software Engineer -AI",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-11-30",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26447",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
+      "id": "infopark-565-26448",
+      "title": "Engineering Delivery Manager-Embedded & AI",
+      "company": "Zealogics IT Solutions Pvt Ltd",
+      "postedAt": "2026-10-28",
+      "deadlineAt": "2026-10-28",
+      "location": "Infopark, Kochi",
+      "category": "ai-data",
+      "detailUrl": "https://infopark.in/company-jobs/details/565/26448",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-28"
@@ -340,17 +496,17 @@
       "firstSeenAt": "2026-10-27"
     },
     {
-      "id": "infopark-296-26412",
-      "title": "Senior Business Development Specialist – IT Services",
-      "company": "Grapelime Innovations Private Limited",
+      "id": "infopark-164-26409",
+      "title": "Sales Development Representative",
+      "company": "WORKSENT TECHNOLOGIES PVT LTD",
       "postedAt": "2026-10-27",
-      "deadlineAt": "2026-10-28",
+      "deadlineAt": "2026-10-30",
       "location": "Infopark, Kochi",
       "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/296/26412",
+      "detailUrl": "https://infopark.in/company-jobs/details/164/26409",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-27"
+      "firstSeenAt": "2026-10-28"
     },
     {
       "id": "infopark-306-26413",
@@ -4180,6 +4336,19 @@
       "firstSeenAt": "2026-10-21"
     },
     {
+      "id": "infopark-495-24308",
+      "title": "Business Analyst - Associate 1 (EVATRA)",
+      "company": "Difinity Digital",
+      "postedAt": "2026-06-24",
+      "deadlineAt": "2026-11-30",
+      "location": "Infopark, Kochi",
+      "category": "product",
+      "detailUrl": "https://infopark.in/company-jobs/details/495/24308",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-10-28"
+    },
+    {
       "id": "infopark-378-24249",
       "title": "Gen AI Machine Learning Engineer",
       "company": "Simelabs - An Astek Company",
@@ -4378,7 +4547,7 @@
       "title": "Sales Intern",
       "company": "WORKSENT TECHNOLOGIES PVT LTD",
       "postedAt": "2026-05-22",
-      "deadlineAt": "2026-10-29",
+      "deadlineAt": "2026-10-30",
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/164/23690",
@@ -4544,7 +4713,7 @@
     },
     {
       "id": "infopark-292-23324",
-      "title": "Human Resource Executive",
+      "title": "Sr. Human Resource Executive",
       "company": "MapleTech Space Pvt Ltd",
       "postedAt": "2026-05-01",
       "deadlineAt": "2026-11-12",
