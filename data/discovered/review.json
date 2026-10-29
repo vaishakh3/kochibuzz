@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; specific venue not stated on the public event page",
+      "venue": "Kochi, Kerala; specific venue not stated on the event page",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Four-day founder and business gathering featuring a conference, workshops, learning sessions and networking.",
-      "categoryHint": "startups / product / creative business",
+      "description": "Annual gathering of the Stanford Seed Transformation Network South Asia, featuring conference sessions, workshops, learning capsules and networking for founders and business leaders.",
+      "categoryHint": "startup / entrepreneurship / founder conference",
       "evidenceUrl": "https://stnsa.org/conclave",
-      "registrationUrl": null,
+      "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-30"
   },
   {
     "candidate": {
@@ -789,15 +789,15 @@
       "venue": "Courtyard by Marriott, Kochi",
       "city": "Kochi",
       "organizer": "CIO Association Kerala Chapter",
-      "description": "Technology leadership and innovation event for the CIO Association Kerala Chapter community.",
-      "categoryHint": "technology leadership",
+      "description": "Technology-leadership event covering technology solutions, real-world experiences, emerging possibilities, innovation and impact.",
+      "categoryHint": "technology leadership / innovation",
       "evidenceUrl": "https://www.linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.98
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-25"
+    "discoveredAt": "2026-10-30"
   },
   {
     "candidate": {
@@ -848,16 +848,16 @@
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi",
-      "organizer": "Excel at MEC",
-      "description": "24-hour hackathon involving technical problem-solving, mentoring and collaborative building.",
-      "categoryHint": "Hackathon / Developer / Maker",
+      "organizer": "Excel, Government Model Engineering College",
+      "description": "24-hour flagship hackathon of Excel 2026, bringing participants together to build technical solutions to real-world problems with industry mentorship.",
+      "categoryHint": "hackathon / technology / maker",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-29"
+    "discoveredAt": "2026-10-30"
   },
   {
     "candidate": {
@@ -1258,5 +1258,65 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-10-29"
+  },
+  {
+    "candidate": {
+      "title": "ETGovernment National PSU Residential Summit ’26",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Crowne Plaza Hotel, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "ETGovernment",
+      "description": "Three-day summit focused on public-sector transformation and next-generation technology, including digital capabilities, innovation and technology priorities.",
+      "categoryHint": "technology / digital transformation",
+      "evidenceUrl": "https://www.linkedin.com/posts/vandana-chaudhary-015113109_etpsu-etgovernment-nationalpsusummit-activity-7497606404237807616-hL8O",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.9
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "The NEXT Strategic Alliance Playbook",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "startTime": "15:00",
+      "endTime": "17:00",
+      "venue": "Novotel Kochi Infopark, Kakkanad",
+      "city": "Kochi",
+      "organizer": "TaxBuddy",
+      "description": "In-person roundtable for business, technology and partnership leaders, covering partnership-led innovation, strategic alliances, integrations and ecosystems.",
+      "categoryHint": "startup / technology / business networking",
+      "evidenceUrl": "https://luma.com/l1jykzlv",
+      "registrationUrl": "https://luma.com/l1jykzlv",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "International Conference on Sustainable Globalization (ICSG) 2027",
+      "start": "2027-01-08",
+      "end": "2027-01-10",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala; specific venue not stated on the event page",
+      "city": "Kochi",
+      "organizer": "ICSG organizing team",
+      "description": "International conference focused on sustainable transportation, technology and tourism, with tracks including innovation and entrepreneurship.",
+      "categoryHint": "technology / innovation / entrepreneurship conference",
+      "evidenceUrl": "https://icsg.world/learn_more/",
+      "registrationUrl": "https://icsg.world/learn_more/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.91
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-30"
   }
 ]

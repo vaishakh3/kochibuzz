@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-29T08:34:21.353Z",
-  "queryCursor": 4,
+  "lastRunAt": "2026-10-29T21:11:07.997Z",
+  "queryCursor": 6,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -11,7 +11,7 @@
     "https://fossunited.org/events": "2026-08-31",
     "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday": "2026-08-31",
     "https://entrepreneurship.ieee.org/2026-102-india-workshops": "2026-09-24",
-    "https://stnsa.org/conclave": "2026-10-28",
+    "https://stnsa.org/conclave": "2026-10-30",
     "https://in.linkedin.com/company/c0c0nconference": "2026-10-01",
     "https://corekerala.com/expo-details": "2026-09-02",
     "https://c0c0n.org/": "2026-10-05",
@@ -127,11 +127,11 @@
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-27",
     "https://luma.com/StartupWeekendKochi": "2026-10-20",
-    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-25",
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-30",
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-10-29",
+    "https://hft.excelmec.org/": "2026-10-30",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-28",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -148,13 +148,15 @@
     "https://events.bluecloude.com/register": "2026-10-28",
     "https://kreepaexpo.com/": "2026-10-28",
     "https://db.devcraftkit.com/category/tech": "2026-10-29",
-    "https://luma.com/l1jykzlv": "2026-10-29",
-    "https://tinkerhub.org/": "2026-10-29"
+    "https://luma.com/l1jykzlv": "2026-10-30",
+    "https://tinkerhub.org/": "2026-10-29",
+    "https://linkedin.com/posts/vandana-chaudhary-015113109_etpsu-etgovernment-nationalpsusummit-activity-7497606404237807616-hL8O": "2026-10-30",
+    "https://icsg.world/learn_more": "2026-10-30"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28684,
-    "outputTokens": 2236
+    "inputTokens": 28738,
+    "outputTokens": 1100
   }
 }
