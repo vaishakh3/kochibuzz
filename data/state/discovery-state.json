@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-28T16:40:54.391Z",
-  "queryCursor": 2,
+  "lastRunAt": "2026-10-29T08:34:21.353Z",
+  "queryCursor": 4,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -85,7 +85,7 @@
     "https://fabacademy.fablabkerala.in/": "2026-09-21",
     "https://iedcsummit.in/workshops/register": "2026-09-21",
     "https://arinjo.in/": "2026-10-20",
-    "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-16",
+    "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-29",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
     "https://makeaton.in/": "2026-10-28",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
@@ -108,7 +108,7 @@
     "https://codiin.com/events": "2026-10-08",
     "https://luma.com/k65afwn7k": "2026-10-08",
     "https://techcon26.org/": "2026-10-18",
-    "https://qff26.quantumx.foundation/": "2026-10-23",
+    "https://qff26.quantumx.foundation/": "2026-10-29",
     "https://ihubschooloflearning.ignite2.in/": "2026-10-28",
     "https://ccd.gdgcloudkochi.com/": "2026-10-27",
     "https://linkedin.com/posts/palak-raval-815040276_odoo-odoohackathon-odooxmake-activity-7509477062638919680-Nssd": "2026-10-16",
@@ -131,11 +131,11 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-10-28",
+    "https://hft.excelmec.org/": "2026-10-29",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-28",
     "https://luma.com/uugxqprx": "2026-10-24",
-    "https://kochi2go.in/events/tech": "2026-10-28",
+    "https://kochi2go.in/events/tech": "2026-10-29",
     "https://qff26.quantumx.foundation/kochi-hack": "2026-10-26",
     "https://arinjo.in/events/haven-kerala": "2026-10-25",
     "https://conferencealerts.in/eventdetail/2685504": "2026-10-26",
@@ -144,14 +144,17 @@
     "https://bitexindia.com/events": "2026-10-27",
     "https://arinjo.in/events/make-a-ton-9-0": "2026-10-28",
     "https://allai.events/event/bld-day-cochin": "2026-10-28",
-    "https://pacc.fsai.in/": "2026-10-28",
+    "https://pacc.fsai.in/": "2026-10-29",
     "https://events.bluecloude.com/register": "2026-10-28",
-    "https://kreepaexpo.com/": "2026-10-28"
+    "https://kreepaexpo.com/": "2026-10-28",
+    "https://db.devcraftkit.com/category/tech": "2026-10-29",
+    "https://luma.com/l1jykzlv": "2026-10-29",
+    "https://tinkerhub.org/": "2026-10-29"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28944,
-    "outputTokens": 1507
+    "inputTokens": 28684,
+    "outputTokens": 2236
   }
 }

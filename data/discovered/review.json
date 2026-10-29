@@ -561,46 +561,6 @@
   },
   {
     "candidate": {
-      "title": "DevDay Exchange Community Meetup: Kochi – Founders Edition",
-      "start": "2026-10-28",
-      "end": null,
-      "startTime": "09:30",
-      "endTime": "14:00",
-      "venue": "Infopark, Kochi",
-      "city": "Kochi",
-      "organizer": "Codex Community Meetup / hosted by Vaishakh Suresh",
-      "description": "A curated gathering of founders, CEOs, CTOs and technology leaders focused on AI-assisted software development, with demos, founder perspectives, networking and lunch.",
-      "categoryHint": "startup / technology meetup",
-      "evidenceUrl": "https://luma.com/k65afwn7",
-      "registrationUrl": "https://luma.com/k65afwn7",
-      "sourceKind": "official_event_page",
-      "confidence": 0.94
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-25"
-  },
-  {
-    "candidate": {
-      "title": "DevDay Exchange Community Meetup: Kochi — Founders Edition",
-      "start": "2026-10-28",
-      "end": "2026-10-28",
-      "startTime": "09:30",
-      "endTime": "14:00",
-      "venue": "Kochi, venue not specified on the cited event page",
-      "city": "Kochi",
-      "organizer": "DevDay Exchange",
-      "description": "Curated gathering for founders, CEOs, CTOs and technology leaders exploring how AI is changing software development and delivery.",
-      "categoryHint": "technology/startup meetup",
-      "evidenceUrl": "https://luma.com/k65afwn7k",
-      "registrationUrl": "https://luma.com/k65afwn7k",
-      "sourceKind": "official_event_page",
-      "confidence": 0.82
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-08"
-  },
-  {
-    "candidate": {
       "title": "TECHCON ’26",
       "start": "2026-11-06",
       "end": "2026-11-08",
@@ -621,23 +581,23 @@
   },
   {
     "candidate": {
-      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "title": "Quantum Hack Day: QuantumX x TinkerSpace",
       "start": "2026-11-01",
       "end": null,
       "startTime": "10:00",
-      "endTime": "17:00",
-      "venue": "TinkerSpace, 21/258, CUSAT P.O., Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery, Kochi, Kerala 682022",
+      "endTime": null,
+      "venue": "TinkerSpace Kochi",
       "city": "Kalamassery, Kochi",
-      "organizer": "QuantumX Foundation / IBM Quantum / TinkerSpace",
-      "description": "Public hands-on quantum-computing hack day with Qiskit; no prior quantum-computing experience is required.",
-      "categoryHint": "quantum computing / hackathon",
+      "organizer": "QuantumX Foundation and TinkerHub",
+      "description": "Quantum hack day listed at TinkerSpace Kochi.",
+      "categoryHint": "quantum computing hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.9
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-23"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-29"
   },
   {
     "candidate": {
@@ -706,18 +666,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala",
-      "city": "Kochi, Kerala",
+      "venue": "Holiday Inn Cochin, Kochi",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "A full-day event covering Gemini, AI agents and Google Cloud.",
-      "categoryHint": "Google Cloud / developer conference",
+      "description": "Full-day developer event focused on Gemini, AI agents and Google Cloud.",
+      "categoryHint": "Developer / Cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/gdg-cloud-kochi/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-16"
+    "discoveredAt": "2026-10-29"
   },
   {
     "candidate": {
@@ -841,26 +801,6 @@
   },
   {
     "candidate": {
-      "title": "Kochi Startup Festival 2026",
-      "start": "2026-10-28",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "Kochi (venue not specified)",
-      "city": "Kochi, Kerala",
-      "organizer": "Not stated on the evidence page",
-      "description": "Startup festival listed for October 28, 2026. The public listing does not specify the venue or organizer.",
-      "categoryHint": "startup",
-      "evidenceUrl": "https://www.inmycity.today/",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.72
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-21"
-  },
-  {
-    "candidate": {
       "title": "Huddle Global 2026",
       "start": "2026-11-12",
       "end": "2026-11-14",
@@ -904,20 +844,20 @@
       "title": "Hack For Tomorrow 2026",
       "start": "2027-01-02",
       "end": "2027-01-03",
-      "startTime": "09:00",
+      "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi",
-      "organizer": "Excel, Government Model Engineering College",
-      "description": "Public 24-hour student hackathon associated with Excel 2026. The official event page states that registration is free and handled through Devfolio; the registration closing date is listed as TBD.",
-      "categoryHint": "college coding hackathon",
+      "organizer": "Excel at MEC",
+      "description": "24-hour hackathon involving technical problem-solving, mentoring and collaborative building.",
+      "categoryHint": "Hackathon / Developer / Maker",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-29"
   },
   {
     "candidate": {
@@ -981,23 +921,23 @@
   },
   {
     "candidate": {
-      "title": "AI Connect Kochi",
-      "start": "2026-10-31",
+      "title": "T DMCON Keralam 2026",
+      "start": "2026-11-14",
       "end": null,
-      "startTime": null,
+      "startTime": "09:00",
       "endTime": null,
-      "venue": "IBS Software Kochi Campus, Kakkanad",
-      "city": "Kochi",
-      "organizer": "Not stated on the available public listing",
-      "description": "AI-focused event listed in Kochi.",
-      "categoryHint": "AI / data",
+      "venue": "Gokulam Park Hotel and Convention Center Kochi",
+      "city": "Kaloor, Kochi",
+      "organizer": "DevOps Malayalam",
+      "description": "Technology conference listed for 14 November 2026.",
+      "categoryHint": "DevOps / technology conference",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.54
+      "confidence": 0.76
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-29"
   },
   {
     "candidate": {
@@ -1228,16 +1168,16 @@
       "endTime": null,
       "venue": "Grand Hyatt Kochi Bolgatty",
       "city": "Kochi",
-      "organizer": "FSAI PACC",
-      "description": "Smart-city and built-environment technology conclave with technology discussions, panels, debates, best-practice sessions, and networking.",
-      "categoryHint": "technology / startup-adjacent",
+      "organizer": "FSAI",
+      "description": "Technology conclave with panel discussions, technology-evolution sessions, implementation and industry-focused discussions.",
+      "categoryHint": "Technology / Industry Conference",
       "evidenceUrl": "https://www.pacc.fsai.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-29"
   },
   {
     "candidate": {
@@ -1278,5 +1218,45 @@
     },
     "reason": "Official page could not be fetched: TypeError: fetch failed",
     "discoveredAt": "2026-10-28"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": "09:00",
+      "endTime": null,
+      "venue": "Holiday Inn Cochin, Chakkaraparambu Junction, NH Bypass",
+      "city": "Vennala, Kochi",
+      "organizer": "Not stated on the evidence page",
+      "description": "Google Cloud community event listed for 14 November 2026.",
+      "categoryHint": "cloud technology community event",
+      "evidenceUrl": "https://db.devcraftkit.com/category/tech",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.74
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-29"
+  },
+  {
+    "candidate": {
+      "title": "BUILD Day Cochin (AI, Hardware & Game Development)",
+      "start": "2026-11-01",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": null,
+      "venue": "JAIN (Deemed-to-be University), Kochi",
+      "city": "Kakkanad, Kochi",
+      "organizer": "TinkerHub Foundation",
+      "description": "Build-focused event covering AI, hardware and game development.",
+      "categoryHint": "AI / hardware / game development",
+      "evidenceUrl": "https://tinkerhub.org/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.87
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-29"
   }
 ]

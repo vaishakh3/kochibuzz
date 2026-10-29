@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": "web-the-next-strategic-alliance-playbook-1f5bed3362",
+    "title": "The NEXT Strategic Alliance Playbook",
+    "start": "2026-12-12",
+    "end": "2026-12-12",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "category": "ai",
+    "venue": "Novotel Kochi Infopark",
+    "city": "Kochi",
+    "organizer": "TaxBuddy, Rishi Lingwal, Janhavi Panchal",
+    "blurb": "Is your next big growth move a product, tech or a partnership? Banks, fintechs, SaaS companies and startups are growing faster by building together, through partnerships, product integrations and connected ecosystems.",
+    "tags": [],
+    "url": "https://luma.com/l1jykzlv",
+    "sourceUrls": [
+      "https://luma.com/l1jykzlv"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  }
+]
