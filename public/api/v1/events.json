@@ -501,6 +501,28 @@
       "firstSeenAt": "2026-10-22"
     },
     {
+      "id": "codex-community-luma-evt-q9inasemnn2p6eb-events-lu-ma",
+      "title": "Cafe Compute Meetup: Kochi",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "startTime": "19:00",
+      "endTime": "22:30",
+      "category": "webdev",
+      "venue": "TinkerSpace Kochi",
+      "city": "Unknown",
+      "organizer": "Vaishakh Suresh",
+      "blurb": "Get up-to-date information at: https://luma.com/vk73ackj Address: TinkerSpace Kochi Kochi, India Hosted by Vaishakh Suresh & Rhiannon Payne",
+      "tags": [],
+      "url": "https://luma.com/vk73ackj",
+      "sourceUrls": [
+        "https://luma.com/vk73ackj"
+      ],
+      "sourceIds": [
+        "codex-community-luma"
+      ],
+      "firstSeenAt": "2026-10-30"
+    },
+    {
       "id": "tinkerhub-events-uydb39jj1y",
       "title": "Café Compute",
       "start": "2026-11-06",

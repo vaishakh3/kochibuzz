@@ -21,11 +21,18 @@
       "reason": "This full-day community event provides substantial programming on Gemini, AI agents and Google Cloud for Kochi’s broader developer community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-28T16:41:06.596Z"
+    },
+    "2026-11-06": {
+      "signature": "4dbcaec419e991543ad09142653021cf8f77a2fbba1c71c63b07393d1a6b98ae",
+      "eventId": "tinkerhub-events-uydb39jj1y",
+      "reason": "A confirmed Kochi meetup with an AI focus, live programming, and broad relevance for developers, founders, and curious attendees.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-30T01:04:41.820Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 642,
-    "outputTokens": 127
+    "inputTokens": 473,
+    "outputTokens": 69
   }
 }
