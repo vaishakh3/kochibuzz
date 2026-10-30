@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-10-29T21:11:07.997Z",
-  "queryCursor": 6,
+  "lastRunAt": "2026-10-30T14:15:15.688Z",
+  "queryCursor": 0,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -78,7 +78,7 @@
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-10-28",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
-    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-28",
+    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-30",
     "https://kcd.cncgkochi.in/": "2026-10-01",
     "https://luma.com/ndjvmw7w": "2026-10-14",
     "https://typoday.futuresummit.in/": "2026-09-21",
@@ -90,13 +90,13 @@
     "https://makeaton.in/": "2026-10-28",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
-    "https://events.devopsmalayalam.io/": "2026-10-28",
+    "https://events.devopsmalayalam.io/": "2026-10-30",
     "https://happeningsaroundme.in/event/kochi-she-builds-tech-30": "2026-09-26",
     "https://indiahackathons.com/hi/events/devday-exchange-community-hackathon-kochi": "2026-10-08",
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-05",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-28",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-10-30",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
@@ -151,12 +151,17 @@
     "https://luma.com/l1jykzlv": "2026-10-30",
     "https://tinkerhub.org/": "2026-10-29",
     "https://linkedin.com/posts/vandana-chaudhary-015113109_etpsu-etgovernment-nationalpsusummit-activity-7497606404237807616-hL8O": "2026-10-30",
-    "https://icsg.world/learn_more": "2026-10-30"
+    "https://icsg.world/learn_more": "2026-10-30",
+    "https://gdg.community.dev/events/details/google-gdg-on-campus-scms-school-of-engineering-and-technology-ernakulam-india-presents-techsprint-hackathon-registration-event-2026": "2026-10-30",
+    "https://arinjo.in/places/ernakulam": "2026-10-30",
+    "https://arinjo.in/events/cloud-community-days-2026": "2026-10-30",
+    "https://globalai.community/e/bi7w86xf": "2026-10-30",
+    "https://bluecloude.com/events": "2026-10-30"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28738,
-    "outputTokens": 1100
+    "inputTokens": 29042,
+    "outputTokens": 1941
   }
 }

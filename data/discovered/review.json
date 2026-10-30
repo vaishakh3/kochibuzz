@@ -506,18 +506,18 @@
       "end": "2026-11-18",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty, Bolgatty Island, Mulavukad",
-      "city": "Kochi",
+      "venue": "Grand Hyatt Kochi Bolgatty, Mulavukad",
+      "city": "Kochi, Kerala",
       "organizer": "Gartner",
-      "description": "Technology leadership event covering generative AI, cybersecurity, cloud, infrastructure, data and analytics, and digital transformation.",
-      "categoryHint": "AI / cloud / security / data",
+      "description": "An enterprise technology symposium covering generative AI, cybersecurity, emerging technologies, IT strategy and business transformation.",
+      "categoryHint": "AI; data; cloud; security; enterprise technology",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-30"
   },
   {
     "candidate": {
@@ -848,11 +848,11 @@
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi",
-      "organizer": "Excel, Government Model Engineering College",
-      "description": "24-hour flagship hackathon of Excel 2026, bringing participants together to build technical solutions to real-world problems with industry mentorship.",
-      "categoryHint": "hackathon / technology / maker",
+      "organizer": "Excel 2026, Government Model Engineering College",
+      "description": "Public 24-hour collegiate hackathon conducted under MEC Kochi’s annual techno-managerial fest; registration is through Devfolio and is free.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": "https://hft2026.devfolio.co/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
@@ -1315,6 +1315,86 @@
       "registrationUrl": "https://icsg.world/learn_more/",
       "sourceKind": "official_event_page",
       "confidence": 0.91
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "Techsprint Hackathon Registration Event 2026",
+      "start": "2027-01-02",
+      "end": "2027-01-08",
+      "startTime": null,
+      "endTime": null,
+      "venue": "SCMS School of Engineering and Technology, Ernakulam, Kerala",
+      "city": "Ernakulam (Kochi area)",
+      "organizer": "GDG on Campus SCMS School of Engineering and Technology - Ernakulam",
+      "description": "Public registration event for the Techsprint Hackathon, welcoming developers, coders and technology enthusiasts.",
+      "categoryHint": "college hackathon registration",
+      "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-on-campus-scms-school-of-engineering-and-technology-ernakulam-india-presents-techsprint-hackathon-registration-event-2026/",
+      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-on-campus-scms-school-of-engineering-and-technology-ernakulam-india-presents-techsprint-hackathon-registration-event-2026/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "D’VINE 2.0 – From Vision to Creation",
+      "start": "2026-10-31",
+      "end": "2026-11-01",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Jain University Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "IEEE SB CEC and IEDC CEC",
+      "description": "A 24-hour UI/UX design hackathon.",
+      "categoryHint": "design; product; creative technology",
+      "evidenceUrl": "https://arinjo.in/places/ernakulam",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.76
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "startTime": "09:00",
+      "endTime": "18:00",
+      "venue": "Holiday Inn Cochin, Palarivattom/Vennala, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Google Developer Groups Cloud Kochi",
+      "description": "A cloud and AI conference featuring Google Cloud, Gemini, AI agents, cloud architecture and developer sessions.",
+      "categoryHint": "AI; cloud; developer technology",
+      "evidenceUrl": "https://arinjo.in/events/cloud-community-days-2026",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "sourceKind": "organizer_page",
+      "confidence": 0.95
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "Kerala Global Digital Transformation & Investment Summit 2026",
+      "start": "2026-11-24",
+      "end": "2026-11-25",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Adlux International Convention Centre, Angamaly",
+      "city": "Angamaly, Ernakulam, Kerala",
+      "organizer": "Blue Cloud",
+      "description": "A digital transformation and investment summit bringing together government, enterprises, startups and investors.",
+      "categoryHint": "digital transformation; startups; investment; enterprise technology",
+      "evidenceUrl": "https://bluecloude.com/events",
+      "registrationUrl": "https://events.bluecloude.com/register",
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-30"

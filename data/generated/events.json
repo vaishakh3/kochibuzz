@@ -626,6 +626,29 @@
     "firstSeenAt": "2026-10-17"
   },
   {
+    "id": "web-dmcon-keralam-2026-5-years-of-devops-malayalam-6e1b1482da",
+    "title": "DMCon Keralam 2026 — 5 Years of DevOps Malayalam",
+    "start": "2026-11-14",
+    "end": "2026-11-14",
+    "startTime": "09:00",
+    "endTime": "18:00",
+    "category": "cloud",
+    "venue": "Gokulam Park Kochi",
+    "city": "Ernakulam",
+    "organizer": "DevOps Malayalam",
+    "blurb": "Join DMCon Keralam, a community tech conference in Kochi, Kerala, on 14 November 2026 at Gokulam Park, Kaloor. Explore DevOps, SRE and cloud native.",
+    "tags": [],
+    "url": "https://events.devopsmalayalam.io/",
+    "registerUrl": "https://konfhub.com/dmcon-keralam-2026",
+    "sourceUrls": [
+      "https://events.devopsmalayalam.io/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-30"
+  },
+  {
     "id": "gartner-symposium-kochi-2026",
     "title": "Gartner IT Symposium/Xpo Kochi",
     "start": "2026-11-16",
@@ -648,6 +671,28 @@
     ],
     "manual": true,
     "firstSeenAt": "2026-08-20"
+  },
+  {
+    "id": "web-net-conf-2026-kochi-70f62f5578",
+    "title": ".NET Conf 2026 – Kochi",
+    "start": "2026-11-21",
+    "end": "2026-11-21",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Jain University Knowledge Park, Kakkanad",
+    "city": "Kochi, Kerala",
+    "organizer": "Global AI Kochi",
+    "blurb": "A local .NET conference event covering .NET, Azure, AI, cloud-native applications and developer productivity.",
+    "tags": [],
+    "url": "https://globalai.community/e/bi7w86xf",
+    "sourceUrls": [
+      "https://globalai.community/e/bi7w86xf"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-30"
   },
   {
     "id": "tinkerhub-events-irwwe08c0t",
@@ -677,5 +722,25 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-17"
+  },
+  {
+    "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-final-round-e78e5f8f79",
+    "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026 — Final Round",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
+    "city": "Kochi",
+    "organizer": "Odoo and CUSAT Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC)",
+    "blurb": "Public 24-hour coding hackathon final round for students, freshers and coding enthusiasts; registration is described on the official event page.",
+    "tags": [],
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-10-30"
   }
 ]
