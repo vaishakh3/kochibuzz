@@ -388,28 +388,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
-      "title": "OpenSearch Kerala User Group — First Community Meetup",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "startTime": "09:00",
-      "endTime": "12:00",
-      "category": "cloud",
-      "venue": "Lulu Cyber Tower 2",
-      "city": "Kochi",
-      "organizer": "OpenSearch Project Kerala",
-      "blurb": "Welcome to the **first meetup of the OpenSearch Kerala User Group!** We're bringing together developers, DevOps and SRE engineers, platform engineers, c",
-      "tags": [],
-      "url": "https://www.meetup.com/opensearch-project-kerala/events/316920951/",
-      "sourceUrls": [
-        "https://meetup.com/opensearch-project-kerala/events/316920951"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-10-31"
-    },
-    {
       "id": "tinkerhub-events-fsbu1lqk2m",
       "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
       "start": "2026-11-01",
@@ -728,26 +706,6 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
-    },
-    {
-      "id": "web-startup-dangal-kochi-246ddd6b69",
-      "title": "Startup Dangal — Kochi",
-      "start": "2027-01-15",
-      "end": "2027-01-15",
-      "category": "startup",
-      "venue": "Kochi; exact venue not stated on the event page",
-      "city": "Kochi",
-      "organizer": "Startup Dangal",
-      "blurb": "Startup competition event where selected startups showcase products and pitch to investors, jury members and ecosystem leaders.",
-      "tags": [],
-      "url": "https://startupdangal.com/",
-      "sourceUrls": [
-        "https://startupdangal.com/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-10-31"
     }
   ]
 }
