@@ -21,13 +21,6 @@
       "reason": "A full-day public technology event covering Gemini, AI agents and Google Cloud for the wider developer community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-31T05:51:10.949Z"
-    },
-    "2026-10-31": {
-      "signature": "e262a1b5eb3d2e33355afe28e127b4d71389ade94dbdcf4ac212c046ef476742",
-      "eventId": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
-      "reason": "A confirmed first community meetup with useful technical programming for Kochi’s developer, DevOps and platform-engineering communities.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-31T12:39:59.503Z"
     }
   },
   "lastUsage": {

@@ -388,33 +388,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-km17yh89ye",
-      "title": "Game Night",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "startTime": "20:00",
-      "endTime": "22:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "An introduction session to 3d designing and 3D printing",
-      "tags": [
-        "TinkerHub",
-        "Learning Program",
-        "Gaming"
-      ],
-      "url": "https://tinkerhub.org/events/KM17YH89YE/game-night",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/KM17YH89YE/game-night"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-27"
-    },
-    {
       "id": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
       "title": "OpenSearch Kerala User Group — First Community Meetup",
       "start": "2026-10-31",
