@@ -15,24 +15,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-30T01:04:41.820Z"
     },
-    "2026-10-31": {
-      "signature": "0008bfbd0ca480e25c179349b6dedfc48ff2f0b734ac3f1646db0dec8ec3e569",
-      "eventId": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
-      "reason": "A first community meetup offering substantive technical programming for developers, DevOps and SRE professionals in Kochi.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-31T05:51:10.949Z"
-    },
     "2026-11-14": {
       "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
       "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
       "reason": "A full-day public technology event covering Gemini, AI agents and Google Cloud for the wider developer community.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-31T05:51:10.949Z"
+    },
+    "2026-10-31": {
+      "signature": "e262a1b5eb3d2e33355afe28e127b4d71389ade94dbdcf4ac212c046ef476742",
+      "eventId": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
+      "reason": "A confirmed first community meetup with useful technical programming for Kochi’s developer, DevOps and platform-engineering communities.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-31T12:39:59.503Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 763,
-    "outputTokens": 134
+    "inputTokens": 419,
+    "outputTokens": 76
   }
 }

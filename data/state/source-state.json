@@ -345,7 +345,6 @@
     "infopark-218-24921": "2026-10-23",
     "infopark-259-23357": "2026-10-23",
     "infopark-286-24917": "2026-10-24",
-    "tinkerhub-events-o546l5zsq6": "2026-10-24",
     "infopark-507-26360": "2026-10-24",
     "infopark-262-26361": "2026-10-24",
     "infopark-262-26362": "2026-10-24",
@@ -471,10 +470,16 @@
     "infopark-189-25894": "2026-10-31",
     "infopark-95-25043": "2026-10-31",
     "infopark-95-24927": "2026-10-31",
-    "infopark-189-24333": "2026-10-31"
+    "infopark-189-24333": "2026-10-31",
+    "tinkerhub-events-gyogtbch9g": "2026-10-31",
+    "tinkerhub-events-ed2kqqxshl": "2026-10-31",
+    "tinkerhub-events-jjwzlxxbmg": "2026-10-31",
+    "infopark-313-26510": "2026-10-31",
+    "infopark-313-26511": "2026-10-31",
+    "infopark-95-26512": "2026-10-31"
   },
   "lastCounts": {
-    "infopark-jobs": 414,
+    "infopark-jobs": 417,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 0,
     "dodge-workable": 6,
@@ -482,12 +487,12 @@
     "reply-lever": 3,
     "ksum-careers": 0,
     "luma-kochi": 3,
-    "codex-community-luma": 287,
+    "codex-community-luma": 284,
     "ksum-events": 0,
     "ksum-tenders": 0,
     "paytm-payments-kochi-lever": 11,
     "gdg-cloud-kochi": 5,
     "gdg-cochin": 4,
-    "tinkerhub-events": 7
+    "tinkerhub-events": 9
   }
 }

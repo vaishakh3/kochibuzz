@@ -413,33 +413,6 @@
     "firstSeenAt": "2026-10-27"
   },
   {
-    "id": "tinkerhub-events-o546l5zsq6",
-    "title": "Introduction to 3D printing",
-    "start": "2026-10-31",
-    "end": "2026-10-31",
-    "startTime": "16:00",
-    "endTime": "18:00",
-    "category": "webdev",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "An introduction session to 3d designing and 3D printing",
-    "tags": [
-      "TinkerHub",
-      "Learning Program",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/O546L5ZSQ6/introduction-to-3d-printing",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/O546L5ZSQ6/introduction-to-3d-printing"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-24"
-  },
-  {
     "id": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
     "title": "OpenSearch Kerala User Group — First Community Meetup",
     "start": "2026-10-31",
@@ -519,6 +492,87 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-22"
+  },
+  {
+    "id": "tinkerhub-events-gyogtbch9g",
+    "title": "Security Tuesday",
+    "start": "2026-11-03",
+    "end": "2026-11-03",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "security",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "PHP2Shell: Understanding the Vulnerability, Witnessing the Exploit What happens when a flaw in the software behind a website lets an attacker run commands on a remote server? This session looks at PHP2Shell, a critical PHP security incident. We’ll start with how PHP runs on a web",
+    "tags": [
+      "TinkerHub",
+      "Learning Program",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/GYOGTBCH9G/security-tuesday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/GYOGTBCH9G/security-tuesday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-31"
+  },
+  {
+    "id": "tinkerhub-events-ed2kqqxshl",
+    "title": "AI Wednesday",
+    "start": "2026-11-04",
+    "end": "2026-11-04",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "ai",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Exploring NVIDIA Nemotron 3.5 Transcribe Discover how NVIDIA's newest audio AI model tracks who said what, handles 40 languages, and understands context. We will explore how its unique architecture works and what it takes to run it locally on Jetson Orin Nano hardware.",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/ED2KQQXSHL/ai-wednesday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/ED2KQQXSHL/ai-wednesday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-31"
+  },
+  {
+    "id": "tinkerhub-events-jjwzlxxbmg",
+    "title": "Maker thursday: How not to train a robot",
+    "start": "2026-11-05",
+    "end": "2026-11-05",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "A quick dive into the common mistakes people make when training robotic arms, from blindly collecting demonstrations to jumping straight into VLA models. Exploring why understanding the task, choosing the right approach, and combining traditional robotics with learning can be mor",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/JJWZLXXBMG/maker-thursday-how-not-to-train-a-robot",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/JJWZLXXBMG/maker-thursday-how-not-to-train-a-robot"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-10-31"
   },
   {
     "id": "codex-community-luma-evt-q9inasemnn2p6eb-events-lu-ma",
