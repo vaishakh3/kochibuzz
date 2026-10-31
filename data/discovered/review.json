@@ -46,18 +46,18 @@
       "end": "2026-12-13",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala; specific venue not stated on the event page",
+      "venue": "Kochi, Kerala; exact venue not stated on the event page",
       "city": "Kochi",
       "organizer": "Stanford Seed Transformation Network — South Asia",
-      "description": "Annual gathering of the Stanford Seed Transformation Network South Asia, featuring conference sessions, workshops, learning capsules and networking for founders and business leaders.",
-      "categoryHint": "startup / entrepreneurship / founder conference",
+      "description": "Annual gathering of 400+ founders and CEOs for learning, connection and celebration.",
+      "categoryHint": "startup founders",
       "evidenceUrl": "https://stnsa.org/conclave",
       "registrationUrl": "https://stnsa.org/conclave",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.93
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-30"
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -321,26 +321,6 @@
   },
   {
     "candidate": {
-      "title": "The Advancing Global Conference on Research & Development in Science and Technology",
-      "start": "2026-10-30",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "The Avenue Regent",
-      "city": "Kochi",
-      "organizer": "Not stated on the cited listing",
-      "description": "Science and technology conference listed for Kochi; the available listing identifies the date and venue but does not state an organizer.",
-      "categoryHint": "technology",
-      "evidenceUrl": "https://10times.com/kochi-in?radius=50",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.58
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-16"
-  },
-  {
-    "candidate": {
       "title": "Dev Days | Kochi, India",
       "start": "2026-09-01",
       "end": "2026-10-31",
@@ -361,23 +341,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi 2026",
+      "title": "Google Cloud Community Day Kochi - 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": "09:00",
-      "endTime": null,
-      "venue": "Holiday Inn Cochin, National Highway Bypass, Kochi",
+      "endTime": "18:30",
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
       "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day event covering Gemini, AI agents, cloud architecture, Google Cloud and related developer technologies.",
-      "categoryHint": "AI / cloud / data",
+      "description": "Full-day developer and cloud event covering Gemini, AI agents, Google Cloud, cloud architecture, and related technologies.",
+      "categoryHint": "Google Cloud / AI / Developer conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -461,23 +441,23 @@
   },
   {
     "candidate": {
-      "title": "DMCon 2026",
+      "title": "DMCon Keralam 2026",
       "start": "2026-11-14",
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi-area venue not stated on the available event page",
+      "venue": "Gokulam Park, Banerji Road, Kaloor",
       "city": "Kochi, Kerala",
-      "organizer": "DevOps Malayalam community",
-      "description": "Community-driven technology conference for engineers, developers, SREs, DevOps and platform engineers, architects, open-source contributors and technology leaders.",
-      "categoryHint": "technology / DevOps / cloud native",
+      "organizer": "DevOps Malayalam",
+      "description": "DevOps, platform engineering, SRE and cloud-native technology conference with talks and hands-on workshops. Public ticket registration is available.",
+      "categoryHint": "conference",
       "evidenceUrl": "https://events.devopsmalayalam.io/",
-      "registrationUrl": null,
+      "registrationUrl": "https://events.devopsmalayalam.io/",
       "sourceKind": "official_event_page",
-      "confidence": 0.72
+      "confidence": 0.98
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-09-26"
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -538,26 +518,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-19"
-  },
-  {
-    "candidate": {
-      "title": "Advancing Global Conference on Research & Development in Science and Technology",
-      "start": "2026-10-30",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "The Avenue Regent",
-      "city": "Kochi, Kerala",
-      "organizer": "Not stated on the available evidence page",
-      "description": "Conference on research and development in science and technology.",
-      "categoryHint": "Science / technology",
-      "evidenceUrl": "https://10times.com/kochi-in",
-      "registrationUrl": null,
-      "sourceKind": "news_listing",
-      "confidence": 0.66
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-05"
   },
   {
     "candidate": {
@@ -741,26 +701,6 @@
   },
   {
     "candidate": {
-      "title": "Yugantra 2026",
-      "start": "2026-10-30",
-      "end": null,
-      "startTime": null,
-      "endTime": null,
-      "venue": "JAIN (Deemed-to-be University), Kochi",
-      "city": "Kochi",
-      "organizer": "Yugantra / JAIN University, Kochi",
-      "description": "Technology fest including an AWS workshop, a GDGC workshop, a CSAI masterclass, a pitchathon and other technology and creative activities.",
-      "categoryHint": "developer / AWS / startup / creative tech",
-      "evidenceUrl": "https://yugantra.in/yugantra/",
-      "registrationUrl": "https://yugantra.in/yugantra/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.94
-    },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-20"
-  },
-  {
-    "candidate": {
       "title": "TEKNOVA ’26",
       "start": "2026-12-02",
       "end": "2026-12-03",
@@ -849,15 +789,15 @@
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi",
       "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "Public 24-hour collegiate hackathon conducted under MEC Kochi’s annual techno-managerial fest; registration is through Devfolio and is free.",
-      "categoryHint": "college coding hackathon",
+      "description": "24-hour hackathon focused on building technical solutions with mentorship from industry professionals.",
+      "categoryHint": "maker / hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft2026.devfolio.co/",
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-30"
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -941,23 +881,23 @@
   },
   {
     "candidate": {
-      "title": "Qiskit Fall Fest 2026: Quantum Hack Day Kochi",
+      "title": "Quantum Hack Day Kochi",
       "start": "2026-11-01",
-      "end": null,
-      "startTime": "10:00",
-      "endTime": "18:00",
+      "end": "2026-11-01",
+      "startTime": null,
+      "endTime": null,
       "venue": "TinkerSpace",
-      "city": "Kochi, Kerala",
-      "organizer": "QuantumX and TinkerSpace",
-      "description": "Hands-on quantum-computing hackathon using Qiskit, with project development and demos.",
-      "categoryHint": "hackathon",
+      "city": "Kochi",
+      "organizer": "QuantumX Foundation",
+      "description": "In-person quantum-computing hack day conducted as part of Qiskit Fall Fest 2026.",
+      "categoryHint": "maker / open source / hackathon",
       "evidenceUrl": "https://qff26.quantumx.foundation/kochi-hack",
       "registrationUrl": "https://qff26.quantumx.foundation/kochi-hack",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -1049,15 +989,15 @@
       "venue": "Thapasya Auditorium, Infopark Phase 1",
       "city": "Kochi, Kerala",
       "organizer": "Prathidhwani Technical Forum and KnoaLabs",
-      "description": "Free workshop on using Playwright with AI for testing workflows.",
-      "categoryHint": "technology workshop",
+      "description": "Free workshop on Playwright with AI for smarter testing workflows. Registration is publicly announced.",
+      "categoryHint": "workshop",
       "evidenceUrl": "https://in.linkedin.com/company/prathidhwani-technical-forum",
       "registrationUrl": "https://lnkd.in/g2_YU8ke",
       "sourceKind": "social_post",
       "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-26"
+    "discoveredAt": "2026-10-31"
   },
   {
     "candidate": {
@@ -1398,5 +1338,25 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-10-30"
+  },
+  {
+    "candidate": {
+      "title": "TEKNOVA ’26",
+      "start": "2026-12-02",
+      "end": "2026-12-03",
+      "startTime": "09:00",
+      "endTime": null,
+      "venue": "KMM College of Arts and Science, Thrikkakara",
+      "city": "Kochi",
+      "organizer": "Department of MCA, KMM College of Arts and Science",
+      "description": "Two-day technology and innovation festival featuring an ideathon, debugging competitions, exhibitions and creative contests.",
+      "categoryHint": "technology / creative-tech",
+      "evidenceUrl": "https://campuzine.com/event/teknova-26/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.83
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-10-31"
   }
 ]

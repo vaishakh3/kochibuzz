@@ -1,13 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-10-31": {
-      "signature": "8e60c90633e329f12204bfd5603fc6203f2ac41dde1e1ee2a7a7265f5ed320ea",
-      "eventId": "tinkerhub-events-o546l5zsq6",
-      "reason": "A practical 3D design and printing session offers broader learning value than the gaming-themed listing.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-28T16:41:06.596Z"
-    },
     "2026-11-01": {
       "signature": "63710b2b006e9aa02ebfa89f3ae721a415507fa0f14eaff29ddb9d8b6b5ede7c",
       "eventId": "tinkerhub-events-sxkooaedkx",
@@ -22,17 +15,24 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-30T01:04:41.820Z"
     },
-    "2026-11-14": {
-      "signature": "9c9713104aeff43511f39595f921f274a9e2b3c24b8d429338bcc4ab292598cc",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day, publicly relevant technology programme covering Gemini, AI agents and Google Cloud for Kochi’s developer community.",
+    "2026-10-31": {
+      "signature": "0008bfbd0ca480e25c179349b6dedfc48ff2f0b734ac3f1646db0dec8ec3e569",
+      "eventId": "web-opensearch-kerala-user-group-first-community-meetup-8aa1ebb479",
+      "reason": "A first community meetup offering substantive technical programming for developers, DevOps and SRE professionals in Kochi.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-30T14:15:27.634Z"
+      "rankedAt": "2026-10-31T05:51:10.949Z"
+    },
+    "2026-11-14": {
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day public technology event covering Gemini, AI agents and Google Cloud for the wider developer community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-10-31T05:51:10.949Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 573,
-    "outputTokens": 80
+    "inputTokens": 763,
+    "outputTokens": 134
   }
 }
