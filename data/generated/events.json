@@ -403,11 +403,9 @@
       "Community Building"
     ],
     "url": "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi",
-    "registerUrl": "https://luma.com/ndjvmw7w",
     "sourceUrls": [
       "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi",
-      "https://luma.com/ndjvmw7w"
+      "https://tinkerhub.org/events/FSBU1LQK2M/qiskit-fall-fest-2026-quantum-hack-day-kochi"
     ],
     "sourceIds": [
       "tinkerhub-events"
@@ -575,6 +573,28 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-10-28"
+  },
+  {
+    "id": "gdg-cochin-events-details-google-gdg-cochin-presents-gemini-fusion",
+    "title": "Gemini Fusion",
+    "start": "2026-11-08",
+    "end": "2026-11-08",
+    "startTime": "09:30",
+    "endTime": "13:00",
+    "category": "ai",
+    "venue": "Jain University Kochi",
+    "city": "Kochi",
+    "organizer": "Google Developer Groups",
+    "blurb": "Join a vibrant half-day meetup on Google's Gemini ecosystem. Connect with local developers and tech enthusiasts over coffee and inspiring discussions. Enjoy enlightening talks and community demos exploring AI innovation. Conclude with open networking and meaningful conversations.",
+    "tags": [],
+    "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-gemini-fusion/",
+    "sourceUrls": [
+      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-gemini-fusion/"
+    ],
+    "sourceIds": [
+      "gdg-cochin"
+    ],
+    "firstSeenAt": "2026-11-01"
   },
   {
     "id": "huddle-global-2026",
