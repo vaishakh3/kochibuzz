@@ -381,23 +381,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × Make-A-Ton 9.0 — 24-hour final",
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon, Kochi 2026",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "CITTIC, CUSAT × Odoo",
-      "description": "Hiring hackathon focused on building technical solutions, with startup and industry opportunities.",
-      "categoryHint": "maker / technology / startup",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery, Kochi",
+      "city": "Kalamassery",
+      "organizer": "Odoo and CUSAT",
+      "description": "Final 24-hour startup and hiring hackathon round held on the CUSAT campus.",
+      "categoryHint": "startup",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.95
     },
-    "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-24"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-01"
   },
   {
     "candidate": {
@@ -746,15 +746,15 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala 682021",
-      "city": "Kochi",
-      "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "A 24-hour hackathon focused on building technical solutions to real-world problems.",
-      "categoryHint": "technology / hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel 2026 / Government Model Engineering College",
+      "description": "Public 24-hour student hackathon with free registration via Devfolio; teams of 2–4 are accepted.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-11-01"
@@ -821,23 +821,23 @@
   },
   {
     "candidate": {
-      "title": "T DMCON Keralam 2026",
-      "start": "2026-11-14",
-      "end": null,
-      "startTime": "09:00",
+      "title": "Gartner IT Symposium/Xpo 2026",
+      "start": "2026-11-16",
+      "end": "2026-11-18",
+      "startTime": null,
       "endTime": null,
-      "venue": "Gokulam Park Hotel and Convention Center Kochi",
-      "city": "Kaloor, Kochi",
-      "organizer": "DevOps Malayalam",
-      "description": "Technology conference listed for 14 November 2026.",
-      "categoryHint": "DevOps / technology conference",
+      "venue": "Grand Hyatt Kochi Bolgatty, Bolgatty & Mulavukad, Kochi",
+      "city": "Kochi",
+      "organizer": "Gartner",
+      "description": "Three-day technology symposium listed for Kochi.",
+      "categoryHint": "technology",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.76
+      "confidence": 0.66
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-29"
+    "discoveredAt": "2026-11-01"
   },
   {
     "candidate": {
@@ -1298,5 +1298,45 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-31"
+  },
+  {
+    "candidate": {
+      "title": "eChai Startup Demo Day",
+      "start": "2026-11-21",
+      "end": null,
+      "startTime": "18:00",
+      "endTime": "20:00",
+      "venue": "Venue to be confirmed",
+      "city": "Kochi",
+      "organizer": "eChai Ventures",
+      "description": "Open startup demo-day gathering listed for Kochi.",
+      "categoryHint": "startup",
+      "evidenceUrl": "https://echai.ventures/events?city=kochi",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.86
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-01"
+  },
+  {
+    "candidate": {
+      "title": "PROWAVE Expo",
+      "start": "2026-11-17",
+      "end": "2026-11-19",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Adlux International Convention & Exhibition Centre, Angamaly, Kochi area",
+      "city": "Angamaly",
+      "organizer": "PROWAVE Expo / Visitexpo",
+      "description": "B2B exhibition covering live-event production technology, broadcasting infrastructure, sound systems and staging technology.",
+      "categoryHint": "creative-tech",
+      "evidenceUrl": "https://visitexpo.in/event/prowave-expo/",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-01"
   }
 ]
