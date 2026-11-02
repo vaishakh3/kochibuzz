@@ -306,18 +306,18 @@
       "end": null,
       "startTime": "09:00",
       "endTime": "18:30",
-      "venue": "Holiday Inn Cochin, National Highway Bypass, Kochi",
-      "city": "Kochi",
+      "venue": "Holiday Inn Cochin, an IHG Hotel, National Highway Bypass",
+      "city": "Kochi, Kerala",
       "organizer": "GDG Cloud Kochi",
-      "description": "A full-day technology conference focused on Google Cloud, Gemini, AI agents, cloud architecture and developer networking.",
-      "categoryHint": "conference; cloud; AI; developer community",
+      "description": "Full-day developer and technology conference focused on Gemini, AI agents, Google Cloud, cloud architecture, developer tools and networking.",
+      "categoryHint": "GDG / Cloud / AI / Developer conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
       "registrationUrl": "https://ccd.gdgcloudkochi.com/",
       "sourceKind": "official_event_page",
-      "confidence": 0.97
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-02"
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {
@@ -361,23 +361,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
+      "title": "Make-A-Ton 9.0",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi, Kerala",
-      "organizer": "Odoo and CUSAT",
-      "description": "Twenty-four-hour startup hackathon final focused on building, demonstrating and pitching products, with designers, builders and founders participating.",
-      "categoryHint": "Startup; product; design; hackathon",
+      "venue": "Cochin University of Science and Technology, Kalamassery, Kochi",
+      "city": "Kochi",
+      "organizer": "Odoo and CITTIC, CUSAT",
+      "description": "24-hour hiring hackathon involving coding, prototyping, startup ideas and technical collaboration.",
+      "categoryHint": "hackathon; startup; coding; maker",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-02"
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {
@@ -481,23 +481,23 @@
   },
   {
     "candidate": {
-      "title": "Google Cloud Community Day Kochi - 2026",
+      "title": "Google Cloud Community Day Kochi 2026",
       "start": "2026-11-14",
       "end": "2026-11-14",
       "startTime": "09:00",
       "endTime": "18:00",
-      "venue": "Holiday Inn, Kochi, NH Bypass, Kochi 682028",
-      "city": "Kochi, Kerala",
+      "venue": "Holiday Inn, NH Bypass, Kochi 682028",
+      "city": "Kochi",
       "organizer": "GDG Cloud Kochi",
-      "description": "Full-day community event covering Gemini, AI agents, Google Cloud, cloud architecture and developer tools.",
-      "categoryHint": "Google Cloud / AI / developer",
+      "description": "Full-day technology event focused on Gemini, AI agents, Google Cloud, cloud architecture and developer tools.",
+      "categoryHint": "technology; AI; cloud; developer community",
       "evidenceUrl": "https://ccd.gdgcloudkochi.com/",
-      "registrationUrl": "https://konfhub.com/ccd-kochi-2026",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {
@@ -1121,23 +1121,23 @@
   },
   {
     "candidate": {
-      "title": "eChai Startup Demo Day",
+      "title": "eChai Startup Demo Day Kochi",
       "start": "2026-11-21",
-      "end": null,
+      "end": "2026-11-21",
       "startTime": "18:00",
       "endTime": "20:00",
-      "venue": "Venue to be confirmed",
+      "venue": "Venue to be confirmed, Kochi",
       "city": "Kochi",
       "organizer": "eChai Ventures",
-      "description": "Open startup demo-day gathering listed for Kochi.",
-      "categoryHint": "startup",
+      "description": "Startup demo day for founders and the startup ecosystem. The public listing states the date and Kochi location but does not provide a confirmed venue.",
+      "categoryHint": "startup; founders; demo day",
       "evidenceUrl": "https://echai.ventures/events?city=kochi",
       "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.86
+      "confidence": 0.85
     },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-01"
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {
@@ -1198,5 +1198,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-02"
+  },
+  {
+    "candidate": {
+      "title": "Cognicraft 2026",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Ernakulam, Kerala",
+      "city": "Ernakulam/Kochi area",
+      "organizer": "FOSS United",
+      "description": "Open-source event listed in the FOSS United event timeline. The listing provides the dates and Ernakulam location.",
+      "categoryHint": "open source; technology",
+      "evidenceUrl": "https://fossunited.org/events/timeline",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-03"
   }
 ]
