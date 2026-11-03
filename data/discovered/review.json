@@ -629,15 +629,15 @@
       "venue": "Courtyard by Marriott, Kochi",
       "city": "Kochi",
       "organizer": "CIO Association Kerala Chapter",
-      "description": "Technology-leadership event covering technology solutions, real-world experiences, emerging possibilities, innovation and impact.",
-      "categoryHint": "technology leadership / innovation",
+      "description": "Technology-leadership event focused on technology solutions, real-world experiences, emerging possibilities and innovation.",
+      "categoryHint": "technology leadership",
       "evidenceUrl": "https://www.linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe",
       "registrationUrl": null,
       "sourceKind": "social_post",
-      "confidence": 0.94
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-30"
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {
@@ -686,18 +686,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "venue": "Government Model Engineering College, Thrikkakara",
       "city": "Kochi, Kerala",
-      "organizer": "Excel 2026 / Government Model Engineering College",
-      "description": "Public 24-hour student hackathon with free registration via Devfolio; teams of 2–4 are accepted.",
-      "categoryHint": "college coding hackathon",
+      "organizer": "Excel, Government Model Engineering College Kochi",
+      "description": "A 24-hour hackathon focused on solving real-world problems; part of Excel 2026, the college’s annual techno-managerial fest.",
+      "categoryHint": "hackathon / technology",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-01"
+    "discoveredAt": "2026-11-03"
   },
   {
     "candidate": {

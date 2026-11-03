@@ -520,6 +520,60 @@
       "firstSeenAt": "2026-10-28"
     },
     {
+      "id": "tinkerhub-events-d84d5cgdlz",
+      "title": "Watt's brewing",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "startTime": "04:00",
+      "endTime": "07:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Placement talks",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/D84D5CGDLZ/watt-s-brewing",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/D84D5CGDLZ/watt-s-brewing"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-03"
+    },
+    {
+      "id": "tinkerhub-events-ivo2dj5sdp",
+      "title": "Gramasabha",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "startTime": "21:00",
+      "endTime": "22:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Grama Sabha: The Monthly TinkerHub Meetup Grama Sabha is the monthly get-together where the TinkerHub community catches up and plans what’s ahead. This month we’re also kicking off discussions around Space Carnival, so if you want a say in how it comes together, this is the room ",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/IVO2DJ5SDP/gramasabha",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/IVO2DJ5SDP/gramasabha"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-03"
+    },
+    {
       "id": "gdg-cochin-events-details-google-gdg-cochin-presents-gemini-fusion",
       "title": "Gemini Fusion",
       "start": "2026-11-08",
@@ -642,6 +696,64 @@
       "firstSeenAt": "2026-08-20"
     },
     {
+      "id": "tinkerhub-events-es9zmgv4on",
+      "title": "Codex Community Game Jam",
+      "start": "2026-11-20",
+      "end": "2026-11-21",
+      "startTime": "19:30",
+      "endTime": "07:30",
+      "category": "hackathon",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "🎮 Kochi, It's Game On. ​One night. Twelve hours. One playable game. ​We're bringing together Kochi's most creative builders, developers, designers, and gamers for an overnight OpenAI Codex Community Game Jam at TinkerSpace, Kochi. ​The challenge is simple: build a game from scra",
+      "tags": [
+        "TinkerHub",
+        "Hackathon",
+        "Gaming"
+      ],
+      "url": "https://tinkerhub.org/events/ES9ZMGV4ON/codex-community-game-jam",
+      "registerUrl": "https://luma.com/qzms8nhq",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/ES9ZMGV4ON/codex-community-game-jam",
+        "https://luma.com/qzms8nhq"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-03"
+    },
+    {
+      "id": "tinkerhub-events-xlmnt169un",
+      "title": "Useless bots : buildathon",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "startTime": "14:00",
+      "endTime": "07:00",
+      "category": "hackathon",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "BUILDATHON: USELESS BOTS IEEE RAS CUSAT SBC, in collaboration with TinkerHub, presents Buildathon, an overnight beginner-friendly building hackathon centred around the theme Useless Bots. Unlike traditional hackathons that focus on solving practical problems, Buildathon encourage",
+      "tags": [
+        "TinkerHub",
+        "Hackathon",
+        "Product Design"
+      ],
+      "url": "https://tinkerhub.org/events/XLMNT169UN/useless-bots-buildathon",
+      "registerUrl": "https://luma.com/ugpnkdir",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/XLMNT169UN/useless-bots-buildathon",
+        "https://luma.com/ugpnkdir"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-03"
+    },
+    {
       "id": "tinkerhub-events-irwwe08c0t",
       "title": "bi0s Meetup",
       "start": "2026-12-05",
@@ -669,26 +781,6 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
-    },
-    {
-      "id": "web-startup-dangal-kochi-246ddd6b69",
-      "title": "Startup Dangal Kochi",
-      "start": "2027-01-15",
-      "end": "2027-01-15",
-      "category": "startup",
-      "venue": "Kochi, Kerala; exact venue not specified on the public event page",
-      "city": "Kochi",
-      "organizer": "Startup Dangal",
-      "blurb": "Startup competition with startup showcases, live pitching, investors, jury members and ecosystem leaders.",
-      "tags": [],
-      "url": "https://startupdangal.com/",
-      "sourceUrls": [
-        "https://startupdangal.com/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-11-03"
     }
   ]
 }

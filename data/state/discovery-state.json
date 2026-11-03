@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-02T23:36:22.852Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-11-03T15:14:07.548Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -127,11 +127,11 @@
     "https://campuzine.com/campus_connect/teknova-26": "2026-10-20",
     "https://events.heapheaphurray.com/kochi": "2026-10-27",
     "https://luma.com/StartupWeekendKochi": "2026-10-20",
-    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-10-30",
+    "https://linkedin.com/posts/cioassociation_cioreconnect2026-cioassociation-cioassociationkerala-activity-7511639996605353984-IJJe": "2026-11-03",
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-01",
+    "https://hft.excelmec.org/": "2026-11-03",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-28",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -168,7 +168,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28948,
-    "outputTokens": 1081
+    "inputTokens": 29110,
+    "outputTokens": 518
   }
 }
