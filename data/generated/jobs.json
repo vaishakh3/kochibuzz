@@ -39,97 +39,6 @@
     "firstSeenAt": "2026-11-03"
   },
   {
-    "id": "infopark-296-26554",
-    "title": "Senior Business Development Specialist – IT Services",
-    "company": "Grapelime Innovations Private Limited",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/296/26554",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26548",
-    "title": "Sr.DevSecOps Engineer",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26548",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26549",
-    "title": "Business Development Manager",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26549",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26550",
-    "title": "Associate - System Engineer",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26550",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26551",
-    "title": "Visual Designer",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "design",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26551",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26552",
-    "title": "B2B Content Specialist",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26552",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
-    "id": "infopark-312-26553",
-    "title": "Marketing & Growth Lead",
-    "company": "2Base Technologies Pvt Ltd",
-    "postedAt": "2026-11-03",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/312/26553",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
     "id": "infopark-313-26560",
     "title": "Client Account Manager",
     "company": "Titan Tech Emirates Pvt Ltd",
@@ -297,6 +206,58 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-11-03"
+  },
+  {
+    "id": "infopark-378-26581",
+    "title": "SAP Business One Consultant",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-11-03",
+    "deadlineAt": "2026-12-03",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/26581",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-11-04"
+  },
+  {
+    "id": "infopark-378-26582",
+    "title": "Mechanical Design Engineer",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-11-03",
+    "deadlineAt": "2026-12-03",
+    "location": "Infopark, Kochi",
+    "category": "design",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/26582",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-11-04"
+  },
+  {
+    "id": "infopark-378-26583",
+    "title": "Senior SAP Vistex Consultant",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-11-03",
+    "deadlineAt": "2026-12-03",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/26583",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-11-04"
+  },
+  {
+    "id": "infopark-378-26584",
+    "title": "Senior SAP ERP Consultant",
+    "company": "Simelabs - An Astek Company",
+    "postedAt": "2026-11-03",
+    "deadlineAt": "2026-12-03",
+    "location": "Infopark, Kochi",
+    "category": "other",
+    "detailUrl": "https://infopark.in/company-jobs/details/378/26584",
+    "sourceUrl": "https://infopark.in/companies-job",
+    "sourceId": "infopark-jobs",
+    "firstSeenAt": "2026-11-04"
   },
   {
     "id": "infopark-39-26555",
@@ -2374,19 +2335,6 @@
     "firstSeenAt": "2026-11-03"
   },
   {
-    "id": "infopark-498-26004",
-    "title": "Sales Lead",
-    "company": "Abilytics Consulting Pvt Ltd",
-    "postedAt": "2026-10-08",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/498/26004",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-03"
-  },
-  {
     "id": "paytm-payments-kochi-lever-ff30dfd8-310e-45cd-83fb-9d21a7b19104",
     "title": "Sales Team Leader - MMB 1   - Cochin",
     "company": "Paytm Payments",
@@ -2436,45 +2384,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-07"
-  },
-  {
-    "id": "infopark-138-25952",
-    "title": "Senior Full Stack Engineer (Django & React)",
-    "company": "Cascade Revenue Management Pvt. Ltd",
-    "postedAt": "2026-10-06",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/138/25952",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-06"
-  },
-  {
-    "id": "infopark-138-25953",
-    "title": "Senior Frontend Engineer – React",
-    "company": "Cascade Revenue Management Pvt. Ltd",
-    "postedAt": "2026-10-06",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/138/25953",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-06"
-  },
-  {
-    "id": "infopark-138-25954",
-    "title": "Backend Engineer – Python / Django",
-    "company": "Cascade Revenue Management Pvt. Ltd",
-    "postedAt": "2026-10-06",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/138/25954",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-06"
   },
   {
     "id": "infopark-182-25927",
@@ -3305,19 +3214,6 @@
     "firstSeenAt": "2026-11-03"
   },
   {
-    "id": "infopark-85-25141",
-    "title": "Technical Program Manager",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-08-19",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/25141",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "paytm-payments-ernakulam-lever-7b145064-ab54-46ae-aac9-3dcf9f5c28ee",
     "title": "KAM - Associate - QR - Ernakulam",
     "company": "Paytm Payments",
@@ -3789,19 +3685,6 @@
     "firstSeenAt": "2026-11-03"
   },
   {
-    "id": "infopark-85-24330",
-    "title": ".NET Technical Lead",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-06-25",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/24330",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "infopark-495-24308",
     "title": "Business Analyst - Associate 1 (EVATRA)",
     "company": "Difinity Digital",
@@ -4033,19 +3916,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "infopark-85-23665",
-    "title": "Senior Technical Lead / Architect",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-05-21",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/23665",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-259-23618",
@@ -4307,19 +4177,6 @@
     "firstSeenAt": "2026-10-30"
   },
   {
-    "id": "infopark-168-22697",
-    "title": "Student Counsellor - Overseas Education - Freshers",
-    "company": "Opshore Talent Solutions Pvt.Ltd",
-    "postedAt": "2026-03-26",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/168/22697",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-02"
-  },
-  {
     "id": "infopark-495-22663",
     "title": "SAP B1 FUNCTIONAL CONSULTANT",
     "company": "Difinity Digital",
@@ -4331,19 +4188,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-08-20"
-  },
-  {
-    "id": "infopark-85-22501",
-    "title": "Technical Recruitment Lead",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-03-13",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/22501",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-181-22473",
@@ -4554,58 +4398,6 @@
     "firstSeenAt": "2026-10-30"
   },
   {
-    "id": "infopark-85-21619",
-    "title": "Salesforce Associate Solution Architect",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-01-15",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21619",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-21620",
-    "title": "Salesforce Functional Consultant",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-01-15",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21620",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-21621",
-    "title": "Senior Salesforce Developer / Technical Consultant",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-01-15",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21621",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-21637",
-    "title": "UX Associate Lead",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-01-15",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "design",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21637",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "infopark-352-21539",
     "title": "Sales Executive",
     "company": "TouchWorld Technology",
@@ -4630,19 +4422,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-26"
-  },
-  {
-    "id": "infopark-85-21505",
-    "title": "Senior Solution Architect / Principal Solution Architect",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2026-01-06",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21505",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-107-21492",
@@ -4709,45 +4488,6 @@
     "firstSeenAt": "2026-11-02"
   },
   {
-    "id": "infopark-85-21255",
-    "title": "Senior ServiceNow Developer / Technical Consultant",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-12-04",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21255",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-21257",
-    "title": "ServiceNow Architect / Associate Architect",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-12-04",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21257",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-21258",
-    "title": "ServiceNow Functional Consultant",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-12-04",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/21258",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "infopark-410-21222",
     "title": "Digital Marketing Intern",
     "company": "Valoriz Digital Pvt. Ltd",
@@ -4800,32 +4540,6 @@
     "firstSeenAt": "2026-09-21"
   },
   {
-    "id": "infopark-85-20978",
-    "title": "Senior AI/ML Engineer",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-11-05",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "ai-data",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20978",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-20980",
-    "title": "Business Development Manager",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-11-05",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20980",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "infopark-506-20970",
     "title": "MS SQL Developer",
     "company": "Origent Technologies",
@@ -4837,32 +4551,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-09"
-  },
-  {
-    "id": "infopark-85-20929",
-    "title": "Senior Software Engineer - Java",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-10-30",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20929",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-20916",
-    "title": "Team Lead - AI/ML",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-10-29",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "ai-data",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20916",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-105-20872",
@@ -4930,32 +4618,6 @@
     "firstSeenAt": "2026-10-30"
   },
   {
-    "id": "infopark-85-20832",
-    "title": "Senior Python Developer",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-10-22",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "engineering",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20832",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
-    "id": "infopark-85-20718",
-    "title": "Python Technical Lead",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2025-10-13",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/20718",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
-  },
-  {
     "id": "infopark-502-20705",
     "title": "Database Developer",
     "company": "Cyberion Software Solutions Pvt. Ltd",
@@ -5006,19 +4668,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-09-21"
-  },
-  {
-    "id": "infopark-168-19811",
-    "title": "Digital Marketing Specialist",
-    "company": "Opshore Talent Solutions Pvt.Ltd",
-    "postedAt": "2025-07-29",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/168/19811",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-02"
   },
   {
     "id": "infopark-171-19772",
@@ -5345,19 +4994,6 @@
     "firstSeenAt": "2026-10-08"
   },
   {
-    "id": "infopark-168-16967",
-    "title": "Receptionist/Tele Calling Executive",
-    "company": "Opshore Talent Solutions Pvt.Ltd",
-    "postedAt": "2024-10-16",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/168/16967",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-02"
-  },
-  {
     "id": "infopark-194-16884",
     "title": "Operations Executive - Medical Underwriting (Health Insurance Industry)",
     "company": "HTIC Global",
@@ -5395,19 +5031,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-23"
-  },
-  {
-    "id": "infopark-85-16576",
-    "title": "Senior Business Development Executive",
-    "company": "Techversant Infotech Pvt Ltd",
-    "postedAt": "2024-08-09",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "business",
-    "detailUrl": "https://infopark.in/company-jobs/details/85/16576",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-10-21"
   },
   {
     "id": "infopark-164-16434",
@@ -5462,19 +5085,6 @@
     "firstSeenAt": "2026-10-14"
   },
   {
-    "id": "infopark-168-15904",
-    "title": "Senior Overseas Education Counsellor",
-    "company": "Opshore Talent Solutions Pvt.Ltd",
-    "postedAt": "2024-04-10",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "other",
-    "detailUrl": "https://infopark.in/company-jobs/details/168/15904",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-02"
-  },
-  {
     "id": "infopark-194-15882",
     "title": "Operations Executive - UAE Group Medical Endorsement Department",
     "company": "HTIC Global",
@@ -5525,19 +5135,6 @@
     "sourceUrl": "https://infopark.in/companies-job",
     "sourceId": "infopark-jobs",
     "firstSeenAt": "2026-10-07"
-  },
-  {
-    "id": "infopark-105-14473",
-    "title": "Project Manager Lead (Exp: 7+years)",
-    "company": "Webandcrafts",
-    "postedAt": "2023-08-04",
-    "deadlineAt": "2026-11-03",
-    "location": "Infopark, Kochi",
-    "category": "product",
-    "detailUrl": "https://infopark.in/company-jobs/details/105/14473",
-    "sourceUrl": "https://infopark.in/companies-job",
-    "sourceId": "infopark-jobs",
-    "firstSeenAt": "2026-11-02"
   },
   {
     "id": "infopark-95-12779",

@@ -8,19 +8,19 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-30T01:04:41.820Z"
     },
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-02T23:36:32.964Z"
-    },
     "2026-11-07": {
       "signature": "e7076d8a5d77614d13998418b0b67310c9cc6a95474990afac59db57dbe965e3",
       "eventId": "tinkerhub-events-ivo2dj5sdp",
       "reason": "A recurring community meetup with planning for Space Carnival offers broader participation and programming than a placement-focused talk.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-11-03T15:14:19.193Z"
+    },
+    "2026-11-14": {
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-02T23:36:32.964Z"
     }
   },
   "lastUsage": {

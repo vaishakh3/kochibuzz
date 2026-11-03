@@ -388,33 +388,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-gyogtbch9g",
-      "title": "Security Tuesday",
-      "start": "2026-11-03",
-      "end": "2026-11-03",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "security",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "PHP2Shell: Understanding the Vulnerability, Witnessing the Exploit What happens when a flaw in the software behind a website lets an attacker run commands on a remote server? This session looks at PHP2Shell, a critical PHP security incident. We’ll start with how PHP runs on a web",
-      "tags": [
-        "TinkerHub",
-        "Learning Program",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/GYOGTBCH9G/security-tuesday",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/GYOGTBCH9G/security-tuesday"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-31"
-    },
-    {
       "id": "tinkerhub-events-ed2kqqxshl",
       "title": "AI Wednesday",
       "start": "2026-11-04",
