@@ -386,33 +386,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-ed2kqqxshl",
-    "title": "AI Wednesday",
-    "start": "2026-11-04",
-    "end": "2026-11-04",
-    "startTime": "19:00",
-    "endTime": "21:00",
-    "category": "ai",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Exploring NVIDIA Nemotron 3.5 Transcribe Discover how NVIDIA's newest audio AI model tracks who said what, handles 40 languages, and understands context. We will explore how its unique architecture works and what it takes to run it locally on Jetson Orin Nano hardware.",
-    "tags": [
-      "TinkerHub",
-      "Meetup",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/ED2KQQXSHL/ai-wednesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/ED2KQQXSHL/ai-wednesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-10-31"
-  },
-  {
     "id": "tinkerhub-events-jjwzlxxbmg",
     "title": "Maker thursday: How not to train a robot",
     "start": "2026-11-05",
@@ -543,6 +516,35 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-11-03"
+  },
+  {
+    "id": "tinkerhub-events-ttnwdvgwmd",
+    "title": "Mozilla CHRIST Human Scale AI Buildathon 2026 – Kochi Regionals",
+    "start": "2026-11-07",
+    "end": "2026-11-07",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "category": "hackathon",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Mozilla CHRIST Human Scale AI Buildathon 2026 – Kochi Regionals will be happening on November 2027 at TinkerSpace Kochi The Kochi Regionals is a qualifying round leading up to the Mozilla CHRIST Human Scale AI Buildathon. Before registering, please note: Team size: 2–3 members. I",
+    "tags": [
+      "TinkerHub",
+      "Hackathon",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/TTNWDVGWMD/mozilla-christ-human-scale-ai-buildathon-2026-kochi-regionals",
+    "registerUrl": "https://chodhyam.tinkerhub.org/nc/form/0bb73ad5-5e04-4865-9c4b-0f2dc5fe73c0",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/TTNWDVGWMD/mozilla-christ-human-scale-ai-buildathon-2026-kochi-regionals",
+      "https://chodhyam.tinkerhub.org/nc/form/0bb73ad5-5e04-4865-9c4b-0f2dc5fe73c0"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-04"
   },
   {
     "id": "gdg-cochin-events-details-google-gdg-cochin-presents-gemini-fusion",
