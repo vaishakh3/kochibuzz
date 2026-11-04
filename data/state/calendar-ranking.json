@@ -8,19 +8,19 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-10-30T01:04:41.820Z"
     },
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-02T23:36:32.964Z"
-    },
     "2026-11-07": {
       "signature": "d2ca443be0aba016ddea598fdc6e632238dbd46c41da8524bebb20defaeb0650",
       "eventId": "tinkerhub-events-ttnwdvgwmd",
       "reason": "A public Kochi regional hackathon with a qualifying pathway and substantive hands-on programming.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-11-04T18:01:14.992Z"
+    },
+    "2026-11-14": {
+      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
+      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
+      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-02T23:36:32.964Z"
     }
   },
   "lastUsage": {

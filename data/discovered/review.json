@@ -81,26 +81,6 @@
   },
   {
     "candidate": {
-      "title": "Useless Projects",
-      "start": "2026-11-04",
-      "end": null,
-      "startTime": "06:30",
-      "endTime": null,
-      "venue": "Future HQ @ TinkerSpace",
-      "city": "Kochi",
-      "organizer": "TinkerHub",
-      "description": "An 18-hour overnight event challenging TinkerHub Campus Chapter students to create impractical technology solutions.",
-      "categoryHint": "maker / creative-tech",
-      "evidenceUrl": "https://tinkerhub.org/events/Q2Q1TQKX6Q/Useless%20Projects",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.98
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-09-12"
-  },
-  {
-    "candidate": {
       "title": "Gartner IT Symposium/Xpo 2026",
       "start": "2026-11-16",
       "end": "2026-11-18",
@@ -321,43 +301,43 @@
   },
   {
     "candidate": {
-      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+      "title": "Odoo × Make-A-Ton 9.0 Kochi Hackathon 2026",
       "start": "2026-12-19",
       "end": "2026-12-20",
-      "startTime": "07:00",
-      "endTime": "18:00",
-      "venue": "Kochi (specific venue not stated on the registration page)",
-      "city": "Kochi",
-      "organizer": "Odoo and Make-A-Ton",
-      "description": "24-hour coding hackathon open to students, freshers and coding enthusiasts; teams may have up to four members.",
-      "categoryHint": "hackathon / coding",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "Public 24-hour coding and hiring hackathon for students, freshers and coding enthusiasts.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "registrationUrl": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
       "sourceKind": "official_event_page",
-      "confidence": 0.86
+      "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
-      "title": "Write It Right",
-      "start": "2026-11-07",
+      "title": "Gemini Fusion",
+      "start": "2026-11-08",
       "end": null,
-      "startTime": null,
+      "startTime": "09:30",
       "endTime": null,
-      "venue": "Kochi Office of the IEEE Kerala Section, Nippon Kerala Centre, HMT Colony, North Kalamassery",
-      "city": "Kochi, Ernakulam",
-      "organizer": "IEEE ProComm-TEMS Kerala Joint Chapter; IEEE Kerala Section",
-      "description": "A hands-on technical-writing workshop covering paper structure, IEEE formatting, citation ethics, plagiarism prevention, peer review and submission readiness. Registration is stated to be through the public form listed in the source.",
-      "categoryHint": "workshop; technical writing; research",
+      "venue": "Jain University Kochi, Infopark & SmartCity",
+      "city": "Kochi, Kerala",
+      "organizer": "Google Developer Groups Cochin",
+      "description": "Public GenAI/LLM meetup and demo day.",
+      "categoryHint": "AI meetup",
       "evidenceUrl": "https://arinjo.in/",
-      "registrationUrl": "https://forms.gle/5kdt21GT3kL7zfnr8",
+      "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.68
+      "confidence": 0.65
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-02"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -566,18 +546,18 @@
       "end": null,
       "startTime": null,
       "endTime": null,
-      "venue": "Holiday Inn, Kochi",
+      "venue": "Holiday Inn Cochin, Palarivattom",
       "city": "Kochi, Kerala",
       "organizer": "Google Developer Groups Cloud Kochi",
-      "description": "Technology event focused on Gemini, agentic AI, cloud architecture and practical AI/cloud systems. Listed sessions include AI application security, enterprise AI agents, supply-chain orchestration and generative UI.",
-      "categoryHint": "AI; cloud; cybersecurity; product technology",
+      "description": "Conference covering Google Cloud, generative AI, AI agents and related cloud technologies.",
+      "categoryHint": "AI; cloud; security",
       "evidenceUrl": "https://arinjo.in/events/secure-by-design-building-enterprise-ai-agents-on-google-cloud",
-      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "registrationUrl": null,
       "sourceKind": "organizer_page",
-      "confidence": 0.91
+      "confidence": 0.86
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-10-17"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -686,18 +666,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala",
-      "city": "Kochi",
-      "organizer": "Excel 2026, Government Model Engineering College Kochi",
-      "description": "A public 24-hour college hackathon. Registration is handled through Devfolio; the official page states that the registration closing date is yet to be announced.",
-      "categoryHint": "college coding hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel, Government Model Engineering College",
+      "description": "24-hour hackathon focused on building technical solutions with mentorship from industry professionals.",
+      "categoryHint": "Startups; product; technology; maker",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-04"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -741,23 +721,23 @@
   },
   {
     "candidate": {
-      "title": "Gartner IT Symposium/Xpo 2026",
-      "start": "2026-11-16",
-      "end": "2026-11-18",
-      "startTime": null,
+      "title": "Grafana and Friends Kerala - November 2026",
+      "start": "2026-11-28",
+      "end": null,
+      "startTime": "09:30",
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty, Bolgatty & Mulavukad, Kochi",
-      "city": "Kochi",
-      "organizer": "Gartner",
-      "description": "Three-day technology symposium listed for Kochi.",
-      "categoryHint": "technology",
+      "venue": "Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Grafana community",
+      "description": "Public Grafana and observability technology event.",
+      "categoryHint": "developer meetup",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.66
+      "confidence": 0.52
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-01"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -781,23 +761,23 @@
   },
   {
     "candidate": {
-      "title": "The NEXT Strategic Alliance Playbook",
-      "start": "2026-12-12",
+      "title": "IS Code Quiz Challenge | BIS CED CUSAT",
+      "start": "2026-11-09",
       "end": null,
-      "startTime": null,
+      "startTime": "16:00",
       "endTime": null,
-      "venue": "Kochi, Kerala",
-      "city": "Kochi, Kerala",
-      "organizer": "Not stated on the available evidence page",
-      "description": "Strategic alliance event covering go-to-market, fintech, SaaS, product management and networking.",
-      "categoryHint": "startup / SaaS / product",
+      "venue": "School of Engineering, Kalamassery",
+      "city": "Kalamassery, Kochi, Kerala",
+      "organizer": "BIS CED CUSAT",
+      "description": "Public student technology quiz challenge.",
+      "categoryHint": "technology competition",
       "evidenceUrl": "https://events.heapheaphurray.com/kochi",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.54
+      "confidence": 0.55
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-27"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -847,17 +827,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Gokulam Park Hotel and Convention Center, Banerji Road, Kaloor",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "DevOps Malayalam",
-      "description": "Developer and technology-innovation event with registration handled by the organizer.",
-      "categoryHint": "developer conference / technology meetup",
+      "description": "Public event for developers and technology innovation enthusiasts.",
+      "categoryHint": "developer conference",
       "evidenceUrl": "https://mybzz.com/business-events/fvsko1",
       "registrationUrl": "https://konfhub.com/",
       "sourceKind": "news_listing",
-      "confidence": 0.78
+      "confidence": 0.84
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-10-28"
+    "discoveredAt": "2026-11-05"
   },
   {
     "candidate": {
@@ -1238,5 +1218,85 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-04"
+  },
+  {
+    "candidate": {
+      "title": "International Conference on Big Data, IoT, Cyber Security and Information Technology (ICBDICSIT)",
+      "start": "2026-12-07",
+      "end": "2026-12-07",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala, India",
+      "city": "Kochi, Kerala",
+      "organizer": "IRAJ",
+      "description": "Conference covering big data, IoT, cybersecurity and information technology.",
+      "categoryHint": "Data; cybersecurity; IT",
+      "evidenceUrl": "https://www.conferencealerts.in/eventdetail/2276884",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.62
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-05"
+  },
+  {
+    "candidate": {
+      "title": "ET Government PSU Summit 2026",
+      "start": "2026-12-04",
+      "end": "2026-12-06",
+      "startTime": "13:00",
+      "endTime": "22:00",
+      "venue": "Crowne Plaza Kochi, Kundanoor Junction, Maradu",
+      "city": "Kochi, Kerala",
+      "organizer": "ETGovernment, The Economic Times",
+      "description": "Summit focused on technology-first and AI-ready enterprises, digital sovereignty, agentic AI, hybrid cloud, IIoT, data protection and cybersecurity.",
+      "categoryHint": "AI; cloud; cybersecurity; enterprise technology",
+      "evidenceUrl": "https://redis.io/events/et-government-psu-summit26/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-05"
+  },
+  {
+    "candidate": {
+      "title": "Google Cloud Community Day Kochi - 2026",
+      "start": "2026-11-14",
+      "end": null,
+      "startTime": "09:00",
+      "endTime": null,
+      "venue": "Holiday Inn Cochin, National Highway Bypass, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cloud Kochi",
+      "description": "Public conference focused on Google Cloud, Gemini, agentic AI and cloud architecture.",
+      "categoryHint": "cloud and AI conference",
+      "evidenceUrl": "https://techsnap.in/events/google-cloud-community-day-kochi-2026-4848cf6d",
+      "registrationUrl": "https://ccd.gdgcloudkochi.com/",
+      "sourceKind": "organizer_page",
+      "confidence": 0.95
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-05"
+  },
+  {
+    "candidate": {
+      "title": "AISC 2026 — Tenth International Conference on Artificial Intelligence and Soft Computing",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "The International Engineering and Science Society / AISC organizers",
+      "description": "International conference covering artificial intelligence, soft computing, computer science, IT, computational engineering and communications.",
+      "categoryHint": "AI conference",
+      "evidenceUrl": "https://aisc.theides.org/2026/index_files/AISC2026.pdf",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.74
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-05"
   }
 ]
