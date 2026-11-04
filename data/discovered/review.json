@@ -361,23 +361,23 @@
   },
   {
     "candidate": {
-      "title": "Make-A-Ton 9.0",
+      "title": "Odoo × Make-A-Ton 9.0 — Final Round",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology, Kalamassery, Kochi",
-      "city": "Kochi",
-      "organizer": "Odoo and CITTIC, CUSAT",
-      "description": "24-hour hiring hackathon involving coding, prototyping, startup ideas and technical collaboration.",
-      "categoryHint": "hackathon; startup; coding; maker",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "CITTIC, CUSAT and Odoo",
+      "description": "Twenty-four-hour hiring hackathon final round involving software development, demos and on-site interviews.",
+      "categoryHint": "Hackathon / startups / software development",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-03"
+    "discoveredAt": "2026-11-04"
   },
   {
     "candidate": {
@@ -424,20 +424,20 @@
       "title": "Gartner IT Symposium/Xpo 2026",
       "start": "2026-11-16",
       "end": "2026-11-18",
-      "startTime": "08:30",
-      "endTime": "18:30",
+      "startTime": null,
+      "endTime": null,
       "venue": "Grand Hyatt Kochi Bolgatty",
-      "city": "Kochi, Bolgatty & Mulavukad",
+      "city": "Kochi, India",
       "organizer": "Gartner",
-      "description": "A business and technology symposium covering technology leadership, AI and enterprise technology topics.",
-      "categoryHint": "conference; enterprise technology; AI",
+      "description": "Technology and business event covering generative AI, cybersecurity, emerging technologies, IT strategy and executive leadership.",
+      "categoryHint": "Enterprise technology / AI / cybersecurity",
       "evidenceUrl": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.96
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-02"
+    "discoveredAt": "2026-11-04"
   },
   {
     "candidate": {
@@ -686,18 +686,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel, Government Model Engineering College Kochi",
-      "description": "A 24-hour hackathon focused on solving real-world problems; part of Excel 2026, the college’s annual techno-managerial fest.",
-      "categoryHint": "hackathon / technology",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally, Kochi, Kerala",
+      "city": "Kochi",
+      "organizer": "Excel 2026, Government Model Engineering College Kochi",
+      "description": "A public 24-hour college hackathon. Registration is handled through Devfolio; the official page states that the registration closing date is yet to be announced.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-03"
+    "discoveredAt": "2026-11-04"
   },
   {
     "candidate": {
@@ -1218,5 +1218,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-03"
+  },
+  {
+    "candidate": {
+      "title": "KOCHI ZONALS 2026",
+      "start": "2026-12-16",
+      "end": "2026-12-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Cochin University of Science and Technology (CUSAT)",
+      "city": "Kochi, Kerala",
+      "organizer": "Techfest, IIT Bombay",
+      "description": "Technology competitions including robotics, autonomous maze bots, prompt-to-app development, civic-tech case competition and an AI challenge.",
+      "categoryHint": "Robotics / AI / creative technology / competition",
+      "evidenceUrl": "https://arinjo.in/events?tag=Coding",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.75
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-04"
   }
 ]

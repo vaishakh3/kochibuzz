@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-03T15:14:07.548Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-11-04T09:21:47.573Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -78,7 +78,7 @@
     "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026": "2026-11-03",
     "https://luma.com/fivtwyix": "2026-09-25",
     "https://hackp.kerala.gov.in/finale": "2026-10-01",
-    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-10-30",
+    "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register": "2026-11-04",
     "https://kcd.cncgkochi.in/": "2026-10-01",
     "https://luma.com/ndjvmw7w": "2026-10-14",
     "https://typoday.futuresummit.in/": "2026-09-21",
@@ -87,7 +87,7 @@
     "https://arinjo.in/": "2026-11-02",
     "https://gdg.community.dev/gdg-cloud-kochi": "2026-10-29",
     "https://arinjo.in/events/anchorage-26": "2026-10-08",
-    "https://makeaton.in/": "2026-11-03",
+    "https://makeaton.in/": "2026-11-04",
     "https://globalai.community/e/1xf5gxza": "2026-10-09",
     "https://meetup.com/kochijug/events/316578088": "2026-09-25",
     "https://events.devopsmalayalam.io/": "2026-11-02",
@@ -96,7 +96,7 @@
     "https://oazis.app/pt/evento/maker-faire-kochi": "2026-09-27",
     "https://echai.ventures/events/echai-startup-demo-day-in-kochi-oct-31-2026": "2026-09-29",
     "https://luma.com/z10nz8gp": "2026-10-05",
-    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-11-02",
+    "https://gartner.com/en/newsroom/press-releases/2026-09-29-gartner-announces-gartner-it-symposium-xpo-november-16-18-in-kochi-india": "2026-11-04",
     "https://in.linkedin.com/company/teambi0skochi": "2026-10-01",
     "https://in.linkedin.com/in/future-kerala-mission-010b1b35a": "2026-10-01",
     "https://aiboomi.org/events": "2026-10-16",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-03",
+    "https://hft.excelmec.org/": "2026-11-04",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-10-28",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -163,12 +163,13 @@
     "https://visitexpo.in/event/prowave-expo": "2026-11-01",
     "https://gartner.com/en/conferences/apac/symposium-india?cm_sp=swg-_-event-_-sym-_-goa": "2026-11-02",
     "https://allconferencealert.com/conference/advanced-research-in-cloud-computing-and-computer-science-kochi-india-nov-2026-2363893": "2026-11-02",
-    "https://fossunited.org/events/timeline": "2026-11-03"
+    "https://fossunited.org/events/timeline": "2026-11-03",
+    "https://arinjo.in/events?tag=Coding": "2026-11-04"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 29110,
-    "outputTokens": 518
+    "inputTokens": 29046,
+    "outputTokens": 1288
   }
 }
