@@ -388,162 +388,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "codex-community-luma-evt-q9inasemnn2p6eb-events-lu-ma",
-      "title": "Cafe Compute Meetup: Kochi",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "startTime": "19:00",
-      "endTime": "22:30",
-      "category": "webdev",
-      "venue": "TinkerSpace Kochi",
-      "city": "Unknown",
-      "organizer": "Vaishakh Suresh",
-      "blurb": "Get up-to-date information at: https://luma.com/vk73ackj Address: TinkerSpace Kochi Kochi, India Hosted by Vaishakh Suresh & Rhiannon Payne",
-      "tags": [],
-      "url": "https://luma.com/vk73ackj",
-      "sourceUrls": [
-        "https://luma.com/vk73ackj"
-      ],
-      "sourceIds": [
-        "codex-community-luma"
-      ],
-      "firstSeenAt": "2026-10-30"
-    },
-    {
-      "id": "tinkerhub-events-uydb39jj1y",
-      "title": "Café Compute",
-      "start": "2026-11-06",
-      "end": "2026-11-06",
-      "startTime": "19:00",
-      "endTime": "22:30",
-      "category": "ai",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Café Compute ☕⚡ | Cerebras Kochi Good coffee. Great conversations. Ridiculously fast AI. Café Compute is a casual meetup bringing together developers, AI enthusiasts, founders, and curious minds to explore what's possible with Cerebras and its ultra-fast AI inference. Expect live",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "AI/ML"
-      ],
-      "url": "https://tinkerhub.org/events/UYDB39JJ1Y/cafe-compute",
-      "registerUrl": "https://luma.com/vk73ackj",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/UYDB39JJ1Y/cafe-compute",
-        "https://luma.com/vk73ackj"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-28"
-    },
-    {
-      "id": "tinkerhub-events-d84d5cgdlz",
-      "title": "Watt's brewing",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "startTime": "04:00",
-      "endTime": "07:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Placement talks",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/D84D5CGDLZ/watt-s-brewing",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/D84D5CGDLZ/watt-s-brewing"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-03"
-    },
-    {
-      "id": "tinkerhub-events-ivo2dj5sdp",
-      "title": "Gramasabha",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "startTime": "21:00",
-      "endTime": "22:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Grama Sabha: The Monthly TinkerHub Meetup Grama Sabha is the monthly get-together where the TinkerHub community catches up and plans what’s ahead. This month we’re also kicking off discussions around Space Carnival, so if you want a say in how it comes together, this is the room ",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/IVO2DJ5SDP/gramasabha",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/IVO2DJ5SDP/gramasabha"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-03"
-    },
-    {
-      "id": "tinkerhub-events-ttnwdvgwmd",
-      "title": "Mozilla CHRIST Human Scale AI Buildathon 2026 – Kochi Regionals",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "startTime": "10:00",
-      "endTime": "16:00",
-      "category": "hackathon",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "Mozilla CHRIST Human Scale AI Buildathon 2026 – Kochi Regionals will be happening on November 2027 at TinkerSpace Kochi The Kochi Regionals is a qualifying round leading up to the Mozilla CHRIST Human Scale AI Buildathon. Before registering, please note: Team size: 2–3 members. I",
-      "tags": [
-        "TinkerHub",
-        "Hackathon",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/TTNWDVGWMD/mozilla-christ-human-scale-ai-buildathon-2026-kochi-regionals",
-      "registerUrl": "https://chodhyam.tinkerhub.org/nc/form/0bb73ad5-5e04-4865-9c4b-0f2dc5fe73c0",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/TTNWDVGWMD/mozilla-christ-human-scale-ai-buildathon-2026-kochi-regionals",
-        "https://chodhyam.tinkerhub.org/nc/form/0bb73ad5-5e04-4865-9c4b-0f2dc5fe73c0"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-04"
-    },
-    {
-      "id": "gdg-cochin-events-details-google-gdg-cochin-presents-gemini-fusion",
-      "title": "Gemini Fusion",
-      "start": "2026-11-08",
-      "end": "2026-11-08",
-      "startTime": "09:30",
-      "endTime": "13:00",
-      "category": "ai",
-      "venue": "Jain University Kochi",
-      "city": "Kochi",
-      "organizer": "Google Developer Groups",
-      "blurb": "Join a vibrant half-day meetup on Google's Gemini ecosystem. Connect with local developers and tech enthusiasts over coffee and inspiring discussions. Enjoy enlightening talks and community demos exploring AI innovation. Conclude with open networking and meaningful conversations.",
-      "tags": [],
-      "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-gemini-fusion/",
-      "sourceUrls": [
-        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-gemini-fusion/"
-      ],
-      "sourceIds": [
-        "gdg-cochin"
-      ],
-      "firstSeenAt": "2026-11-01"
-    },
-    {
       "id": "huddle-global-2026",
       "title": "Huddle Global 2026",
       "start": "2026-11-12",
@@ -566,58 +410,6 @@
       ],
       "manual": true,
       "firstSeenAt": "2026-08-20"
-    },
-    {
-      "id": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "title": "Google Cloud Community Day Kochi - 2026",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "startTime": "09:00",
-      "endTime": "18:30",
-      "category": "ai",
-      "venue": "Holiday Inn Cochin, an IHG Hotel",
-      "city": "Kochi",
-      "organizer": "Google Developer Groups",
-      "blurb": "You think it. By evening, it's running. A full day of Gemini, AI agents and Google Cloud with Kerala's sharpest builders.",
-      "tags": [],
-      "url": "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/",
-      "registerUrl": "https://ccd.gdgcloudkochi.com/",
-      "sourceUrls": [
-        "https://gdg.community.dev/events/details/google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026/"
-      ],
-      "sourceIds": [
-        "gdg-cloud-kochi"
-      ],
-      "firstSeenAt": "2026-09-16"
-    },
-    {
-      "id": "tinkerhub-events-w326pvf8hn",
-      "title": "Haven Kerala",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
-      "startTime": "10:00",
-      "endTime": "10:00",
-      "category": "hackathon",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "A 24 hour game jam for teenagers in Kerala in partnership with international non profit hackclub.",
-      "tags": [
-        "TinkerHub",
-        "Hackathon",
-        "Gaming"
-      ],
-      "url": "https://tinkerhub.org/events/W326PVF8HN/haven-kerala",
-      "registerUrl": "https://haven.hackclub.com/kerala",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/W326PVF8HN/haven-kerala",
-        "https://haven.hackclub.com/kerala"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-10-17"
     },
     {
       "id": "gartner-symposium-kochi-2026",
@@ -673,6 +465,33 @@
       "firstSeenAt": "2026-11-03"
     },
     {
+      "id": "tinkerhub-events-eycpo1gsl1",
+      "title": "Carnival Mood",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "startTime": "19:30",
+      "endTime": "21:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Join the TinkerSpace community to plan our fourth anniversary! We'll share ideas for Space Carnival, discuss what we'd like to make happen, and shape the celebrations together. Come for a relaxed planning meetup with a chill community vibe.",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/EYCPO1GSL1/carnival-mood",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/EYCPO1GSL1/carnival-mood"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
       "id": "tinkerhub-events-xlmnt169un",
       "title": "Useless bots : buildathon",
       "start": "2026-11-28",
@@ -702,6 +521,57 @@
       "firstSeenAt": "2026-11-03"
     },
     {
+      "id": "web-n8n-kochi-meetup-969337d9d3",
+      "title": "n8n Kochi Meetup",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "startTime": "15:00",
+      "endTime": "18:00",
+      "category": "ai",
+      "venue": "Kochi, India",
+      "city": "Kochi",
+      "organizer": "n8n Community Events, n8n, Amal Suresh",
+      "blurb": "Kochi, in God’s Own Country, was once the heart of the global Spice Route, connecting traders across the world.",
+      "tags": [],
+      "url": "https://luma.com/n8n-kochi",
+      "sourceUrls": [
+        "https://luma.com/n8n-kochi"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "tinkerhub-events-udzd4k9ylf",
+      "title": "NULL Kochi: November Cyber Security Meetup",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "startTime": "09:00",
+      "endTime": "14:00",
+      "category": "security",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "null Kochi is an open, community-first space for anyone curious about cybersecurity—from complete beginners to seasoned practitioners. Join us on Saturday, November 22 at TinkerSpace for an afternoon of practical learning, idea-sharing, and real conversations. What to Expect: 🔐 ",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/UDZD4K9YLF/null-kochi-november-cyber-security-meetup",
+      "registerUrl": "https://luma.com/skho6axx",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/UDZD4K9YLF/null-kochi-november-cyber-security-meetup",
+        "https://luma.com/skho6axx"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
       "id": "tinkerhub-events-irwwe08c0t",
       "title": "bi0s Meetup",
       "start": "2026-12-05",
@@ -729,6 +599,209 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-10-17"
+    },
+    {
+      "id": "gdg-cochin-events-details-google-gdg-cochin-presents-devfest-kochi-26",
+      "title": "Devfest Kochi 26",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "startTime": "09:30",
+      "endTime": "17:00",
+      "category": "ai",
+      "venue": "Jain University Kochi",
+      "city": "Kochi",
+      "organizer": "Google Developer Groups",
+      "blurb": "🚀 DevFest Kochi 2026 Kochi’s flagship community-led Google tech conference by GDG Kochi! Join developers & builders for hands-on workshops, expert talks on AI/Gemini, Flutter, Cloud & more. Build, Secure, Scale in the Agentic Era. Limited seats. Grab tickets now!",
+      "tags": [],
+      "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+      "registerUrl": "https://konfhub.com/devfest-kochi-26",
+      "sourceUrls": [
+        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
+      ],
+      "sourceIds": [
+        "gdg-cochin",
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "tinkerhub-events-cauuxbtzxy",
+      "title": "Hack Days Kochi",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "startTime": "10:00",
+      "endTime": "05:00",
+      "category": "hackathon",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Its a hackathon powered by MLH",
+      "tags": [
+        "TinkerHub",
+        "Hackathon",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi",
+      "registerUrl": "https://events.mlh.com/events/15674-hack-days-kochi",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi",
+        "https://events.mlh.com/events/15674-hack-days-kochi"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
+      "title": "Manus Fellow Event | Water Metro Edition",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "category": "ai",
+      "venue": "Kochi",
+      "city": "Kochi",
+      "organizer": "Robin Francis, Manus Community",
+      "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
+      "tags": [],
+      "url": "https://luma.com/opt4pve5",
+      "sourceUrls": [
+        "https://luma.com/opt4pve5"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "tinkerhub-events-1o5z0006c4",
+      "title": "Maker Thursday: Prototype Mastery",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "Prototyping Mastery is a free, open meetup on how to approach hardware prototyping. Most projects fail from bad choices, not bad code. We'll discuss what to use for what: microcontrollers, displays, batteries and power, breadboard vs perfboard vs custom PCB, and which modules are",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "tinkerhub-events-qqzp5ky91o",
+      "title": "Space Carnival",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "startTime": "00:30",
+      "endTime": "23:30",
+      "category": "webdev",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "TInkerspace carnival the annual celebration of tinkerspace kochi",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/QQZP5KY91O/space-carnival",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/QQZP5KY91O/space-carnival"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "web-aws-community-connect-day-connect-kochi-2026-3132732128",
+      "title": "AWS Community Connect Day Connect Kochi 2026",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "startTime": "17:00",
+      "endTime": "21:00",
+      "category": "cloud",
+      "venue": "Venue to be announced; Kochi, Kerala",
+      "city": "Kochi, Kerala",
+      "organizer": "AWS User Group Kochi",
+      "blurb": "Annual community gathering with a keynote, technology talks, panel discussion and networking dinner.",
+      "tags": [],
+      "url": "https://communityday.awsugkochi.in/",
+      "sourceUrls": [
+        "https://communityday.awsugkochi.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "tinkerhub-events-8buni6m2mh",
+      "title": "bi0s Meetup",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "startTime": "09:30",
+      "endTime": "13:30",
+      "category": "security",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation",
+      "blurb": "bi0s Meetup, where the wise meet the passionate, is a monthly cybersecurity meetup conducted by Team bi0s. Our aim is to bridge the gap between students and industry. What happens at bi0s Meetup? - Discussions on current hot topics - Networking - Community growth Whether you're a",
+      "tags": [
+        "TinkerHub",
+        "Meetup",
+        "Community Building"
+      ],
+      "url": "https://tinkerhub.org/events/8BUNI6M2MH/bi0s-meetup",
+      "registerUrl": "https://forms.gle/Hm1B2CV8tUf8dFGr6",
+      "sourceUrls": [
+        "https://app-api.tinkerhub.org/v1/public/event/all",
+        "https://tinkerhub.org/events/8BUNI6M2MH/bi0s-meetup",
+        "https://forms.gle/Hm1B2CV8tUf8dFGr6"
+      ],
+      "sourceIds": [
+        "tinkerhub-events"
+      ],
+      "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "web-maker-faire-kochi-2027-feffe56107",
+      "title": "Maker Faire Kochi 2027",
+      "start": "2027-02-05",
+      "end": "2027-02-06",
+      "startTime": "03:30",
+      "endTime": "12:30",
+      "category": "startup",
+      "venue": "The Grounds @ Chakola Mill",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+      "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
+      "tags": [],
+      "url": "https://makerfaire.in/",
+      "sourceUrls": [
+        "https://makerfaire.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-19"
     }
   ]
 }

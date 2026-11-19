@@ -1,31 +1,38 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-06": {
-      "signature": "4dbcaec419e991543ad09142653021cf8f77a2fbba1c71c63b07393d1a6b98ae",
-      "eventId": "tinkerhub-events-uydb39jj1y",
-      "reason": "A confirmed Kochi meetup with an AI focus, live programming, and broad relevance for developers, founders, and curious attendees.",
+    "2026-11-20": {
+      "signature": "2b3820fdb16463e4c1ec184bad88dcaef0740dfd13da34e640894f5421c1081a",
+      "eventId": "tinkerhub-events-es9zmgv4on",
+      "reason": "A substantial overnight game jam bringing together builders, designers and gamers in Kochi.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-10-30T01:04:41.820Z"
+      "rankedAt": "2026-11-19T13:18:15.854Z"
     },
-    "2026-11-07": {
-      "signature": "d2ca443be0aba016ddea598fdc6e632238dbd46c41da8524bebb20defaeb0650",
-      "eventId": "tinkerhub-events-ttnwdvgwmd",
-      "reason": "A public Kochi regional hackathon with a qualifying pathway and substantive hands-on programming.",
+    "2026-11-28": {
+      "signature": "524ad61b51d1cb8052357800aee06e866b40bcc42568e96a5193388a06a4b285",
+      "eventId": "tinkerhub-events-xlmnt169un",
+      "reason": "A beginner-friendly overnight buildathon offers hands-on participation around an unusual creative theme.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-04T18:01:14.992Z"
+      "rankedAt": "2026-11-19T13:18:15.854Z"
     },
-    "2026-11-14": {
-      "signature": "4493f79fb136204bd064211d13c14f124ccb6903c1a6c477f26395a6e5a38aa8",
-      "eventId": "gdg-cloud-kochi-events-details-google-gdg-cloud-kochi-presents-google-cloud-community-day-kochi-2026",
-      "reason": "A full-day Kochi community event covering Gemini, AI agents and Google Cloud for local builders.",
+    "2026-12-12": {
+      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
+      "eventId": "web-manus-fellow-event-water-metro-edition-3115025f54",
+      "reason": "An AI-focused event linked to Kochi’s Water Metro gives the date a distinctive local technology angle.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-02T23:36:32.964Z"
+      "rankedAt": "2026-11-19T13:18:15.854Z"
+    },
+    "2026-12-19": {
+      "signature": "be58631d652890181f0c8cb659546b458ceb8fb11cae70311844af1297675829",
+      "eventId": "web-aws-community-connect-day-connect-kochi-2026-3132732128",
+      "reason": "A confirmed annual gathering combines a keynote, technology talks, panel discussion and networking.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-19T13:18:15.854Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 605,
-    "outputTokens": 61
+    "inputTokens": 1210,
+    "outputTokens": 203
   }
 }
