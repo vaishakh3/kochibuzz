@@ -8,31 +8,17 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-11-19T13:18:15.854Z"
     },
-    "2026-11-28": {
-      "signature": "524ad61b51d1cb8052357800aee06e866b40bcc42568e96a5193388a06a4b285",
-      "eventId": "tinkerhub-events-xlmnt169un",
-      "reason": "A beginner-friendly overnight buildathon offers hands-on participation around an unusual creative theme.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-19T13:18:15.854Z"
-    },
     "2026-12-12": {
-      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
-      "eventId": "web-manus-fellow-event-water-metro-edition-3115025f54",
-      "reason": "An AI-focused event linked to Kochi’s Water Metro gives the date a distinctive local technology angle.",
+      "signature": "44bb8f8a3e3e12d1c106129511d7aff64d4818c1ec76bb30bcf8adc4d7c3bd38",
+      "eventId": "tinkerhub-events-cauuxbtzxy",
+      "reason": "A city-based hackathon with hands-on programming and community participation offers broader public value than a networking-focused meetup.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-19T13:18:15.854Z"
-    },
-    "2026-12-19": {
-      "signature": "be58631d652890181f0c8cb659546b458ceb8fb11cae70311844af1297675829",
-      "eventId": "web-aws-community-connect-day-connect-kochi-2026-3132732128",
-      "reason": "A confirmed annual gathering combines a keynote, technology talks, panel discussion and networking.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-19T13:18:15.854Z"
+      "rankedAt": "2026-11-20T03:23:07.315Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 1210,
-    "outputTokens": 203
+    "inputTokens": 410,
+    "outputTokens": 65
   }
 }

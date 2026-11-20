@@ -519,28 +519,6 @@
     "firstSeenAt": "2026-11-03"
   },
   {
-    "id": "web-n8n-kochi-meetup-969337d9d3",
-    "title": "n8n Kochi Meetup",
-    "start": "2026-11-28",
-    "end": "2026-11-28",
-    "startTime": "15:00",
-    "endTime": "18:00",
-    "category": "ai",
-    "venue": "Kochi, India",
-    "city": "Kochi",
-    "organizer": "n8n Community Events, n8n, Amal Suresh",
-    "blurb": "Kochi, in God’s Own Country, was once the heart of the global Spice Route, connecting traders across the world.",
-    "tags": [],
-    "url": "https://luma.com/n8n-kochi",
-    "sourceUrls": [
-      "https://luma.com/n8n-kochi"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-11-19"
-  },
-  {
     "id": "tinkerhub-events-udzd4k9ylf",
     "title": "NULL Kochi: November Cyber Security Meetup",
     "start": "2026-11-29",
@@ -614,12 +592,10 @@
     "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
     "registerUrl": "https://konfhub.com/devfest-kochi-26",
     "sourceUrls": [
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
+      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/"
     ],
     "sourceIds": [
-      "gdg-cochin",
-      "openai-web-discovery"
+      "gdg-cochin"
     ],
     "firstSeenAt": "2026-11-19"
   },
@@ -653,26 +629,27 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
-    "title": "Manus Fellow Event | Water Metro Edition",
+    "id": "web-ai-meetup-and-networking-72cb0dca62",
+    "title": "AI Meetup and Networking",
     "start": "2026-12-12",
-    "end": "2026-12-13",
-    "startTime": "10:00",
-    "endTime": "16:00",
+    "end": "2026-12-12",
+    "startTime": "09:30",
+    "endTime": "09:30",
     "category": "ai",
-    "venue": "Kochi",
+    "venue": "Saints & Masters",
     "city": "Kochi",
-    "organizer": "Robin Francis, Manus Community",
-    "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
+    "organizer": "Kochi AI User Group",
+    "blurb": "Kochi AI User Group hosts an AI meetup and networking session at Saints & Masters in Caspian TechPark, Infopark Phase 2, Kakkanad.",
     "tags": [],
-    "url": "https://luma.com/opt4pve5",
+    "url": "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d",
+    "registerUrl": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
     "sourceUrls": [
-      "https://luma.com/opt4pve5"
+      "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-11-19"
+    "firstSeenAt": "2026-11-20"
   },
   {
     "id": "tinkerhub-events-1o5z0006c4",
@@ -729,28 +706,6 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-aws-community-connect-day-connect-kochi-2026-3132732128",
-    "title": "AWS Community Connect Day Connect Kochi 2026",
-    "start": "2026-12-19",
-    "end": "2026-12-19",
-    "startTime": "17:00",
-    "endTime": "21:00",
-    "category": "cloud",
-    "venue": "Venue to be announced; Kochi, Kerala",
-    "city": "Kochi, Kerala",
-    "organizer": "AWS User Group Kochi",
-    "blurb": "Annual community gathering with a keynote, technology talks, panel discussion and networking dinner.",
-    "tags": [],
-    "url": "https://communityday.awsugkochi.in/",
-    "sourceUrls": [
-      "https://communityday.awsugkochi.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-11-19"
-  },
-  {
     "id": "tinkerhub-events-8buni6m2mh",
     "title": "bi0s Meetup",
     "start": "2027-01-23",
@@ -776,28 +731,6 @@
     ],
     "sourceIds": [
       "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-11-19"
-  },
-  {
-    "id": "web-maker-faire-kochi-2027-feffe56107",
-    "title": "Maker Faire Kochi 2027",
-    "start": "2027-02-05",
-    "end": "2027-02-06",
-    "startTime": "03:30",
-    "endTime": "12:30",
-    "category": "startup",
-    "venue": "The Grounds @ Chakola Mill",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
-    "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
-    "tags": [],
-    "url": "https://makerfaire.in/",
-    "sourceUrls": [
-      "https://makerfaire.in/"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
     ],
     "firstSeenAt": "2026-11-19"
   }

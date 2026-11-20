@@ -388,16 +388,16 @@
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi, Kerala",
-      "organizer": "Excel, Government Model Engineering College",
-      "description": "24-hour hackathon focused on building technical solutions to real-world problems, with mentoring, project demos and judging.",
-      "categoryHint": "maker / hackathon",
+      "organizer": "Excel, Government Model Engineering College Kochi",
+      "description": "24-hour public hackathon held as part of Excel 2026, with participants solving real-world problems using technical solutions.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-19"
+    "discoveredAt": "2026-11-20"
   },
   {
     "candidate": {
@@ -441,23 +441,23 @@
   },
   {
     "candidate": {
-      "title": "Grafana and Friends Kerala - November 2026",
-      "start": "2026-11-28",
+      "title": "Kerala Databricks Community Meetup",
+      "start": "2026-12-12",
       "end": null,
-      "startTime": "09:30",
+      "startTime": "10:00",
       "endTime": null,
-      "venue": "Kochi",
-      "city": "Kochi, Kerala",
-      "organizer": "Grafana community",
-      "description": "Public Grafana and observability technology event.",
-      "categoryHint": "developer meetup",
+      "venue": "Trans Asia Cyber Park, Infopark & SmartCity",
+      "city": "Kakkanad, Kochi, Kerala",
+      "organizer": "Kerala Databricks Community",
+      "description": "Public technology meetup listed for 12 December 2026 at Trans Asia Cyber Park.",
+      "categoryHint": "data / cloud / developer meetup",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.52
+      "confidence": 0.74
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-05"
+    "discoveredAt": "2026-11-20"
   },
   {
     "candidate": {
@@ -721,26 +721,6 @@
   },
   {
     "candidate": {
-      "title": "PROWAVE Expo",
-      "start": "2026-11-17",
-      "end": "2026-11-19",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Adlux International Convention & Exhibition Centre, Angamaly, Kochi area",
-      "city": "Angamaly",
-      "organizer": "PROWAVE Expo / Visitexpo",
-      "description": "B2B exhibition covering live-event production technology, broadcasting infrastructure, sound systems and staging technology.",
-      "categoryHint": "creative-tech",
-      "evidenceUrl": "https://visitexpo.in/event/prowave-expo/",
-      "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.84
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-01"
-  },
-  {
-    "candidate": {
       "title": "Cognicraft 2026",
       "start": "2026-12-12",
       "end": "2026-12-13",
@@ -818,5 +798,25 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-05"
+  },
+  {
+    "candidate": {
+      "title": "Maker Faire Kochi 2027",
+      "start": "2027-02-05",
+      "end": "2027-02-06",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi; exact venue not stated in the evidence",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
+      "description": "Public maker event featuring technology, making and creative projects. The available official evidence gives Kochi and the dates but does not state a more specific venue.",
+      "categoryHint": "maker / creative technology",
+      "evidenceUrl": "https://makerfaire.in/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-20"
   }
 ]
