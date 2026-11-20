@@ -465,31 +465,31 @@
       "firstSeenAt": "2026-11-03"
     },
     {
-      "id": "tinkerhub-events-eycpo1gsl1",
-      "title": "Carnival Mood",
-      "start": "2026-11-20",
-      "end": "2026-11-20",
-      "startTime": "19:30",
-      "endTime": "21:00",
+      "id": "tinkerhub-events-o1byzhhomr",
+      "title": "BuilderInside | Podcast with Habeeb",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "startTime": "18:00",
+      "endTime": "20:00",
       "category": "webdev",
       "venue": "TinkerSpace, Kalamassery",
       "city": "Kochi",
       "organizer": "TinkerHub Foundation",
-      "blurb": "Join the TinkerSpace community to plan our fourth anniversary! We'll share ideas for Space Carnival, discuss what we'd like to make happen, and shape the celebrations together. Come for a relaxed planning meetup with a chill community vibe.",
+      "blurb": "Builder Inside ft. Habeeb Rahman What does it mean to be a builder? Is it about the things you create, the problems you solve, or the people you bring together along the way? In this episode of Builder Inside, we sit down with Habeeb Rahman from TinkerHub to explore his journey t",
       "tags": [
         "TinkerHub",
         "Meetup",
         "Community Building"
       ],
-      "url": "https://tinkerhub.org/events/EYCPO1GSL1/carnival-mood",
+      "url": "https://tinkerhub.org/events/O1BYZHHOMR/builderinside-podcast-with-habeeb",
       "sourceUrls": [
         "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/EYCPO1GSL1/carnival-mood"
+        "https://tinkerhub.org/events/O1BYZHHOMR/builderinside-podcast-with-habeeb"
       ],
       "sourceIds": [
         "tinkerhub-events"
       ],
-      "firstSeenAt": "2026-11-19"
+      "firstSeenAt": "2026-11-21"
     },
     {
       "id": "tinkerhub-events-xlmnt169un",
@@ -594,10 +594,12 @@
       "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
       "registerUrl": "https://konfhub.com/devfest-kochi-26",
       "sourceUrls": [
-        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/"
+        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+        "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
       ],
       "sourceIds": [
-        "gdg-cochin"
+        "gdg-cochin",
+        "openai-web-discovery"
       ],
       "firstSeenAt": "2026-11-19"
     },
@@ -631,27 +633,26 @@
       "firstSeenAt": "2026-11-19"
     },
     {
-      "id": "web-ai-meetup-and-networking-72cb0dca62",
-      "title": "AI Meetup and Networking",
+      "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
+      "title": "Manus Fellow Event | Water Metro Edition",
       "start": "2026-12-12",
-      "end": "2026-12-12",
-      "startTime": "09:30",
-      "endTime": "09:30",
+      "end": "2026-12-13",
+      "startTime": "10:00",
+      "endTime": "16:00",
       "category": "ai",
-      "venue": "Saints & Masters",
+      "venue": "Kochi",
       "city": "Kochi",
-      "organizer": "Kochi AI User Group",
-      "blurb": "Kochi AI User Group hosts an AI meetup and networking session at Saints & Masters in Caspian TechPark, Infopark Phase 2, Kakkanad.",
+      "organizer": "Robin Francis, Manus Community",
+      "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
       "tags": [],
-      "url": "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d",
-      "registerUrl": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+      "url": "https://luma.com/opt4pve5",
       "sourceUrls": [
-        "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d"
+        "https://luma.com/opt4pve5"
       ],
       "sourceIds": [
         "openai-web-discovery"
       ],
-      "firstSeenAt": "2026-11-20"
+      "firstSeenAt": "2026-11-21"
     },
     {
       "id": "tinkerhub-events-1o5z0006c4",
@@ -708,6 +709,28 @@
       "firstSeenAt": "2026-11-19"
     },
     {
+      "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
+      "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+      "start": "2026-12-19",
+      "end": "2026-12-20",
+      "startTime": "07:00",
+      "endTime": "18:00",
+      "category": "hackathon",
+      "venue": "Cochin University of Science and Technology, University Road, South Kalamassery",
+      "city": "Kochi",
+      "organizer": "Odoo India and Make-A-Ton",
+      "blurb": "24-hour coding hackathon for tech students, freshers and coding enthusiasts aged 18+; teams of up to four. Public registration is listed on the event page.",
+      "tags": [],
+      "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+      "sourceUrls": [
+        "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-21"
+    },
+    {
       "id": "tinkerhub-events-8buni6m2mh",
       "title": "bi0s Meetup",
       "start": "2027-01-23",
@@ -735,6 +758,28 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-11-19"
+    },
+    {
+      "id": "web-maker-faire-kochi-2027-feffe56107",
+      "title": "Maker Faire Kochi 2027",
+      "start": "2027-02-05",
+      "end": "2027-02-06",
+      "startTime": "03:30",
+      "endTime": "12:30",
+      "category": "startup",
+      "venue": "The Grounds @ Chakola Mill",
+      "city": "Kochi",
+      "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+      "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
+      "tags": [],
+      "url": "https://makerfaire.in/",
+      "sourceUrls": [
+        "https://makerfaire.in/"
+      ],
+      "sourceIds": [
+        "openai-web-discovery"
+      ],
+      "firstSeenAt": "2026-11-21"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-20": {
-      "signature": "2b3820fdb16463e4c1ec184bad88dcaef0740dfd13da34e640894f5421c1081a",
-      "eventId": "tinkerhub-events-es9zmgv4on",
-      "reason": "A substantial overnight game jam bringing together builders, designers and gamers in Kochi.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-19T13:18:15.854Z"
-    },
     "2026-12-12": {
-      "signature": "44bb8f8a3e3e12d1c106129511d7aff64d4818c1ec76bb30bcf8adc4d7c3bd38",
+      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
       "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "A city-based hackathon with hands-on programming and community participation offers broader public value than a networking-focused meetup.",
+      "reason": "A confirmed Kochi hackathon with meaningful hands-on programming and broad community relevance.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-20T03:23:07.315Z"
+      "rankedAt": "2026-11-20T21:11:17.980Z"
+    },
+    "2026-12-19": {
+      "signature": "cf962efccb703bee62448c2891da440f05e5ff9662c6fe57d8b4a24afdf357c4",
+      "eventId": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
+      "reason": "A public 24-hour hackathon with registration, substantial programming and appeal to students and coding enthusiasts.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-20T21:11:17.980Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 410,
-    "outputTokens": 65
+    "inputTokens": 680,
+    "outputTokens": 124
   }
 }

@@ -1,21 +1,84 @@
 [
   {
-    "id": "web-ai-meetup-and-networking-72cb0dca62",
-    "title": "AI Meetup and Networking",
-    "start": "2026-12-12",
-    "end": "2026-12-12",
+    "id": "web-devfest-kochi-26-59f79521a3",
+    "title": "Devfest Kochi 26",
+    "start": "2026-12-06",
+    "end": "2026-12-06",
     "startTime": "09:30",
-    "endTime": "09:30",
+    "endTime": "17:00",
     "category": "ai",
-    "venue": "Saints & Masters",
+    "venue": "Jain University Kochi",
     "city": "Kochi",
-    "organizer": "Kochi AI User Group",
-    "blurb": "Kochi AI User Group hosts an AI meetup and networking session at Saints & Masters in Caspian TechPark, Infopark Phase 2, Kakkanad.",
+    "organizer": "Google Developer Groups",
+    "blurb": "DevFest Kochi 2026 Kochi’s flagship community-led Google tech conference by GDG Kochi!",
     "tags": [],
-    "url": "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d",
-    "registerUrl": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+    "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26",
+    "registerUrl": "https://konfhub.com/devfest-kochi-26",
     "sourceUrls": [
-      "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d"
+      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
+    "title": "Manus Fellow Event | Water Metro Edition",
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "category": "ai",
+    "venue": "Kochi",
+    "city": "Kochi",
+    "organizer": "Robin Francis, Manus Community",
+    "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
+    "tags": [],
+    "url": "https://luma.com/opt4pve5",
+    "sourceUrls": [
+      "https://luma.com/opt4pve5"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
+    "title": "Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026",
+    "start": "2026-12-19",
+    "end": "2026-12-20",
+    "startTime": "07:00",
+    "endTime": "18:00",
+    "category": "hackathon",
+    "venue": "Cochin University of Science and Technology, University Road, South Kalamassery",
+    "city": "Kochi",
+    "organizer": "Odoo India and Make-A-Ton",
+    "blurb": "24-hour coding hackathon for tech students, freshers and coding enthusiasts aged 18+; teams of up to four. Public registration is listed on the event page.",
+    "tags": [],
+    "url": "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register",
+    "sourceUrls": [
+      "https://hackathon.odoo.com/event/odoo-x-make-a-ton-9-0-kochi-hackathon-2026-40/register"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ]
+  },
+  {
+    "id": "web-maker-faire-kochi-2027-feffe56107",
+    "title": "Maker Faire Kochi 2027",
+    "start": "2027-02-05",
+    "end": "2027-02-06",
+    "startTime": "03:30",
+    "endTime": "12:30",
+    "category": "startup",
+    "venue": "The Grounds @ Chakola Mill",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+    "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
+    "tags": [],
+    "url": "https://makerfaire.in/",
+    "sourceUrls": [
+      "https://makerfaire.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"

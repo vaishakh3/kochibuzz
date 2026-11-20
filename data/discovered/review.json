@@ -1,26 +1,6 @@
 [
   {
     "candidate": {
-      "title": "Maker Thursday",
-      "start": "2026-11-20",
-      "end": null,
-      "startTime": "13:30",
-      "endTime": null,
-      "venue": "TinkerSpace, 21/258, Cusat P.O., Punnekkattumoola, Seaport–Airport Road, Vidya Nagar Colony, Thrikkakara, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub",
-      "description": "Public maker/technology gathering listed by TinkerHub.",
-      "categoryHint": "maker; technology",
-      "evidenceUrl": "https://tinkerhub.org/study-jam/5YWPA07ZTC/maker-thursday",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.9
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-08-31"
-  },
-  {
-    "candidate": {
       "title": "STN Conclave 2026",
       "start": "2026-12-10",
       "end": "2026-12-13",
@@ -241,23 +221,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × Make-A-Ton 9.0 — Final Round",
+      "title": "Odoo × Make-A-Ton 9.0",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
-      "city": "Kochi, Kerala",
+      "venue": "CUSAT, Kochi",
+      "city": "Kochi",
       "organizer": "CITTIC, CUSAT and Odoo",
-      "description": "Twenty-four-hour hiring hackathon final round involving software development, demos and on-site interviews.",
-      "categoryHint": "Hackathon / startups / software development",
+      "description": "24-hour hiring hackathon focused on building technical solutions; top performers may be considered for hiring at Odoo.",
+      "categoryHint": "startup/hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-04"
+    "discoveredAt": "2026-11-21"
   },
   {
     "candidate": {
@@ -387,17 +367,17 @@
       "startTime": null,
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel, Government Model Engineering College Kochi",
-      "description": "24-hour public hackathon held as part of Excel 2026, with participants solving real-world problems using technical solutions.",
-      "categoryHint": "hackathon",
+      "city": "Kochi",
+      "organizer": "Excel, Government Model Engineering College",
+      "description": "24-hour offline student hackathon. Registration is through Devfolio; teams of two to four apply, followed by selection for the on-campus round.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft2026.devfolio.co/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-20"
+    "discoveredAt": "2026-11-21"
   },
   {
     "candidate": {
@@ -818,5 +798,25 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-11-20"
+  },
+  {
+    "candidate": {
+      "title": "Hack Day Kochi Community Game Jam",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "startTime": "23:30",
+      "endTime": "00:30",
+      "venue": "Cochin University of Science and Technology, University Road, South Kalamassery",
+      "city": "Kochi",
+      "organizer": "GDAI CUSAT and Hack Day Kochi",
+      "description": "24-hour game-development jam for developers, designers, artists, storytellers and creators. Free registration is listed, with host approval required.",
+      "categoryHint": "college coding/creative-tech hackathon",
+      "evidenceUrl": "https://indiahackathons.com/events/hack-day-kochi-community-game-jam",
+      "registrationUrl": "https://indiahackathons.com/events/hack-day-kochi-community-game-jam",
+      "sourceKind": "news_listing",
+      "confidence": 0.82
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-21"
   }
 ]
