@@ -367,12 +367,12 @@
       "startTime": null,
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi",
-      "organizer": "Excel, Government Model Engineering College",
-      "description": "24-hour offline student hackathon. Registration is through Devfolio; teams of two to four apply, followed by selection for the on-campus round.",
-      "categoryHint": "college coding hackathon",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel 2026, Government Model Engineering College",
+      "description": "24-hour hackathon for participants to build technical solutions with mentorship. Registration is handled through Devfolio; the official page states that registration closes on 2026-12-05.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft2026.devfolio.co/",
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
@@ -786,18 +786,18 @@
       "end": "2027-02-06",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi; exact venue not stated in the evidence",
+      "venue": "The Grounds @ Chakola Mill",
       "city": "Kochi, Kerala",
       "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
-      "description": "Public maker event featuring technology, making and creative projects. The available official evidence gives Kochi and the dates but does not state a more specific venue.",
+      "description": "Public festival of invention, creativity and hands-on learning, including maker exhibits, workshops and live demonstrations. Free entry.",
       "categoryHint": "maker / creative technology",
       "evidenceUrl": "https://makerfaire.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.9
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-20"
+    "discoveredAt": "2026-11-21"
   },
   {
     "candidate": {

@@ -1,24 +1,31 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-12-12": {
-      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
-      "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "A confirmed Kochi hackathon with meaningful hands-on programming and broad community relevance.",
+    "2026-12-05": {
+      "signature": "b176338d7e5cfa94e0905633b6f739aeb3d08f7a78f0affc4bcd4a35d6b7702c",
+      "eventId": "web-kochi-graphql-4a4a51f058",
+      "reason": "A confirmed in-person meetup with free entry covering GraphQL, AI agents, MCP and modern API development.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-20T21:11:17.980Z"
+      "rankedAt": "2026-11-21T11:12:17.222Z"
+    },
+    "2026-12-12": {
+      "signature": "32463316b30455a80d642d1e85017cd762adf8cebee433a606e91391eb308c27",
+      "eventId": "tinkerhub-events-cauuxbtzxy",
+      "reason": "A full-day MLH-powered hackathon offering hands-on participation for Kochi’s developer community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-21T11:12:17.222Z"
     },
     "2026-12-19": {
-      "signature": "cf962efccb703bee62448c2891da440f05e5ff9662c6fe57d8b4a24afdf357c4",
-      "eventId": "web-odoo-x-make-a-ton-9-0-kochi-hackathon-2026-e78e5f8f79",
-      "reason": "A public 24-hour hackathon with registration, substantial programming and appeal to students and coding enthusiasts.",
+      "signature": "97f3e5b064499288e7dfc07b628d7482d8ee6afe5c08c7968a7bebe54f46b3c4",
+      "eventId": "web-aws-community-connect-day-kochi-2026-3132732128",
+      "reason": "A substantial public event featuring a keynote, talks, panel discussion and networking, despite the venue still being pending.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-20T21:11:17.980Z"
+      "rankedAt": "2026-11-21T11:12:17.222Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 680,
-    "outputTokens": 124
+    "inputTokens": 902,
+    "outputTokens": 166
   }
 }
