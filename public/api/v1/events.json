@@ -436,35 +436,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-es9zmgv4on",
-      "title": "Codex Community Game Jam",
-      "start": "2026-11-20",
-      "end": "2026-11-21",
-      "startTime": "19:30",
-      "endTime": "07:30",
-      "category": "hackathon",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "🎮 Kochi, It's Game On. ​One night. Twelve hours. One playable game. ​We're bringing together Kochi's most creative builders, developers, designers, and gamers for an overnight OpenAI Codex Community Game Jam at TinkerSpace, Kochi. ​The challenge is simple: build a game from scra",
-      "tags": [
-        "TinkerHub",
-        "Hackathon",
-        "Gaming"
-      ],
-      "url": "https://tinkerhub.org/events/ES9ZMGV4ON/codex-community-game-jam",
-      "registerUrl": "https://luma.com/qzms8nhq",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/ES9ZMGV4ON/codex-community-game-jam",
-        "https://luma.com/qzms8nhq"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-03"
-    },
-    {
       "id": "tinkerhub-events-o1byzhhomr",
       "title": "BuilderInside | Podcast with Habeeb",
       "start": "2026-11-22",
