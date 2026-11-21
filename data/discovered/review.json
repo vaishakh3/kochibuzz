@@ -281,23 +281,23 @@
   },
   {
     "candidate": {
-      "title": "ISV Symposium 2027",
+      "title": "IEEE Smart Village South Asia Symposium 2027",
       "start": "2027-02-23",
       "end": "2027-02-24",
       "startTime": null,
       "endTime": null,
-      "venue": "Kochi, Kerala, India",
-      "city": "Kochi",
+      "venue": "Kochi, Kerala",
+      "city": "Kochi, Kerala",
       "organizer": "IEEE Smart Village South Asia Regional Committee",
-      "description": "Symposium on sustainable livelihoods and technology-enabled development, including enterprise development, education and community-centered solutions.",
+      "description": "Symposium on technology-enabled development, enterprise-led development, energy access and sustainable livelihoods.",
       "categoryHint": "technology / innovation",
       "evidenceUrl": "https://isvsymposium.org/",
       "registrationUrl": "https://isvsymposium.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.94
     },
-    "reason": "Date is outside the upcoming 120-day window.",
-    "discoveredAt": "2026-10-13"
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-22"
   },
   {
     "candidate": {
@@ -366,18 +366,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "venue": "Government Model Engineering College, Thrikkakara",
       "city": "Kochi, Kerala",
-      "organizer": "Excel 2026, Government Model Engineering College",
-      "description": "24-hour hackathon for participants to build technical solutions with mentorship. Registration is handled through Devfolio; the official page states that registration closes on 2026-12-05.",
-      "categoryHint": "hackathon",
+      "organizer": "Government Model Engineering College, Kochi",
+      "description": "24-hour hackathon within Excel 2026, with collaborative technical problem-solving, mentorship and project building.",
+      "categoryHint": "hackathon / maker",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-21"
+    "discoveredAt": "2026-11-22"
   },
   {
     "candidate": {
@@ -506,18 +506,18 @@
       "end": "2027-02-28",
       "startTime": null,
       "endTime": null,
-      "venue": "Grand Hyatt Kochi Bolgatty, Kochi, Kerala",
-      "city": "Kochi",
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi, Kerala",
       "organizer": "FSAI",
-      "description": "A technology conclave covering smart cities, technology evolution, implementation, standards, codes, market challenges and industry growth.",
-      "categoryHint": "technology / industry conclave",
+      "description": "Technology conclave featuring technology-evolution discussions, panels, debates, implementation practices, standards and industry growth topics.",
+      "categoryHint": "technology / industry",
       "evidenceUrl": "https://www.pacc.fsai.in/",
-      "registrationUrl": null,
+      "registrationUrl": "https://www.pacc.fsai.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-01"
+    "discoveredAt": "2026-11-22"
   },
   {
     "candidate": {
@@ -681,26 +681,6 @@
   },
   {
     "candidate": {
-      "title": "eChai Startup Demo Day Kochi",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "startTime": "18:00",
-      "endTime": "20:00",
-      "venue": "Venue to be confirmed, Kochi",
-      "city": "Kochi",
-      "organizer": "eChai Ventures",
-      "description": "Startup demo day for founders and the startup ecosystem. The public listing states the date and Kochi location but does not provide a confirmed venue.",
-      "categoryHint": "startup; founders; demo day",
-      "evidenceUrl": "https://echai.ventures/events?city=kochi",
-      "registrationUrl": null,
-      "sourceKind": "organizer_page",
-      "confidence": 0.85
-    },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-03"
-  },
-  {
-    "candidate": {
       "title": "Cognicraft 2026",
       "start": "2026-12-12",
       "end": "2026-12-13",
@@ -818,5 +798,45 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-21"
+  },
+  {
+    "candidate": {
+      "title": "DevFest Kochi 26",
+      "start": "2026-12-06",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": "17:00",
+      "venue": "Jain University Kochi, Infopark",
+      "city": "Kochi",
+      "organizer": "GDG Cochin",
+      "description": "Developer conference covering AI, Gemini, Flutter, Google Cloud, Firebase, mobile, web and agentic development, with talks and hands-on workshops.",
+      "categoryHint": "Developer conference / Google technologies",
+      "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-22"
+  },
+  {
+    "candidate": {
+      "title": "AI Meetup and Networking",
+      "start": "2026-12-12",
+      "end": null,
+      "startTime": "09:30",
+      "endTime": "12:30",
+      "venue": "Saints & Masters, 9th Floor, Tower 2, Caspian TechPark, Infopark Phase 2, Kakkanad",
+      "city": "Kochi",
+      "organizer": "Kochi AI User Group; hosted by Krishnamurthy A. and Gino V.",
+      "description": "Meetup for AI enthusiasts, developers, software engineers, students, architects and innovators focused on agent evaluation, security and production AI systems.",
+      "categoryHint": "Developer / AI",
+      "evidenceUrl": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+      "registrationUrl": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.99
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-22"
   }
 ]

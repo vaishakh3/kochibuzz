@@ -490,6 +490,28 @@
     "firstSeenAt": "2026-11-03"
   },
   {
+    "id": "web-n8n-kochi-meetup-969337d9d3",
+    "title": "n8n Kochi Meetup",
+    "start": "2026-11-28",
+    "end": "2026-11-28",
+    "startTime": "15:00",
+    "endTime": "18:00",
+    "category": "ai",
+    "venue": "Kochi, India",
+    "city": "Kochi",
+    "organizer": "n8n Community Events, n8n, Amal Suresh",
+    "blurb": "Kochi, in God’s Own Country, was once the heart of the global Spice Route, connecting traders across the world.",
+    "tags": [],
+    "url": "https://luma.com/n8n-kochi",
+    "sourceUrls": [
+      "https://luma.com/n8n-kochi"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-22"
+  },
+  {
     "id": "tinkerhub-events-udzd4k9ylf",
     "title": "NULL Kochi: November Cyber Security Meetup",
     "start": "2026-11-29",
@@ -548,28 +570,6 @@
     "firstSeenAt": "2026-10-17"
   },
   {
-    "id": "web-kochi-graphql-4a4a51f058",
-    "title": "Kochi GraphQL",
-    "start": "2026-12-05",
-    "end": "2026-12-05",
-    "startTime": "09:00",
-    "endTime": "13:00",
-    "category": "ai",
-    "venue": "IBM Kochi",
-    "city": "Kochi, Kerala",
-    "organizer": "GraphQL Kerala",
-    "blurb": "In-person GraphQL community meetup covering GraphQL, AI Agents, MCP and modern API development. Free entry; registration required.",
-    "tags": [],
-    "url": "https://beta.guild.host/events/kochi-graphql-czz18x",
-    "sourceUrls": [
-      "https://beta.guild.host/events/kochi-graphql-czz18x"
-    ],
-    "sourceIds": [
-      "openai-web-discovery"
-    ],
-    "firstSeenAt": "2026-11-21"
-  },
-  {
     "id": "gdg-cochin-events-details-google-gdg-cochin-presents-devfest-kochi-26",
     "title": "Devfest Kochi 26",
     "start": "2026-12-06",
@@ -585,12 +585,10 @@
     "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
     "registerUrl": "https://konfhub.com/devfest-kochi-26",
     "sourceUrls": [
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
+      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/"
     ],
     "sourceIds": [
-      "gdg-cochin",
-      "openai-web-discovery"
+      "gdg-cochin"
     ],
     "firstSeenAt": "2026-11-19"
   },
@@ -624,26 +622,26 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-ai-meetup-and-networking-e9071b672d",
-    "title": "AI Meetup and Networking",
+    "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
+    "title": "Manus Fellow Event | Water Metro Edition",
     "start": "2026-12-12",
-    "end": "2026-12-12",
-    "startTime": "09:30",
-    "endTime": "12:30",
+    "end": "2026-12-13",
+    "startTime": "10:00",
+    "endTime": "16:00",
     "category": "ai",
-    "venue": "Saints & Masters",
-    "city": "Kakkanad",
-    "organizer": "Kochi AI User Group",
-    "blurb": "AI is moving fast. While many teams are experimenting with AI agents, only a few are successfully building secure, reliable, and scalable AI solutions that",
+    "venue": "Kochi",
+    "city": "Kochi",
+    "organizer": "Robin Francis, Manus Community",
+    "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
     "tags": [],
-    "url": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+    "url": "https://luma.com/opt4pve5",
     "sourceUrls": [
-      "https://meetup.com/kochi-ai-user-group/events/317449630"
+      "https://luma.com/opt4pve5"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-11-21"
+    "firstSeenAt": "2026-11-22"
   },
   {
     "id": "tinkerhub-events-1o5z0006c4",
@@ -700,26 +698,24 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-aws-community-connect-day-kochi-2026-3132732128",
-    "title": "AWS Community Connect Day Kochi 2026",
-    "start": "2026-12-19",
-    "end": "2026-12-19",
-    "startTime": "17:00",
-    "endTime": "21:00",
-    "category": "cloud",
-    "venue": "Kochi, Kerala; exact venue to be announced",
+    "id": "web-startup-dangal-kochi-246ddd6b69",
+    "title": "Startup Dangal — Kochi",
+    "start": "2027-01-15",
+    "end": "2027-01-15",
+    "category": "startup",
+    "venue": "Kochi",
     "city": "Kochi, Kerala",
-    "organizer": "AWS User Group Kochi",
-    "blurb": "Evening technology community event with a keynote, tech talks, panel discussion and networking. Public registration is available, but the exact venue is not yet stated.",
+    "organizer": "Startup Dangal",
+    "blurb": "Startup competition where selected startups showcase products and services and pitch to investors, jury members and ecosystem leaders. The official page lists the Kochi date as 15 January 2027; venue details were not stated.",
     "tags": [],
-    "url": "https://communityday.awsugkochi.in/",
+    "url": "https://startupdangal.com/",
     "sourceUrls": [
-      "https://communityday.awsugkochi.in/"
+      "https://startupdangal.com/"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-11-21"
+    "firstSeenAt": "2026-11-22"
   },
   {
     "id": "tinkerhub-events-8buni6m2mh",
@@ -751,26 +747,25 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-hack-day-kochi-community-game-jam-aecdd9d7c6",
-    "title": "Hack Day Kochi Community Game Jam",
-    "start": "2027-02-13",
-    "end": "2027-02-14",
-    "startTime": "23:30",
-    "endTime": "00:30",
-    "category": "hackathon",
-    "venue": "Cochin University of Science and Technology",
+    "id": "web-maker-faire-kochi-2027-feffe56107",
+    "title": "Maker Faire Kochi 2027",
+    "start": "2027-02-05",
+    "end": "2027-02-06",
+    "startTime": "03:30",
+    "endTime": "12:30",
+    "category": "startup",
+    "venue": "The Grounds @ Chakola Mill",
     "city": "Kochi",
-    "organizer": "GDAI CUSAT",
-    "blurb": "Hack Day Kochi Community Game Jam is a 24-hour game jam hosted by GDAI CUSAT and Hack Day Kochi at Cochin University of Science and Technology in Kochi, bringing together 100 game developers, designers, artists, storytellers and creators.",
+    "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+    "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
     "tags": [],
-    "url": "https://indiahackathons.com/events/hack-day-kochi-community-game-jam",
-    "registerUrl": "https://luma.com/y9euxxad",
+    "url": "https://makerfaire.in/",
     "sourceUrls": [
-      "https://indiahackathons.com/events/hack-day-kochi-community-game-jam"
+      "https://makerfaire.in/"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-11-21"
+    "firstSeenAt": "2026-11-22"
   }
 ]

@@ -2,6 +2,19 @@
   "schemaVersion": 1,
   "jobs": [
     {
+      "id": "infopark-232-26958",
+      "title": "Business Development Executive",
+      "company": "Viewy Digital P(Ltd)",
+      "postedAt": "2026-11-22",
+      "deadlineAt": "2026-12-05",
+      "location": "Infopark, Kochi",
+      "category": "business",
+      "detailUrl": "https://infopark.in/company-jobs/details/232/26958",
+      "sourceUrl": "https://infopark.in/companies-job",
+      "sourceId": "infopark-jobs",
+      "firstSeenAt": "2026-11-22"
+    },
+    {
       "id": "infopark-132-26948",
       "title": "AI/ML Engineer",
       "company": "Dynamed Healthcare Solutions Pvt.Ltd",
@@ -19,7 +32,7 @@
       "title": "Graphic Designer + AI Video Creator",
       "company": "Viewy Digital P(Ltd)",
       "postedAt": "2026-11-21",
-      "deadlineAt": "2026-11-21",
+      "deadlineAt": "2026-11-28",
       "location": "Infopark, Kochi",
       "category": "ai-data",
       "detailUrl": "https://infopark.in/company-jobs/details/232/26957",
@@ -171,19 +184,6 @@
       "firstSeenAt": "2026-11-21"
     },
     {
-      "id": "infopark-95-26951",
-      "title": "Graphic Designer Intern -Digital Marketing",
-      "company": "Aabasoft Technologies India Private Limited",
-      "postedAt": "2026-11-21",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "internship",
-      "detailUrl": "https://infopark.in/company-jobs/details/95/26951",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
       "id": "infopark-95-26952",
       "title": "Business Development Manager – Cloud Services",
       "company": "Aabasoft Technologies India Private Limited",
@@ -247,84 +247,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-11-20"
-    },
-    {
-      "id": "infopark-312-26921",
-      "title": "Sr.DevSecOps Engineer",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "engineering",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26921",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
-      "id": "infopark-312-26922",
-      "title": "Business Development Manager",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26922",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
-      "id": "infopark-312-26923",
-      "title": "B2B Content Specialist",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26923",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
-      "id": "infopark-312-26924",
-      "title": "Marketing & Growth Lead",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26924",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
-      "id": "infopark-312-26925",
-      "title": "Product Manager",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "product",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26925",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
-    },
-    {
-      "id": "infopark-312-26926",
-      "title": "Sr. Talent Acquisition Executive",
-      "company": "2Base Technologies Pvt Ltd",
-      "postedAt": "2026-11-20",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/312/26926",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-21"
     },
     {
       "id": "infopark-39-26932",
@@ -847,19 +769,6 @@
       "firstSeenAt": "2026-11-19"
     },
     {
-      "id": "infopark-103-26854",
-      "title": "WALK IN DRIVE @ Kochi - 21st November",
-      "company": "Experion Technologies",
-      "postedAt": "2026-11-17",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "other",
-      "detailUrl": "https://infopark.in/company-jobs/details/103/26854",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-19"
-    },
-    {
       "id": "infopark-164-26851",
       "title": "Senior SOC Engineer / Incident Response Analyst",
       "company": "WORKSENT TECHNOLOGIES PVT LTD",
@@ -998,19 +907,6 @@
       "location": "Infopark, Kochi",
       "category": "internship",
       "detailUrl": "https://infopark.in/company-jobs/details/148/26828",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-11-19"
-    },
-    {
-      "id": "infopark-232-26826",
-      "title": "CALL CENTRE & BUSINESS DEVELOPMENT EXECUTIVE",
-      "company": "Viewy Digital P(Ltd)",
-      "postedAt": "2026-11-16",
-      "deadlineAt": "2026-11-30",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/232/26826",
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-11-19"
@@ -2545,19 +2441,6 @@
       "firstSeenAt": "2026-10-26"
     },
     {
-      "id": "infopark-3-26380",
-      "title": "Jr. Business Developement Trainee(Exp: 6months)",
-      "company": "Armia Systems Pvt. Ltd",
-      "postedAt": "2026-10-26",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "internship",
-      "detailUrl": "https://infopark.in/company-jobs/details/3/26380",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-26"
-    },
-    {
       "id": "infopark-378-26334",
       "title": "Senior Data Engineer- DataBricks",
       "company": "Simelabs - An Astek Company",
@@ -2764,32 +2647,6 @@
       "sourceUrl": "https://infopark.in/companies-job",
       "sourceId": "infopark-jobs",
       "firstSeenAt": "2026-10-23"
-    },
-    {
-      "id": "infopark-381-26279",
-      "title": "HR Executive",
-      "company": "Phases India Technology Solutions Pvt Ltd",
-      "postedAt": "2026-10-21",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/381/26279",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-21"
-    },
-    {
-      "id": "infopark-381-26280",
-      "title": "Growth Marketing Manager",
-      "company": "Phases India Technology Solutions Pvt Ltd",
-      "postedAt": "2026-10-21",
-      "deadlineAt": "2026-11-21",
-      "location": "Infopark, Kochi",
-      "category": "business",
-      "detailUrl": "https://infopark.in/company-jobs/details/381/26280",
-      "sourceUrl": "https://infopark.in/companies-job",
-      "sourceId": "infopark-jobs",
-      "firstSeenAt": "2026-10-21"
     },
     {
       "id": "infopark-146-26256",
