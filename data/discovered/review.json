@@ -366,13 +366,13 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara",
-      "city": "Kochi, Kerala",
-      "organizer": "Government Model Engineering College, Kochi",
-      "description": "24-hour hackathon within Excel 2026, with collaborative technical problem-solving, mentorship and project building.",
-      "categoryHint": "hackathon / maker",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
+      "city": "Kochi",
+      "organizer": "Government Model Engineering College, Kochi / Excel MEC",
+      "description": "24-hour hackathon focused on building technical solutions to real-world problems.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": "https://hft2026.devfolio.co/overview",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
@@ -764,20 +764,20 @@
       "title": "Maker Faire Kochi 2027",
       "start": "2027-02-05",
       "end": "2027-02-06",
-      "startTime": null,
+      "startTime": "09:00",
       "endTime": null,
       "venue": "The Grounds @ Chakola Mill",
-      "city": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
-      "description": "Public festival of invention, creativity and hands-on learning, including maker exhibits, workshops and live demonstrations. Free entry.",
-      "categoryHint": "maker / creative technology",
+      "description": "Public maker festival featuring invention, creative technology, hands-on learning, workshops and demonstrations.",
+      "categoryHint": "maker / creative technology festival",
       "evidenceUrl": "https://makerfaire.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-21"
+    "discoveredAt": "2026-11-22"
   },
   {
     "candidate": {
@@ -837,6 +837,26 @@
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-22"
+  },
+  {
+    "candidate": {
+      "title": "ELECRAVERSE Ideathon 2026 — Demo Day",
+      "start": "2026-12-17",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Maker Hub, Kochi",
+      "city": "Kochi",
+      "organizer": "IEEMA; Kerala Startup Mission; Maker Village",
+      "description": "Demo Day for the ELECRAVERSE Ideathon 2026, announced in a public LinkedIn post.",
+      "categoryHint": "maker / startup / technology",
+      "evidenceUrl": "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a",
+      "registrationUrl": null,
+      "sourceKind": "social_post",
+      "confidence": 0.72
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-22"
   }
 ]

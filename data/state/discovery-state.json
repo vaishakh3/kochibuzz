@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-21T23:23:58.552Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-11-22T15:24:03.829Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -177,12 +177,13 @@
     "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d": "2026-11-20",
     "https://indiahackathons.com/events/hack-day-kochi-community-game-jam": "2026-11-21",
     "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-21",
-    "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-22"
+    "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-22",
+    "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-22"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28987,
-    "outputTokens": 1544
+    "inputTokens": 28819,
+    "outputTokens": 945
   }
 }

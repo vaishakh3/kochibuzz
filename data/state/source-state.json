@@ -532,7 +532,6 @@
     "infopark-164-21635": "2026-11-20",
     "infopark-85-20718": "2026-11-20",
     "infopark-250-18022": "2026-11-20",
-    "tinkerhub-events-o1byzhhomr": "2026-11-21",
     "infopark-439-26941": "2026-11-21",
     "infopark-132-26948": "2026-11-21",
     "infopark-333-26942": "2026-11-21",
@@ -550,10 +549,6 @@
     "infopark-95-20226": "2026-11-21",
     "infopark-232-26957": "2026-11-21",
     "infopark-450-26956": "2026-11-21",
-    "web-n8n-kochi-meetup-969337d9d3": "2026-11-22",
-    "web-manus-fellow-event-water-metro-edition-3115025f54": "2026-11-22",
-    "web-startup-dangal-kochi-246ddd6b69": "2026-11-22",
-    "web-maker-faire-kochi-2027-feffe56107": "2026-11-22",
     "infopark-232-26958": "2026-11-22",
     "infopark-312-26921": "2026-11-22",
     "infopark-312-26922": "2026-11-22",
@@ -563,10 +558,12 @@
     "infopark-312-26926": "2026-11-22",
     "infopark-262-26674": "2026-11-22",
     "infopark-262-26677": "2026-11-22",
-    "infopark-262-26678": "2026-11-22"
+    "infopark-262-26678": "2026-11-22",
+    "web-ai-meetup-and-networking-e9071b672d": "2026-11-22",
+    "infopark-354-26959": "2026-11-22"
   },
   "lastCounts": {
-    "infopark-jobs": 500,
+    "infopark-jobs": 501,
     "paytm-payments-ernakulam-lever": 5,
     "opalus-workable": 0,
     "dodge-workable": 7,
@@ -580,6 +577,6 @@
     "paytm-payments-kochi-lever": 9,
     "gdg-cloud-kochi": 4,
     "gdg-cochin": 5,
-    "tinkerhub-events": 8
+    "tinkerhub-events": 7
   }
 }

@@ -1,24 +1,17 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-11-28": {
-      "signature": "524ad61b51d1cb8052357800aee06e866b40bcc42568e96a5193388a06a4b285",
-      "eventId": "tinkerhub-events-xlmnt169un",
-      "reason": "An overnight, beginner-friendly buildathon offers substantial hands-on programming at TinkerSpace.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-21T23:24:10.715Z"
-    },
     "2026-12-12": {
-      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
+      "signature": "32463316b30455a80d642d1e85017cd762adf8cebee433a606e91391eb308c27",
       "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "This MLH-powered hackathon provides a substantial full-day building event in Kochi.",
+      "reason": "A confirmed Kochi hackathon with hands-on programming and broad community participation.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-21T23:24:10.715Z"
+      "rankedAt": "2026-11-22T15:24:15.651Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 687,
-    "outputTokens": 102
+    "inputTokens": 404,
+    "outputTokens": 58
   }
 }
