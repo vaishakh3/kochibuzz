@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-22T15:24:03.829Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-11-23T12:56:03.854Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-22",
+    "https://hft.excelmec.org/": "2026-11-23",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-11-05",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -169,11 +169,11 @@
     "https://redis.io/events/et-government-psu-summit26": "2026-11-05",
     "https://techsnap.in/events/google-cloud-community-day-kochi-2026-4848cf6d": "2026-11-05",
     "https://aisc.theides.org/2026/index_files/AISC2026.pdf": "2026-11-05",
-    "https://luma.com/opt4pve5": "2026-11-22",
+    "https://luma.com/opt4pve5": "2026-11-23",
     "https://communityday.awsugkochi.in/": "2026-11-21",
-    "https://makerfaire.in/": "2026-11-22",
+    "https://makerfaire.in/": "2026-11-23",
     "https://luma.com/n8n-kochi": "2026-11-22",
-    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-22",
+    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-23",
     "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d": "2026-11-20",
     "https://indiahackathons.com/events/hack-day-kochi-community-game-jam": "2026-11-21",
     "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-21",
@@ -183,7 +183,7 @@
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28819,
-    "outputTokens": 945
+    "inputTokens": 28570,
+    "outputTokens": 1066
   }
 }

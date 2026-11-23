@@ -1,17 +1,24 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-12-12": {
-      "signature": "32463316b30455a80d642d1e85017cd762adf8cebee433a606e91391eb308c27",
-      "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "A confirmed Kochi hackathon with hands-on programming and broad community participation.",
+    "2026-11-28": {
+      "signature": "0477ca00f32cce1eb9a0f3412438f890217ee5552190576a6afb13bad5ecd7f5",
+      "eventId": "tinkerhub-events-xlmnt169un",
+      "reason": "An overnight beginner-friendly buildathon offers a substantial hands-on community event in Kochi.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-22T15:24:15.651Z"
+      "rankedAt": "2026-11-23T12:56:15.617Z"
+    },
+    "2026-12-12": {
+      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
+      "eventId": "tinkerhub-events-cauuxbtzxy",
+      "reason": "A Kochi hackathon powered by MLH provides broad interest for the city’s developer and maker community.",
+      "model": "gpt-5.6-luna",
+      "rankedAt": "2026-11-23T12:56:15.617Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 404,
-    "outputTokens": 58
+    "inputTokens": 722,
+    "outputTokens": 106
   }
 }

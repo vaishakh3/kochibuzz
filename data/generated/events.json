@@ -434,6 +434,115 @@
     "firstSeenAt": "2026-08-20"
   },
   {
+    "id": "tinkerhub-events-vfw3ds4c8k",
+    "title": "SECURITY TUESDAY",
+    "start": "2026-11-24",
+    "end": "2026-11-24",
+    "startTime": "19:30",
+    "endTime": "21:00",
+    "category": "security",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Introduction to Google Dorking (Google Hacking) Learn Google Dorking and how to use advanced Google search techniques to find publicly available information. A beginner-friendly introduction to OSINT and ethical hacking.",
+    "tags": [
+      "TinkerHub",
+      "Talk Session",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/VFW3DS4C8K/security-tuesday",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/VFW3DS4C8K/security-tuesday"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-23"
+  },
+  {
+    "id": "tinkerhub-events-bld76y3qbz",
+    "title": "AI Wednesday: Community Meetup",
+    "start": "2026-11-25",
+    "end": "2026-11-25",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "ai",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "No agenda this week - just the community. This AI Wednesday is an open meetup: bring what you are building, demo it if you like, meet other people in Kochi playing with AI, and swap ideas over chai. Whether you train models, wire up agents, or are just curious, drop in. Free and ",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "AI/ML",
+      "App Development"
+    ],
+    "url": "https://tinkerhub.org/events/BLD76Y3QBZ/ai-wednesday-community-meetup",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/BLD76Y3QBZ/ai-wednesday-community-meetup"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-23"
+  },
+  {
+    "id": "tinkerhub-events-fcbr70ts00",
+    "title": "Maker Thursday: Let's Discuss Maker Faire Kochi",
+    "start": "2026-11-26",
+    "end": "2026-11-26",
+    "startTime": "19:00",
+    "endTime": "21:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "This Maker Thursday, let's talk Maker Faire Kochi. Bring your project ideas, things you would want to exhibit or build, and thoughts on what the faire should look like. Meet other makers in Kochi, find collaborators, and help shape the next Maker Faire. Free and open to all. Appl",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/FCBR70TS00/maker-thursday-let-s-discuss-maker-faire-kochi",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/FCBR70TS00/maker-thursday-let-s-discuss-maker-faire-kochi"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-23"
+  },
+  {
+    "id": "tinkerhub-events-r7xuxhej2y",
+    "title": "Introduction to 3D printing",
+    "start": "2026-11-28",
+    "end": "2026-11-28",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "A hands-on introduction to 3D printing. Learn how a 3D printer works, how to find and prepare a model, and print your first object at TinkerSpace. No experience needed - bring a laptop if you have one. Free and open to all. Apply on the TinkerHub app.",
+    "tags": [
+      "TinkerHub",
+      "Learning Program",
+      "App Development"
+    ],
+    "url": "https://tinkerhub.org/events/R7XUXHEJ2Y/introduction-to-3d-printing",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/R7XUXHEJ2Y/introduction-to-3d-printing"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-23"
+  },
+  {
     "id": "tinkerhub-events-xlmnt169un",
     "title": "Useless bots : buildathon",
     "start": "2026-11-28",
@@ -536,14 +645,39 @@
     "url": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
     "registerUrl": "https://konfhub.com/devfest-kochi-26",
     "sourceUrls": [
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
-      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26"
+      "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/"
     ],
     "sourceIds": [
-      "gdg-cochin",
-      "openai-web-discovery"
+      "gdg-cochin"
     ],
     "firstSeenAt": "2026-11-19"
+  },
+  {
+    "id": "tinkerhub-events-lf5htyxlri",
+    "title": "The Enforcement Gap: Reimagining How Courts Secure Appearance",
+    "start": "2026-12-11",
+    "end": "2026-12-11",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "PUCAR is a collaboration of technology and data-driven research organisations working to improve court processes and systems so that the legal system works better for litigants. We began as Knowledge Partners to the Kerala High Court, helping set up a court in Kollam district bui",
+    "tags": [
+      "TinkerHub",
+      "Workshop",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/LF5HTYXLRI/the-enforcement-gap-reimagining-how-courts-secure-appearance",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/LF5HTYXLRI/the-enforcement-gap-reimagining-how-courts-secure-appearance"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-23"
   },
   {
     "id": "tinkerhub-events-cauuxbtzxy",
@@ -575,26 +709,26 @@
     "firstSeenAt": "2026-11-19"
   },
   {
-    "id": "web-ai-meetup-and-networking-e9071b672d",
-    "title": "AI Meetup and Networking",
+    "id": "web-manus-fellow-event-water-metro-edition-3115025f54",
+    "title": "Manus Fellow Event | Water Metro Edition",
     "start": "2026-12-12",
-    "end": "2026-12-12",
-    "startTime": "09:30",
-    "endTime": "12:30",
+    "end": "2026-12-13",
+    "startTime": "10:00",
+    "endTime": "16:00",
     "category": "ai",
-    "venue": "Saints & Masters",
-    "city": "Kakkanad",
-    "organizer": "Kochi AI User Group",
-    "blurb": "AI is moving fast. While many teams are experimenting with AI agents, only a few are successfully building secure, reliable, and scalable AI solutions that",
+    "venue": "Kochi",
+    "city": "Kochi",
+    "organizer": "Robin Francis, Manus Community",
+    "blurb": "Manus Fellow Event | Water Metro Edition Part of TechX CogniCraft 2026 The next wave of AI meets the waterways of Kochi!",
     "tags": [],
-    "url": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+    "url": "https://luma.com/opt4pve5",
     "sourceUrls": [
-      "https://meetup.com/kochi-ai-user-group/events/317449630"
+      "https://luma.com/opt4pve5"
     ],
     "sourceIds": [
       "openai-web-discovery"
     ],
-    "firstSeenAt": "2026-11-22"
+    "firstSeenAt": "2026-11-23"
   },
   {
     "id": "tinkerhub-events-1o5z0006c4",
@@ -678,5 +812,27 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-11-19"
+  },
+  {
+    "id": "web-maker-faire-kochi-2027-feffe56107",
+    "title": "Maker Faire Kochi 2027",
+    "start": "2027-02-05",
+    "end": "2027-02-06",
+    "startTime": "03:30",
+    "endTime": "12:30",
+    "category": "startup",
+    "venue": "The Grounds @ Chakola Mill",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+    "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
+    "tags": [],
+    "url": "https://makerfaire.in/",
+    "sourceUrls": [
+      "https://makerfaire.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-23"
   }
 ]
