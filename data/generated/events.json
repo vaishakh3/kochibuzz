@@ -434,33 +434,6 @@
     "firstSeenAt": "2026-08-20"
   },
   {
-    "id": "tinkerhub-events-vfw3ds4c8k",
-    "title": "SECURITY TUESDAY",
-    "start": "2026-11-24",
-    "end": "2026-11-24",
-    "startTime": "19:30",
-    "endTime": "21:00",
-    "category": "security",
-    "venue": "TinkerSpace, Kalamassery",
-    "city": "Kochi",
-    "organizer": "TinkerHub Foundation",
-    "blurb": "Introduction to Google Dorking (Google Hacking) Learn Google Dorking and how to use advanced Google search techniques to find publicly available information. A beginner-friendly introduction to OSINT and ethical hacking.",
-    "tags": [
-      "TinkerHub",
-      "Talk Session",
-      "Community Building"
-    ],
-    "url": "https://tinkerhub.org/events/VFW3DS4C8K/security-tuesday",
-    "sourceUrls": [
-      "https://app-api.tinkerhub.org/v1/public/event/all",
-      "https://tinkerhub.org/events/VFW3DS4C8K/security-tuesday"
-    ],
-    "sourceIds": [
-      "tinkerhub-events"
-    ],
-    "firstSeenAt": "2026-11-23"
-  },
-  {
     "id": "tinkerhub-events-bld76y3qbz",
     "title": "AI Wednesday: Community Meetup",
     "start": "2026-11-25",
