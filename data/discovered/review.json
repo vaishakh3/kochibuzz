@@ -364,20 +364,20 @@
       "title": "Hack For Tomorrow 2026",
       "start": "2027-01-02",
       "end": "2027-01-03",
-      "startTime": null,
+      "startTime": "10:00",
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara",
-      "city": "Kochi, Kerala",
-      "organizer": "Excel MEC / Government Model Engineering College",
-      "description": "24-hour student hackathon focused on solving real-world problems. Registration is handled through Devfolio; registration closes on 2026-12-05, and campus participation is subject to shortlisting.",
-      "categoryHint": "hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara, Kochi",
+      "city": "Kochi",
+      "organizer": "Excel 2026, Government Model Engineering College Kochi",
+      "description": "24-hour offline hackathon for teams building technical solutions to real-world problems, themed around cognition in an AI-first world.",
+      "categoryHint": "hackathon / AI / innovation",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": "https://hft.excelmec.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-24"
+    "discoveredAt": "2026-11-25"
   },
   {
     "candidate": {
@@ -806,18 +806,18 @@
       "end": null,
       "startTime": "09:30",
       "endTime": "17:00",
-      "venue": "Jain University Kochi, Infopark Campus",
-      "city": "Kochi",
-      "organizer": "GDG Cochin (GDG Kochi)",
-      "description": "Public developer event with hands-on workshops and talks covering AI, Gemini, Flutter and cloud. Registration is indicated on the event listing.",
-      "categoryHint": "developer workshop",
+      "venue": "Jain University Kochi, Infopark",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cochin",
+      "description": "Full-day developer conference covering AI, Gemini, Google Cloud, Firebase, Flutter, Android, web and agentic development, with talks and hands-on workshops.",
+      "categoryHint": "GDG / developer conference / Google Cloud / AI",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
-      "registrationUrl": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-23"
+    "discoveredAt": "2026-11-25"
   },
   {
     "candidate": {
@@ -1058,5 +1058,45 @@
     },
     "reason": "This is already covered by an existing calendar event.",
     "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Kochi Regionals – Codeavour",
+      "start": "2027-01-08",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Venue to be announced, Kochi",
+      "city": "Kochi",
+      "organizer": "Codeavour",
+      "description": "Technology event featuring coding, AI and robotics solutions by young innovators.",
+      "categoryHint": "technology / robotics / innovation",
+      "evidenceUrl": "https://codeavour.org/event/kochi-regionals-2/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.86
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 403",
+    "discoveredAt": "2026-11-25"
+  },
+  {
+    "candidate": {
+      "title": "Machinery Expo Keralam 2027",
+      "start": "2027-01-04",
+      "end": "2027-01-07",
+      "startTime": null,
+      "endTime": null,
+      "venue": "KINFRA International Exhibition Centre, Infopark Express Way, Kakkanad, Ernakulam",
+      "city": "Kakkanad, Ernakulam",
+      "organizer": "Department of Industries & Commerce, Government of Kerala, with MSME-related institutional support",
+      "description": "Technology and manufacturing exhibition covering machinery, industrial technologies, robotics and solutions for micro, small and medium enterprises.",
+      "categoryHint": "industrial technology / manufacturing / innovation",
+      "evidenceUrl": "https://machineryexpokerala.in/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.94
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-25"
   }
 ]

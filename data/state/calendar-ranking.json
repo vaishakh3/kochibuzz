@@ -2,23 +2,23 @@
   "schemaVersion": 1,
   "decisions": {
     "2026-11-28": {
-      "signature": "0477ca00f32cce1eb9a0f3412438f890217ee5552190576a6afb13bad5ecd7f5",
+      "signature": "97d06662d50bd8c5f60548f288b459a45a37eea4c653bf86d05229636a5c181f",
       "eventId": "tinkerhub-events-xlmnt169un",
-      "reason": "An overnight beginner-friendly buildathon offers a substantial hands-on community event in Kochi.",
+      "reason": "A beginner-friendly overnight buildathon offers substantial hands-on programming and broad maker appeal.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-23T12:56:15.617Z"
+      "rankedAt": "2026-11-24T21:17:19.468Z"
     },
-    "2026-12-19": {
-      "signature": "bf4ac60ae12e9d0237aab849b9021c8564bd2930d6ace2312ab1ff36e71d5b4b",
-      "eventId": "web-aws-community-connect-kochi-2026-c0b3a31512",
-      "reason": "A confirmed community programme with a keynote, talks, panel discussion and networking dinner offers broader public value.",
+    "2026-12-12": {
+      "signature": "346096fcabb75ff47e7154113aedd8c8d34e2908109f5c73bbb10e064d4e81c0",
+      "eventId": "web-ieee-cs-syp-techx-cognicraft-2026-81ec498558",
+      "reason": "This free two-day residential hackathon has a distinctive assistive-technology focus and substantial programming.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-24T00:57:42.418Z"
+      "rankedAt": "2026-11-24T21:17:19.468Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 423,
-    "outputTokens": 70
+    "inputTokens": 989,
+    "outputTokens": 114
   }
 }

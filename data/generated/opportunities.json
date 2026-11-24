@@ -221,6 +221,31 @@
     "firstSeenAt": "2026-11-24"
   },
   {
+    "id": "ksum-tenders-2026-t-tbi-892009-1",
+    "title": "Supply of Highend Desktop Workstations",
+    "type": "other",
+    "organization": "Kerala Startup Mission",
+    "summary": "Supply of Highend Desktop Workstations",
+    "deadlineAt": "2026-12-05",
+    "locationScope": "kerala",
+    "benefit": "eTender",
+    "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/AQWD5ujXdsib3QJZ2PmeVBaTV50xySgZnW1Sj6A2.pdf",
+    "url": "https://startupmission.kerala.gov.in/storage/tenders/AQWD5ujXdsib3QJZ2PmeVBaTV50xySgZnW1Sj6A2.pdf",
+    "sourceUrls": [
+      "https://startupmission.kerala.gov.in/api/public/tenders",
+      "https://startupmission.kerala.gov.in/storage/tenders/AQWD5ujXdsib3QJZ2PmeVBaTV50xySgZnW1Sj6A2.pdf"
+    ],
+    "sourceIds": [
+      "ksum-tenders"
+    ],
+    "tags": [
+      "KSUM",
+      "RFP",
+      "tender"
+    ],
+    "firstSeenAt": "2026-11-25"
+  },
+  {
     "id": "ksum-early-stage-funding",
     "title": "KSUM Early Stage Funding",
     "type": "grant",

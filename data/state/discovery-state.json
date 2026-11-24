@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-24T00:57:31.853Z",
-  "queryCursor": 1,
+  "lastRunAt": "2026-11-24T21:17:08.028Z",
+  "queryCursor": 3,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-24",
+    "https://hft.excelmec.org/": "2026-11-25",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-11-05",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -171,13 +171,13 @@
     "https://aisc.theides.org/2026/index_files/AISC2026.pdf": "2026-11-05",
     "https://luma.com/opt4pve5": "2026-11-24",
     "https://communityday.awsugkochi.in/": "2026-11-21",
-    "https://makerfaire.in/": "2026-11-24",
+    "https://makerfaire.in/": "2026-11-25",
     "https://luma.com/n8n-kochi": "2026-11-22",
-    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-24",
+    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-25",
     "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d": "2026-11-20",
     "https://indiahackathons.com/events/hack-day-kochi-community-game-jam": "2026-11-21",
     "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-24",
-    "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-22",
+    "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-25",
     "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-22",
     "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi": "2026-11-24",
     "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery": "2026-11-24",
@@ -186,12 +186,15 @@
     "https://conferencealerts.in/eventdetail/2689085": "2026-11-24",
     "https://allconferencealert.com/conference/cyber-physical-security-intelligent-networks-and-digital-infrastructure-kochi-india-jan-2027-3214900": "2026-11-24",
     "https://events.mlh.com/events/15674-hack-days-kochi": "2026-11-24",
-    "https://communityday.awsugkochi.in/faq": "2026-11-24"
+    "https://communityday.awsugkochi.in/faq": "2026-11-24",
+    "https://codeavour.org/event/kochi-regionals-2": "2026-11-25",
+    "https://techxcognicraft.vercel.app/": "2026-11-25",
+    "https://machineryexpokerala.in/": "2026-11-25"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28815,
-    "outputTokens": 2358
+    "inputTokens": 28742,
+    "outputTokens": 1256
   }
 }
