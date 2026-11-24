@@ -8,17 +8,17 @@
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-11-23T12:56:15.617Z"
     },
-    "2026-12-12": {
-      "signature": "97e43e132769232ae568fcf55db0861b63ed65eb9618d2fd04b69b0a210d0bf7",
-      "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "A Kochi hackathon powered by MLH provides broad interest for the city’s developer and maker community.",
+    "2026-12-19": {
+      "signature": "bf4ac60ae12e9d0237aab849b9021c8564bd2930d6ace2312ab1ff36e71d5b4b",
+      "eventId": "web-aws-community-connect-kochi-2026-c0b3a31512",
+      "reason": "A confirmed community programme with a keynote, talks, panel discussion and networking dinner offers broader public value.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-23T12:56:15.617Z"
+      "rankedAt": "2026-11-24T00:57:42.418Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 722,
-    "outputTokens": 106
+    "inputTokens": 423,
+    "outputTokens": 70
   }
 }

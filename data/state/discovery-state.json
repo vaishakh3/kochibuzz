@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-23T12:56:03.854Z",
-  "queryCursor": 7,
+  "lastRunAt": "2026-11-24T00:57:31.853Z",
+  "queryCursor": 1,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-23",
+    "https://hft.excelmec.org/": "2026-11-24",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-11-05",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -153,7 +153,7 @@
     "https://linkedin.com/posts/vandana-chaudhary-015113109_etpsu-etgovernment-nationalpsusummit-activity-7497606404237807616-hL8O": "2026-10-30",
     "https://icsg.world/learn_more": "2026-10-30",
     "https://gdg.community.dev/events/details/google-gdg-on-campus-scms-school-of-engineering-and-technology-ernakulam-india-presents-techsprint-hackathon-registration-event-2026": "2026-10-30",
-    "https://arinjo.in/places/ernakulam": "2026-10-30",
+    "https://arinjo.in/places/ernakulam": "2026-11-24",
     "https://arinjo.in/events/cloud-community-days-2026": "2026-10-30",
     "https://globalai.community/e/bi7w86xf": "2026-10-30",
     "https://bluecloude.com/events": "2026-11-02",
@@ -169,21 +169,29 @@
     "https://redis.io/events/et-government-psu-summit26": "2026-11-05",
     "https://techsnap.in/events/google-cloud-community-day-kochi-2026-4848cf6d": "2026-11-05",
     "https://aisc.theides.org/2026/index_files/AISC2026.pdf": "2026-11-05",
-    "https://luma.com/opt4pve5": "2026-11-23",
+    "https://luma.com/opt4pve5": "2026-11-24",
     "https://communityday.awsugkochi.in/": "2026-11-21",
-    "https://makerfaire.in/": "2026-11-23",
+    "https://makerfaire.in/": "2026-11-24",
     "https://luma.com/n8n-kochi": "2026-11-22",
-    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-23",
+    "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26": "2026-11-24",
     "https://kochi2go.in/event/ai-meetup-and-networking-20261212-144c5d": "2026-11-20",
     "https://indiahackathons.com/events/hack-day-kochi-community-game-jam": "2026-11-21",
-    "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-21",
+    "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-24",
     "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-22",
-    "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-22"
+    "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-22",
+    "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi": "2026-11-24",
+    "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery": "2026-11-24",
+    "https://tinkerhub.org/events/QQZP5KY91O/space-carnival": "2026-11-24",
+    "https://tinkerhub.org/events/8BUNI6M2MH/bi0s-meetup": "2026-11-24",
+    "https://conferencealerts.in/eventdetail/2689085": "2026-11-24",
+    "https://allconferencealert.com/conference/cyber-physical-security-intelligent-networks-and-digital-infrastructure-kochi-india-jan-2027-3214900": "2026-11-24",
+    "https://events.mlh.com/events/15674-hack-days-kochi": "2026-11-24",
+    "https://communityday.awsugkochi.in/faq": "2026-11-24"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28570,
-    "outputTokens": 1066
+    "inputTokens": 28815,
+    "outputTokens": 2358
   }
 }

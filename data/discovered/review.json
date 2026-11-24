@@ -364,20 +364,20 @@
       "title": "Hack For Tomorrow 2026",
       "start": "2027-01-02",
       "end": "2027-01-03",
-      "startTime": "10:00",
+      "startTime": null,
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara",
-      "city": "Kochi",
-      "organizer": "Excel, Government Model Engineering College Kochi",
-      "description": "Public registration for a 24-hour, in-person collegiate coding hackathon. Teams of 2–4; registration is free. The official page states that registration does not guarantee selection for the on-campus finale; shortlisted teams are invited.",
-      "categoryHint": "college coding hackathon",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel MEC / Government Model Engineering College",
+      "description": "24-hour student hackathon focused on solving real-world problems. Registration is handled through Devfolio; registration closes on 2026-12-05, and campus participation is subject to shortlisting.",
+      "categoryHint": "hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-23"
+    "discoveredAt": "2026-11-24"
   },
   {
     "candidate": {
@@ -767,17 +767,17 @@
       "startTime": "09:00",
       "endTime": null,
       "venue": "The Grounds @ Chakola Mill",
-      "city": "Kochi",
+      "city": "Kochi, Kerala",
       "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
-      "description": "Public maker festival featuring invention, creative technology, hands-on learning, workshops and demonstrations.",
+      "description": "Public maker festival featuring inventions, creative technology, hands-on workshops, live demonstrations and project showcases. Free entry.",
       "categoryHint": "maker / creative technology festival",
       "evidenceUrl": "https://makerfaire.in/",
-      "registrationUrl": null,
+      "registrationUrl": "https://makerfaire.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-22"
+    "discoveredAt": "2026-11-24"
   },
   {
     "candidate": {
@@ -858,5 +858,205 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-22"
+  },
+  {
+    "candidate": {
+      "title": "Kochi ZONALS 2026 Techfest",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Ernakulam, Kerala",
+      "city": "Ernakulam/Kochi, Kerala",
+      "organizer": "Techfest, IIT Bombay",
+      "description": "Technology festival featuring spherical robotics, robotic-arm hardware, autonomous maze robotics, prompt-to-app development, civic tech and a national AI challenge.",
+      "categoryHint": "technology; robotics; AI; product innovation",
+      "evidenceUrl": "https://arinjo.in/places/ernakulam",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.79
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Hack Days Kochi",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub",
+      "description": "Public hack-day event listed by the organizer for Kochi.",
+      "categoryHint": "maker; software; technology",
+      "evidenceUrl": "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Maker Thursday: Prototype Mastery",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub",
+      "description": "Public maker event focused on prototyping.",
+      "categoryHint": "maker; product; creative technology",
+      "evidenceUrl": "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Space Carnival",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub",
+      "description": "Public technology and space-themed event listed by the organizer.",
+      "categoryHint": "technology; maker; science",
+      "evidenceUrl": "https://tinkerhub.org/events/QQZP5KY91O/space-carnival",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.97
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "bi0s Meetup",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "startTime": null,
+      "endTime": null,
+      "venue": "TinkerSpace",
+      "city": "Kochi, Kerala",
+      "organizer": "TinkerHub / bi0s",
+      "description": "Public cybersecurity meetup listed by the organizer.",
+      "categoryHint": "security; cybersecurity",
+      "evidenceUrl": "https://tinkerhub.org/events/8BUNI6M2MH/bi0s-meetup",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.97
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "International Conference on Edge Computing, Cloud Security and Data Innovation (ICECCSDI)",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Asar, Cochin, Kerala",
+      "city": "Cochin/Kochi, Kerala",
+      "organizer": "Asar",
+      "description": "Conference covering edge computing, edge AI, cloud security, data protection, data engineering, governance and real-time analytics.",
+      "categoryHint": "cloud; security; data; AI; edge computing",
+      "evidenceUrl": "https://www.conferencealerts.in/eventdetail/2689085",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.84
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "International Conference on Cyber-Physical Security, Intelligent Networks and Digital Infrastructure (ICCSINDI)",
+      "start": "2027-01-02",
+      "end": "2027-01-03",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi, Kerala",
+      "city": "Kochi, Kerala",
+      "organizer": "The National Engineering and Technology Forum (NETF)",
+      "description": "Conference covering cybersecurity, intelligent networks, digital infrastructure, embedded systems, AI and digital transformation.",
+      "categoryHint": "security; networks; AI; digital infrastructure",
+      "evidenceUrl": "https://www.allconferencealert.com/conference/cyber-physical-security-intelligent-networks-and-digital-infrastructure-kochi-india-jan-2027-3214900",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.78
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Kochi GraphQL",
+      "start": "2026-12-05",
+      "end": null,
+      "startTime": "09:00",
+      "endTime": "13:00",
+      "venue": "IBM Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "GraphQL Kerala",
+      "description": "In-person GraphQL community meetup covering GraphQL, AI agents, MCP and modern API development. Registration required.",
+      "categoryHint": "technology meetup",
+      "evidenceUrl": "https://beta.guild.host/events/kochi-graphql-czz18x",
+      "registrationUrl": "https://beta.guild.host/events/kochi-graphql-czz18x",
+      "sourceKind": "official_event_page",
+      "confidence": 0.88
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Manus Fellow Event — Water Metro Edition",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Kochi Water Metro",
+      "city": "Kochi, Kerala",
+      "organizer": "Manus Fellow — Robin Francis",
+      "description": "Approval-based AI builder event with demonstrations, hands-on challenges, project showcases and networking. Limited to 100 participants.",
+      "categoryHint": "creative technology / AI workshop",
+      "evidenceUrl": "https://luma.com/opt4pve5",
+      "registrationUrl": "https://luma.com/opt4pve5",
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-24"
+  },
+  {
+    "candidate": {
+      "title": "Hack Days Kochi",
+      "start": "2026-12-12",
+      "end": null,
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "venue": "Tinkerspace, Seaport-Airport Road, Vidya Nagar Colony, Kalamassery",
+      "city": "Ernakulam, Kerala",
+      "organizer": "Gatheribe; hosted by Abimel S. B. Kulumala and Goutham Rajesh",
+      "description": "In-person Hack Days event open to working professionals and secondary/high-school students.",
+      "categoryHint": "hackathon",
+      "evidenceUrl": "https://events.mlh.com/events/15674-hack-days-kochi",
+      "registrationUrl": "https://events.mlh.com/events/15674-hack-days-kochi",
+      "sourceKind": "official_event_page",
+      "confidence": 0.9
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-24"
   }
 ]
