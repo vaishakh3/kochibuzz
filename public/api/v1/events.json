@@ -436,33 +436,6 @@
       "firstSeenAt": "2026-08-20"
     },
     {
-      "id": "tinkerhub-events-fcbr70ts00",
-      "title": "Maker Thursday: Let's Discuss Maker Faire Kochi",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "startTime": "19:00",
-      "endTime": "21:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "This Maker Thursday, let's talk Maker Faire Kochi. Bring your project ideas, things you would want to exhibit or build, and thoughts on what the faire should look like. Meet other makers in Kochi, find collaborators, and help shape the next Maker Faire. Free and open to all. Appl",
-      "tags": [
-        "TinkerHub",
-        "Meetup",
-        "Community Building"
-      ],
-      "url": "https://tinkerhub.org/events/FCBR70TS00/maker-thursday-let-s-discuss-maker-faire-kochi",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/FCBR70TS00/maker-thursday-let-s-discuss-maker-faire-kochi"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-23"
-    },
-    {
       "id": "tinkerhub-events-1qcnfq80w1",
       "title": "Game Night",
       "start": "2026-11-28",
@@ -683,49 +656,6 @@
       "firstSeenAt": "2026-11-19"
     },
     {
-      "id": "web-ai-meetup-and-networking-e9071b672d",
-      "title": "AI Meetup and Networking",
-      "start": "2026-12-12",
-      "end": "2026-12-12",
-      "startTime": "09:30",
-      "endTime": "12:30",
-      "category": "ai",
-      "venue": "Saints & Masters",
-      "city": "Kakkanad",
-      "organizer": "Kochi AI User Group",
-      "blurb": "AI is moving fast. While many teams are experimenting with AI agents, only a few are successfully building secure, reliable, and scalable AI solutions that",
-      "tags": [],
-      "url": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
-      "sourceUrls": [
-        "https://meetup.com/kochi-ai-user-group/events/317449630"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-11-25"
-    },
-    {
-      "id": "web-ieee-cs-syp-techx-cognicraft-2026-81ec498558",
-      "title": "IEEE CS SYP TechX CogniCraft 2026",
-      "start": "2026-12-12",
-      "end": "2026-12-13",
-      "category": "hackathon",
-      "venue": "Rajagiri School of Engineering and Technology",
-      "city": "Kochi",
-      "organizer": "Rajagiri School of Engineering and Technology",
-      "blurb": "A free, two-day residential solo hackathon in Kochi on 12-13 December 2026. Build an individual cognitive assistive technology project.",
-      "tags": [],
-      "url": "https://techxcognicraft.online/",
-      "registerUrl": "https://luma.com/opt4pve5",
-      "sourceUrls": [
-        "https://techxcognicraft.vercel.app/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-11-25"
-    },
-    {
       "id": "tinkerhub-events-1o5z0006c4",
       "title": "Maker Thursday: Prototype Mastery",
       "start": "2026-12-17",
@@ -807,28 +737,6 @@
         "tinkerhub-events"
       ],
       "firstSeenAt": "2026-11-19"
-    },
-    {
-      "id": "web-maker-faire-kochi-2027-feffe56107",
-      "title": "Maker Faire Kochi 2027",
-      "start": "2027-02-05",
-      "end": "2027-02-06",
-      "startTime": "03:30",
-      "endTime": "12:30",
-      "category": "startup",
-      "venue": "The Grounds @ Chakola Mill",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
-      "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
-      "tags": [],
-      "url": "https://makerfaire.in/",
-      "sourceUrls": [
-        "https://makerfaire.in/"
-      ],
-      "sourceIds": [
-        "openai-web-discovery"
-      ],
-      "firstSeenAt": "2026-11-25"
     }
   ]
 }

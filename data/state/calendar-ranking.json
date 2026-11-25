@@ -7,13 +7,6 @@
       "reason": "A beginner-friendly overnight buildathon offers substantial hands-on programming and broad maker appeal.",
       "model": "gpt-5.6-luna",
       "rankedAt": "2026-11-24T21:17:19.468Z"
-    },
-    "2026-12-12": {
-      "signature": "346096fcabb75ff47e7154113aedd8c8d34e2908109f5c73bbb10e064d4e81c0",
-      "eventId": "web-ieee-cs-syp-techx-cognicraft-2026-81ec498558",
-      "reason": "This free two-day residential hackathon has a distinctive assistive-technology focus and substantial programming.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-24T21:17:19.468Z"
     }
   },
   "lastUsage": {

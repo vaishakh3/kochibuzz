@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-24T21:17:08.028Z",
-  "queryCursor": 3,
+  "lastRunAt": "2026-11-25T15:41:30.858Z",
+  "queryCursor": 5,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -178,7 +178,7 @@
     "https://indiahackathons.com/events/hack-day-kochi-community-game-jam": "2026-11-21",
     "https://beta.guild.host/events/kochi-graphql-czz18x": "2026-11-24",
     "https://meetup.com/kochi-ai-user-group/events/317449630": "2026-11-25",
-    "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-22",
+    "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-25",
     "https://tinkerhub.org/events/CAUUXBTZXY/hack-days-kochi": "2026-11-24",
     "https://tinkerhub.org/events/1O5Z0006C4/maker-thursday-prototype-mastery": "2026-11-24",
     "https://tinkerhub.org/events/QQZP5KY91O/space-carnival": "2026-11-24",
@@ -189,12 +189,14 @@
     "https://communityday.awsugkochi.in/faq": "2026-11-24",
     "https://codeavour.org/event/kochi-regionals-2": "2026-11-25",
     "https://techxcognicraft.vercel.app/": "2026-11-25",
-    "https://machineryexpokerala.in/": "2026-11-25"
+    "https://machineryexpokerala.in/": "2026-11-25",
+    "https://in.linkedin.com/company/techkeralam": "2026-11-25",
+    "https://ae.linkedin.com/in/moan-abraham-11404934": "2026-11-25"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "searchCalls": 4,
-    "inputTokens": 28742,
-    "outputTokens": 1256
+    "inputTokens": 29021,
+    "outputTokens": 2458
   }
 }

@@ -841,23 +841,23 @@
   },
   {
     "candidate": {
-      "title": "ELECRAVERSE Ideathon 2026 — Demo Day",
+      "title": "Ideathon 2026 Demo Day",
       "start": "2026-12-17",
       "end": null,
       "startTime": null,
       "endTime": null,
       "venue": "Maker Hub, Kochi",
       "city": "Kochi",
-      "organizer": "IEEMA; Kerala Startup Mission; Maker Village",
-      "description": "Demo Day for the ELECRAVERSE Ideathon 2026, announced in a public LinkedIn post.",
-      "categoryHint": "maker / startup / technology",
+      "organizer": "Indian Electrical & Electronics Manufacturers’ Association (IEEMA)",
+      "description": "Demo Day for market-ready power-sector startups participating in Ideathon 2026, with an opportunity to showcase at ELECRAMA 2027. Announced through a LinkedIn post.",
+      "categoryHint": "startup / innovation / maker",
       "evidenceUrl": "https://in.linkedin.com/in/seetharaman-kalia-murthy-171661a",
       "registrationUrl": null,
-      "sourceKind": "social_post",
-      "confidence": 0.72
+      "sourceKind": "organizer_page",
+      "confidence": 0.91
     },
-    "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-22"
+    "reason": "Official page could not be fetched: Error: HTTP 999",
+    "discoveredAt": "2026-11-25"
   },
   {
     "candidate": {
@@ -1095,6 +1095,46 @@
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.94
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-25"
+  },
+  {
+    "candidate": {
+      "title": "COKPIT 2027 — Aviation GCC Leadership Summit",
+      "start": "2027-01-28",
+      "end": "2027-01-29",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty",
+      "city": "Kochi",
+      "organizer": "Infoparks Kerala",
+      "description": "A two-day invitation-only summit for aviation GCC, technology and global-delivery leaders. The event was announced through an Infoparks LinkedIn post.",
+      "categoryHint": "technology / startup ecosystem / GCC leadership",
+      "evidenceUrl": "https://in.linkedin.com/company/techkeralam",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.96
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 403",
+    "discoveredAt": "2026-11-25"
+  },
+  {
+    "candidate": {
+      "title": "Kerala Energy Conclave 2.0",
+      "start": "2026-12-11",
+      "end": null,
+      "startTime": null,
+      "endTime": null,
+      "venue": "Taj Vivanta, Kochi",
+      "city": "Kochi",
+      "organizer": "ISHRAE Kochi Chapter",
+      "description": "Technology and sustainability conclave focused on HVAC&R, energy efficiency and green buildings. The announced date and venue appeared in an ISHRAE Kochi Chapter LinkedIn post.",
+      "categoryHint": "technology / sustainability / energy",
+      "evidenceUrl": "https://ae.linkedin.com/in/moan-abraham-11404934",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.88
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-11-25"
