@@ -517,6 +517,33 @@
     "firstSeenAt": "2026-11-03"
   },
   {
+    "id": "tinkerhub-events-z92pvv3g34",
+    "title": "Carnival Mood",
+    "start": "2026-11-28",
+    "end": "2026-11-28",
+    "startTime": "19:00",
+    "endTime": "20:00",
+    "category": "webdev",
+    "venue": "TinkerSpace, Kalamassery",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation",
+    "blurb": "Join us for the second edition of Carnival Mood, a relaxed community meetup to plan TinkerSpace's fourth anniversary.",
+    "tags": [
+      "TinkerHub",
+      "Meetup",
+      "Community Building"
+    ],
+    "url": "https://tinkerhub.org/events/Z92PVV3G34/carnival-mood",
+    "sourceUrls": [
+      "https://app-api.tinkerhub.org/v1/public/event/all",
+      "https://tinkerhub.org/events/Z92PVV3G34/carnival-mood"
+    ],
+    "sourceIds": [
+      "tinkerhub-events"
+    ],
+    "firstSeenAt": "2026-11-27"
+  },
+  {
     "id": "tinkerhub-events-udzd4k9ylf",
     "title": "NULL Kochi: November Cyber Security Meetup",
     "start": "2026-11-29",
