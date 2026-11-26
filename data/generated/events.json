@@ -598,6 +598,29 @@
     "firstSeenAt": "2026-11-19"
   },
   {
+    "id": "web-devfest-kochi-2026-639710bb1b",
+    "title": "DevFest Kochi 2026",
+    "start": "2026-12-06",
+    "end": "2026-12-06",
+    "startTime": "09:30",
+    "endTime": "17:00",
+    "category": "ai",
+    "venue": "Infopark (Jain University Kochi)",
+    "city": "Kochi",
+    "organizer": "GDG Cochin",
+    "blurb": "DevFest Kochi 2026 by GDG Cochin: a full day of talks and hands-on workshops on AI, Android, Flutter, Cloud and Web. Sunday, 6 December 2026 at Infopark, Kochi.",
+    "tags": [],
+    "url": "https://devfestkochi.in/",
+    "registerUrl": "https://konfhub.com/devfest-kochi-26",
+    "sourceUrls": [
+      "https://devfestkochi.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-26"
+  },
+  {
     "id": "tinkerhub-events-lf5htyxlri",
     "title": "The Enforcement Gap: Reimagining How Courts Secure Appearance",
     "start": "2026-12-11",
@@ -652,6 +675,49 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-11-19"
+  },
+  {
+    "id": "web-ai-meetup-and-networking-e9071b672d",
+    "title": "AI Meetup and Networking",
+    "start": "2026-12-12",
+    "end": "2026-12-12",
+    "startTime": "09:30",
+    "endTime": "12:30",
+    "category": "ai",
+    "venue": "Saints & Masters",
+    "city": "Kakkanad",
+    "organizer": "Kochi AI User Group",
+    "blurb": "AI is moving fast. While many teams are experimenting with AI agents, only a few are successfully building secure, reliable, and scalable AI solutions that",
+    "tags": [],
+    "url": "https://www.meetup.com/kochi-ai-user-group/events/317449630/",
+    "sourceUrls": [
+      "https://meetup.com/kochi-ai-user-group/events/317449630"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-26"
+  },
+  {
+    "id": "web-ieee-cs-syp-techx-cognicraft-2026-81ec498558",
+    "title": "IEEE CS SYP TechX CogniCraft 2026",
+    "start": "2026-12-12",
+    "end": "2026-12-13",
+    "category": "hackathon",
+    "venue": "Rajagiri School of Engineering and Technology",
+    "city": "Kochi",
+    "organizer": "Rajagiri School of Engineering and Technology",
+    "blurb": "A free, two-day residential solo hackathon in Kochi on 12-13 December 2026. Build an individual cognitive assistive technology project.",
+    "tags": [],
+    "url": "https://techxcognicraft.online/",
+    "registerUrl": "https://luma.com/opt4pve5",
+    "sourceUrls": [
+      "https://techxcognicraft.vercel.app/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-26"
   },
   {
     "id": "tinkerhub-events-1o5z0006c4",
@@ -735,5 +801,27 @@
       "tinkerhub-events"
     ],
     "firstSeenAt": "2026-11-19"
+  },
+  {
+    "id": "web-maker-faire-kochi-2027-feffe56107",
+    "title": "Maker Faire Kochi 2027",
+    "start": "2027-02-05",
+    "end": "2027-02-06",
+    "startTime": "03:30",
+    "endTime": "12:30",
+    "category": "startup",
+    "venue": "The Grounds @ Chakola Mill",
+    "city": "Kochi",
+    "organizer": "TinkerHub Foundation, MakerGram, Kerala Startup Mission",
+    "blurb": "Kerala’s first licensed Maker Faire. A festival of invention, creativity and hands-on learning in Kochi, 5–6 February 2027, at The Grounds @ Chakola Mill. Built together by TinkerHub Foundation, MakerGram and Kerala Startup Mission.",
+    "tags": [],
+    "url": "https://makerfaire.in/",
+    "sourceUrls": [
+      "https://makerfaire.in/"
+    ],
+    "sourceIds": [
+      "openai-web-discovery"
+    ],
+    "firstSeenAt": "2026-11-26"
   }
 ]

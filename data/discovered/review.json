@@ -101,26 +101,6 @@
   },
   {
     "candidate": {
-      "title": "Dhanam BFSI Summit & Award Nite 2026",
-      "start": "2026-11-25",
-      "end": null,
-      "startTime": "09:30",
-      "endTime": "21:30",
-      "venue": "Le Méridien, Kochi",
-      "city": "Nettoor, Maradu, Kochi, Ernakulam",
-      "organizer": "Dhanam Business Media",
-      "description": "Business summit covering banking, finance, insurance and investment, with networking and awards.",
-      "categoryHint": "business/technology-adjacent",
-      "evidenceUrl": "https://dhanambfsisummit.com/",
-      "registrationUrl": "https://dhanambfsisummit.com/",
-      "sourceKind": "official_event_page",
-      "confidence": 0.97
-    },
-    "reason": "Official page could not be fetched: TypeError: fetch failed",
-    "discoveredAt": "2026-10-17"
-  },
-  {
-    "candidate": {
       "title": "Kochi Design Week Design Fair",
       "start": "2026-12-16",
       "end": "2026-12-17",
@@ -221,23 +201,23 @@
   },
   {
     "candidate": {
-      "title": "Odoo × Make-A-Ton 9.0",
+      "title": "Make-A-Ton 9.0 — Odoo × CUSAT Hiring Hackathon",
       "start": "2026-12-19",
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "CUSAT, Kochi",
-      "city": "Kochi",
-      "organizer": "CITTIC, CUSAT and Odoo",
-      "description": "24-hour hiring hackathon focused on building technical solutions; top performers may be considered for hiring at Odoo.",
-      "categoryHint": "startup/hackathon",
+      "venue": "Cochin University of Science and Technology, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, with Odoo",
+      "description": "Technology hackathon focused on innovation, prototypes, internships and startup ideas.",
+      "categoryHint": "technology / startup / hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.94
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-21"
+    "discoveredAt": "2026-11-26"
   },
   {
     "candidate": {
@@ -281,23 +261,23 @@
   },
   {
     "candidate": {
-      "title": "IEEE Smart Village South Asia Symposium 2027",
+      "title": "ISV Symposium 2027",
       "start": "2027-02-23",
       "end": "2027-02-24",
       "startTime": null,
       "endTime": null,
       "venue": "Kochi, Kerala",
       "city": "Kochi, Kerala",
-      "organizer": "IEEE Smart Village South Asia Regional Committee",
-      "description": "Symposium on technology-enabled development, enterprise-led development, energy access and sustainable livelihoods.",
-      "categoryHint": "technology / innovation",
+      "organizer": "ISV Symposium organizers",
+      "description": "Symposium on community-centered pathways, technology access and enterprise-led development.",
+      "categoryHint": "technology / enterprise innovation",
       "evidenceUrl": "https://isvsymposium.org/",
-      "registrationUrl": "https://isvsymposium.org/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.86
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-22"
+    "discoveredAt": "2026-11-26"
   },
   {
     "candidate": {
@@ -364,20 +344,20 @@
       "title": "Hack For Tomorrow 2026",
       "start": "2027-01-02",
       "end": "2027-01-03",
-      "startTime": "10:00",
+      "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Kochi",
+      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
       "city": "Kochi",
-      "organizer": "Excel 2026, Government Model Engineering College Kochi",
-      "description": "24-hour offline hackathon for teams building technical solutions to real-world problems, themed around cognition in an AI-first world.",
-      "categoryHint": "hackathon / AI / innovation",
+      "organizer": "Government Model Engineering College, organizers of Excel 2026",
+      "description": "Flagship 24-hour college hackathon. Registration is free through Devfolio; teams of 2–4 members register for a selection process, with shortlisted teams attending the on-campus hackathon.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-25"
+    "discoveredAt": "2026-11-26"
   },
   {
     "candidate": {
@@ -521,26 +501,6 @@
   },
   {
     "candidate": {
-      "title": "KGDTIS 2026",
-      "start": "2026-11-24",
-      "end": "2026-11-25",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Adlux International Convention & Exhibition Centre, Angamaly",
-      "city": "Greater Kochi / Angamaly",
-      "organizer": "Bluecloude Events",
-      "description": "Technology and enterprise summit with a tech and enterprise expo, startup and innovation expo, pitch arena, investor meetings and GCC–Kerala Investment Forum.",
-      "categoryHint": "technology summit / startup conference",
-      "evidenceUrl": "https://events.bluecloude.com/register",
-      "registrationUrl": "https://events.bluecloude.com/register",
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-10-28"
-  },
-  {
-    "candidate": {
       "title": "KREEPA Green Power Expo 2026",
       "start": "2026-11-26",
       "end": "2026-11-28",
@@ -638,26 +598,6 @@
     },
     "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-10-30"
-  },
-  {
-    "candidate": {
-      "title": "Kerala Global Digital Transformation & Investment Summit 2026",
-      "start": "2026-11-24",
-      "end": "2026-11-25",
-      "startTime": null,
-      "endTime": null,
-      "venue": "Adlux International Convention Centre",
-      "city": "Angamaly, Ernakulam, Kerala",
-      "organizer": "Blue Cloud",
-      "description": "Summit bringing together government, enterprises, startups and investors around digital transformation and investment.",
-      "categoryHint": "Digital transformation; startups; technology; investment",
-      "evidenceUrl": "https://bluecloude.com/events",
-      "registrationUrl": null,
-      "sourceKind": "official_event_page",
-      "confidence": 0.96
-    },
-    "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-02"
   },
   {
     "candidate": {
