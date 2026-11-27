@@ -403,21 +403,21 @@
     "candidate": {
       "title": "Kerala Databricks Community Meetup",
       "start": "2026-12-12",
-      "end": null,
+      "end": "2026-12-12",
       "startTime": "10:00",
       "endTime": null,
       "venue": "Trans Asia Cyber Park, Infopark & SmartCity",
-      "city": "Kakkanad, Kochi, Kerala",
+      "city": "Kakkanad, Kochi",
       "organizer": "Kerala Databricks Community",
-      "description": "Public technology meetup listed for 12 December 2026 at Trans Asia Cyber Park.",
-      "categoryHint": "data / cloud / developer meetup",
+      "description": "A public technology community meetup focused on Databricks and related data technologies.",
+      "categoryHint": "data / cloud technology meetup",
       "evidenceUrl": "https://kochi2go.in/events/tech",
       "registrationUrl": null,
       "sourceKind": "news_listing",
-      "confidence": 0.74
+      "confidence": 0.62
     },
     "reason": "Search confidence is below the auto-publish threshold.",
-    "discoveredAt": "2026-11-20"
+    "discoveredAt": "2026-11-28"
   },
   {
     "candidate": {
@@ -743,21 +743,21 @@
     "candidate": {
       "title": "DevFest Kochi 26",
       "start": "2026-12-06",
-      "end": null,
+      "end": "2026-12-06",
       "startTime": "09:30",
       "endTime": "17:00",
       "venue": "Jain University Kochi, Infopark",
-      "city": "Kochi, Kerala",
+      "city": "Kochi",
       "organizer": "GDG Cochin",
-      "description": "Full-day developer conference covering AI, Gemini, Google Cloud, Firebase, Flutter, Android, web and agentic development, with talks and hands-on workshops.",
-      "categoryHint": "GDG / developer conference / Google Cloud / AI",
+      "description": "Developer conference covering AI, Gemini, Google AI Studio, Google Cloud, Firebase, Flutter, Android, web and agentic development.",
+      "categoryHint": "GDG / developer conference",
       "evidenceUrl": "https://gdg.community.dev/events/details/google-gdg-cochin-presents-devfest-kochi-26/",
       "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-25"
+    "discoveredAt": "2026-11-28"
   },
   {
     "candidate": {
@@ -1138,5 +1138,105 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-11-27"
+  },
+  {
+    "candidate": {
+      "title": "COGNICRAFT 2026",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "startTime": "10:00",
+      "endTime": null,
+      "venue": "RSET and Kochi Water Metro",
+      "city": "Kochi",
+      "organizer": "Not stated on the available evidence page",
+      "description": "A public innovation event focused on cognitive assistive technology.",
+      "categoryHint": "AI / innovation / creative technology",
+      "evidenceUrl": "https://eventnews.in/cities/kochi/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.67
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-28"
+  },
+  {
+    "candidate": {
+      "title": "9th CXOs Leadership Conclave – Kochi",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Novotel Kochi Infopark",
+      "city": "Kakkanad, Kochi",
+      "organizer": "TaxBuddy",
+      "description": "A public leadership conclave listed as a technology/business event in Kochi.",
+      "categoryHint": "startup / technology leadership",
+      "evidenceUrl": "https://techsnap.in/events/city/kochi/free-events",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.61
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-28"
+  },
+  {
+    "candidate": {
+      "title": "Grafana and Friends Kerala — The Agentic Era of Observability",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "startTime": "09:30",
+      "endTime": "13:30",
+      "venue": "Saints & Masters, Caspian TechPark, Infopark Phase 2, Kakkanad",
+      "city": "Kochi, Kerala",
+      "organizer": "Saints & Masters, Grafana and Friends Kerala, and AWS User Group Kochi",
+      "description": "A technology meetup covering observability, AI security, threat intelligence, monitoring, and log summarization.",
+      "categoryHint": "technology / developer meetup",
+      "evidenceUrl": "https://in.linkedin.com/company/saintsandmasters/",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.96
+    },
+    "reason": "Official page could not be fetched: Error: HTTP 403",
+    "discoveredAt": "2026-11-28"
+  },
+  {
+    "candidate": {
+      "title": "Kerala Energy Conclave 2.0 — Future Beyond Cooling",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "startTime": "16:00",
+      "endTime": "21:00",
+      "venue": "Taj Vivanta, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "ISHRAE Kochi Chapter",
+      "description": "A technology and sustainability conclave covering energy efficiency, sustainable cooling technologies, and environmental responsibility.",
+      "categoryHint": "technology / sustainability",
+      "evidenceUrl": "https://in.linkedin.com/in/vishnu-r-40509099",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.83
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
+    "discoveredAt": "2026-11-28"
+  },
+  {
+    "candidate": {
+      "title": "ELECRAMA 2027 Ideathon Demo Day",
+      "start": "2026-12-17",
+      "end": "2026-12-17",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Maker Hub, Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "Indian Electrical & Electronics Manufacturers’ Association (IEEMA)",
+      "description": "Demo Day for market-ready startups addressing power-sector challenges, with an opportunity to showcase at ELECRAMA 2027.",
+      "categoryHint": "startup / innovation / maker",
+      "evidenceUrl": "https://www.linkedin.com/in/seetharaman-kalia-murthy-171661a",
+      "registrationUrl": null,
+      "sourceKind": "organizer_page",
+      "confidence": 0.87
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-28"
   }
 ]
