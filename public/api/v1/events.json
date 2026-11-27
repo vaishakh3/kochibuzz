@@ -463,68 +463,12 @@
       "firstSeenAt": "2026-11-25"
     },
     {
-      "id": "tinkerhub-events-r7xuxhej2y",
-      "title": "Introduction to 3D printing",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "startTime": "10:00",
-      "endTime": "13:00",
-      "category": "webdev",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "A hands-on introduction to 3D printing. Learn how a 3D printer works, how to find and prepare a model, and print your first object at TinkerSpace. No experience needed - bring a laptop if you have one. Free and open to all. Apply on the TinkerHub app.",
-      "tags": [
-        "TinkerHub",
-        "Learning Program",
-        "App Development"
-      ],
-      "url": "https://tinkerhub.org/events/R7XUXHEJ2Y/introduction-to-3d-printing",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/R7XUXHEJ2Y/introduction-to-3d-printing"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-23"
-    },
-    {
-      "id": "tinkerhub-events-xlmnt169un",
-      "title": "Useless bots : buildathon",
-      "start": "2026-11-28",
-      "end": "2026-11-29",
-      "startTime": "13:00",
-      "endTime": "07:00",
-      "category": "hackathon",
-      "venue": "TinkerSpace, Kalamassery",
-      "city": "Kochi",
-      "organizer": "TinkerHub Foundation",
-      "blurb": "BUILDATHON: USELESS BOTS IEEE RAS CUSAT SBC, in collaboration with TinkerHub, presents Buildathon, an overnight beginner-friendly building hackathon centred around the theme Useless Bots. Unlike traditional hackathons that focus on solving practical problems, Buildathon encourage",
-      "tags": [
-        "TinkerHub",
-        "Hackathon",
-        "Product Design"
-      ],
-      "url": "https://tinkerhub.org/events/XLMNT169UN/useless-bots-buildathon",
-      "registerUrl": "https://luma.com/ugpnkdir",
-      "sourceUrls": [
-        "https://app-api.tinkerhub.org/v1/public/event/all",
-        "https://tinkerhub.org/events/XLMNT169UN/useless-bots-buildathon",
-        "https://luma.com/ugpnkdir"
-      ],
-      "sourceIds": [
-        "tinkerhub-events"
-      ],
-      "firstSeenAt": "2026-11-03"
-    },
-    {
       "id": "tinkerhub-events-z92pvv3g34",
       "title": "Carnival Mood",
       "start": "2026-11-28",
       "end": "2026-11-28",
-      "startTime": "19:00",
-      "endTime": "20:00",
+      "startTime": "17:30",
+      "endTime": "18:30",
       "category": "webdev",
       "venue": "TinkerSpace, Kalamassery",
       "city": "Kochi",

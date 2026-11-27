@@ -121,7 +121,7 @@
     "firstSeenAt": "2026-11-24"
   },
   {
-    "id": "ksum-tenders-ksum-ktiz-et-hid-c-it-26-01",
+    "id": "ksum-tenders-ksum-ktiz-t-hid-c-it-26-01",
     "title": "Supply HID card to KTIZ office, EKM",
     "type": "other",
     "organization": "Kerala Startup Mission",
@@ -129,11 +129,11 @@
     "deadlineAt": "2026-11-30",
     "locationScope": "kerala",
     "benefit": "Closed Hardcopy",
-    "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/k9N0L75LyVdrMWeIgQO0N8RGCg7n1U4p4nFTgv0P.pdf",
-    "url": "https://startupmission.kerala.gov.in/storage/tenders/k9N0L75LyVdrMWeIgQO0N8RGCg7n1U4p4nFTgv0P.pdf",
+    "applicationUrl": "https://startupmission.kerala.gov.in/storage/tenders/EUS9EeKiQ7xnZeP03SApDRwXTpRN0pxQ2jN6ZeQS.pdf",
+    "url": "https://startupmission.kerala.gov.in/storage/tenders/EUS9EeKiQ7xnZeP03SApDRwXTpRN0pxQ2jN6ZeQS.pdf",
     "sourceUrls": [
       "https://startupmission.kerala.gov.in/api/public/tenders",
-      "https://startupmission.kerala.gov.in/storage/tenders/k9N0L75LyVdrMWeIgQO0N8RGCg7n1U4p4nFTgv0P.pdf"
+      "https://startupmission.kerala.gov.in/storage/tenders/EUS9EeKiQ7xnZeP03SApDRwXTpRN0pxQ2jN6ZeQS.pdf"
     ],
     "sourceIds": [
       "ksum-tenders"
@@ -143,7 +143,7 @@
       "RFP",
       "tender"
     ],
-    "firstSeenAt": "2026-11-19"
+    "firstSeenAt": "2026-11-27"
   },
   {
     "id": "ksum-tenders-ksum-t-gpu-u-2026-27-01",

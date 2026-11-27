@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "decisions": {
     "2026-11-28": {
-      "signature": "a9bcfcba5d371ceb7c807af9bd756ba41cef4bc8940fd3c38633dbce4a272484",
-      "eventId": "tinkerhub-events-xlmnt169un",
-      "reason": "A distinctive beginner-friendly overnight buildathon with hands-on making and broader community value.",
+      "signature": "29d58a7f9f8fb04bddb2003cd506294d6a23398cc525fb3ac745cd3edaab43c5",
+      "eventId": "tinkerhub-events-z92pvv3g34",
+      "reason": "A distinctive Kochi community meetup focused on planning TinkerSpace’s fourth anniversary.",
       "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-26T19:40:35.903Z"
+      "rankedAt": "2026-11-27T12:31:34.296Z"
     }
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "inputTokens": 751,
-    "outputTokens": 58
+    "inputTokens": 453,
+    "outputTokens": 60
   }
 }
