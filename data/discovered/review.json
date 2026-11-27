@@ -206,18 +206,18 @@
       "end": "2026-12-20",
       "startTime": null,
       "endTime": null,
-      "venue": "Cochin University of Science and Technology, Kalamassery",
+      "venue": "Cochin University of Science and Technology (CUSAT), Kalamassery",
       "city": "Kochi, Kerala",
-      "organizer": "Centre for Innovation, Technology Transfer and Industrial Collaboration (CITTIC), CUSAT, with Odoo",
-      "description": "Technology hackathon focused on innovation, prototypes, internships and startup ideas.",
-      "categoryHint": "technology / startup / hackathon",
+      "organizer": "CITTIC, CUSAT, in collaboration with Odoo",
+      "description": "Twenty-four-hour hiring hackathon with a final round at CUSAT. The official page advertises registration information and participation opportunities.",
+      "categoryHint": "startup hackathon",
       "evidenceUrl": "https://www.makeaton.in/",
-      "registrationUrl": null,
+      "registrationUrl": "https://www.makeaton.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-26"
+    "discoveredAt": "2026-11-27"
   },
   {
     "candidate": {
@@ -346,18 +346,18 @@
       "end": "2027-01-03",
       "startTime": null,
       "endTime": null,
-      "venue": "Government Model Engineering College, Thrikkakara, Edappally",
-      "city": "Kochi",
-      "organizer": "Government Model Engineering College, organizers of Excel 2026",
-      "description": "Flagship 24-hour college hackathon. Registration is free through Devfolio; teams of 2–4 members register for a selection process, with shortlisted teams attending the on-campus hackathon.",
-      "categoryHint": "college coding hackathon",
+      "venue": "Government Model Engineering College, Thrikkakara",
+      "city": "Kochi, Kerala",
+      "organizer": "Excel, Government Model Engineering College Kochi",
+      "description": "A 24-hour offline hackathon focused on building technical solutions with mentorship from industry professionals.",
+      "categoryHint": "startup/technology/hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
-      "registrationUrl": null,
+      "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.99
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-26"
+    "discoveredAt": "2026-11-27"
   },
   {
     "candidate": {
@@ -704,20 +704,20 @@
       "title": "Maker Faire Kochi 2027",
       "start": "2027-02-05",
       "end": "2027-02-06",
-      "startTime": "09:00",
+      "startTime": null,
       "endTime": null,
       "venue": "The Grounds @ Chakola Mill",
       "city": "Kochi, Kerala",
       "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
-      "description": "Public maker festival featuring inventions, creative technology, hands-on workshops, live demonstrations and project showcases. Free entry.",
-      "categoryHint": "maker / creative technology festival",
+      "description": "A public festival of invention, creativity and hands-on learning featuring makers, inventors, engineers, students, hobbyists and hardware startups.",
+      "categoryHint": "maker/creative-tech/startup",
       "evidenceUrl": "https://makerfaire.in/",
       "registrationUrl": "https://makerfaire.in/",
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-24"
+    "discoveredAt": "2026-11-27"
   },
   {
     "candidate": {
@@ -1026,18 +1026,18 @@
       "end": "2027-01-07",
       "startTime": null,
       "endTime": null,
-      "venue": "KINFRA International Exhibition Centre, Infopark Express Way, Kakkanad, Ernakulam",
-      "city": "Kakkanad, Ernakulam",
-      "organizer": "Department of Industries & Commerce, Government of Kerala, with MSME-related institutional support",
-      "description": "Technology and manufacturing exhibition covering machinery, industrial technologies, robotics and solutions for micro, small and medium enterprises.",
-      "categoryHint": "industrial technology / manufacturing / innovation",
+      "venue": "KINFRA International Exhibition Centre, Infopark Express Way, Kakkanad",
+      "city": "Ernakulam, Kerala",
+      "organizer": "Department of Industries & Commerce, Government of Kerala",
+      "description": "An exhibition of industrial machinery, robotics, manufacturing solutions and technology sourcing opportunities for micro, small and medium enterprises.",
+      "categoryHint": "technology/maker/startup",
       "evidenceUrl": "https://machineryexpokerala.in/",
-      "registrationUrl": null,
+      "registrationUrl": "https://machineryexpokerala.in/",
       "sourceKind": "official_event_page",
-      "confidence": 0.94
+      "confidence": 0.98
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-25"
+    "discoveredAt": "2026-11-27"
   },
   {
     "candidate": {
@@ -1078,5 +1078,65 @@
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
     "discoveredAt": "2026-11-25"
+  },
+  {
+    "candidate": {
+      "title": "DevFest Kochi 2026",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "startTime": "09:30",
+      "endTime": "17:00",
+      "venue": "Jain University, Infopark Kochi",
+      "city": "Kochi, Kerala",
+      "organizer": "GDG Cochin",
+      "description": "Full-day developer conference covering AI, Flutter, Google Cloud, mobile, web and agentic development, with talks, sessions and hands-on workshops. Public ticket registration is advertised.",
+      "categoryHint": "technology conference",
+      "evidenceUrl": "https://devfestkochi.in/",
+      "registrationUrl": "https://devfestkochi.in/",
+      "sourceKind": "official_event_page",
+      "confidence": 0.98
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-27"
+  },
+  {
+    "candidate": {
+      "title": "COGNICRAFT 2026 / TechX CogniCraft",
+      "start": "2026-12-12",
+      "end": "2026-12-13",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "venue": "Rajagiri School of Engineering & Technology on 12 December; Kochi Water Metro on 13 December",
+      "city": "Kochi, Kerala",
+      "organizer": "RSET IEEE Student Branch, in collaboration with Rajagiri School of Engineering & Technology",
+      "description": "Two-day, approval-based innovation hackathon focused on cognitive assistive technologies for neurodivergent people, with software and physical-device tracks. Registration is free and limited to 100 participants.",
+      "categoryHint": "creative technology hackathon",
+      "evidenceUrl": "https://techxcognicraft.vercel.app/",
+      "registrationUrl": "https://luma.com/opt4pve5",
+      "sourceKind": "official_event_page",
+      "confidence": 0.96
+    },
+    "reason": "This is already covered by an existing calendar event.",
+    "discoveredAt": "2026-11-27"
+  },
+  {
+    "candidate": {
+      "title": "COKPIT 2027 — Global Aviation GCC Leadership Summit",
+      "start": "2027-01-28",
+      "end": "2027-01-29",
+      "startTime": null,
+      "endTime": null,
+      "venue": "Grand Hyatt Kochi Bolgatty, Mulavukad",
+      "city": "Kochi, Kerala",
+      "organizer": "COKPIT 2027",
+      "description": "A technology leadership summit covering aviation technology delivery, AI adoption and global capability centres. The page describes it as invitee-only.",
+      "categoryHint": "technology/business",
+      "evidenceUrl": "https://www.thecokpit.com/",
+      "registrationUrl": null,
+      "sourceKind": "official_event_page",
+      "confidence": 0.97
+    },
+    "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-27"
   }
 ]

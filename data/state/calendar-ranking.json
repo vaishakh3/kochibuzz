@@ -1,20 +1,6 @@
 {
   "schemaVersion": 1,
   "decisions": {
-    "2026-12-06": {
-      "signature": "b7c01c462542eea1ffeef79c53356eb7d888d6ef55322f3a29cc680d0d729bb0",
-      "eventId": "gdg-cochin-events-details-google-gdg-cochin-presents-devfest-kochi-26",
-      "reason": "A confirmed full-day Kochi technology conference with talks and workshops on AI, Cloud, Flutter and web development.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-26T09:36:30.378Z"
-    },
-    "2026-12-12": {
-      "signature": "346096fcabb75ff47e7154113aedd8c8d34e2908109f5c73bbb10e064d4e81c0",
-      "eventId": "web-ieee-cs-syp-techx-cognicraft-2026-81ec498558",
-      "reason": "A free two-day residential hackathon offering a focused assistive-technology project challenge in Kochi.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-26T09:36:30.378Z"
-    },
     "2026-11-28": {
       "signature": "a9bcfcba5d371ceb7c807af9bd756ba41cef4bc8940fd3c38633dbce4a272484",
       "eventId": "tinkerhub-events-xlmnt169un",
