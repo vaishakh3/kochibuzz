@@ -284,7 +284,6 @@
     "infopark-61-26883": "2026-11-19",
     "infopark-95-26873": "2026-11-19",
     "infopark-181-26847": "2026-11-19",
-    "infopark-227-26852": "2026-11-19",
     "infopark-263-26846": "2026-11-19",
     "infopark-378-26849": "2026-11-19",
     "infopark-378-26850": "2026-11-19",
@@ -452,7 +451,6 @@
     "infopark-506-26980": "2026-11-24",
     "dodge-workable-da72cd9e2d": "2026-11-24",
     "infopark-137-26995": "2026-11-24",
-    "infopark-227-26987": "2026-11-24",
     "infopark-480-26992": "2026-11-24",
     "infopark-495-26996": "2026-11-24",
     "infopark-109-26853": "2026-11-24",
@@ -485,7 +483,6 @@
     "infopark-105-20872": "2026-11-26",
     "infopark-105-18916": "2026-11-26",
     "infopark-105-18923": "2026-11-26",
-    "tinkerhub-events-z92pvv3g34": "2026-11-27",
     "infopark-171-26031": "2026-11-27",
     "infopark-360-18748": "2026-11-27",
     "infopark-118-27035": "2026-11-27",
@@ -521,10 +518,6 @@
     "infopark-168-19811": "2026-11-27",
     "infopark-168-15904": "2026-11-27",
     "ksum-tenders-ksum-ktiz-t-hid-c-it-26-01": "2026-11-27",
-    "web-ghc-growth-lab-community-meetup-2026-founder-mental-hea-a0610af044": "2026-11-28",
-    "web-devfest-kochi-2026-639710bb1b": "2026-11-28",
-    "web-ai-meetup-and-networking-72cb0dca62": "2026-11-28",
-    "web-maker-faire-kochi-2027-feffe56107": "2026-11-28",
     "infopark-232-27070": "2026-11-28",
     "infopark-232-27071": "2026-11-28",
     "infopark-41-27065": "2026-11-28",
@@ -536,7 +529,9 @@
     "infopark-312-27046": "2026-11-28",
     "infopark-312-27047": "2026-11-28",
     "infopark-312-27048": "2026-11-28",
-    "infopark-312-27054": "2026-11-28"
+    "infopark-312-27054": "2026-11-28",
+    "infopark-132-27072": "2026-11-28",
+    "infopark-568-27073": "2026-11-28"
   },
   "lastCounts": {
     "infopark-jobs": 467,
@@ -547,12 +542,12 @@
     "reply-lever": 3,
     "ksum-careers": 0,
     "luma-kochi": 3,
-    "codex-community-luma": 264,
+    "codex-community-luma": 260,
     "ksum-events": 0,
     "ksum-tenders": 8,
     "paytm-payments-kochi-lever": 9,
     "gdg-cloud-kochi": 4,
     "gdg-cochin": 5,
-    "tinkerhub-events": 9
+    "tinkerhub-events": 8
   }
 }

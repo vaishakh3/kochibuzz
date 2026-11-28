@@ -1,6 +1,6 @@
 {
-  "lastRunAt": "2026-11-27T22:01:28.293Z",
-  "queryCursor": 5,
+  "lastRunAt": "2026-11-28T13:05:55.098Z",
+  "queryCursor": 7,
   "seenUrls": {
     "https://ethkochi.devfolio.co/": "2026-08-31",
     "https://hackp.kerala.gov.in/schedule": "2026-10-05",
@@ -131,7 +131,7 @@
     "https://inmycity.today/": "2026-10-21",
     "https://devinhacks.in/": "2026-10-24",
     "https://huddleglobal.co.in/technology": "2026-10-21",
-    "https://hft.excelmec.org/": "2026-11-27",
+    "https://hft.excelmec.org/": "2026-11-28",
     "https://tinkerhub.org/tinkerspace": "2026-10-23",
     "https://mybzz.com/business-events/fvsko1": "2026-11-05",
     "https://luma.com/uugxqprx": "2026-10-24",
@@ -199,12 +199,13 @@
     "https://in.linkedin.com/company/saintsandmasters": "2026-11-28",
     "https://in.linkedin.com/company/ghc-growth-lab": "2026-11-28",
     "https://in.linkedin.com/in/vishnu-r-40509099": "2026-11-28",
-    "https://linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-28"
+    "https://linkedin.com/in/seetharaman-kalia-murthy-171661a": "2026-11-28",
+    "https://eventnews.in/tech-events-in-kochi": "2026-11-28"
   },
   "lastUsage": {
     "model": "gpt-5.6-luna",
-    "searchCalls": 5,
-    "inputTokens": 43329,
-    "outputTokens": 1933
+    "searchCalls": 4,
+    "inputTokens": 29059,
+    "outputTokens": 1223
   }
 }

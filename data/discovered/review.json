@@ -348,16 +348,16 @@
       "endTime": null,
       "venue": "Government Model Engineering College, Thrikkakara",
       "city": "Kochi, Kerala",
-      "organizer": "Excel, Government Model Engineering College Kochi",
-      "description": "A 24-hour offline hackathon focused on building technical solutions with mentorship from industry professionals.",
-      "categoryHint": "startup/technology/hackathon",
+      "organizer": "Excel MEC / Government Model Engineering College",
+      "description": "Public 24-hour college hackathon open to students from across India; registration is available through Devfolio.",
+      "categoryHint": "college coding hackathon",
       "evidenceUrl": "https://hft.excelmec.org/",
       "registrationUrl": "https://hft.excelmec.org/",
       "sourceKind": "official_event_page",
-      "confidence": 0.98
+      "confidence": 0.99
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
-    "discoveredAt": "2026-11-27"
+    "discoveredAt": "2026-11-28"
   },
   {
     "candidate": {
@@ -704,20 +704,20 @@
       "title": "Maker Faire Kochi 2027",
       "start": "2027-02-05",
       "end": "2027-02-06",
-      "startTime": null,
+      "startTime": "09:00",
       "endTime": null,
       "venue": "The Grounds @ Chakola Mill",
       "city": "Kochi, Kerala",
       "organizer": "TinkerHub Foundation, MakerGram and Kerala Startup Mission",
-      "description": "A public festival of invention, creativity and hands-on learning featuring makers, inventors, engineers, students, hobbyists and hardware startups.",
-      "categoryHint": "maker/creative-tech/startup",
+      "description": "Free public maker festival featuring invention, creative technology, hands-on learning, workshops and demonstrations.",
+      "categoryHint": "maker / creative-tech festival",
       "evidenceUrl": "https://makerfaire.in/",
-      "registrationUrl": "https://makerfaire.in/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.99
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-27"
+    "discoveredAt": "2026-11-28"
   },
   {
     "candidate": {
@@ -1083,21 +1083,21 @@
     "candidate": {
       "title": "DevFest Kochi 2026",
       "start": "2026-12-06",
-      "end": "2026-12-06",
+      "end": null,
       "startTime": "09:30",
       "endTime": "17:00",
-      "venue": "Jain University, Infopark Kochi",
+      "venue": "Jain Infopark",
       "city": "Kochi, Kerala",
-      "organizer": "GDG Cochin",
-      "description": "Full-day developer conference covering AI, Flutter, Google Cloud, mobile, web and agentic development, with talks, sessions and hands-on workshops. Public ticket registration is advertised.",
-      "categoryHint": "technology conference",
+      "organizer": "Google Developer Groups Cochin",
+      "description": "Community-driven technology conference for developers and AI builders, featuring Google technologies, industry trends, workshops and networking.",
+      "categoryHint": "technology / developer conference / AI",
       "evidenceUrl": "https://devfestkochi.in/",
-      "registrationUrl": "https://devfestkochi.in/",
+      "registrationUrl": null,
       "sourceKind": "official_event_page",
       "confidence": 0.98
     },
     "reason": "This is already covered by an existing calendar event.",
-    "discoveredAt": "2026-11-27"
+    "discoveredAt": "2026-11-28"
   },
   {
     "candidate": {
@@ -1237,6 +1237,26 @@
       "confidence": 0.87
     },
     "reason": "The public page did not independently confirm the title, date and Kochi location.",
+    "discoveredAt": "2026-11-28"
+  },
+  {
+    "candidate": {
+      "title": "Maker Thursday: Prototype Mastery",
+      "start": "2026-12-17",
+      "end": null,
+      "startTime": "19:00",
+      "endTime": "21:00",
+      "venue": "TinkerSpace, Kalamassery",
+      "city": "Kochi, Kerala",
+      "organizer": "Fruitworks Electronics",
+      "description": "Open hardware-prototyping meetup covering microcontrollers, displays, batteries and power, PCB choices, module quality, a live hardware demonstration and Q&A.",
+      "categoryHint": "maker / hardware / prototyping",
+      "evidenceUrl": "https://eventnews.in/tech-events-in-kochi/",
+      "registrationUrl": null,
+      "sourceKind": "news_listing",
+      "confidence": 0.82
+    },
+    "reason": "Search confidence is below the auto-publish threshold.",
     "discoveredAt": "2026-11-28"
   }
 ]

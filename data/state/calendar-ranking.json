@@ -1,35 +1,6 @@
 {
   "schemaVersion": 1,
-  "decisions": {
-    "2026-11-28": {
-      "signature": "29d58a7f9f8fb04bddb2003cd506294d6a23398cc525fb3ac745cd3edaab43c5",
-      "eventId": "tinkerhub-events-z92pvv3g34",
-      "reason": "A distinctive Kochi community meetup focused on planning TinkerSpace’s fourth anniversary.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-27T12:31:34.296Z"
-    },
-    "2026-12-05": {
-      "signature": "5d4336bcb193cab9b9bf959252b1ee399993fc71de5c2ac94720af626da389e3",
-      "eventId": "tinkerhub-events-irwwe08c0t",
-      "reason": "A confirmed public cybersecurity meetup offering topical discussions, networking and community learning.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-27T22:01:39.925Z"
-    },
-    "2026-12-06": {
-      "signature": "b7c01c462542eea1ffeef79c53356eb7d888d6ef55322f3a29cc680d0d729bb0",
-      "eventId": "gdg-cochin-events-details-google-gdg-cochin-presents-devfest-kochi-26",
-      "reason": "A full-day Kochi developer conference with workshops and talks spanning AI, cloud, Flutter and security.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-27T22:01:39.925Z"
-    },
-    "2026-12-12": {
-      "signature": "44bb8f8a3e3e12d1c106129511d7aff64d4818c1ec76bb30bcf8adc4d7c3bd38",
-      "eventId": "tinkerhub-events-cauuxbtzxy",
-      "reason": "A hands-on MLH-powered hackathon providing a substantial build-focused community event.",
-      "model": "gpt-5.6-luna",
-      "rankedAt": "2026-11-27T22:01:39.925Z"
-    }
-  },
+  "decisions": {},
   "lastUsage": {
     "model": "gpt-5.6-luna",
     "inputTokens": 1004,
